@@ -4,7 +4,7 @@
 
 ## 実験の目的と独自ルール
 
-新規設計では、自然言語で与えた仕様からAIが回路とPCBを作る過程を評価する。まずatopile方式を試し、KiCad直接編集方式との比較も残す。既存設計の修正では、人間の設計の指定箇所だけを変更し、それ以外の部品・ネット・配置・配線を保てるかを評価する。両者では、生成できる範囲と既存設計を守れる範囲を分けて測る。
+新規設計では、自然言語で与えた共通仕様からAIが回路とPCBを作る過程を、A-1のatopile + KiCad、A-2のKiCad直接編集、A-3のEasyEDA Proで比較する。既存設計の修正はB-2のKiCad直接編集だけを対象とする。人間が指定した箇所だけを変更し、それ以外の部品・ネット・配置・配線を保てるかを評価する。新規生成と既存設計の保全は、別の評価軸として扱う。
 
 このプロジェクトでは`AGENTS.md`を優先する。既存設計は複製して操作し、人間の編集後に全体を再生成しない。原本と作業コピーは公開Gitから除外する。記録は議論、決定、実作業に分け、ERC/DRCの合格と電気特性・RF/EMC・熱・製造性・実機動作の確認を区別する。発注や外部サービスへの設計送信には明示承認が必要である。
 
@@ -81,3 +81,15 @@ PythonのABI、pcbnewのDLL解決、atopileのWindows向け配布と依存関係
 GitHubの`f3e951f`で、設計手段と検証内容が4ケースに整理された。新規設計はA-1のatopile + KiCad、A-2のKiCad直接編集、A-3のEasyEDA Proを共通仕様で比較する。既存KiCad設計の修正はB-2だけで扱い、atopileやEasyEDAによる再生成を適用しない。
 
 更新された`AGENTS.md`、`setup_plan.md`、議論・決定ログと、追加の`comparison_matrix.md`、`easyeda_setup.md`を確認した。EasyEDA Proの導入・CLI検証は追加計画であり、今回記録したKiCad・atopile・Freeroutingの導入結果には含まれない。A-3用のフォルダと手順書は取り込んだが、EasyEDAのインストールや公式CLI文書の調査は未実施である。
+
+## A-3追加セットアップで確認した前提
+
+前節の未実施項目を受け、2026-11-19にEasyEDA Pro 4.1.105を追加導入した。ブラウザ版にはデスクトップ版のローカルbridgeとセッション機能がない。CodexからはWindowsの実行ファイルを通じてCLIを使う。stdio MCPにも対応し、初期化・ツール列挙・診断呼び出しを実機で確認した。エディタのJavaScript実行は別の検証項目である。
+
+APIの呼出名と引数は、導入版の`--help`と`doc api`を先に確認する。今回の同梱資料はCLIの要件を4.1.70以降としており、Web資料の4.1.60以降という記述と差があった。`DMT_Project.create`もWebの例と一致せず、導入版は`createProject`を提供する。`invoke`の`ok:true`はコードの実行成功を表すため、返却値や保存結果も確かめる必要がある。
+
+`.eprj3`はプロジェクトを複数ファイルに分けて保存する形式で、`.esch2`と`.epcb2`などのテキストをGitで比較できる候補である。`.eprj2`はSQLite形式なので直接書き換えない。これは公式・同梱資料と形式リファレンスで確認した仕様であり、実プロジェクトの生成・保存・再読込はまだ試していない。APIのファイル操作範囲は`APP_PROJECT_DIR`で管理される。A-3の保存先を追加する場合は既定の一覧を保持する。
+
+初回起動には無料のアクティベーションが必要である。認証ファイルの取得には公式サイトへのログインが必要で、ファイルにはアカウント情報が含まれる。公開リポジトリには保存しない。今回の設定ファイルの初期値は`HALF_OFFLINE`だった。これはプロジェクトをローカルに置きつつシステムライブラリをオンラインで使えるモードであり、完全なオフラインを意味しない。部品検索や認証を含む操作は、作業の許可範囲を確認して実施する。
+
+参照: [公式CLI](https://prodocs.easyeda.com/en/api/guide/cli.html)、[AI向けCLI手順](https://prodocs.easyeda.com/storage/texts/api/guide/cli-for-ai.md)、[Extension API](https://prodocs.easyeda.com/en/api/guide/)、[PCB_Document](https://prodocs.easyeda.com/en/api/reference/pro-api.pcb_document.html)、[デスクトップFAQ](https://prodocs.easyeda.com/en/faq/client/)。導入版の`docs/cli-for-ai.md`、`docs/easyeda-format.md`と、CLIが返すAPI・形式仕様も確認した。

@@ -121,3 +121,59 @@ $setupRouterData = Join-Path (Get-Location).Path '.setup-local\freerouting-smoke
 `.setup-local/`にはKiCad・uv・atopileの導入ログ、atopile依存パッケージ一覧、pyzig障害イベントと逆アセンブル結果、KiCad/Pythonの確認ログ、Java版表示、JARエントリとFreerouting起動ログを保存した。公開用には本書へ必要な結果を転記した。
 
 今回の終了範囲はインストールと非設計の起動確認まで。回路・PCB生成、既存設計の編集、ERC/DRC、製造データ生成、発注は実施していない。記録の保存は、追加のユーザー指示に基づく作業完了時のコミット・push方針に従う。
+
+## EasyEDA Proの追加導入（2026-11-19）
+
+EasyEDA Pro 4.1.105を標準配置へ導入した。CLIが表示した完全な版は`4.1.105.0339a6cd`。事前のアンインストール登録、標準配置候補、PATH、実行中プロセスの調査ではStandard版・Pro版とも見つからなかった。
+
+| 項目 | 確認結果 |
+| --- | --- |
+| 製品 | EasyEDA Pro、Windows x64版 |
+| 配置先 | `C:\Program Files\easyeda-pro` |
+| 登録版 | EasyEDA Pro 4.1.105 |
+| インストーラ | Inno Setup、管理者単位の標準配置、終了コード0 |
+| 再起動 | インストールログで不要と確認 |
+| PATH | インストーラがシステムPATHへ配置先を追加。試験では実パスを指定 |
+| データ領域 | WindowsのDocuments配下の`EasyEDA-Pro`。Documentsのリダイレクトに従う |
+| 初期モード | 設定ファイルの`type`は`HALF_OFFLINE`。手動で変更していない |
+| 設計データ | A-3の`projects/`には`.gitkeep`のみ。回路・PCBは作成していない |
+
+取得元は[公式Windows x64インストーラ](https://image.easyeda.com/files/easyeda-pro-windows-x64-4.1.105.exe)。[公式配布ページ](https://easyeda.com/page/download)とwingetの`JLC.EasyEDA.Pro`で版とURLを照合した。SHA256は`9e365c64d495089732e1fe2e28b3370ca5a14bcdd7d9ce583061579e37cfd312`でwinget情報と一致し、Authenticode署名はValidだった。`/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=<ログ>`で実行し、配置先を独自指定していない。
+
+### CLI・MCPの確認結果
+
+| 確認対象 | 結果 |
+| --- | --- |
+| `--help`と各サブコマンドのヘルプ | 終了コード0。導入版の引数を確認 |
+| `doctor` | 起動前は`connected:false`。bridge起動後は`connected:true`、`versionMatch:true` |
+| `doc api` | 環境APIとプロジェクトAPIの一覧・署名を取得。`ok:true` |
+| `doc format` | 198型の仕様を取得。`ok:true` |
+| stdio MCP | initialize、tools/list、help、doctorの呼び出しに成功。試験用MCPプロセスは終了コード0で停止 |
+| MCP提供ツール | `easyeda-pro.help`、`easyeda-pro.discover`、`easyeda-pro.call` |
+| `open --headless true` | 2回とも終了コード3、`BRIDGE_NOT_READY`。20秒後も`command-space-missing` |
+| `activate` | 終了コード0。通常画面を表示し、ユーザーがActivate設定画面と確認 |
+| 空画面の`invoke` | 無変更の`return 1 + 1;`が10秒で`REQUEST_TIMEOUT`。エディタAPIの実行成功は未確認 |
+
+PowerShellで最初にサンドボックス内から実行した`--help`は応答しなかったため、その試験プロセスだけを終了した。通常権限で明示的に標準出力を捕捉すると成功した。サンドボックスと出力捕捉の影響は個別には切り分けていない。導入版のヘルプにも、PowerShellではパイプか`Start-Process -RedirectStandardOutput`を使うよう記載されている。次の形でCLIの結果を取得できる。
+
+```powershell
+$easyExe = 'C:\Program Files\easyeda-pro\easyeda-pro.exe'
+& $easyExe --help | Out-String
+$easyDoctor = & $easyExe doctor | Out-String | ConvertFrom-Json
+if (-not $easyDoctor.ok) { throw ($easyDoctor.error | ConvertTo-Json) }
+$easyDoctor.value
+```
+
+CodexからCLIを直接呼ぶ経路は確認済み。stdio MCPも一時的な検証クライアントから疎通を確認したが、Codexへの常設MCP登録はしていない。HTTP MCPはヘルプで仕様を確認しただけで、待受サービスを公開していない。
+
+### 初回アクティベーションと残る確認
+
+通常画面のセッションタイトルは`Regist`で、ユーザーからもActivate設定画面との回答があった。[公式FAQ](https://prodocs.easyeda.com/en/faq/client/)によれば、初回は公式サイトで無料の認証ファイルを取得し、クライアントへ読み込む。オンライン認証は共通ルールに従ってユーザーへ依頼した。認証コードはログやリポジトリに含めない。
+
+非表示起動時にはアプリのログに`400 Bad Request /[object%20Object]`も記録された。未アクティベーション状態でエディタのコマンド実行環境が初期化されていないことは確認できるが、この400応答の原因や、認証後にも発生するかは未確認。Windows固有の不具合やWSL2の必要性は断定しない。インストール済みアプリのコード、OS機能、ファイアウォールは変更していない。
+
+`.eprj3`の分割ファイル形式と既定値は同梱資料と`DMT_Project.createProject`の仕様で確認した。Webの旧例にある`DMT_Project.create`は導入版では`DOC_QUERY_FAILED`となり、メソッド一覧から正しい名前を確認し直した。実際のプロジェクト保存、双方向同期、ERC/DRC、配置・配線、製造出力は未実施である。
+
+既存の`kicad-cli.exe`、`uv.exe`、`ato.exe`、Java 21の`java.exe`、Freerouting 2.1.0 JARは、EasyEDA導入前後でSHA256が一致した。KiCad CLI 10.0.8、uvのatopile登録0.15.8、Java 21.0.13も再確認した。atopileの既知のCPU命令セット問題は今回修復していない。既存設計と上流スキルに変更はない。
+
+詳細証跡はGit除外の`.setup-local/easyeda/`へ保存した。インストールログ、CLI出力と終了コード、MCP応答、既存ツールの比較結果を含む。データ領域にインストーラが用意したサンプルは、プロジェクトリポジトリへコピーしていない。

@@ -113,3 +113,38 @@
 - リモート更新の取込み: `git fetch origin`で`f3e951f`の先行更新を確認し、ローカル記録のコミット後に`git rebase origin/main`を実行した。5ファイルの追記競合は双方の内容を残して解消し、決定番号をDEC-006/007、pushルールを13へ調整した。
 - 追加方針の確認: A-1/A-2/A-3/B-2の比較方針とEasyEDA用フォルダ・手順書を取り込んだ。前提知識へ追記し、EasyEDAの追加導入は未実施と明記した。
 - 再試行: 初回pushはリモートの追加更新により拒否された。`3e8a32d`のEasyEDA作業指示書と履歴を取得し、再度rebaseした。作業ログの追記競合は双方を保持して解消した。
+
+## 2026-11-19 19:48 JST — EasyEDA Pro追加セットアップの事前確認
+
+- 実施操作: `git pull --ff-only origin main`を実行し、`69df776`で最新と確認した。開始時の作業ツリーに変更はなかった。共通ルール、A-3実行指示、比較表、既存の環境・前提知識・履歴を確認した。pcb-pipelineはA-1用として読み、A-3には適用しない。
+- 環境確認: Windows x64。アンインストール登録、標準配置候補、PATHにEasyEDA Standard/Proは見つからず、関連プロセスもなかった。既存KiCad CLI、uv、ato、Java、Freerouting JARのSHA256をローカルへ記録した。
+- フォルダ: 指定フォルダを点検し、不足していた`01_New_Design/easyeda/exports/`を作成した。exportsと`.setup-local/`がGitから除外されることを確認した。
+- 公式資料: CLI、AI向けCLI手順、Extension API、PCB_Documentを確認した。配布ページはWeb取得で403となったがcurlで取得できた。CLI文書内の旧リリース履歴リンクは404だった。
+- 導入元: 公式ダウンロードページとwingetの`JLC.EasyEDA.Pro`がともに4.1.105を示した。Windows x64版を取得し、SHA256`9e365c64d495089732e1fe2e28b3370ca5a14bcdd7d9ce583061579e37cfd312`がwinget情報と一致した。Authenticode署名はValid、製品名はEasyEDA Proだった。
+- 実行方針: 公式AI向け文書には未導入時にユーザーへインストールを求める記述があるが、今回はユーザーがインストールを明示依頼しているため、その指示を優先した。認証やクラウド同期は行わない。
+- 証跡: `.setup-local/easyeda/`に公式資料、インストーラ、既存ツールのハッシュ、フォルダ確認結果を保存した。
+
+## 2026-11-19 19:49 JST — EasyEDA Proの導入
+
+- 実施操作: 署名・ハッシュ確認済みの4.1.105インストーラを、`Start-Process -Verb RunAs`とInno Setupの`/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=<ログ>`で実行した。
+- 結果: 終了コード0、標準の`C:\Program Files\easyeda-pro`へ配置。ログで成功と再起動不要を確認した。登録はHKLMのWOW6432Node配下にあった。64ビット側の同名キーを直接照会した初回は見つからず、両側を検索して確認した。
+- 確認: システムPATHへの追加、製品登録4.1.105、CLI表示`4.1.105.0339a6cd`を確認した。既存ツールは再インストールしていない。
+- 証跡: `install.log`、`install-exit.txt`、`installed-registration.json`、`help-unsandboxed.txt`。
+
+## 2026-11-19 19:51 JST — CLI・MCP検証と初回起動の切分け
+
+- 実施操作: 各コマンドのヘルプを確認してから`doctor`、`doc api`、`doc format`、`open --headless true`、`session list`を実行し、JSONと終了コードを保存した。stdio MCPは一時クライアントから初期化・tools/list・help・doctorを実行した。
+- 成功: CLIのヘルプ、API一覧と署名、198型の形式仕様を取得した。bridge起動後のdoctorは`connected:true`、`versionMatch:true`。MCPは3ツールを公開し、診断呼び出しも成功した。試験用MCPプロセスは終了コード0で停止した。
+- 問題: サンドボックス内の最初のヘルプ実行が応答せず、そのプロセスだけを終了した。通常権限と標準出力の明示捕捉で成功。非表示エディタの起動は初回・再試行とも`BRIDGE_NOT_READY`、`command-space-missing`となった。ログには`400 Bad Request /[object%20Object]`が残った。
+- 通常画面: `activate`で表示し、ユーザーからActivate設定画面との回答を得た。空画面への`return 1 + 1;`も10秒でタイムアウトした。セッションの存在やdoctorの成功を、エディタAPIの成功とは扱わない。
+- 資料の差: 同梱AI向け資料はCLI要件を4.1.70以降と記載する。Webの旧例の`DMT_Project.create`は`DOC_QUERY_FAILED`となり、導入版の一覧から`createProject`を確認した。プロジェクト作成は実行していない。
+- 次の確認: 公式FAQにある無料アクティベーションをユーザーへ依頼した。オンラインログインはAGENTS.mdルール12に従い、こちらでは実行していない。画面はユーザー操作用に開いている。
+- 既存環境: KiCad CLI、uv、ato、Java、Freerouting JARのハッシュは導入前後で一致。KiCad 10.0.8、atopile登録0.15.8、Java 21.0.13を再確認した。A-3のprojectsには`.gitkeep`しかなく、設計は開始していない。
+
+## 2026-11-19 19:59 JST — 認証前の確認結果を保存
+
+- 変更ファイル: `docs/environment.md`、`docs/knowledge_baseline.md`と作業・議論・決定ログへ追記した。比較対象をA-1/A-2/A-3/B-2として明記し、導入、CLI疎通、エディタ実行、設計試験の状態を分けた。
+- 検証: 記載したPowerShellの`doctor | Out-String | ConvertFrom-Json`を実行して成功した。指定の11フォルダが存在し、インストーラは終了している。上流スキル、既存設計、AGENTS.mdに差分はない。
+- 文章確認: yomiyasuで日本語を点検し、5文書へリンターを実行した。環境文書の指摘は0件。既定ログの箇条書きと、技術的意味のある「正本」は維持した。`git diff --check`は成功した。
+- 保存方針: 認証待ちの時点で実施済みの結果をコミット・pushする。`git fetch origin`で先行変更がないことを確認した。生ログ、インストーラ、認証情報は公開対象に含めない。
+- 残る状態: 無料アクティベーションはユーザー操作待ち。通常画面はその操作用に開いたままとし、認証後のエディタAPI、プロジェクト保存・再読込は未確認。回路・PCB設計、外部への設計送信、WSL2・OS変更は実施していない。
