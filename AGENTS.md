@@ -17,6 +17,8 @@
 11. A-1/A-2/A-3には可能な範囲で同じ仕様を与え、各方式固有の判断・介入・制約を分離して記録する。A-2とB-2ではKiCadを直接扱う。B-2にatopileの再生成スキルを適用しない。
 12. A-3では`docs/easyeda_setup.md`と公式AI向けCLI手順を読む。オンラインログイン、クラウド同期、公開共有、製造発注、外部転送は人間の承認なしに行わない。
 
+13. 作業が完了するごとに、公開可能な変更と作業記録をコミットし、GitHubへpushする。毎回の追加確認は不要。pushの成否を確認し、失敗した場合は未反映の変更と原因を報告する。ルール9の公開制限は引き続き守る。
+
 ## ディレクトリ
 - `01_New_Design/`: **A: 新規設計**。`specs/`は共通仕様、`atopile/`はA-1、`kicad_direct/`はA-2、`easyeda/`はA-3。`$pcb-pipeline`はA-1のみの候補で、スキルは`.agents/skills/pcb-pipeline/SKILL.md`にある。
 - `02_Design_Modification/`: **B-2: KiCad既存設計修正のみ**。`original/`を原本用、`working/`を作業用とし、`reports/`に差分・検証を置く。

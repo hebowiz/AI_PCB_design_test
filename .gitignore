@@ -17,3 +17,6 @@ __pycache__/
 
 # EasyEDA generated export data (design sources .eprj3/.esch2/.epcb2 are not excluded)
 /01_New_Design/easyeda/exports/
+
+# Local setup logs can contain user-specific paths
+/.setup-local/

@@ -37,3 +37,11 @@
 - A-1/A-2/A-3には同じ回路要求仕様を与えて比較する。B-2は修正の適切さと既存設計の保全を評価する。
 - EasyEDA Proの公式CLI/Extension APIとGitで扱いやすいeprj3形式を調査・利用候補とする。実操作は未実施。
 - 公式参照: https://prodocs.easyeda.com/en/api/guide/cli.html
+
+## 2026-11-19 — Windowsでの初期セットアップ結果
+
+- 背景: セットアップ計画に従い、3主ツールと依存ツールを実際に導入した。
+- 確認結果: KiCadとpcbnew、JavaとFreeroutingは起動した。atopile 0.15.8は導入できたが、Windows配布のpyzigがこのCPUで実行できないAVX-512系命令を含み、import時に落ちる。
+- 選択肢: Windowsで同版を再ビルドするか、Linux/WSL2へ実行環境を分ける。KiCad直接編集方式はatopileの起動問題と切り離して検討できる。
+- 懸念: 再ビルドにはツールチェーンと生成物の検証が増える。WSL2はOS構成変更とWindows側KiCadとの連携を伴う。どちらも未検証である。
+- 結論: 今回は調査結果を記録し、設計開始、ソースビルド、OS変更は行わない。詳細はenvironment.mdとDEC-006を参照する。
