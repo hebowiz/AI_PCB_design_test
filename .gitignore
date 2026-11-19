@@ -10,4 +10,7 @@ __pycache__/
 **/*-backups/
 **/*.lck
 **/*.kicad_prl
-# Preserve source CAD files and documented test results
+# Local proprietary or unapproved existing designs: never commit by default
+/02_Design_Modification/original/
+/02_Design_Modification/working/
+# Preserve approved source CAD files and documented test results
