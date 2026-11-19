@@ -1,0 +1,21 @@
+{
+  "score": 95,
+  "is_clean": false,
+  "metrics": {
+    "char_count": 4057,
+    "total_lines": 29,
+    "list_lines": 0,
+    "list_ratio": 0.0,
+    "bold_count": 0,
+    "bold_per_1000": 0.0
+  },
+  "findings": [
+    {
+      "rule": "slop_vocabulary",
+      "line": 55,
+      "severity": "warn",
+      "message": "AI頻出語彙「正本」が含まれています。文脈上必要のない比喩や大げさな装飾であれば、ふだん使う自然な表現に置き換えてください。ただし、文字どおりの意味や必要な文脈を担っている場合は残してかまいません。",
+      "snippet": "`yomiyasu_lint.py --json`で6文書を確認した。READMEの索引を表に整理し、「正本」を具体的な操作の説明へ直した。チェック結果は`yomiyasu_*.json`。板厚、信号名、未検証事項の意味は変更していない。"
+    }
+  ]
+}

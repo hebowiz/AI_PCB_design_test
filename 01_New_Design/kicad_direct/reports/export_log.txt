@@ -1,0 +1,47 @@
+KiCad CLI validation and local review exports; no upload/order.
+kicad-cli sch erc --format json --exit-code-violations -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports/erc_final.json C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_sch
+0 個の違反を検出しました
+DRC レポートを C:/Users/hebow/.codex/worktrees/1e99/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/erc_final.json に保存しました
+Exit code: 0
+kicad-cli pcb drc --format json --schematic-parity --exit-code-violations -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports/drc_final.json C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_pcb
+0 個の違反を検出しました
+0 個の未配線アイテムを検出しました
+0 個の回路図の等価性の問題が見つかりました
+C:/Users/hebow/.codex/worktrees/1e99/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/drc_final.json にDRC レポートを保存
+Exit code: 0
+kicad-cli sch export netlist --format kicadxml -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports/schematic.net.xml C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_sch
+Exit code: 0
+kicad-cli sch export pdf -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports/schematic.pdf C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_sch
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\schematic.pdf' にプロットしました。
+完了.
+Exit code: 0
+kicad-cli sch export svg -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports/schematic/ C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_sch
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\schematic\a2_usb_uart.svg' にプロットしました。
+完了.
+Exit code: 0
+kicad-cli pcb export gerbers --layers F.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,F.Paste,Edge.Cuts --use-drill-file-origin --check-zones -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review/gerbers/ C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_pcb
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-F_Cu.gtl' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-B_Cu.gbl' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-F_Paste.gtp' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-F_Silkscreen.gto' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-B_Silkscreen.gbo' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-F_Mask.gts' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-B_Mask.gbs' にプロットしました。
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\gerbers\a2_usb_uart-Edge_Cuts.gm1' にプロットしました。
+Exit code: 0
+kicad-cli pcb export drill --drill-origin plot --excellon-separate-th --generate-map --map-format pdf --generate-report --report-path C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review/drill_report.txt -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review/drill/ C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_pcb
+ファイル 'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\drill\a2_usb_uart-PTH.drl' を作成しました
+ファイル 'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\drill\a2_usb_uart-NPTH.drl' を作成しました
+ファイル 'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\drill\a2_usb_uart-PTH-drl_map.pdf' を作成しました。
+ファイル 'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\drill\a2_usb_uart-NPTH-drl_map.pdf' を作成しました。
+完了.
+Exit code: 0
+kicad-cli pcb export pos --format csv --units mm --side front --use-drill-file-origin -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review/positions_front.csv C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_pcb
+Wrote position data to 'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\manufacturing_review\positions_front.csv'.
+Exit code: 0
+kicad-cli pcb export pdf --layers F.Cu,B.Cu,F.Silkscreen,B.Silkscreen,F.Fab,Edge.Cuts -o C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports/pcb_layers.pdf C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\a2_usb_uart.kicad_pcb
+'C:\Users\hebow\.codex\worktrees\1e99\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_layers.pdf' にプロットしました。
+完了.
+Exit code: 0
+Subsequent visual review: pcb export pdf --mode-multipage --scale 0 --layers F.Cu,B.Cu,F.Silkscreen,B.Silkscreen,F.Fab,Edge.Cuts -o reports/pcb_layers.pdf a2_usb_uart.kicad_pcb; exit code 0
+Final visual-only schematic field adjustment: sch export pdf/svg/netlist, sch erc, pcb drc --schematic-parity, verify.py; all exit codes 0.

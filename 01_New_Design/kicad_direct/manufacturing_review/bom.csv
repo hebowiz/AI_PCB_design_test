@@ -1,0 +1,59 @@
+﻿Reference,Value,MPN,Footprint,Notes
+U1,FT232HL,FT232HL-REEL,Package_QFP:LQFP-48_7x7mm_P0.5mm,UART mode; EEPROM programming required
+U2,SN74AXC4T245PWR,SN74AXC4T245PWR,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,1DIR=1 (TX/RTS); 2DIR=0 (RX/CTS)
+U3,AP2112K-3.3,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,Fixed bridge supply
+U4,TLV75801PDBV,TLV75801PDBVR,Package_TO_SOT_SMD:SOT-23-5,1.8/2.5/3.3 V; change SW1 only while unpowered
+U5,93LC56B,93LC56B-I/MS,Package_SO:MSOP-8_3x3mm_P0.65mm,16-bit organization
+U6,TPS22919DCK,TPS22919DCKR,Package_TO_SOT_SMD:SOT-363_SC-70-6,USB external power disabled before enumeration / in suspend
+Q1,2N7002,"2N7002P,215",Package_TO_SOT_SMD:SOT-23,Invert PWREN# for load switch and adjustable LDO
+D1,TPD2EUSB30,TPD2EUSB30DRTR,Package_TO_SOT_SMD:Texas_DRT-3,USB ESD
+J1,USB-A PLUG,0480372200,Connector_USB:USB_A_Molex_48037-2200_Horizontal,Vendor recommended 1.6 mm PCB adopted; mechanical fit requires prototype check
+J2,GND TXD RXD 5V,TSM-104-01-T-SH,A2:TSM_104_SH_PROVISIONAL,PROVISIONAL footprint; manufacturer land-pattern confirmation required
+J3,RTS CTS GND VIO,TSM-104-01-T-SV,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left,Generic KiCad land pattern; confirm exact part before fab
+SW1,1V8 / 2V5 / 3V3,PCM13SMTR,Button_Switch_SMD:SW_SP3T_PCM13,"Common pin 3; pos1=1-3, pos2=2-3, pos3=3-4"
+SW2,USB5V OUT,PCM12SMTR,Button_Switch_SMD:SW_SPDT_PCM12,Off/open or on; no external back-feed permitted
+SW3,VIO OUT,PCM12SMTR,Button_Switch_SMD:SW_SPDT_PCM12,Switches header supply only; UART remains enabled
+Y1,12MHz 18pF,ABM8-12.000MHZ-B2-T,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,27 pF loads assume 4.5 pF stray; frequency/start-up requires measurement
+R1,12k,RC0402FR-0712KL,Resistor_SMD:R_0402_1005Metric,
+R2,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,
+R3,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,
+R4,2.2k,RC0402FR-072K2L,Resistor_SMD:R_0402_1005Metric,
+R5,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,
+R6,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,
+R7,22.6k,RC0402FR-0722K6L,Resistor_SMD:R_0402_1005Metric,
+R8,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,
+R9,17.8k,RC0402FR-0717K8L,Resistor_SMD:R_0402_1005Metric,
+R10,8.25k,RC0402FR-078K25L,Resistor_SMD:R_0402_1005Metric,
+R11,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,
+R12,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,
+R13,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,About 0.3 mA red indicator
+R14,4.7k,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,About 0.28 mA green indicator
+R15,4.7k,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,About 0.28 mA green indicator
+R16,100,RC0402FR-07100RL,Resistor_SMD:R_0402_1005Metric,Discharge resistor
+D2,RED,LTST-C190KRKT,LED_SMD:LED_0603_1608Metric,1608M; visual brightness unverified
+D3,GREEN TX,LTST-C190KGKT,LED_SMD:LED_0603_1608Metric,1608M; visual brightness unverified
+D4,GREEN RX,LTST-C190KGKT,LED_SMD:LED_0603_1608Metric,1608M; visual brightness unverified
+C1,1u,CL05A105KA5NQNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C2,2.2u,GRM188R61A225KE34D,Capacitor_SMD:C_0603_1608Metric,Capacitance at DC bias must meet regulator minimum
+C3,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C4,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C5,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C6,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C7,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C8,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C9,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C10,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C11,1u,CL05A105KA5NQNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C12,1u,CL05A105KA5NQNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C13,27p,C1005C0G1H270J050BA,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C14,27p,C1005C0G1H270J050BA,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C15,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C16,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C17,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C18,1u,CL05A105KA5NQNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C19,2.2u,GRM188R61A225KE34D,Capacitor_SMD:C_0603_1608Metric,Capacitance at DC bias must meet regulator minimum
+C20,1u,CL05A105KA5NQNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C21,1u,CL05A105KA5NQNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+C22,100n,CL05B104KO5NNNC,Capacitor_SMD:C_0402_1005Metric,Capacitance at DC bias must meet regulator minimum
+FB1,600R@100MHz,BLM15AG601SN1D,Inductor_SMD:L_0402_1005Metric,Local PHY / PLL filtering
+FB2,600R@100MHz,BLM15AG601SN1D,Inductor_SMD:L_0402_1005Metric,Local PHY / PLL filtering

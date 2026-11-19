@@ -1,0 +1,27 @@
+[
+  {
+    "net": "/VPHY",
+    "visited": 575146,
+    "success": false
+  },
+  {
+    "net": "/USB5V",
+    "visited": 107,
+    "success": true
+  },
+  {
+    "net": "/USB5V",
+    "visited": 744,
+    "success": true
+  },
+  {
+    "net": "/FT_CTS_N",
+    "visited": 573619,
+    "success": false
+  },
+  {
+    "net": "/REF12K",
+    "visited": 240,
+    "success": false
+  }
+]

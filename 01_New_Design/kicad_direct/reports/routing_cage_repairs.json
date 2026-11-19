@@ -1,0 +1,80 @@
+[
+  {
+    "net": "/REF12K",
+    "from": [
+      "U1",
+      "5"
+    ],
+    "to": [
+      "R1",
+      "1"
+    ],
+    "visited": 1319,
+    "success": true
+  },
+  {
+    "net": "/VPHY",
+    "from": [
+      "U1",
+      "3"
+    ],
+    "to": [
+      "FB1",
+      "2"
+    ],
+    "visited": 10372,
+    "success": true
+  },
+  {
+    "net": "/VPHY",
+    "from": [
+      "FB1",
+      "2"
+    ],
+    "to": [
+      "C11",
+      "1"
+    ],
+    "visited": 41,
+    "success": true
+  },
+  {
+    "net": "/VPHY",
+    "from": [
+      "C11",
+      "1"
+    ],
+    "to": [
+      "C9",
+      "1"
+    ],
+    "visited": 211,
+    "success": true
+  },
+  {
+    "net": "/XTAL_IN",
+    "from": [
+      "U1",
+      "1"
+    ],
+    "to": [
+      "Y1",
+      "1"
+    ],
+    "visited": 25708,
+    "success": true
+  },
+  {
+    "net": "/XTAL_IN",
+    "from": [
+      "Y1",
+      "1"
+    ],
+    "to": [
+      "C13",
+      "1"
+    ],
+    "visited": 625,
+    "success": true
+  }
+]

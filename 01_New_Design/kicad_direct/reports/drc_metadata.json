@@ -1,0 +1,2153 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-19T21:45:07",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "パッドのネット(unconnected-(SW1-1V8/open-Pad1))は、回路図(unconnected-(SW1-1V8{slash}open-Pad1))で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW1-1V8/open-Pad1)] - SW1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.27,
+                        "y": 137.0
+                    },
+                    "uuid": "321fca8a-b417-4707-899b-e1c024fe8a09"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(unconnected-(SW2-OFF/open-Pad1))は、回路図(unconnected-(SW2-OFF{slash}open-Pad1))で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(unconnected-(SW3-OFF/open-Pad1))は、回路図(unconnected-(SW3-OFF{slash}open-Pad1))で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW3-OFF/open-Pad1)] - SW3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.27,
+                        "y": 146.75
+                    },
+                    "uuid": "b3b69ed2-0cdf-4b1f-b6e2-7f88f37be29c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.0
+                    },
+                    "uuid": "63446ac3-9016-4a05-a66f-ec95c1e91dfb"
+                },
+                {
+                    "description": "セグメント of SW3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 121.43,
+                        "y": 145.9
+                    },
+                    "uuid": "455b6f33-cf88-465c-ba7c-e2b579d1e31c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.0
+                    },
+                    "uuid": "63446ac3-9016-4a05-a66f-ec95c1e91dfb"
+                },
+                {
+                    "description": "セグメント of SW3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 122.72,
+                        "y": 144.6
+                    },
+                    "uuid": "2b60485d-9511-4ad1-a9f2-22f037463181"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "5b4acd5e-f117-4320-9c38-7b96195bdbfb"
+                },
+                {
+                    "description": "セグメント of J1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 104.89,
+                        "y": 100.29
+                    },
+                    "uuid": "f317b4a3-4051-45d5-b507-0142196d2931"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "5b4acd5e-f117-4320-9c38-7b96195bdbfb"
+                },
+                {
+                    "description": "セグメント of J1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 117.11,
+                        "y": 100.29
+                    },
+                    "uuid": "30cfdf69-4b2d-4c34-8aff-3d8d36bb6f35"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 150.0
+                    },
+                    "uuid": "7f39d559-613d-4b2e-8146-14e04c68fefd"
+                },
+                {
+                    "description": "C14のリファレンスフィールド",
+                    "pos": {
+                        "x": 100.44,
+                        "y": 113.0
+                    },
+                    "uuid": "1cd48ee1-1d89-466f-ba59-039851591d95"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.0
+                    },
+                    "uuid": "63446ac3-9016-4a05-a66f-ec95c1e91dfb"
+                },
+                {
+                    "description": "セグメント of SW1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 121.42,
+                        "y": 134.65
+                    },
+                    "uuid": "be7d283c-f02f-4782-bef5-c6d685a9a348"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.0
+                    },
+                    "uuid": "63446ac3-9016-4a05-a66f-ec95c1e91dfb"
+                },
+                {
+                    "description": "セグメント of SW1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 122.72,
+                        "y": 133.35
+                    },
+                    "uuid": "6353ed71-bd65-4952-9816-788556b28bb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 150.0
+                    },
+                    "uuid": "7f39d559-613d-4b2e-8146-14e04c68fefd"
+                },
+                {
+                    "description": "C13のリファレンスフィールド",
+                    "pos": {
+                        "x": 100.44,
+                        "y": 107.2
+                    },
+                    "uuid": "7b71d90a-63d2-4c2a-8083-05c3119db90d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 150.0
+                    },
+                    "uuid": "7f39d559-613d-4b2e-8146-14e04c68fefd"
+                },
+                {
+                    "description": "セグメント of SW2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 99.28,
+                        "y": 141.9
+                    },
+                    "uuid": "91ba5755-67ba-451e-80df-e05ec36cd59c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 150.0
+                    },
+                    "uuid": "7f39d559-613d-4b2e-8146-14e04c68fefd"
+                },
+                {
+                    "description": "セグメント of SW2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 100.57,
+                        "y": 140.6
+                    },
+                    "uuid": "623231d4-cd04-4d41-a144-7bc3ec82c25e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0711 mm)",
+            "items": [
+                {
+                    "description": "R10のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.13,
+                        "y": 137.0
+                    },
+                    "uuid": "ded647f0-0bbe-407d-84c5-528a5ca0d0b4"
+                },
+                {
+                    "description": "セグメント of R10 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.92,
+                        "y": 137.153641
+                    },
+                    "uuid": "f8c1fdb2-1885-4f75-9e1d-7e8d39eacf60"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R8 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.08,
+                        "y": 137.553641
+                    },
+                    "uuid": "a24390d2-9036-4b62-aff2-157e183d9310"
+                },
+                {
+                    "description": "R10のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.13,
+                        "y": 137.0
+                    },
+                    "uuid": "ded647f0-0bbe-407d-84c5-528a5ca0d0b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0956 mm)",
+            "items": [
+                {
+                    "description": "R9のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.13,
+                        "y": 133.5
+                    },
+                    "uuid": "36bfa75f-b035-4524-9459-a683ab0ee5cc"
+                },
+                {
+                    "description": "SW1のリファレンスフィールド",
+                    "pos": {
+                        "x": 116.5,
+                        "y": 134.0
+                    },
+                    "uuid": "e41c1266-f7d5-432d-84ca-579c5793c9fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0529 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R9 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.92,
+                        "y": 133.653641
+                    },
+                    "uuid": "62f300d4-562b-499d-995f-4a3969ed182e"
+                },
+                {
+                    "description": "SW1のリファレンスフィールド",
+                    "pos": {
+                        "x": 116.5,
+                        "y": 134.0
+                    },
+                    "uuid": "e41c1266-f7d5-432d-84ca-579c5793c9fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R9 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 116.68,
+                        "y": 133.653641
+                    },
+                    "uuid": "8d4c51b5-5041-45fa-8363-0aafb99042f3"
+                },
+                {
+                    "description": "SW1のリファレンスフィールド",
+                    "pos": {
+                        "x": 116.5,
+                        "y": 134.0
+                    },
+                    "uuid": "e41c1266-f7d5-432d-84ca-579c5793c9fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R14 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.12,
+                        "y": 118.153641
+                    },
+                    "uuid": "074dad53-2d76-47f7-9efd-43e6cd9dbb90"
+                },
+                {
+                    "description": "R14のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.33,
+                        "y": 118.0
+                    },
+                    "uuid": "2f529212-4b58-49b9-ba66-d03301852dab"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0524 mm)",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.03,
+                        "y": 118.0
+                    },
+                    "uuid": "118f8836-b5f3-4006-8c50-1f23b8a77b35"
+                },
+                {
+                    "description": "R14のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.33,
+                        "y": 118.0
+                    },
+                    "uuid": "2f529212-4b58-49b9-ba66-d03301852dab"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0107 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R14 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.12,
+                        "y": 118.153641
+                    },
+                    "uuid": "074dad53-2d76-47f7-9efd-43e6cd9dbb90"
+                },
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.03,
+                        "y": 118.0
+                    },
+                    "uuid": "118f8836-b5f3-4006-8c50-1f23b8a77b35"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0319 mm)",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.03,
+                        "y": 118.0
+                    },
+                    "uuid": "118f8836-b5f3-4006-8c50-1f23b8a77b35"
+                },
+                {
+                    "description": "セグメント of R14 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.88,
+                        "y": 118.153641
+                    },
+                    "uuid": "1e9ed527-d236-4462-b034-01f1dc2156bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0743 mm)",
+            "items": [
+                {
+                    "description": "D3のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.07,
+                        "y": 120.5
+                    },
+                    "uuid": "862e139a-dfc0-42ba-9ce2-737c49d139e9"
+                },
+                {
+                    "description": "セグメント of D3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 117.765,
+                        "y": 119.7
+                    },
+                    "uuid": "d9d6130d-236f-413b-ae39-a7d1fe3b454f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0104 mm)",
+            "items": [
+                {
+                    "description": "セグメント of D3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 117.765,
+                        "y": 121.985
+                    },
+                    "uuid": "5184ae9c-3f07-474a-a6b2-c12e3308452f"
+                },
+                {
+                    "description": "Q1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 121.6
+                    },
+                    "uuid": "86cd3254-1dc4-42e5-b3c9-85823b1bcc13"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0988 mm)",
+            "items": [
+                {
+                    "description": "Q1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 121.6
+                    },
+                    "uuid": "86cd3254-1dc4-42e5-b3c9-85823b1bcc13"
+                },
+                {
+                    "description": "セグメント of D3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 117.765,
+                        "y": 119.7
+                    },
+                    "uuid": "d9d6130d-236f-413b-ae39-a7d1fe3b454f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0988 mm)",
+            "items": [
+                {
+                    "description": "セグメント of D3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.235,
+                        "y": 121.985
+                    },
+                    "uuid": "80d26b95-d6fd-4020-ad82-25f3d7186f34"
+                },
+                {
+                    "description": "Q1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 121.6
+                    },
+                    "uuid": "86cd3254-1dc4-42e5-b3c9-85823b1bcc13"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "D4のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.77,
+                        "y": 120.5
+                    },
+                    "uuid": "37ee42db-34b8-4b08-8ba8-9375ea4101dd"
+                },
+                {
+                    "description": "セグメント of D3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.235,
+                        "y": 121.985
+                    },
+                    "uuid": "80d26b95-d6fd-4020-ad82-25f3d7186f34"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0433 mm)",
+            "items": [
+                {
+                    "description": "セグメント of D4 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.465,
+                        "y": 119.7
+                    },
+                    "uuid": "0411c283-d00a-4e73-aa83-91401c34f5f4"
+                },
+                {
+                    "description": "D4のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.77,
+                        "y": 120.5
+                    },
+                    "uuid": "37ee42db-34b8-4b08-8ba8-9375ea4101dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of Q1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.26,
+                        "y": 125.56
+                    },
+                    "uuid": "8baa3c98-5bee-48ae-a9af-6c40b335a84d"
+                },
+                {
+                    "description": "R5のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 125.63
+                    },
+                    "uuid": "c0b6cad7-6549-4824-9c6a-18e3e808da74"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0361 mm)",
+            "items": [
+                {
+                    "description": "セグメント of Q1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 117.74,
+                        "y": 125.56
+                    },
+                    "uuid": "a7c7d87d-927f-4f85-95fe-704a6c5e82de"
+                },
+                {
+                    "description": "R5のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 125.63
+                    },
+                    "uuid": "c0b6cad7-6549-4824-9c6a-18e3e808da74"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0593 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C8 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 113.36,
+                        "y": 123.907836
+                    },
+                    "uuid": "1d173937-c1ef-4937-9f21-b528ca44deeb"
+                },
+                {
+                    "description": "C7のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.04,
+                        "y": 123.8
+                    },
+                    "uuid": "567eaba0-99a3-468d-90db-83ca0d5f7f96"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0522 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C16 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 108.14,
+                        "y": 124.107836
+                    },
+                    "uuid": "a4d55a88-708c-4213-b7d6-77e0bbff6f19"
+                },
+                {
+                    "description": "C16のリファレンスフィールド",
+                    "pos": {
+                        "x": 107.34,
+                        "y": 124.0
+                    },
+                    "uuid": "cf09ee97-7f40-4ddd-8589-f4e885e6a235"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0772 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C19 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 110.55942,
+                        "y": 134.01
+                    },
+                    "uuid": "9c26b848-893b-4a6d-b962-cd462979a688"
+                },
+                {
+                    "description": "U4のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 133.8
+                    },
+                    "uuid": "9fe7fb6f-4c89-4273-bda8-583bc7aa4444"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R8 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 114.32,
+                        "y": 137.553641
+                    },
+                    "uuid": "ba6c6b3e-5d14-4a65-91b0-613d361c2f49"
+                },
+                {
+                    "description": "R10のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.13,
+                        "y": 137.0
+                    },
+                    "uuid": "ded647f0-0bbe-407d-84c5-528a5ca0d0b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0628 mm)",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 131.5
+                    },
+                    "uuid": "23761536-9311-471d-96f8-2a551ae69288"
+                },
+                {
+                    "description": "セグメント of R12 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.12,
+                        "y": 131.653641
+                    },
+                    "uuid": "a54cb728-f8a0-4f19-8ece-d5d298316d24"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of U2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 113.31,
+                        "y": 131.735
+                    },
+                    "uuid": "0be075e0-1b6f-4af4-b4d3-da3fcdad49e9"
+                },
+                {
+                    "description": "C19のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.7,
+                        "y": 132.07
+                    },
+                    "uuid": "c9a392e5-c44f-4d4a-ae68-0c482da6a221"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0074 mm)",
+            "items": [
+                {
+                    "description": "セグメント of U2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 113.31,
+                        "y": 131.735
+                    },
+                    "uuid": "0be075e0-1b6f-4af4-b4d3-da3fcdad49e9"
+                },
+                {
+                    "description": "C18のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 131.44
+                    },
+                    "uuid": "5b5073d4-66fd-4917-923f-8e1893d1175c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0319 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R11 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.12,
+                        "y": 129.153641
+                    },
+                    "uuid": "4bd55b11-1ead-4fb0-868b-1b0e0a6488b5"
+                },
+                {
+                    "description": "R11のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 129.0
+                    },
+                    "uuid": "d3e4e4ce-ff9c-48bb-8e90-b73a5827722b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C17 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.14,
+                        "y": 126.807836
+                    },
+                    "uuid": "3c1be6ed-e8bb-4036-b06f-49e3e6c813b9"
+                },
+                {
+                    "description": "C17のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.34,
+                        "y": 126.7
+                    },
+                    "uuid": "613f3528-ab82-4081-ad42-d285a9b2160b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "J3のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.81,
+                        "y": 142.0
+                    },
+                    "uuid": "7d6d77ba-c247-45d1-bcc8-df163be5112b"
+                },
+                {
+                    "description": "SW2のリファレンスフィールド",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 142.0
+                    },
+                    "uuid": "dd949cbc-7d29-468c-9abd-13e3fefd66dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0555 mm)",
+            "items": [
+                {
+                    "description": "C21のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.34,
+                        "y": 136.5
+                    },
+                    "uuid": "02c4b95b-50f4-49d7-99a1-37e15d138d2c"
+                },
+                {
+                    "description": "セグメント of C21 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 105.14,
+                        "y": 136.607836
+                    },
+                    "uuid": "43fef59b-a656-4cdb-b3da-f566fa33f24c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0762 mm)",
+            "items": [
+                {
+                    "description": "セグメント of J3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 105.81,
+                        "y": 143.38
+                    },
+                    "uuid": "d47ceee0-b99c-4a20-9aa0-b1459a50ff12"
+                },
+                {
+                    "description": "SW2のリファレンスフィールド",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 142.0
+                    },
+                    "uuid": "dd949cbc-7d29-468c-9abd-13e3fefd66dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0933 mm)",
+            "items": [
+                {
+                    "description": "R16のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.83,
+                        "y": 134.0
+                    },
+                    "uuid": "0932fde6-299e-4e52-af07-973460f50a74"
+                },
+                {
+                    "description": "セグメント of R16 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 105.62,
+                        "y": 134.153641
+                    },
+                    "uuid": "bd6f67ca-8e91-4644-9f1c-355ce28b67fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of D2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.265,
+                        "y": 104.2
+                    },
+                    "uuid": "398594e8-810f-49b2-b12c-9bb39267677f"
+                },
+                {
+                    "description": "U3のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 106.1
+                    },
+                    "uuid": "876ba60a-7f8d-4c2b-b93f-cdb04f13c79c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0414 mm)",
+            "items": [
+                {
+                    "description": "セグメント of D2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.265,
+                        "y": 106.485
+                    },
+                    "uuid": "4c44855e-7ff8-439b-a010-06e58eac8f9d"
+                },
+                {
+                    "description": "U3のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 106.1
+                    },
+                    "uuid": "876ba60a-7f8d-4c2b-b93f-cdb04f13c79c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0743 mm)",
+            "items": [
+                {
+                    "description": "セグメント of D2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.265,
+                        "y": 104.2
+                    },
+                    "uuid": "398594e8-810f-49b2-b12c-9bb39267677f"
+                },
+                {
+                    "description": "D2のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.57,
+                        "y": 105.0
+                    },
+                    "uuid": "9fd8b28a-4e31-483d-905b-24f2b1d74b6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.14,
+                        "y": 105.8
+                    },
+                    "uuid": "3bd99c79-a3c2-474c-97dc-622b037d79a4"
+                },
+                {
+                    "description": "セグメント of J1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 115.36,
+                        "y": 105.695
+                    },
+                    "uuid": "d3e513fa-a7db-4f8a-b4b8-c6fbe7793f75"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0608 mm)",
+            "items": [
+                {
+                    "description": "ポリゴン of D1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 110.24,
+                        "y": 107.93
+                    },
+                    "uuid": "c6e0f731-046c-411d-a424-f41188ad2e6e"
+                },
+                {
+                    "description": "FB1のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 107.63
+                    },
+                    "uuid": "ce6e0091-d9e0-4ec2-94a3-b3cbc0be869d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0794 mm)",
+            "items": [
+                {
+                    "description": "C10のリファレンスフィールド",
+                    "pos": {
+                        "x": 112.34,
+                        "y": 109.0
+                    },
+                    "uuid": "48f11480-2577-434a-8bc1-2b7bd9b62ece"
+                },
+                {
+                    "description": "セグメント of C10 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 113.14,
+                        "y": 109.107836
+                    },
+                    "uuid": "974d8de5-14cf-48ed-8a7a-c08056970280"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0407 mm)",
+            "items": [
+                {
+                    "description": "セグメント of U3 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.41,
+                        "y": 110.06
+                    },
+                    "uuid": "88ad7389-d44c-450b-8041-9f152c0affc4"
+                },
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 110.07
+                    },
+                    "uuid": "b6155489-3489-4de5-b386-53664deaef51"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.35942,
+                        "y": 112.01
+                    },
+                    "uuid": "1c85189f-a3e8-4ddb-aa44-6fec2124e3f3"
+                },
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.34,
+                        "y": 112.3
+                    },
+                    "uuid": "b78ae08f-f232-4607-ab01-6dd3a6cff755"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0387 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.35942,
+                        "y": 112.01
+                    },
+                    "uuid": "1c85189f-a3e8-4ddb-aa44-6fec2124e3f3"
+                },
+                {
+                    "description": "C5のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.7,
+                        "y": 111.84
+                    },
+                    "uuid": "6c427fb5-f595-4a2c-830d-0cebe97ea9aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0603 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 118.38,
+                        "y": 115.153641
+                    },
+                    "uuid": "a3523845-ffe7-4030-b57f-1e1bca72c971"
+                },
+                {
+                    "description": "C22のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.84,
+                        "y": 115.0
+                    },
+                    "uuid": "ead2be7a-8c4c-44c9-8fb3-317d8ad6413a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0751 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C22 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.64,
+                        "y": 115.107836
+                    },
+                    "uuid": "31da4039-8e09-481b-80f1-308a6e72e815"
+                },
+                {
+                    "description": "C22のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.84,
+                        "y": 115.0
+                    },
+                    "uuid": "ead2be7a-8c4c-44c9-8fb3-317d8ad6413a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0751 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C12 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 120.14,
+                        "y": 112.407836
+                    },
+                    "uuid": "5e681052-ab2d-4805-896f-5da2087bb9c2"
+                },
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.34,
+                        "y": 112.3
+                    },
+                    "uuid": "b78ae08f-f232-4607-ab01-6dd3a6cff755"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0909 mm)",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.03,
+                        "y": 118.0
+                    },
+                    "uuid": "118f8836-b5f3-4006-8c50-1f23b8a77b35"
+                },
+                {
+                    "description": "セグメント of R15 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 119.82,
+                        "y": 118.153641
+                    },
+                    "uuid": "36c2d897-d919-4dcf-bc41-79db4a47bee0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0502 mm)",
+            "items": [
+                {
+                    "description": "セグメント of J1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 106.64,
+                        "y": 106.175
+                    },
+                    "uuid": "2ff7a1c2-70ba-4bec-ada4-859b18cce06d"
+                },
+                {
+                    "description": "C9のリファレンスフィールド",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 105.84
+                    },
+                    "uuid": "633ee9a0-5d33-4862-ad14-658a10133025"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0668 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C11 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 107.892164,
+                        "y": 107.16
+                    },
+                    "uuid": "07afc35d-397a-4e7f-bf88-a036bfcf79de"
+                },
+                {
+                    "description": "FB1のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 107.63
+                    },
+                    "uuid": "ce6e0091-d9e0-4ec2-94a3-b3cbc0be869d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "C14のリファレンスフィールド",
+                    "pos": {
+                        "x": 100.44,
+                        "y": 113.0
+                    },
+                    "uuid": "1cd48ee1-1d89-466f-ba59-039851591d95"
+                },
+                {
+                    "description": "セグメント of C14 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 101.24,
+                        "y": 113.107836
+                    },
+                    "uuid": "35ec0303-6161-4589-8420-177e4c445ee9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0372 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C13 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 101.24,
+                        "y": 107.307836
+                    },
+                    "uuid": "0c8a7e59-21cb-47c4-b559-557c36d0b6d0"
+                },
+                {
+                    "description": "C13のリファレンスフィールド",
+                    "pos": {
+                        "x": 100.44,
+                        "y": 107.2
+                    },
+                    "uuid": "7b71d90a-63d2-4c2a-8083-05c3119db90d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R10のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.13,
+                        "y": 137.0
+                    },
+                    "uuid": "ded647f0-0bbe-407d-84c5-528a5ca0d0b4"
+                },
+                {
+                    "description": "パッド 2 [/GND] - R8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.7,
+                        "y": 136.89
+                    },
+                    "uuid": "a6f0fa52-bee8-4765-bbc6-c033a0624174"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "SW1のリファレンスフィールド",
+                    "pos": {
+                        "x": 116.5,
+                        "y": 134.0
+                    },
+                    "uuid": "e41c1266-f7d5-432d-84ca-579c5793c9fc"
+                },
+                {
+                    "description": "パッド 1 [/FB] - R9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 134.01
+                    },
+                    "uuid": "e38a0b1a-a108-465a-96ed-b8b3718be0d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D4のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.77,
+                        "y": 120.5
+                    },
+                    "uuid": "37ee42db-34b8-4b08-8ba8-9375ea4101dd"
+                },
+                {
+                    "description": "パッド 2 [/LED_TX_A] - D3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 119.7125
+                    },
+                    "uuid": "22a116f9-ff0d-491f-b0fa-303af9b4c329"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Q1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 121.6
+                    },
+                    "uuid": "86cd3254-1dc4-42e5-b3c9-85823b1bcc13"
+                },
+                {
+                    "description": "パッド 1 [/TXLED_N] - D3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 121.2875
+                    },
+                    "uuid": "34cd99ce-ca7d-480a-a0bd-4a6e6f15727a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R5のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 125.63
+                    },
+                    "uuid": "c0b6cad7-6549-4824-9c6a-18e3e808da74"
+                },
+                {
+                    "description": "パッド 2 [/GND] - Q1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.5625,
+                        "y": 124.95
+                    },
+                    "uuid": "e75fa8bb-9b4b-4ee5-9536-fdfbad9b00a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C16のリファレンスフィールド",
+                    "pos": {
+                        "x": 107.34,
+                        "y": 124.0
+                    },
+                    "uuid": "cf09ee97-7f40-4ddd-8589-f4e885e6a235"
+                },
+                {
+                    "description": "パッド 5 [/GND] - U5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.6125,
+                        "y": 123.975
+                    },
+                    "uuid": "56708d29-06d3-4bf5-9b0c-8e0e113473a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C18のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 131.44
+                    },
+                    "uuid": "5b5073d4-66fd-4917-923f-8e1893d1175c"
+                },
+                {
+                    "description": "パッド 8 [/GND] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 131.275
+                    },
+                    "uuid": "de58e875-c62c-4c66-9764-5a170215ba36"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "U4のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 133.8
+                    },
+                    "uuid": "9fe7fb6f-4c89-4273-bda8-583bc7aa4444"
+                },
+                {
+                    "description": "パッド 1 [/VIO] - C19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.925,
+                        "y": 133.5
+                    },
+                    "uuid": "db5cfebe-09d9-4d8f-b839-1291d6cadab4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "U4のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 133.8
+                    },
+                    "uuid": "9fe7fb6f-4c89-4273-bda8-583bc7aa4444"
+                },
+                {
+                    "description": "パッド 2 [/GND] - C19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 111.475,
+                        "y": 133.5
+                    },
+                    "uuid": "d138ce04-37f7-4a92-ac11-5ce92482fc20"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 131.5
+                    },
+                    "uuid": "23761536-9311-471d-96f8-2a551ae69288"
+                },
+                {
+                    "description": "パッド 9 [/GND] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 131.275
+                    },
+                    "uuid": "18204db8-637c-4c5c-9168-dc93c1d806ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 131.5
+                    },
+                    "uuid": "23761536-9311-471d-96f8-2a551ae69288"
+                },
+                {
+                    "description": "パッド 1 [/VIO] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 132.01
+                    },
+                    "uuid": "6605991e-7caa-4996-9f07-82def9c52779"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R11のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 129.0
+                    },
+                    "uuid": "d3e4e4ce-ff9c-48bb-8e90-b73a5827722b"
+                },
+                {
+                    "description": "パッド 12 [/RTS_N] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 129.325
+                    },
+                    "uuid": "f36a130e-a975-4461-ac59-a3b5d1231220"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R11のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 129.0
+                    },
+                    "uuid": "d3e4e4ce-ff9c-48bb-8e90-b73a5827722b"
+                },
+                {
+                    "description": "パッド 13 [/TXD] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 128.675
+                    },
+                    "uuid": "6e263239-463e-48da-ae96-370884491a92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R11のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.33,
+                        "y": 129.0
+                    },
+                    "uuid": "d3e4e4ce-ff9c-48bb-8e90-b73a5827722b"
+                },
+                {
+                    "description": "パッド 1 [/VIO] - R11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 129.51
+                    },
+                    "uuid": "35aa1aa6-276d-4ac7-b6a8-222ce83318bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C17のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.34,
+                        "y": 126.7
+                    },
+                    "uuid": "613f3528-ab82-4081-ad42-d285a9b2160b"
+                },
+                {
+                    "description": "パッド 16 [/VIO] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 126.725
+                    },
+                    "uuid": "9968534a-9344-43c8-bcdb-d03fd417d448"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R6のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.33,
+                        "y": 126.4
+                    },
+                    "uuid": "a34a14c6-8582-4aa3-b5e1-2c49cdca7baf"
+                },
+                {
+                    "description": "パッド 2 [/PWREN_N] - R5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.71,
+                        "y": 126.8
+                    },
+                    "uuid": "1a964aab-da01-4142-9247-a9caa01496b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C17のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.34,
+                        "y": 126.7
+                    },
+                    "uuid": "613f3528-ab82-4081-ad42-d285a9b2160b"
+                },
+                {
+                    "description": "パッド 2 [/GND] - C17 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 126.22
+                    },
+                    "uuid": "38119f91-305e-4151-8d06-c58d36cd7896"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C21のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.34,
+                        "y": 136.5
+                    },
+                    "uuid": "02c4b95b-50f4-49d7-99a1-37e15d138d2c"
+                },
+                {
+                    "description": "パッド 1 [/USB5V_ENABLED] - C21 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 136.98
+                    },
+                    "uuid": "345b66aa-c789-42c4-a7b4-a5a9e28bc59a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R16のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.83,
+                        "y": 134.0
+                    },
+                    "uuid": "0932fde6-299e-4e52-af07-973460f50a74"
+                },
+                {
+                    "description": "パッド 5 [/QOD] - U6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 104.3375,
+                        "y": 134.0
+                    },
+                    "uuid": "cb4b4ee5-b503-48ae-9f9c-f4278e2bd8f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "U3のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 106.1
+                    },
+                    "uuid": "876ba60a-7f8d-4c2b-b93f-cdb04f13c79c"
+                },
+                {
+                    "description": "パッド 1 [/GND] - D2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 105.7875
+                    },
+                    "uuid": "ddc04c76-d65b-400f-b293-cbd93b652352"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 115.14,
+                        "y": 105.8
+                    },
+                    "uuid": "3bd99c79-a3c2-474c-97dc-622b037d79a4"
+                },
+                {
+                    "description": "パッド 4 [/GND] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 104.75
+                    },
+                    "uuid": "19fc74bd-b159-425e-a2c8-be66e72a764c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D1のリファレンスフィールド",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 106.0
+                    },
+                    "uuid": "47a2e540-4a88-4ea8-85b3-7cc9618938c0"
+                },
+                {
+                    "description": "パッド 2 [/USB_D-] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 104.75
+                    },
+                    "uuid": "0790b439-645e-40f0-8b2e-c44bb8b00891"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C22のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.84,
+                        "y": 115.0
+                    },
+                    "uuid": "ead2be7a-8c4c-44c9-8fb3-317d8ad6413a"
+                },
+                {
+                    "description": "パッド 1 [/+3V3] - R2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 115.51
+                    },
+                    "uuid": "1c046e87-86e2-4bd7-b20b-a745af493952"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C22のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.84,
+                        "y": 115.0
+                    },
+                    "uuid": "ead2be7a-8c4c-44c9-8fb3-317d8ad6413a"
+                },
+                {
+                    "description": "パッド 2 [/RESET_N] - R2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 114.49
+                    },
+                    "uuid": "a46d5345-cc0f-41b9-a332-c92d24f412b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C22のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.84,
+                        "y": 115.0
+                    },
+                    "uuid": "ead2be7a-8c4c-44c9-8fb3-317d8ad6413a"
+                },
+                {
+                    "description": "パッド 1 [/RESET_N] - C22 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 115.48
+                    },
+                    "uuid": "5e20f0a7-6275-4780-961b-35c2d69d2a28"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.34,
+                        "y": 112.3
+                    },
+                    "uuid": "b78ae08f-f232-4607-ab01-6dd3a6cff755"
+                },
+                {
+                    "description": "パッド 2 [/GND] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.275,
+                        "y": 111.5
+                    },
+                    "uuid": "640f9717-8d30-40bc-bd2e-9fb47d4dd8a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.34,
+                        "y": 112.3
+                    },
+                    "uuid": "b78ae08f-f232-4607-ab01-6dd3a6cff755"
+                },
+                {
+                    "description": "パッド 1 [/VPLL] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 112.78
+                    },
+                    "uuid": "e95543ab-4775-40c4-9328-4266d95f3bcd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.03,
+                        "y": 118.0
+                    },
+                    "uuid": "118f8836-b5f3-4006-8c50-1f23b8a77b35"
+                },
+                {
+                    "description": "パッド 2 [/LED_TX_A] - R14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 117.49
+                    },
+                    "uuid": "e03e8bc7-1b86-482a-abaf-e40c018fb0de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.03,
+                        "y": 118.0
+                    },
+                    "uuid": "118f8836-b5f3-4006-8c50-1f23b8a77b35"
+                },
+                {
+                    "description": "パッド 1 [/+3V3] - R14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 118.51
+                    },
+                    "uuid": "dfee3d50-dc78-427e-b6ed-93cd25b07448"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C5のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.7,
+                        "y": 111.84
+                    },
+                    "uuid": "6c427fb5-f595-4a2c-830d-0cebe97ea9aa"
+                },
+                {
+                    "description": "パッド 1 [/+3V3] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.725,
+                        "y": 111.5
+                    },
+                    "uuid": "3a9ddee6-5be9-4d60-90ad-17881b3a6c2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C11のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 105.64
+                    },
+                    "uuid": "8f896d3d-6931-4052-a30a-7a10ef4a51e0"
+                },
+                {
+                    "description": "パッド 1 [/USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 104.75
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R1のリファレンスフィールド",
+                    "pos": {
+                        "x": 105.83,
+                        "y": 110.8
+                    },
+                    "uuid": "af705537-bb47-4d88-bd67-644c071cfb99"
+                },
+                {
+                    "description": "パッド 2 [/GND] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 110.85
+                    },
+                    "uuid": "81d6c12a-0623-40d7-ac62-9faadc8e392f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C13のリファレンスフィールド",
+                    "pos": {
+                        "x": 100.44,
+                        "y": 107.2
+                    },
+                    "uuid": "7b71d90a-63d2-4c2a-8083-05c3119db90d"
+                },
+                {
+                    "description": "パッド 2 [/GND] - C13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 106.72
+                    },
+                    "uuid": "2f978d28-b9eb-4c83-a1cd-8921e520d769"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

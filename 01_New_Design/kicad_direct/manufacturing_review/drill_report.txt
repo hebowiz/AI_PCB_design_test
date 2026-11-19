@@ -1,0 +1,25 @@
+Drill report for a2_usb_uart.kicad_pcb
+Created on 2026-11-19T21:48:17
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'a2_usb_uart-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.250mm  0.0098"  (113 holes))
+    T2  0.700mm  0.0276"  (2 holes)  (with 2 slots)
+
+    Total plated holes count 115
+
+
+Drill file 'a2_usb_uart-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.900mm  0.0354"  (6 holes))
+    T2  1.100mm  0.0433"  (2 holes))
+
+    Total unplated holes count 8

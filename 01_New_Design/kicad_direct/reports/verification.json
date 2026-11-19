@@ -1,0 +1,39 @@
+{
+  "board_mm": [
+    22.0,
+    50.0
+  ],
+  "thickness_mm": 1.6,
+  "copper_layers": 2,
+  "parts": 58,
+  "back_parts": [],
+  "terminal_count": 207,
+  "terminal_net_mismatches": [],
+  "ground_zones": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "usb_track_total_mm": {
+    "/USB_D+": 7.862,
+    "/USB_D-": 7.862
+  },
+  "usb_vias": {
+    "/USB_D+": 2,
+    "/USB_D-": 0
+  },
+  "usb_metric_note": "Total copper lengths include ESD branches; not a verified differential path/skew or impedance result",
+  "header_nets": {
+    "J2": {
+      "1": "/GND",
+      "2": "/TXD",
+      "3": "/RXD",
+      "4": "/USB5V_OUT"
+    },
+    "J3": {
+      "1": "/RTS_N",
+      "2": "/CTS_N",
+      "3": "/GND",
+      "4": "/VIO_OUT"
+    }
+  }
+}
