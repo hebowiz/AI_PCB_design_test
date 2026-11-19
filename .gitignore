@@ -1,0 +1,13 @@
+# Local cache / virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+# Generated design outputs
+**/build/
+**/out/
+**/*-backups/
+**/*.lck
+**/*.kicad_prl
+# Preserve source CAD files and documented test results

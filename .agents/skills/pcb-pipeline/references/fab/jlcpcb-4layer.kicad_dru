@@ -1,0 +1,19 @@
+(version 1)
+# JLCPCB 4 層・外層 1oz の製造能力 (jlcpcb.com/capabilities/pcb-capabilities, 2026-09 時点)。
+# 基板のコピーの隣に <基板名>.kicad_dru として置き、--severity-all で DRC する。
+# 本体の基板には置かない (ネットクラスより緩いので、設計の規則を上書きしてしまう)。
+# 2 層なら線幅・間隔 0.1、ビア穴 0.3 / 径 0.45 に上げる。
+
+(rule "JLC track width" (condition "A.Type == 'track'") (constraint track_width (min 0.09mm)))
+(rule "JLC clearance" (condition "A.Type != 'Zone' && B.Type != 'Zone'") (constraint clearance (min 0.09mm)))
+(rule "JLC SMD pad-pad" (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net") (constraint clearance (min 0.15mm)))
+(rule "JLC via hole" (condition "A.Type == 'Via'") (constraint hole_size (min 0.15mm)) (constraint via_diameter (min 0.25mm)))
+(rule "JLC PTH hole" (condition "A.isPlated() && A.Type == 'Pad'") (constraint hole_size (min 0.15mm) (max 6.3mm)) (constraint annular_width (min 0.15mm)))
+(rule "JLC NPTH hole" (condition "!A.isPlated() && A.Type == 'Pad'") (constraint hole_size (min 0.5mm)))
+(rule "JLC via hole-hole" (condition "A.Type == 'Via' && B.Type == 'Via'") (constraint hole_to_hole (min 0.2mm)))
+(rule "JLC pad hole-hole" (condition "A.Type == 'Pad' || B.Type == 'Pad'") (constraint hole_to_hole (min 0.45mm)))
+(rule "JLC via-track" (condition "A.Type == 'Via' && B.Type == 'Track'") (constraint hole_clearance (min 0.2mm)))
+(rule "JLC PTH-track" (condition "A.Type == 'Pad' && A.isPlated() && B.Type == 'Track'") (constraint hole_clearance (min 0.28mm)))
+(rule "JLC copper-edge" (constraint edge_clearance (min 0.2mm)))
+(rule "JLC silk width" (layer "?.Silkscreen") (constraint text_thickness (min 0.15mm)) (constraint text_height (min 1.0mm)))
+(rule "JLC silk-pad" (layer "?.Silkscreen") (condition "B.Type == 'Pad'") (constraint silk_clearance (min 0.15mm)))
