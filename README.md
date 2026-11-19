@@ -44,6 +44,8 @@ Codexからの利用: `$pcb-pipeline`。
 - `docs/decision_log.md`: 決定と判断理由
 - `docs/work_log.md`: 実施作業・結果・検証証跡
 - `docs/report_outline.md`: 後日レポート化するための章立て
+- [回路図・基板図の横並び比較（ユーザーレビュー前）](docs/initial_3way_review.md)
+- [3方式の統合レポート](docs/design_integration_report.md)
 
 設計結果はERC/DRCだけで妥当と判断せず、部品・回路・RF/EMC・熱・製造性・実機動作を別途確認すること。
 

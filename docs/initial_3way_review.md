@@ -4,7 +4,7 @@
 
 ## 評価範囲
 
-3ブランチの成果物、各方式の`reports/result.md` / `design_review.md`、ERC・DRC・接続検証JSON、BOMや製造データの存在、作業ログを**リモートで確認**した。ここではローカルCADでの再読込や実データの独立DRC・独立CAM・実機試験は行っていない。
+mainに統合済みの3方式の成果物（元の実験ブランチにも保存）、各方式の`reports/result.md` / `design_review.md`、ERC・DRC・接続検証JSON、BOMや製造データの存在、作業ログを**リモートで確認**した。ここではローカルCADでの再読込や実データの独立DRC・独立CAM・実機試験は行っていない。
 
 | 項目 | A-1 atopile+KiCad | A-2 KiCad | A-3 EasyEDA Pro |
 | --- | --- | --- | --- |
@@ -20,6 +20,51 @@
 | 製造承認・実機評価 | なし | なし | なし |
 
 接続照合の件数は各手段で**計数対象が違う**ため、そのまま品質の優劣とはみなさない。ERC/DRCも各CADの規則・設定範囲が異なる。
+
+## 画像で比較する回路図・基板図（人間レビュー前）
+
+**同じUSB-UART要求仕様**から3つのCodexセッションが独立に生成した成果物を、保存済みプレビュー画像で横並び比較する。画像をクリックするとGitHub上の元画像を開ける。実際のCADを再実行して描き直した画像ではない。
+
+### 回路図：全体の見え方
+
+| A-1：atopile + KiCad | A-2：KiCad直接設計 | A-3：EasyEDA Pro |
+| :---: | :---: | :---: |
+| [![A-1 回路図プレビュー](../01_New_Design/atopile/reports/schematic-preview.png)](../01_New_Design/atopile/reports/schematic-preview.png) | [![A-2 回路図プレビュー](../01_New_Design/kicad_direct/reports/schematic_preview.png)](../01_New_Design/kicad_direct/reports/schematic_preview.png) | [![A-3 回路図プレビュー](../01_New_Design/easyeda/reports/A3-schematic.png)](../01_New_Design/easyeda/reports/A3-schematic.png) |
+| [PDF（ベクター図）](../01_New_Design/atopile/reports/schematic.pdf) / [KiCad回路図](../01_New_Design/atopile/board/a1.kicad_sch) | [PDF（ベクター図）](../01_New_Design/kicad_direct/reports/schematic.pdf) / [KiCad回路図](../01_New_Design/kicad_direct/a2_usb_uart.kicad_sch) | [元画像を拡大](../01_New_Design/easyeda/reports/A3-schematic.png) / [EasyEDA工程](../01_New_Design/easyeda/projects/A3-USB-UART/A3-USB-UART.eprj3) |
+
+**図面の読みやすさ（一次観察）**：A-1は独自の矩形シンボルが中心で、部品とピン・ネットの照合には使えるが、機能単位の信号の流れを読み取るには工夫が必要。A-2は一般的な抵抗・コンデンサ・ICのシンボルを使用しており、設計者が回路の機能を追いやすい。A-3はEasyEDA固有の回路図表示であり、クリックして元画像を確認した後に人間が配線ラベル・機能ブロック・可読性を正式判定する。**ここでの評価はプレビューの形式・構成に限り、電気的な正しさを意味しない。**
+
+### PCB：最終配線・配置の見え方
+
+| A-1：atopile + KiCad | A-2：KiCad直接設計 | A-3：EasyEDA Pro |
+| :---: | :---: | :---: |
+| [![A-1 PCBトッププレビュー](../01_New_Design/atopile/reports/board-top.png)](../01_New_Design/atopile/reports/board-top.png) | [![A-2 PCBプレビュー](../01_New_Design/kicad_direct/reports/pcb_preview.png)](../01_New_Design/kicad_direct/reports/pcb_preview.png) | [![A-3 PCBプレビュー](../01_New_Design/easyeda/reports/A3-PCB.png)](../01_New_Design/easyeda/reports/A3-PCB.png) |
+| [表面配線SVG](../01_New_Design/atopile/reports/board-front.svg) / [裏面配線SVG](../01_New_Design/atopile/reports/board-back.svg) | [各層PDF](../01_New_Design/kicad_direct/reports/pcb_layers.pdf) / [KiCad PCB](../01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb) | [実配線プレビュー](../01_New_Design/easyeda/reports/pcb-routed.png) / [EasyEDA PCB](../01_New_Design/easyeda/projects/A3-USB-UART/pcb/PCB1.epcb2) |
+
+**表示条件の注意**：A-1はKiCad系の裸基板トップ画像（銅箔・パッドの表示）、A-2は表裏配線を色分けした独自プレビュー、A-3はEasyEDAエディタ画面のスクリーンショットで、銅箔・配線・ベタの描画条件が異なる。**画像は同一縮尺・同一レイヤー・同一色調ではない**ため、見た目の赤色の量、線の密度、基板画像上の占有率だけで配線品質やGND面の良否を判断しない。拡大確認には各CADファイル、層別PDF/SVGを使用する。
+
+### 図面と対応づけた方式ごとの違い
+
+| 観点 | A-1 atopile + KiCad | A-2 KiCad直接 | A-3 EasyEDA Pro |
+| --- | --- | --- | --- |
+| 回路構成の正本・生成 | `.ato`と部品マニフェストから生成。KiCad回路図は接続照合用として別途作成 | KiCadネイティブ回路図・PCBをPythonで生成・編集 | EasyEDAネイティブ回路図・PCBを公式CLI/APIで編集 |
+| FT232Hパッケージ | FT232HL（LQFP系） | FT232HL（LQFP系） | FT232HQ（QFN系） |
+| 部品数 | 51 | 58 | 53 |
+| 配線の完了方法 | FreeroutingのSES取込み後、Pythonで未接続やGNDを補修 | Python/pcbnewの探索・補修処理 | EasyEDA内蔵ルータの途中候補をAPIで採用し、Python経路計算で補修 |
+| ERC・DRC・未配線 | KiCad ERC/DRC 0、未配線0。ただしatopile型付きERCは未検証 | KiCad ERC/DRC 0、未配線0 | EasyEDA ERC/DRC合格、未配線0 |
+| 回路図のレビュー性 | 矩形シンボル中心、接続表との突合向け | 一般的な回路記号中心 | EasyEDA固有の画面構成、正式レビュー待ち |
+
+**比較上の注意**：A-3のFT232HQはA-1/A-2のFT232HLとパッケージが異なる。基板上の密度、配線本数、ビア数、部品数、設計時間の差はCADツールの能力だけによるものではない。図面を等価な部品条件に揃えて再比較した結果ではない。
+
+### 画像から先に確認したい設計レビュー項目
+
+1. **USB 2.0 High-Speed**：3方式とも90 Ω差動インピーダンス、GND帰路、スキューを未検証。A-1はD−に2ビア、A-2はD+に2ビア、A-3はD+に層変更あり。異層遷移と非対称性を拡大して確認する。
+2. **発振回路**：特にA-1のXOは枝を含め約25.6 mmかつ2ビア。水晶と負荷容量の配置、発振線の寄生・GNDとの結合を確認する。
+3. **実装可能性**：A-1は4か所のvia-in-pad候補、A-2はヘッダの暫定ランド、A-3はQFN露出パッド周辺のビア・ペースト条件。CADのDRC合格だけで判断しない。
+4. **電源・機能**：VIO切替抵抗、IOレベル変換方向、USB電流予算、外部電源出力スイッチ、EEPROM/ACBUS設定を個別のメーカー資料と照合する。
+5. **人間による編集・修正容易性**：回路図の可読性、局所配線変更のしやすさ、AIが生成したスクリプトを再実行したときの破壊的変更リスクを比較する。
+
+**状態：ユーザーレビュー前の資料。** 既存の回路・PCB・製造データや評価JSONを変更せず、保存済み画像を参照して並列表示したもの。ローカルCADによる再DRC・独立Gerber CAM・実機測定・製造発注は実施していない。
 
 ## 3方式に共通する条件と未解決事項
 
@@ -57,4 +102,4 @@
 
 ## 次工程
 
-3方式の各成果物を元ブランチに残したうえで、**独立レビュー用のスナップショットとして**順番にmainへマージするのが妥当。マージは製造承認を意味しない。レビューでCAD図面・配線・部品/電気特性を確認し、必要な修正は別ブランチ・別コミットとして記録する。本ファイル作成時点ではマージを実施していない。
+3方式は2026-11-19に`main`へ統合済みで、元の`experiment/A-1`・`experiment/A-2`・`experiment/A-3`ブランチにも生成直後の成果物が残っている。詳細は[統合レポート](design_integration_report.md)を参照。まず本書の回路図とPCB画像を比較し、CADファイルを開いて重要配線・部品選定・電気特性・実装性を人間がレビューする。修正は生成直後の成果物を保持したうえで別コミットまたは別ブランチに記録する。**本書を追加した時点では人間による設計承認は行っていない。**
