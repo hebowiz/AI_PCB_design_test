@@ -14,3 +14,6 @@ __pycache__/
 /02_Design_Modification/original/
 /02_Design_Modification/working/
 # Preserve approved source CAD files and documented test results
+
+# EasyEDA generated export data (design sources .eprj3/.esch2/.epcb2 are not excluded)
+/01_New_Design/easyeda/exports/

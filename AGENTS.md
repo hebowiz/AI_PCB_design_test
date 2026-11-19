@@ -1,7 +1,7 @@
 # Codex作業ルール — AI基板設計テスト
 
 ## 目的
-このプロジェクトでは (1) AIによるゼロからの回路・PCB設計、(2) 既存KiCad設計の指定箇所だけの修正を比較検証する。結果と意思決定を後の技術レポートに再利用できるようにする。
+**設計手段3種類**（1. atopile + KiCad、2. KiCad、3. EasyEDA Pro）と**内容2種類**（A. 新規設計、B. 既存KiCad設計修正）を検証する。Aは1/2/3すべて、Bは2だけで実施する（合計4ケース：A-1、A-2、A-3、B-2）。結果と意思決定を後の技術レポートに再利用できるようにする。
 
 ## 最優先ルール
 1. 実作業ごとに `docs/work_log.md` に実施操作、変更ファイル、実行コマンド、結果、証跡、未検証事項を追記する。技術的な議論は `docs/discussion_log.md`、判断・理由は `docs/decision_log.md` に記録する。
@@ -14,10 +14,12 @@
 8. `.agents/skills/pcb-pipeline/` は外部MITライセンス作品のコピー。更新時は上流との変更点を記録し、ライセンスを維持する。
 9. リモートリポジトリは公開設定。社内・第三者の回路やネットリスト、設計資産、認証情報を許可なくコミット・公開・外部送信しない。`02_Design_Modification/original/` と `working/` はGit管理しない。
 10. 初回セットアップの順序・実行基準は `docs/setup_plan.md` を参照し、各ステップを記録する。
+11. A-1/A-2/A-3には可能な範囲で同じ仕様を与え、各方式固有の判断・介入・制約を分離して記録する。A-2とB-2ではKiCadを直接扱う。B-2にatopileの再生成スキルを適用しない。
+12. A-3では`docs/easyeda_setup.md`と公式AI向けCLI手順を読む。オンラインログイン、クラウド同期、公開共有、製造発注、外部転送は人間の承認なしに行わない。
 
 ## ディレクトリ
-- `01_New_Design/`: 自然言語からの新規設計。 `$pcb-pipeline` の候補は `.agents/skills/pcb-pipeline/SKILL.md` にある。
-- `02_Design_Modification/`: 既存設計の変更。 `original/` を原本用、`working/` を作業用とし、`reports/` に差分・検証を置く。
+- `01_New_Design/`: **A: 新規設計**。`specs/`は共通仕様、`atopile/`はA-1、`kicad_direct/`はA-2、`easyeda/`はA-3。`$pcb-pipeline`はA-1のみの候補で、スキルは`.agents/skills/pcb-pipeline/SKILL.md`にある。
+- `02_Design_Modification/`: **B-2: KiCad既存設計修正のみ**。`original/`を原本用、`working/`を作業用とし、`reports/`に差分・検証を置く。
 - `docs/`: 議論・判断・作業履歴、最終レポート案。
 
 ## 記録フォーマット

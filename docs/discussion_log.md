@@ -29,3 +29,11 @@
 ## 2026-11-19 — GitHub上の作業場所
 - リモートリポジトリ: https://github.com/hebowiz/AI_PCB_design_test
 - 公開 `pcb-pipeline` スキルをCodex向けのプロジェクト内スキルとして取り込み、再現性のある環境構築の出発点とする。
+
+## 2026-11-19 — 設計手段3種 × 検証内容2種に整理
+- **手段**: (1) atopile + KiCad、(2) KiCad直接編集、(3) EasyEDA Pro。
+- **内容**: (A) 新規設計、(B) KiCadの既存設計修正。
+- **実施組合せ**: A-1、A-2、A-3、B-2の4ケース。Bは2のみで実施する。
+- A-1/A-2/A-3には同じ回路要求仕様を与えて比較する。B-2は修正の適切さと既存設計の保全を評価する。
+- EasyEDA Proの公式CLI/Extension APIとGitで扱いやすいeprj3形式を調査・利用候補とする。実操作は未実施。
+- 公式参照: https://prodocs.easyeda.com/en/api/guide/cli.html

@@ -9,13 +9,13 @@
 
 1. `AGENTS.md`（プロジェクトの最優先作業規則）
 2. `README.md`、`THIRD_PARTY_NOTICES.md`
-3. `docs/discussion_log.md`、`docs/decision_log.md`、`docs/work_log.md`、`docs/report_outline.md`
+3. `docs/discussion_log.md`、`docs/decision_log.md`、`docs/work_log.md`、`docs/report_outline.md`、`docs/comparison_matrix.md`、`docs/easyeda_setup.md`
 4. `.agents/skills/pcb-pipeline/SKILL.md`（スキル本体）
 5. `.agents/skills/pcb-pipeline/examples/Makefile`
 6. `.agents/skills/pcb-pipeline/references/atopile.md`、`pcbnew.md`、`routing.md`、`design-rules.md`、`finish-config.md`、`fab/README.md`
 7. `.agents/skills/pcb-pipeline/scripts/` の処理対象、Pythonモジュール依存、bash依存、CLI入出力を静的に確認する（この段階では実行しない）。
 
-`docs/knowledge_baseline.md` を作成し、少なくとも (a) 2種類の実験の目的・違い、(b) スキルのデータフロー、(c) 各ツールの役割とバージョン、(d) 失敗しやすい条件（再生成・部品差替え・固定配線・DRC限界など）、(e) Windowsでの不明点、(f) 未決定事項 を**自分の言葉で**整理する。
+`docs/knowledge_baseline.md` を作成し、少なくとも (a) 3設計手段、2検証内容、4検証ケースの目的・違い、(b) スキルのデータフロー、(c) 各ツールの役割とバージョン、(d) 失敗しやすい条件（再生成・部品差替え・固定配線・DRC限界など）、(e) Windowsでの不明点、(f) 未決定事項 を**自分の言葉で**整理する。
 設計や修正を勝手に開始しない。元スキルの仕様と今回のプロジェクト独自ルールを区別する。
 
 ## 1. ディレクトリ整備
@@ -38,10 +38,11 @@ AI_PCB_design_test/
 │   └── environment.md              # Codexが新規作成
 ├── 01_New_Design/
 │   ├── specs/                      # 仕様書
-│   ├── atopile/                    # 新規生成・atopile方式
-│   ├── kicad_direct/               # KiCad直接編集方式（将来比較）
+│   ├── atopile/                    # A-1: atopile + KiCad
+│   ├── kicad_direct/               # A-2: KiCad直接生成
+│   ├── easyeda/                    # A-3: EasyEDA Pro
 │   └── reports/                    # ERC/DRC、レビュー、成果記録
-└── 02_Design_Modification/
+└── 02_Design_Modification/        # B-2: KiCad既存設計の修正だけ
     ├── original/                   # 原本保存・Git追跡禁止
     ├── working/                    # 作業コピー・Git追跡禁止
     └── reports/                    # 機密情報を除いた結果のみ
@@ -108,3 +109,8 @@ GitHub公式リリース https://github.com/freerouting/freerouting/releases/tag
 - 必要なフォルダ構成を整え、`git status` で変更一覧を確認する。
 
 **このタスクの対象はセットアップまで。** 回路・PCBの自動生成、既存データの変更、製造発注はまだ行わない。最後に「インストール完了／未完了」「Windowsネイティブで動く範囲」「今後の障害」「ユーザー操作が必要な事項」を簡潔に報告する。
+
+
+## 第3手段：EasyEDA Proのセットアップ（A-3専用）
+
+A-3の追加セットアップは`docs/easyeda_setup.md`を実施すること。既存のKiCad・atopile・FreeroutingのセットアップはA-1/A-2用として維持する。EasyEDAでBを実施しない。環境構築後も設計生成・発注は開始しない。

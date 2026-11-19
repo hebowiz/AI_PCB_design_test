@@ -2,10 +2,32 @@
 
 AIによる回路・基板設計の実地検証プロジェクト（開始: 2026-11-19）。
 
-## 検証テーマ
+## 3つの設計手段 × 2つの検証内容
 
-1. **新規設計** — AIが回路・部品・PCB配置・配線・製造データまで生成する。まず atopile + KiCad + Freerouting のパイプラインを検証し、KiCad直接編集方式も比較する。
-2. **既存設計の修正** — 人間が作成したKiCad回路図・PCBをAIが部分的に編集する。元の設計と変更禁止箇所の保全を重視する。
+**設計手段**
+1. atopile + KiCad（配置・自動配線にFreerouting等を併用）
+2. KiCad単独で回路図・PCBを直接作成・編集
+3. EasyEDA Proで回路図・PCBを直接作成・編集
+
+**検証内容**
+- **A: 新規設計** — 1・2・3すべてで実施。同一の要求仕様を与え、結果と工程を比較する。
+- **B: 既存KiCad設計の修正** — **2のみ**で実施。既存の人間設計を保護しながら変更する。
+
+| 設計手段 | A: 新規設計 | B: 既存KiCad修正 |
+| --- | --- | --- |
+| 1. atopile + KiCad | A-1 | 対象外 |
+| 2. KiCad | A-2 | B-2 |
+| 3. EasyEDA Pro | A-3 | 対象外 |
+
+検証ケースは合計4つ。詳しい評価項目は `docs/comparison_matrix.md`。
+
+## ディレクトリ
+- `01_New_Design/specs/` — A-1/A-2/A-3に共通の要求仕様
+- `01_New_Design/atopile/` — A-1の成果物
+- `01_New_Design/kicad_direct/` — A-2の成果物
+- `01_New_Design/easyeda/` — A-3の成果物
+- `02_Design_Modification/` — B-2だけの作業（KiCad既存設計修正）
+- `docs/` — 議論、決定、作業、ツール環境、評価
 
 ## スキル・出典
 
@@ -29,3 +51,10 @@ Codexからの利用: `$pcb-pipeline`。
 
 - [検討の発端となった記事](https://note.com/energylab/n/nd24d482f28ca)
 - [auto-pcb-skill](https://github.com/nobkat/auto-pcb-skill)
+
+## EasyEDA Proの導入
+
+A-3ではEasyEDA Proのデスクトップ版と公式CLI/Extension APIを使う。導入・確認方法は `docs/easyeda_setup.md`。使用ツールの導入状況と実際の動作検証は別に記録する。
+
+- 公式: https://prodocs.easyeda.com/en/api/guide/cli.html
+- AI向け手順: https://prodocs.easyeda.com/storage/texts/api/guide/cli-for-ai.md
