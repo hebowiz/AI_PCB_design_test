@@ -55,3 +55,13 @@ KiCad CLIは10.0.8、同梱Pythonは3.11.5、`import pcbnew; pcbnew.GetBuildVers
 `yomiyasu_lint.py --json`で6文書を確認した。READMEの索引を表に整理し、「正本」を具体的な操作の説明へ直した。チェック結果は`yomiyasu_*.json`。板厚、信号名、未検証事項の意味は変更していない。
 
 未完了事項はUSB差動特性、J2/J3メーカーランド照合、EEPROM設定、実機通信・電源・熱・発振試験、価格比較、独立CAM検証。詳しくは`result.md`。ERC/DRC合格をこれらの検証完了とは扱わない。
+
+## 2026-11-19 21:57 JST — コミットとpush確認
+
+図面の最終目視確認で、スイッチとESD素子の部品名が枠線に重なる箇所を修正した。シンボルの矩形上端を考慮して文字を配置し直し、PDF/SVG/XMLを再出力した。再実行したERC、回路図との等価性を含むDRC、207端子の比較はすべて通った。
+
+CADと製造出力のSHA256を保存した。Gitの改行変換で検証済みのバイト列が変わらないよう、A-2内の`.gitattributes`で対象ファイルの変換を無効にした。KiCadが出力した改行やSVGの末尾空白は編集せず、生成物の空白検査だけを除外した。自作スクリプトの不要な末尾空行は整理し、`git diff --cached --check`は指摘0件だった。
+
+`git add -- 01_New_Design/kicad_direct`で107ファイルをステージし、対象外パスが0件であることを確認した。設計コミットは`e0a3ba37d96f261560b7b7d320abbb1ba33bd450`。`git push --set-upstream origin HEAD:refs/heads/experiment/A-2`は成功した。
+
+`git ls-remote --heads origin refs/heads/experiment/A-2 refs/heads/main`で、A-2が上記コミットと一致することを確認した。mainは作業開始時と同じ`2cd3d58dd13a327891194056e9fca69de9172ef3`だった。`git status`は未コミット変更なしを返した。この確認記録は後続の記録用コミットに含める。公開した内容はA-2で作成した回路・スクリプト・記録と、ライセンスを維持したKiCadライブラリに限る。
