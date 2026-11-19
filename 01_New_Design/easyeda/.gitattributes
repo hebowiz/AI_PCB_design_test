@@ -1,0 +1,7 @@
+# Preserve native CAD and manufacturer outputs byte-for-byte across checkouts.
+projects/** -text -whitespace
+exports/** -text -whitespace
+reports/*.net -text -whitespace
+reports/*.json -text -whitespace
+*.md text eol=lf
+scripts/** text eol=lf

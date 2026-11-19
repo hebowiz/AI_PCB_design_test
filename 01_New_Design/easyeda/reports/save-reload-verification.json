@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "normalization": {
+    "geometryToleranceMil": 0.00011,
+    "stackupToleranceMil": 0.001,
+    "rotation": "modulo 360",
+    "unsetMaterialProperties": "null and 0 treated as unset",
+    "netlists": "compare all pin/net assignments and keyed part identity; ignore ordering and unrelated metadata"
+  },
+  "checks": {
+    "components": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "af7f9535660af374333650c611fd0965aa74957c0763498d7157232a4f0bdcad",
+      "afterSha256": "af7f9535660af374333650c611fd0965aa74957c0763498d7157232a4f0bdcad",
+      "differences": []
+    },
+    "lines": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "bb8bb9703aeb091aca7ce5db3b18e532e1c8d1dad07b4597ec1f08a98c6ab4ab",
+      "afterSha256": "bb8bb9703aeb091aca7ce5db3b18e532e1c8d1dad07b4597ec1f08a98c6ab4ab",
+      "differences": []
+    },
+    "vias": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "43dc12d14e9e814920897eb17bc8326c0c22b60011609e1d7c0dbeac79baff52",
+      "afterSha256": "43dc12d14e9e814920897eb17bc8326c0c22b60011609e1d7c0dbeac79baff52",
+      "differences": []
+    },
+    "pours": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "e9111543b41fa4366212a9239c5ea58d03231eb594dccb01efb9741aec8a70ad",
+      "afterSha256": "e9111543b41fa4366212a9239c5ea58d03231eb594dccb01efb9741aec8a70ad",
+      "differences": []
+    },
+    "stackup": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "59efda1021bfd098c1535ae7e433248376d5717c173eda0f7fe4cb6f80db2a1b",
+      "afterSha256": "59efda1021bfd098c1535ae7e433248376d5717c173eda0f7fe4cb6f80db2a1b",
+      "differences": []
+    },
+    "rules": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "a2418e24225846d8f7d95d9ec31a5409a7b3e3744f6d5c8af9094d1e503a23ca",
+      "afterSha256": "a2418e24225846d8f7d95d9ec31a5409a7b3e3744f6d5c8af9094d1e503a23ca",
+      "differences": []
+    },
+    "schNetlist": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "fa668502d58ca9b16fd85a6b4949ccba8158655b1777cf264e9b36a6f5500b69",
+      "afterSha256": "fa668502d58ca9b16fd85a6b4949ccba8158655b1777cf264e9b36a6f5500b69",
+      "differences": []
+    },
+    "pcbNetlist": {
+      "sameWithinDocumentedNormalization": true,
+      "rawIdentical": true,
+      "beforeSha256": "6e6e5c83bc200a466afb587549a39f190374d88ea9eedbdec5257ca2d9339138",
+      "afterSha256": "6e6e5c83bc200a466afb587549a39f190374d88ea9eedbdec5257ca2d9339138",
+      "differences": []
+    }
+  },
+  "ercAfter": true,
+  "drcAfter": true,
+  "ratlinesAfter": 0,
+  "pcbComponents": 53,
+  "allTop": true,
+  "tracks": 936,
+  "vias": 75,
+  "pours": 2
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "gerber",
+    "file": "exports/A3-USB-UART-Gerber.zip",
+    "bytes": 103995,
+    "sha256": "2743E0D65B6C992A1F867D3B555AAD34579823F8A5485DB1081E57A73FE2A1F3"
+  },
+  {
+    "kind": "pick-place",
+    "file": "exports/A3-USB-UART-PickPlace.csv",
+    "bytes": 21438,
+    "sha256": "B9D004234327EF870193F5D610A286C327947D5E6353F0EF46A0E520B4C7188E"
+  },
+  {
+    "kind": "bom",
+    "file": "exports/A3-USB-UART-BOM.csv",
+    "bytes": 4652,
+    "sha256": "EC96B1AA949501E4E6D021F32120BA8F81BC8B694F07F55F1EFF74DD93D94DE3"
+  },
+  {
+    "kind": "pcb-info",
+    "file": "exports/A3-USB-UART-PCB-info.txt",
+    "bytes": 779,
+    "sha256": "5937B424E52C07E69501E493C357D1E60DFD6D07A45C47418822F4111B9CFBE3"
+  },
+  {
+    "kind": "ipc356",
+    "file": "exports/A3-USB-UART.356a",
+    "bytes": 37660,
+    "sha256": "C9401D007A580DB2F4390C605336E6D92DDB5544210A1C229CEDB3289F4E6A49"
+  },
+  {
+    "kind": "netlist",
+    "file": "exports/A3-USB-UART-PCB.net",
+    "bytes": 71622,
+    "sha256": "47FCD563107E243FE32D9D1246E80643E306DBEA91422D8D4262CD7161187597"
+  }
+]

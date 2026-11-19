@@ -1,0 +1,14 @@
+{
+  "bomLines": 27,
+  "bomQuantity": 53,
+  "pickPlaceCount": 53,
+  "allTop": true,
+  "uniqueDesignators": 53,
+  "zipCrcError": null,
+  "requiredLayersPresent": true,
+  "bomEncoding": "utf-16",
+  "pickPlaceEncoding": "utf-16",
+  "delimiter": "tab",
+  "viaDrillHeader": ";TYPE=PLATED\n;Layer: PTH_Through_Via\n;EasyEDA Pro Client v4.1.105, 2026-11-19 22:30:22\n;Gerber Generator version 0.3\nM48\nMETRIC,LZ,0000.00000\n;Hole size 1 = 0.20320 METRIC\nT01C0.20320\n;Hole size 2 = 0.29972 METRIC\nT02C0.29972\n;Hole size 3 = 0.30000 METRIC\nT03C0.30000\n;Hole size 4 = 0.30480 METRIC\nT04C0.30480\n",
+  "passed": true
+}
