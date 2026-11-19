@@ -106,11 +106,11 @@ mainに統合済みの3方式の成果物（元の実験ブランチにも保存
 | A-2 KiCad単独 | 1枚目 | LQFPの主ICが中央上部にあり、下側に複数のICを縦方向に配置。左右の電源スイッチと下部ヘッダが確認できる。 | `5f7c06c947d07d7db7331ecd18261ce3b15844a416ccae62b31cc255c3d3d86f` |
 | A-3 EasyEDA Pro | 3枚目 | USBプラグが上辺から突出し、QFNパッケージの主ICと周辺部品が上部に集中。LEDは右側に並ぶ。 | `7f17191c3d0e8e402d30a5586cd7d4c2fc4d9f7caed2b93bdfe6b03cb78df8f6` |
 
-**保留事項**：画像本体のGitHubへのバイナリアップロードはまだ完了していない。元画像は現在のチャット添付として確認でき、ファイル名を揃えたZIPとして別途提供している。下記のファイルをリポジトリへ配置した後に、本節へ横並びの画像表を追加する。
+3枚の元画像を`docs/assets/3d/`に配置した。画像をクリックすると元画像を開いて拡大表示できる。
 
-- `docs/assets/3d/A1-atopile-kicad-3d.png`
-- `docs/assets/3d/A2-kicad-3d.png`
-- `docs/assets/3d/A3-easyeda-3d.png`
+| A-1：atopile + KiCad | A-2：KiCad単独 | A-3：EasyEDA Pro |
+| :---: | :---: | :---: |
+| [![A-1 atopile + KiCadの3D外観](assets/3d/A1-atopile-kicad-3d.png)](assets/3d/A1-atopile-kicad-3d.png) | [![A-2 KiCad単独の3D外観](assets/3d/A2-kicad-3d.png)](assets/3d/A2-kicad-3d.png) | [![A-3 EasyEDA Proの3D外観](assets/3d/A3-easyeda-3d.png)](assets/3d/A3-easyeda-3d.png) |
 
 ※ 3D描画はCADごとに視点、縮尺、部品モデル、色が異なるため、部品実装性やRF性能を外観だけで優劣判定しない。USB差動配線、水晶周辺、電源帰路、実装寸法は2D設計データとデータシートに基づく確認が必要。
 
