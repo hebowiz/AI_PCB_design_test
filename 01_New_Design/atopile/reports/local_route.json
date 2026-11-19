@@ -1,13 +1,19 @@
-[
-  {
-    "net": "XO",
-    "result": "No path",
-    "visited": 90
-  },
-  {
-    "net": "XO",
-    "result": "Routed",
-    "visited": 1726,
-    "steps": 78
-  }
-]
+{
+  "status": "Final connectivity verified by KiCad DRC; see drc.json",
+  "applied_uart_repairs": [
+    {
+      "net": "FT_TXD",
+      "result": "Routed",
+      "visited": 74348,
+      "steps": 291
+    },
+    {
+      "net": "FT_RXD",
+      "result": "Routed",
+      "visited": 157591,
+      "steps": 643
+    }
+  ],
+  "rejected_crystal_attempt": "crystal_repair_attempt.json",
+  "note": "Crystal repair was reverted. Final board is the DRC-clean saved state."
+}
