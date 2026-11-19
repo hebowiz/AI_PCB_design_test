@@ -1,0 +1,613 @@
+WARNING: Config flag |FBRK_LOG_DIR=<WORKSPACE>\01_New_Design\atopile\.local\ato-logs|
+WARNING: Config flag |FBRK_TELEMETRY=False|
+21:34:14.840  W  …ile.cli.configure  Couldn't install plugin: Could not find KiCad plugin path. If KiCad is installed at a custom location, you may need to add the search path to your config.yaml file.
+21:34:14.854  W  …ile.cli.configure  Couldn't enable plugin api: KeyErrorNotFound()
+21:34:17.005  I  …model.build_queue  BuildQueue: Started
+21:34:17.017  I  …model.build_queue  Build 234e7f56889b01aa: starting worker - build=default, cwd=<WORKSPACE>\01_New_Design\atopile\board
+21:34:17.017  I  …model.build_queue  BuildQueue: Started 234e7f56889b01aa
+══ BUILD START: default [234e7f56889b01aa] ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+WARNING: Config flag |FBRK_LOG_DIR=<WORKSPACE>\01_New_Design\atopile\.local\ato-logs|
+21:34:18.613  I  atopile.config  Creating new layout at <WORKSPACE>\01_New_Design\atopile\board\layouts\default\default.kicad_pcb
+21:34:19.156  I  atopile.buildutil  Build targets config: include=['bom', 'manifest'] exclude=[] env_exclude=None env_include=None
+21:34:19.157  I  atopile.buildutil  Resolved build targets: ['bom', 'default', 'manifest']
+
+21:34:19.282  I  …ject.dependencies  Syncing versions...
+21:34:21.219  I  …bryk.libs.app.erc  Verifying interface connection graph structure
+21:34:21.260  I  …bryk.libs.app.erc  Checking for ERC violations
+21:34:21.274  I  …bryk.libs.app.erc  Checking 0 elements for shorts
+21:34:21.274  I  …bryk.libs.app.erc  Grouped 0 electricals into 0 buses
+21:34:21.275  I  …bryk.libs.app.erc  Checking for power source shorts
+21:34:21.825  W  …ibs.picker.picker  No pickers for A1.aux_header
+21:34:21.826  W  …ibs.picker.picker  No pickers for A1.crystal
+21:34:21.826  W  …ibs.picker.picker  No pickers for A1.cts_pullup
+21:34:21.827  W  …ibs.picker.picker  No pickers for A1.eeprom
+21:34:21.827  W  …ibs.picker.picker  No pickers for A1.eeprom_dec
+21:34:21.828  W  …ibs.picker.picker  No pickers for A1.eeprom_do_pullup
+21:34:21.828  W  …ibs.picker.picker  No pickers for A1.eeprom_do_series
+21:34:21.829  W  …ibs.picker.picker  No pickers for A1.fb_2v5
+21:34:21.829  W  …ibs.picker.picker  No pickers for A1.fb_3v3
+21:34:21.830  W  …ibs.picker.picker  No pickers for A1.fb_bottom
+21:34:21.830  W  …ibs.picker.picker  No pickers for A1.fb_top
+21:34:21.831  W  …ibs.picker.picker  No pickers for A1.ft232h
+21:34:21.832  W  …ibs.picker.picker  No pickers for A1.ft_3v3
+21:34:21.833  W  …ibs.picker.picker  No pickers for A1.ft_bulk
+21:34:21.833  W  …ibs.picker.picker  No pickers for A1.ft_io12
+21:34:21.833  W  …ibs.picker.picker  No pickers for A1.ft_io24
+21:34:21.834  W  …ibs.picker.picker  No pickers for A1.ft_io46
+21:34:21.834  W  …ibs.picker.picker  No pickers for A1.ft_vcca
+21:34:21.835  W  …ibs.picker.picker  No pickers for A1.ft_vcore
+21:34:21.835  W  …ibs.picker.picker  No pickers for A1.ft_vreg
+21:34:21.836  W  …ibs.picker.picker  No pickers for A1.ldo_in
+21:34:21.836  W  …ibs.picker.picker  No pickers for A1.ldo_out
+21:34:21.837  W  …ibs.picker.picker  No pickers for A1.level_a
+21:34:21.837  W  …ibs.picker.picker  No pickers for A1.level_b
+21:34:21.837  W  …ibs.picker.picker  No pickers for A1.oe_pullup
+21:34:21.838  W  …ibs.picker.picker  No pickers for A1.phy_bead
+21:34:21.838  W  …ibs.picker.picker  No pickers for A1.phy_dec
+21:34:21.839  W  …ibs.picker.picker  No pickers for A1.pll_bead
+21:34:21.839  W  …ibs.picker.picker  No pickers for A1.pll_dec
+21:34:21.840  W  …ibs.picker.picker  No pickers for A1.power_led
+21:34:21.840  W  …ibs.picker.picker  No pickers for A1.power_led_res
+21:34:21.841  W  …ibs.picker.picker  No pickers for A1.ref_res
+21:34:21.842  W  …ibs.picker.picker  No pickers for A1.reset_pullup
+21:34:21.842  W  …ibs.picker.picker  No pickers for A1.rx_led
+21:34:21.843  W  …ibs.picker.picker  No pickers for A1.rx_led_res
+21:34:21.843  W  …ibs.picker.picker  No pickers for A1.rx_pullup
+21:34:21.844  W  …ibs.picker.picker  No pickers for A1.translator
+21:34:21.844  W  …ibs.picker.picker  No pickers for A1.tx_led
+21:34:21.845  W  …ibs.picker.picker  No pickers for A1.tx_led_res
+21:34:21.845  W  …ibs.picker.picker  No pickers for A1.uart_header
+21:34:21.846  W  …ibs.picker.picker  No pickers for A1.usb
+21:34:21.847  W  …ibs.picker.picker  No pickers for A1.usb5v_switch
+21:34:21.847  W  …ibs.picker.picker  No pickers for A1.usb_dm_esd
+21:34:21.848  W  …ibs.picker.picker  No pickers for A1.usb_dp_esd
+21:34:21.848  W  …ibs.picker.picker  No pickers for A1.vbus_bead
+21:34:21.848  W  …ibs.picker.picker  No pickers for A1.vbus_in
+21:34:21.849  W  …ibs.picker.picker  No pickers for A1.vio_ldo
+21:34:21.849  W  …ibs.picker.picker  No pickers for A1.vio_switch
+21:34:21.850  W  …ibs.picker.picker  No pickers for A1.voltage_select
+21:34:21.850  W  …ibs.picker.picker  No pickers for A1.x1_load
+21:34:21.851  W  …ibs.picker.picker  No pickers for A1.x2_load
+21:34:21.890  I  …ibs.picker.picker  Picking 0 modules
+21:34:21.890  I  …ibs.picker.picker  pick_parts_recursively took 66.46 ms and used 602.11 KB
+21:34:21.891  I  ….libs.app.picking  Saving part info to PCB
+21:34:21.896  I  ….libs.app.picking  Part info saved to PCB
+21:34:21.897  I  …tation.datasheets  No datasheets to download
+21:34:21.921  I  …opile.build_steps  Preparing nets
+21:34:21.921  I  …s.app.designators  0 prefix designators assigned
+21:34:21.936  I  faebryk.core.node  Grouping bus A1.vio_ldo.7 complete. Elements: 99
+21:34:21.940  I  faebryk.core.node  Grouping bus A1.ft232h.18 complete. Elements: 49
+21:34:21.942  I  faebryk.core.node  Grouping bus A1.translator.13 complete. Elements: 5
+21:34:21.943  I  faebryk.core.node  Grouping bus A1.ft232h.5 complete. Elements: 5
+21:34:21.944  I  faebryk.core.node  Grouping bus A1.ft_bulk.1 complete. Elements: 9
+21:34:21.946  I  faebryk.core.node  Grouping bus A1.rx_led_res.2 complete. Elements: 5
+21:34:21.947  I  faebryk.core.node  Grouping bus A1.ft232h.38 complete. Elements: 5
+21:34:21.948  I  faebryk.core.node  Grouping bus A1.eeprom.4 complete. Elements: 7
+21:34:21.949  I  faebryk.core.node  Grouping bus A1.vio_switch.1 complete. Elements: 17
+21:34:21.951  I  faebryk.core.node  Grouping bus A1.ft232h.25 complete. Elements: 2
+21:34:21.952  I  faebryk.core.node  Grouping bus A1.fb_bottom.1 complete. Elements: 11
+21:34:21.954  I  faebryk.core.node  Grouping bus A1.voltage_select.5 complete. Elements: 2
+21:34:21.954  I  faebryk.core.node  Grouping bus A1.translator.7 complete. Elements: 5
+21:34:21.956  I  faebryk.core.node  Grouping bus A1.ft232h.45 complete. Elements: 5
+21:34:21.957  I  faebryk.core.node  Grouping bus A1.phy_dec.1 complete. Elements: 7
+21:34:21.958  I  faebryk.core.node  Grouping bus A1.ft232h.32 complete. Elements: 2
+21:34:21.959  I  faebryk.core.node  Grouping bus A1.usb5v_switch.1 complete. Elements: 17
+21:34:21.961  I  faebryk.core.node  Grouping bus A1.translator.14 complete. Elements: 9
+21:34:21.962  I  faebryk.core.node  Grouping bus A1.rx_led.1 complete. Elements: 5
+21:34:21.963  I  faebryk.core.node  Grouping bus A1.ft232h.6 complete. Elements: 7
+21:34:21.965  I  faebryk.core.node  Grouping bus A1.ft232h.29 complete. Elements: 2
+21:34:21.966  I  faebryk.core.node  Grouping bus A1.usb_dp_esd.1 complete. Elements: 7
+21:34:21.967  I  faebryk.core.node  Grouping bus A1.cts_pullup.2 complete. Elements: 7
+21:34:21.968  I  faebryk.core.node  Grouping bus A1.translator.11 complete. Elements: 7
+21:34:21.969  I  faebryk.core.node  Grouping bus A1.vio_switch.2 complete. Elements: 5
+21:34:21.970  I  faebryk.core.node  Grouping bus A1.ft232h.26 complete. Elements: 2
+21:34:21.971  I  faebryk.core.node  Grouping bus A1.voltage_select.6 complete. Elements: 2
+21:34:21.972  I  faebryk.core.node  Grouping bus A1.reset_pullup.1 complete. Elements: 5
+21:34:21.973  I  faebryk.core.node  Grouping bus A1.ft232h.13 complete. Elements: 5
+21:34:21.973  I  faebryk.core.node  Grouping bus A1.fb_3v3.2 complete. Elements: 5
+21:34:21.974  I  faebryk.core.node  Grouping bus A1.eeprom.2 complete. Elements: 5
+21:34:21.975  I  faebryk.core.node  Grouping bus A1.tx_led_res.2 complete. Elements: 5
+21:34:21.975  I  faebryk.core.node  Grouping bus A1.crystal.1 complete. Elements: 7
+21:34:21.976  I  faebryk.core.node  Grouping bus A1.ft232h.33 complete. Elements: 2
+21:34:21.977  I  faebryk.core.node  Grouping bus A1.translator.5 complete. Elements: 5
+21:34:21.977  I  faebryk.core.node  Grouping bus A1.power_led.2 complete. Elements: 5
+21:34:21.978  I  faebryk.core.node  Grouping bus A1.uart_header.4 complete. Elements: 5
+21:34:21.979  I  faebryk.core.node  Grouping bus A1.ft_vcca.1 complete. Elements: 5
+21:34:21.979  I  faebryk.core.node  Grouping bus A1.ft232h.43 complete. Elements: 7
+21:34:21.980  I  faebryk.core.node  Grouping bus A1.ft232h.17 complete. Elements: 2
+21:34:21.980  I  faebryk.core.node  Grouping bus A1.translator.12 complete. Elements: 5
+21:34:21.981  I  faebryk.core.node  Grouping bus A1.eeprom.6 complete. Elements: 2
+21:34:21.981  I  faebryk.core.node  Grouping bus A1.vio_switch.3 complete. Elements: 2
+21:34:21.982  I  faebryk.core.node  Grouping bus A1.pll_dec.1 complete. Elements: 7
+21:34:21.983  I  faebryk.core.node  Grouping bus A1.voltage_select.7 complete. Elements: 2
+21:34:21.983  I  faebryk.core.node  Grouping bus A1.ft232h.14 complete. Elements: 5
+21:34:21.984  I  faebryk.core.node  Grouping bus A1.tx_led.1 complete. Elements: 5
+21:34:21.985  I  faebryk.core.node  Grouping bus A1.x2_load.1 complete. Elements: 7
+21:34:21.985  I  faebryk.core.node  Grouping bus A1.usb5v_switch.3 complete. Elements: 2
+21:34:21.986  I  faebryk.core.node  Grouping bus A1.ft232h.21 complete. Elements: 2
+21:34:21.986  I  faebryk.core.node  Grouping bus A1.voltage_select.1 complete. Elements: 2
+21:34:21.987  I  faebryk.core.node  Grouping bus A1.fb_2v5.2 complete. Elements: 5
+21:34:21.987  I  faebryk.core.node  Grouping bus A1.eeprom.7 complete. Elements: 2
+21:34:21.988  I  faebryk.core.node  Grouping bus A1.voltage_select.8 complete. Elements: 2
+21:34:22.131  I  …opile.build_steps  Running checks
+21:34:22.164  I  …kicad.transformer  Adding `parts:USB_A_Molex_48037-2200_Horizontal` as `A1.usb` (J1)
+21:34:22.186  I  …kicad.transformer  Adding `parts:LQFP-48_7x7mm_P0.5mm` as `A1.ft232h` (U1)
+21:34:22.212  I  …kicad.transformer  Adding `parts:TSSOP-16_4.4x5mm_P0.65mm` as `A1.translator` (U2)
+21:34:22.222  I  …kicad.transformer  Adding `parts:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm` as `A1.vio_ldo` (U3)
+21:34:22.229  I  …kicad.transformer  Adding `parts:SOIC-8_3.9x4.9mm_P1.27mm` as `A1.eeprom` (U4)
+21:34:22.236  I  …kicad.transformer  Adding `parts:Crystal_SMD_3225-4Pin_3.2x2.5mm` as `A1.crystal` (Y1)
+21:34:22.240  I  …kicad.transformer  Adding `parts:TSM_104_SH` as `A1.uart_header` (J2)
+21:34:22.244  I  …kicad.transformer  Adding `parts:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left` as `A1.aux_header` (J3)
+21:34:22.249  I  …kicad.transformer  Adding `parts:JS203011SCQN` as `A1.voltage_select` (SW1)
+21:34:22.257  I  …kicad.transformer  Adding `parts:SW_SPDT_PCM12` as `A1.usb5v_switch` (SW2)
+21:34:22.262  I  …kicad.transformer  Adding `parts:SW_SPDT_PCM12` as `A1.vio_switch` (SW3)
+21:34:22.266  I  …kicad.transformer  Adding `parts:L_0402_1005Metric` as `A1.vbus_bead` (FB1)
+21:34:22.269  I  …kicad.transformer  Adding `parts:L_0402_1005Metric` as `A1.phy_bead` (FB2)
+21:34:22.273  I  …kicad.transformer  Adding `parts:L_0402_1005Metric` as `A1.pll_bead` (FB3)
+21:34:22.277  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.vbus_in` (C1)
+21:34:22.280  I  …kicad.transformer  Adding `parts:C_0603_1608Metric` as `A1.ft_bulk` (C2)
+21:34:22.283  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.ft_vreg` (C3)
+21:34:22.286  I  …kicad.transformer  Adding `parts:C_0603_1608Metric` as `A1.ft_3v3` (C4)
+21:34:22.288  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.ft_vcca` (C5)
+21:34:22.291  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.ft_vcore` (C6)
+21:34:22.295  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.ft_io12` (C7)
+21:34:22.298  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.ft_io24` (C8)
+21:34:22.301  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.ft_io46` (C9)
+21:34:22.304  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.phy_dec` (C10)
+21:34:22.307  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.pll_dec` (C11)
+21:34:22.312  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.x1_load` (C12)
+21:34:22.316  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.x2_load` (C13)
+21:34:22.321  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.level_a` (C14)
+21:34:22.324  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.level_b` (C15)
+21:34:22.327  I  …kicad.transformer  Adding `parts:C_0402_1005Metric` as `A1.eeprom_dec` (C16)
+21:34:22.331  I  …kicad.transformer  Adding `parts:C_0603_1608Metric` as `A1.ldo_in` (C17)
+21:34:22.334  I  …kicad.transformer  Adding `parts:C_0603_1608Metric` as `A1.ldo_out` (C18)
+21:34:22.337  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.ref_res` (R1)
+21:34:22.340  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.reset_pullup` (R2)
+21:34:22.343  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.eeprom_do_series` (R3)
+21:34:22.347  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.eeprom_do_pullup` (R4)
+21:34:22.350  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.oe_pullup` (R5)
+21:34:22.352  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.rx_pullup` (R6)
+21:34:22.355  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.cts_pullup` (R7)
+21:34:22.358  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.fb_top` (R8)
+21:34:22.361  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.fb_bottom` (R9)
+21:34:22.364  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.fb_2v5` (R10)
+21:34:22.367  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.fb_3v3` (R11)
+21:34:22.370  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.power_led_res` (R12)
+21:34:22.373  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.tx_led_res` (R13)
+21:34:22.376  I  …kicad.transformer  Adding `parts:R_0402_1005Metric` as `A1.rx_led_res` (R14)
+21:34:22.379  I  …kicad.transformer  Adding `parts:LED_0603_1608Metric` as `A1.power_led` (D1)
+21:34:22.382  I  …kicad.transformer  Adding `parts:LED_0603_1608Metric` as `A1.tx_led` (D2)
+21:34:22.385  I  …kicad.transformer  Adding `parts:LED_0603_1608Metric` as `A1.rx_led` (D3)
+21:34:22.388  I  …kicad.transformer  Adding `parts:D_SOD-523` as `A1.usb_dm_esd` (D4)
+21:34:22.390  I  …kicad.transformer  Adding `parts:D_SOD-523` as `A1.usb_dp_esd` (D5)
+21:34:22.402  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 1
+  name: "XI"
+}
+`
+21:34:22.404  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 2
+  name: "CTS_N"
+}
+`
+21:34:22.404  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 3
+  name: "EECLK"
+}
+`
+21:34:22.405  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 4
+  name: "EEDO"
+}
+`
+21:34:22.405  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 5
+  name: "6"
+}
+`
+21:34:22.406  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 6
+  name: "7"
+}
+`
+21:34:22.406  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 7
+  name: "SEL_2V5"
+}
+`
+21:34:22.407  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 8
+  name: "SEL_3V3"
+}
+`
+21:34:22.407  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 9
+  name: "FB"
+}
+`
+21:34:22.408  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 10
+  name: "FT_TXD"
+}
+`
+21:34:22.409  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 11
+  name: "FT_RXD"
+}
+`
+21:34:22.409  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 12
+  name: "17"
+}
+`
+21:34:22.410  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 13
+  name: "V3V3"
+}
+`
+21:34:22.411  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 14
+  name: "21"
+}
+`
+21:34:22.412  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 15
+  name: "25"
+}
+`
+21:34:22.413  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 16
+  name: "26"
+}
+`
+21:34:22.414  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 17
+  name: "29"
+}
+`
+21:34:22.414  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 18
+  name: "32"
+}
+`
+21:34:22.415  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 19
+  name: "33"
+}
+`
+21:34:22.415  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 20
+  name: "VCORE_1V8"
+}
+`
+21:34:22.416  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 21
+  name: "EEDATA"
+}
+`
+21:34:22.417  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 22
+  name: "EECS"
+}
+`
+21:34:22.417  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 23
+  name: "REF"
+}
+`
+21:34:22.418  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 24
+  name: "USB_DM"
+}
+`
+21:34:22.419  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 25
+  name: "VBUS_FT"
+}
+`
+21:34:22.420  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 26
+  name: "VCCA_1V8"
+}
+`
+21:34:22.420  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 27
+  name: "VPHY"
+}
+`
+21:34:22.421  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 28
+  name: "VPLL"
+}
+`
+21:34:22.421  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 29
+  name: "PWR_LED_A"
+}
+`
+21:34:22.422  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 30
+  name: "RESET_N"
+}
+`
+21:34:22.423  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 31
+  name: "RXLED_N"
+}
+`
+21:34:22.423  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 32
+  name: "RX_LED_A"
+}
+`
+21:34:22.424  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 33
+  name: "RXD"
+}
+`
+21:34:22.425  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 34
+  name: "RTS_N"
+}
+`
+21:34:22.425  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 35
+  name: "TXD"
+}
+`
+21:34:22.426  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 36
+  name: "PWREN_N"
+}
+`
+21:34:22.427  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 37
+  name: "FT_RTS_N"
+}
+`
+21:34:22.427  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 38
+  name: "FT_CTS_N"
+}
+`
+21:34:22.428  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 39
+  name: "TXLED_N"
+}
+`
+21:34:22.429  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 40
+  name: "TX_LED_A"
+}
+`
+21:34:22.430  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 41
+  name: "USB5V_OUT"
+}
+`
+21:34:22.430  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 42
+  name: "VBUS"
+}
+`
+21:34:22.431  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 43
+  name: "3"
+}
+`
+21:34:22.432  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 44
+  name: "USB_DP"
+}
+`
+21:34:22.432  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 45
+  name: "GND"
+}
+`
+21:34:22.435  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 46
+  name: "VIO"
+}
+`
+21:34:22.436  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 47
+  name: "VIO_OUT"
+}
+`
+21:34:22.436  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 48
+  name: "vio_switch-3"
+}
+`
+21:34:22.437  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 49
+  name: "1"
+}
+`
+21:34:22.437  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 50
+  name: "5"
+}
+`
+21:34:22.438  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 51
+  name: "voltage_select-6"
+}
+`
+21:34:22.438  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 52
+  name: "voltage_select-7"
+}
+`
+21:34:22.439  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 53
+  name: "8"
+}
+`
+21:34:22.439  I  …kicad.transformer  Adding net `kicad.pcb.Net {
+  number: 54
+  name: "XO"
+}
+`
+21:34:22.447  W  …kicad.transformer  fp:parts:TSM_104_SH|J2 has no silk outline
+21:34:22.448  W  …kicad.transformer  fp:parts:JS203011SCQN|SW1 has no silk outline
+21:34:22.448  W  …kicad.transformer  fp:parts:L_0402_1005Metric|FB1 has no silk outline
+21:34:22.448  W  …kicad.transformer  fp:parts:L_0402_1005Metric|FB2 has no silk outline
+21:34:22.449  W  …kicad.transformer  fp:parts:L_0402_1005Metric|FB3 has no silk outline
+21:34:22.450  I  …opile.build_steps  Backing up layout to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\backups\default.20261119-213422.kicad_pcb
+21:34:22.452  I  …opile.build_steps  Updating layout <WORKSPACE>\01_New_Design\atopile\board\layouts\default\default.kicad_pcb
+21:34:22.491  I  …ters.bom.json_bom  Wrote JSON BOM to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\default.bom.json
+21:34:22.532  I  …s.json_parameters  JSON Variables: Found 53 modules, 418 interfaces
+21:34:22.556  I  …s.json_parameters  JSON Variables: 471 total nodes, 1 with params, 3 total params
+21:34:22.557  I  …s.json_parameters  JSON Variables: Built tree with 1 root nodes
+21:34:22.558  I  …s.json_parameters  Wrote variables to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\default.variables.ato.json
+21:34:22.588  I  faebryk.core.node  Grouping bus A1.vio_ldo.7 complete. Elements: 100
+21:34:22.593  I  faebryk.core.node  Grouping bus A1.ft232h.18 complete. Elements: 50
+21:34:22.595  I  faebryk.core.node  Grouping bus A1.translator.13 complete. Elements: 6
+21:34:22.596  I  faebryk.core.node  Grouping bus A1.ft232h.5 complete. Elements: 6
+21:34:22.597  I  faebryk.core.node  Grouping bus A1.ft_bulk.1 complete. Elements: 10
+21:34:22.598  I  faebryk.core.node  Grouping bus A1.rx_led_res.2 complete. Elements: 6
+21:34:22.599  I  faebryk.core.node  Grouping bus A1.ft232h.38 complete. Elements: 6
+21:34:22.599  I  faebryk.core.node  Grouping bus A1.eeprom.4 complete. Elements: 8
+21:34:22.600  I  faebryk.core.node  Grouping bus A1.vio_switch.1 complete. Elements: 18
+21:34:22.602  I  faebryk.core.node  Grouping bus A1.fb_bottom.1 complete. Elements: 12
+21:34:22.602  I  faebryk.core.node  Grouping bus A1.ft232h.25 complete. Elements: 3
+21:34:22.603  I  faebryk.core.node  Grouping bus A1.voltage_select.5 complete. Elements: 3
+21:34:22.604  I  faebryk.core.node  Grouping bus A1.translator.7 complete. Elements: 6
+21:34:22.605  I  faebryk.core.node  Grouping bus A1.ft232h.45 complete. Elements: 6
+21:34:22.605  I  faebryk.core.node  Grouping bus A1.phy_dec.1 complete. Elements: 8
+21:34:22.606  I  faebryk.core.node  Grouping bus A1.ft232h.32 complete. Elements: 3
+21:34:22.607  I  faebryk.core.node  Grouping bus A1.usb5v_switch.1 complete. Elements: 18
+21:34:22.608  I  faebryk.core.node  Grouping bus A1.rx_led.1 complete. Elements: 6
+21:34:22.609  I  faebryk.core.node  Grouping bus A1.translator.14 complete. Elements: 10
+21:34:22.610  I  faebryk.core.node  Grouping bus A1.ft232h.6 complete. Elements: 8
+21:34:22.610  I  faebryk.core.node  Grouping bus A1.ft232h.29 complete. Elements: 3
+21:34:22.611  I  faebryk.core.node  Grouping bus A1.usb_dp_esd.1 complete. Elements: 8
+21:34:22.612  I  faebryk.core.node  Grouping bus A1.cts_pullup.2 complete. Elements: 8
+21:34:22.613  I  faebryk.core.node  Grouping bus A1.translator.11 complete. Elements: 8
+21:34:22.613  I  faebryk.core.node  Grouping bus A1.vio_switch.2 complete. Elements: 6
+21:34:22.614  I  faebryk.core.node  Grouping bus A1.ft232h.26 complete. Elements: 3
+21:34:22.615  I  faebryk.core.node  Grouping bus A1.voltage_select.6 complete. Elements: 3
+21:34:22.615  I  faebryk.core.node  Grouping bus A1.reset_pullup.1 complete. Elements: 6
+21:34:22.616  I  faebryk.core.node  Grouping bus A1.ft232h.13 complete. Elements: 6
+21:34:22.617  I  faebryk.core.node  Grouping bus A1.fb_3v3.2 complete. Elements: 6
+21:34:22.617  I  faebryk.core.node  Grouping bus A1.eeprom.2 complete. Elements: 6
+21:34:22.618  I  faebryk.core.node  Grouping bus A1.tx_led_res.2 complete. Elements: 6
+21:34:22.619  I  faebryk.core.node  Grouping bus A1.crystal.1 complete. Elements: 8
+21:34:22.620  I  faebryk.core.node  Grouping bus A1.ft232h.33 complete. Elements: 3
+21:34:22.621  I  faebryk.core.node  Grouping bus A1.power_led.2 complete. Elements: 6
+21:34:22.621  I  faebryk.core.node  Grouping bus A1.translator.5 complete. Elements: 6
+21:34:22.622  I  faebryk.core.node  Grouping bus A1.uart_header.4 complete. Elements: 6
+21:34:22.623  I  faebryk.core.node  Grouping bus A1.ft_vcca.1 complete. Elements: 6
+21:34:22.624  I  faebryk.core.node  Grouping bus A1.ft232h.43 complete. Elements: 8
+21:34:22.625  I  faebryk.core.node  Grouping bus A1.ft232h.17 complete. Elements: 3
+21:34:22.625  I  faebryk.core.node  Grouping bus A1.translator.12 complete. Elements: 6
+21:34:22.626  I  faebryk.core.node  Grouping bus A1.eeprom.6 complete. Elements: 3
+21:34:22.627  I  faebryk.core.node  Grouping bus A1.vio_switch.3 complete. Elements: 3
+21:34:22.628  I  faebryk.core.node  Grouping bus A1.pll_dec.1 complete. Elements: 8
+21:34:22.629  I  faebryk.core.node  Grouping bus A1.voltage_select.7 complete. Elements: 3
+21:34:22.630  I  faebryk.core.node  Grouping bus A1.ft232h.14 complete. Elements: 6
+21:34:22.630  I  faebryk.core.node  Grouping bus A1.tx_led.1 complete. Elements: 6
+21:34:22.631  I  faebryk.core.node  Grouping bus A1.x2_load.1 complete. Elements: 8
+21:34:22.632  I  faebryk.core.node  Grouping bus A1.usb5v_switch.3 complete. Elements: 3
+21:34:22.633  I  faebryk.core.node  Grouping bus A1.ft232h.21 complete. Elements: 3
+21:34:22.633  I  faebryk.core.node  Grouping bus A1.voltage_select.1 complete. Elements: 3
+21:34:22.634  I  faebryk.core.node  Grouping bus A1.fb_2v5.2 complete. Elements: 6
+21:34:22.635  I  faebryk.core.node  Grouping bus A1.eeprom.7 complete. Elements: 3
+21:34:22.635  I  faebryk.core.node  Grouping bus A1.voltage_select.8 complete. Elements: 3
+21:34:23.298  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\001_aux_header.json
+21:34:23.299  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\002_crystal.json
+21:34:23.300  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\003_cts_pullup.json
+21:34:23.301  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\004_eeprom.json
+21:34:23.302  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\005_eeprom_dec.json
+21:34:23.303  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\006_eeprom_do_pullup.json
+21:34:23.304  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\007_eeprom_do_series.json
+21:34:23.305  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\008_fb_2v5.json
+21:34:23.306  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\009_fb_3v3.json
+21:34:23.307  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\010_fb_bottom.json
+21:34:23.308  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\011_fb_top.json
+21:34:23.309  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\012_ft232h.json
+21:34:23.310  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\013_ft_3v3.json
+21:34:23.311  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\014_ft_bulk.json
+21:34:23.312  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\015_ft_io12.json
+21:34:23.313  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\016_ft_io24.json
+21:34:23.314  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\017_ft_io46.json
+21:34:23.316  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\018_ft_vcca.json
+21:34:23.317  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\019_ft_vcore.json
+21:34:23.317  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\020_ft_vreg.json
+21:34:23.318  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\021_ldo_in.json
+21:34:23.319  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\022_ldo_out.json
+21:34:23.320  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\023_level_a.json
+21:34:23.321  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\024_level_b.json
+21:34:23.322  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\025_oe_pullup.json
+21:34:23.323  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\026_phy_bead.json
+21:34:23.325  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\027_phy_dec.json
+21:34:23.326  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\028_pll_bead.json
+21:34:23.327  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\029_pll_dec.json
+21:34:23.328  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\030_power_led.json
+21:34:23.329  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\031_power_led_res.json
+21:34:23.330  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\032_ref_res.json
+21:34:23.331  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\033_reset_pullup.json
+21:34:23.332  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\034_rx_led.json
+21:34:23.333  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\035_rx_led_res.json
+21:34:23.334  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\036_rx_pullup.json
+21:34:23.335  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\037_translator.json
+21:34:23.336  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\038_tx_led.json
+21:34:23.336  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\039_tx_led_res.json
+21:34:23.337  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\040_uart_header.json
+21:34:23.338  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\041_usb.json
+21:34:23.339  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\042_usb5v_switch.json
+21:34:23.340  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\043_usb_dm_esd.json
+21:34:23.341  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\044_usb_dp_esd.json
+21:34:23.342  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\045_vbus_bead.json
+21:34:23.343  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\046_vbus_in.json
+21:34:23.344  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\047_vio_ldo.json
+21:34:23.345  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\048_vio_switch.json
+21:34:23.346  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\049_voltage_select.json
+21:34:23.347  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\050_x1_load.json
+21:34:23.348  I  …ers.pinout.pinout  Wrote pinout JSON to <WORKSPACE>\01_New_Design\atopile\board\build\builds\default\pinout\051_x2_load.json
+21:34:23.418  I  …_interface_layout  No data interfaces found, writing empty tree file
+21:34:23.965  I  …model.build_queue  BuildQueue: Build 234e7f56889b01aa completed with status BuildStatus.SUCCESS
+══ ✓ BUILD COMPLETE: default [7.0s] ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+┌─ Build Summary ────────────────────────────────────────┐
+│ ✓ default  [234e7f56889b01aa]                          │
+│                                                        │
+│ Stages:                                                │
+│   ✓ Resolving dependencies [0.12s]                     │
+│   ✓ Initializing build context [1.72s]                 │
+│   ✓ Modify type graph [0.01s]                          │
+│   ✓ Instantiate app [0.14s]                            │
+│   ✓ Preparing build [0.02s]                            │
+│   ✓ Verify instance graph [0.01s]                      │
+│   ✓ Modify instance graph [0.01s]                      │
+│   ✓ Verify electrical design [0.02s]                   │
+│   ✓ Loading PCB [0.52s]                                │
+│   ✓ Picking parts [0.08s]                              │
+│   ✓ Preparing nets [0.18s]                             │
+│   ✓ Running post-solve checks [0.03s]                  │
+│   ✓ Updating PCB [0.31s]                               │
+│   ✓ Running post-pcb checks [0.01s]                    │
+│   ✓ bom [0.01s]                                        │
+│   ✓ manifest [0.01s]                                   │
+│   ✓ variable-report [0.04s]                            │
+│   ✓ pinout [0.78s]                                     │
+│   ✓ power-tree [0.01s]                                 │
+│   ✓ stackup [0.01s]                                    │
+│   ✓ datasheets [0.01s]                                 │
+│   ✓ data-interface-layout [0.01s]                      │
+│                                                        │
+│ Warnings (50):                                         │
+│   • fp:parts:L_0402_1005Metric|FB3 has no silk outline │
+│   • fp:parts:L_0402_1005Metric|FB2 has no silk outline │
+│   • fp:parts:L_0402_1005Metric|FB1 has no silk outline │
+│   • fp:parts:JS203011SCQN|SW1 has no silk outline      │
+│   • fp:parts:TSM_104_SH|J2 has no silk outline         │
+│   ... and 45 more warnings                             │
+│                                                        │
+│ Total: 6.43s                                           │
+└────────────────────────────────────────────────────────┘
+
+21:34:24.089  I  atopile.cli.build  Build successful! 🚀

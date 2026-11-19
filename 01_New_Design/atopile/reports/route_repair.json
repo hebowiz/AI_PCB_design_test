@@ -1,0 +1,26 @@
+{
+  "deleted": [
+    {
+      "net": "GND",
+      "uuid": "37b5226a-d9bc-4632-83c3-ded08366cb21"
+    },
+    {
+      "net": "GND",
+      "uuid": "6d2fa42c-5f25-4122-8b9b-261edff9f023"
+    },
+    {
+      "net": "GND",
+      "uuid": "d9ce83dd-a6d4-4c04-a9c3-ee648ecce680"
+    },
+    {
+      "net": "EECLK",
+      "uuid": "bc7be2af-70da-4818-9c59-a2f3bfae3d41"
+    },
+    {
+      "net": "EECS",
+      "uuid": "f54db987-6fc9-43e6-a290-7ac4d7a1a83a"
+    }
+  ],
+  "retained_tracks_locked": true,
+  "router_boundary_inset_mm": 0.15
+}

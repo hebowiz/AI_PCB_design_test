@@ -1,0 +1,13 @@
+[
+  {
+    "net": "XO",
+    "result": "No path",
+    "visited": 90
+  },
+  {
+    "net": "XO",
+    "result": "Routed",
+    "visited": 1726,
+    "steps": 78
+  }
+]

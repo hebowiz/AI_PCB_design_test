@@ -1,0 +1,8 @@
+requires-atopile: "0.15.8"
+paths:
+  src: .
+  layout: ./layouts
+builds:
+  default:
+    entry: main.ato:A1
+    targets: [bom, manifest]

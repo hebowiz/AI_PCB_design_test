@@ -1,0 +1,85 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-19T22:00:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a1.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 3 [XO] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.3,
+                        "y": 7.95
+                    },
+                    "uuid": "f00e1858-29e3-4226-a5b4-599d9b8cf210"
+                },
+                {
+                    "description": "パッド 2 [XO] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 13.25,
+                        "y": 9.8375
+                    },
+                    "uuid": "3e6afded-d3e1-4ab0-8f93-4051b516c65a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン 'A1_GND_0' [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 0.3,
+                        "y": 0.3
+                    },
+                    "uuid": "ebf033d2-a3f3-473b-b642-02cfe54b2a2a"
+                },
+                {
+                    "description": "パッド 2 [GND] - C13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.8,
+                        "y": 8.32
+                    },
+                    "uuid": "18c32c59-eef5-4453-b096-fdb9d8df53c6"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        }
+    ]
+}

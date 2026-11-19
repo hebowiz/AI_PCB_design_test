@@ -1,0 +1,1299 @@
+{
+  "board": {
+    "width_mm": 22,
+    "height_mm": 50,
+    "thickness_mm": 1.6,
+    "copper_layers": 2
+  },
+  "components": [
+    {
+      "ref": "J1",
+      "name": "usb",
+      "value": "USB-A plug",
+      "mpn": "0480372200",
+      "manufacturer": "Molex",
+      "footprint": "Connector_USB:USB_A_Molex_48037-2200_Horizontal",
+      "nets": {
+        "1": "VBUS",
+        "2": "USB_DM",
+        "3": "USB_DP",
+        "4": "GND",
+        "SH": "GND"
+      },
+      "position": [
+        11,
+        -6.4,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": "User changed A-1 thickness to 1.6 mm, matching the manufacturer recommendation."
+    },
+    {
+      "ref": "U1",
+      "name": "ft232h",
+      "value": "FT232HL",
+      "mpn": "FT232HL-REEL",
+      "manufacturer": "FTDI",
+      "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+      "nets": {
+        "1": "XI",
+        "2": "XO",
+        "3": "VPHY",
+        "4": "GND",
+        "5": "REF",
+        "6": "USB_DM",
+        "7": "USB_DP",
+        "8": "VPLL",
+        "9": "GND",
+        "10": "GND",
+        "11": "GND",
+        "12": "V3V3",
+        "13": "FT_TXD",
+        "14": "FT_RXD",
+        "15": "FT_RTS_N",
+        "16": "FT_CTS_N",
+        "17": null,
+        "18": "V3V3",
+        "19": "V3V3",
+        "20": "V3V3",
+        "21": null,
+        "22": "GND",
+        "23": "GND",
+        "24": "V3V3",
+        "25": null,
+        "26": null,
+        "27": "RXLED_N",
+        "28": "TXLED_N",
+        "29": null,
+        "30": "PWREN_N",
+        "31": "V3V3",
+        "32": null,
+        "33": null,
+        "34": "RESET_N",
+        "35": "GND",
+        "36": "GND",
+        "37": "VCCA_1V8",
+        "38": "VCORE_1V8",
+        "39": "V3V3",
+        "40": "VBUS_FT",
+        "41": "GND",
+        "42": "GND",
+        "43": "EEDATA",
+        "44": "EECLK",
+        "45": "EECS",
+        "46": "V3V3",
+        "47": "GND",
+        "48": "GND"
+      },
+      "position": [
+        11,
+        14,
+        270
+      ],
+      "pin_names": {
+        "1": "OSCI",
+        "2": "OSCO",
+        "3": "VPHY",
+        "4": "AGND",
+        "5": "REF",
+        "6": "DM",
+        "7": "DP",
+        "8": "VPLL",
+        "9": "AGND",
+        "10": "GND",
+        "11": "GND",
+        "12": "VCCIO",
+        "13": "TXD",
+        "14": "RXD",
+        "15": "RTS_N",
+        "16": "CTS_N",
+        "17": "DTR_N",
+        "18": "DSR_N",
+        "19": "DCD_N",
+        "20": "RI_N",
+        "21": "ACBUS0",
+        "22": "GND",
+        "23": "GND",
+        "24": "VCCIO",
+        "25": "ACBUS1",
+        "26": "ACBUS2",
+        "27": "RXLED_N",
+        "28": "TXLED_N",
+        "29": "ACBUS5",
+        "30": "PWREN_N",
+        "31": "PWRSAV_N",
+        "32": "ACBUS8",
+        "33": "ACBUS9",
+        "34": "RESET_N",
+        "35": "GND",
+        "36": "GND",
+        "37": "VCCA",
+        "38": "VCORE",
+        "39": "VCCD",
+        "40": "VREGIN",
+        "41": "AGND",
+        "42": "TEST",
+        "43": "EEDATA",
+        "44": "EECLK",
+        "45": "EECS",
+        "46": "VCCIO",
+        "47": "GND",
+        "48": "GND"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "output",
+        "3": "power_in",
+        "4": "power_in",
+        "5": "input",
+        "6": "bidirectional",
+        "7": "bidirectional",
+        "8": "power_in",
+        "9": "power_in",
+        "10": "power_in",
+        "11": "power_in",
+        "12": "power_in",
+        "13": "output",
+        "14": "input",
+        "15": "output",
+        "16": "input",
+        "17": "output",
+        "18": "input",
+        "19": "input",
+        "20": "input",
+        "21": "bidirectional",
+        "22": "power_in",
+        "23": "power_in",
+        "24": "power_in",
+        "25": "bidirectional",
+        "26": "bidirectional",
+        "27": "output",
+        "28": "output",
+        "29": "bidirectional",
+        "30": "output",
+        "31": "input",
+        "32": "bidirectional",
+        "33": "bidirectional",
+        "34": "input",
+        "35": "power_in",
+        "36": "power_in",
+        "37": "power_out",
+        "38": "power_out",
+        "39": "power_out",
+        "40": "power_in",
+        "41": "power_in",
+        "42": "input",
+        "43": "bidirectional",
+        "44": "output",
+        "45": "output",
+        "46": "power_in",
+        "47": "power_in",
+        "48": "power_in"
+      },
+      "notes": ""
+    },
+    {
+      "ref": "U2",
+      "name": "translator",
+      "value": "SN74AXC4T245",
+      "mpn": "SN74AXC4T245PWR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "nets": {
+        "1": "V3V3",
+        "2": "V3V3",
+        "3": "GND",
+        "4": "FT_TXD",
+        "5": "FT_RTS_N",
+        "6": "FT_RXD",
+        "7": "FT_CTS_N",
+        "8": "GND",
+        "9": "GND",
+        "10": "CTS_N",
+        "11": "RXD",
+        "12": "RTS_N",
+        "13": "TXD",
+        "14": "PWREN_N",
+        "15": "PWREN_N",
+        "16": "VIO"
+      },
+      "position": [
+        11,
+        24,
+        0
+      ],
+      "pin_names": {
+        "1": "VCCA",
+        "2": "1DIR",
+        "3": "2DIR",
+        "4": "1A1",
+        "5": "1A2",
+        "6": "2A1",
+        "7": "2A2",
+        "8": "GND",
+        "9": "GND",
+        "10": "2B2",
+        "11": "2B1",
+        "12": "1B2",
+        "13": "1B1",
+        "14": "2OE_N",
+        "15": "1OE_N",
+        "16": "VCCB"
+      },
+      "pin_types": {
+        "1": "power_in",
+        "16": "power_in",
+        "8": "power_in",
+        "9": "power_in",
+        "2": "input",
+        "3": "input",
+        "4": "input",
+        "5": "input",
+        "6": "output",
+        "7": "output",
+        "10": "input",
+        "11": "input",
+        "12": "output",
+        "13": "output",
+        "14": "input",
+        "15": "input"
+      },
+      "notes": ""
+    },
+    {
+      "ref": "U3",
+      "name": "vio_ldo",
+      "value": "TLV76701",
+      "mpn": "TLV76701DRVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "nets": {
+        "1": "VIO",
+        "2": "FB",
+        "3": "GND",
+        "4": "VBUS",
+        "5": "GND",
+        "6": "VBUS",
+        "7": "GND"
+      },
+      "position": [
+        2.8,
+        27,
+        0
+      ],
+      "pin_names": {
+        "1": "OUT",
+        "2": "FB",
+        "3": "GND",
+        "4": "EN",
+        "5": "GND",
+        "6": "IN",
+        "7": "EP"
+      },
+      "pin_types": {
+        "1": "power_out",
+        "2": "input",
+        "3": "power_in",
+        "4": "input",
+        "5": "power_in",
+        "6": "power_in",
+        "7": "power_in"
+      },
+      "notes": ""
+    },
+    {
+      "ref": "U4",
+      "name": "eeprom",
+      "value": "93LC56B x16",
+      "mpn": "93LC56BT-I/SN",
+      "manufacturer": "Microchip",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "nets": {
+        "1": "EECS",
+        "2": "EECLK",
+        "3": "EEDATA",
+        "4": "EEDO",
+        "5": "GND",
+        "6": null,
+        "7": null,
+        "8": "V3V3"
+      },
+      "position": [
+        3.0,
+        19.4,
+        90
+      ],
+      "pin_names": {
+        "1": "CS",
+        "2": "CLK",
+        "3": "DI",
+        "4": "DO",
+        "5": "VSS",
+        "6": "NC",
+        "7": "NC",
+        "8": "VCC"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "input",
+        "3": "input",
+        "4": "tri_state",
+        "5": "power_in",
+        "6": "no_connect",
+        "7": "no_connect",
+        "8": "power_in"
+      },
+      "notes": ""
+    },
+    {
+      "ref": "Y1",
+      "name": "crystal",
+      "value": "12MHz CL18pF",
+      "mpn": "ABM8-12.000MHZ-B1U-T",
+      "manufacturer": "Abracon",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "nets": {
+        "1": "XI",
+        "2": "GND",
+        "3": "XO",
+        "4": "GND"
+      },
+      "position": [
+        18.2,
+        8.8,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "J2",
+      "name": "uart_header",
+      "value": "GND TXD RXD USB5V",
+      "mpn": "TSM-104-01-L-SH",
+      "manufacturer": "Samtec",
+      "footprint": "A1:TSM_104_SH",
+      "nets": {
+        "1": "GND",
+        "2": "TXD",
+        "3": "RXD",
+        "4": "USB5V_OUT"
+      },
+      "position": [
+        11,
+        44.717,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": "Locally drawn SMT right-angle footprint; manufacturer drawing review recorded separately."
+    },
+    {
+      "ref": "J3",
+      "name": "aux_header",
+      "value": "GND RTS CTS VIO",
+      "mpn": "TSM-104-01-L-SV",
+      "manufacturer": "Samtec",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left",
+      "nets": {
+        "1": "GND",
+        "2": "RTS_N",
+        "3": "CTS_N",
+        "4": "VIO_OUT"
+      },
+      "position": [
+        11,
+        39.4,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "SW1",
+      "name": "voltage_select",
+      "value": "1.8 / 2.5 / 3.3V",
+      "mpn": "JS203011SCQN",
+      "manufacturer": "C&K",
+      "footprint": "A1:JS203011SCQN",
+      "nets": {
+        "1": null,
+        "2": "SEL_2V5",
+        "3": "GND",
+        "4": "SEL_3V3",
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null
+      },
+      "position": [
+        11,
+        31.6,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": "Only switch with USB disconnected. Contact-break default is 1.8V."
+    },
+    {
+      "ref": "SW2",
+      "name": "usb5v_switch",
+      "value": "USB5V OFF/ON",
+      "mpn": "PCM12SMTR",
+      "manufacturer": "C&K",
+      "footprint": "Button_Switch_SMD:SW_SPDT_PCM12",
+      "nets": {
+        "1": "VBUS",
+        "2": "USB5V_OUT",
+        "3": null
+      },
+      "position": [
+        2.8,
+        40.4,
+        270
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "SW3",
+      "name": "vio_switch",
+      "value": "VIO OUT OFF/ON",
+      "mpn": "PCM12SMTR",
+      "manufacturer": "C&K",
+      "footprint": "Button_Switch_SMD:SW_SPDT_PCM12",
+      "nets": {
+        "1": "VIO",
+        "2": "VIO_OUT",
+        "3": null
+      },
+      "position": [
+        19.2,
+        40.4,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "FB1",
+      "name": "vbus_bead",
+      "value": "600R@100MHz",
+      "mpn": "BLM15AG601SN1D",
+      "manufacturer": "Murata",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "nets": {
+        "1": "VBUS",
+        "2": "VBUS_FT"
+      },
+      "position": [
+        3,
+        5.8,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "FB2",
+      "name": "phy_bead",
+      "value": "600R@100MHz",
+      "mpn": "BLM15AG601SN1D",
+      "manufacturer": "Murata",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "VPHY"
+      },
+      "position": [
+        16.7,
+        5.8,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "FB3",
+      "name": "pll_bead",
+      "value": "600R@100MHz",
+      "mpn": "BLM15AG601SN1D",
+      "manufacturer": "Murata",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "VPLL"
+      },
+      "position": [
+        5.5,
+        6.1,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C1",
+      "name": "vbus_in",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "position": [
+        2,
+        3.8,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C2",
+      "name": "ft_bulk",
+      "value": "4.7uF 10V",
+      "mpn": "GRM188R61A475KE15D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "VBUS_FT",
+        "2": "GND"
+      },
+      "position": [
+        3,
+        8.4,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C3",
+      "name": "ft_vreg",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VBUS_FT",
+        "2": "GND"
+      },
+      "position": [
+        17.5,
+        15.2,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C4",
+      "name": "ft_3v3",
+      "value": "1uF 10V",
+      "mpn": "GRM188R61A105KA61D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "position": [
+        17.5,
+        17.6,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C5",
+      "name": "ft_vcca",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VCCA_1V8",
+        "2": "GND"
+      },
+      "position": [
+        17.5,
+        19.8,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C6",
+      "name": "ft_vcore",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VCORE_1V8",
+        "2": "GND"
+      },
+      "position": [
+        20.5,
+        18.5,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C7",
+      "name": "ft_io12",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "position": [
+        5,
+        8.5,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C8",
+      "name": "ft_io24",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "position": [
+        4.8,
+        12,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C9",
+      "name": "ft_io46",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "position": [
+        17.5,
+        11.9,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C10",
+      "name": "phy_dec",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VPHY",
+        "2": "GND"
+      },
+      "position": [
+        15,
+        7.6,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C11",
+      "name": "pll_dec",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VPLL",
+        "2": "GND"
+      },
+      "position": [
+        7,
+        7.8,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C12",
+      "name": "x1_load",
+      "value": "30pF C0G 50V",
+      "mpn": "GRM1555C1H300JA01D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "XI",
+        "2": "GND"
+      },
+      "position": [
+        18.5,
+        5.7,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C13",
+      "name": "x2_load",
+      "value": "30pF C0G 50V",
+      "mpn": "GRM1555C1H300JA01D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "XO",
+        "2": "GND"
+      },
+      "position": [
+        20.8,
+        8.8,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C14",
+      "name": "level_a",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "position": [
+        7.4,
+        20.8,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C15",
+      "name": "level_b",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "VIO",
+        "2": "GND"
+      },
+      "position": [
+        14.8,
+        20.8,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C16",
+      "name": "eeprom_dec",
+      "value": "100nF 16V",
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "position": [
+        3.8,
+        14.5,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C17",
+      "name": "ldo_in",
+      "value": "1uF 10V",
+      "mpn": "GRM188R61A105KA61D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "position": [
+        4.4,
+        24.2,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "C18",
+      "name": "ldo_out",
+      "value": "4.7uF 10V",
+      "mpn": "GRM188R61A475KE15D",
+      "manufacturer": "Murata",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "VIO",
+        "2": "GND"
+      },
+      "position": [
+        1.7,
+        29.5,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R1",
+      "name": "ref_res",
+      "value": "12k 1%",
+      "mpn": "RC0402FR-0712KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "REF",
+        "2": "GND"
+      },
+      "position": [
+        15.3,
+        9.4,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R2",
+      "name": "reset_pullup",
+      "value": "10k 1%",
+      "mpn": "RC0402FR-0710KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "RESET_N",
+        "2": "V3V3"
+      },
+      "position": [
+        11.5,
+        20,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R3",
+      "name": "eeprom_do_series",
+      "value": "2.2k 1%",
+      "mpn": "RC0402FR-072K2L",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "EEDATA",
+        "2": "EEDO"
+      },
+      "position": [
+        1.2,
+        10.8,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R4",
+      "name": "eeprom_do_pullup",
+      "value": "10k 1%",
+      "mpn": "RC0402FR-0710KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "EEDO"
+      },
+      "position": [
+        1.2,
+        13.1,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R5",
+      "name": "oe_pullup",
+      "value": "10k 1%",
+      "mpn": "RC0402FR-0710KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "PWREN_N"
+      },
+      "position": [
+        17,
+        21.7,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R6",
+      "name": "rx_pullup",
+      "value": "47k 1%",
+      "mpn": "RC0402FR-0747KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "VIO",
+        "2": "RXD"
+      },
+      "position": [
+        18,
+        25,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R7",
+      "name": "cts_pullup",
+      "value": "47k 1%",
+      "mpn": "RC0402FR-0747KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "VIO",
+        "2": "CTS_N"
+      },
+      "position": [
+        18.5,
+        26.4,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R8",
+      "name": "fb_top",
+      "value": "100k 0.1%",
+      "mpn": "RT0402BRD07100KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "VIO",
+        "2": "FB"
+      },
+      "position": [
+        2.2,
+        31.1,
+        0
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R9",
+      "name": "fb_bottom",
+      "value": "80.6k 0.1%",
+      "mpn": "RT0402BRD0780K6L",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "FB",
+        "2": "GND"
+      },
+      "position": [
+        1.2,
+        33.1,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R10",
+      "name": "fb_2v5",
+      "value": "113k 0.1%",
+      "mpn": "RT0402BRD07113KL",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "FB",
+        "2": "SEL_2V5"
+      },
+      "position": [
+        3,
+        33,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R11",
+      "name": "fb_3v3",
+      "value": "53.6k 0.1%",
+      "mpn": "RT0402BRD0753K6L",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "FB",
+        "2": "SEL_3V3"
+      },
+      "position": [
+        19,
+        33,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R12",
+      "name": "power_led_res",
+      "value": "6.8k 1%",
+      "mpn": "RC0402FR-076K8L",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "VBUS",
+        "2": "PWR_LED_A"
+      },
+      "position": [
+        19,
+        3.8,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R13",
+      "name": "tx_led_res",
+      "value": "3.3k 1%",
+      "mpn": "RC0402FR-073K3L",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "TX_LED_A"
+      },
+      "position": [
+        18.8,
+        12.1,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "R14",
+      "name": "rx_led_res",
+      "value": "3.3k 1%",
+      "mpn": "RC0402FR-073K3L",
+      "manufacturer": "Yageo",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "V3V3",
+        "2": "RX_LED_A"
+      },
+      "position": [
+        18.8,
+        15.0,
+        90
+      ],
+      "pin_names": {},
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "D1",
+      "name": "power_led",
+      "value": "Red 1608M",
+      "mpn": "LTST-C190KRKT",
+      "manufacturer": "Lite-On",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "nets": {
+        "1": "GND",
+        "2": "PWR_LED_A"
+      },
+      "position": [
+        20.3,
+        2.2,
+        90
+      ],
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "D2",
+      "name": "tx_led",
+      "value": "Green 1608M",
+      "mpn": "LTST-C190KGKT",
+      "manufacturer": "Lite-On",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "nets": {
+        "1": "TXLED_N",
+        "2": "TX_LED_A"
+      },
+      "position": [
+        20.8,
+        12.3,
+        90
+      ],
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "D3",
+      "name": "rx_led",
+      "value": "Green 1608M",
+      "mpn": "LTST-C190KGKT",
+      "manufacturer": "Lite-On",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "nets": {
+        "1": "RXLED_N",
+        "2": "RX_LED_A"
+      },
+      "position": [
+        20.8,
+        15.4,
+        90
+      ],
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "D4",
+      "name": "usb_dm_esd",
+      "value": "USB ESD 0.5pF",
+      "mpn": "TPD1E05U06DYAR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Diode_SMD:D_SOD-523",
+      "nets": {
+        "1": "USB_DM",
+        "2": "GND"
+      },
+      "position": [
+        9.3,
+        7.1,
+        180
+      ],
+      "pin_names": {
+        "1": "IO",
+        "2": "GND"
+      },
+      "pin_types": {},
+      "notes": ""
+    },
+    {
+      "ref": "D5",
+      "name": "usb_dp_esd",
+      "value": "USB ESD 0.5pF",
+      "mpn": "TPD1E05U06DYAR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Diode_SMD:D_SOD-523",
+      "nets": {
+        "1": "USB_DP",
+        "2": "GND"
+      },
+      "position": [
+        12.7,
+        7.2,
+        0
+      ],
+      "pin_names": {
+        "1": "IO",
+        "2": "GND"
+      },
+      "pin_types": {},
+      "notes": ""
+    }
+  ]
+}

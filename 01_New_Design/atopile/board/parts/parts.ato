@@ -1,0 +1,396 @@
+import is_atomic_part
+import has_designator_prefix
+
+component Part_J1:
+    trait is_atomic_part<manufacturer="Molex", partnumber="0480372200", footprint="USB_A_Molex_48037-2200_Horizontal.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="J">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+    signal pSH ~ pin "SH"
+
+component Part_U1:
+    trait is_atomic_part<manufacturer="FTDI", partnumber="FT232HL-REEL", footprint="LQFP-48_7x7mm_P0.5mm.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="U">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+    signal p5 ~ pin 5
+    signal p6 ~ pin 6
+    signal p7 ~ pin 7
+    signal p8 ~ pin 8
+    signal p9 ~ pin 9
+    signal p10 ~ pin 10
+    signal p11 ~ pin 11
+    signal p12 ~ pin 12
+    signal p13 ~ pin 13
+    signal p14 ~ pin 14
+    signal p15 ~ pin 15
+    signal p16 ~ pin 16
+    signal p17 ~ pin 17
+    signal p18 ~ pin 18
+    signal p19 ~ pin 19
+    signal p20 ~ pin 20
+    signal p21 ~ pin 21
+    signal p22 ~ pin 22
+    signal p23 ~ pin 23
+    signal p24 ~ pin 24
+    signal p25 ~ pin 25
+    signal p26 ~ pin 26
+    signal p27 ~ pin 27
+    signal p28 ~ pin 28
+    signal p29 ~ pin 29
+    signal p30 ~ pin 30
+    signal p31 ~ pin 31
+    signal p32 ~ pin 32
+    signal p33 ~ pin 33
+    signal p34 ~ pin 34
+    signal p35 ~ pin 35
+    signal p36 ~ pin 36
+    signal p37 ~ pin 37
+    signal p38 ~ pin 38
+    signal p39 ~ pin 39
+    signal p40 ~ pin 40
+    signal p41 ~ pin 41
+    signal p42 ~ pin 42
+    signal p43 ~ pin 43
+    signal p44 ~ pin 44
+    signal p45 ~ pin 45
+    signal p46 ~ pin 46
+    signal p47 ~ pin 47
+    signal p48 ~ pin 48
+
+component Part_U2:
+    trait is_atomic_part<manufacturer="Texas Instruments", partnumber="SN74AXC4T245PWR", footprint="TSSOP-16_4.4x5mm_P0.65mm.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="U">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+    signal p5 ~ pin 5
+    signal p6 ~ pin 6
+    signal p7 ~ pin 7
+    signal p8 ~ pin 8
+    signal p9 ~ pin 9
+    signal p10 ~ pin 10
+    signal p11 ~ pin 11
+    signal p12 ~ pin 12
+    signal p13 ~ pin 13
+    signal p14 ~ pin 14
+    signal p15 ~ pin 15
+    signal p16 ~ pin 16
+
+component Part_U3:
+    trait is_atomic_part<manufacturer="Texas Instruments", partnumber="TLV76701DRVR", footprint="WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="U">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+    signal p5 ~ pin 5
+    signal p6 ~ pin 6
+    signal p7 ~ pin 7
+
+component Part_U4:
+    trait is_atomic_part<manufacturer="Microchip", partnumber="93LC56BT-I/SN", footprint="SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="U">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+    signal p5 ~ pin 5
+    signal p6 ~ pin 6
+    signal p7 ~ pin 7
+    signal p8 ~ pin 8
+
+component Part_Y1:
+    trait is_atomic_part<manufacturer="Abracon", partnumber="ABM8-12.000MHZ-B1U-T", footprint="Crystal_SMD_3225-4Pin_3.2x2.5mm.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="Y">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+
+component Part_J2:
+    trait is_atomic_part<manufacturer="Samtec", partnumber="TSM-104-01-L-SH", footprint="TSM_104_SH.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="J">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+
+component Part_J3:
+    trait is_atomic_part<manufacturer="Samtec", partnumber="TSM-104-01-L-SV", footprint="PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="J">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+
+component Part_SW1:
+    trait is_atomic_part<manufacturer="C&K", partnumber="JS203011SCQN", footprint="JS203011SCQN.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="SW">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+    signal p4 ~ pin 4
+    signal p5 ~ pin 5
+    signal p6 ~ pin 6
+    signal p7 ~ pin 7
+    signal p8 ~ pin 8
+
+component Part_SW2:
+    trait is_atomic_part<manufacturer="C&K", partnumber="PCM12SMTR", footprint="SW_SPDT_PCM12.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="SW">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+
+component Part_SW3:
+    trait is_atomic_part<manufacturer="C&K", partnumber="PCM12SMTR", footprint="SW_SPDT_PCM12.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="SW">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3
+
+component Part_FB1:
+    trait is_atomic_part<manufacturer="Murata", partnumber="BLM15AG601SN1D", footprint="L_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="FB">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_FB2:
+    trait is_atomic_part<manufacturer="Murata", partnumber="BLM15AG601SN1D", footprint="L_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="FB">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_FB3:
+    trait is_atomic_part<manufacturer="Murata", partnumber="BLM15AG601SN1D", footprint="L_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="FB">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C1:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C2:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM188R61A475KE15D", footprint="C_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C3:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C4:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM188R61A105KA61D", footprint="C_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C5:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C6:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C7:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C8:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C9:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C10:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C11:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C12:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM1555C1H300JA01D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C13:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM1555C1H300JA01D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C14:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C15:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C16:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM155R71C104KA88D", footprint="C_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C17:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM188R61A105KA61D", footprint="C_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_C18:
+    trait is_atomic_part<manufacturer="Murata", partnumber="GRM188R61A475KE15D", footprint="C_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="C">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R1:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-0712KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R2:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-0710KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R3:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-072K2L", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R4:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-0710KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R5:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-0710KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R6:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-0747KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R7:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-0747KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R8:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RT0402BRD07100KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R9:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RT0402BRD0780K6L", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R10:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RT0402BRD07113KL", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R11:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RT0402BRD0753K6L", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R12:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-076K8L", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R13:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-073K3L", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_R14:
+    trait is_atomic_part<manufacturer="Yageo", partnumber="RC0402FR-073K3L", footprint="R_0402_1005Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="R">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_D1:
+    trait is_atomic_part<manufacturer="Lite-On", partnumber="LTST-C190KRKT", footprint="LED_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="D">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_D2:
+    trait is_atomic_part<manufacturer="Lite-On", partnumber="LTST-C190KGKT", footprint="LED_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="D">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_D3:
+    trait is_atomic_part<manufacturer="Lite-On", partnumber="LTST-C190KGKT", footprint="LED_0603_1608Metric.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="D">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_D4:
+    trait is_atomic_part<manufacturer="Texas Instruments", partnumber="TPD1E05U06DYAR", footprint="D_SOD-523.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="D">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+
+component Part_D5:
+    trait is_atomic_part<manufacturer="Texas Instruments", partnumber="TPD1E05U06DYAR", footprint="D_SOD-523.kicad_mod", symbol="">
+    trait has_designator_prefix<prefix="D">
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2

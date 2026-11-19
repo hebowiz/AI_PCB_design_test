@@ -1,0 +1,14 @@
+[
+  {
+    "net": "FT_TXD",
+    "result": "Routed",
+    "visited": 74348,
+    "steps": 291
+  },
+  {
+    "net": "FT_RXD",
+    "result": "Routed",
+    "visited": 157591,
+    "steps": 643
+  }
+]

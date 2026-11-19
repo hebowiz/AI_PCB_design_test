@@ -1,0 +1,9 @@
+{
+  "errors": [],
+  "named_nets": 38,
+  "connected_pin_assignments": 174,
+  "intentional_unconnected_pins": 16,
+  "pcb_unique_numbered_pads": 190,
+  "schematic_connected_pin_assignments": 174,
+  "scope": "Compare authored pin manifest, KiCad schematic export and actual PCB pads; duplicate shell pad numbers collapsed."
+}
