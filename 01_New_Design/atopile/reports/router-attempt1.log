@@ -1,0 +1,856 @@
+2026-11-19 21:43:12.952 INFO   Freerouting v2.1.0 (build-date: 2025-04-12)
+2026-11-19 21:43:13.021 WARN   No default constructor found for field: currentLocale
+2026-11-19 21:43:13.023 INFO   Settings were loaded from freerouting.json
+2026-11-19 21:43:13.025 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-19 21:43:14.516 INFO   [B53961\407DC7] Job 'B53961\407DC7' started at 2026-11-19T12:43:14.516692700Z
+2026-11-19 21:43:14.867 INFO   New version available: v2.5.0
+2026-11-19 21:43:18.517 INFO   [B53961\407DC7] Auto-router pass #1 on board 'c8a199ef27e07a9378e3d8968b9aa6fe' was completed in 3.81 seconds with the score of 798.66 (50 unrouted), using 5.34 CPU seconds and 1581 MB memory.
+2026-11-19 21:43:21.471 INFO   [B53961\407DC7] Auto-router pass #2 on board '1526ccfdce14b1bac2349511552d541e' was completed in 2.92 seconds with the score of 886.46 (35 unrouted), using 19.47 CPU seconds and 3512 MB memory.
+2026-11-19 21:43:23.234 INFO   [B53961\407DC7] Auto-router pass #3 on board '06701ca04d195dbcfaca9608b33e0e56' was completed in 1.74 seconds with the score of 921.06 (26 unrouted), using 33.78 CPU seconds and 5175 MB memory.
+2026-11-19 21:43:29.162 INFO   [B53961\407DC7] Auto-router pass #4 on board '212051c6810517eff6c634a427c17853' was completed in 5.91 seconds with the score of 937.75 (22 unrouted), using 99.97 CPU seconds and 9999 MB memory.
+2026-11-19 21:43:31.360 INFO   [B53961\407DC7] Auto-router pass #5 on board 'e7ac004998a1c1f14cfdcf6033900fca' was completed in 2.17 seconds with the score of 945.89 (19 unrouted), using 129.94 CPU seconds and 11721 MB memory.
+2026-11-19 21:43:32.867 INFO   [B53961\407DC7] Auto-router pass #6 on board '6ab152b5a9336f344c26840cca288d07' was completed in 1.49 seconds with the score of 967.76 (11 unrouted), using 163.81 CPU seconds and 13800 MB memory.
+2026-11-19 21:43:33.355 INFO   [B53961\407DC7] Auto-router pass #7 on board '7dd4aefb467a7156b11676df11f2a219' was completed in 0.47 seconds with the score of 967.93 (11 unrouted), using 163.81 CPU seconds and 13800 MB memory.
+2026-11-19 21:43:36.432 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 967.93 (11 unrouted).
+2026-11-19 21:43:36.432 INFO   [B53961\407DC7] Auto-router pass #8 on board '5a6d91195b28736eb369bf940573ed02' was completed in 3.06 seconds with the score of 967.89 (11 unrouted), using 222.11 CPU seconds and 16636 MB memory.
+2026-11-19 21:43:37.217 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:37.218 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.nearest_point_approx(app.freerouting.geometry.planar.FloatPoint)" because "target_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_target_doors(MazeSearchAlgo.java:534) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:398) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:43:37.218 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.nearest_point_approx(app.freerouting.geometry.planar.FloatPoint)" because "target_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_target_doors(MazeSearchAlgo.java:534) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:398) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:43:37.263 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:37.264 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.nearest_point_approx(app.freerouting.geometry.planar.FloatPoint)" because "target_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_target_doors(MazeSearchAlgo.java:534) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:398) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:43:37.264 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.nearest_point_approx(app.freerouting.geometry.planar.FloatPoint)" because "target_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_target_doors(MazeSearchAlgo.java:534) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:398) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:43:37.291 INFO   [B53961\407DC7] Auto-router pass #9 on board '5a6d91195b28736eb369bf940573ed02' was completed in 0.85 seconds with the score of 970.17 (10 unrouted), using 243.52 CPU seconds and 17557 MB memory.
+2026-11-19 21:43:37.685 INFO   [B53961\407DC7] Auto-router pass #10 on board '1495a1a4194b7b2116f58bfe93de1334' was completed in 0.38 seconds with the score of 970.06 (10 unrouted), using 265.92 CPU seconds and 18682 MB memory.
+2026-11-19 21:43:38.085 INFO   [B53961\407DC7] Auto-router pass #11 on board 'da041a6a5566fa1e09894067b2f2f98c' was completed in 0.38 seconds with the score of 969.60 (10 unrouted), using 265.92 CPU seconds and 18682 MB memory.
+2026-11-19 21:43:40.541 INFO   [B53961\407DC7] Auto-router pass #12 on board '3bc662888a70fa8f3eb616c7560c7f67' was completed in 2.44 seconds with the score of 970.41 (10 unrouted), using 313.67 CPU seconds and 20633 MB memory.
+2026-11-19 21:43:40.894 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:40.895 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.nearest_point_approx(app.freerouting.geometry.planar.FloatPoint)" because "target_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_target_doors(MazeSearchAlgo.java:534) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:398) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:43:40.895 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.nearest_point_approx(app.freerouting.geometry.planar.FloatPoint)" because "target_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_target_doors(MazeSearchAlgo.java:534) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:398) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:43:41.205 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:41.206 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:41.206 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:41.543 INFO   [B53961\407DC7] Auto-router pass #13 on board 'e336f538786432397839625492de0a6d' was completed in 0.98 seconds with the score of 967.80 (11 unrouted), using 338.98 CPU seconds and 21676 MB memory.
+2026-11-19 21:43:41.915 INFO   [B53961\407DC7] Auto-router pass #14 on board '8d81068037c5f2c377515b9f3c324e56' was completed in 0.35 seconds with the score of 967.65 (11 unrouted), using 365.23 CPU seconds and 22574 MB memory.
+2026-11-19 21:43:42.258 INFO   [B53961\407DC7] Auto-router pass #15 on board 'b5aefafdd390a47517da96fea780b1e0' was completed in 0.32 seconds with the score of 967.65 (11 unrouted), using 365.23 CPU seconds and 22574 MB memory.
+2026-11-19 21:43:42.309 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.310 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.311 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.311 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.311 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.346 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.347 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:42.352 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:43:44.728 INFO   [B53961\407DC7] Auto-router pass #16 on board 'b5aefafdd390a47517da96fea780b1e0' was completed in 2.46 seconds with the score of 974.03 (8 unrouted), using 449.95 CPU seconds and 25252 MB memory.
+2026-11-19 21:43:44.791 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.791 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.827 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:44.827 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:44.827 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:44.856 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.856 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.856 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.856 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.930 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.931 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.931 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.931 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.968 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:44.996 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.006 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.035 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.035 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.036 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.036 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.036 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.037 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.037 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.037 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.038 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.039 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.039 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.040 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.040 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.040 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.040 WARN   ShapeSearchTree45Degree.complete_shape: cannot convert room shape Simplex to IntOctagon
+2026-11-19 21:43:45.042 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:45.043 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:45.043 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:45.094 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:45.094 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:45.094 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:45.121 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:43:45.121 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:45.121 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:43:45.151 INFO   [B53961\407DC7] Auto-router pass #17 on board '9f027d0a8d09d11598e04d9bbdcea708' was completed in 0.41 seconds with the score of 966.64 (11 unrouted), using 449.95 CPU seconds and 25252 MB memory.
+2026-11-19 21:43:45.520 INFO   [B53961\407DC7] Auto-router pass #18 on board '3e98804e67f2fcda8cefb8ed559adc60' was completed in 0.36 seconds with the score of 966.64 (11 unrouted), using 449.95 CPU seconds and 25252 MB memory.
+2026-11-19 21:43:45.845 INFO   [B53961\407DC7] Auto-router pass #19 on board '56b0f34644307ca8846e83ac78624b45' was completed in 0.30 seconds with the score of 966.64 (11 unrouted), using 480.17 CPU seconds and 26203 MB memory.
+2026-11-19 21:43:52.424 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 974.03 (8 unrouted).
+2026-11-19 21:43:52.425 INFO   [B53961\407DC7] Auto-router pass #20 on board '016a1a8adc93d254ab187b8ef4d23574' was completed in 6.57 seconds with the score of 970.03 (10 unrouted), using 682.14 CPU seconds and 31634 MB memory.
+2026-11-19 21:43:53.458 INFO   [B53961\407DC7] Auto-router pass #21 on board '9f027d0a8d09d11598e04d9bbdcea708' was completed in 1.03 seconds with the score of 970.05 (10 unrouted), using 719.25 CPU seconds and 32619 MB memory.
+2026-11-19 21:43:54.816 INFO   [B53961\407DC7] Auto-router pass #22 on board '70c8aad4eb59f4e4284f20059a08c2b5' was completed in 1.35 seconds with the score of 959.47 (14 unrouted), using 796.44 CPU seconds and 34870 MB memory.
+2026-11-19 21:43:56.810 INFO   [B53961\407DC7] Auto-router pass #23 on board 'ff203c8b97aad9960f563d0a86990c2a' was completed in 1.98 seconds with the score of 956.64 (16 unrouted), using 877.58 CPU seconds and 36896 MB memory.
+2026-11-19 21:44:02.321 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 974.03 (8 unrouted).
+2026-11-19 21:44:02.321 INFO   [B53961\407DC7] Auto-router pass #24 on board 'f3c2195ff7470617537c502c5caf3f46' was completed in 5.50 seconds with the score of 961.63 (14 unrouted), using 1097.77 CPU seconds and 41082 MB memory.
+2026-11-19 21:44:03.993 INFO   [B53961\407DC7] Auto-router pass #25 on board '9f027d0a8d09d11598e04d9bbdcea708' was completed in 1.67 seconds with the score of 968.76 (11 unrouted), using 1192.69 CPU seconds and 42591 MB memory.
+2026-11-19 21:44:06.265 INFO   [B53961\407DC7] Auto-router pass #26 on board 'f9508348ac1ae1395874ff8027ae0512' was completed in 2.25 seconds with the score of 974.65 (8 unrouted), using 1291.56 CPU seconds and 44643 MB memory.
+2026-11-19 21:44:07.562 INFO   [B53961\407DC7] Auto-router pass #27 on board '5b918b6f47a05336b4ac9d7f33e66a1d' was completed in 1.28 seconds with the score of 967.74 (11 unrouted), using 1342.47 CPU seconds and 45650 MB memory.
+2026-11-19 21:44:11.196 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 974.65 (8 unrouted).
+2026-11-19 21:44:11.196 INFO   [B53961\407DC7] Auto-router pass #28 on board '3b4ec73861210c1002c9dbcb8b5e279c' was completed in 3.62 seconds with the score of 963.42 (13 unrouted), using 1555.97 CPU seconds and 49290 MB memory.
+2026-11-19 21:44:12.407 INFO   [B53961\407DC7] Auto-router pass #29 on board '5b918b6f47a05336b4ac9d7f33e66a1d' was completed in 1.21 seconds with the score of 959.58 (14 unrouted), using 1611.78 CPU seconds and 50313 MB memory.
+2026-11-19 21:44:15.278 INFO   [B53961\407DC7] Auto-router pass #30 on board 'a2b4fd7a0b627a7497b8da0a2d1b90b0' was completed in 2.85 seconds with the score of 972.94 (9 unrouted), using 1785.20 CPU seconds and 52827 MB memory.
+2026-11-19 21:44:16.193 INFO   [B53961\407DC7] Auto-router pass #31 on board '8c00d56ad3d4cf49a1c56612601214e1' was completed in 0.90 seconds with the score of 974.94 (8 unrouted), using 1844.95 CPU seconds and 53793 MB memory.
+2026-11-19 21:44:20.178 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 974.94 (8 unrouted).
+2026-11-19 21:44:20.179 INFO   [B53961\407DC7] Auto-router pass #32 on board 'bcf9272bddb3008576cc2968e1c5deaa' was completed in 3.97 seconds with the score of 972.68 (9 unrouted), using 2093.95 CPU seconds and 57054 MB memory.
+2026-11-19 21:44:21.916 INFO   [B53961\407DC7] Auto-router pass #33 on board 'bcf9272bddb3008576cc2968e1c5deaa' was completed in 1.73 seconds with the score of 976.71 (7 unrouted), using 2224.47 CPU seconds and 58759 MB memory.
+2026-11-19 21:44:23.916 INFO   [B53961\407DC7] Auto-router pass #34 on board '30f0b739fa292a3b79859fcca4cc3602' was completed in 1.98 seconds with the score of 977.33 (7 unrouted), using 2358.86 CPU seconds and 60238 MB memory.
+2026-11-19 21:44:25.155 INFO   [B53961\407DC7] Auto-router pass #35 on board 'f65c9fdbe6ac641f75d685b8ae20c3ef' was completed in 1.22 seconds with the score of 970.18 (10 unrouted), using 2427.47 CPU seconds and 61165 MB memory.
+2026-11-19 21:44:25.228 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.228 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot read field "item" because "p_other" is null
+	at app.freerouting.autoroute.ObstacleExpansionRoom.create_overlap_door(ObstacleExpansionRoom.java:98) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate_neighbours(SortedRoomNeighbours.java:178) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate(SortedRoomNeighbours.java:45) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.calculate_doors(AutorouteEngine.java:520) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.complete_neighbour_rooms(AutorouteEngine.java:560) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:335) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:44:25.228 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot read field "item" because "p_other" is null
+	at app.freerouting.autoroute.ObstacleExpansionRoom.create_overlap_door(ObstacleExpansionRoom.java:98) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate_neighbours(SortedRoomNeighbours.java:178) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate(SortedRoomNeighbours.java:45) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.calculate_doors(AutorouteEngine.java:520) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.complete_neighbour_rooms(AutorouteEngine.java:560) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:335) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:44:25.277 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.280 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.281 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.281 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.357 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.358 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.470 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.470 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot read field "item" because "p_other" is null
+	at app.freerouting.autoroute.ObstacleExpansionRoom.create_overlap_door(ObstacleExpansionRoom.java:98) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate_neighbours(SortedRoomNeighbours.java:178) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate(SortedRoomNeighbours.java:45) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.calculate_doors(AutorouteEngine.java:520) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.complete_neighbour_rooms(AutorouteEngine.java:560) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:335) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:44:25.470 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot read field "item" because "p_other" is null
+	at app.freerouting.autoroute.ObstacleExpansionRoom.create_overlap_door(ObstacleExpansionRoom.java:98) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate_neighbours(SortedRoomNeighbours.java:178) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate(SortedRoomNeighbours.java:45) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.calculate_doors(AutorouteEngine.java:520) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.complete_neighbour_rooms(AutorouteEngine.java:560) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:335) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:44:25.537 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.537 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.550 WARN   ItemAutorouteInfo.get_expansion_room: p_index out of range
+2026-11-19 21:44:25.552 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot read field "item" because "p_other" is null
+	at app.freerouting.autoroute.ObstacleExpansionRoom.create_overlap_door(ObstacleExpansionRoom.java:98) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate_neighbours(SortedRoomNeighbours.java:178) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate(SortedRoomNeighbours.java:45) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.calculate_doors(AutorouteEngine.java:520) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.complete_neighbour_rooms(AutorouteEngine.java:560) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:335) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:44:25.552 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot read field "item" because "p_other" is null
+	at app.freerouting.autoroute.ObstacleExpansionRoom.create_overlap_door(ObstacleExpansionRoom.java:98) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate_neighbours(SortedRoomNeighbours.java:178) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.SortedRoomNeighbours.calculate(SortedRoomNeighbours.java:45) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.calculate_doors(AutorouteEngine.java:520) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.complete_neighbour_rooms(AutorouteEngine.java:560) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:335) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:44:26.287 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 977.33 (7 unrouted).
+2026-11-19 21:44:26.288 INFO   [B53961\407DC7] Auto-router pass #36 on board '9e3ba09d2feeb0972ef9416117b0c2cd' was completed in 1.12 seconds with the score of 960.11 (14 unrouted), using 2497.06 CPU seconds and 62112 MB memory.
+2026-11-19 21:44:27.158 INFO   [B53961\407DC7] Auto-router pass #37 on board 'f65c9fdbe6ac641f75d685b8ae20c3ef' was completed in 0.86 seconds with the score of 977.53 (7 unrouted), using 2567.64 CPU seconds and 62978 MB memory.
+2026-11-19 21:44:28.101 INFO   [B53961\407DC7] Auto-router pass #38 on board '307144b4f03bafc1d9db12ce3891717e' was completed in 0.93 seconds with the score of 973.19 (9 unrouted), using 2639.20 CPU seconds and 64012 MB memory.
+2026-11-19 21:44:28.790 INFO   [B53961\407DC7] Auto-router pass #39 on board '417b9bf5f1491144f74a5ead6deba69e' was completed in 0.68 seconds with the score of 979.29 (6 unrouted), using 2711.75 CPU seconds and 65099 MB memory.
+2026-11-19 21:44:31.873 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.29 (6 unrouted).
+2026-11-19 21:44:31.874 INFO   [B53961\407DC7] Auto-router pass #40 on board 'c737b028b2826f54017b4cbdac68e596' was completed in 3.06 seconds with the score of 972.57 (9 unrouted), using 2935.27 CPU seconds and 67053 MB memory.
+2026-11-19 21:44:33.405 INFO   [B53961\407DC7] Auto-router pass #41 on board 'c737b028b2826f54017b4cbdac68e596' was completed in 1.52 seconds with the score of 974.68 (8 unrouted), using 3011.69 CPU seconds and 67810 MB memory.
+2026-11-19 21:44:34.462 INFO   [B53961\407DC7] Auto-router pass #42 on board '581eed29eeb80d92e234bae1a76630eb' was completed in 1.03 seconds with the score of 976.94 (7 unrouted), using 3089.11 CPU seconds and 68479 MB memory.
+2026-11-19 21:44:35.329 INFO   [B53961\407DC7] Auto-router pass #43 on board 'd1c47938dff976da08078592b33ba52e' was completed in 0.84 seconds with the score of 976.17 (8 unrouted), using 3167.52 CPU seconds and 69229 MB memory.
+2026-11-19 21:44:38.752 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.29 (6 unrouted).
+2026-11-19 21:44:38.752 INFO   [B53961\407DC7] Auto-router pass #44 on board 'a9201621b99d4bc18bee89a389b11a2e' was completed in 3.40 seconds with the score of 974.75 (8 unrouted), using 3490.92 CPU seconds and 72715 MB memory.
+2026-11-19 21:44:39.563 INFO   [B53961\407DC7] Auto-router pass #45 on board 'c737b028b2826f54017b4cbdac68e596' was completed in 0.81 seconds with the score of 978.71 (6 unrouted), using 3490.92 CPU seconds and 72715 MB memory.
+2026-11-19 21:44:40.323 INFO   [B53961\407DC7] Auto-router pass #46 on board '5210db8691f11f8163ac5cfab3e4c19d' was completed in 0.75 seconds with the score of 977.65 (7 unrouted), using 3574.23 CPU seconds and 73894 MB memory.
+2026-11-19 21:44:41.407 INFO   [B53961\407DC7] Auto-router pass #47 on board '4ef3d116372fab78a8d9b37feed39669' was completed in 1.07 seconds with the score of 979.91 (6 unrouted), using 3658.53 CPU seconds and 75057 MB memory.
+2026-11-19 21:44:42.575 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.91 (6 unrouted).
+2026-11-19 21:44:42.577 INFO   [B53961\407DC7] Auto-router pass #48 on board '91e996eacbb5de2c562947c89894ba21' was completed in 1.15 seconds with the score of 972.06 (9 unrouted), using 3743.80 CPU seconds and 76214 MB memory.
+2026-11-19 21:44:43.251 INFO   [B53961\407DC7] Auto-router pass #49 on board '91e996eacbb5de2c562947c89894ba21' was completed in 0.67 seconds with the score of 960.82 (13 unrouted), using 3829.98 CPU seconds and 77200 MB memory.
+2026-11-19 21:44:44.470 INFO   [B53961\407DC7] Auto-router pass #50 on board 'fb583b2530688459e86f08a3e1b68da9' was completed in 1.21 seconds with the score of 974.12 (8 unrouted), using 3917.14 CPU seconds and 78390 MB memory.
+2026-11-19 21:44:44.859 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:44:44.860 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:44:44.860 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:44:44.894 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:44:44.895 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:44:44.895 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:44:44.915 WARN   PolylineTrace.get_trace_connection_shape p_index out of range
+2026-11-19 21:44:44.915 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:44:44.915 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2026-11-19 21:44:45.135 INFO   [B53961\407DC7] Auto-router pass #51 on board '70a905b3f64b65ca436fd7965a941944' was completed in 0.65 seconds with the score of 974.70 (8 unrouted), using 4005.27 CPU seconds and 79564 MB memory.
+2026-11-19 21:44:49.322 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.91 (6 unrouted).
+2026-11-19 21:44:49.322 INFO   [B53961\407DC7] Auto-router pass #52 on board 'bb59c506e43b5ee4c2ca75a386d5cc73' was completed in 4.17 seconds with the score of 968.11 (11 unrouted), using 4367.62 CPU seconds and 83194 MB memory.
+2026-11-19 21:44:50.066 INFO   [B53961\407DC7] Auto-router pass #53 on board '91e996eacbb5de2c562947c89894ba21' was completed in 0.74 seconds with the score of 975.83 (8 unrouted), using 4460.64 CPU seconds and 84184 MB memory.
+2026-11-19 21:44:50.485 INFO   [B53961\407DC7] Auto-router pass #54 on board 'b517b70ea21be5110953626b421f79fc' was completed in 0.40 seconds with the score of 975.35 (8 unrouted), using 4460.64 CPU seconds and 84184 MB memory.
+2026-11-19 21:44:50.926 INFO   [B53961\407DC7] Auto-router pass #55 on board '40029b427db28db4a2a78a829ff91a28' was completed in 0.43 seconds with the score of 975.30 (8 unrouted), using 4554.61 CPU seconds and 85334 MB memory.
+2026-11-19 21:44:58.418 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.91 (6 unrouted).
+2026-11-19 21:44:58.419 INFO   [B53961\407DC7] Auto-router pass #56 on board '05cc641b9eca40e513a536eb6ccc5ffd' was completed in 7.48 seconds with the score of 953.34 (17 unrouted), using 5239.77 CPU seconds and 89407 MB memory.
+2026-11-19 21:44:59.848 INFO   [B53961\407DC7] Auto-router pass #57 on board '91e996eacbb5de2c562947c89894ba21' was completed in 1.42 seconds with the score of 961.06 (14 unrouted), using 5444.27 CPU seconds and 90962 MB memory.
+2026-11-19 21:45:01.871 INFO   [B53961\407DC7] Auto-router pass #58 on board '86a3d0bad9b286c15108514b6ede8d79' was completed in 2.01 seconds with the score of 981.42 (5 unrouted), using 5652.72 CPU seconds and 93262 MB memory.
+2026-11-19 21:45:01.960 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.960 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.961 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.961 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.962 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.962 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.962 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:01.962 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.005 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.005 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.005 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.005 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.006 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.006 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.007 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.007 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.007 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.007 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.007 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.007 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.008 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.008 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.008 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.008 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.009 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.009 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.009 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.009 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.010 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.012 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.012 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.012 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.012 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.012 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.013 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.013 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.013 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.013 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.014 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.014 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.014 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.014 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.015 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.015 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.015 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.015 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.016 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.016 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.016 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.016 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:45:02.017 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: Index 13 out of bounds for length 13
+	at app.freerouting.autoroute.MazeShoveTraceAlgo.check_shove_trace_line(MazeShoveTraceAlgo.java:123) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.shove_trace_room(MazeSearchAlgo.java:1214) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:443) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:45:02.017 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: Index 13 out of bounds for length 13
+	at app.freerouting.autoroute.MazeShoveTraceAlgo.check_shove_trace_line(MazeShoveTraceAlgo.java:123) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.shove_trace_room(MazeSearchAlgo.java:1214) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:443) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:45:02.346 INFO   [B53961\407DC7] Auto-router pass #59 on board '43473b88153425cefa7c45f2027c5551' was completed in 0.46 seconds with the score of 979.73 (6 unrouted), using 5652.72 CPU seconds and 93262 MB memory.
+2026-11-19 21:45:04.143 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.42 (5 unrouted).
+2026-11-19 21:45:04.146 INFO   [B53961\407DC7] Auto-router pass #60 on board '94b465130a4d5bee32c5ec045e463a91' was completed in 1.79 seconds with the score of 970.08 (10 unrouted), using 5865.11 CPU seconds and 95189 MB memory.
+2026-11-19 21:45:04.814 INFO   [B53961\407DC7] Auto-router pass #61 on board '43473b88153425cefa7c45f2027c5551' was completed in 0.66 seconds with the score of 975.24 (8 unrouted), using 5972.75 CPU seconds and 96101 MB memory.
+2026-11-19 21:45:06.165 INFO   [B53961\407DC7] Auto-router pass #62 on board '5a73e5d5f2886239131bcbe8c031e375' was completed in 1.33 seconds with the score of 965.63 (12 unrouted), using 6081.30 CPU seconds and 97004 MB memory.
+2026-11-19 21:45:08.089 INFO   [B53961\407DC7] Auto-router pass #63 on board 'a120f90641b1a9af85c0034b9c2e858d' was completed in 1.91 seconds with the score of 974.60 (8 unrouted), using 6301.33 CPU seconds and 98732 MB memory.
+2026-11-19 21:45:10.728 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.42 (5 unrouted).
+2026-11-19 21:45:10.729 INFO   [B53961\407DC7] Auto-router pass #64 on board '9e800a08940902164c730ad4d649c97f' was completed in 2.63 seconds with the score of 979.57 (6 unrouted), using 6525.12 CPU seconds and 100537 MB memory.
+2026-11-19 21:45:11.428 INFO   [B53961\407DC7] Auto-router pass #65 on board '43473b88153425cefa7c45f2027c5551' was completed in 0.69 seconds with the score of 979.65 (6 unrouted), using 6638.50 CPU seconds and 101455 MB memory.
+2026-11-19 21:45:12.330 INFO   [B53961\407DC7] Auto-router pass #66 on board 'd7dc7818485ae6b888864c0e4314df58' was completed in 0.89 seconds with the score of 972.65 (9 unrouted), using 6752.83 CPU seconds and 102515 MB memory.
+2026-11-19 21:45:14.018 INFO   [B53961\407DC7] Auto-router pass #67 on board '1a6f9aff572cdea7fede33f3040031a1' was completed in 1.68 seconds with the score of 977.14 (7 unrouted), using 6984.47 CPU seconds and 104424 MB memory.
+2026-11-19 21:45:16.126 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.42 (5 unrouted).
+2026-11-19 21:45:16.127 INFO   [B53961\407DC7] Auto-router pass #68 on board '8e3b074d9dfa8ce2e9399e420a4e2c64' was completed in 2.09 seconds with the score of 973.10 (9 unrouted), using 7220.05 CPU seconds and 106024 MB memory.
+2026-11-19 21:45:17.418 INFO   [B53961\407DC7] Auto-router pass #69 on board '43473b88153425cefa7c45f2027c5551' was completed in 1.28 seconds with the score of 973.60 (9 unrouted), using 7339.31 CPU seconds and 107023 MB memory.
+2026-11-19 21:45:18.869 INFO   [B53961\407DC7] Auto-router pass #70 on board 'fe0a408305d096ef65d40c699138e324' was completed in 1.44 seconds with the score of 970.44 (10 unrouted), using 7580.70 CPU seconds and 108658 MB memory.
+2026-11-19 21:45:20.697 INFO   [B53961\407DC7] Auto-router pass #71 on board '40ba0e66579b1356f97019df10e55207' was completed in 1.80 seconds with the score of 964.64 (12 unrouted), using 7702.86 CPU seconds and 109468 MB memory.
+2026-11-19 21:45:23.210 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.42 (5 unrouted).
+2026-11-19 21:45:23.211 INFO   [B53961\407DC7] Auto-router pass #72 on board 'f6f35f53a43fc868c1ccfc3907288378' was completed in 2.50 seconds with the score of 974.03 (8 unrouted), using 8075.28 CPU seconds and 112443 MB memory.
+2026-11-19 21:45:24.799 INFO   [B53961\407DC7] Auto-router pass #73 on board '43473b88153425cefa7c45f2027c5551' was completed in 1.58 seconds with the score of 972.37 (9 unrouted), using 8328.41 CPU seconds and 114188 MB memory.
+2026-11-19 21:45:25.834 INFO   [B53961\407DC7] Auto-router pass #74 on board 'dac414492d059c2d36aff96113cec1a6' was completed in 1.02 seconds with the score of 972.10 (9 unrouted), using 8456.45 CPU seconds and 115286 MB memory.
+2026-11-19 21:45:27.419 INFO   [B53961\407DC7] Auto-router pass #75 on board '0112dec7b00e3b04fa85a3527e62de73' was completed in 1.57 seconds with the score of 964.10 (12 unrouted), using 8585.48 CPU seconds and 116471 MB memory.
+2026-11-19 21:45:32.761 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.91 (6 unrouted).
+2026-11-19 21:45:32.762 INFO   [B53961\407DC7] Auto-router pass #76 on board '2312b3c780d33108a3454953601f97d9' was completed in 5.33 seconds with the score of 978.62 (6 unrouted), using 9245.34 CPU seconds and 121116 MB memory.
+2026-11-19 21:45:33.814 INFO   [B53961\407DC7] Auto-router pass #77 on board '91e996eacbb5de2c562947c89894ba21' was completed in 1.05 seconds with the score of 973.59 (9 unrouted), using 9516.19 CPU seconds and 123278 MB memory.
+2026-11-19 21:45:34.384 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 10
+	at app.freerouting.autoroute.MazeShoveTraceAlgo.check_shove_trace_line(MazeShoveTraceAlgo.java:123) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.shove_trace_room(MazeSearchAlgo.java:1214) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:443) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:45:34.384 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 10
+	at app.freerouting.autoroute.MazeShoveTraceAlgo.check_shove_trace_line(MazeShoveTraceAlgo.java:123) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.shove_trace_room(MazeSearchAlgo.java:1214) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:443) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:45:34.427 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 11
+	at app.freerouting.autoroute.MazeShoveTraceAlgo.check_shove_trace_line(MazeShoveTraceAlgo.java:123) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.shove_trace_room(MazeSearchAlgo.java:1214) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:443) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:45:34.427 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 11
+	at app.freerouting.autoroute.MazeShoveTraceAlgo.check_shove_trace_line(MazeShoveTraceAlgo.java:123) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.shove_trace_room(MazeSearchAlgo.java:1214) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:443) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:286) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:206) ~[freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:155) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:610) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:332) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:447) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:131) [freerouting-2.1.0.jar:unspecified]
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:26) [freerouting-2.1.0.jar:unspecified]
+2026-11-19 21:45:34.540 INFO   [B53961\407DC7] Auto-router pass #78 on board '775bc5eed4c0570a07967ac498e4eeb0' was completed in 0.71 seconds with the score of 970.90 (10 unrouted), using 9516.19 CPU seconds and 123278 MB memory.
+2026-11-19 21:45:35.240 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: null
+2026-11-19 21:45:35.240 ERROR  AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.ArrayIndexOutOfBoundsException: null
+2026-11-19 21:45:35.295 INFO   [B53961\407DC7] Auto-router pass #79 on board 'bc79266f1010f559de3f142d8ee6b298' was completed in 0.74 seconds with the score of 955.36 (16 unrouted), using 9653.03 CPU seconds and 124323 MB memory.
+2026-11-19 21:45:41.177 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.73 (6 unrouted).
+2026-11-19 21:45:41.177 INFO   [B53961\407DC7] Auto-router pass #80 on board '69cb250797ee8534bf7e7edfddbf0811' was completed in 5.87 seconds with the score of 971.43 (10 unrouted), using 10494.22 CPU seconds and 128738 MB memory.
+2026-11-19 21:45:42.274 INFO   [B53961\407DC7] Auto-router pass #81 on board '94b465130a4d5bee32c5ec045e463a91' was completed in 1.09 seconds with the score of 962.85 (13 unrouted), using 10637.81 CPU seconds and 129852 MB memory.
+2026-11-19 21:45:44.381 INFO   [B53961\407DC7] Auto-router pass #82 on board '9bd512b942688defafb5804f18723d42' was completed in 2.10 seconds with the score of 976.36 (8 unrouted), using 10927.91 CPU seconds and 131994 MB memory.
+2026-11-19 21:45:45.263 INFO   [B53961\407DC7] Auto-router pass #83 on board '1bf959657811aa82be71aecd9a882c0d' was completed in 0.87 seconds with the score of 970.15 (11 unrouted), using 11074.42 CPU seconds and 133171 MB memory.
+2026-11-19 21:45:48.548 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.73 (6 unrouted).
+2026-11-19 21:45:48.548 INFO   [B53961\407DC7] Auto-router pass #84 on board '8e6a67e8a469c4a7bdbd10667b7f54e4' was completed in 3.27 seconds with the score of 973.31 (9 unrouted), using 11519.95 CPU seconds and 135902 MB memory.
+2026-11-19 21:45:50.090 INFO   [B53961\407DC7] Auto-router pass #85 on board '94b465130a4d5bee32c5ec045e463a91' was completed in 1.53 seconds with the score of 968.65 (11 unrouted), using 11821.86 CPU seconds and 137636 MB memory.
+2026-11-19 21:45:51.421 INFO   [B53961\407DC7] Auto-router pass #86 on board '84cfbf5d6dc6c7f19b64674a60668512' was completed in 1.32 seconds with the score of 974.17 (8 unrouted), using 11974.28 CPU seconds and 138532 MB memory.
+2026-11-19 21:45:52.475 INFO   [B53961\407DC7] Auto-router pass #87 on board '88b56121ef239dce15940b4e3a2020c8' was completed in 1.04 seconds with the score of 973.07 (9 unrouted), using 12127.67 CPU seconds and 139659 MB memory.
+2026-11-19 21:45:54.795 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.73 (6 unrouted).
+2026-11-19 21:45:54.797 INFO   [B53961\407DC7] Auto-router pass #88 on board '65002694f4a15019705076b1fba9f853' was completed in 2.31 seconds with the score of 967.78 (11 unrouted), using 12437.41 CPU seconds and 141602 MB memory.
+2026-11-19 21:45:55.820 INFO   [B53961\407DC7] Auto-router pass #89 on board '94b465130a4d5bee32c5ec045e463a91' was completed in 1.02 seconds with the score of 967.24 (11 unrouted), using 12593.75 CPU seconds and 142613 MB memory.
+2026-11-19 21:45:56.532 INFO   [B53961\407DC7] Auto-router pass #90 on board 'ff5b0d8e6f506f064ba0124d52c60bc1' was completed in 0.70 seconds with the score of 981.40 (5 unrouted), using 12751.09 CPU seconds and 143702 MB memory.
+2026-11-19 21:45:57.265 INFO   [B53961\407DC7] Auto-router pass #91 on board 'eb6baf9f1b88767648de74eab0e92325' was completed in 0.72 seconds with the score of 973.84 (9 unrouted), using 12909.44 CPU seconds and 144942 MB memory.
+2026-11-19 21:45:58.135 WARN   Polyline: must contain at least 2 different points
+2026-11-19 21:45:59.268 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.40 (5 unrouted).
+2026-11-19 21:45:59.269 INFO   [B53961\407DC7] Auto-router pass #92 on board 'd8c04148f820469af7220ba46ad7aa0c' was completed in 1.99 seconds with the score of 968.67 (11 unrouted), using 13229.03 CPU seconds and 146880 MB memory.
+2026-11-19 21:45:59.976 INFO   [B53961\407DC7] Auto-router pass #93 on board 'eb6baf9f1b88767648de74eab0e92325' was completed in 0.70 seconds with the score of 970.04 (10 unrouted), using 13390.28 CPU seconds and 147955 MB memory.
+2026-11-19 21:46:01.064 INFO   [B53961\407DC7] Auto-router pass #94 on board '595f22ed28e59539abe6c9c9ba76874c' was completed in 1.08 seconds with the score of 976.68 (7 unrouted), using 13552.50 CPU seconds and 149067 MB memory.
+2026-11-19 21:46:01.347 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:46:01.347 WARN   MazeShoveTraceAlgo.check_shove_trace_line: trace_corner_no to big
+2026-11-19 21:46:01.473 INFO   [B53961\407DC7] Auto-router pass #95 on board 'd90339904e41be426d1a2c38b4fd6ede' was completed in 0.40 seconds with the score of 970.13 (10 unrouted), using 13552.50 CPU seconds and 149067 MB memory.
+2026-11-19 21:46:05.193 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.40 (5 unrouted).
+2026-11-19 21:46:05.193 INFO   [B53961\407DC7] Auto-router pass #96 on board 'ff59db2eba421fb6d4ef905fd4e5556b' was completed in 3.71 seconds with the score of 965.07 (12 unrouted), using 14211.30 CPU seconds and 152886 MB memory.
+2026-11-19 21:46:05.898 INFO   [B53961\407DC7] Auto-router pass #97 on board 'eb6baf9f1b88767648de74eab0e92325' was completed in 0.70 seconds with the score of 968.93 (11 unrouted), using 14378.48 CPU seconds and 153950 MB memory.
+2026-11-19 21:46:07.020 INFO   [B53961\407DC7] Auto-router pass #98 on board 'ce89f04341e31b612ebbe702e1672a68' was completed in 1.11 seconds with the score of 972.59 (9 unrouted), using 14546.64 CPU seconds and 154911 MB memory.
+2026-11-19 21:46:08.732 INFO   [B53961\407DC7] Auto-router pass #99 on board '4a516f61d660220f9bfcb331e1f1f4f5' was completed in 1.70 seconds with the score of 963.84 (13 unrouted), using 14715.72 CPU seconds and 155907 MB memory.
+2026-11-19 21:46:12.200 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.40 (5 unrouted).
+2026-11-19 21:46:12.201 INFO   [B53961\407DC7] Auto-router pass #100 on board 'f0e1c67b8f1b99a0c4724d21724eea61' was completed in 3.46 seconds with the score of 980.30 (6 unrouted), using 15401.88 CPU seconds and 159162 MB memory.
+2026-11-19 21:46:13.045 INFO   [B53961\407DC7] Auto-router pass #101 on board 'eb6baf9f1b88767648de74eab0e92325' was completed in 0.84 seconds with the score of 977.16 (7 unrouted), using 15575.89 CPU seconds and 160212 MB memory.
+2026-11-19 21:46:13.889 INFO   [B53961\407DC7] Auto-router pass #102 on board '4fff64282dd1e58ef2e4370132d5a850' was completed in 0.83 seconds with the score of 977.23 (7 unrouted), using 15750.86 CPU seconds and 161395 MB memory.
+2026-11-19 21:46:14.609 INFO   [B53961\407DC7] Auto-router pass #103 on board '494e0a4aad7b95b2a4c2c08c0e890e85' was completed in 0.71 seconds with the score of 970.30 (10 unrouted), using 15750.86 CPU seconds and 161395 MB memory.
+2026-11-19 21:46:17.305 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 981.40 (5 unrouted).
+2026-11-19 21:46:17.305 INFO   [B53961\407DC7] Auto-router pass #104 on board 'ab4a2e280ce166fc4c4a69efcf6a2c16' was completed in 2.68 seconds with the score of 974.72 (8 unrouted), using 16281.64 CPU seconds and 164479 MB memory.
+2026-11-19 21:46:17.901 INFO   [B53961\407DC7] Auto-router pass #105 on board 'eb6baf9f1b88767648de74eab0e92325' was completed in 0.59 seconds with the score of 973.16 (9 unrouted), using 16460.53 CPU seconds and 165558 MB memory.
+2026-11-19 21:46:18.866 INFO   [B53961\407DC7] Auto-router pass #106 on board 'c77bbeec9dc8c17a8f5ac6366ab93d42' was completed in 0.95 seconds with the score of 968.00 (11 unrouted), using 16640.39 CPU seconds and 166783 MB memory.
+2026-11-19 21:46:19.602 INFO   [B53961\407DC7] Auto-router pass #107 on board '45d89e17039cf8bfe7e58aa5e8e26e25' was completed in 0.72 seconds with the score of 971.89 (9 unrouted), using 16640.39 CPU seconds and 166783 MB memory.
+2026-11-19 21:46:23.109 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 979.73 (6 unrouted).
+2026-11-19 21:46:23.110 INFO   [B53961\407DC7] Auto-router pass #108 on board 'e754a6ba9842a2714f2ecb37fce7789b' was completed in 3.50 seconds with the score of 977.33 (7 unrouted), using 17369.55 CPU seconds and 170895 MB memory.
+2026-11-19 21:46:24.613 INFO   [B53961\407DC7] Auto-router pass #109 on board '94b465130a4d5bee32c5ec045e463a91' was completed in 1.50 seconds with the score of 970.32 (10 unrouted), using 17554.27 CPU seconds and 171664 MB memory.
+2026-11-19 21:46:26.421 INFO   [B53961\407DC7] Auto-router pass #110 on board '35859a3823d39ee6af854a794bdffe84' was completed in 1.78 seconds with the score of 974.89 (8 unrouted), using 17926.53 CPU seconds and 173204 MB memory.
+2026-11-19 21:46:26.993 INFO   [B53961\407DC7] Auto-router pass #111 on board '337ccf213ad2b20f30aefd62948e3a2e' was completed in 0.55 seconds with the score of 985.91 (3 unrouted), using 18114.11 CPU seconds and 174008 MB memory.
+2026-11-19 21:46:28.051 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.91 (3 unrouted).
+2026-11-19 21:46:28.051 INFO   [B53961\407DC7] Auto-router pass #112 on board '0f1a51fb4acfc1c7362d70eb989717b7' was completed in 1.04 seconds with the score of 979.05 (6 unrouted), using 18302.64 CPU seconds and 174708 MB memory.
+2026-11-19 21:46:28.291 INFO   [B53961\407DC7] Auto-router pass #113 on board '0f1a51fb4acfc1c7362d70eb989717b7' was completed in 0.23 seconds with the score of 983.69 (4 unrouted), using 18302.64 CPU seconds and 174708 MB memory.
+2026-11-19 21:46:28.809 INFO   [B53961\407DC7] Auto-router pass #114 on board '4bf7a4d7a168bda602aea9c09a19cd66' was completed in 0.51 seconds with the score of 983.92 (4 unrouted), using 18302.64 CPU seconds and 174708 MB memory.
+2026-11-19 21:46:29.167 INFO   [B53961\407DC7] Auto-router pass #115 on board '93664652a308c94e5ee7dedb0b540ca2' was completed in 0.34 seconds with the score of 986.31 (3 unrouted), using 18492.12 CPU seconds and 175584 MB memory.
+2026-11-19 21:46:29.771 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.31 (3 unrouted).
+2026-11-19 21:46:29.772 INFO   [B53961\407DC7] Auto-router pass #116 on board '4b8c3f4b515de39befe73a13eea4e207' was completed in 0.59 seconds with the score of 984.34 (4 unrouted), using 18492.12 CPU seconds and 175584 MB memory.
+2026-11-19 21:46:30.105 INFO   [B53961\407DC7] Auto-router pass #117 on board '4b8c3f4b515de39befe73a13eea4e207' was completed in 0.33 seconds with the score of 979.30 (6 unrouted), using 18682.53 CPU seconds and 176655 MB memory.
+2026-11-19 21:46:30.806 INFO   [B53961\407DC7] Auto-router pass #118 on board 'ec30a81ba7362c33f87211eae0fe67e5' was completed in 0.69 seconds with the score of 977.39 (7 unrouted), using 18682.53 CPU seconds and 176655 MB memory.
+2026-11-19 21:46:31.791 INFO   [B53961\407DC7] Auto-router pass #119 on board 'dcc12f690922b6240637a262688d6db1' was completed in 0.97 seconds with the score of 977.10 (8 unrouted), using 18873.94 CPU seconds and 177808 MB memory.
+2026-11-19 21:46:35.502 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.31 (3 unrouted).
+2026-11-19 21:46:35.503 INFO   [B53961\407DC7] Auto-router pass #120 on board '97b4a0700709183974c6b27150fb1d7b' was completed in 3.70 seconds with the score of 979.74 (6 unrouted), using 19649.22 CPU seconds and 181188 MB memory.
+2026-11-19 21:46:35.844 INFO   [B53961\407DC7] Auto-router pass #121 on board '4b8c3f4b515de39befe73a13eea4e207' was completed in 0.34 seconds with the score of 979.56 (6 unrouted), using 19649.22 CPU seconds and 181188 MB memory.
+2026-11-19 21:46:36.477 INFO   [B53961\407DC7] Auto-router pass #122 on board '6e131428e0e1bb8c42902df9d08ed821' was completed in 0.62 seconds with the score of 977.57 (7 unrouted), using 19845.47 CPU seconds and 182219 MB memory.
+2026-11-19 21:46:36.964 INFO   [B53961\407DC7] Auto-router pass #123 on board 'f53c84101bc3c87f83ce745867b1f9be' was completed in 0.47 seconds with the score of 983.49 (4 unrouted), using 20042.70 CPU seconds and 183431 MB memory.
+2026-11-19 21:46:37.609 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.31 (3 unrouted).
+2026-11-19 21:46:37.609 INFO   [B53961\407DC7] Auto-router pass #124 on board '42476748386d07565e9e1e0cf0171f11' was completed in 0.63 seconds with the score of 981.08 (5 unrouted), using 20042.70 CPU seconds and 183431 MB memory.
+2026-11-19 21:46:37.893 INFO   [B53961\407DC7] Auto-router pass #125 on board '4b8c3f4b515de39befe73a13eea4e207' was completed in 0.28 seconds with the score of 983.78 (4 unrouted), using 20240.92 CPU seconds and 184520 MB memory.
+2026-11-19 21:46:38.159 INFO   [B53961\407DC7] Auto-router pass #126 on board '841cf682ab685d53a6076e4f70d6a8aa' was completed in 0.26 seconds with the score of 976.97 (7 unrouted), using 20240.92 CPU seconds and 184520 MB memory.
+2026-11-19 21:46:39.283 INFO   [B53961\407DC7] Auto-router pass #127 on board '979a6169f383ba05cbe6351ff817d884' was completed in 1.11 seconds with the score of 981.26 (5 unrouted), using 20440.14 CPU seconds and 185644 MB memory.
+2026-11-19 21:46:41.385 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.31 (3 unrouted).
+2026-11-19 21:46:41.385 INFO   [B53961\407DC7] Auto-router pass #128 on board 'f7d8730f208706c956be317c10db7cc9' was completed in 2.08 seconds with the score of 979.31 (6 unrouted), using 20841.52 CPU seconds and 187295 MB memory.
+2026-11-19 21:46:41.715 INFO   [B53961\407DC7] Auto-router pass #129 on board '4b8c3f4b515de39befe73a13eea4e207' was completed in 0.32 seconds with the score of 985.93 (3 unrouted), using 20841.52 CPU seconds and 187295 MB memory.
+2026-11-19 21:46:41.949 INFO   [B53961\407DC7] Auto-router pass #130 on board '95d3bcc34a313e65224184ff0a3f375a' was completed in 0.22 seconds with the score of 983.91 (4 unrouted), using 21043.67 CPU seconds and 188251 MB memory.
+2026-11-19 21:46:42.574 INFO   [B53961\407DC7] Auto-router pass #131 on board '83de1c3fcf83361b74e363e775fd508d' was completed in 0.61 seconds with the score of 980.49 (6 unrouted), using 21043.67 CPU seconds and 188251 MB memory.
+2026-11-19 21:46:43.438 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.93 (3 unrouted).
+2026-11-19 21:46:43.438 INFO   [B53961\407DC7] Auto-router pass #132 on board '8467fa1537805aba097560f385725e77' was completed in 0.85 seconds with the score of 970.54 (10 unrouted), using 21246.81 CPU seconds and 189340 MB memory.
+2026-11-19 21:46:43.783 INFO   [B53961\407DC7] Auto-router pass #133 on board '95d3bcc34a313e65224184ff0a3f375a' was completed in 0.34 seconds with the score of 985.66 (3 unrouted), using 21246.81 CPU seconds and 189340 MB memory.
+2026-11-19 21:46:44.178 INFO   [B53961\407DC7] Auto-router pass #134 on board 'fa30cdd37c3c5ca8925f2476913f21e8' was completed in 0.38 seconds with the score of 981.35 (5 unrouted), using 21450.94 CPU seconds and 190468 MB memory.
+2026-11-19 21:46:44.427 INFO   [B53961\407DC7] Auto-router pass #135 on board '20758ebe326997fac561516e84a75a47' was completed in 0.24 seconds with the score of 985.79 (3 unrouted), using 21450.94 CPU seconds and 190468 MB memory.
+2026-11-19 21:46:45.827 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.93 (3 unrouted).
+2026-11-19 21:46:45.827 INFO   [B53961\407DC7] Auto-router pass #136 on board '7b71613a7d8899fe6f51dcc8f867001b' was completed in 1.39 seconds with the score of 979.20 (6 unrouted), using 21656.06 CPU seconds and 191586 MB memory.
+2026-11-19 21:46:46.109 INFO   [B53961\407DC7] Auto-router pass #137 on board '95d3bcc34a313e65224184ff0a3f375a' was completed in 0.28 seconds with the score of 983.75 (4 unrouted), using 21862.17 CPU seconds and 192610 MB memory.
+2026-11-19 21:46:46.822 INFO   [B53961\407DC7] Auto-router pass #138 on board '6c032872c41a5297c8154a58723f34ad' was completed in 0.70 seconds with the score of 983.32 (4 unrouted), using 21862.17 CPU seconds and 192610 MB memory.
+2026-11-19 21:46:47.527 INFO   [B53961\407DC7] Auto-router pass #139 on board '8c305b342d78a580be3cfad9d00e7b90' was completed in 0.69 seconds with the score of 977.52 (7 unrouted), using 22069.28 CPU seconds and 193586 MB memory.
+2026-11-19 21:46:50.271 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.93 (3 unrouted).
+2026-11-19 21:46:50.272 INFO   [B53961\407DC7] Auto-router pass #140 on board '86ae2df4b107209adb504183864fd38b' was completed in 2.73 seconds with the score of 981.56 (5 unrouted), using 22696.53 CPU seconds and 196211 MB memory.
+2026-11-19 21:46:50.475 INFO   [B53961\407DC7] Auto-router pass #141 on board '95d3bcc34a313e65224184ff0a3f375a' was completed in 0.20 seconds with the score of 986.00 (3 unrouted), using 22696.53 CPU seconds and 196211 MB memory.
+2026-11-19 21:46:50.855 INFO   [B53961\407DC7] Auto-router pass #142 on board '8f3845bebf2db7d41d516b1e2f15fe48' was completed in 0.34 seconds with the score of 983.82 (4 unrouted), using 22696.53 CPU seconds and 196211 MB memory.
+2026-11-19 21:46:51.515 INFO   [B53961\407DC7] Auto-router pass #143 on board 'e1e3bc23b40b88440f89645cb6a7b495' was completed in 0.64 seconds with the score of 978.14 (7 unrouted), using 22907.53 CPU seconds and 196994 MB memory.
+2026-11-19 21:46:52.915 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.00 (3 unrouted).
+2026-11-19 21:46:52.916 INFO   [B53961\407DC7] Auto-router pass #144 on board '635a9cc4d2011cbbe44f6abb436e2b6c' was completed in 1.39 seconds with the score of 982.65 (5 unrouted), using 23332.42 CPU seconds and 198691 MB memory.
+2026-11-19 21:46:53.130 INFO   [B53961\407DC7] Auto-router pass #145 on board '8f3845bebf2db7d41d516b1e2f15fe48' was completed in 0.20 seconds with the score of 983.55 (4 unrouted), using 23332.42 CPU seconds and 198691 MB memory.
+2026-11-19 21:46:53.695 INFO   [B53961\407DC7] Auto-router pass #146 on board 'e72bae00d08e7fc393f3add00a9fed3c' was completed in 0.55 seconds with the score of 977.06 (7 unrouted), using 23332.42 CPU seconds and 198691 MB memory.
+2026-11-19 21:46:54.262 INFO   [B53961\407DC7] Auto-router pass #147 on board 'd11668029d9a81b08666823f277b3563' was completed in 0.56 seconds with the score of 981.59 (5 unrouted), using 23546.38 CPU seconds and 199803 MB memory.
+2026-11-19 21:46:57.158 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.00 (3 unrouted).
+2026-11-19 21:46:57.158 INFO   [B53961\407DC7] Auto-router pass #148 on board '271ff9c178c65074ce9128fa05258fe6' was completed in 2.88 seconds with the score of 975.34 (8 unrouted), using 24194.05 CPU seconds and 202552 MB memory.
+2026-11-19 21:46:57.397 INFO   [B53961\407DC7] Auto-router pass #149 on board '8f3845bebf2db7d41d516b1e2f15fe48' was completed in 0.23 seconds with the score of 985.98 (3 unrouted), using 24194.05 CPU seconds and 202552 MB memory.
+2026-11-19 21:46:57.713 INFO   [B53961\407DC7] Auto-router pass #150 on board '18442e01ef380a432fc0a8ab2ed06591' was completed in 0.29 seconds with the score of 985.89 (3 unrouted), using 24194.05 CPU seconds and 202552 MB memory.
+2026-11-19 21:46:58.043 INFO   [B53961\407DC7] Auto-router pass #151 on board 'b47e8cde9ca53967d69cd0ecf94e98c8' was completed in 0.31 seconds with the score of 983.75 (4 unrouted), using 24411.94 CPU seconds and 203422 MB memory.
+2026-11-19 21:46:58.537 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.00 (3 unrouted).
+2026-11-19 21:46:58.538 INFO   [B53961\407DC7] Auto-router pass #152 on board 'eb52748658a4ff4d383d80df2806b175' was completed in 0.48 seconds with the score of 981.86 (5 unrouted), using 24411.94 CPU seconds and 203422 MB memory.
+2026-11-19 21:46:58.721 INFO   [B53961\407DC7] Auto-router pass #153 on board '8f3845bebf2db7d41d516b1e2f15fe48' was completed in 0.18 seconds with the score of 983.82 (4 unrouted), using 24411.94 CPU seconds and 203422 MB memory.
+2026-11-19 21:46:59.034 INFO   [B53961\407DC7] Auto-router pass #154 on board 'e1e3bc23b40b88440f89645cb6a7b495' was completed in 0.31 seconds with the score of 983.96 (4 unrouted), using 24630.83 CPU seconds and 204595 MB memory.
+2026-11-19 21:46:59.316 INFO   [B53961\407DC7] Auto-router pass #155 on board '1d86d24a57520414512d7efdb04a8262' was completed in 0.27 seconds with the score of 975.17 (8 unrouted), using 24630.83 CPU seconds and 204595 MB memory.
+2026-11-19 21:47:00.782 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.00 (3 unrouted).
+2026-11-19 21:47:00.783 INFO   [B53961\407DC7] Auto-router pass #156 on board 'd4916584656b92ecdda87d2905ba776a' was completed in 1.46 seconds with the score of 981.59 (5 unrouted), using 24850.69 CPU seconds and 205707 MB memory.
+2026-11-19 21:47:00.928 INFO   [B53961\407DC7] Auto-router pass #157 on board '8f3845bebf2db7d41d516b1e2f15fe48' was completed in 0.14 seconds with the score of 983.58 (4 unrouted), using 25071.52 CPU seconds and 206861 MB memory.
+2026-11-19 21:47:01.177 INFO   [B53961\407DC7] Auto-router pass #158 on board '9d6c0ac7b86f86f4b778c293d0319a90' was completed in 0.24 seconds with the score of 979.08 (6 unrouted), using 25071.52 CPU seconds and 206861 MB memory.
+2026-11-19 21:47:01.724 INFO   [B53961\407DC7] Auto-router pass #159 on board 'f4be552ff3b27b1e17f69f067c8b9b0d' was completed in 0.54 seconds with the score of 981.73 (5 unrouted), using 25071.52 CPU seconds and 206861 MB memory.
+2026-11-19 21:47:03.239 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.98 (3 unrouted).
+2026-11-19 21:47:03.239 INFO   [B53961\407DC7] Auto-router pass #160 on board '8037b49ce53439284ea7ccf060946839' was completed in 1.50 seconds with the score of 972.43 (9 unrouted), using 25516.05 CPU seconds and 209146 MB memory.
+2026-11-19 21:47:03.422 INFO   [B53961\407DC7] Auto-router pass #161 on board '18442e01ef380a432fc0a8ab2ed06591' was completed in 0.18 seconds with the score of 985.99 (3 unrouted), using 25516.05 CPU seconds and 209146 MB memory.
+2026-11-19 21:47:03.631 INFO   [B53961\407DC7] Auto-router pass #162 on board '0cbad8dd643e22ee0c98251b2af5cf1a' was completed in 0.20 seconds with the score of 983.93 (4 unrouted), using 25516.05 CPU seconds and 209146 MB memory.
+2026-11-19 21:47:03.892 INFO   [B53961\407DC7] Auto-router pass #163 on board 'bbe00c3b4d5f6ffc84ca7ac1e4e16479' was completed in 0.25 seconds with the score of 984.11 (4 unrouted), using 25516.05 CPU seconds and 209146 MB memory.
+2026-11-19 21:47:05.032 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:05.032 INFO   [B53961\407DC7] Auto-router pass #164 on board 'ce83d463f5d4f55f25db0dee1a0f0c6e' was completed in 1.13 seconds with the score of 981.47 (5 unrouted), using 25964.44 CPU seconds and 211368 MB memory.
+2026-11-19 21:47:05.225 INFO   [B53961\407DC7] Auto-router pass #165 on board '0cbad8dd643e22ee0c98251b2af5cf1a' was completed in 0.19 seconds with the score of 985.96 (3 unrouted), using 25964.44 CPU seconds and 211368 MB memory.
+2026-11-19 21:47:05.424 INFO   [B53961\407DC7] Auto-router pass #166 on board '7ba9e63d996f717f4d252af49fe41ff0' was completed in 0.18 seconds with the score of 983.82 (4 unrouted), using 25964.44 CPU seconds and 211368 MB memory.
+2026-11-19 21:47:05.919 INFO   [B53961\407DC7] Auto-router pass #167 on board 'f09f85776ed6fd3811c8673ff8006a4b' was completed in 0.48 seconds with the score of 979.66 (6 unrouted), using 25964.44 CPU seconds and 211368 MB memory.
+2026-11-19 21:47:08.276 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:08.276 INFO   [B53961\407DC7] Auto-router pass #168 on board '4ff945bcb6766dce23494155c5053dc6' was completed in 2.35 seconds with the score of 978.00 (7 unrouted), using 26644.36 CPU seconds and 214562 MB memory.
+2026-11-19 21:47:08.492 INFO   [B53961\407DC7] Auto-router pass #169 on board '0cbad8dd643e22ee0c98251b2af5cf1a' was completed in 0.21 seconds with the score of 983.99 (4 unrouted), using 26644.36 CPU seconds and 214562 MB memory.
+2026-11-19 21:47:09.002 INFO   [B53961\407DC7] Auto-router pass #170 on board 'd7d48098af59e142338bd533d6801ead' was completed in 0.50 seconds with the score of 981.87 (5 unrouted), using 26872.97 CPU seconds and 215667 MB memory.
+2026-11-19 21:47:09.748 INFO   [B53961\407DC7] Auto-router pass #171 on board '5a1ad0f886dad6f57addb7ea2f5779c7' was completed in 0.73 seconds with the score of 974.22 (8 unrouted), using 26872.97 CPU seconds and 215667 MB memory.
+2026-11-19 21:47:12.006 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:12.006 INFO   [B53961\407DC7] Auto-router pass #172 on board '64228e81d617932d31090ac2cd8e73e5' was completed in 2.25 seconds with the score of 974.76 (8 unrouted), using 27564.73 CPU seconds and 218489 MB memory.
+2026-11-19 21:47:12.199 INFO   [B53961\407DC7] Auto-router pass #173 on board '0cbad8dd643e22ee0c98251b2af5cf1a' was completed in 0.19 seconds with the score of 985.96 (3 unrouted), using 27564.73 CPU seconds and 218489 MB memory.
+2026-11-19 21:47:12.506 INFO   [B53961\407DC7] Auto-router pass #174 on board '387313d304e5608a11a40b42f58f54da' was completed in 0.29 seconds with the score of 983.80 (4 unrouted), using 27564.73 CPU seconds and 218489 MB memory.
+2026-11-19 21:47:12.815 INFO   [B53961\407DC7] Auto-router pass #175 on board '38c9d96437ff598377f78afdeee57200' was completed in 0.30 seconds with the score of 979.14 (6 unrouted), using 27564.73 CPU seconds and 218489 MB memory.
+2026-11-19 21:47:15.133 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:15.133 INFO   [B53961\407DC7] Auto-router pass #176 on board '61ea3e9440ca17c57fa1fa1a78e7bff7' was completed in 2.31 seconds with the score of 981.07 (5 unrouted), using 28265.31 CPU seconds and 221725 MB memory.
+2026-11-19 21:47:15.351 INFO   [B53961\407DC7] Auto-router pass #177 on board '0cbad8dd643e22ee0c98251b2af5cf1a' was completed in 0.21 seconds with the score of 981.89 (5 unrouted), using 28265.31 CPU seconds and 221725 MB memory.
+2026-11-19 21:47:15.887 INFO   [B53961\407DC7] Auto-router pass #178 on board '992272953f8cd55a9357eb76ef2510b3' was completed in 0.52 seconds with the score of 978.21 (7 unrouted), using 28265.31 CPU seconds and 221725 MB memory.
+2026-11-19 21:47:16.494 INFO   [B53961\407DC7] Auto-router pass #179 on board 'c9771e94f432a59a552936060ccac52f' was completed in 0.59 seconds with the score of 975.24 (8 unrouted), using 28500.78 CPU seconds and 222641 MB memory.
+2026-11-19 21:47:19.089 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.98 (3 unrouted).
+2026-11-19 21:47:19.090 INFO   [B53961\407DC7] Auto-router pass #180 on board '530cd7133f15828aeefe4805868d99a9' was completed in 2.57 seconds with the score of 983.79 (4 unrouted), using 29213.11 CPU seconds and 225332 MB memory.
+2026-11-19 21:47:19.291 INFO   [B53961\407DC7] Auto-router pass #181 on board '18442e01ef380a432fc0a8ab2ed06591' was completed in 0.20 seconds with the score of 985.99 (3 unrouted), using 29213.11 CPU seconds and 225332 MB memory.
+2026-11-19 21:47:19.518 INFO   [B53961\407DC7] Auto-router pass #182 on board 'bd9330a34ceb0517413cce51f0f2f130' was completed in 0.21 seconds with the score of 981.89 (5 unrouted), using 29213.11 CPU seconds and 225332 MB memory.
+2026-11-19 21:47:20.099 INFO   [B53961\407DC7] Auto-router pass #183 on board 'fdfc58af8c54fe48d989efc966ad20f9' was completed in 0.56 seconds with the score of 981.70 (5 unrouted), using 29452.52 CPU seconds and 226429 MB memory.
+2026-11-19 21:47:21.643 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:21.643 INFO   [B53961\407DC7] Auto-router pass #184 on board '3e9607b456d4958ded55b37680075e49' was completed in 1.53 seconds with the score of 979.45 (6 unrouted), using 29692.92 CPU seconds and 227304 MB memory.
+2026-11-19 21:47:21.876 INFO   [B53961\407DC7] Auto-router pass #185 on board 'bd9330a34ceb0517413cce51f0f2f130' was completed in 0.23 seconds with the score of 983.99 (4 unrouted), using 29692.92 CPU seconds and 227304 MB memory.
+2026-11-19 21:47:22.189 INFO   [B53961\407DC7] Auto-router pass #186 on board '87726858a5e45feea6f037ba44f26071' was completed in 0.30 seconds with the score of 986.10 (3 unrouted), using 29934.31 CPU seconds and 228301 MB memory.
+2026-11-19 21:47:22.463 INFO   [B53961\407DC7] Auto-router pass #187 on board '5e939faec50ee75f0b931550f1ae8c76' was completed in 0.25 seconds with the score of 981.67 (5 unrouted), using 29934.31 CPU seconds and 228301 MB memory.
+2026-11-19 21:47:24.015 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.10 (3 unrouted).
+2026-11-19 21:47:24.015 INFO   [B53961\407DC7] Auto-router pass #188 on board 'b3c71117139a467d85783930d690cf27' was completed in 1.54 seconds with the score of 978.83 (7 unrouted), using 30420.03 CPU seconds and 230106 MB memory.
+2026-11-19 21:47:24.239 INFO   [B53961\407DC7] Auto-router pass #189 on board '5e939faec50ee75f0b931550f1ae8c76' was completed in 0.22 seconds with the score of 981.59 (5 unrouted), using 30420.03 CPU seconds and 230106 MB memory.
+2026-11-19 21:47:24.757 INFO   [B53961\407DC7] Auto-router pass #190 on board 'f9facd9a2b0f8131a86392148a73b26e' was completed in 0.51 seconds with the score of 985.93 (3 unrouted), using 30420.03 CPU seconds and 230106 MB memory.
+2026-11-19 21:47:25.229 INFO   [B53961\407DC7] Auto-router pass #191 on board '47430ca46e046643c01b09cc55ed94cf' was completed in 0.45 seconds with the score of 983.73 (4 unrouted), using 30664.31 CPU seconds and 231185 MB memory.
+2026-11-19 21:47:26.333 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.10 (3 unrouted).
+2026-11-19 21:47:26.333 INFO   [B53961\407DC7] Auto-router pass #192 on board 'a5ae3d41cb80043e69ad195fc8750354' was completed in 1.09 seconds with the score of 976.81 (7 unrouted), using 30909.52 CPU seconds and 232134 MB memory.
+2026-11-19 21:47:26.558 INFO   [B53961\407DC7] Auto-router pass #193 on board '5e939faec50ee75f0b931550f1ae8c76' was completed in 0.22 seconds with the score of 983.96 (4 unrouted), using 30909.52 CPU seconds and 232134 MB memory.
+2026-11-19 21:47:26.857 INFO   [B53961\407DC7] Auto-router pass #194 on board '913e66800c9b9ce3a1991647677ebee5' was completed in 0.28 seconds with the score of 981.71 (5 unrouted), using 30909.52 CPU seconds and 232134 MB memory.
+2026-11-19 21:47:27.698 INFO   [B53961\407DC7] Auto-router pass #195 on board '181dd409a2a4c1cf0efb92006aec98ae' was completed in 0.82 seconds with the score of 984.00 (4 unrouted), using 31155.70 CPU seconds and 233004 MB memory.
+2026-11-19 21:47:28.646 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.10 (3 unrouted).
+2026-11-19 21:47:28.646 INFO   [B53961\407DC7] Auto-router pass #196 on board 'e0410548b11878ed26dcadd09fa22040' was completed in 0.93 seconds with the score of 983.97 (4 unrouted), using 31402.89 CPU seconds and 233887 MB memory.
+2026-11-19 21:47:28.877 INFO   [B53961\407DC7] Auto-router pass #197 on board '5e939faec50ee75f0b931550f1ae8c76' was completed in 0.23 seconds with the score of 979.42 (6 unrouted), using 31402.89 CPU seconds and 233887 MB memory.
+2026-11-19 21:47:29.789 INFO   [B53961\407DC7] Auto-router pass #198 on board '7f308a28e07e3d6360100562b3340c91' was completed in 0.89 seconds with the score of 981.02 (5 unrouted), using 31651.06 CPU seconds and 234824 MB memory.
+2026-11-19 21:47:30.428 INFO   [B53961\407DC7] Auto-router pass #199 on board '32ee5aa1e1e9a6aea1a41fddd2c6fb1d' was completed in 0.63 seconds with the score of 982.85 (4 unrouted), using 31900.22 CPU seconds and 235859 MB memory.
+2026-11-19 21:47:32.085 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 986.10 (3 unrouted).
+2026-11-19 21:47:32.085 INFO   [B53961\407DC7] Auto-router pass #200 on board 'b164f1cc46ac3698f2c573f4fe607ed5' was completed in 1.65 seconds with the score of 978.82 (6 unrouted), using 32401.44 CPU seconds and 237669 MB memory.
+2026-11-19 21:47:32.291 INFO   [B53961\407DC7] Auto-router pass #201 on board '5e939faec50ee75f0b931550f1ae8c76' was completed in 0.20 seconds with the score of 983.98 (4 unrouted), using 32401.44 CPU seconds and 237669 MB memory.
+2026-11-19 21:47:32.667 INFO   [B53961\407DC7] Auto-router pass #202 on board '3fd402c1699e0739c18f3d43f61f8846' was completed in 0.36 seconds with the score of 979.47 (6 unrouted), using 32401.44 CPU seconds and 237669 MB memory.
+2026-11-19 21:47:33.269 INFO   [B53961\407DC7] Auto-router pass #203 on board '7675cdced456dea93d1f3ee5834656c3' was completed in 0.57 seconds with the score of 977.01 (7 unrouted), using 32653.48 CPU seconds and 238466 MB memory.
+2026-11-19 21:47:36.059 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:36.060 INFO   [B53961\407DC7] Auto-router pass #204 on board '4ede5ffd7b257983c2bb468e77a28c6a' was completed in 2.78 seconds with the score of 979.71 (6 unrouted), using 33415.48 CPU seconds and 241059 MB memory.
+2026-11-19 21:47:36.349 INFO   [B53961\407DC7] Auto-router pass #205 on board 'bd9330a34ceb0517413cce51f0f2f130' was completed in 0.28 seconds with the score of 985.96 (3 unrouted), using 33415.48 CPU seconds and 241059 MB memory.
+2026-11-19 21:47:36.688 INFO   [B53961\407DC7] Auto-router pass #206 on board 'cb2f9006a60aeb9e658b96303426fd70' was completed in 0.32 seconds with the score of 985.83 (3 unrouted), using 33415.48 CPU seconds and 241059 MB memory.
+2026-11-19 21:47:36.884 INFO   [B53961\407DC7] Auto-router pass #207 on board 'dc423666a0c1391e0a8a3aeca091f73f' was completed in 0.17 seconds with the score of 981.35 (5 unrouted), using 33415.48 CPU seconds and 241059 MB memory.
+2026-11-19 21:47:39.540 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:39.541 INFO   [B53961\407DC7] Auto-router pass #208 on board '7cce546ea18322dd20207093a9c2d1ca' was completed in 2.64 seconds with the score of 985.69 (3 unrouted), using 34186.38 CPU seconds and 243266 MB memory.
+2026-11-19 21:47:39.749 INFO   [B53961\407DC7] Auto-router pass #209 on board 'bd9330a34ceb0517413cce51f0f2f130' was completed in 0.20 seconds with the score of 981.89 (5 unrouted), using 34186.38 CPU seconds and 243266 MB memory.
+2026-11-19 21:47:40.435 INFO   [B53961\407DC7] Auto-router pass #210 on board 'f95b32a8838e2eb0c3393d769d9ad486' was completed in 0.67 seconds with the score of 984.31 (4 unrouted), using 34445.30 CPU seconds and 244218 MB memory.
+2026-11-19 21:47:40.798 INFO   [B53961\407DC7] Auto-router pass #211 on board 'bd125f1afcdc6e9b88153ac650305aff' was completed in 0.35 seconds with the score of 983.67 (4 unrouted), using 34445.30 CPU seconds and 244218 MB memory.
+2026-11-19 21:47:41.513 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.99 (3 unrouted).
+2026-11-19 21:47:41.514 INFO   [B53961\407DC7] Auto-router pass #212 on board '462761b11d7b878d92b140aae48e0268' was completed in 0.70 seconds with the score of 981.40 (5 unrouted), using 34705.22 CPU seconds and 245263 MB memory.
+2026-11-19 21:47:41.805 INFO   [B53961\407DC7] Auto-router pass #213 on board 'bd9330a34ceb0517413cce51f0f2f130' was completed in 0.29 seconds with the score of 983.99 (4 unrouted), using 34705.22 CPU seconds and 245263 MB memory.
+2026-11-19 21:47:42.227 INFO   [B53961\407DC7] Auto-router pass #214 on board '647efa3896482fa44fd4553c20d3b613' was completed in 0.41 seconds with the score of 984.06 (4 unrouted), using 34966.11 CPU seconds and 246135 MB memory.
+2026-11-19 21:47:42.606 INFO   [B53961\407DC7] Auto-router pass #215 on board '18dd659c64f6590c2ba8115f48913a2a' was completed in 0.35 seconds with the score of 975.44 (8 unrouted), using 34966.11 CPU seconds and 246135 MB memory.
+2026-11-19 21:47:44.578 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.98 (3 unrouted).
+2026-11-19 21:47:44.578 INFO   [B53961\407DC7] Auto-router pass #216 on board '9c0b1919bf10ffe7e719473cb236094c' was completed in 1.96 seconds with the score of 974.70 (8 unrouted), using 35490.88 CPU seconds and 247993 MB memory.
+2026-11-19 21:47:44.850 INFO   [B53961\407DC7] Auto-router pass #217 on board '18442e01ef380a432fc0a8ab2ed06591' was completed in 0.27 seconds with the score of 985.96 (3 unrouted), using 35490.88 CPU seconds and 247993 MB memory.
+2026-11-19 21:47:45.023 INFO   [B53961\407DC7] Auto-router pass #218 on board '55f20905e25812f8a442c69fe3ff21f7' was completed in 0.16 seconds with the score of 983.86 (4 unrouted), using 35754.77 CPU seconds and 249049 MB memory.
+2026-11-19 21:47:45.376 INFO   [B53961\407DC7] Auto-router pass #219 on board '9cfe3d6a53ca6c5e8a412f670669a8f7' was completed in 0.34 seconds with the score of 983.87 (4 unrouted), using 35754.77 CPU seconds and 249049 MB memory.
+2026-11-19 21:47:47.592 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 985.98 (3 unrouted).
+2026-11-19 21:47:47.595 INFO   [B53961\407DC7] Auto-router pass #220 on board 'aaf53f037d403a69dc353d6e448f380f' was completed in 2.20 seconds with the score of 975.37 (8 unrouted), using 36285.53 CPU seconds and 250803 MB memory.
+2026-11-19 21:47:47.925 INFO   [B53961\407DC7] Auto-router pass #221 on board '18442e01ef380a432fc0a8ab2ed06591' was completed in 0.32 seconds with the score of 985.88 (3 unrouted), using 36285.53 CPU seconds and 250803 MB memory.
+2026-11-19 21:47:48.099 INFO   [B53961\407DC7] Auto-router pass #222 on board '1ec3cf4bb459e6d3cda62edff71c7dc5' was completed in 0.15 seconds with the score of 985.92 (3 unrouted), using 36552.39 CPU seconds and 251729 MB memory.
+2026-11-19 21:47:48.760 INFO   [B53961\407DC7] Auto-router pass #223 on board 'a43a97bb2ed4122c172183c626567af6' was completed in 0.64 seconds with the score of 983.76 (4 unrouted), using 36552.39 CPU seconds and 251729 MB memory.
+2026-11-19 21:47:49.377 INFO   [B53961\407DC7] Auto-router pass #224 on board '3055df01e5512cf71004a1020c0361b0' was completed in 0.60 seconds with the score of 988.10 (2 unrouted), using 36820.23 CPU seconds and 252536 MB memory.
+2026-11-19 21:47:49.969 INFO   [B53961\407DC7] Auto-router pass #225 on board 'ec10de593676e9a65ea71a9a5168d3b7' was completed in 0.58 seconds with the score of 985.72 (3 unrouted), using 36820.23 CPU seconds and 252536 MB memory.
+2026-11-19 21:47:50.349 INFO   [B53961\407DC7] Auto-router pass #226 on board 'cfcc0cfe5a0d9af47d8375eb3d499bd4' was completed in 0.36 seconds with the score of 986.08 (3 unrouted), using 37089.06 CPU seconds and 253306 MB memory.
+2026-11-19 21:47:50.683 INFO   [B53961\407DC7] Auto-router pass #227 on board '20e0f9b0d0e2c5b69eed05cd9cdfee14' was completed in 0.30 seconds with the score of 983.98 (4 unrouted), using 37089.06 CPU seconds and 253306 MB memory.
+2026-11-19 21:47:51.605 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.10 (2 unrouted).
+2026-11-19 21:47:51.607 INFO   [B53961\407DC7] Auto-router pass #228 on board 'e700b3d9f80759c465a28150d6271529' was completed in 0.90 seconds with the score of 981.58 (5 unrouted), using 37358.80 CPU seconds and 253939 MB memory.
+2026-11-19 21:47:51.813 INFO   [B53961\407DC7] Auto-router pass #229 on board 'ec10de593676e9a65ea71a9a5168d3b7' was completed in 0.20 seconds with the score of 985.80 (3 unrouted), using 37358.80 CPU seconds and 253939 MB memory.
+2026-11-19 21:47:52.034 INFO   [B53961\407DC7] Auto-router pass #230 on board '580fc3cf7afc72b1dc26d0c3ed4c07f1' was completed in 0.20 seconds with the score of 983.93 (4 unrouted), using 37629.44 CPU seconds and 254768 MB memory.
+2026-11-19 21:47:52.399 INFO   [B53961\407DC7] Auto-router pass #231 on board '3b277c79824ba7370eba3d90c5980099' was completed in 0.35 seconds with the score of 979.46 (6 unrouted), using 37629.44 CPU seconds and 254768 MB memory.
+2026-11-19 21:47:53.450 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.10 (2 unrouted).
+2026-11-19 21:47:53.450 INFO   [B53961\407DC7] Auto-router pass #232 on board '6b1f28176ec6842e20b818fb6af0231a' was completed in 1.04 seconds with the score of 983.98 (4 unrouted), using 37901.06 CPU seconds and 255745 MB memory.
+2026-11-19 21:47:53.601 INFO   [B53961\407DC7] Auto-router pass #233 on board 'ec10de593676e9a65ea71a9a5168d3b7' was completed in 0.14 seconds with the score of 987.92 (2 unrouted), using 37901.06 CPU seconds and 255745 MB memory.
+2026-11-19 21:47:53.793 INFO   [B53961\407DC7] Auto-router pass #234 on board 'df83c61a5546bba510b039363d6c3594' was completed in 0.18 seconds with the score of 983.79 (4 unrouted), using 37901.06 CPU seconds and 255745 MB memory.
+2026-11-19 21:47:54.204 INFO   [B53961\407DC7] Auto-router pass #235 on board 'b8204f549d7d4d4526b1835c8249059f' was completed in 0.40 seconds with the score of 987.87 (2 unrouted), using 38173.66 CPU seconds and 256717 MB memory.
+2026-11-19 21:47:54.758 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.10 (2 unrouted).
+2026-11-19 21:47:54.758 INFO   [B53961\407DC7] Auto-router pass #236 on board '49edf70c810b531582af986e41c393c9' was completed in 0.54 seconds with the score of 985.84 (3 unrouted), using 38173.66 CPU seconds and 256717 MB memory.
+2026-11-19 21:47:54.902 INFO   [B53961\407DC7] Auto-router pass #237 on board 'ec10de593676e9a65ea71a9a5168d3b7' was completed in 0.14 seconds with the score of 987.92 (2 unrouted), using 38173.66 CPU seconds and 256717 MB memory.
+2026-11-19 21:47:55.049 INFO   [B53961\407DC7] Auto-router pass #238 on board 'df83c61a5546bba510b039363d6c3594' was completed in 0.14 seconds with the score of 985.89 (3 unrouted), using 38447.25 CPU seconds and 257676 MB memory.
+2026-11-19 21:47:55.652 INFO   [B53961\407DC7] Auto-router pass #239 on board '7c4ad2d8444e8bc4bf4d74150ddfc6d3' was completed in 0.58 seconds with the score of 983.87 (4 unrouted), using 38447.25 CPU seconds and 257676 MB memory.
+2026-11-19 21:47:56.985 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.10 (2 unrouted).
+2026-11-19 21:47:56.987 INFO   [B53961\407DC7] Auto-router pass #240 on board 'c45e85dcb6d98e709b6af44d9754a3a9' was completed in 1.32 seconds with the score of 976.06 (8 unrouted), using 38721.84 CPU seconds and 258626 MB memory.
+2026-11-19 21:47:57.552 INFO   [B53961\407DC7] Auto-router pass #241 on board 'ec10de593676e9a65ea71a9a5168d3b7' was completed in 0.56 seconds with the score of 985.72 (3 unrouted), using 38997.44 CPU seconds and 259561 MB memory.
+2026-11-19 21:47:57.920 INFO   [B53961\407DC7] Auto-router pass #242 on board 'd010813f1691b33ec9793c2fb5ebd332' was completed in 0.35 seconds with the score of 983.66 (4 unrouted), using 38997.44 CPU seconds and 259561 MB memory.
+2026-11-19 21:47:58.395 INFO   [B53961\407DC7] Auto-router pass #243 on board 'd92d79424ddd467e992c59b9774ff0e2' was completed in 0.46 seconds with the score of 983.67 (4 unrouted), using 39274.02 CPU seconds and 260340 MB memory.
+2026-11-19 21:47:59.774 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 987.92 (2 unrouted).
+2026-11-19 21:47:59.775 INFO   [B53961\407DC7] Auto-router pass #244 on board '65506e605c14b3dfc4baf9470dab7f6a' was completed in 1.36 seconds with the score of 987.98 (2 unrouted), using 39551.59 CPU seconds and 261250 MB memory.
+2026-11-19 21:47:59.920 INFO   [B53961\407DC7] Auto-router pass #245 on board 'df83c61a5546bba510b039363d6c3594' was completed in 0.14 seconds with the score of 985.89 (3 unrouted), using 39551.59 CPU seconds and 261250 MB memory.
+2026-11-19 21:48:00.175 INFO   [B53961\407DC7] Auto-router pass #246 on board '6de3581e427890c137235304f6088dde' was completed in 0.23 seconds with the score of 983.90 (4 unrouted), using 39830.14 CPU seconds and 262234 MB memory.
+2026-11-19 21:48:00.802 INFO   [B53961\407DC7] Auto-router pass #247 on board '337899e2dc5b624bde44cdd0823e7e61' was completed in 0.61 seconds with the score of 985.97 (3 unrouted), using 39830.14 CPU seconds and 262234 MB memory.
+2026-11-19 21:48:01.307 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 987.92 (2 unrouted).
+2026-11-19 21:48:01.307 INFO   [B53961\407DC7] Auto-router pass #248 on board 'a528d12d6f27450a23c64b2f8d88a6e7' was completed in 0.49 seconds with the score of 981.67 (5 unrouted), using 40109.69 CPU seconds and 263132 MB memory.
+2026-11-19 21:48:01.631 INFO   [B53961\407DC7] Auto-router pass #249 on board 'df83c61a5546bba510b039363d6c3594' was completed in 0.31 seconds with the score of 983.79 (4 unrouted), using 40109.69 CPU seconds and 263132 MB memory.
+2026-11-19 21:48:02.088 INFO   [B53961\407DC7] Auto-router pass #250 on board 'd7d36ebdb5e20ce5cfc8ccd71936aef7' was completed in 0.43 seconds with the score of 988.00 (2 unrouted), using 40390.22 CPU seconds and 263823 MB memory.
+2026-11-19 21:48:02.211 INFO   [B53961\407DC7] Auto-router pass #251 on board 'a29d8192362da8b7d42097af222ab81f' was completed in 0.11 seconds with the score of 988.02 (2 unrouted), using 40390.22 CPU seconds and 263823 MB memory.
+2026-11-19 21:48:02.614 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.02 (2 unrouted).
+2026-11-19 21:48:02.614 INFO   [B53961\407DC7] Auto-router pass #252 on board '37ba2493848896201070969a327d18c9' was completed in 0.39 seconds with the score of 985.95 (3 unrouted), using 40390.22 CPU seconds and 263823 MB memory.
+2026-11-19 21:48:02.815 INFO   [B53961\407DC7] Auto-router pass #253 on board '37ba2493848896201070969a327d18c9' was completed in 0.19 seconds with the score of 985.89 (3 unrouted), using 40390.22 CPU seconds and 263823 MB memory.
+2026-11-19 21:48:03.033 INFO   [B53961\407DC7] Auto-router pass #254 on board '1c9916317f97a89980c2933a17e619e7' was completed in 0.20 seconds with the score of 985.83 (3 unrouted), using 40671.67 CPU seconds and 264724 MB memory.
+2026-11-19 21:48:03.929 INFO   [B53961\407DC7] Auto-router pass #255 on board '6c0c9c4f3fc33f0c2acfe4c49a85df4c' was completed in 0.88 seconds with the score of 981.12 (5 unrouted), using 40671.67 CPU seconds and 264724 MB memory.
+2026-11-19 21:48:05.863 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.02 (2 unrouted).
+2026-11-19 21:48:05.863 INFO   [B53961\407DC7] Auto-router pass #256 on board 'b7a88ccc57d8460e57dda34de6497447' was completed in 1.92 seconds with the score of 981.16 (5 unrouted), using 41237.50 CPU seconds and 266530 MB memory.
+2026-11-19 21:48:06.052 INFO   [B53961\407DC7] Auto-router pass #257 on board '37ba2493848896201070969a327d18c9' was completed in 0.18 seconds with the score of 985.89 (3 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.298 INFO   [B53961\407DC7] Auto-router pass #258 on board '676a765f038314fa897bde1a9bf5b054' was completed in 0.23 seconds with the score of 987.94 (2 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.542 INFO   [B53961\407DC7] Auto-router pass #259 on board '98a08d0f7e0d6ca3ed295b7d3dbd5390' was completed in 0.23 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.630 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.00 (1 unrouted).
+2026-11-19 21:48:06.631 INFO   [B53961\407DC7] Auto-router pass #260 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.07 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.698 INFO   [B53961\407DC7] Auto-router pass #261 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.761 INFO   [B53961\407DC7] Auto-router pass #262 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.828 INFO   [B53961\407DC7] Auto-router pass #263 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.914 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.00 (1 unrouted).
+2026-11-19 21:48:06.915 INFO   [B53961\407DC7] Auto-router pass #264 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.08 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:06.980 INFO   [B53961\407DC7] Auto-router pass #265 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41521.84 CPU seconds and 267391 MB memory.
+2026-11-19 21:48:07.043 INFO   [B53961\407DC7] Auto-router pass #266 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.104 INFO   [B53961\407DC7] Auto-router pass #267 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.05 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.183 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.00 (1 unrouted).
+2026-11-19 21:48:07.183 INFO   [B53961\407DC7] Auto-router pass #268 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.07 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.245 INFO   [B53961\407DC7] Auto-router pass #269 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.305 INFO   [B53961\407DC7] Auto-router pass #270 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.05 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.365 INFO   [B53961\407DC7] Auto-router pass #271 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.05 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.448 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.00 (1 unrouted).
+2026-11-19 21:48:07.449 INFO   [B53961\407DC7] Auto-router pass #272 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.08 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.511 INFO   [B53961\407DC7] Auto-router pass #273 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.578 INFO   [B53961\407DC7] Auto-router pass #274 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.642 INFO   [B53961\407DC7] Auto-router pass #275 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.06 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.725 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.02 (2 unrouted).
+2026-11-19 21:48:07.725 INFO   [B53961\407DC7] Auto-router pass #276 on board 'c632d042283a120af19fcbcf2dfe49e0' was completed in 0.08 seconds with the score of 990.00 (1 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:07.897 INFO   [B53961\407DC7] Auto-router pass #277 on board '37ba2493848896201070969a327d18c9' was completed in 0.17 seconds with the score of 985.89 (3 unrouted), using 41807.19 CPU seconds and 268357 MB memory.
+2026-11-19 21:48:08.108 INFO   [B53961\407DC7] Auto-router pass #278 on board '947561a0adbe079f5763419b9960e560' was completed in 0.20 seconds with the score of 985.83 (3 unrouted), using 42093.52 CPU seconds and 269370 MB memory.
+2026-11-19 21:48:08.532 INFO   [B53961\407DC7] Auto-router pass #279 on board '0a88618ddd45b7f7d95d3117fc6cd186' was completed in 0.41 seconds with the score of 979.59 (6 unrouted), using 42093.52 CPU seconds and 269370 MB memory.
+2026-11-19 21:48:09.888 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.02 (2 unrouted).
+2026-11-19 21:48:09.888 INFO   [B53961\407DC7] Auto-router pass #280 on board 'a6ef34ec0721fa719844e1c468b0a6b6' was completed in 1.34 seconds with the score of 984.03 (4 unrouted), using 42380.81 CPU seconds and 270180 MB memory.
+2026-11-19 21:48:10.076 INFO   [B53961\407DC7] Auto-router pass #281 on board '37ba2493848896201070969a327d18c9' was completed in 0.18 seconds with the score of 985.89 (3 unrouted), using 42669.09 CPU seconds and 270957 MB memory.
+2026-11-19 21:48:10.272 INFO   [B53961\407DC7] Auto-router pass #282 on board '4ec0113f0cd954e6351c71f0443ef91c' was completed in 0.18 seconds with the score of 985.83 (3 unrouted), using 42669.09 CPU seconds and 270957 MB memory.
+2026-11-19 21:48:10.825 INFO   [B53961\407DC7] Auto-router pass #283 on board 'b2ed4352ed21d89adb0ed5aa33e1c130' was completed in 0.53 seconds with the score of 983.54 (4 unrouted), using 42669.09 CPU seconds and 270957 MB memory.
+2026-11-19 21:48:13.127 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.00 (2 unrouted).
+2026-11-19 21:48:13.127 INFO   [B53961\407DC7] Auto-router pass #284 on board '2c8cb48e8d9d8c176f3702861721e80b' was completed in 2.29 seconds with the score of 979.06 (6 unrouted), using 43539.89 CPU seconds and 273772 MB memory.
+2026-11-19 21:48:13.316 INFO   [B53961\407DC7] Auto-router pass #285 on board 'a29d8192362da8b7d42097af222ab81f' was completed in 0.18 seconds with the score of 985.80 (3 unrouted), using 43539.89 CPU seconds and 273772 MB memory.
+2026-11-19 21:48:13.548 INFO   [B53961\407DC7] Auto-router pass #286 on board 'b71a8453a478550b6156c65408c54e10' was completed in 0.21 seconds with the score of 985.87 (3 unrouted), using 43539.89 CPU seconds and 273772 MB memory.
+2026-11-19 21:48:13.873 INFO   [B53961\407DC7] Auto-router pass #287 on board '646c4d9eb22b1aeccef1e5fc48a34292' was completed in 0.31 seconds with the score of 979.55 (6 unrouted), using 43539.89 CPU seconds and 273772 MB memory.
+2026-11-19 21:48:15.693 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.00 (2 unrouted).
+2026-11-19 21:48:15.694 INFO   [B53961\407DC7] Auto-router pass #288 on board 'ddbdf1a83b9613b5f14a77366a9c81fd' was completed in 1.80 seconds with the score of 977.40 (7 unrouted), using 44125.39 CPU seconds and 275720 MB memory.
+2026-11-19 21:48:15.805 INFO   [B53961\407DC7] Auto-router pass #289 on board 'a29d8192362da8b7d42097af222ab81f' was completed in 0.11 seconds with the score of 988.02 (2 unrouted), using 44125.39 CPU seconds and 275720 MB memory.
+2026-11-19 21:48:15.915 INFO   [B53961\407DC7] Auto-router pass #290 on board '37ba2493848896201070969a327d18c9' was completed in 0.10 seconds with the score of 988.10 (2 unrouted), using 44125.39 CPU seconds and 275720 MB memory.
+2026-11-19 21:48:16.028 INFO   [B53961\407DC7] Auto-router pass #291 on board '4a09667ab8edc17225b249dff7e5d4ae' was completed in 0.10 seconds with the score of 988.12 (2 unrouted), using 44125.39 CPU seconds and 275720 MB memory.
+2026-11-19 21:48:16.215 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.12 (2 unrouted).
+2026-11-19 21:48:16.215 INFO   [B53961\407DC7] Auto-router pass #292 on board 'b89f42da087d0569357d2437455d7265' was completed in 0.17 seconds with the score of 986.21 (3 unrouted), using 44419.58 CPU seconds and 276751 MB memory.
+2026-11-19 21:48:16.333 INFO   [B53961\407DC7] Auto-router pass #293 on board 'b89f42da087d0569357d2437455d7265' was completed in 0.11 seconds with the score of 988.22 (2 unrouted), using 44419.58 CPU seconds and 276751 MB memory.
+2026-11-19 21:48:16.503 INFO   [B53961\407DC7] Auto-router pass #294 on board '71fd7913a0b1bde7f5f1c35e2edf98df' was completed in 0.15 seconds with the score of 986.06 (3 unrouted), using 44419.58 CPU seconds and 276751 MB memory.
+2026-11-19 21:48:16.684 INFO   [B53961\407DC7] Auto-router pass #295 on board '5fe8cbd62d9fb23a0427599f75d5587c' was completed in 0.17 seconds with the score of 985.73 (3 unrouted), using 44419.58 CPU seconds and 276751 MB memory.
+2026-11-19 21:48:18.064 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.22 (2 unrouted).
+2026-11-19 21:48:18.064 INFO   [B53961\407DC7] Auto-router pass #296 on board '9768ed10e50b90200d18928d2d8294fe' was completed in 1.36 seconds with the score of 985.99 (3 unrouted), using 44714.72 CPU seconds and 277711 MB memory.
+2026-11-19 21:48:18.195 INFO   [B53961\407DC7] Auto-router pass #297 on board '71fd7913a0b1bde7f5f1c35e2edf98df' was completed in 0.12 seconds with the score of 988.26 (2 unrouted), using 45010.84 CPU seconds and 278608 MB memory.
+2026-11-19 21:48:18.404 INFO   [B53961\407DC7] Auto-router pass #298 on board '730a48a58c973f2eeeccd644964c4f3d' was completed in 0.19 seconds with the score of 986.18 (3 unrouted), using 45010.84 CPU seconds and 278608 MB memory.
+2026-11-19 21:48:18.593 INFO   [B53961\407DC7] Auto-router pass #299 on board '6e48c0b3a358fc0fd93d47fca4f640d3' was completed in 0.17 seconds with the score of 986.28 (3 unrouted), using 45010.84 CPU seconds and 278608 MB memory.
+2026-11-19 21:48:19.074 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.26 (2 unrouted).
+2026-11-19 21:48:19.074 INFO   [B53961\407DC7] Auto-router pass #300 on board '296decf22670046e5f60fc14de7e2fd5' was completed in 0.47 seconds with the score of 981.31 (5 unrouted), using 45010.84 CPU seconds and 278608 MB memory.
+2026-11-19 21:48:19.222 INFO   [B53961\407DC7] Auto-router pass #301 on board '730a48a58c973f2eeeccd644964c4f3d' was completed in 0.14 seconds with the score of 988.36 (2 unrouted), using 45307.98 CPU seconds and 279587 MB memory.
+2026-11-19 21:48:19.434 INFO   [B53961\407DC7] Auto-router pass #302 on board '109273e52ddffcb05206a6fc482da5bc' was completed in 0.19 seconds with the score of 986.24 (3 unrouted), using 45307.98 CPU seconds and 279587 MB memory.
+2026-11-19 21:48:19.691 INFO   [B53961\407DC7] Auto-router pass #303 on board '807f3d11b5433e642646a8127c1ff662' was completed in 0.24 seconds with the score of 986.40 (3 unrouted), using 45307.98 CPU seconds and 279587 MB memory.
+2026-11-19 21:48:20.423 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.36 (2 unrouted).
+2026-11-19 21:48:20.424 INFO   [B53961\407DC7] Auto-router pass #304 on board '99b411eca1b33ca1c6b2a52df078cc09' was completed in 0.72 seconds with the score of 984.40 (4 unrouted), using 45606.12 CPU seconds and 280463 MB memory.
+2026-11-19 21:48:20.547 INFO   [B53961\407DC7] Auto-router pass #305 on board '109273e52ddffcb05206a6fc482da5bc' was completed in 0.12 seconds with the score of 988.41 (2 unrouted), using 45606.12 CPU seconds and 280463 MB memory.
+2026-11-19 21:48:20.678 INFO   [B53961\407DC7] Auto-router pass #306 on board 'c4e77332443dfe6a55b2a5dd1ed2e605' was completed in 0.11 seconds with the score of 988.59 (2 unrouted), using 45606.12 CPU seconds and 280463 MB memory.
+2026-11-19 21:48:20.887 INFO   [B53961\407DC7] Auto-router pass #307 on board '79845f3c9d0a045ef34e89a3e1879623' was completed in 0.19 seconds with the score of 986.40 (3 unrouted), using 45606.12 CPU seconds and 280463 MB memory.
+2026-11-19 21:48:21.381 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.59 (2 unrouted).
+2026-11-19 21:48:21.382 INFO   [B53961\407DC7] Auto-router pass #308 on board '57764cd8bd01d3f56a724bf1b2a05612' was completed in 0.48 seconds with the score of 988.38 (2 unrouted), using 45905.25 CPU seconds and 281405 MB memory.
+2026-11-19 21:48:21.580 INFO   [B53961\407DC7] Auto-router pass #309 on board '79845f3c9d0a045ef34e89a3e1879623' was completed in 0.19 seconds with the score of 986.40 (3 unrouted), using 45905.25 CPU seconds and 281405 MB memory.
+2026-11-19 21:48:21.813 INFO   [B53961\407DC7] Auto-router pass #310 on board '4167ffe45666dc1ffb1effc720c15a28' was completed in 0.22 seconds with the score of 988.38 (2 unrouted), using 45905.25 CPU seconds and 281405 MB memory.
+2026-11-19 21:48:21.950 INFO   [B53961\407DC7] Auto-router pass #311 on board 'da178e73804a447ad340dfb08efdd49f' was completed in 0.12 seconds with the score of 990.34 (1 unrouted), using 45905.25 CPU seconds and 281405 MB memory.
+2026-11-19 21:48:22.044 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.34 (1 unrouted).
+2026-11-19 21:48:22.045 INFO   [B53961\407DC7] Auto-router pass #312 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.08 seconds with the score of 990.34 (1 unrouted), using 45905.25 CPU seconds and 281405 MB memory.
+2026-11-19 21:48:22.116 INFO   [B53961\407DC7] Auto-router pass #313 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.182 INFO   [B53961\407DC7] Auto-router pass #314 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.240 INFO   [B53961\407DC7] Auto-router pass #315 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.05 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.317 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.34 (1 unrouted).
+2026-11-19 21:48:22.317 INFO   [B53961\407DC7] Auto-router pass #316 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.07 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.381 INFO   [B53961\407DC7] Auto-router pass #317 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.446 INFO   [B53961\407DC7] Auto-router pass #318 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.512 INFO   [B53961\407DC7] Auto-router pass #319 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.593 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.34 (1 unrouted).
+2026-11-19 21:48:22.594 INFO   [B53961\407DC7] Auto-router pass #320 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.07 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.661 INFO   [B53961\407DC7] Auto-router pass #321 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.727 INFO   [B53961\407DC7] Auto-router pass #322 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.794 INFO   [B53961\407DC7] Auto-router pass #323 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.872 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 990.34 (1 unrouted).
+2026-11-19 21:48:22.873 INFO   [B53961\407DC7] Auto-router pass #324 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.07 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:22.940 INFO   [B53961\407DC7] Auto-router pass #325 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:23.006 INFO   [B53961\407DC7] Auto-router pass #326 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:23.078 INFO   [B53961\407DC7] Auto-router pass #327 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.06 seconds with the score of 990.34 (1 unrouted), using 46205.36 CPU seconds and 282410 MB memory.
+2026-11-19 21:48:23.163 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.59 (2 unrouted).
+2026-11-19 21:48:23.163 INFO   [B53961\407DC7] Auto-router pass #328 on board '75994cd621bbe988b6ac41070ad7d562' was completed in 0.08 seconds with the score of 990.34 (1 unrouted), using 46506.44 CPU seconds and 283412 MB memory.
+2026-11-19 21:48:23.367 INFO   [B53961\407DC7] Auto-router pass #329 on board '79845f3c9d0a045ef34e89a3e1879623' was completed in 0.20 seconds with the score of 986.40 (3 unrouted), using 46506.44 CPU seconds and 283412 MB memory.
+2026-11-19 21:48:23.551 INFO   [B53961\407DC7] Auto-router pass #330 on board '57764cd8bd01d3f56a724bf1b2a05612' was completed in 0.18 seconds with the score of 986.50 (3 unrouted), using 46506.44 CPU seconds and 283412 MB memory.
+2026-11-19 21:48:24.143 INFO   [B53961\407DC7] Auto-router pass #331 on board '8145ca76c7bf9effd7cf786878944c77' was completed in 0.58 seconds with the score of 979.53 (6 unrouted), using 46808.52 CPU seconds and 284437 MB memory.
+2026-11-19 21:48:26.423 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.59 (2 unrouted).
+2026-11-19 21:48:26.424 INFO   [B53961\407DC7] Auto-router pass #332 on board '8fe17231b65913c48d62d4516af9447d' was completed in 2.27 seconds with the score of 972.44 (9 unrouted), using 47415.61 CPU seconds and 286308 MB memory.
+2026-11-19 21:48:26.615 INFO   [B53961\407DC7] Auto-router pass #333 on board '79845f3c9d0a045ef34e89a3e1879623' was completed in 0.18 seconds with the score of 986.40 (3 unrouted), using 47415.61 CPU seconds and 286308 MB memory.
+2026-11-19 21:48:26.806 INFO   [B53961\407DC7] Auto-router pass #334 on board '4167ffe45666dc1ffb1effc720c15a28' was completed in 0.18 seconds with the score of 986.54 (3 unrouted), using 47415.61 CPU seconds and 286308 MB memory.
+2026-11-19 21:48:27.049 INFO   [B53961\407DC7] Auto-router pass #335 on board 'bc4b02acaf73613a1460aed83d58a395' was completed in 0.23 seconds with the score of 984.53 (4 unrouted), using 47415.61 CPU seconds and 286308 MB memory.
+2026-11-19 21:48:28.376 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.59 (2 unrouted).
+2026-11-19 21:48:28.376 INFO   [B53961\407DC7] Auto-router pass #336 on board '17e9c202880e6704177db746b031ecc5' was completed in 1.31 seconds with the score of 988.62 (2 unrouted), using 48026.59 CPU seconds and 288038 MB memory.
+2026-11-19 21:48:28.659 INFO   [B53961\407DC7] Auto-router pass #337 on board '79845f3c9d0a045ef34e89a3e1879623' was completed in 0.27 seconds with the score of 986.40 (3 unrouted), using 48026.59 CPU seconds and 288038 MB memory.
+2026-11-19 21:48:29.025 INFO   [B53961\407DC7] Auto-router pass #338 on board 'bb8760fda76b453599f8a15aeecf1f8a' was completed in 0.34 seconds with the score of 985.73 (3 unrouted), using 48026.59 CPU seconds and 288038 MB memory.
+2026-11-19 21:48:29.701 INFO   [B53961\407DC7] Auto-router pass #339 on board '6bb81d324886cb570750174117788c39' was completed in 0.66 seconds with the score of 983.74 (4 unrouted), using 48333.52 CPU seconds and 288671 MB memory.
+2026-11-19 21:48:31.155 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.41 (2 unrouted).
+2026-11-19 21:48:31.155 INFO   [B53961\407DC7] Auto-router pass #340 on board '74ab4d9102ac77c1096b0aa54ff8c18b' was completed in 1.43 seconds with the score of 987.82 (2 unrouted), using 48950.25 CPU seconds and 290029 MB memory.
+2026-11-19 21:48:31.299 INFO   [B53961\407DC7] Auto-router pass #341 on board 'c4e77332443dfe6a55b2a5dd1ed2e605' was completed in 0.13 seconds with the score of 988.59 (2 unrouted), using 48950.25 CPU seconds and 290029 MB memory.
+2026-11-19 21:48:31.475 INFO   [B53961\407DC7] Auto-router pass #342 on board '850aeb78a69310650c04a939144b1837' was completed in 0.16 seconds with the score of 986.40 (3 unrouted), using 48950.25 CPU seconds and 290029 MB memory.
+2026-11-19 21:48:31.700 INFO   [B53961\407DC7] Auto-router pass #343 on board 'c8823b6011ca9469ac8cad44b70d9be5' was completed in 0.21 seconds with the score of 986.63 (3 unrouted), using 48950.25 CPU seconds and 290029 MB memory.
+2026-11-19 21:48:32.817 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.59 (2 unrouted).
+2026-11-19 21:48:32.818 INFO   [B53961\407DC7] Auto-router pass #344 on board '2ca1c230e6a5ea7bcc6203d12acbd06e' was completed in 1.10 seconds with the score of 985.99 (3 unrouted), using 49260.08 CPU seconds and 291015 MB memory.
+2026-11-19 21:48:32.939 INFO   [B53961\407DC7] Auto-router pass #345 on board '850aeb78a69310650c04a939144b1837' was completed in 0.12 seconds with the score of 988.59 (2 unrouted), using 49260.08 CPU seconds and 291015 MB memory.
+2026-11-19 21:48:33.069 INFO   [B53961\407DC7] Auto-router pass #346 on board '25654aa4736d10824603dbce8764d313' was completed in 0.11 seconds with the score of 988.68 (2 unrouted), using 49260.08 CPU seconds and 291015 MB memory.
+2026-11-19 21:48:33.191 INFO   [B53961\407DC7] Auto-router pass #347 on board '0977e5b1a77a68dffe75931e466af4f0' was completed in 0.10 seconds with the score of 988.72 (2 unrouted), using 49570.89 CPU seconds and 292052 MB memory.
+2026-11-19 21:48:33.374 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.72 (2 unrouted).
+2026-11-19 21:48:33.374 INFO   [B53961\407DC7] Auto-router pass #348 on board '93e650632708ed3efd30da2b18ae5e42' was completed in 0.17 seconds with the score of 986.86 (3 unrouted), using 49570.89 CPU seconds and 292052 MB memory.
+2026-11-19 21:48:33.553 INFO   [B53961\407DC7] Auto-router pass #349 on board '93e650632708ed3efd30da2b18ae5e42' was completed in 0.17 seconds with the score of 986.67 (3 unrouted), using 49570.89 CPU seconds and 292052 MB memory.
+2026-11-19 21:48:33.753 INFO   [B53961\407DC7] Auto-router pass #350 on board '736d4b349102bfe4d65133e5b99c1a01' was completed in 0.18 seconds with the score of 986.81 (3 unrouted), using 49570.89 CPU seconds and 292052 MB memory.
+2026-11-19 21:48:34.158 INFO   [B53961\407DC7] Auto-router pass #351 on board '126d09b17ce8a1515c41a71917591285' was completed in 0.39 seconds with the score of 983.73 (4 unrouted), using 49882.66 CPU seconds and 293141 MB memory.
+2026-11-19 21:48:35.585 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.72 (2 unrouted).
+2026-11-19 21:48:35.585 INFO   [B53961\407DC7] Auto-router pass #352 on board '73ce8f49515ce0022fba008a639b3371' was completed in 1.41 seconds with the score of 981.69 (5 unrouted), using 50195.42 CPU seconds and 294225 MB memory.
+2026-11-19 21:48:35.751 INFO   [B53961\407DC7] Auto-router pass #353 on board '93e650632708ed3efd30da2b18ae5e42' was completed in 0.16 seconds with the score of 986.67 (3 unrouted), using 50195.42 CPU seconds and 294225 MB memory.
+2026-11-19 21:48:35.955 INFO   [B53961\407DC7] Auto-router pass #354 on board 'b436dec1eb6bfcf0d9cb2b1d7813ef21' was completed in 0.19 seconds with the score of 988.66 (2 unrouted), using 50195.42 CPU seconds and 294225 MB memory.
+2026-11-19 21:48:36.128 INFO   [B53961\407DC7] Auto-router pass #355 on board 'c89f8b277af5f3f60a6fa9a0f4e28619' was completed in 0.16 seconds with the score of 988.68 (2 unrouted), using 50509.19 CPU seconds and 295336 MB memory.
+2026-11-19 21:48:36.404 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.72 (2 unrouted).
+2026-11-19 21:48:36.404 INFO   [B53961\407DC7] Auto-router pass #356 on board 'b2ea59ef4d31438cda18d076f58c90bc' was completed in 0.26 seconds with the score of 988.65 (2 unrouted), using 50509.19 CPU seconds and 295336 MB memory.
+2026-11-19 21:48:36.577 INFO   [B53961\407DC7] Auto-router pass #357 on board '93e650632708ed3efd30da2b18ae5e42' was completed in 0.17 seconds with the score of 986.67 (3 unrouted), using 50509.19 CPU seconds and 295336 MB memory.
+2026-11-19 21:48:36.792 INFO   [B53961\407DC7] Auto-router pass #358 on board 'b436dec1eb6bfcf0d9cb2b1d7813ef21' was completed in 0.21 seconds with the score of 986.83 (3 unrouted), using 50509.19 CPU seconds and 295336 MB memory.
+2026-11-19 21:48:37.100 INFO   [B53961\407DC7] Auto-router pass #359 on board '737998d139c20ba353a4f16b6851a38b' was completed in 0.29 seconds with the score of 986.05 (3 unrouted), using 50509.19 CPU seconds and 295336 MB memory.
+2026-11-19 21:48:37.821 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.72 (2 unrouted).
+2026-11-19 21:48:37.821 INFO   [B53961\407DC7] Auto-router pass #360 on board '6b107e8af5c0ca3b7d9aa6e8d63b9a0b' was completed in 0.71 seconds with the score of 985.92 (3 unrouted), using 50823.92 CPU seconds and 296435 MB memory.
+2026-11-19 21:48:38.085 INFO   [B53961\407DC7] Auto-router pass #361 on board '93e650632708ed3efd30da2b18ae5e42' was completed in 0.25 seconds with the score of 986.67 (3 unrouted), using 50823.92 CPU seconds and 296435 MB memory.
+2026-11-19 21:48:38.338 INFO   [B53961\407DC7] Auto-router pass #362 on board 'e1eb2e9524260125397cfdb32e057a7e' was completed in 0.23 seconds with the score of 985.73 (3 unrouted), using 51139.66 CPU seconds and 297200 MB memory.
+2026-11-19 21:48:38.876 INFO   [B53961\407DC7] Auto-router pass #363 on board '816506315c9c886ca7be553a5288da42' was completed in 0.52 seconds with the score of 981.68 (5 unrouted), using 51139.66 CPU seconds and 297200 MB memory.
+2026-11-19 21:48:40.965 INFO   [B53961\407DC7] Restoring an earlier board that has the score of 988.68 (2 unrouted).
+2026-11-19 21:48:40.965 INFO   [B53961\407DC7] Auto-router pass #364 on board 'fb4f56d9382bb70c554ccd7be805f180' was completed in 2.07 seconds with the score of 983.51 (4 unrouted), using 51774.08 CPU seconds and 298978 MB memory.

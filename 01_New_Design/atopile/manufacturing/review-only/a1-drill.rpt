@@ -1,0 +1,26 @@
+Drill report for a1.kicad_pcb
+Created on 2026-11-19T22:01:08
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'a1-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.250mm  0.0098"  (43 holes))
+    T2  0.300mm  0.0118"  (3 holes))
+    T3  0.700mm  0.0276"  (2 holes)  (with 2 slots)
+
+    Total plated holes count 48
+
+
+Drill file 'a1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.900mm  0.0354"  (4 holes))
+    T2  1.100mm  0.0433"  (2 holes))
+
+    Total unplated holes count 6

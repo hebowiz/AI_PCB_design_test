@@ -1,0 +1,284 @@
+{
+  "errors": [],
+  "components": 51,
+  "pads": 194,
+  "unused_pins": [
+    {
+      "ref": "U1",
+      "pin": "17",
+      "actual_net": "17"
+    },
+    {
+      "ref": "U1",
+      "pin": "21",
+      "actual_net": "21"
+    },
+    {
+      "ref": "U1",
+      "pin": "25",
+      "actual_net": "25"
+    },
+    {
+      "ref": "U1",
+      "pin": "26",
+      "actual_net": "26"
+    },
+    {
+      "ref": "U1",
+      "pin": "29",
+      "actual_net": "29"
+    },
+    {
+      "ref": "U1",
+      "pin": "32",
+      "actual_net": "32"
+    },
+    {
+      "ref": "U1",
+      "pin": "33",
+      "actual_net": "33"
+    },
+    {
+      "ref": "U4",
+      "pin": "6",
+      "actual_net": "6"
+    },
+    {
+      "ref": "U4",
+      "pin": "7",
+      "actual_net": "7"
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "actual_net": "1"
+    },
+    {
+      "ref": "SW1",
+      "pin": "5",
+      "actual_net": "5"
+    },
+    {
+      "ref": "SW1",
+      "pin": "6",
+      "actual_net": "voltage_select-6"
+    },
+    {
+      "ref": "SW1",
+      "pin": "7",
+      "actual_net": "voltage_select-7"
+    },
+    {
+      "ref": "SW1",
+      "pin": "8",
+      "actual_net": "8"
+    },
+    {
+      "ref": "SW2",
+      "pin": "3",
+      "actual_net": "3"
+    },
+    {
+      "ref": "SW3",
+      "pin": "3",
+      "actual_net": "vio_switch-3"
+    }
+  ],
+  "all_front": true,
+  "copper_layers": 2,
+  "thickness_mm": 1.6,
+  "usb_length_mm": {
+    "USB_DM": 6.604531021678298,
+    "USB_DP": 5.795272345116346
+  },
+  "usb_vias": {
+    "USB_DM": 2,
+    "USB_DP": 0
+  },
+  "usb_skew_mm": 0.809258676561952,
+  "fixed_copper": [
+    {
+      "net": "GND",
+      "layer": 0,
+      "start": [
+        7000000,
+        23025000
+      ],
+      "end": [
+        8137499,
+        23025000
+      ],
+      "width": 150000
+    },
+    {
+      "net": "GND",
+      "layer": 0,
+      "start": [
+        7000000,
+        23025000
+      ],
+      "end": [
+        7000000,
+        23025000
+      ],
+      "width": 600000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 0,
+      "start": [
+        10000000,
+        6900000
+      ],
+      "end": [
+        10000000,
+        7100000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 0,
+      "start": [
+        10000000,
+        4575000
+      ],
+      "end": [
+        10000000,
+        6900000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 0,
+      "start": [
+        11250000,
+        8650000
+      ],
+      "end": [
+        11250000,
+        9837500
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 0,
+      "start": [
+        11750000,
+        8650000
+      ],
+      "end": [
+        11250000,
+        8650000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 0,
+      "start": [
+        11750000,
+        8650000
+      ],
+      "end": [
+        11750000,
+        8650000
+      ],
+      "width": 600000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 0,
+      "start": [
+        10000000,
+        7100000
+      ],
+      "end": [
+        10000000,
+        7100000
+      ],
+      "width": 600000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "start": [
+        10000000,
+        7100000
+      ],
+      "end": [
+        10200000,
+        7100000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "start": [
+        10200000,
+        7100000
+      ],
+      "end": [
+        11750000,
+        8650000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DP",
+      "layer": 0,
+      "start": [
+        12000000,
+        6900000
+      ],
+      "end": [
+        12000000,
+        7200000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DP",
+      "layer": 0,
+      "start": [
+        10750000,
+        8400000
+      ],
+      "end": [
+        10750000,
+        9837500
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DP",
+      "layer": 0,
+      "start": [
+        12000000,
+        4575000
+      ],
+      "end": [
+        12000000,
+        6900000
+      ],
+      "width": 250000
+    },
+    {
+      "net": "USB_DP",
+      "layer": 0,
+      "start": [
+        12000000,
+        7200000
+      ],
+      "end": [
+        10750000,
+        8400000
+      ],
+      "width": 250000
+    }
+  ],
+  "tracks_and_vias": 637
+}

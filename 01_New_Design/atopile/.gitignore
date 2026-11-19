@@ -1,0 +1,8 @@
+.local/
+board/.ato/
+board/build/
+board/.cache/
+*.log
+!reports/*.log
+*.kicad_prl
+*.lck

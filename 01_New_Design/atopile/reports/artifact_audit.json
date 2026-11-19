@@ -1,0 +1,17 @@
+{
+  "errors": [],
+  "bom_rows": 51,
+  "position_rows": 51,
+  "release_status": "ENGINEERING_REVIEW_ONLY: SI, crystal routing, via-in-pad, mechanics and hardware tests outstanding",
+  "sha256": {
+    "board/a1.kicad_pcb": "e0d9f5be037c08e92938aafa13a73ac4aaec9c82ffe97c121b2a789a83dab540",
+    "board/a1.kicad_pro": "05a3be3514e83a73dd83e155bbadf091e1d71ff0ca5950ad8332a637c14e391a",
+    "board/a1.kicad_sch": "b2d637713770c3d0416bd1da67b9c2561b962f9539ea654227d91a02e823092e",
+    "board/main.ato": "d3d6212c9cfcf4f6c716b46290c49f0610ff039998801dc31a0ca71e25fcae05",
+    "board/design.json": "5a63c14eae86f59f03b90eac99f65f5ff100b4c52d69849e6a7146c187fa648c",
+    "reports/erc.json": "a6fbe6cd93d6d74f3c42f512f4756d489b37e493180cc5ddddd1e67a44239581",
+    "reports/drc.json": "4c444ac106e90cee146bbb34e8daadeab887f8b8534c35e28f544076cf743ce9",
+    "reports/connectivity.json": "70e3d483ebe08c127afd3f6fd5f18da23ff63a5c4000fbf81aa666d6e8a7a640",
+    "manufacturing/A1-REVIEW-ONLY.zip": "7444355ea89ee1906b817db338a959cbf2a1a8e5a42f9ef7532c0084243a4f0e"
+  }
+}
