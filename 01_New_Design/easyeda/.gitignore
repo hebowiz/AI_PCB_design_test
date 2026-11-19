@@ -1,0 +1,3 @@
+reports/*.local.json
+reports/cache/
+projects/**/eprj3-intro.md

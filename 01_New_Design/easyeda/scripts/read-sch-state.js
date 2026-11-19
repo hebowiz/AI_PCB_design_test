@@ -1,0 +1,1 @@
+return {components:await eda.sch_PrimitiveComponent.getAll(),wires:await eda.sch_PrimitiveWire.getAll(),page:await eda.dmt_Schematic.getCurrentSchematicPageInfo(),attributes:await eda.sch_PrimitiveAttribute.getAll()};

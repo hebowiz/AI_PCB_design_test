@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "expectedComponents": 53,
+  "expectedConnectedPins": 185,
+  "actualPins": 185,
+  "mismatches": [],
+  "unknownPins": []
+}
