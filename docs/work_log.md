@@ -167,3 +167,26 @@
 - 実施: `docs/setup_issues_2026-11-19.md`に実測結果の評価と対応優先度を記載し、`docs/codex_task_atopile_recovery.md`に安全な切り分けと隔離環境での修復検証を指示した。
 - 結果: A-1はatopile 0.15.8の`pyzig` AVX-512障害でブロック。A-2/A-3のツール起動確認は済み、実設計は未実施。上流Issue #1838・PR #1839と現象を照合。
 - 未実施: ユーザーPCのバイナリ再ビルド、WSL2設定、各方式の回路/PCB設計。ドキュメント作成のみ。
+
+## 2026-11-19 20:22 JST — atopile復旧用の隔離環境を準備
+
+- 目的: Windowsネイティブのatopile 0.15.8をCPU baseline向けに再ビルドする。`git pull --ff-only origin main`で`19bcc2d`を取得し、共通ルール、復旧指示、環境・作業ログ、課題レビューを読んだ。開始時の差分はなかった。
+- 既存環境: uvのatopile登録は0.15.8、CPythonは3.14.10、拡張ABIは`.cp314-win_amd64.pyd`。AVX2は有効、AVX512Fは無効だった。`python -X faulthandler -c "import pyzig"`は`0xc000001d`を再現し、捕捉したプロセス終了コードは3だった。元のモジュールとuv・atoのSHA256、依存パッケージ版をGit除外領域へ保存した。
+- 上流確認: Issue #1838とPR #1839を読んだ。GitHub APIでもPRはopen、未マージだった。PyPIの0.15.8 sdistを取得し、SHA256`76c42f33f151947dbe533d4d0a04b60623b84c38ced6e40d17c3099e5f59b955`を公式メタデータと照合した。mainやPRのソースへ置き換えていない。
+- CPU指定: sdistの`src/faebryk/core/zig/CMakeLists.txt`は`ATOPILE_ZIG_CPU`を`-Dcpu`に渡す。`build.zig`では`standardTargetOptions`の結果を両拡張モジュールへ渡していた。生成されたCMakeプロジェクトにも`-Dcpu=baseline`を確認した。
+- 隔離範囲: `.setup-local/atopile-rebuild/`にソース、ビルド用仮想環境、実行試験用仮想環境、uv・Zigキャッシュと生ログを置く。既存のuv tool環境は変更しない。Zigはsdist指定の0.16.0を追加し、CMake 3.28.3-msvc11とVisual Studio Build Tools 2022は既存のものを使う。検査用のiced-x86 1.21.0とpefile 2024.8.26もビルド用仮想環境だけに導入した。
+- 問題と対応: WindowsのtarはAGENTS.mdとUI画像3件のシンボリックリンクを作成できなかった。通常ファイル1,352件はアーカイブと全件一致した。AGENTS.mdの参照先CLAUDE.mdも読んだ。初回CMake構成は`SKBUILD_PLATLIB_DIR`未指定で失敗し、隔離出力先を明示して成功した。
+- この時点の結果: 構成生成は成功。CPU baseline向けビルドと、既存と同版の依存を持つ実行試験環境の導入を開始した。モジュール生成・起動成功の判定は後続の検証で行う。
+
+## 2026-11-19 20:27 JST — CPU互換版の生成とCLI起動に成功
+
+- 実施操作: `ATOPILE_ZIG_CPU=baseline`で`cmake --build <隔離ビルド先> --config Release --target pyzig --verbose`を実行した。終了コード0、約210秒、警告・エラー0で完了した。`cmake --install`も終了コード0で、`native-output/`へCPython 3.14 x64用の2モジュールを配置した。
+- ソース確認: sdistと既存wheelのPythonファイル427件は、改行を正規化すると全件一致した。最初のバイト比較ではwheelのCRLFとsdistのLFが差になったため、テキストとして再比較した。ソース修正はしていない。
+- 命令・ABI検査: PR #1839の固定コミットから検査スクリプトを取得し、内容確認後にPEファイルを検査した。元の両モジュールではAVX-512等を検出した。修復版の196,421命令と1,063,799命令にはbaseline超過・解読不能の検出がなく、検査終了コード0。両方とも`python314.dll`参照と対応する`PyInit_*`を確認した。サイズ・SHA256は`docs/atopile_recovery.md`へ記録した。
+- 実行環境: freezeに基づき同じ123パッケージを`runtime-venv/`へ`--link-mode copy`で導入した。専用の`.pth`で`native-output/`を優先読み込みさせ、既存・隔離の両環境で元の配布`*.pyd`を残した。
+- 起動結果: `import pyzig`、`import pyzig_sexp`、`ato --version`、`ato --help`の4項目がすべて終了コード0。版表示は0.15.8、import先は隔離出力先だった。テレメトリを無効にし、ログ先を隔離した。続いてplatformdirsの参照先も作業領域へ指定し、ヘルプ成功と設定・データパスを確認した。
+- 保全確認: 元の2モジュール、uv、atoのSHA256、uv tool登録、依存版は変化なし。隔離環境の元の配布モジュールも同一ハッシュで残る。KiCad CLI、Java、Freerouting JARのSHA256も以前の記録と一致した。EasyEDA、上流スキル、設計ファイルは操作していない。
+- 追加の問題: サンドボックス内のuv freezeが既定キャッシュのロックを開けず失敗した。作業用`UV_CACHE_DIR`を指定して成功した。設定ファイルの補助列挙は長時間継続したため、その照会だけを中断した。設定内容は読み取っていない。
+- 変更ファイル: 復旧結果と使い方を`docs/atopile_recovery.md`に作成し、環境・前提知識・課題レビュー・作業・決定ログを更新した。生ログやバイナリはGit除外領域に保持する。
+- 未実施: 通常のuv tool環境への移行、認証、回路・PCB設計、`ato build`、部品API、WSL2有効化、再起動。通常環境への移行対象と復旧方法は復旧文書に整理した。
+- 保存前の確認: yomiyasuで日本語を点検し、7文書のリンターと環境文書の差分検査を実行した。復旧文書と環境文書は指摘なし。既定ログ形式と技術用語は保持した。`git diff --check`に差分エラーはなく、バイナリのGit除外を再確認した。`git fetch origin`後の先行更新は0件だった。

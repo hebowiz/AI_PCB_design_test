@@ -95,3 +95,9 @@ APIの呼出名と引数は、導入版の`--help`と`doc api`を先に確認す
 参照: [公式CLI](https://prodocs.easyeda.com/en/api/guide/cli.html)、[AI向けCLI手順](https://prodocs.easyeda.com/storage/texts/api/guide/cli-for-ai.md)、[Extension API](https://prodocs.easyeda.com/en/api/guide/)、[PCB_Document](https://prodocs.easyeda.com/en/api/reference/pro-api.pcb_document.html)、[デスクトップFAQ](https://prodocs.easyeda.com/en/faq/client/)。導入版の`docs/cli-for-ai.md`、`docs/easyeda-format.md`と、CLIが返すAPI・形式仕様も確認した。
 
 同日のユーザーによる認証操作後、空エディタの非表示起動と読み取り専用の`invoke`が成功した。環境APIはEasyEDA Pro 4.1.105、デスクトップ版、半オフラインモードを返した。エディタ起動中の`doctor`は`resultChannel:true`だった。認証前のbridge診断成功だけの状態から、エディタAPIの実行確認まで進んだ。実設計の作成・保存・再読込は引き続き未検証である。
+
+## A-1のCPU互換版を隔離環境で確認
+
+2026-11-19、公式atopile 0.15.8 sdistをZig 0.16.0とCPU baseline指定でビルドした。`pyzig`と`pyzig_sexp`の命令検査、両モジュールのimport、`ato --version`、`ato --help`が成功した。元のuv tool環境を保持したため、修復版の利用には`.setup-local/atopile-rebuild/runtime-venv/Scripts/ato.exe`を明示する。詳細は[atopile_recovery.md](atopile_recovery.md)を参照する。
+
+これでA-1のCLI起動障害は隔離環境で解消した。認証、部品選定、実設計のビルド、補助ツール不足とFreerouting設定の検証は残っている。A-1の全工程が動作したとは扱わない。

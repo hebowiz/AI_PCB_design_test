@@ -1,6 +1,6 @@
 # Windowsセットアップ環境
 
-確認日は2026-11-19。主ツールの導入は完了したが、atopileはネイティブモジュールの命令セット不一致で起動できない。公開文書のユーザー別パスは`%USERPROFILE%`、`%LOCALAPPDATA%`、`%APPDATA%`で表し、詳細な生ログはGit管理外の`.setup-local/`へ保存した。
+確認日は2026-11-19。主ツールの導入は完了した。atopileの元の配布版は命令セット不一致で起動できないが、同日、CPU baseline向けに再ビルドした隔離版でCLI起動を確認した。元のuv tool環境は変更していない。公開文書のユーザー別パスは`%USERPROFILE%`、`%LOCALAPPDATA%`、`%APPDATA%`で表し、詳細な生ログはGit管理外の`.setup-local/`へ保存した。
 
 ## 導入前の環境
 
@@ -48,6 +48,7 @@ Git Bash 5.2.26は既存の実行ファイルを直接指定すると起動し�
 | uv | 0.13.9 | `%USERPROFILE%\.local\bin\uv.exe` | 導入・起動OK |
 | atopile専用Python | 3.14.10 | `%APPDATA%\uv\python\cpython-3.14.10-windows-x86_64-none\python.exe` | 直接指定で起動OK |
 | atopile | 0.15.8 | 環境は`%APPDATA%\uv\tools\atopile`、入口は`%USERPROFILE%\.local\bin\ato.exe` | 導入のみOK、CLI起動失敗 |
+| atopile隔離修復版 | 0.15.8、CPU baseline | `.setup-local/atopile-rebuild/runtime-venv/`と`native-output/` | 両ネイティブモジュールのimport、CLI版・ヘルプ表示OK |
 | Eclipse Temurin JDK | 21.0.13+9 | `C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot` | Java・jar起動OK |
 | Freerouting | 2.1.0、build-date 2025-04-12 | `%USERPROFILE%\tools\freerouting-2.1.0.jar` | JAR構造・本体起動OK、配線未試験 |
 
@@ -95,6 +96,12 @@ CPUはIntel Core i7-12700。.NETのintrinsics検査ではAVX2がtrue、AVX512F�
 | 他バージョンへ変更 | 修正版があれば候補になる | 0.15.8固定条件を変えるため採用していない |
 
 WSL2への移行が必須とは、まだ判断していない。OS機能、仮想化設定、再起動の操作は行っていない。
+
+### 追加検証での復旧結果
+
+同日20:27までに、公式0.15.8 sdistとZig 0.16.0を使い、`ATOPILE_ZIG_CPU=baseline`を指定した隔離ビルドが成功した。生成した`pyzig`と`pyzig_sexp`はCPython 3.14 x64用で、静的検査ではbaselineを超える命令を検出しなかった。既存と同じ123パッケージを別環境へ導入し、生成物だけを優先読み込みすると、両モジュールのimport、`ato --version`、`ato --help`がすべて終了コード0になった。
+
+修復版は`.setup-local/atopile-rebuild/`に保持している。元の配布モジュール、uv tool環境、PATHは変更していないため、通常の`ato`は依然として元の環境を指す。今回の障害解消にはWSL2を必要としなかった。正確な条件、ハッシュ、隔離版の利用方法と移行・復旧案は[atopile_recovery.md](atopile_recovery.md)を参照する。認証、実設計のビルドと部品選定は未検証である。
 
 ## JavaとFreeroutingの確認
 
