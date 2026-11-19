@@ -150,9 +150,13 @@ EasyEDA Pro 4.1.105を標準配置へ導入した。CLIが表示した完全な�
 | `doc format` | 198型の仕様を取得。`ok:true` |
 | stdio MCP | initialize、tools/list、help、doctorの呼び出しに成功。試験用MCPプロセスは終了コード0で停止 |
 | MCP提供ツール | `easyeda-pro.help`、`easyeda-pro.discover`、`easyeda-pro.call` |
-| `open --headless true` | 2回とも終了コード3、`BRIDGE_NOT_READY`。20秒後も`command-space-missing` |
+| 認証前の`open --headless true` | 2回とも終了コード3、`BRIDGE_NOT_READY`。20秒後も`command-space-missing` |
 | `activate` | 終了コード0。通常画面を表示し、ユーザーがActivate設定画面と確認 |
-| 空画面の`invoke` | 無変更の`return 1 + 1;`が10秒で`REQUEST_TIMEOUT`。エディタAPIの実行成功は未確認 |
+| 認証前の空画面の`invoke` | 無変更の`return 1 + 1;`が10秒で`REQUEST_TIMEOUT` |
+| 認証後の`open --headless true` | 終了コード0、`ok:true`。パス未指定の空エディタが起動 |
+| 認証後の`invoke` | 終了コード0、`ok:true`。計算結果2と環境APIの返却値を確認 |
+| エディタ起動中の`doctor` | `connected:true`、`versionMatch:true`、`resultChannel:true` |
+| 検証セッションの終了 | `session close --session <検証セッションID> --destroy`が成功。状態は`closed` |
 
 PowerShellで最初にサンドボックス内から実行した`--help`は応答しなかったため、その試験プロセスだけを終了した。通常権限で明示的に標準出力を捕捉すると成功した。サンドボックスと出力捕捉の影響は個別には切り分けていない。導入版のヘルプにも、PowerShellではパイプか`Start-Process -RedirectStandardOutput`を使うよう記載されている。次の形でCLIの結果を取得できる。
 
@@ -171,6 +175,19 @@ CodexからCLIを直接呼ぶ経路は確認済み。stdio MCPも一時的な検
 通常画面のセッションタイトルは`Regist`で、ユーザーからもActivate設定画面との回答があった。[公式FAQ](https://prodocs.easyeda.com/en/faq/client/)によれば、初回は公式サイトで無料の認証ファイルを取得し、クライアントへ読み込む。オンライン認証は共通ルールに従ってユーザーへ依頼した。認証コードはログやリポジトリに含めない。
 
 非表示起動時にはアプリのログに`400 Bad Request /[object%20Object]`も記録された。未アクティベーション状態でエディタのコマンド実行環境が初期化されていないことは確認できるが、この400応答の原因や、認証後にも発生するかは未確認。Windows固有の不具合やWSL2の必要性は断定しない。インストール済みアプリのコード、OS機能、ファイアウォールは変更していない。
+
+同日20:08までに、ユーザーの認証操作後の動作を確認した。空エディタの非表示起動と`invoke`が成功し、先ほどの起動・実行の失敗は再現しなかった。`eda.sys_Environment`から取得した値は次のとおり。認証情報は読み取っていない。
+
+| API | 返却値 |
+| --- | --- |
+| `getEditorCurrentVersion()` | `4.1.105` |
+| `isClient()` | `true` |
+| `isEasyEDAProEdition()` | `true` |
+| `isOnlineMode()` | `false` |
+| `isHalfOfflineMode()` | `true` |
+| `isOfflineMode()` | `false` |
+
+これにより、WindowsネイティブのCLIから読み取り専用のエディタAPIを実行できる状態まで確認できた。モード設定は変更していない。半オフラインモードなので、完全オフラインでの動作を確認した結果ではない。認証前の400応答の原因は特定していないが、今回のAPI確認を妨げる問題は解消した。
 
 `.eprj3`の分割ファイル形式と既定値は同梱資料と`DMT_Project.createProject`の仕様で確認した。Webの旧例にある`DMT_Project.create`は導入版では`DOC_QUERY_FAILED`となり、メソッド一覧から正しい名前を確認し直した。実際のプロジェクト保存、双方向同期、ERC/DRC、配置・配線、製造出力は未実施である。
 

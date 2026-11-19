@@ -93,3 +93,5 @@ APIの呼出名と引数は、導入版の`--help`と`doc api`を先に確認す
 初回起動には無料のアクティベーションが必要である。認証ファイルの取得には公式サイトへのログインが必要で、ファイルにはアカウント情報が含まれる。公開リポジトリには保存しない。今回の設定ファイルの初期値は`HALF_OFFLINE`だった。これはプロジェクトをローカルに置きつつシステムライブラリをオンラインで使えるモードであり、完全なオフラインを意味しない。部品検索や認証を含む操作は、作業の許可範囲を確認して実施する。
 
 参照: [公式CLI](https://prodocs.easyeda.com/en/api/guide/cli.html)、[AI向けCLI手順](https://prodocs.easyeda.com/storage/texts/api/guide/cli-for-ai.md)、[Extension API](https://prodocs.easyeda.com/en/api/guide/)、[PCB_Document](https://prodocs.easyeda.com/en/api/reference/pro-api.pcb_document.html)、[デスクトップFAQ](https://prodocs.easyeda.com/en/faq/client/)。導入版の`docs/cli-for-ai.md`、`docs/easyeda-format.md`と、CLIが返すAPI・形式仕様も確認した。
+
+同日のユーザーによる認証操作後、空エディタの非表示起動と読み取り専用の`invoke`が成功した。環境APIはEasyEDA Pro 4.1.105、デスクトップ版、半オフラインモードを返した。エディタ起動中の`doctor`は`resultChannel:true`だった。認証前のbridge診断成功だけの状態から、エディタAPIの実行確認まで進んだ。実設計の作成・保存・再読込は引き続き未検証である。

@@ -148,3 +148,15 @@
 - 文章確認: yomiyasuで日本語を点検し、5文書へリンターを実行した。環境文書の指摘は0件。既定ログの箇条書きと、技術的意味のある「正本」は維持した。`git diff --check`は成功した。
 - 保存方針: 認証待ちの時点で実施済みの結果をコミット・pushする。`git fetch origin`で先行変更がないことを確認した。生ログ、インストーラ、認証情報は公開対象に含めない。
 - 残る状態: 無料アクティベーションはユーザー操作待ち。通常画面はその操作用に開いたままとし、認証後のエディタAPI、プロジェクト保存・再読込は未確認。回路・PCB設計、外部への設計送信、WSL2・OS変更は実施していない。
+
+## 2026-11-19 20:08 JST — 認証後のEasyEDAエディタAPIを確認
+
+- 目的: ユーザーから「認証完了したつもり」と連絡を受け、認証後の動作を確認する。開始時の作業ツリーはクリーンで、`main`は`origin/main`と一致していた。
+- 実施操作: `doctor`と`session list`を再実行した後、`open --headless true`でパス未指定の空エディタを起動した。使用する6メソッドの署名を`doc api --class-name SYS_Environment --method-name <メソッド名>`で確認した。
+- API試験: `invoke --session <検証セッションID> --code <読み取り専用コード> --timeout 10000`を実行した。コードは`1 + 1`と`eda.sys_Environment`の版・クライアント・製品・動作モードの照会だけを返す。ユーザー情報や認証ファイルは取得していない。
+- 結果: 起動とAPI試験はいずれも終了コード0、`ok:true`。計算結果は2、`getEditorCurrentVersion()`は`4.1.105`だった。`isClient()`、`isEasyEDAProEdition()`、`isHalfOfflineMode()`は`true`、`isOnlineMode()`、`isOfflineMode()`は`false`。起動中のdoctorは`connected:true`、`versionMatch:true`、`resultChannel:true`だった。
+- 後処理: 作成した検証用セッションだけを`session close --session <検証セッションID> --destroy`で終了した。終了コード0で、一覧の状態は`closed`となった。A-3のprojectsは`.gitkeep`のみで、回路・PCBは作成していない。
+- 変更ファイル: `docs/environment.md`、`docs/knowledge_baseline.md`、`docs/discussion_log.md`、`docs/decision_log.md`、`docs/work_log.md`。認証前の失敗履歴を残し、認証後の成功を追記した。
+- 検証証跡: Git除外の`.setup-local/easyeda/`に`open-post-activation`、`invoke-post-activation`、`doctor-with-editor`、`close-post-activation`、`sessions-after-cleanup`の出力・終了コードを保存した。API署名も保存した。公開記録には認証情報や個人パスを含めない。
+- 未解決事項: 認証前の400応答の原因は未特定。実プロジェクトの保存・再読込や設計ワークフローは対象外で、未検証。既存のatopileのCPU命令セット問題は今回も変更していない。
+- 保存前の確認: yomiyasuで追記文を点検し、5文書のリンターと環境文書の差分検査を実行した。既定のログ形式と技術用語を保持し、新たな記述が実行結果と一致することを確認した。`git diff --check`は成功し、`git fetch origin`後もリモートの先行更新はなかった。
