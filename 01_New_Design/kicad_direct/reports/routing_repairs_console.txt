@@ -1,0 +1,5 @@
+{'net': '/VPHY', 'visited': 575146, 'success': False}
+{'net': '/USB5V', 'visited': 107, 'success': True}
+{'net': '/USB5V', 'visited': 744, 'success': True}
+{'net': '/FT_CTS_N', 'visited': 573619, 'success': False}
+{'net': '/REF12K', 'visited': 240, 'success': False}

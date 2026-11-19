@@ -1,0 +1,13 @@
+{
+  "score": 100,
+  "is_clean": true,
+  "metrics": {
+    "char_count": 3417,
+    "total_lines": 35,
+    "list_lines": 5,
+    "list_ratio": 0.143,
+    "bold_count": 5,
+    "bold_per_1000": 1.46
+  },
+  "findings": []
+}

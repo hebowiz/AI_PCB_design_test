@@ -1,0 +1,8 @@
+# Preserve verified CAD and review manufacturing bytes across platforms.
+*.kicad_pcb -text -whitespace
+*.kicad_sch -text -whitespace
+*.kicad_pro -text -whitespace
+*.kicad_mod -whitespace
+*.kicad_sym -whitespace
+reports/schematic/*.svg -whitespace
+manufacturing_review/** -text -whitespace
