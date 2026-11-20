@@ -1,9 +1,15 @@
 {
   "branch": "experiment/A2-schematic-v3-polish",
   "base": "6654fae9168145beb779b06f72582182a3117050",
-  "status": "validated, ready for commit/push",
+  "design_commit": "c2ee4eb124bce3349d8b6a1a92635656362b3fd3",
+  "remote_design_commit": "c2ee4eb124bce3349d8b6a1a92635656362b3fd3",
+  "status": "push succeeded and remote design commit matched",
+  "verified_at": "2026-11-21T00:57:03.223136+09:00",
+  "committed_schematic_and_export_hashes_match_manifest": true,
   "human_review_candidate": true,
   "user_review_approved": false,
   "electrical_design_approved": false,
-  "manufacturing_approved": false
+  "manufacturing_approved": false,
+  "merge_performed": false,
+  "final_documentation_commit": "Contains this delivery record; verify final HEAD against the same remote branch."
 }

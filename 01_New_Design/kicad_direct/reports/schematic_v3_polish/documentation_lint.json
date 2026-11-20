@@ -25,8 +25,8 @@
       "score": 90,
       "is_clean": false,
       "metrics": {
-        "char_count": 2618,
-        "total_lines": 23,
+        "char_count": 3059,
+        "total_lines": 27,
         "list_lines": 0,
         "list_ratio": 0.0,
         "bold_count": 0,
@@ -50,5 +50,5 @@
       ]
     }
   },
-  "editing_note": "Technical identifiers, values and constraints retained. Repeated polite endings kept where natural; prose reviewed for factual scope and approval state."
+  "editing_note": "Technical identifiers, values and constraints preserved. Natural repeated explanatory endings retained under skill guidance."
 }
