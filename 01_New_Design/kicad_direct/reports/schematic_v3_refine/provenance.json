@@ -1,0 +1,7 @@
+{
+  "base": "3a0e18c99daca23e188540f4f82afcac85b4ab2f",
+  "started": "2026-11-21T00:09:30+09:00",
+  "start_basis": "First recorded environment/baseline check, shortly after initial AGENTS read.",
+  "branch": "experiment/A2-schematic-v3-refine",
+  "human_review_approved": false
+}

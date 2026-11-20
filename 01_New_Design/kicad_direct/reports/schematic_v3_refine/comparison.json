@@ -1,0 +1,117 @@
+{
+  "base": "3a0e18c99daca23e188540f4f82afcac85b4ab2f",
+  "baseline_byte_identical": true,
+  "real_components": 58,
+  "real_component_attributes_equal_except_allowed_FB_libsource": true,
+  "allowed_libsource_changes": {
+    "FB1": {
+      "before": {
+        "lib": "Device",
+        "part": "FerriteBead",
+        "description": "Ferrite bead"
+      },
+      "after": {
+        "lib": "A2_Refine",
+        "part": "FB_Coil",
+        "description": "Ferrite bead"
+      }
+    },
+    "FB2": {
+      "before": {
+        "lib": "Device",
+        "part": "FerriteBead",
+        "description": "Ferrite bead"
+      },
+      "after": {
+        "lib": "A2_Refine",
+        "part": "FB_Coil",
+        "description": "Ferrite bead"
+      }
+    }
+  },
+  "terminal_count": 207,
+  "all_terminal_net_names_equal": true,
+  "net_count_before": 58,
+  "net_count_after": 58,
+  "net_partition_equal": true,
+  "pin_differences": [],
+  "all_existing_symbol_attributes_uuid_pin_identifiers_preserved": true,
+  "all_existing_library_definitions_preserved": true,
+  "real_component_pin_numbers_types_names_anchors_equal": true,
+  "FB_graphical_pin_length_mm": {
+    "before": 2.54,
+    "after": 1.27,
+    "electrical_anchor_unchanged": true
+  },
+  "root_uuid_preserved": true,
+  "no_connect_markers_unchanged": true,
+  "added_symbol_references": [
+    "#PWR0171",
+    "#PWR0172",
+    "#PWR0173"
+  ],
+  "only_power_symbols_added": true,
+  "UART_wires_geometrically_unchanged": true,
+  "all_labels_off_pins": true,
+  "all_remote_labels_at_wire_end": true,
+  "remote_label_count": 16,
+  "local_identifier_count": 22,
+  "protected_file_count": 589,
+  "protected_file_differences": [],
+  "changes_outside_scope": [],
+  "erc": {
+    "before": {
+      "errors": 0,
+      "warnings": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ]
+    },
+    "after": {
+      "errors": 0,
+      "warnings": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ]
+    }
+  },
+  "erc_settings_equal": true,
+  "source_sha256": "bc2fa5fc9f9e01479f32ca245fe3fb5d7ddc8de37051eb0b7f308ed9e4f91eff",
+  "exports_current": true,
+  "user_review_approved": false,
+  "baseline_fresh_export_terminals_match": true,
+  "baseline_fresh_export_components_match": true,
+  "baseline_fresh_erc_violations": 0,
+  "baseline_fresh_erc_settings_match": true,
+  "baseline_exports_match_original_manifest": true
+}

@@ -1,0 +1,46 @@
+{
+  "results": {
+    "report.md": {
+      "score": 90,
+      "is_clean": false,
+      "metrics": {
+        "char_count": 2595,
+        "total_lines": 22,
+        "list_lines": 0,
+        "list_ratio": 0.0,
+        "bold_count": 0,
+        "bold_per_1000": 0.0
+      },
+      "findings": [
+        {
+          "rule": "sentence_end_repetition",
+          "line": 47,
+          "severity": "warn",
+          "message": "同一文末「ます」が3回以上連続しています。文末のリズムを調整してください。",
+          "snippet": "FB1/FB2のlibsource、図形ライブラリ、出力日時などは変化します。"
+        },
+        {
+          "rule": "sentence_end_repetition",
+          "line": 61,
+          "severity": "warn",
+          "message": "同一文末「ます」が3回以上連続しています。文末のリズムを調整してください。",
+          "snippet": "手編集を上書きしないよう、入力回路図のハッシュを検査してから動作します。"
+        }
+      ]
+    },
+    "work_log.md": {
+      "score": 100,
+      "is_clean": true,
+      "metrics": {
+        "char_count": 2646,
+        "total_lines": 23,
+        "list_lines": 0,
+        "list_ratio": 0.0,
+        "bold_count": 0,
+        "bold_per_1000": 0.0
+      },
+      "findings": []
+    }
+  },
+  "editor_note": "Repeated polite explanatory endings were retained where natural, per the skill. No technical terms or numeric claims were rewritten."
+}

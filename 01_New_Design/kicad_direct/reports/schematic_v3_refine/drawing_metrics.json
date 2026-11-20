@@ -1,0 +1,279 @@
+{
+  "sheet_size": "A2 single sheet",
+  "unit": "mm on schematic paper, not PCB",
+  "proximity_pin_to_pin_straight_line": [
+    {
+      "capacitor": "C1",
+      "IC_pin": "U3.1",
+      "V3_mm": 18.88,
+      "refined_mm": 9.25
+    },
+    {
+      "capacitor": "C2",
+      "IC_pin": "U3.5",
+      "V3_mm": 22.5,
+      "refined_mm": 10.47
+    },
+    {
+      "capacitor": "C3",
+      "IC_pin": "U1.12",
+      "V3_mm": 121.32,
+      "refined_mm": 16.51
+    },
+    {
+      "capacitor": "C4",
+      "IC_pin": "U1.24",
+      "V3_mm": 99.88,
+      "refined_mm": 16.51
+    },
+    {
+      "capacitor": "C5",
+      "IC_pin": "U1.39",
+      "V3_mm": 73.67,
+      "refined_mm": 16.51
+    },
+    {
+      "capacitor": "C6",
+      "IC_pin": "U1.46",
+      "V3_mm": 53.54,
+      "refined_mm": 16.51
+    },
+    {
+      "capacitor": "C7",
+      "IC_pin": "U1.37",
+      "V3_mm": 36.12,
+      "refined_mm": 29.89
+    },
+    {
+      "capacitor": "C8",
+      "IC_pin": "U1.38",
+      "V3_mm": 45.81,
+      "refined_mm": 34.31
+    },
+    {
+      "capacitor": "C9",
+      "IC_pin": "U1.3",
+      "V3_mm": 102.59,
+      "refined_mm": 31.75
+    },
+    {
+      "capacitor": "C10",
+      "IC_pin": "U1.8",
+      "V3_mm": 110.75,
+      "refined_mm": 34.2
+    },
+    {
+      "capacitor": "C11",
+      "IC_pin": "U1.3",
+      "V3_mm": 78.34,
+      "refined_mm": 32.65
+    },
+    {
+      "capacitor": "C12",
+      "IC_pin": "U1.8",
+      "V3_mm": 88.76,
+      "refined_mm": 32.15
+    },
+    {
+      "capacitor": "C13",
+      "IC_pin": "Y1.1",
+      "V3_mm": 13.74,
+      "refined_mm": 11.5
+    },
+    {
+      "capacitor": "C14",
+      "IC_pin": "Y1.3",
+      "V3_mm": 13.74,
+      "refined_mm": 11.5
+    },
+    {
+      "capacitor": "C15",
+      "IC_pin": "U5.8",
+      "V3_mm": 23.18,
+      "refined_mm": 18.18
+    },
+    {
+      "capacitor": "C16",
+      "IC_pin": "U2.1",
+      "V3_mm": 21.85,
+      "refined_mm": 16.26
+    },
+    {
+      "capacitor": "C17",
+      "IC_pin": "U2.16",
+      "V3_mm": 22.9,
+      "refined_mm": 16.26
+    },
+    {
+      "capacitor": "C18",
+      "IC_pin": "U4.1",
+      "V3_mm": 21.14,
+      "refined_mm": 19.09
+    },
+    {
+      "capacitor": "C19",
+      "IC_pin": "U4.5",
+      "V3_mm": 19.39,
+      "refined_mm": 14.03
+    },
+    {
+      "capacitor": "C20",
+      "IC_pin": "U6.1",
+      "V3_mm": 17.04,
+      "refined_mm": 16.56
+    },
+    {
+      "capacitor": "C21",
+      "IC_pin": "U6.6",
+      "V3_mm": 28.4,
+      "refined_mm": 14.03
+    }
+  ],
+  "capacitor_branch_wire_lengths": [
+    {
+      "capacitor": "C1",
+      "V3": 6.35,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C2",
+      "V3": 6.35,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C3",
+      "V3": 8.89,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C4",
+      "V3": 8.89,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C5",
+      "V3": 8.89,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C6",
+      "V3": 8.89,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C7",
+      "V3": 8.89,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C8",
+      "V3": 3.81,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C9",
+      "V3": 6.35,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C10",
+      "V3": 6.35,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C11",
+      "V3": 6.35,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C12",
+      "V3": 6.35,
+      "refined": 2.54
+    },
+    {
+      "capacitor": "C13",
+      "V3": 7.62,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C14",
+      "V3": 7.62,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C15",
+      "V3": 8.89,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C16",
+      "V3": 5.08,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C17",
+      "V3": 5.08,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C18",
+      "V3": 11.43,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C19",
+      "V3": 10.16,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C20",
+      "V3": 7.62,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C21",
+      "V3": 5.08,
+      "refined": 1.27
+    },
+    {
+      "capacitor": "C22",
+      "V3": 8.89,
+      "refined": 1.27
+    }
+  ],
+  "all_22_capacitor_ground_external_leads": {
+    "V3_mm": 2.54,
+    "refined_mm": 1.27
+  },
+  "D1_signal_external_branch_mm": {
+    "USB_D+": {
+      "V3": 86.36,
+      "refined": 7.62
+    },
+    "USB_D-": {
+      "V3": 60.96,
+      "refined": 10.16
+    }
+  },
+  "D1_GND_external_lead_mm": {
+    "V3": 2.54,
+    "refined": 1.27
+  },
+  "drawing_object_counts": {
+    "V3": {
+      "symbol": 134,
+      "label": 38,
+      "wire": 302,
+      "junction": 60,
+      "bus": 0
+    },
+    "refined": {
+      "symbol": 137,
+      "label": 38,
+      "wire": 302,
+      "junction": 60,
+      "bus": 0
+    }
+  },
+  "retained_wire_uuids": 185
+}

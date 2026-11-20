@@ -1,0 +1,112 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-21T00:19:10",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0102 ピン 1 [+3V3, Power input, Line]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 152.4
+                            },
+                            "uuid": "5ecfe17c-abb6-44e3-9227-eb2f1d0355fb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 ピン 5 [VOUT, Power output, Line]",
+                            "pos": {
+                                "x": 90.17,
+                                "y": 234.95
+                            },
+                            "uuid": "8f48dc86-1f5e-5a5d-b1a1-2bdfbaf6147a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol C2 ピン 1 [Passive, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 237.49
+                            },
+                            "uuid": "68dc202e-cc92-5b86-918b-3c9793d1a485"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0119 ピン 1 [+3V3, Power input, Line]",
+                            "pos": {
+                                "x": 134.62,
+                                "y": 234.95
+                            },
+                            "uuid": "188cbf70-588c-4d30-a3f9-c00d52a8ae6e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "未接続の配線終端",
+                    "items": [
+                        {
+                            "description": "垂直ワイヤー, 長さ 2.54 mm",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 234.95
+                            },
+                            "uuid": "47220f32-d501-4775-9b6a-9f64810abfdb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        }
+    ],
+    "source": "a2_usb_uart.kicad_sch"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "started": "2026-11-21T00:19:07.508072+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "01_New_Design\\kicad_direct\\reports\\schematic_v3_refine\\after\\netlist.xml",
+      "01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "started": "2026-11-21T00:19:08.532264+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "01_New_Design\\kicad_direct\\reports\\schematic_v3_refine\\after\\erc.json",
+      "01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 5,
+    "stdout": "5 個の違反を検出しました\r\nDRC レポートを 01_New_Design/kicad_direct/reports/schematic_v3_refine/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  }
+]
