@@ -56,3 +56,11 @@ python reports/schematic_v2/render_details.py
 ## 2026-11-20 19:41 JST — 成果物完成
 
 最終の日本語レポートと作業ログはyomiyasuの観点で推敲し、リンターの指摘は0件だった。4本の補助スクリプトの構文検査に合格した。V1比較資料は参照元コミットとバイト単位で一致した。図面座標メタデータは下側回路の移動後の値へ揃えた。成果物完成までの経過は17分14秒。コミット・pushの時間は別途記録する。
+
+## 2026-11-20 19:43 JST — コミットとpushの検証
+
+生成物のバイト列をGitでも保持するため、比較資料の改行変換を無効にした。空白検査がJSON、次いでハッシュTXTのCRLFを指摘したため、ファイルを変換せず、CRを行末として扱う属性を追加した。2回の指摘を解消し、git diff --cached --checkは合格した。
+
+設計と資料を2538acc5acb3925dacd2563b000af9ca855604ccへコミットし、git push --set-upstream origin HEAD:refs/heads/experiment/A2-schematic-v2が成功した。push後にコミット内のSHA256も確認したところ、先にステージしたERC JSONがLFのまま格納されていることを検出した。回路図と検査結果の内容に変更はないが、証跡のバイト列を一致させるため、A-2の新規報告フォルダだけにgit add --renormalizeを適用した。
+
+修正した証跡をd4db6f6c6a81693623fd654aac36ed763a08ac7fへコミット・pushした。インデックスとコミット内のXML/ERC/PDF/PNG、およびV1参照資料のハッシュは全件一致した。git ls-remoteで専用ブランチとHEADが一致した。リモートmainは77f0fd37e0d04b10f6831f88b8f035a009238701、V1はbeba27eed1f1c2a94be86ccc24ce8ffe5ae3d5e6のまま。作業ツリーはクリーンだった。この記録を追加コミットして同じ専用ブランチへpushする。mainへはマージしていない。

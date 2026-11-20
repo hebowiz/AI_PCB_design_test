@@ -6,5 +6,7 @@
   "v0_recorded_minutes_including_pcb": 36,
   "v1_recorded_minutes_to_artifacts_approx": 15,
   "v1_recorded_minutes_to_push_approx": 23,
-  "human_design_review_approved": false
+  "human_design_review_approved": false,
+  "published_evidence_verified": "2026-11-20T19:43:59.188639+09:00",
+  "elapsed_seconds_to_published_evidence_verified": 1197.2
 }

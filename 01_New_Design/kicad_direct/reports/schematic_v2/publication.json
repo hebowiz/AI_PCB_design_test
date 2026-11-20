@@ -1,0 +1,13 @@
+{
+  "design_commit": "2538acc5acb3925dacd2563b000af9ca855604cc",
+  "evidence_preservation_commit": "d4db6f6c6a81693623fd654aac36ed763a08ac7f",
+  "verified_at": "2026-11-20T19:43:59.188639+09:00",
+  "remote_refs": [
+    "beba27eed1f1c2a94be86ccc24ce8ffe5ae3d5e6\trefs/heads/experiment/A2-schematic-v1",
+    "d4db6f6c6a81693623fd654aac36ed763a08ac7f\trefs/heads/experiment/A2-schematic-v2",
+    "77f0fd37e0d04b10f6831f88b8f035a009238701\trefs/heads/main"
+  ],
+  "committed_exports_sha256_verified": true,
+  "working_tree_clean_before_publication_record": true,
+  "note": "This record is committed separately after verification."
+}
