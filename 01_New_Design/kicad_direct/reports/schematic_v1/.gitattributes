@@ -1,0 +1,3 @@
+# Keep comparison evidence byte-identical across checkouts.
+*.xml -text
+*.csv -text whitespace=cr-at-eol

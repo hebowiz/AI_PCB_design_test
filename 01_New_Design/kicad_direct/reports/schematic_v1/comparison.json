@@ -1,0 +1,32 @@
+{
+  "base_snapshot_byte_identical": true,
+  "export_input_hashes_match": true,
+  "base_commit": "6491a464c2eb8ea2d876a913f37be9590db316d8",
+  "netlist_complete_xml_equal_except_export_timestamp": true,
+  "only_excluded_xml_field": "design/date",
+  "normalized_sha256": [
+    "a53559ebd0b40a144d52449acd5f2b7ebd35cc6c8476bf99b462d8f3deff608a",
+    "a53559ebd0b40a144d52449acd5f2b7ebd35cc6c8476bf99b462d8f3deff608a"
+  ],
+  "net_count": 58,
+  "terminal_count": 207,
+  "component_count": 58,
+  "symbol_instances": 62,
+  "changed_immutable_symbol_data": [],
+  "embedded_library_symbols_unchanged": true,
+  "root_uuid_unchanged": true,
+  "protected_existing_files": 107,
+  "protected_file_differences": [],
+  "erc": {
+    "before": {
+      "errors": 0,
+      "warnings": 0,
+      "total": 0
+    },
+    "after": {
+      "errors": 0,
+      "warnings": 0,
+      "total": 0
+    }
+  }
+}

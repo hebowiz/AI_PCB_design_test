@@ -1,0 +1,10 @@
+{
+  "symbols": 62,
+  "wired_pin_endpoints": 102,
+  "wires": 222,
+  "labels": 130,
+  "before_labels": 193,
+  "junctions": 22,
+  "library_symbols_unchanged": true,
+  "output_sha256": "a41047cbbee9b05bdfb8aff8310e66e6e6ae9b9b9839d920ad71fd17aa495147"
+}
