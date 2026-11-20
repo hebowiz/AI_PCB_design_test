@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T19:29:42",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb",
+            "violations": [
+                {
+                    "description": "FT_RTS_N と FT_RXD は、ともに同じ配線に接続されています; FT_RTS_N をネットリスト用ラベルとして選択しました",
+                    "items": [
+                        {
+                            "description": "ラベル 'FT_RTS_N'",
+                            "pos": {
+                                "x": 288.29,
+                                "y": 92.71
+                            },
+                            "uuid": "226bbe08-f0cf-4250-9988-1f2014cfbc8c"
+                        },
+                        {
+                            "description": "ラベル 'FT_RXD'",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 90.17
+                            },
+                            "uuid": "4c0cd6d2-1586-4484-b7bb-0efe07564698"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        }
+    ],
+    "source": "a2_usb_uart.kicad_sch"
+}

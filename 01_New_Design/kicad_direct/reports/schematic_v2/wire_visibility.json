@@ -1,0 +1,282 @@
+[
+  {
+    "relationship": "USB D- connector to ESD",
+    "from": "J1.2",
+    "to": "D1.2",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "USB D+ connector to bridge",
+    "from": "J1.3",
+    "to": "U1.7",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Crystal input to bridge",
+    "from": "Y1.1",
+    "to": "U1.1",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Crystal to load cap",
+    "from": "Y1.1",
+    "to": "C13.1",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "RESET RC to bridge",
+    "from": "R2.2",
+    "to": "U1.34",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "REF resistor to bridge",
+    "from": "R1.1",
+    "to": "U1.5",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Internal 1.8 V capacitor",
+    "from": "U1.37",
+    "to": "C7.1",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "VPHY filter to capacitors",
+    "from": "FB1.2",
+    "to": "C11.1",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "VPHY to bridge",
+    "from": "C11.1",
+    "to": "U1.3",
+    "V0": false,
+    "V1": false,
+    "V2": false
+  },
+  {
+    "relationship": "3V3 bank to bridge",
+    "from": "C3.1",
+    "to": "U1.12",
+    "V0": false,
+    "V1": false,
+    "V2": false
+  },
+  {
+    "relationship": "TXD bridge to translator",
+    "from": "U1.13",
+    "to": "U2.4",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "RXD bridge to translator",
+    "from": "U1.14",
+    "to": "U2.6",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "RTS bridge to translator",
+    "from": "U1.15",
+    "to": "U2.5",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "CTS bridge to translator",
+    "from": "U1.16",
+    "to": "U2.7",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Translator VCCA capacitor",
+    "from": "U2.1",
+    "to": "C16.1",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Translator VCCB capacitor",
+    "from": "U2.16",
+    "to": "C17.1",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Translator DIR tie",
+    "from": "U2.1",
+    "to": "U2.2",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Translator OE pair",
+    "from": "U2.14",
+    "to": "U2.15",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "RXD pull-up",
+    "from": "R11.2",
+    "to": "U2.11",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "CTS pull-up",
+    "from": "R12.2",
+    "to": "U2.10",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "RTS to header",
+    "from": "U2.12",
+    "to": "J3.1",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "CTS to header",
+    "from": "U2.10",
+    "to": "J3.2",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "EEPROM VCC capacitor",
+    "from": "U5.8",
+    "to": "C15.1",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "EEPROM pull-up VCC",
+    "from": "R3.1",
+    "to": "U5.8",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "EEPROM DO series resistor",
+    "from": "U5.4",
+    "to": "R4.1",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "LED current resistor",
+    "from": "R14.2",
+    "to": "D3.2",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Inverter gate bias",
+    "from": "R5.2",
+    "to": "Q1.1",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Inverter drain bias",
+    "from": "R6.2",
+    "to": "Q1.3",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Inverter to regulator enable",
+    "from": "Q1.3",
+    "to": "U4.3",
+    "V0": false,
+    "V1": false,
+    "V2": false
+  },
+  {
+    "relationship": "LDO feedback",
+    "from": "U4.4",
+    "to": "R7.2",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Selector common to divider ground",
+    "from": "SW1.3",
+    "to": "R8.2",
+    "V0": false,
+    "V1": false,
+    "V2": true
+  },
+  {
+    "relationship": "Selector resistor",
+    "from": "R9.2",
+    "to": "SW1.2",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Load switch QOD",
+    "from": "U6.5",
+    "to": "R16.1",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "QOD resistor output",
+    "from": "R16.2",
+    "to": "U6.6",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  },
+  {
+    "relationship": "Load switch to SW2",
+    "from": "U6.6",
+    "to": "SW2.3",
+    "V0": false,
+    "V1": true,
+    "V2": true
+  }
+]

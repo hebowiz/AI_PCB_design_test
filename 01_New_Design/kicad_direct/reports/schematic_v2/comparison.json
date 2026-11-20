@@ -1,0 +1,39 @@
+{
+  "base_commit": "77f0fd37e0d04b10f6831f88b8f035a009238701",
+  "v0_snapshot_byte_identical": true,
+  "full_v0_v2_xml_equal_except_design_date": true,
+  "normalized_sha256": [
+    "b4871a56276e271610d5ac26ed21fd50f441b581b4f3f829eab55f2befd88b90",
+    "b4871a56276e271610d5ac26ed21fd50f441b581b4f3f829eab55f2befd88b90"
+  ],
+  "v0_v1_v2_components_libparts_libraries_nets_equal": true,
+  "net_count": 58,
+  "terminal_count": 207,
+  "components": 58,
+  "immutable_symbols_equal_all_versions": true,
+  "embedded_libraries_equal_all_versions": true,
+  "root_uuid_equal_all_versions": true,
+  "existing_a2_files_checked": 107,
+  "protected_file_differences": [],
+  "tracked_changes_outside_authorized_paths": [],
+  "erc": {
+    "V0": {
+      "errors": 0,
+      "warnings": 0,
+      "total": 0
+    },
+    "V1": {
+      "errors": 0,
+      "warnings": 0,
+      "total": 0
+    },
+    "V2": {
+      "errors": 0,
+      "warnings": 0,
+      "total": 0
+    }
+  },
+  "erc_settings_unchanged": true,
+  "v0_source_sha256": "a5adb287750b442c9a7eaf80b7742c1ee6ff744a789252a929647e1b14b19b2c",
+  "v2_source_sha256": "4579faf18de31980d1abfc1cd8eee670b4fd30c71ed6e8c412c4de1f5b61ad6e"
+}

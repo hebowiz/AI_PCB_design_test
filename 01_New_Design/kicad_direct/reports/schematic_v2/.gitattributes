@@ -1,0 +1,8 @@
+# Preserve source and export evidence bytes across platforms.
+*.xml -text
+*.json -text whitespace=cr-at-eol
+*.csv -text whitespace=cr-at-eol
+before/* -text
+after/* -text
+v1_reference/* -text
+*.txt -text whitespace=cr-at-eol

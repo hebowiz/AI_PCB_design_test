@@ -1,0 +1,10 @@
+{
+  "started": "2026-11-20T19:24:02+09:00",
+  "artifacts_completed": "2026-11-20T19:41:16.033236+09:00",
+  "elapsed_seconds_to_artifacts": 1034.0,
+  "scope": "V2 worktree setup, drawing from V0, repeated image reviews, electrical verification, comparison report and logs; excludes subsequent commit/push",
+  "v0_recorded_minutes_including_pcb": 36,
+  "v1_recorded_minutes_to_artifacts_approx": 15,
+  "v1_recorded_minutes_to_push_approx": 23,
+  "human_design_review_approved": false
+}

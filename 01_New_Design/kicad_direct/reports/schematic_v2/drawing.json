@@ -1,0 +1,1382 @@
+{
+  "sha256": "4579faf18de31980d1abfc1cd8eee670b4fd30c71ed6e8c412c4de1f5b61ad6e",
+  "labels": 103,
+  "wires": 278,
+  "buses": 0,
+  "junctions": 34,
+  "directly_routed_pin_endpoints": 154,
+  "remaining_label_pin_connections": [
+    {
+      "ref": "J1",
+      "pin": "1",
+      "net": "USB5V",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "net": "VPHY",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "net": "VPLL",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U1",
+      "pin": "22",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "23",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "24",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U1",
+      "pin": "35",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "36",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "39",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U1",
+      "pin": "40",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U1",
+      "pin": "41",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "42",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "46",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U1",
+      "pin": "47",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "48",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "U1",
+      "pin": "27",
+      "net": "RXLED_N",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "28",
+      "net": "TXLED_N",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "32",
+      "net": "PWREN_N",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "43",
+      "net": "EE_DATA",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "44",
+      "net": "EE_CLK",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U1",
+      "pin": "45",
+      "net": "EE_CS",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "net": "GND",
+      "reason": "distributed ground"
+    },
+    {
+      "ref": "J3",
+      "pin": "4",
+      "net": "VIO_OUT",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "net": "USB5V",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "FB1",
+      "pin": "1",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "FB2",
+      "pin": "1",
+      "net": "+3V3",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "U5",
+      "pin": "1",
+      "net": "EE_CS",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "net": "EE_CLK",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "net": "PWR_EN",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "net": "PWR_EN",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "SW2",
+      "pin": "2",
+      "net": "USB5V_OUT",
+      "reason": "between functional blocks"
+    },
+    {
+      "ref": "SW3",
+      "pin": "3",
+      "net": "VIO",
+      "reason": "distributed supply"
+    },
+    {
+      "ref": "SW3",
+      "pin": "2",
+      "net": "VIO_OUT",
+      "reason": "between functional blocks"
+    }
+  ],
+  "label_purposes": [
+    {
+      "net": "GND",
+      "at": [
+        42.0,
+        78
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "USB_D-",
+      "at": [
+        149,
+        27
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "USB_D+",
+      "at": [
+        149,
+        31
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "GND",
+      "at": [
+        100.0,
+        70
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        118,
+        85
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        100.0,
+        128
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "RESET_N",
+      "at": [
+        100,
+        102
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "VCCA_1V8",
+      "at": [
+        125,
+        108
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "VCORE_1V8",
+      "at": [
+        141,
+        114
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "FT_TXD",
+      "at": [
+        196,
+        69.0
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "FT_RXD",
+      "at": [
+        196,
+        71.0
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "FT_RTS_N",
+      "at": [
+        196,
+        73.0
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "FT_CTS_N",
+      "at": [
+        196,
+        75.0
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        244.0,
+        46
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        244,
+        59
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "VIO",
+      "at": [
+        282.0,
+        42
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        297,
+        59
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "PWREN_N",
+      "at": [
+        303,
+        63
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "GND",
+      "at": [
+        258.0,
+        82
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "VIO",
+      "at": [
+        306.0,
+        79
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "TXD",
+      "at": [
+        308,
+        69
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "RXD",
+      "at": [
+        308,
+        73
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "RTS_N",
+      "at": [
+        342,
+        99
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "CTS_N",
+      "at": [
+        342,
+        101
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "USB5V_OUT",
+      "at": [
+        348,
+        80
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "GND",
+      "at": [
+        349,
+        61
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        349,
+        111
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        404.0,
+        84
+      ],
+      "purpose": "sink in another block"
+    },
+    {
+      "net": "TXLED_N",
+      "at": [
+        425.0,
+        84
+      ],
+      "purpose": "sink in another block"
+    },
+    {
+      "net": "RXLED_N",
+      "at": [
+        446.0,
+        84
+      ],
+      "purpose": "sink in another block"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        425.0,
+        44
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "LED_PWR_A",
+      "at": [
+        404.0,
+        62
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "LED_TX_A",
+      "at": [
+        425.0,
+        62
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "LED_RX_A",
+      "at": [
+        446.0,
+        62
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "XTAL_IN",
+      "at": [
+        100,
+        40
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "XTAL_OUT",
+      "at": [
+        124,
+        44
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "REF12K",
+      "at": [
+        135,
+        71
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "VPHY",
+      "at": [
+        46.0,
+        169
+      ],
+      "purpose": "filtered rail to U1"
+    },
+    {
+      "net": "GND",
+      "at": [
+        63.0,
+        189
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "VPLL",
+      "at": [
+        138.0,
+        169
+      ],
+      "purpose": "filtered rail to U1"
+    },
+    {
+      "net": "GND",
+      "at": [
+        155.0,
+        189
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        43.0,
+        199
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        43.0,
+        219
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        235.0,
+        174
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        235.0,
+        208
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "EE_DATA",
+      "at": [
+        294,
+        184
+      ],
+      "purpose": "to U1"
+    },
+    {
+      "net": "EE_DO",
+      "at": [
+        278,
+        204
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "USB5V",
+      "at": [
+        31,
+        254
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        57.0,
+        259
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        26.0,
+        284
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "USB5V",
+      "at": [
+        130.0,
+        254
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "VIO",
+      "at": [
+        161.0,
+        259
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "FB",
+      "at": [
+        171,
+        276
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "FB_2V5",
+      "at": [
+        198,
+        293
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "FB_3V3",
+      "at": [
+        213,
+        295
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "GND",
+      "at": [
+        130,
+        311
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        264.0,
+        238
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "PWREN_N",
+      "at": [
+        264,
+        264
+      ],
+      "purpose": "from U1"
+    },
+    {
+      "net": "PWR_EN",
+      "at": [
+        300,
+        260
+      ],
+      "purpose": "to U4 EN / U6 ON"
+    },
+    {
+      "net": "GND",
+      "at": [
+        283,
+        279
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "USB5V",
+      "at": [
+        332.0,
+        254
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        332.0,
+        284
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "USB5V_ENABLED",
+      "at": [
+        387,
+        259
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "QOD",
+      "at": [
+        365,
+        272
+      ],
+      "purpose": "net identifier"
+    },
+    {
+      "net": "USB5V",
+      "at": [
+        46.0,
+        44.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "VPHY",
+      "at": [
+        149.0,
+        67.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        69.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "VPLL",
+      "at": [
+        149.0,
+        73.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        75.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        77.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        79.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        149.0,
+        81.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        83.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        85.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        149.0,
+        87.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        91.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        93.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        149.0,
+        99.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        149.0,
+        101.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        103.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        105.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        149.0,
+        107.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        109.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "GND",
+      "at": [
+        149.0,
+        111.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "RXLED_N",
+      "at": [
+        181.0,
+        91.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "TXLED_N",
+      "at": [
+        181.0,
+        93.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "PWREN_N",
+      "at": [
+        181.0,
+        101.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "EE_DATA",
+      "at": [
+        181.0,
+        105.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "EE_CLK",
+      "at": [
+        181.0,
+        107.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "EE_CS",
+      "at": [
+        181.0,
+        109.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        100.0,
+        89.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "GND",
+      "at": [
+        254.0,
+        67.0
+      ],
+      "purpose": "distributed ground"
+    },
+    {
+      "net": "VIO_OUT",
+      "at": [
+        347.0,
+        105.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "USB5V",
+      "at": [
+        404.0,
+        48.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        36.0,
+        169.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        128.0,
+        169.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "EE_CS",
+      "at": [
+        250.0,
+        182.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "EE_CLK",
+      "at": [
+        274.0,
+        182.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "PWR_EN",
+      "at": [
+        145.0,
+        261.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "PWR_EN",
+      "at": [
+        342.0,
+        263.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "USB5V_OUT",
+      "at": [
+        441.0,
+        261.0
+      ],
+      "purpose": "between functional blocks"
+    },
+    {
+      "net": "VIO",
+      "at": [
+        409.0,
+        289.0
+      ],
+      "purpose": "distributed supply"
+    },
+    {
+      "net": "VIO_OUT",
+      "at": [
+        441.0,
+        288.0
+      ],
+      "purpose": "between functional blocks"
+    }
+  ],
+  "positions_grid_1_27mm": {
+    "U1": [
+      165.0,
+      87.0,
+      0.0
+    ],
+    "U2": [
+      270.0,
+      70.0,
+      0.0
+    ],
+    "U3": [
+      51.0,
+      261.0,
+      0.0
+    ],
+    "U4": [
+      155.0,
+      261.0,
+      0.0
+    ],
+    "U5": [
+      262.0,
+      184.0,
+      0.0
+    ],
+    "U6": [
+      354.0,
+      261.0,
+      0.0
+    ],
+    "Q1": [
+      281.0,
+      264.0,
+      0.0
+    ],
+    "D1": [
+      66.0,
+      62.0,
+      0.0
+    ],
+    "J1": [
+      30.0,
+      48.0,
+      0.0
+    ],
+    "J2": [
+      355.0,
+      69.0,
+      0.0
+    ],
+    "J3": [
+      355.0,
+      101.0,
+      0.0
+    ],
+    "SW1": [
+      211.0,
+      304.0,
+      0.0
+    ],
+    "SW2": [
+      425.0,
+      261.0,
+      0.0
+    ],
+    "SW3": [
+      425.0,
+      288.0,
+      0.0
+    ],
+    "Y1": [
+      112.0,
+      52.0,
+      0.0
+    ],
+    "R1": [
+      118.0,
+      78.0,
+      0.0
+    ],
+    "R2": [
+      100.0,
+      96.0,
+      0.0
+    ],
+    "R3": [
+      315.0,
+      182.0,
+      0.0
+    ],
+    "R4": [
+      294.0,
+      195.0,
+      180.0
+    ],
+    "R5": [
+      264.0,
+      249.0,
+      0.0
+    ],
+    "R6": [
+      300.0,
+      249.0,
+      0.0
+    ],
+    "R7": [
+      181.0,
+      267.0,
+      0.0
+    ],
+    "R8": [
+      181.0,
+      285.0,
+      0.0
+    ],
+    "R9": [
+      207.0,
+      285.0,
+      0.0
+    ],
+    "R10": [
+      231.0,
+      285.0,
+      0.0
+    ],
+    "R11": [
+      306.0,
+      86.0,
+      0.0
+    ],
+    "R12": [
+      322.0,
+      86.0,
+      0.0
+    ],
+    "R13": [
+      404.0,
+      55.0,
+      0.0
+    ],
+    "R14": [
+      425.0,
+      55.0,
+      0.0
+    ],
+    "R15": [
+      446.0,
+      55.0,
+      0.0
+    ],
+    "R16": [
+      377.0,
+      272.0,
+      90.0
+    ],
+    "D2": [
+      404.0,
+      73.0,
+      90.0
+    ],
+    "D3": [
+      425.0,
+      73.0,
+      90.0
+    ],
+    "D4": [
+      446.0,
+      73.0,
+      90.0
+    ],
+    "C1": [
+      26.0,
+      270.0,
+      0.0
+    ],
+    "C2": [
+      78.0,
+      270.0,
+      0.0
+    ],
+    "C3": [
+      43.0,
+      209.0,
+      0.0
+    ],
+    "C4": [
+      75.0,
+      209.0,
+      0.0
+    ],
+    "C5": [
+      107.0,
+      209.0,
+      0.0
+    ],
+    "C6": [
+      139.0,
+      209.0,
+      0.0
+    ],
+    "C7": [
+      125.0,
+      119.0,
+      0.0
+    ],
+    "C8": [
+      143.0,
+      119.0,
+      0.0
+    ],
+    "C9": [
+      63.0,
+      180.0,
+      0.0
+    ],
+    "C10": [
+      155.0,
+      180.0,
+      0.0
+    ],
+    "C11": [
+      83.0,
+      180.0,
+      0.0
+    ],
+    "C12": [
+      175.0,
+      180.0,
+      0.0
+    ],
+    "C13": [
+      100.0,
+      61.0,
+      0.0
+    ],
+    "C14": [
+      124.0,
+      61.0,
+      0.0
+    ],
+    "C15": [
+      235.0,
+      184.0,
+      0.0
+    ],
+    "C16": [
+      244.0,
+      52.0,
+      0.0
+    ],
+    "C17": [
+      297.0,
+      52.0,
+      0.0
+    ],
+    "C18": [
+      130.0,
+      272.0,
+      0.0
+    ],
+    "C19": [
+      231.0,
+      272.0,
+      0.0
+    ],
+    "C20": [
+      332.0,
+      272.0,
+      0.0
+    ],
+    "C21": [
+      393.0,
+      272.0,
+      0.0
+    ],
+    "C22": [
+      100.0,
+      112.0,
+      0.0
+    ],
+    "FB1": [
+      43.0,
+      169.0,
+      90.0
+    ],
+    "FB2": [
+      135.0,
+      169.0,
+      90.0
+    ],
+    "#FLG01": [
+      26.0,
+      254.0,
+      0.0
+    ],
+    "#FLG02": [
+      51.0,
+      284.0,
+      0.0
+    ],
+    "#FLG03": [
+      93.0,
+      169.0,
+      0.0
+    ],
+    "#FLG04": [
+      185.0,
+      169.0,
+      0.0
+    ]
+  }
+}

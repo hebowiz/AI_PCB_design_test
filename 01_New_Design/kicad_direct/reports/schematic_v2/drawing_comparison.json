@@ -1,0 +1,32 @@
+{
+  "V0": {
+    "symbol": 62,
+    "wire": 193,
+    "label": 193,
+    "junction": 0,
+    "bus": 0,
+    "bus_entry": 0,
+    "no_connect": 18,
+    "selected_wire_only_relationships": 0
+  },
+  "V1": {
+    "symbol": 62,
+    "wire": 222,
+    "label": 130,
+    "junction": 22,
+    "bus": 0,
+    "bus_entry": 0,
+    "no_connect": 18,
+    "selected_wire_only_relationships": 14
+  },
+  "V2": {
+    "symbol": 62,
+    "wire": 278,
+    "label": 103,
+    "junction": 34,
+    "bus": 0,
+    "bus_entry": 0,
+    "no_connect": 18,
+    "selected_wire_only_relationships": 32
+  }
+}

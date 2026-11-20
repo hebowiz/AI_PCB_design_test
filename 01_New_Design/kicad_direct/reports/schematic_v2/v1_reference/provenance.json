@@ -1,0 +1,29 @@
+{
+  "commit": "beba27eed1f1c2a94be86ccc24ce8ffe5ae3d5e6",
+  "files": {
+    "a2_usb_uart.kicad_sch": {
+      "original_path": "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch",
+      "sha256": "a41047cbbee9b05bdfb8aff8310e66e6e6ae9b9b9839d920ad71fd17aa495147"
+    },
+    "schematic.pdf": {
+      "original_path": "01_New_Design/kicad_direct/reports/schematic_v1/after/schematic.pdf",
+      "sha256": "6b73cdd7cb07cdc0eb3e319ad88ba1de61eb4a55a07d4123ca33a15ff53d2a3b"
+    },
+    "schematic.png": {
+      "original_path": "01_New_Design/kicad_direct/reports/schematic_v1/after/schematic.png",
+      "sha256": "cb261e845e9b0939f14a3644f07b9076f443b04f509236722ea792f62d7b36f0"
+    },
+    "netlist.xml": {
+      "original_path": "01_New_Design/kicad_direct/reports/schematic_v1/after/netlist.xml",
+      "sha256": "df03730ba58cad064caf21fa52f9b8bc3b4667df41ac930aab0933cd36272635"
+    },
+    "erc.json": {
+      "original_path": "01_New_Design/kicad_direct/reports/schematic_v1/after/erc.json",
+      "sha256": "44c4bfd76c3646dd1eaf51d29a5321eb28e132312d7f631d4f370c17b188b219"
+    },
+    "work_log.md": {
+      "original_path": "01_New_Design/kicad_direct/reports/schematic_v1/work_log.md",
+      "sha256": "559a8be1cfc29821a4bc91153ca6cf610b5039be659373b92a5f07215c1f2349"
+    }
+  }
+}
