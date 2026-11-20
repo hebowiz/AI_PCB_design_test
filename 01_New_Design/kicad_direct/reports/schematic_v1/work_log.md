@@ -47,3 +47,9 @@ python reports/schematic_v1/verify.py
 ```
 
 実際にはKiCad同梱の実行ファイルを絶対パスで指定し、リポジトリのルートからA-2までの相対パスを引数に渡した。修正前PDFの白黒再出力だけは保存済みの複製を入力にした。ネットリスト比較用の入力パスは変えていない。
+
+## 2026-11-20 18:04 JST — コミットとpushの確認
+
+最終比較を再実行し、ネットリスト・部品属性の一致、ERC前後0件、既存107ファイルの保全を確認した。コミット前検査で末尾空行とCSVのCRLFが指摘されたため、新規文書・補助スクリプトの末尾空行を除き、CSVには改行を保持したままCRを行末として扱う属性を指定した。回路図や比較XMLは変更していない。`git diff --cached --check`は修正後に合格した。日本語の評価レポートと作業ログはyomiyasuで最終推敲した。
+
+設計と比較記録を`3fe16f5d307b5a45864837e40a44d916611a2b10`へコミットし、`git push --set-upstream origin HEAD:refs/heads/experiment/A2-schematic-v1`が成功した。`git ls-remote --heads origin refs/heads/experiment/A2-schematic-v1`で同じコミットを確認し、作業ツリーもクリーンだった。ローカルmainは開始時の`6491a464c2eb8ea2d876a913f37be9590db316d8`を保持している。mainへのpush・マージは行っていない。この確認記録を専用ブランチへ追加コミットする。
