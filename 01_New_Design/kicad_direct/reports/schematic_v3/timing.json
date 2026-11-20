@@ -5,5 +5,7 @@
   "instruction_reading_before_start_not_measured": true,
   "V2_recorded_seconds": 1034,
   "timing_comparison_has_different_start_conditions": true,
-  "human_review_approved": false
+  "human_review_approved": false,
+  "published_evidence_verified": "2026-11-20T22:06:41.191029+09:00",
+  "elapsed_seconds_to_published_evidence_verified": 1123.2
 }

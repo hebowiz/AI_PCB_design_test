@@ -1,0 +1,10 @@
+{
+  "design_commit": "d5027af7c3f2e9729e60acab7d9de347dd00949a",
+  "remote_design_commit_verified": "d5027af7c3f2e9729e60acab7d9de347dd00949a",
+  "verified_at": "2026-11-20T22:06:41.191029+09:00",
+  "committed_source_and_output_hashes_verified": true,
+  "working_tree_clean_before_publication_record": true,
+  "branch": "experiment/A2-schematic-v3",
+  "merged_to_other_branches": false,
+  "user_review_approved": false
+}
