@@ -32,8 +32,8 @@
       "score": 100,
       "is_clean": true,
       "metrics": {
-        "char_count": 2646,
-        "total_lines": 23,
+        "char_count": 2992,
+        "total_lines": 26,
         "list_lines": 0,
         "list_ratio": 0.0,
         "bold_count": 0,
@@ -42,5 +42,5 @@
       "findings": []
     }
   },
-  "editor_note": "Repeated polite explanatory endings were retained where natural, per the skill. No technical terms or numeric claims were rewritten."
+  "editor_note": "Repeated polite explanatory endings were retained where natural, per the skill. Technical identifiers and numeric claims preserved."
 }

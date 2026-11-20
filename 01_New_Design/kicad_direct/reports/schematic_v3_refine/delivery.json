@@ -1,6 +1,13 @@
 {
   "branch": "experiment/A2-schematic-v3-refine",
   "base": "3a0e18c99daca23e188540f4f82afcac85b4ab2f",
-  "status": "validated, ready to commit/push",
-  "human_design_approval": false
+  "design_commit": "c4c030090fe3bb370e66b6a6fe5440ada7e86bcd",
+  "remote_design_commit": "c4c030090fe3bb370e66b6a6fe5440ada7e86bcd",
+  "status": "design commit push succeeded and remote hash matched",
+  "verified_at": "2026-11-21T00:31:02.020798+09:00",
+  "source_and_export_commit_hashes_match_manifest": true,
+  "committed_whitespace_check": "PASS after trimming extra EOF blank lines in new report/scripts",
+  "human_design_approval": false,
+  "merge_performed": false,
+  "final_documentation_commit": "Contains this delivery record; verify with git rev-parse HEAD and git ls-remote."
 }
