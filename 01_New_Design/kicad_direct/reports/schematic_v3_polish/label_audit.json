@@ -1,0 +1,382 @@
+[
+  {
+    "net": "FT_TXD",
+    "xy_grid": [
+      196.0,
+      69.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "FT_RXD",
+    "xy_grid": [
+      196.0,
+      71.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "FT_RTS_N",
+    "xy_grid": [
+      196.0,
+      73.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "FT_CTS_N",
+    "xy_grid": [
+      196.0,
+      75.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "PWREN_N",
+    "xy_grid": [
+      303.0,
+      63.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "TXD",
+    "xy_grid": [
+      308.0,
+      69.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "RXD",
+    "xy_grid": [
+      308.0,
+      73.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "RTS_N",
+    "xy_grid": [
+      342.0,
+      99.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "CTS_N",
+    "xy_grid": [
+      342.0,
+      101.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "TXLED_N",
+    "xy_grid": [
+      425.0,
+      84.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "RXLED_N",
+    "xy_grid": [
+      446.0,
+      84.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "LED_PWR_A",
+    "xy_grid": [
+      404.0,
+      62.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "LED_TX_A",
+    "xy_grid": [
+      425.0,
+      62.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "LED_RX_A",
+    "xy_grid": [
+      446.0,
+      62.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "EE_DATA",
+    "xy_grid": [
+      294.0,
+      181.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "EE_DO",
+    "xy_grid": [
+      278.0,
+      204.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 2
+  },
+  {
+    "net": "RXLED_N",
+    "xy_grid": [
+      181.0,
+      91.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "TXLED_N",
+    "xy_grid": [
+      181.0,
+      93.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "PWREN_N",
+    "xy_grid": [
+      181.0,
+      101.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "EE_DATA",
+    "xy_grid": [
+      181.0,
+      105.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "EE_CLK",
+    "xy_grid": [
+      181.0,
+      107.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "EE_CS",
+    "xy_grid": [
+      181.0,
+      109.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "EE_CLK",
+    "xy_grid": [
+      274.0,
+      182.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "USB_D-",
+    "xy_grid": [
+      151.0,
+      27.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "USB_D+",
+    "xy_grid": [
+      151.0,
+      29.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "XTAL_IN",
+    "xy_grid": [
+      105.0,
+      32.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "XTAL_OUT",
+    "xy_grid": [
+      119.0,
+      34.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "REF12K",
+    "xy_grid": [
+      133.0,
+      69.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "RESET_N",
+    "xy_grid": [
+      48.0,
+      132.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "EE_CS",
+    "xy_grid": [
+      252.0,
+      179.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "FB",
+    "xy_grid": [
+      82.0,
+      249.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "FB_2V5",
+    "xy_grid": [
+      112.0,
+      269.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "FB_3V3",
+    "xy_grid": [
+      133.0,
+      272.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "PWR_EN",
+    "xy_grid": [
+      54.0,
+      232.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "QOD",
+    "xy_grid": [
+      86.0,
+      311.0
+    ],
+    "remote": false,
+    "coincident_pin": false,
+    "wire_ends": 0
+  },
+  {
+    "net": "PWR_EN",
+    "xy_grid": [
+      52.0,
+      296.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "PWREN_N",
+    "xy_grid": [
+      267.0,
+      270.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  },
+  {
+    "net": "PWR_EN",
+    "xy_grid": [
+      312.0,
+      266.0
+    ],
+    "remote": true,
+    "coincident_pin": false,
+    "wire_ends": 1
+  }
+]

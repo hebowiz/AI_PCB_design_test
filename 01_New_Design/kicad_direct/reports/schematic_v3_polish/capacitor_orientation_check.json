@@ -1,0 +1,486 @@
+[
+  {
+    "reference": "C1",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      52.0,
+      190.0
+    ],
+    "reference_xy_grid": [
+      54.0,
+      189.0
+    ],
+    "value_xy_grid": [
+      54.0,
+      191.0
+    ]
+  },
+  {
+    "reference": "C10",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      126.0,
+      77.0
+    ],
+    "reference_xy_grid": [
+      128.0,
+      76.0
+    ],
+    "value_xy_grid": [
+      128.0,
+      78.0
+    ]
+  },
+  {
+    "reference": "C11",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      113.0,
+      62.0
+    ],
+    "reference_xy_grid": [
+      115.0,
+      61.0
+    ],
+    "value_xy_grid": [
+      115.0,
+      63.0
+    ]
+  },
+  {
+    "reference": "C12",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      113.0,
+      77.0
+    ],
+    "reference_xy_grid": [
+      115.0,
+      76.0
+    ],
+    "value_xy_grid": [
+      115.0,
+      78.0
+    ]
+  },
+  {
+    "reference": "C13",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      93.0,
+      46.0
+    ],
+    "reference_xy_grid": [
+      95.0,
+      45.0
+    ],
+    "value_xy_grid": [
+      95.0,
+      47.0
+    ]
+  },
+  {
+    "reference": "C14",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      117.0,
+      46.0
+    ],
+    "reference_xy_grid": [
+      119.0,
+      45.0
+    ],
+    "value_xy_grid": [
+      119.0,
+      47.0
+    ]
+  },
+  {
+    "reference": "C15",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      248.0,
+      178.0
+    ],
+    "reference_xy_grid": [
+      246.0,
+      177.0
+    ],
+    "value_xy_grid": [
+      246.0,
+      179.0
+    ]
+  },
+  {
+    "reference": "C16",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      250.0,
+      56.0
+    ],
+    "reference_xy_grid": [
+      248.0,
+      55.0
+    ],
+    "value_xy_grid": [
+      248.0,
+      57.0
+    ]
+  },
+  {
+    "reference": "C17",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      290.0,
+      56.0
+    ],
+    "reference_xy_grid": [
+      292.0,
+      55.0
+    ],
+    "value_xy_grid": [
+      292.0,
+      57.0
+    ]
+  },
+  {
+    "reference": "C18",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      44.0,
+      234.0
+    ],
+    "reference_xy_grid": [
+      42.0,
+      233.0
+    ],
+    "value_xy_grid": [
+      42.0,
+      235.0
+    ]
+  },
+  {
+    "reference": "C19",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      82.0,
+      234.0
+    ],
+    "reference_xy_grid": [
+      84.0,
+      233.0
+    ],
+    "value_xy_grid": [
+      84.0,
+      235.0
+    ]
+  },
+  {
+    "reference": "C2",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      79.0,
+      190.0
+    ],
+    "reference_xy_grid": [
+      81.0,
+      189.0
+    ],
+    "value_xy_grid": [
+      81.0,
+      191.0
+    ]
+  },
+  {
+    "reference": "C20",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      44.0,
+      296.0
+    ],
+    "reference_xy_grid": [
+      42.0,
+      295.0
+    ],
+    "value_xy_grid": [
+      42.0,
+      297.0
+    ]
+  },
+  {
+    "reference": "C21",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      84.0,
+      296.0
+    ],
+    "reference_xy_grid": [
+      86.0,
+      295.0
+    ],
+    "value_xy_grid": [
+      86.0,
+      297.0
+    ]
+  },
+  {
+    "reference": "C22",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      45.0,
+      136.0
+    ],
+    "reference_xy_grid": [
+      47.0,
+      135.0
+    ],
+    "value_xy_grid": [
+      47.0,
+      137.0
+    ]
+  },
+  {
+    "reference": "C3",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      122.0,
+      87.0
+    ],
+    "reference_xy_grid": [
+      124.0,
+      86.0
+    ],
+    "value_xy_grid": [
+      124.0,
+      88.0
+    ]
+  },
+  {
+    "reference": "C4",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      137.0,
+      87.0
+    ],
+    "reference_xy_grid": [
+      139.0,
+      86.0
+    ],
+    "value_xy_grid": [
+      139.0,
+      88.0
+    ]
+  },
+  {
+    "reference": "C5",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      124.0,
+      105.0
+    ],
+    "reference_xy_grid": [
+      126.0,
+      104.0
+    ],
+    "value_xy_grid": [
+      126.0,
+      106.0
+    ]
+  },
+  {
+    "reference": "C6",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      137.0,
+      105.0
+    ],
+    "reference_xy_grid": [
+      139.0,
+      104.0
+    ],
+    "value_xy_grid": [
+      139.0,
+      106.0
+    ]
+  },
+  {
+    "reference": "C7",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      158.0,
+      121.0
+    ],
+    "reference_xy_grid": [
+      160.0,
+      120.0
+    ],
+    "value_xy_grid": [
+      160.0,
+      122.0
+    ]
+  },
+  {
+    "reference": "C8",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      136.0,
+      121.0
+    ],
+    "reference_xy_grid": [
+      138.0,
+      120.0
+    ],
+    "value_xy_grid": [
+      138.0,
+      122.0
+    ]
+  },
+  {
+    "reference": "C9",
+    "angle_deg": 0.0,
+    "vertical_top_power_bottom_GND": true,
+    "ground_symbol_below": true,
+    "short_ground_wire_1_27mm": true,
+    "fields_horizontal": true,
+    "reference_above_value_same_x": true,
+    "field_anchor_offset_x_mm": 2.54,
+    "symbol_xy_grid": [
+      126.0,
+      62.0
+    ],
+    "reference_xy_grid": [
+      128.0,
+      61.0
+    ],
+    "value_xy_grid": [
+      128.0,
+      63.0
+    ]
+  }
+]

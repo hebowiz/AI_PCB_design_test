@@ -1,0 +1,95 @@
+{
+  "base": "6654fae9168145beb779b06f72582182a3117050",
+  "checks": {
+    "baseline_byte_identical": true,
+    "component_XML_attributes_exactly_equal": true,
+    "all_real_terminal_net_names_equal": true,
+    "net_partitions_equal": true,
+    "all_real_component_attributes_and_UUIDs_preserved": true,
+    "remaining_symbol_attributes_and_UUIDs_preserved": true,
+    "only_two_redundant_power_symbols_removed": true,
+    "all_embedded_symbol_definitions_and_pin_semantics_exactly_equal": true,
+    "no_connect_markers_unchanged": true,
+    "root_UUID_preserved": true,
+    "all_non_capacitor_real_component_positions_unchanged": true,
+    "USB_XTAL_UART_wire_geometry_preserved": true,
+    "D1_ground_lead_preserved": true,
+    "all_capacitors_vertical": true,
+    "all_capacitor_GND_below_with_short_lead": true,
+    "all_capacitor_fields_horizontal_and_nearby": true,
+    "all_real_component_fields_visible_horizontal_ref_above_value": true,
+    "remote_labels_at_free_wire_end": true,
+    "all_labels_off_pins": true,
+    "ERC_no_errors_or_warnings": true,
+    "ERC_settings_unchanged": true,
+    "baseline_fresh_XML_equal": true,
+    "baseline_fresh_ERC_zero_and_settings_equal": true,
+    "protected_files_unchanged": true,
+    "changes_within_scope": true,
+    "baseline_exports_match_manifest": true,
+    "final_exports_match_manifest": true
+  },
+  "real_components": 58,
+  "terminals": 207,
+  "nets_before": 58,
+  "nets_after": 58,
+  "capacitors": 22,
+  "horizontal_capacitors_before": 8,
+  "horizontal_capacitors_after": 0,
+  "protected_file_count": 669,
+  "protected_file_differences": [],
+  "pin_differences": [],
+  "ERC": {
+    "before": {
+      "errors": 0,
+      "warnings": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ]
+    },
+    "after": {
+      "errors": 0,
+      "warnings": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ]
+    }
+  },
+  "source_sha256": "b56474a16f52b2196d34e96ba1994b80cd5452a4208d081e89b88c237b32943b",
+  "removed_display_symbols": [
+    "#PWR0171",
+    "#PWR0173"
+  ],
+  "user_review_approved": false,
+  "manufacturing_approved": false
+}

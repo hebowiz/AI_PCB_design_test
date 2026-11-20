@@ -1,0 +1,9 @@
+{
+  "branch": "experiment/A2-schematic-v3-polish",
+  "base": "6654fae9168145beb779b06f72582182a3117050",
+  "status": "validated, ready for commit/push",
+  "human_review_candidate": true,
+  "user_review_approved": false,
+  "electrical_design_approved": false,
+  "manufacturing_approved": false
+}

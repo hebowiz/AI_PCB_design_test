@@ -1,0 +1,11 @@
+{
+  "source_sha256": "b56474a16f52b2196d34e96ba1994b80cd5452a4208d081e89b88c237b32943b",
+  "completed": "2026-11-21T00:51:24.960643+09:00",
+  "outputs_sha256": {
+    "netlist.xml": "53f71b392ec67c85b7633720fa81f5c8d8acc5aa4d4ea868c8716a00f00f0f5c",
+    "erc.json": "27297d4dbc5fc4b8fcaa4ebb23dc6ae2696f0ee59b3732de070729773c988956",
+    "schematic.pdf": "a6a600ebfd923b8675e268d5a304dd684b33a079fd4b73cc9b442c497b21a55c",
+    "schematic.png": "4cf3b633acef861b5243b163f71aa8da3d137039ca90bdef07f9f8ead5c87346",
+    "detail_source.png": "8e3d85cb7656c5e03b0b38a9e99803c22da1681044cee0d0e965ddd9b788b2c4"
+  }
+}

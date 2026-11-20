@@ -1,0 +1,10 @@
+{
+  "base": "6654fae9168145beb779b06f72582182a3117050",
+  "fetched_branch": "origin/experiment/A2-schematic-v3-refine",
+  "branch": "experiment/A2-schematic-v3-polish",
+  "started": "2026-11-21T00:41:27+09:00",
+  "baseline": "before/a2_usb_uart.kicad_sch",
+  "scope": "Only target schematic and this new report directory",
+  "prior_layout_generators_executed": false,
+  "V4_incorporated": false
+}

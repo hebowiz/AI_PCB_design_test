@@ -1,0 +1,176 @@
+{
+  "reviewer": "AI self-review, not user review or design approval",
+  "final_review_completed": "2026-11-21T00:55:14.887189+09:00",
+  "reviewed_source_sha256": "b56474a16f52b2196d34e96ba1994b80cd5452a4208d081e89b88c237b32943b",
+  "reviewed_pdf_sha256": "a6a600ebfd923b8675e268d5a304dd684b33a079fd4b73cc9b442c497b21a55c",
+  "full_sheet_review": "Viewed after/overview.png after final correction; A2 single sheet functional block and tree structure retained. Small text requires zoom.",
+  "iterations": [
+    {
+      "pass": 1,
+      "evidence": "iterations/01_*.png",
+      "finding": "Vertical capacitors and nearby fields readable; connector and LED fields could be closer."
+    },
+    {
+      "pass": 2,
+      "evidence": "iterations/02_led_alignment.png",
+      "finding": "LED values overlapped symbols after adjusting position; 90-degree field justification was corrected."
+    },
+    {
+      "pass": 3,
+      "evidence": "after/detail_*.png",
+      "finding": "Corrected LED alignment verified. Final overall and block images inspected."
+    }
+  ],
+  "component_coverage": [
+    {
+      "image": "after/detail_usb_esd.png",
+      "references": [
+        "J1",
+        "D1"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_crystal.png",
+      "references": [
+        "Y1",
+        "C13",
+        "C14"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_ft232h.png",
+      "references": [
+        "U1",
+        "FB1",
+        "FB2",
+        "R1",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_reset.png",
+      "references": [
+        "R2",
+        "C22"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_uart_caps.png",
+      "references": [
+        "U2",
+        "C16",
+        "C17"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_uart_crossings.png",
+      "references": [
+        "R11",
+        "R12"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_headers.png",
+      "references": [
+        "J2",
+        "J3"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_leds.png",
+      "references": [
+        "D2",
+        "D3",
+        "D4",
+        "R13",
+        "R14",
+        "R15"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_eeprom.png",
+      "references": [
+        "U5",
+        "C15",
+        "R3",
+        "R4"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_ldos.png",
+      "references": [
+        "U3",
+        "U4",
+        "C1",
+        "C2",
+        "C18",
+        "C19"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_feedback.png",
+      "references": [
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "SW1"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_load_switch.png",
+      "references": [
+        "U6",
+        "C20",
+        "C21",
+        "R16"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_power_tree.png",
+      "references": [
+        "SW2",
+        "SW3"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    },
+    {
+      "image": "after/detail_label_stubs.png",
+      "references": [
+        "Q1",
+        "R5",
+        "R6"
+      ],
+      "result": "Association between Reference/Value and body checked; no overlapping component fields detected in this view."
+    }
+  ],
+  "unique_real_components_covered": 58,
+  "all_22_capacitors_vertical_GND_below": true,
+  "mechanical_checks": "capacitor_orientation_check.json and component_field_check.json",
+  "remaining_limits": [
+    "Non-junction crossings remain in the U1 power/reference area.",
+    "Capacitors in shared supply groups may be farther from an individual IC pin than V3-refine.",
+    "No human review, electrical validation, PCB parasitic verification, or manufacturing approval."
+  ]
+}

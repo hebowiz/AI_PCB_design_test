@@ -1,0 +1,136 @@
+{
+  "unit": "mm on schematic paper; not PCB",
+  "pin_to_pin_straight_line_distance": [
+    {
+      "capacitor": "C1",
+      "IC_pin": "U3.1",
+      "refine": 9.25,
+      "polish": 9.25
+    },
+    {
+      "capacitor": "C2",
+      "IC_pin": "U3.5",
+      "refine": 10.47,
+      "polish": 10.47
+    },
+    {
+      "capacitor": "C3",
+      "IC_pin": "U1.12",
+      "refine": 16.51,
+      "polish": 39.55
+    },
+    {
+      "capacitor": "C4",
+      "IC_pin": "U1.24",
+      "refine": 16.51,
+      "polish": 20.67
+    },
+    {
+      "capacitor": "C5",
+      "IC_pin": "U1.39",
+      "refine": 16.51,
+      "polish": 37.03
+    },
+    {
+      "capacitor": "C6",
+      "IC_pin": "U1.46",
+      "refine": 16.51,
+      "polish": 21.29
+    },
+    {
+      "capacitor": "C7",
+      "IC_pin": "U1.37",
+      "refine": 29.89,
+      "polish": 29.89
+    },
+    {
+      "capacitor": "C8",
+      "IC_pin": "U1.38",
+      "refine": 34.31,
+      "polish": 34.31
+    },
+    {
+      "capacitor": "C9",
+      "IC_pin": "U1.3",
+      "refine": 31.75,
+      "polish": 35.76
+    },
+    {
+      "capacitor": "C10",
+      "IC_pin": "U1.8",
+      "refine": 34.2,
+      "polish": 34.31
+    },
+    {
+      "capacitor": "C11",
+      "IC_pin": "U1.3",
+      "refine": 32.65,
+      "polish": 51.81
+    },
+    {
+      "capacitor": "C12",
+      "IC_pin": "U1.8",
+      "refine": 32.15,
+      "polish": 50.82
+    },
+    {
+      "capacitor": "C15",
+      "IC_pin": "U5.8",
+      "refine": 18.18,
+      "polish": 18.18
+    },
+    {
+      "capacitor": "C16",
+      "IC_pin": "U2.1",
+      "refine": 16.26,
+      "polish": 16.26
+    },
+    {
+      "capacitor": "C17",
+      "IC_pin": "U2.16",
+      "refine": 16.26,
+      "polish": 16.26
+    },
+    {
+      "capacitor": "C18",
+      "IC_pin": "U4.1",
+      "refine": 19.09,
+      "polish": 19.09
+    },
+    {
+      "capacitor": "C19",
+      "IC_pin": "U4.5",
+      "refine": 14.03,
+      "polish": 14.03
+    },
+    {
+      "capacitor": "C20",
+      "IC_pin": "U6.1",
+      "refine": 16.56,
+      "polish": 16.56
+    },
+    {
+      "capacitor": "C21",
+      "IC_pin": "U6.6",
+      "refine": 14.03,
+      "polish": 14.03
+    }
+  ],
+  "drawing_objects": {
+    "refine": {
+      "symbol": 137,
+      "label": 38,
+      "wire": 302,
+      "junction": 60,
+      "bus": 0
+    },
+    "polish": {
+      "symbol": 135,
+      "label": 38,
+      "wire": 313,
+      "junction": 62,
+      "bus": 0
+    }
+  },
+  "retained_wire_UUIDs": 263
+}
