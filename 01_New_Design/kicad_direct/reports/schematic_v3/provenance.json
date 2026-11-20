@@ -1,0 +1,13 @@
+{
+  "base": "89093caab59e9e6897808d0fd020dd2c689ba450",
+  "before_exports": "Copied from verified V2 after outputs; baseline will be freshly checked too.",
+  "user_review_approved": false,
+  "first_timestamped_operation": "2026-11-20T21:47:58+09:00",
+  "time_basis": "Git worktree initial HEAD reflog; initial instruction-reading time was not timestamped. Elapsed time from this recorded operation is a lower bound on total task time.",
+  "branch_created": "2026-11-20T21:48:11+09:00",
+  "os": "Windows",
+  "shell": "PowerShell 7.6",
+  "KiCad": "10.0.8",
+  "Python": "3.11.5",
+  "source": "V2 snapshot only; no V0/V1/V4 input to layout."
+}

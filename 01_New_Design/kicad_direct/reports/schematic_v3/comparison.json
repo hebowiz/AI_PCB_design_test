@@ -1,0 +1,148 @@
+{
+  "base": "89093caab59e9e6897808d0fd020dd2c689ba450",
+  "baseline_byte_identical": true,
+  "real_components": 58,
+  "component_xml_attributes_equal": true,
+  "terminal_count": 207,
+  "all_terminal_net_names_equal": true,
+  "root_scope_name_normalization": "Only leading / removed: V2 root-local labels -> V3 global power names on the same single sheet.",
+  "net_count_before": 58,
+  "net_count_after": 58,
+  "net_partition_equal": true,
+  "pin_differences": [],
+  "all_existing_symbol_attributes_uuid_pin_identifiers_preserved": true,
+  "all_existing_library_definitions_preserved": true,
+  "root_uuid_preserved": true,
+  "added_symbol_references": [
+    "#FLG05",
+    "#FLG06",
+    "#PWR0101",
+    "#PWR0102",
+    "#PWR0103",
+    "#PWR0104",
+    "#PWR0105",
+    "#PWR0106",
+    "#PWR0107",
+    "#PWR0108",
+    "#PWR0109",
+    "#PWR0110",
+    "#PWR0111",
+    "#PWR0112",
+    "#PWR0113",
+    "#PWR0114",
+    "#PWR0115",
+    "#PWR0116",
+    "#PWR0117",
+    "#PWR0118",
+    "#PWR0119",
+    "#PWR0120",
+    "#PWR0121",
+    "#PWR0122",
+    "#PWR0123",
+    "#PWR0124",
+    "#PWR0125",
+    "#PWR0126",
+    "#PWR0127",
+    "#PWR0128",
+    "#PWR0129",
+    "#PWR0130",
+    "#PWR0131",
+    "#PWR0132",
+    "#PWR0133",
+    "#PWR0134",
+    "#PWR0135",
+    "#PWR0136",
+    "#PWR0137",
+    "#PWR0138",
+    "#PWR0139",
+    "#PWR0140",
+    "#PWR0141",
+    "#PWR0142",
+    "#PWR0143",
+    "#PWR0144",
+    "#PWR0145",
+    "#PWR0146",
+    "#PWR0147",
+    "#PWR0148",
+    "#PWR0149",
+    "#PWR0150",
+    "#PWR0151",
+    "#PWR0152",
+    "#PWR0153",
+    "#PWR0154",
+    "#PWR0155",
+    "#PWR0156",
+    "#PWR0157",
+    "#PWR0158",
+    "#PWR0159",
+    "#PWR0160",
+    "#PWR0161",
+    "#PWR0162",
+    "#PWR0163",
+    "#PWR0164",
+    "#PWR0165",
+    "#PWR0166",
+    "#PWR0167",
+    "#PWR0168",
+    "#PWR0169",
+    "#PWR0170"
+  ],
+  "only_power_symbols_added": true,
+  "protected_file_count": 531,
+  "protected_file_differences": [],
+  "changes_outside_scope": [],
+  "erc": {
+    "before": {
+      "errors": 0,
+      "warnings": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ]
+    },
+    "after": {
+      "errors": 0,
+      "warnings": 0,
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ]
+    }
+  },
+  "erc_settings_equal": true,
+  "source_sha256": "770aeccf6708b8edd6e496ce9c74b1e07d4833be0b4e868dab6b2a61f6f76fe7",
+  "exports_current": true,
+  "user_review_approved": false,
+  "baseline_fresh_export_terminals_match": true,
+  "baseline_fresh_export_components_match": true,
+  "baseline_fresh_erc_violations": 0,
+  "baseline_fresh_erc_settings_match": true
+}

@@ -1,0 +1,143 @@
+{
+  "metrics": {
+    "V2": {
+      "symbol": 62,
+      "label": 103,
+      "wire": 278,
+      "junction": 34,
+      "bus": 0,
+      "gnd_wire_total_mm": 1347.47,
+      "gnd_wire_max_segment_mm": 81.28,
+      "ground_symbol_count": 0,
+      "circle_power_symbols": 0
+    },
+    "V3": {
+      "symbol": 134,
+      "label": 38,
+      "wire": 302,
+      "junction": 60,
+      "bus": 0,
+      "gnd_wire_total_mm": 203.2,
+      "gnd_wire_max_segment_mm": 8.89,
+      "ground_symbol_count": 46,
+      "circle_power_symbols": 24
+    }
+  },
+  "capacitor_to_IC_origin_distance_mm": [
+    {
+      "capacitor": "C1",
+      "IC": "U3",
+      "V2": 33.74,
+      "V3": 26.52
+    },
+    {
+      "capacitor": "C2",
+      "IC": "U3",
+      "V2": 36.14,
+      "V3": 30.19
+    },
+    {
+      "capacitor": "C3",
+      "IC": "U1",
+      "V2": 219.12,
+      "V3": 130.56
+    },
+    {
+      "capacitor": "C4",
+      "IC": "U1",
+      "V2": 192.54,
+      "V3": 113.17
+    },
+    {
+      "capacitor": "C5",
+      "IC": "U1",
+      "V2": 171.56,
+      "V3": 98.05
+    },
+    {
+      "capacitor": "C6",
+      "IC": "U1",
+      "V2": 158.42,
+      "V3": 86.4
+    },
+    {
+      "capacitor": "C7",
+      "IC": "U1",
+      "V2": 65.06,
+      "V3": 50.32
+    },
+    {
+      "capacitor": "C8",
+      "IC": "U1",
+      "V2": 49.32,
+      "V3": 52.21
+    },
+    {
+      "capacitor": "C9",
+      "IC": "U1",
+      "V2": 175.3,
+      "V3": 114.41
+    },
+    {
+      "capacitor": "C10",
+      "IC": "U1",
+      "V2": 118.79,
+      "V3": 119.7
+    },
+    {
+      "capacitor": "C11",
+      "IC": "U1",
+      "V2": 157.46,
+      "V3": 89.05
+    },
+    {
+      "capacitor": "C12",
+      "IC": "U1",
+      "V2": 118.79,
+      "V3": 95.75
+    },
+    {
+      "capacitor": "C15",
+      "IC": "U5",
+      "V2": 34.29,
+      "V3": 22.86
+    },
+    {
+      "capacitor": "C16",
+      "IC": "U2",
+      "V2": 40.16,
+      "V3": 37.5
+    },
+    {
+      "capacitor": "C17",
+      "IC": "U2",
+      "V2": 41.21,
+      "V3": 38.63
+    },
+    {
+      "capacitor": "C18",
+      "IC": "U4",
+      "V2": 34.69,
+      "V3": 28.4
+    },
+    {
+      "capacitor": "C19",
+      "IC": "U4",
+      "V2": 97.53,
+      "V3": 26.7
+    },
+    {
+      "capacitor": "C20",
+      "IC": "U6",
+      "V2": 31.24,
+      "V3": 26.91
+    },
+    {
+      "capacitor": "C21",
+      "IC": "U6",
+      "V2": 51.46,
+      "V3": 38.63
+    }
+  ],
+  "note": "Lengths are schematic drawing lengths, not PCB routing lengths. Segment maximum depends on subdivision."
+}

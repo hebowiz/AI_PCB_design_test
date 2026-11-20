@@ -1,0 +1,907 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T21:57:53",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb",
+            "violations": [
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C1 [C]",
+                            "pos": {
+                                "x": 33.02,
+                                "y": 342.9
+                            },
+                            "uuid": "657266c8-fa74-5e90-8391-227ab7926199"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル J1 [USB_A_PLUG]",
+                            "pos": {
+                                "x": 38.1,
+                                "y": 60.96
+                            },
+                            "uuid": "d8527035-0c9f-5a56-a65e-4e06128605fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル FB1 [FerriteBead]",
+                            "pos": {
+                                "x": 54.61,
+                                "y": 214.63
+                            },
+                            "uuid": "265bfebc-0887-5c33-8e81-9e2691fac2ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C3 [C]",
+                            "pos": {
+                                "x": 54.61,
+                                "y": 265.43
+                            },
+                            "uuid": "dcd6174b-ed1b-5a00-8f18-18bd38637d32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U3 [AP2112K-3.3]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 331.47
+                            },
+                            "uuid": "16cb5176-b9a1-5ba7-82ba-c5b67ff50b8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C9 [C]",
+                            "pos": {
+                                "x": 80.01,
+                                "y": 228.6
+                            },
+                            "uuid": "82d51473-c5e1-55c6-ab03-a9357f2f385c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D1 [TPD2EUSB30]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 78.74
+                            },
+                            "uuid": "37672e11-b645-5ddb-af3a-0c960ca3e8dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C4 [C]",
+                            "pos": {
+                                "x": 95.25,
+                                "y": 265.43
+                            },
+                            "uuid": "d2f7b86b-d002-5d1e-b48f-d0afd87b51b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C2 [C]",
+                            "pos": {
+                                "x": 99.06,
+                                "y": 342.9
+                            },
+                            "uuid": "c892511b-1fc8-53db-af45-cb44d1ebf292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C11 [C]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 228.6
+                            },
+                            "uuid": "7fbea7c6-1e8a-5c4a-bc95-4084d4d55d8e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C13 [C]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 77.47
+                            },
+                            "uuid": "11fd589d-6b47-52b7-81b8-b1d0294ba2dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R2 [R]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 121.92
+                            },
+                            "uuid": "93025193-1dcb-5892-a4db-ae9d94ca471d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C22 [C]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 142.24
+                            },
+                            "uuid": "c6495693-5e15-52fc-8b76-693ff87c765c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C5 [C]",
+                            "pos": {
+                                "x": 135.89,
+                                "y": 265.43
+                            },
+                            "uuid": "ceac2e55-78ec-5883-9f03-8cd68404c817"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル Y1 [Crystal_GND24]",
+                            "pos": {
+                                "x": 142.24,
+                                "y": 66.04
+                            },
+                            "uuid": "2ab60a3a-a88b-5405-a117-9d664f31c024"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R1 [R]",
+                            "pos": {
+                                "x": 149.86,
+                                "y": 99.06
+                            },
+                            "uuid": "82882692-8949-54ab-9e73-2689ff35c7ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C14 [C]",
+                            "pos": {
+                                "x": 157.48,
+                                "y": 77.47
+                            },
+                            "uuid": "2bcf7f6b-156a-5753-add3-9ee64a2a731d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C7 [C]",
+                            "pos": {
+                                "x": 158.75,
+                                "y": 151.13
+                            },
+                            "uuid": "b4f369d9-5c33-5629-8eb2-886d89b1fa74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C18 [C]",
+                            "pos": {
+                                "x": 165.1,
+                                "y": 345.44
+                            },
+                            "uuid": "4d768710-66d8-5947-ba63-be2fa2e432ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル FB2 [FerriteBead]",
+                            "pos": {
+                                "x": 171.45,
+                                "y": 214.63
+                            },
+                            "uuid": "4df29b19-9a76-580c-891a-5a6d9c5e85fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C6 [C]",
+                            "pos": {
+                                "x": 176.53,
+                                "y": 265.43
+                            },
+                            "uuid": "76841ae1-d3d8-5a59-b787-a795085fb042"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C8 [C]",
+                            "pos": {
+                                "x": 181.61,
+                                "y": 151.13
+                            },
+                            "uuid": "7d585a4d-34f5-5413-aa7a-ef01dafd7433"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C10 [C]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 228.6
+                            },
+                            "uuid": "aa5f27d4-94fb-59c8-bf93-132d49c1852a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U4 [TLV75801PDBV]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 331.47
+                            },
+                            "uuid": "8e4a4f50-27ea-50dc-b1c2-1eb945f85ab0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U1 [FT232HL_UART]",
+                            "pos": {
+                                "x": 209.55,
+                                "y": 110.49
+                            },
+                            "uuid": "9609f2ee-b151-5242-87a9-53903a83b448"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C12 [C]",
+                            "pos": {
+                                "x": 222.25,
+                                "y": 228.6
+                            },
+                            "uuid": "a87c75b0-e1ea-5c64-b9df-a28d27918328"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R7 [R]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 339.09
+                            },
+                            "uuid": "cee79a88-e78d-5938-a5ea-6c8d1543aab1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R8 [R]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 361.95
+                            },
+                            "uuid": "dde9e3ca-c854-5463-aef0-d44f48349631"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R9 [R]",
+                            "pos": {
+                                "x": 262.89,
+                                "y": 361.95
+                            },
+                            "uuid": "ad28129a-c5bc-553f-a3f4-4aae2191ad93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW1 [PCM13]",
+                            "pos": {
+                                "x": 267.97,
+                                "y": 386.08
+                            },
+                            "uuid": "6eea836a-64f4-5410-8b85-4dbed96e9e0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C19 [C]",
+                            "pos": {
+                                "x": 293.37,
+                                "y": 345.44
+                            },
+                            "uuid": "deda5e44-0e20-521b-bb55-662ed4985266"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R10 [R]",
+                            "pos": {
+                                "x": 293.37,
+                                "y": 361.95
+                            },
+                            "uuid": "9a919af3-9e1f-5013-bda1-ebce8a65a1ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C15 [C]",
+                            "pos": {
+                                "x": 298.45,
+                                "y": 233.68
+                            },
+                            "uuid": "1146d9a8-ef31-584d-9326-6c6ff855cdac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C16 [C]",
+                            "pos": {
+                                "x": 309.88,
+                                "y": 66.04
+                            },
+                            "uuid": "e73161cb-96e6-5a4b-88dd-23e7cb5dbff4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U5 [93LCxxB]",
+                            "pos": {
+                                "x": 332.74,
+                                "y": 233.68
+                            },
+                            "uuid": "36fd09ff-f9e0-5ee6-ac7f-bb073dd5ddb3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R5 [R]",
+                            "pos": {
+                                "x": 335.28,
+                                "y": 316.23
+                            },
+                            "uuid": "5837b2e5-39ff-5f80-a074-cc4a05e1431a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U2 [SN74AXC4T245]",
+                            "pos": {
+                                "x": 342.9,
+                                "y": 88.9
+                            },
+                            "uuid": "7d983556-e50d-5c71-a9f9-c3024ff48c6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル Q1 [2N7002]",
+                            "pos": {
+                                "x": 356.87,
+                                "y": 335.28
+                            },
+                            "uuid": "724bd612-7311-5737-88dd-9e90e4a6d811"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R4 [R]",
+                            "pos": {
+                                "x": 373.38,
+                                "y": 247.65
+                            },
+                            "uuid": "5760398f-9a5a-5b7b-8a27-5b4a2344f77e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C17 [C]",
+                            "pos": {
+                                "x": 377.19,
+                                "y": 66.04
+                            },
+                            "uuid": "d8c504cd-ffbb-55a4-be2c-d3f807338fcc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R6 [R]",
+                            "pos": {
+                                "x": 381.0,
+                                "y": 316.23
+                            },
+                            "uuid": "b8b0899b-011a-5f91-86e0-c005804ad8d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R11 [R]",
+                            "pos": {
+                                "x": 388.62,
+                                "y": 109.22
+                            },
+                            "uuid": "d4dc03b7-bfa1-5349-b066-036e8e098f8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R3 [R]",
+                            "pos": {
+                                "x": 400.05,
+                                "y": 231.14
+                            },
+                            "uuid": "95afa041-e7ef-59bb-8c13-91a504b5e864"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R12 [R]",
+                            "pos": {
+                                "x": 408.94,
+                                "y": 109.22
+                            },
+                            "uuid": "326c960e-1e45-5454-802a-aece2e24fdad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C20 [C]",
+                            "pos": {
+                                "x": 421.64,
+                                "y": 345.44
+                            },
+                            "uuid": "38337ebd-ac90-5d9e-80d1-bf5fa353c613"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル U6 [TPS22919DCK]",
+                            "pos": {
+                                "x": 449.58,
+                                "y": 331.47
+                            },
+                            "uuid": "c2b6f5de-d08c-5858-9242-b4acbc3fc2e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル J2 [Conn_01x04]",
+                            "pos": {
+                                "x": 450.85,
+                                "y": 87.63
+                            },
+                            "uuid": "9c99a2d7-74a4-53c4-ac1b-634dcb72a9d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル J3 [Conn_01x04]",
+                            "pos": {
+                                "x": 450.85,
+                                "y": 128.27
+                            },
+                            "uuid": "1ed270e7-85cf-584a-8630-5e2f0600278e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R16 [R]",
+                            "pos": {
+                                "x": 478.79,
+                                "y": 345.44
+                            },
+                            "uuid": "8bab8709-4ba1-5ef9-8156-447bf952442c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル C21 [C]",
+                            "pos": {
+                                "x": 499.11,
+                                "y": 345.44
+                            },
+                            "uuid": "bcd35d5c-ed75-5c52-aaaf-1cac066f05bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R13 [R]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 69.85
+                            },
+                            "uuid": "da9a5a4d-13e4-568e-b9a2-d73494500c3f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D2 [LED]",
+                            "pos": {
+                                "x": 513.08,
+                                "y": 92.71
+                            },
+                            "uuid": "f882ec34-d97a-56a6-8f87-0a737c6382b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R14 [R]",
+                            "pos": {
+                                "x": 539.75,
+                                "y": 69.85
+                            },
+                            "uuid": "392c9866-733d-59c1-9cbf-7be7239bccd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D3 [LED]",
+                            "pos": {
+                                "x": 539.75,
+                                "y": 92.71
+                            },
+                            "uuid": "dd860bbc-bd19-5ad9-a721-48b82b74ddc4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW2 [PCM12]",
+                            "pos": {
+                                "x": 539.75,
+                                "y": 331.47
+                            },
+                            "uuid": "8a369e8c-dc77-56bb-a52b-77ac185ebadc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル SW3 [PCM12]",
+                            "pos": {
+                                "x": 539.75,
+                                "y": 365.76
+                            },
+                            "uuid": "fb57ceab-0473-5502-af15-fca88448242c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル R15 [R]",
+                            "pos": {
+                                "x": 566.42,
+                                "y": 69.85
+                            },
+                            "uuid": "375c1096-3a2c-52e4-9810-478a4a04426e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+                    "items": [
+                        {
+                            "description": "シンボル D4 [LED]",
+                            "pos": {
+                                "x": 566.42,
+                                "y": 92.71
+                            },
+                            "uuid": "dcffe65f-39c3-5863-b2ff-421754cf5993"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "a2_usb_uart.kicad_sch"
+}

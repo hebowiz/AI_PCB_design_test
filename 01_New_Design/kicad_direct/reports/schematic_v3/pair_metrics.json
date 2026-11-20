@@ -1,0 +1,18 @@
+{
+  "units": "schematic mm, not PCB lengths",
+  "USB_main_overhead": {
+    "V2_spacing": 5.08,
+    "V3_spacing": 2.54,
+    "V2_parallel_horizontal_overlap": 137.16,
+    "V3_parallel_horizontal_overlap": 161.29
+  },
+  "XTAL_main_route": {
+    "V2_spacing": 5.08,
+    "V3_spacing": 2.54,
+    "V2_parallel_horizontal_overlap": 16.51,
+    "V3_parallel_horizontal_overlap": 25.4,
+    "V2_parallel_vertical_overlap": 24.13,
+    "V3_parallel_vertical_overlap": 36.83
+  },
+  "note": "Selected principal runs only; component fan-out and ESD branch segments are excluded. No inference of identical electrical routing constraints."
+}

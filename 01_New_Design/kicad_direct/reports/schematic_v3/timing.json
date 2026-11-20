@@ -1,0 +1,9 @@
+{
+  "recorded_start": "2026-11-20T21:47:58+09:00",
+  "artifacts_completed": "2026-11-20T22:05:03.177034+09:00",
+  "elapsed_seconds_from_recorded_start": 1025.2,
+  "instruction_reading_before_start_not_measured": true,
+  "V2_recorded_seconds": 1034,
+  "timing_comparison_has_different_start_conditions": true,
+  "human_review_approved": false
+}
