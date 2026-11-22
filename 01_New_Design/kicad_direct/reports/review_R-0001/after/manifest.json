@@ -1,0 +1,9 @@
+{
+  "source_sha256": "2e59571488fa9209d7e181f1bbdd68b8838344709d5aaff1682a4421a329a764",
+  "files": {
+    "netlist.xml": "e29135e5370cbba54f8c1df478edd2265cb45727c5acef4bbedfcb918a87f94c",
+    "erc.json": "3bf4e40a10b96bcceb39b631f9c201cd82862e8f3b6554e362f8ffced5998a3a",
+    "schematic.pdf": "53844560b379218b973552c7b848855f07925f904607f9e736a157e82c64dbcf",
+    "schematic.png": "d3f01d34f9704e4e88755a1cfecba1ed52dbc43e929c7f18b5ac0b85ce4cdffd"
+  }
+}

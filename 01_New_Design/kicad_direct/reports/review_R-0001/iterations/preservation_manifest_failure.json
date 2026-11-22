@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "only_three_old_wires_removed": true,
+    "all_retained_wires_equal": true,
+    "four_new_wires": true,
+    "junctions_labels_no_connects_preserved": true,
+    "sheet_root_and_paper_preserved": true,
+    "before_export_hashes_match": true,
+    "after_export_hashes_match": false,
+    "all_protected_tracked_files_identical": true
+  },
+  "all_pass": false,
+  "protected_file_count": 767,
+  "system": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.5 (main, Oct 29 2026, 05:20:44) [MSC v.1951 64 bit (AMD64)]",
+  "at": "2026-11-22T17:29:02.861885+09:00"
+}

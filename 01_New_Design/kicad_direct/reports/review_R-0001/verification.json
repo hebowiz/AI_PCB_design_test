@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "terminal_nets_exact_expected_delta": true,
+    "real_component_count_58_to_59": true,
+    "only_new_real_reference_D5": true,
+    "all_other_component_XML_attributes_equal": true,
+    "all_other_symbols_exactly_preserved": true,
+    "D1_symbol_uuid_preserved": true,
+    "existing_library_definitions_preserved": true,
+    "net_names_unchanged": true,
+    "ERC_settings_unchanged": true,
+    "before_ERC_zero_violations": true,
+    "after_ERC_zero_violations": true,
+    "only_existing_schematic_changed": true,
+    "unit1_pin1_cathode_pin2_anode": true,
+    "D1_attributes": true,
+    "D5_attributes": true
+  },
+  "all_pass": true,
+  "base": "778ab8896a4f9b71efba0c45f701cbf2fdfc2cac",
+  "before_terminals": 207,
+  "after_terminals": 208,
+  "nets": 58,
+  "expected_changed_terminals": {
+    "D1.2": {
+      "before": "/USB_D-",
+      "after": "GND"
+    },
+    "D1.3": {
+      "before": "GND",
+      "after": null
+    },
+    "D5.1": {
+      "before": null,
+      "after": "/USB_D-"
+    },
+    "D5.2": {
+      "before": null,
+      "after": "GND"
+    }
+  },
+  "modified_existing_files": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch"
+  ],
+  "source_sha256": "2e59571488fa9209d7e181f1bbdd68b8838344709d5aaff1682a4421a329a764",
+  "timestamp": "2026-11-22T17:28:28.631454+09:00"
+}

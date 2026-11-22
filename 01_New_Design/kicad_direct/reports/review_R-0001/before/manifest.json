@@ -1,0 +1,10 @@
+{
+  "source_sha256": "b56474a16f52b2196d34e96ba1994b80cd5452a4208d081e89b88c237b32943b",
+  "files": {
+    "a2_usb_uart.kicad_sch": "b56474a16f52b2196d34e96ba1994b80cd5452a4208d081e89b88c237b32943b",
+    "netlist.xml": "cea1beeda688f578f6b7ecd360be354aa62ab7a4ae20227e6993952d3ec674a7",
+    "erc.json": "c993bb72dfae1cd667d01006854c148245c9db2542e0b9cb8ac33b56c2983a0a",
+    "schematic.pdf": "bad8c7bbf416f2f1e3279d15c4669feed0644e858d23f7e74a894efe76871cc1",
+    "schematic.png": "8e3d85cb7656c5e03b0b38a9e99803c22da1681044cee0d0e965ddd9b788b2c4"
+  }
+}

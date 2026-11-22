@@ -1,0 +1,24 @@
+{
+  "base": "778ab8896a4f9b71efba0c45f701cbf2fdfc2cac",
+  "before_sha256": "b56474a16f52b2196d34e96ba1994b80cd5452a4208d081e89b88c237b32943b",
+  "after_sha256": "2e59571488fa9209d7e181f1bbdd68b8838344709d5aaff1682a4421a329a764",
+  "new_reference": "D5",
+  "new_ground_reference": "#PWR0173",
+  "removed_wire_uuids": [
+    "9263b7d8-9e78-42cb-802e-2027558edbf7",
+    "af261ed5-e6e0-40c8-a549-9c7715997640",
+    "a9bb3a4e-7750-4378-9f47-269de21d16a6"
+  ],
+  "footprint": "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm",
+  "symbol": "Device:D_Zener",
+  "pin_mapping": {
+    "D1.1": "USB_D+",
+    "D1.2": "GND",
+    "D5.1": "USB_D-",
+    "D5.2": "GND"
+  },
+  "changed_notes": {
+    "Existing part / pin identities and circuit are retained.": "R-0001: D1/D5 ESD321DPYR; PCB/BOM not updated.",
+    "V3 polish. Candidate for human review; not approved.": "R-0001 schematic. Human review pending; not approved."
+  }
+}
