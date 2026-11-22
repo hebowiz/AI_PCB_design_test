@@ -297,3 +297,14 @@
 - 変更ファイル: 上記4ファイル、`AGENTS.md`、`docs/decision_log.md`、本ログ。AGENTSには台帳利用の短いルールを追加し、既存のログ・Git・設計保護・安全ルールを保持した。管理上の判断はDEC-010へ記録した。
 - 検証証跡: PythonでMarkdown表10個の列数と相対リンク10件、台帳15列・データ行0件、実指摘の詳細ファイル0件、既存AGENTS本文の保全を確認した。Git差分で設計成果物・製造データ・設計スキルの変更がないことを確認し、日本語の追加文をyomiyasuで点検した。検査用の一時ファイルはGit除外の`.setup-local/review-management/`に置く。
 - 未実施: 回路・PCBの実レビュー、既存の観察事項の台帳登録、設計変更、CAD再実行、製造発注。台帳の実運用は次のレビュー指示から開始する。
+
+## 2026-11-22 17:03 JST — A-2回路レビューの台帳管理を開始
+
+- 目的: ユーザーがチャットで一件ずつ伝えるA-2の指摘を、mainの共通レビュー台帳で管理する。
+- 管理担当: このA-2レビュー会話のCodexセッション。台帳更新用Worktreeは`D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test`（main）とする。ユーザーからこのセッションへの担当指定を受けた。担当指定メッセージの正確な送信時刻は取得できていないため、本節の日時は作業時刻を示す。
+- 対象版: `experiment/A2-schematic-v3-polish`、`778ab8896a4f9b71efba0c45f701cbf2fdfc2cac`。今後の各指摘には、この対象版を明記する。
+- 実施操作: `git fetch origin main experiment/A2-schematic-v3-polish`、`git worktree list --porcelain`、`git status --short`、`git rev-parse`で状態を確認し、mainの`AGENTS.md`、`docs/reviews/README.md`、`docs/reviews/review_register.md`を読んだ。mainは変更なしで、origin/mainと`fde591f5ba2717e5c165293f4742d06538c26d8c`で一致した。
+- 運用確認: 指摘を受けたら登録・調査し、根拠と対応案をユーザーへ提示する。方針確認前に設計を修正せず、議論を継続する。修正が必要な場合は対象版から別の作業ブランチを作り、V3-polishを保護する。修正・検証後も明示的な最終判定を受けるまではOK・完了としない。台帳更新のために設計成果物をmainへマージしない。
+- 結果: 現時点で実指摘は0件。過去レポートの観察事項は転記せず、次回の新規IDは`R-0001`とする。発行時には最新のmainと発行履歴を再確認する。
+- 変更ファイル: 本ログのみ。日本語の追記はyomiyasuの方針で推敲した。台帳、設計成果物、他ブランチは変更していない。
+- 未実施: 個別指摘の登録・調査、設計変更、ERC等の再実行、ユーザーによる回路の最終判定。
