@@ -1,0 +1,26 @@
+[
+  {
+    "file": "cr-pf.pdf",
+    "url": "https://www.bourns.com/docs/product-datasheets/cr-pf.pdf",
+    "revision": "07/20",
+    "retrieved_date": "2026-11-22",
+    "sha256": "a8dada7e3ad41edb3d29b3e53e039246a359495b923107f6fb2ae0f51fbb1ef9",
+    "third_party_document_not_committed": true
+  },
+  {
+    "file": "mf-fsmf.pdf",
+    "url": "https://www.bourns.com/docs/product-datasheets/mf-fsmf.pdf",
+    "revision": "K 09/26",
+    "retrieved_date": "2026-11-22",
+    "sha256": "1eea8b7793e05ea6b02c2df7b58120bf5823d74c01671ddc08259389fc006603",
+    "third_party_document_not_committed": true
+  },
+  {
+    "file": "yageo-mount.pdf",
+    "url": "https://yageogroup.com/content/Resource%20Library/Product%20Guide-Catalog/yageo_PYu-R_Mount_10_19050818_343.pdf",
+    "revision": "V10 2018-02-13",
+    "retrieved_date": "2026-11-22",
+    "sha256": "591634ace247f61e9c6a263ca1ac98d7672fc163f5e87334c3460956f5c68b7b",
+    "third_party_document_not_committed": true
+  }
+]

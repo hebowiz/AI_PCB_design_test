@@ -256,3 +256,18 @@
 - 実施: 修正前後のPNGと機能ブロック拡大図、作業記録、ネットリスト・ERC比較、Git差分を確認し、`docs/a2_schematic_v1_assistant_review.md`へ記録。
 - 暫定評価: 10機能ブロック化と局所結線の可視化で明確に改善。ラベル193→130。ネットリストの日時を除く一致、ERC0、既存107ファイル保全を記録で確認。
 - 留意: 全体A2縮小での細部の可読性、FT232H一体型シンボル、長い配線と余白は課題。ユーザーの正式レビュー、ローカル独立検証、V2作業は未実施。
+
+## 2026-11-22 22:33 JST — R-0016 USB5V_OUTの0Ω・測定TP追加
+
+目的: ユーザー承認範囲でSW2〜J2へ0603の0Ωと両側のΦ1.5mm測定パッドを追加する。承認済みfa741e9からcodex/a2-r0016-usb5v-jumperを作成し、独立Worktreeを再利用。schematic-design / schematic-style-standard 0.1.0のelectrical-changeを適用した。
+
+操作・コマンド: 新規reports/review_usb5v_jumper/change_usb5v_jumper.pyで基準一致を確認して局所編集。kicad-cli sch export netlist/erc/export pdf、pdftoppm、verify.pyを実行。3回の画像出力でTP文字重なりと注記位置を調整。yomiyasuの最終推敲とリンターを実施し、時系列ログの箇条書きと電流制限の区別に必要な否定表現を保持した。
+
+変更: a2_usb_uart.kicad_schにR17・TP1・TP2、USB5V_SWネットと注記を追加。sym-lib-tableに標準Connectorを登録し、R17のメーカー推奨中間寸法ランドと標準径1.5mmパッドを新規追加。既存ライブラリ定義・既存生成スクリプトは変更なし。
+
+結果: 55→58部品、193→197端子、54→55ネット。既存端子のネット変更はSW2.2だけで、R17両端へ分離。既存属性・UUID・ピン機能を維持。ERC前後0件、除外設定不変。589保護ファイルのGit blob一致、線分重複・重なり0、全FLAG上向き、既存コンデンサ縦向きで不変。PCB・BOM・製造データ・既存設計ブランチは変更していない。
+
+判断・未解決: 0Ωは過電流保護なし。Bourns CR0603-PFを通常実装用に選定。PPTC候補MF-FSMF020X-2/010X-2の推奨ランドとは共通範囲がなく、直接交換互換なし。将来の採用にはランド認定または変更と、温度・電圧降下・トリップ評価が必要。PPTC未実装、PCB更新・DRC・実機測定・ユーザー最終判定・製造承認は未実施。
+
+証跡: 01_New_Design/kicad_direct/reports/review_usb5v_jumper/report.md、verification.json、preservation.json、commands.json、前後PDF/PNG。コード構文修正、CRLF差の保全誤判定と是正、資料取得失敗・再試行は報告書へ記録。台帳はmainの共通記録として別途更新し、設計ブランチをmainへマージしない。
+

@@ -1,0 +1,262 @@
+[
+  {
+    "at": "2026-11-22T22:27:26.785928+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\before\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:28.678328+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\before\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:29.304393+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\before\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\before\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:30.376023+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\before\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\before\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:31.173509+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:33.233466+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:33.854832+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:27:34.952889+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:11.555398+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:13.531264+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:14.144182+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:15.247354+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:46.213667+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:48.102838+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:48.701229+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T22:28:49.800395+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_usb5v_jumper\\after\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

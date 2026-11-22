@@ -1,0 +1,99 @@
+{
+  "time": "2026-11-22T22:31:09.472615+09:00",
+  "base": "fa741e9e1f7853efc5d27d3cb2c969a86abb31a1",
+  "contract": "electrical-change",
+  "skills": {
+    "schematic-design": "0.1.0",
+    "schematic-style-standard": "0.1.0"
+  },
+  "checks": {
+    "exactly_authorized_terminal_delta": true,
+    "added_parts_only_R17_TP1_TP2": true,
+    "all_existing_part_attributes_identical": true,
+    "existing_symbol_UUIDs_and_pin_UUIDs_preserved": true,
+    "existing_symbol_definitions_pin_numbers_and_types_unchanged": true,
+    "one_standard_TestPoint_definition_added": true,
+    "unrelated_symbols_byte_equivalent": true,
+    "existing_DNP_BOM_board_flags_identical": true,
+    "J2_4_remains_USB5V_OUT": true,
+    "all_FLAGs_up": true,
+    "all_capacitors_vertical_and_unchanged": true,
+    "zero_positive_length_wire_overlaps": true,
+    "zero_duplicate_segments": true,
+    "source_matches_export": true,
+    "TPs_in_board_but_not_assembly_BOM": true,
+    "before_ERC_zero_errors_warnings": true,
+    "after_ERC_zero_errors_warnings": true,
+    "ERC_exclusions_unchanged": true,
+    "existing_symbol_library_entries_unchanged": true,
+    "R17_pads_follow_manufacturer_midpoint": true,
+    "TP_pad_diameter_1p5mm_no_paste": true,
+    "all_protected_existing_A2_files_identical": true
+  },
+  "all_pass": true,
+  "counts": {
+    "components": [
+      55,
+      58
+    ],
+    "terminals": [
+      193,
+      197
+    ],
+    "nets": [
+      54,
+      55
+    ]
+  },
+  "terminal_delta": {
+    "R17.1": [
+      null,
+      "/USB5V_SW"
+    ],
+    "R17.2": [
+      null,
+      "USB5V_OUT"
+    ],
+    "SW2.2": [
+      "USB5V_OUT",
+      "/USB5V_SW"
+    ],
+    "TP1.1": [
+      null,
+      "/USB5V_SW"
+    ],
+    "TP2.1": [
+      null,
+      "USB5V_OUT"
+    ]
+  },
+  "wire_overlaps_before": [],
+  "wire_overlaps_after": [],
+  "protected_file_count": 589,
+  "R17_pad_geometry": [
+    {
+      "number": "1",
+      "x_mm": -0.725,
+      "y_mm": 0.0,
+      "width_mm": 0.65,
+      "height_mm": 0.9
+    },
+    {
+      "number": "2",
+      "x_mm": 0.725,
+      "y_mm": 0.0,
+      "width_mm": 0.65,
+      "height_mm": 0.9
+    }
+  ],
+  "TP_pad_geometry": [
+    {
+      "number": "1",
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "width_mm": 1.5,
+      "height_mm": 1.5
+    }
+  ],
+  "source_sha256": "56a796f529558cb68d0bb7dbc452f4826e73c2e51c96c5d8ae8fd5f4e0df3187"
+}
