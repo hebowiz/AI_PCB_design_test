@@ -1,0 +1,659 @@
+{
+  "commit": "7f0941b45309ad069e947849772c3ecf7c1d1e61",
+  "design_status": "",
+  "source_sha256": "00b19be3baa1f6cc217c8d0138fcaf1ba5bbc5f666918f7c398db8cba29ea12e",
+  "snapshot_matches": true,
+  "reset": {
+    "R2": {
+      "position_grid": [
+        45.0,
+        126.0
+      ],
+      "attributes": {
+        "Reference": "R2",
+        "Value": "10k",
+        "Footprint": "A2:R_0402_1005Metric",
+        "Datasheet": "",
+        "MPN": "RC0402FR-0710KL",
+        "Note": ""
+      },
+      "pins": {
+        "1": {
+          "name": "",
+          "point_grid": [
+            45.0,
+            123.0
+          ],
+          "net": "+3V3"
+        },
+        "2": {
+          "name": "",
+          "point_grid": [
+            45.0,
+            129.0
+          ],
+          "net": "/RESET_N"
+        }
+      }
+    },
+    "C22": {
+      "position_grid": [
+        45.0,
+        136.0
+      ],
+      "attributes": {
+        "Reference": "C22",
+        "Value": "100n",
+        "Footprint": "A2:C_0402_1005Metric",
+        "Datasheet": "",
+        "MPN": "CL05B104KO5NNNC",
+        "Note": "Capacitance at DC bias must meet regulator minimum"
+      },
+      "pins": {
+        "1": {
+          "name": "",
+          "point_grid": [
+            45.0,
+            133.0
+          ],
+          "net": "/RESET_N"
+        },
+        "2": {
+          "name": "",
+          "point_grid": [
+            45.0,
+            139.0
+          ],
+          "net": "GND"
+        }
+      }
+    },
+    "U1.34": {
+      "name": "RESET#",
+      "point_grid": [
+        153.0,
+        89.0
+      ],
+      "net": "/RESET_N"
+    },
+    "horizontal_distance_to_U1_34_mm": {
+      "R2": 137.16,
+      "C22": 137.16
+    },
+    "nearby_wires_grid": [
+      [
+        [
+          45.0,
+          120.0
+        ],
+        [
+          45.0,
+          123.0
+        ]
+      ],
+      [
+        [
+          45.0,
+          129.0
+        ],
+        [
+          45.0,
+          132.0
+        ]
+      ],
+      [
+        [
+          45.0,
+          132.0
+        ],
+        [
+          45.0,
+          133.0
+        ]
+      ],
+      [
+        [
+          45.0,
+          139.0
+        ],
+        [
+          45.0,
+          140.0
+        ]
+      ],
+      [
+        [
+          45.0,
+          132.0
+        ],
+        [
+          118.0,
+          132.0
+        ]
+      ]
+    ],
+    "nearby_labels": [
+      [
+        "label",
+        "RESET_N",
+        [
+          "at",
+          "60.96",
+          "167.64",
+          "0"
+        ],
+        [
+          "effects",
+          [
+            "font",
+            [
+              "size",
+              "1.27",
+              "1.27"
+            ]
+          ],
+          [
+            "justify",
+            "left",
+            "bottom"
+          ]
+        ],
+        [
+          "uuid",
+          "cfed9cdd-508c-4ed3-a3e6-e878eefd48bb"
+        ]
+      ]
+    ]
+  },
+  "flags": [
+    {
+      "ref": "#FLG01",
+      "position_grid": [
+        31.0,
+        178.0
+      ],
+      "angle_degrees": 0.0,
+      "mirror": null,
+      "touching_wires_grid": [
+        [
+          [
+            24.0,
+            178.0
+          ],
+          [
+            31.0,
+            178.0
+          ]
+        ]
+      ],
+      "nearby_symbols": [
+        {
+          "ref": "#FLG02",
+          "value": "PWR_FLAG",
+          "position_grid": [
+            34.0,
+            185.0
+          ]
+        },
+        {
+          "ref": "#PWR0118",
+          "value": "USB5V",
+          "position_grid": [
+            24.0,
+            178.0
+          ]
+        },
+        {
+          "ref": "#PWR0132",
+          "value": "GND",
+          "position_grid": [
+            34.0,
+            185.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "#FLG02",
+      "position_grid": [
+        34.0,
+        185.0
+      ],
+      "angle_degrees": 0.0,
+      "mirror": null,
+      "touching_wires_grid": [],
+      "nearby_symbols": [
+        {
+          "ref": "C18",
+          "value": "1u",
+          "position_grid": [
+            44.0,
+            196.0
+          ]
+        },
+        {
+          "ref": "#FLG01",
+          "value": "PWR_FLAG",
+          "position_grid": [
+            31.0,
+            178.0
+          ]
+        },
+        {
+          "ref": "#PWR0118",
+          "value": "USB5V",
+          "position_grid": [
+            24.0,
+            178.0
+          ]
+        },
+        {
+          "ref": "#PWR0132",
+          "value": "GND",
+          "position_grid": [
+            34.0,
+            185.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "#FLG03",
+      "position_grid": [
+        115.0,
+        58.0
+      ],
+      "angle_degrees": 0.0,
+      "mirror": null,
+      "touching_wires_grid": [
+        [
+          [
+            113.0,
+            58.0
+          ],
+          [
+            115.0,
+            58.0
+          ]
+        ],
+        [
+          [
+            115.0,
+            58.0
+          ],
+          [
+            126.0,
+            58.0
+          ]
+        ]
+      ],
+      "nearby_symbols": [
+        {
+          "ref": "C9",
+          "value": "100n",
+          "position_grid": [
+            126.0,
+            62.0
+          ]
+        },
+        {
+          "ref": "C11",
+          "value": "4.7u",
+          "position_grid": [
+            113.0,
+            62.0
+          ]
+        },
+        {
+          "ref": "C14",
+          "value": "15p 1%",
+          "position_grid": [
+            117.0,
+            46.0
+          ]
+        },
+        {
+          "ref": "FB1",
+          "value": "600R@100MHz",
+          "position_grid": [
+            104.0,
+            58.0
+          ]
+        },
+        {
+          "ref": "#PWR0145",
+          "value": "GND",
+          "position_grid": [
+            105.0,
+            48.0
+          ]
+        },
+        {
+          "ref": "#PWR0157",
+          "value": "GND",
+          "position_grid": [
+            126.0,
+            66.0
+          ]
+        },
+        {
+          "ref": "#PWR0159",
+          "value": "GND",
+          "position_grid": [
+            113.0,
+            66.0
+          ]
+        },
+        {
+          "ref": "#PWR0162",
+          "value": "GND",
+          "position_grid": [
+            117.0,
+            50.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "#FLG04",
+      "position_grid": [
+        115.0,
+        73.0
+      ],
+      "angle_degrees": 0.0,
+      "mirror": null,
+      "touching_wires_grid": [
+        [
+          [
+            113.0,
+            73.0
+          ],
+          [
+            115.0,
+            73.0
+          ]
+        ],
+        [
+          [
+            115.0,
+            73.0
+          ],
+          [
+            126.0,
+            73.0
+          ]
+        ]
+      ],
+      "nearby_symbols": [
+        {
+          "ref": "C10",
+          "value": "100n",
+          "position_grid": [
+            122.0,
+            77.0
+          ]
+        },
+        {
+          "ref": "C11",
+          "value": "4.7u",
+          "position_grid": [
+            113.0,
+            62.0
+          ]
+        },
+        {
+          "ref": "C12",
+          "value": "4.7u",
+          "position_grid": [
+            113.0,
+            77.0
+          ]
+        },
+        {
+          "ref": "FB2",
+          "value": "600R@100MHz",
+          "position_grid": [
+            104.0,
+            73.0
+          ]
+        },
+        {
+          "ref": "#PWR0108",
+          "value": "VPLL",
+          "position_grid": [
+            110.0,
+            73.0
+          ]
+        },
+        {
+          "ref": "#PWR0157",
+          "value": "GND",
+          "position_grid": [
+            126.0,
+            66.0
+          ]
+        },
+        {
+          "ref": "#PWR0158",
+          "value": "GND",
+          "position_grid": [
+            122.0,
+            81.0
+          ]
+        },
+        {
+          "ref": "#PWR0159",
+          "value": "GND",
+          "position_grid": [
+            113.0,
+            66.0
+          ]
+        },
+        {
+          "ref": "#PWR0160",
+          "value": "GND",
+          "position_grid": [
+            113.0,
+            81.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "#FLG05",
+      "position_grid": [
+        146.0,
+        247.0
+      ],
+      "angle_degrees": 180.0,
+      "mirror": null,
+      "touching_wires_grid": [
+        [
+          [
+            140.0,
+            247.0
+          ],
+          [
+            146.0,
+            247.0
+          ]
+        ],
+        [
+          [
+            146.0,
+            247.0
+          ],
+          [
+            154.0,
+            247.0
+          ]
+        ]
+      ],
+      "nearby_symbols": [
+        {
+          "ref": "#PWR0123",
+          "value": "USB5V_OUT",
+          "position_grid": [
+            154.0,
+            247.0
+          ]
+        },
+        {
+          "ref": "#PWR0144",
+          "value": "GND",
+          "position_grid": [
+            144.0,
+            235.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "#FLG06",
+      "position_grid": [
+        152.0,
+        193.0
+      ],
+      "angle_degrees": 180.0,
+      "mirror": null,
+      "touching_wires_grid": [
+        [
+          [
+            146.0,
+            193.0
+          ],
+          [
+            152.0,
+            193.0
+          ]
+        ],
+        [
+          [
+            152.0,
+            193.0
+          ],
+          [
+            156.0,
+            193.0
+          ]
+        ]
+      ],
+      "nearby_symbols": [
+        {
+          "ref": "#PWR0121",
+          "value": "VIO_OUT",
+          "position_grid": [
+            156.0,
+            193.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "#FLG07",
+      "position_grid": [
+        136.0,
+        100.0
+      ],
+      "angle_degrees": 0.0,
+      "mirror": null,
+      "touching_wires_grid": [
+        [
+          [
+            130.0,
+            100.0
+          ],
+          [
+            136.0,
+            100.0
+          ]
+        ],
+        [
+          [
+            136.0,
+            100.0
+          ],
+          [
+            141.0,
+            100.0
+          ]
+        ]
+      ],
+      "nearby_symbols": [
+        {
+          "ref": "C4",
+          "value": "100n",
+          "position_grid": [
+            142.0,
+            90.0
+          ]
+        },
+        {
+          "ref": "C5",
+          "value": "100n",
+          "position_grid": [
+            130.0,
+            103.0
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "100n",
+          "position_grid": [
+            138.0,
+            111.0
+          ]
+        },
+        {
+          "ref": "#PWR0129",
+          "value": "GND",
+          "position_grid": [
+            150.0,
+            105.0
+          ]
+        },
+        {
+          "ref": "#PWR0151",
+          "value": "GND",
+          "position_grid": [
+            134.0,
+            89.0
+          ]
+        },
+        {
+          "ref": "#PWR0152",
+          "value": "GND",
+          "position_grid": [
+            142.0,
+            94.0
+          ]
+        },
+        {
+          "ref": "#PWR0153",
+          "value": "GND",
+          "position_grid": [
+            130.0,
+            107.0
+          ]
+        },
+        {
+          "ref": "#PWR0175",
+          "value": "+3V3",
+          "position_grid": [
+            138.0,
+            106.0
+          ]
+        },
+        {
+          "ref": "#PWR0177",
+          "value": "+3V3",
+          "position_grid": [
+            138.0,
+            87.0
+          ]
+        }
+      ]
+    }
+  ],
+  "units": "grid=1.27 mm, schematic geometry only; not PCB length"
+}
