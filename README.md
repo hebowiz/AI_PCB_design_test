@@ -46,6 +46,8 @@ Codexからの利用: `$pcb-pipeline`。
 - `docs/report_outline.md`: 後日レポート化するための章立て
 - [回路図・基板図の横並び比較（ユーザーレビュー前）](docs/initial_3way_review.md)
 - [3方式の統合レポート](docs/design_integration_report.md)
+- [将来構想：設計ノウハウを蓄積するAI設計エージェント（改訂前提）](docs/future_design_agent_vision.md)
+- [A-2 V3-polish 回路図レビュー候補版の一次確認](docs/a2_schematic_v3_polish_assistant_review.md)
 
 設計結果はERC/DRCだけで妥当と判断せず、部品・回路・RF/EMC・熱・製造性・実機動作を別途確認すること。
 
