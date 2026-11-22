@@ -418,3 +418,17 @@
 環境: Windows/PowerShell 7.6、KiCad 10.0.8、Python 3.11.5、pdftoppm 26.07.0。PWR_FLAG番号重複を事前assertで検出し修正。ローカル電源ラベルのERC警告2件をグローバル化して解消。CRLFを含む生バイト比較はGit属性適用後のhash-objectへ修正。Webの403/HTML応答、pdftotext未導入、通常権限のCLI版確認でHKCU拒否が発生した。詳細は[固定コミットの報告書](https://github.com/hebowiz/AI_PCB_design_test/blob/3b8700a24ef3cee159253b8f21e5b9d400c67a10/01_New_Design/kicad_direct/reports/review_batch1/README.md)とcommands.json。日本語はyomiyasuで最終推敲した。
 
 未検証: 水晶の発振・負荷容量調整、電源の最大負荷・起動・復帰・熱、LED輝度、EEPROM設定、PCB/BOM反映。ERC合格を実機検証・最終判定・製造承認へ置き換えない。
+
+## 2026-11-22 18:49 JST — A-2追加レビュー対応と容量説明
+
+目的: R-0002の容量根拠説明、R-0003のOK記録、承認済みR-0004/5の修正。
+
+実施操作: mainのAGENTS.md・レビュー運用を確認。独立Worktreeで`git switch -c codex/a2-review-batch2`を実行し、既存回路の局所編集を行った。新規change_power_review.pyでKiCad CLIのnetlist/ERC/PDF出力、pdftoppm変換、端子・属性・保全検証を実行。画像確認を繰り返し、C1の文字間隔を修正した。初回局所調整のStopIterationは数値文字列の比較によるもので書込み前に停止し、float比較へ直した。
+
+変更ファイル: 設計ブランチのa2_usb_uart.kicad_schとreports/review_batch2。mainではreview_register、R-0002〜5詳細、追加対応一覧と本作業・議論・判断ログのみ。設計をmainへ取り込んでいない。
+
+結果・証跡: 15検証項目合格、前後ERC0件、予定した削除・SW2入力変更以外の接続差分なし。473個の既存A-2ファイルを保全。設計を`16af1db20c48fef838b1d040675382488f75352e`へコミットし`git push -u origin codex/a2-review-batch2`成功、作業ツリーclean。一次対応版・V3-polish等は保護した。[設計報告書](https://github.com/hebowiz/AI_PCB_design_test/blob/16af1db20c48fef838b1d040675382488f75352e/01_New_Design/kicad_direct/reports/review_batch2/README.md)。日本語本文はyomiyasuで推敲し、文体検査を実施した。
+
+時間: 記録可能な18:38〜18:47 JSTの作図・検証は約9分。18:32の指示から設計コミットまで約16分。最初の実操作開始時刻は未記録。台帳はこの見出しの記録時刻まで更新し、コミット・pushする。
+
+未解決: R-0002/4/5は確認待ち・未判定。PCB/BOM未反映、発振・電源動作の実機検証なし。R-0003はユーザーが18:32にOKとした。R-0001/6の判定は維持。
