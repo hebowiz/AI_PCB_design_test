@@ -19,6 +19,10 @@
 
 13. 作業が完了するごとに、公開可能な変更と作業記録をコミットし、GitHubへpushする。毎回の追加確認は不要。pushの成否を確認し、失敗した場合は未反映の変更と原因を報告する。ルール9の公開制限は引き続き守る。
 
+## 設計レビューの記録
+
+レビュー指摘を受けたら`docs/reviews/review_register.md`へ登録する。IDは全工程共通の連番とし、調査・修正・検証・判定を分けて記録する。ユーザーの承認前にOK・完了扱いにしない。詳細は[レビュー運用ルール](docs/reviews/README.md)に従う。
+
 ## ディレクトリ
 - `01_New_Design/`: **A: 新規設計**。`specs/`は共通仕様、`atopile/`はA-1、`kicad_direct/`はA-2、`easyeda/`はA-3。`$pcb-pipeline`はA-1のみの候補で、スキルは`.agents/skills/pcb-pipeline/SKILL.md`にある。
 - `02_Design_Modification/`: **B-2: KiCad既存設計修正のみ**。`original/`を原本用、`working/`を作業用とし、`reports/`に差分・検証を置く。
