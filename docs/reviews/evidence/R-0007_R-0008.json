@@ -1,0 +1,407 @@
+{
+  "recorded_at": "2026-11-22T19:14:34.230151+09:00",
+  "design_commit": "16af1db20c48fef838b1d040675382488f75352e",
+  "current": {
+    "parts": {
+      "C1": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "USB5V input bypass at U1.40 VREGIN; maintain effective capacitance at DC bias.",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C1.2": "GND",
+          "C1.1": "USB5V"
+        }
+      },
+      "C2": {
+        "value": "2.2u",
+        "fields": {
+          "MPN": "GRM188R61A225KE34D",
+          "Note": "+3V3 output bypass at U1.39 VCCD; verify effective capacitance and transients.",
+          "Footprint": "A2:C_0603_1608Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C2.1": "+3V3",
+          "C2.2": "GND"
+        }
+      },
+      "C3": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C3.1": "+3V3",
+          "C3.2": "GND"
+        }
+      },
+      "C4": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C4.1": "+3V3",
+          "C4.2": "GND"
+        }
+      },
+      "C5": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C5.1": "+3V3",
+          "C5.2": "GND"
+        }
+      },
+      "C6": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C6.1": "+3V3",
+          "C6.2": "GND"
+        }
+      },
+      "C9": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C9.2": "GND",
+          "C9.1": "VPHY"
+        }
+      },
+      "C10": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C10.2": "GND",
+          "C10.1": "VPLL"
+        }
+      },
+      "C11": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C11.2": "GND",
+          "C11.1": "VPHY"
+        }
+      },
+      "C12": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C12.2": "GND",
+          "C12.1": "VPLL"
+        }
+      },
+      "C18": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C18.2": "GND",
+          "C18.1": "USB5V"
+        }
+      },
+      "C19": {
+        "value": "2.2u",
+        "fields": {
+          "MPN": "GRM188R61A225KE34D",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0603_1608Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C19.2": "GND",
+          "C19.1": "VIO"
+        }
+      }
+    },
+    "supply_pins": {
+      "U1.12": "+3V3",
+      "U1.24": "+3V3",
+      "U1.39": "+3V3",
+      "U1.46": "+3V3",
+      "U1.40": "USB5V",
+      "U4.1": "USB5V",
+      "U4.5": "VIO",
+      "U1.3": "VPHY",
+      "U1.8": "VPLL"
+    }
+  },
+  "before_U3_removal": {
+    "parts": {
+      "C1": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C1.2": "GND",
+          "C1.1": "USB5V"
+        }
+      },
+      "C2": {
+        "value": "2.2u",
+        "fields": {
+          "MPN": "GRM188R61A225KE34D",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0603_1608Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C2.1": "+3V3",
+          "C2.2": "GND"
+        }
+      },
+      "C3": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C3.1": "+3V3",
+          "C3.2": "GND"
+        }
+      },
+      "C4": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C4.1": "+3V3",
+          "C4.2": "GND"
+        }
+      },
+      "C5": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C5.1": "+3V3",
+          "C5.2": "GND"
+        }
+      },
+      "C6": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C6.1": "+3V3",
+          "C6.2": "GND"
+        }
+      },
+      "C9": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C9.2": "GND",
+          "C9.1": "VPHY"
+        }
+      },
+      "C10": {
+        "value": "100n",
+        "fields": {
+          "MPN": "CL05B104KO5NNNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C10.2": "GND",
+          "C10.1": "VPLL"
+        }
+      },
+      "C11": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C11.2": "GND",
+          "C11.1": "VPHY"
+        }
+      },
+      "C12": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C12.2": "GND",
+          "C12.1": "VPLL"
+        }
+      },
+      "C18": {
+        "value": "1u",
+        "fields": {
+          "MPN": "CL05A105KA5NQNC",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0402_1005Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C18.2": "GND",
+          "C18.1": "USB5V"
+        }
+      },
+      "C19": {
+        "value": "2.2u",
+        "fields": {
+          "MPN": "GRM188R61A225KE34D",
+          "Note": "Capacitance at DC bias must meet regulator minimum",
+          "Footprint": "A2:C_0603_1608Metric",
+          "Datasheet": null,
+          "Description": null
+        },
+        "terminals": {
+          "C19.2": "GND",
+          "C19.1": "VIO"
+        }
+      }
+    },
+    "supply_pins": {
+      "U1.12": "+3V3",
+      "U1.24": "+3V3",
+      "U1.39": "+3V3",
+      "U1.40": "+3V3",
+      "U1.46": "+3V3",
+      "U3.5": "+3V3",
+      "U3.1": "USB5V",
+      "U4.1": "USB5V",
+      "U4.5": "VIO",
+      "U1.3": "VPHY",
+      "U1.8": "VPLL"
+    }
+  },
+  "source_sha256": "16d7ca64a537080f151b43bca03173ec019d6e0481f97fbe7237fd6e2e9cd82c",
+  "snapshot_sha256": "16d7ca64a537080f151b43bca03173ec019d6e0481f97fbe7237fd6e2e9cd82c",
+  "design_worktree_clean": true,
+  "original_design_script_commit": "e0a3ba3",
+  "original_script_unchanged_since_initial": true,
+  "visual_source": {
+    "url": "https://ftdichip.cn/Support/Documents/DataSheets/ICs/DS_FT232H.pdf",
+    "document": "FT_000288 v2.2",
+    "page": 45,
+    "figure": "6.1",
+    "sha256": "173a0f21910258a8036d956ef623fa81a98c079559b01e640af11b96c9371032",
+    "observed": {
+      "VREGIN": [
+        "4.7uF",
+        "0.1uF"
+      ],
+      "VCCD_VCC3V3": [
+        "4.7uF",
+        "0.1uF"
+      ],
+      "VCCIO": [
+        "0.1uF",
+        "0.1uF",
+        "0.1uF"
+      ],
+      "VPHY": [
+        "4.7uF N.F.",
+        "0.1uF"
+      ],
+      "VPLL": [
+        "4.7uF N.F.",
+        "0.1uF"
+      ]
+    }
+  }
+}
