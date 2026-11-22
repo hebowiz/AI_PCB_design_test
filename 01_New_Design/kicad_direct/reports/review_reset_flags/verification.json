@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-22T21:04:13.521713+09:00",
+  "base": "7f0941b45309ad069e947849772c3ecf7c1d1e61",
+  "checks": {
+    "all_terminal_nets_identical": true,
+    "all_real_parts_identical": true,
+    "all_real_attributes_identical": true,
+    "all_original_symbol_UUIDs_preserved": true,
+    "symbol_definitions_identical": true,
+    "DNP_and_BOM_flags_identical": true,
+    "all_symbol_references_identical": true,
+    "before_ERC_zero": true,
+    "after_ERC_zero": true,
+    "ERC_config_unchanged": true,
+    "protected_files_unchanged": true,
+    "canonical_netlists_identical": true,
+    "all_FLAGs_up": true,
+    "FLAG_connection_points_preserved": true,
+    "unrelated_symbols_identical": true,
+    "export_hashes_match": true,
+    "source_matches_export": true
+  },
+  "all_pass": true,
+  "components": [
+    55,
+    55
+  ],
+  "terminals": [
+    193,
+    193
+  ],
+  "nets": [
+    54,
+    54
+  ],
+  "terminal_delta": {},
+  "modified_existing_files": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch"
+  ],
+  "source_sha256": "512237ddc72cbbe6b9ede7e6e57b36bb90292460cd9ff6070d097e56db46dfcd",
+  "geometry": {
+    "R2_to_U1_34_horizontal_mm": [
+      137.16,
+      44.45
+    ],
+    "C22_to_U1_34_horizontal_mm": [
+      137.16,
+      34.29
+    ],
+    "FLAG_count": 7,
+    "downward_FLAGs_before": [
+      "#FLG05",
+      "#FLG06"
+    ],
+    "downward_FLAGs_after": []
+  },
+  "protected_existing_A2_file_count": 562
+}

@@ -1,0 +1,20 @@
+{
+  "before\\a2_usb_uart.kicad_sch": "00b19be3baa1f6cc217c8d0138fcaf1ba5bbc5f666918f7c398db8cba29ea12e",
+  "before\\erc.json": "bfe083b489524641c5e39037be72cbe15e299a18b0c66c2f5f2800c571b0a002",
+  "before\\flags.png": "b7fb45b4916757e1b886435ac7a3607977cc7890d824e0907a14fa5d06332492",
+  "before\\netlist.xml": "634185d68aeb418b2dee65dd5f63c6e38c4f06b8be8ce0c116288c387e325c54",
+  "before\\overview.png": "12b1fc779276d2988c7d3b6ab48b873c882401593895cc42bd7e11ab4b5a6b3a",
+  "before\\reset.png": "3ce597f86d0e28fc72f1e66336aa3bdb1005a3a395112a94e5356206b0b8735c",
+  "before\\reset_before_context.png": "1d943e4da108118d48f8d5f54393663c9e16358397f1193e9feb0aa4668d9f8c",
+  "before\\schematic.pdf": "c4038bd4c59361797e2c94e832e78ead088c5818893defaf917b55ac12e06bcd",
+  "before\\schematic.png": "62910e59594ff9367b5cea1fbdd27127749fd9c54ea169cd5b312fb61f38ffd2",
+  "after\\a2_usb_uart.kicad_sch": "512237ddc72cbbe6b9ede7e6e57b36bb90292460cd9ff6070d097e56db46dfcd",
+  "after\\erc.json": "b14720086827949aea954f71cd99d8f2811e60b94b2789b9c7fbbc265b8cafb2",
+  "after\\flags.png": "0ac0204c94ec866f2ef49638038fdeeff2cbc06d13851ad373dbd0143c35538b",
+  "after\\netlist.xml": "acd668cbe52fb2b9afb809634556921df31d301c194e9edecadda33f13b7d75b",
+  "after\\overview.png": "d75926feb27d1f740587b3c620c45336fbc9e4950233c91580b457a755cf395c",
+  "after\\reset.png": "467e944068f7ad507b808a8d95330c7d30ecd1018ff721eebb5ec2344e576e27",
+  "after\\reset_before_context.png": "fe8adad255b665dabeef4867ba64976434705270aefb112fcc75ccac1583184f",
+  "after\\schematic.pdf": "e46ca38bdbfd58ed03f5b278109bb5e9a76c317b0947d5436a831c9700642f20",
+  "after\\schematic.png": "ea5d342d8e733e70901f029d588896d6747babe4d4c1dfaf6b6b2c514d07dfa2"
+}

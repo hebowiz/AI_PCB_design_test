@@ -1,0 +1,262 @@
+[
+  {
+    "at": "2026-11-22T21:02:50.550439+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\before\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:52.419221+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\before\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_reset_flags/before/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:53.032455+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\before\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\before\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:54.195233+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\before\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\before\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:54.589110+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:56.550384+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_reset_flags/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:57.164333+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:02:58.241242+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:03:27.800934+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:03:29.721430+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_reset_flags/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:03:30.327334+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:03:31.425674+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:04:08.080537+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\netlist.xml",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:04:10.306454+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--exit-code-violations",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\erc.json",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "0 個の違反を検出しました\r\nDRC レポートを C:/Users/hebow/.codex/worktrees/a2-r0001-esd/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/review_reset_flags/after/erc.json に保存しました\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:04:11.024543+09:00",
+    "command": [
+      "C:\\Users\\hebow\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+      "sch",
+      "export",
+      "pdf",
+      "--black-and-white",
+      "-o",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "'C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf' にプロットしました。\r\n完了.\r\n",
+    "stderr": ""
+  },
+  {
+    "at": "2026-11-22T21:04:12.120976+09:00",
+    "command": [
+      "pdftoppm",
+      "-scale-to",
+      "5600",
+      "-png",
+      "-singlefile",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic.pdf",
+      "C:\\Users\\hebow\\.codex\\worktrees\\a2-r0001-esd\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\review_reset_flags\\after\\schematic"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]
