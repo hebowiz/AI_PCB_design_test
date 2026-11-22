@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-22T20:36:10.027213+09:00",
+  "base": "886ad5428d4be98768ccc8bb942aa2f54f23d942",
+  "checks": {
+    "all_terminal_nets_identical": true,
+    "all_real_parts_identical": true,
+    "all_real_attributes_identical": true,
+    "all_original_symbol_UUIDs_preserved": true,
+    "symbol_definitions_identical": true,
+    "DNP_and_BOM_flags_identical": true,
+    "only_one_power_symbol_added": true,
+    "before_ERC_zero": true,
+    "after_ERC_zero": true,
+    "ERC_config_unchanged": true,
+    "protected_files_unchanged": true
+  },
+  "all_pass": true,
+  "components": [
+    55,
+    55
+  ],
+  "terminals": [
+    193,
+    193
+  ],
+  "nets": [
+    54,
+    54
+  ],
+  "terminal_delta": {},
+  "modified_existing_files": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch"
+  ],
+  "source_sha256": "00b19be3baa1f6cc217c8d0138fcaf1ba5bbc5f666918f7c398db8cba29ea12e"
+}

@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "canonical_netlists_identical": true,
+    "all_old_and_new_pair_segments_present": true,
+    "C3_feed_order": true,
+    "USB5V_feed_order": true,
+    "C3_C1_C23_ground_below": true,
+    "FLAG_on_horizontal_line": true,
+    "FLAG_has_no_stem_wire_overlap": true,
+    "pair_crossing_targets": true,
+    "unchanged_ESD_positions": true,
+    "live_source_matches_export": true,
+    "export_hashes_match": true,
+    "only_existing_schematic_changed": true
+  },
+  "all_pass": true,
+  "pair_crossings": {
+    "before_USB": [
+      [
+        58,
+        46
+      ],
+      [
+        74,
+        29
+      ],
+      [
+        187,
+        65
+      ]
+    ],
+    "after_USB": [
+      [
+        58,
+        46
+      ]
+    ],
+    "before_XTAL": [
+      [
+        137,
+        34
+      ],
+      [
+        139,
+        63
+      ]
+    ],
+    "after_XTAL": []
+  },
+  "power_symbol_center_bounds_grid": {
+    "before": [
+      24.0,
+      178.0,
+      232.0,
+      293.0
+    ],
+    "after": [
+      24.0,
+      178.0,
+      156.0,
+      247.0
+    ]
+  },
+  "power_symbol_center_extent_mm": {
+    "before": [
+      264.16,
+      146.05
+    ],
+    "after": [
+      167.64,
+      87.63
+    ]
+  },
+  "unchanged_A2_files": 528,
+  "units": "grid=1.27 mm on schematic, not PCB; bounds include power/GND/flag symbols but not text/graphics extents"
+}
