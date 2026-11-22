@@ -530,3 +530,15 @@
 結果・証跡: 2件を調査中・未判定へ変更。R2/C22はU1.34より左へ137.16mm、下向きFLAGは#FLG05/#FLG06の2個。ソースと保存済み出力のハッシュ一致、設計Worktree cleanを確認。台帳15件・15列と既存13件の行保全を検査。日本語本文はyomiyasuで推敲。[調査記録](reviews/batches/2026-11-22_R-0014_R-0015_investigation.md)。
 
 未実施: 設計修正、修正案のネットリスト比較・ERC・最終配置の画像確認。修正は承認後に行う。
+
+## 2026-11-22 21:06 JST — R-0014/R-0015の一括修正
+
+目的: 承認されたR2/C22の近接配置とPWR_FLAG上向き統一を実施する。
+
+実施操作: AGENTS・共通レビュー運用、既存Worktree一覧とclean状態を確認。承認済み7f0941bから`codex/a2-review-reset-flags`を作成。新規`change_reset_flags.py`で局所編集し、`kicad-cli sch export netlist`、`sch erc`、`sch export pdf`、`pdftoppm`で前後を出力。画像確認でR2文字方向とC4注記位置を再修正し、`--export-after`で再出力・検証した。最終出力は3回目。コマンド全文・時刻・正常終了は設計側commands.jsonに保存。Windows、PowerShell 7.6、KiCad 10.0.8、Python 3.11.5、Poppler 26.07.0を使用。
+
+変更ファイル: 設計ブランチは回路図と新規reports/review_reset_flags。mainは台帳、一括修正記録、本ログ・議論・判断ログだけ。設計コミット`fa741e9e1f7853efc5d27d3cb2c969a86abb31a1`をpushし、`git ls-remote`で反映確認。mainは編集前にfetchし、clean・origin/mainとの差分0を確認した。
+
+結果・証跡: 55部品・193端子・54ネット、全属性・定義が一致。ERC前後0件、既存A-2保護対象562ファイル不変。全7FLAG上向き、対象2FLAGの接続点不変。画像を全体と局所で確認。GitのXML改行変換予告は生バイトハッシュとの違いをレポートに明記。台帳15件・15列・既存13件の行保全を検査。日本語はyomiyasuで推敲。[修正記録](reviews/batches/2026-11-22_R-0014_R-0015_changes.md)。
+
+所要時間: 20:59:33開始、21:04に設計修正・検証完了、本文書記録まで約7分。未実施: 2件の人間による最終判定、PCB/BOMへの既存変更反映、実機評価。
