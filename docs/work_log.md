@@ -456,3 +456,17 @@
 結果・証跡: 両件を調査中・未判定、対応案の承認待ちへ更新。現在の1µF/2.2µFの十分性は未確認。C5/C6の100nFは参照図と整合。既存6件のOKを維持。日本語はyomiyasuで推敲。[調査一覧](reviews/batches/2026-11-22_R-0007_R-0008_investigation.md)。ERC/DRCは今回再実行していない。
 
 未解決事項: 実効容量・ESR・起動・過渡・USB突入・フィルタ特性の評価と、修正案の承認。最初に取得した作業時刻19:11 JSTから調査記録まで約5分。記録後にdocsのみをコミット・pushする。
+
+## 2026-11-22 19:55 JST — R-0007/R-0008修正・検証と台帳反映
+
+目的: 承認された電源容量の修正と、VCCD/VCCIOの参照回路比較・ピン別配置を行う。C2は追加回答で4.7µFへの変更が明示承認された。
+
+実施操作: AGENTS・レビュー運用を確認し、既存設計Worktreeで基準`16af1db20c48fef838b1d040675382488f75352e`から`codex/a2-review-capacitors`を作成。回路図を局所編集し、KiCad CLIの`sch export netlist --format kicadxml`、`sch erc --format json --exit-code-violations`、`sch export pdf --black-and-white`、`pdftoppm`を実行した。PNGを4回確認して文字重なり・紛らわしいGND接近を修正した。既存の全体生成スクリプトは実行していない。
+
+変更ファイル: 専用ブランチはA-2回路図と`reports/review_capacitors/`。mainは共通台帳、R-0007/R-0008詳細、一括対応記録、本ログ・議論・判断ログだけ。設計コミット`886ad5428d4be98768ccc8bb942aa2f54f23d942`はoriginと一致。台帳更新前にfetchしてmainの先行差分0、他Worktreeの保護を確認した。
+
+結果・証跡: 既存191端子の接続維持、C23の2端子追加だけ。ERC前後0件。16検証項目合格、既存A-2の502ファイル不変。[詳細](reviews/batches/2026-11-22_R-0007_R-0008_changes.md)。
+
+環境・再試行: Windows、PowerShell 7.6、KiCad 10.0.8、同梱Python 3.11.5、Poppler 26.07.0。yomiyasuドメイン文書の誤パスをreferences/domains/tech.mdへ修正。Git addでXMLのLF→CRLF予告が出た。KiCadコマンドは全回正常終了。日本語本文はyomiyasuで推敲した。
+
+未解決: 実効容量・ESRと実機評価、PCB/BOM反映、ユーザー最終判定。開始19:40:25 JSTから本記録まで約15分。台帳コミット・pushの確認時間はこれに含まない。
