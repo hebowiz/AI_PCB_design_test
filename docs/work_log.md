@@ -353,3 +353,12 @@
 ## 2026-11-22 17:25 JST — R-0001の承認済み回路修正を開始
 
 - ユーザーがESD321DPYR×2案と回路図修正を承認した。V3-polishを保護するためmanaged Worktreeを作り、codex/a2-r0001-esd321へ分岐した。基準コミットは778ab8896a4f9b71efba0c45f701cbf2fdfc2cac。AGENTSと既存の出力手順を確認した。設計変更の証跡は修正ブランチ内reports/review_R-0001へ、台帳はmainへ分離して保存する。最終判定は未実施。
+
+## 2026-11-22 17:33 JST — R-0001の修正・検証結果を共通台帳へ反映
+
+- 実施操作: 独立WorktreeでD1を単素子ESD321DPYRへ置換しD5を追加。局所編集用change_esd.py、保全検証用check_preservation.pyを新規作成し、KiCad CLIのsch export netlist/pdf、sch erc、pdftoppmで検証・画像出力した。標準シンボルの極性とDPYフットプリントを照合し、全体図・USB拡大・版注記を目視確認した。既存の設計生成スクリプトは実行・変更していない。
+- 結果: ERC前後ともエラー0・警告0。承認したD1/D5の端子差分以外は一致。既存767保護ファイルも一致。作業記録・前後PDF/PNG・比較・検証JSONを修正ブランチのreports/review_R-0001へ保存し、e4e46cf7f6c4286d6ff57e220f6d0643bf028347をpushした。詳細なコマンド・初回文字コードエラーと画像manifest修正の履歴は同フォルダのwork_log.md・commands.jsonに保存した。
+- 台帳: mainのreview_register.md、details/R-0001.md、本ログだけを更新し、確認待ち／未判定へ移行。既存の調査・提案・承認履歴を保持した。日本語はyomiyasuの方針で推敲した。設計変更はmainへマージしない。
+- 検証: 台帳15列・ID一意性・詳細リンク・状態と判定、git diff --check、mainの先行更新とpush後のコミット一致を確認する。設計ブランチはoriginと同じSHAで作業ツリーも変更なし。
+- 時間: ブランチ作成17:24:31から最終保全検証17:29:23まで約5分、記録・pushを含め17:33時点で約9分。
+- 残件: PCB・既存BOM・製造データは旧D1のままで回路図との同期未実施。実機保護性能・USB信号品質とユーザーの最終判定は未確認。

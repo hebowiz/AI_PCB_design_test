@@ -6,4 +6,4 @@
 
 | ID | 指摘日時 | 指摘者 | 対象工程 | 対象設計 | 対象箇所 | 重要度 | 指摘内容 | 対応内容 | 対応状況 | 対応後判定 | 判定者 | 判定日時 | 修正先 | 証跡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [R-0001](details/R-0001.md) | 2026-11-22 17 JST | ユーザー | 回路設計 | A-2、experiment/A2-schematic-v3-polish、778ab8896a4f9b71efba0c45f701cbf2fdfc2cac | a2_usb_uart.kicad_sch、D1、U1.6/7、USB_D-/USB_D+ | Major | FT232HのDP/DM耐圧を調査し、D1で問題ないか確認する | Majorは暫定。小型化の指摘を受け、第一候補をESD321DPYR×2へ見直し。0402相当・0.9 pF typ.、16 A TLPで+6.8/−4.7 V typ.。ESDS302より残留電圧は高く、保護協調・実機試験は未確認。ESD321×2の採用・回路図修正をユーザー承認、別Worktreeで対応中 | 対応中 | 未判定 | 未確認 | 未確認 | codex/a2-r0001-esd321、修正コミット未実施 | [詳細](details/R-0001.md)。指摘日時17:07 JSTはユーザー回答で確認 |
+| [R-0001](details/R-0001.md) | 2026-11-22 17 JST | ユーザー | 回路設計 | A-2、experiment/A2-schematic-v3-polish、778ab8896a4f9b71efba0c45f701cbf2fdfc2cac | a2_usb_uart.kicad_sch、D1、U1.6/7、USB_D-/USB_D+ | Major | FT232HのDP/DM耐圧を調査し、D1で問題ないか確認する | Majorは暫定。承認に基づきD1/D5をESD321DPYR×2へ変更。ERC前後0件、期待したESD端子差分以外の属性・接続は一致。PCB・既存BOMは未更新、保護協調・実機試験は未検証 | 確認待ち | 未判定 | 未確認 | 未確認 | codex/a2-r0001-esd321、e4e46cf7f6c4286d6ff57e220f6d0643bf028347 | [詳細](details/R-0001.md)。指摘日時17:07 JSTはユーザー回答で確認 |
