@@ -1,0 +1,130 @@
+{
+  "checks": {
+    "terminal_nets_exact_expected_delta": true,
+    "only_U3_removed": true,
+    "attributes_only_approved": true,
+    "all_library_definitions_unchanged": true,
+    "all_retained_real_symbol_UUIDs_preserved": true,
+    "R1_R5_R6_symbols_unchanged": true,
+    "no_5V_on_VCCD": true,
+    "all_retained_footprints_equal": true,
+    "before_ERC_zero_violations": true,
+    "after_ERC_zero_violations": true,
+    "ERC_settings_unchanged": true,
+    "only_existing_schematic_changed": true,
+    "all_other_existing_A2_files_unchanged": true
+  },
+  "all_pass": true,
+  "base": "e4e46cf7f6c4286d6ff57e220f6d0643bf028347",
+  "timestamp": "2026-11-22T18:17:47.726582+09:00",
+  "before_components": 59,
+  "after_components": 58,
+  "before_terminals": 208,
+  "after_terminals": 203,
+  "before_nets": 58,
+  "after_nets": 57,
+  "terminal_delta": {
+    "U1.40": {
+      "before": "+3V3",
+      "after": "USB5V"
+    },
+    "U3.1": {
+      "before": "USB5V",
+      "after": null
+    },
+    "U3.2": {
+      "before": "GND",
+      "after": null
+    },
+    "U3.3": {
+      "before": "USB5V",
+      "after": null
+    },
+    "U3.4": {
+      "before": "unconnected-(U3-NC-Pad4)",
+      "after": null
+    },
+    "U3.5": {
+      "before": "+3V3",
+      "after": null
+    }
+  },
+  "attribute_delta": {
+    "C1": {
+      "Note": {
+        "before": "Capacitance at DC bias must meet regulator minimum",
+        "after": "R-0004: USB5V input bulk retained; place at U1 VREGIN on future PCB update."
+      }
+    },
+    "C2": {
+      "Note": {
+        "before": "Capacitance at DC bias must meet regulator minimum",
+        "after": "R-0004: +3V3 VCCD output bulk retained; verify effective capacitance and place at U1 on future PCB update."
+      }
+    },
+    "C13": {
+      "Value": {
+        "before": "27p",
+        "after": "15p 1%"
+      },
+      "Datasheet": {
+        "before": "",
+        "after": "https://www.icbanq.com/icdownload/V2_DATA/ICBShop/Board/Murata/GRM1555C1H150FA01-01.pdf"
+      },
+      "MPN": {
+        "before": "C1005C0G1H270J050BA",
+        "after": "GRM1555C1H150FA01D"
+      },
+      "Note": {
+        "before": "Capacitance at DC bias must meet regulator minimum",
+        "after": "R-0002: C0G 50V 1%; CL = 15/2 + 4.5 pF assumed stray = 12 pF. Tune after measurement."
+      }
+    },
+    "C14": {
+      "Value": {
+        "before": "27p",
+        "after": "15p 1%"
+      },
+      "Datasheet": {
+        "before": "",
+        "after": "https://www.icbanq.com/icdownload/V2_DATA/ICBShop/Board/Murata/GRM1555C1H150FA01-01.pdf"
+      },
+      "MPN": {
+        "before": "C1005C0G1H270J050BA",
+        "after": "GRM1555C1H150FA01D"
+      },
+      "Note": {
+        "before": "Capacitance at DC bias must meet regulator minimum",
+        "after": "R-0002: C0G 50V 1%; CL = 15/2 + 4.5 pF assumed stray = 12 pF. Tune after measurement."
+      }
+    },
+    "U1": {
+      "Note": {
+        "before": "UART mode; EEPROM programming required",
+        "after": "R-0004: USB5V into VREGIN; VCCD supplies +3V3. UART/LED/PWREN EEPROM programming required."
+      }
+    },
+    "Y1": {
+      "Value": {
+        "before": "12MHz 18pF",
+        "after": "12MHz 12pF"
+      },
+      "Datasheet": {
+        "before": "",
+        "after": "https://abracon.com/Resonators/abm8.pdf"
+      },
+      "MPN": {
+        "before": "ABM8-12.000MHZ-B2-T",
+        "after": "ABM8-12.000MHZ-12-B1U-T"
+      },
+      "Note": {
+        "before": "27 pF loads assume 4.5 pF stray; frequency/start-up requires measurement",
+        "after": "R-0002: +/-10 ppm initial, +/-10 ppm temperature (-20..70 C), +/-2 ppm first year. 15pF loads assume 4.5pF stray; verify frequency/start-up/drive on PCB."
+      }
+    }
+  },
+  "modified_existing_files": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch"
+  ],
+  "source_sha256": "39e91f5695cf9acfc6592f9d230b20cb0f9cb10e529f2e0444f9e0667bcfe0f4"
+}
