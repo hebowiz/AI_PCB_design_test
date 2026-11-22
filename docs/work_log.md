@@ -494,3 +494,15 @@
 結果・証跡: 全5件を調査中・未判定へ更新し、R-0001〜R-0008のOK判定を維持。[調査記録](reviews/batches/2026-11-22_R-0009_R-0013_investigation.md)。既存回路図と出力スナップショットのハッシュ一致、設計Worktree cleanを確認。
 
 未実施: 回路図修正、ERC/DRC再実行、修正後のネットリスト比較。候補経路は幾何上の検討のみ。初めの説明ではUSBの長距離部分2交差を述べ、全経路の集計でJ1近傍1交差を加えた計3交差へ補足した。日本語本文はyomiyasuで推敲。開始20:22 JSTから本記録までの作業時間を記録時刻との差で確認できる。
+
+## 2026-11-22 20:41 JST — R-0009〜R-0013の作図一括修正
+
+目的: ユーザーの「一括修正を」に基づき、承認された5件を局所修正する。
+
+実施操作: AGENTSとレビュー運用を確認。独立した設計Worktreeに`codex/a2-review-drawing`を作成し、既存の全体生成を使わず今回用Pythonで回路図を編集。`kicad-cli sch export netlist`、`sch erc`、`sch export pdf`と`pdftoppm`で前後の成果物を出力し、全体と拡大図を確認した。3回の出力で注記・ラベル・SW3位置を調整。`change_drawing.py --export-after`と`audit_drawing.py`で検証した。コマンド全文・終了値は設計側commands.jsonに保存。環境はWindows、PowerShell 7.6、KiCad 10.0.8、Python 3.11.5、Poppler 26.07.0。
+
+変更ファイル: 設計ブランチは回路図と新規reports/review_drawingのみ。mainは共通台帳、本一括修正記録、作業・議論・判断ログのみ。設計コミット`7f0941b45309ad069e947849772c3ecf7c1d1e61`をpushし、`git ls-remote`でSHA一致を確認。main編集前に`git fetch origin`、clean、HEADとorigin/mainの差分0を確認した。
+
+結果・証跡: 55実部品・193端子・54ネット、全属性・既存シンボル定義が一致。ERC前後0件。既存保護対象528ファイル不変。幾何・ハッシュ監査も合格。KiCadコマンドは正常終了。GitはXMLのLF→CRLF変換予告を表示したため、生バイトハッシュと正規化比較の違いをレポートに記録。日本語本文はyomiyasuで推敲。台帳13件・15列・既存OK8件の保全を確認して保存する。[修正記録](reviews/batches/2026-11-22_R-0009_R-0013_changes.md)。
+
+所要時間: 20:30:16開始、20:37に設計修正・検証完了。この記録まで約12分。未解決: USBの非接続交差1か所は意図的に維持。5件の最終判定、PCB/BOMへの既存変更反映、実機検証は未実施。
