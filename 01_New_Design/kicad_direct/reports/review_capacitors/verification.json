@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-11-22T19:50:57.321461+09:00",
+  "base": "16af1db20c48fef838b1d040675382488f75352e",
+  "checks": {
+    "existing_terminal_nets_identical": true,
+    "only_C23_new_terminals": true,
+    "only_C23_added": true,
+    "only_approved_attributes_changed": true,
+    "existing_UUIDs_unchanged": true,
+    "libraries_unchanged": true,
+    "DNP_only_C11_C12": true,
+    "VCCD_matches_reference": true,
+    "VCCIO_three_100n": true,
+    "VREGIN_matches_reference": true,
+    "caps_vertical": true,
+    "before_ERC_zero": true,
+    "after_ERC_zero": true,
+    "ERC_config_unchanged": true,
+    "only_existing_schematic_changed": true,
+    "selected_footprint_installed": true
+  },
+  "all_pass": true,
+  "components": [
+    54,
+    55
+  ],
+  "terminals": [
+    191,
+    193
+  ],
+  "nets": [
+    54,
+    54
+  ],
+  "attribute_delta": {
+    "C1": {
+      "Note": [
+        "USB5V input bypass at U1.40 VREGIN; maintain effective capacitance at DC bias.",
+        "VREGIN pin 40 bulk, 4.7uF X5R 25V +/-10%; verify bias/ESR/start-up on PCB."
+      ],
+      "MPN": [
+        "CL05A105KA5NQNC",
+        "CL21A475KAQNNNE"
+      ],
+      "Value": [
+        "1u",
+        "4.7u"
+      ],
+      "Datasheet": [
+        "",
+        "https://product.samsungsem.com/mlcc/CL21A475KAQNNN.do"
+      ],
+      "Footprint": [
+        "A2:C_0402_1005Metric",
+        "Capacitor_SMD:C_0805_2012Metric"
+      ]
+    },
+    "C2": {
+      "Note": [
+        "+3V3 output bypass at U1.39 VCCD; verify effective capacitance and transients.",
+        "VCCD pin 39 bulk, 4.7uF X5R 25V +/-10%; follows FT232H Fig 6.1 nominal value."
+      ],
+      "MPN": [
+        "GRM188R61A225KE34D",
+        "CL21A475KAQNNNE"
+      ],
+      "Value": [
+        "2.2u",
+        "4.7u"
+      ],
+      "Datasheet": [
+        "",
+        "https://product.samsungsem.com/mlcc/CL21A475KAQNNN.do"
+      ],
+      "Footprint": [
+        "A2:C_0603_1608Metric",
+        "Capacitor_SMD:C_0805_2012Metric"
+      ]
+    },
+    "C3": {
+      "Note": [
+        "Capacitance at DC bias must meet regulator minimum",
+        "100nF local decoupling for U1.12 VCCIO; place directly at this PCB pin."
+      ]
+    },
+    "C4": {
+      "Note": [
+        "Capacitance at DC bias must meet regulator minimum",
+        "100nF local decoupling for U1.24 VCCIO; place directly at this PCB pin."
+      ]
+    },
+    "C5": {
+      "Note": [
+        "Capacitance at DC bias must meet regulator minimum",
+        "100nF local decoupling for U1.39 VCCD; C2 is the parallel bulk capacitor."
+      ]
+    },
+    "C6": {
+      "Note": [
+        "Capacitance at DC bias must meet regulator minimum",
+        "100nF local decoupling for U1.46 VCCIO; place directly at this PCB pin."
+      ]
+    },
+    "C11": {
+      "Note": [
+        "Capacitance at DC bias must meet regulator minimum",
+        "DNP / N.F.: optional VPHY filter bulk per FT232H Fig 6.1; fit only after evaluation."
+      ],
+      "MPN": [
+        "CL05A105KA5NQNC",
+        "CL21A475KAQNNNE"
+      ],
+      "Value": [
+        "1u",
+        "4.7u"
+      ],
+      "Datasheet": [
+        "",
+        "https://product.samsungsem.com/mlcc/CL21A475KAQNNN.do"
+      ],
+      "Footprint": [
+        "A2:C_0402_1005Metric",
+        "Capacitor_SMD:C_0805_2012Metric"
+      ]
+    },
+    "C12": {
+      "Note": [
+        "Capacitance at DC bias must meet regulator minimum",
+        "DNP / N.F.: optional VPLL filter bulk per FT232H Fig 6.1; fit only after evaluation."
+      ],
+      "MPN": [
+        "CL05A105KA5NQNC",
+        "CL21A475KAQNNNE"
+      ],
+      "Value": [
+        "1u",
+        "4.7u"
+      ],
+      "Datasheet": [
+        "",
+        "https://product.samsungsem.com/mlcc/CL21A475KAQNNN.do"
+      ],
+      "Footprint": [
+        "A2:C_0402_1005Metric",
+        "Capacitor_SMD:C_0805_2012Metric"
+      ]
+    }
+  },
+  "terminal_delta": {
+    "C23.2": [
+      null,
+      "GND"
+    ],
+    "C23.1": [
+      null,
+      "USB5V"
+    ]
+  },
+  "modified_existing_files": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch"
+  ],
+  "protected_existing_files": 502,
+  "source_sha256": "798a6e5534fa6b08e183f11bb47539e9d9bb6a076d0c984c94935f08a8551478",
+  "pin_assignments": {
+    "C3": "U1.12",
+    "C4": "U1.24",
+    "C6": "U1.46",
+    "C2+C5": "U1.39",
+    "C1+C23": "U1.40"
+  }
+}
