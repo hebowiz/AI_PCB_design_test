@@ -270,4 +270,3 @@
 判断・未解決: 0Ωは過電流保護なし。Bourns CR0603-PFを通常実装用に選定。PPTC候補MF-FSMF020X-2/010X-2の推奨ランドとは共通範囲がなく、直接交換互換なし。将来の採用にはランド認定または変更と、温度・電圧降下・トリップ評価が必要。PPTC未実装、PCB更新・DRC・実機測定・ユーザー最終判定・製造承認は未実施。
 
 証跡: 01_New_Design/kicad_direct/reports/review_usb5v_jumper/report.md、verification.json、preservation.json、commands.json、前後PDF/PNG。コード構文修正、CRLF差の保全誤判定と是正、資料取得失敗・再試行は報告書へ記録。台帳はmainの共通記録として別途更新し、設計ブランチをmainへマージしない。
-

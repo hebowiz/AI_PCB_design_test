@@ -70,4 +70,3 @@ report={'time':datetime.datetime.now().astimezone().isoformat(),'base':BASE,'con
 (H/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
 (H/'export_manifest.json').write_text(json.dumps({str(p.relative_to(H)):hashlib.sha256(p.read_bytes()).hexdigest() for v in ['before','after'] for p in (H/v).iterdir() if p.is_file()},indent=2))
 print(json.dumps(report,ensure_ascii=False,indent=2));assert report['all_pass']
-
