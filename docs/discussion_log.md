@@ -125,3 +125,11 @@ V3保存図の一次画像確認では、D1とUSB信号線の分岐が大きく�
 - 未検証: FT232Hを十分に保護できるかの評価、実装状態での信号品質・ESD試験。D1のクランプ電圧は1 A条件で8 V typ.であり、低容量や部品単体のESD定格だけでは保護対象ICの耐性との適合を判断できない。コスト・入手性・実装性を含めた代替品比較も未実施。
 - 対応案: 採用妥当性まで判断する場合は、要求するESD試験条件とFT232Hの耐性資料を基に、クランプ特性とPCB上の保護経路を評価する。今回は部品変更や設計承認を行っていない。
 - 証跡: [対象版のネットリスト](https://github.com/hebowiz/AI_PCB_design_test/blob/778ab8896a4f9b71efba0c45f701cbf2fdfc2cac/01_New_Design/kicad_direct/reports/schematic_v3_polish/after/netlist.xml)、[初回レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/778ab8896a4f9b71efba0c45f701cbf2fdfc2cac/01_New_Design/kicad_direct/reports/result.md)、[TIデータシートRev. G、pp.3～5、8～10](https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)。
+
+## 2026-11-22 — R-0002〜R-0006の一括調査
+
+- 背景: 指摘収集後、ユーザーから一括調査の指示を受けた。
+- 選択肢: Y1は精度予算から再選定、LEDは条件付き電流注記、U3はVCCD給電へ移す削減案、U6は自動遮断の維持または手動開閉への簡素化、R4は維持。
+- 反対意見・制約: Y1は初期精度だけで適合といえない。LED約0.3mAは実電流保証ではない。U3削除にはVCCDの追加負荷確認が必要。U6削除はサスペンド時の出力動作を変える。R4を短絡すると出力競合電流の制限を失う。
+- 結論: [一括調査一覧](reviews/batches/2026-11-22_R-0002_R-0006.md)と各詳細へ結果・対応案を保存した。回路変更は行わず、ユーザーの方針・判定を待つ。
+- 未検証: メーカー資料に明記されないVCCD外部負荷許容、発振・LED・電源・EEPROMの実機動作。FTDI最新版v2.3本文との差分も未確認。

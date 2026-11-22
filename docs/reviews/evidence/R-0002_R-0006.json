@@ -1,0 +1,591 @@
+{
+  "base_commit": "778ab8896a4f9b71efba0c45f701cbf2fdfc2cac",
+  "calculations": {
+    "contention_estimate_mA": 1.4999999999999998,
+    "assumed_stray_pF": 4.5,
+    "crystal_series_pF": 13.5,
+    "red_mA": 0.3,
+    "green_on_mA": 0.276595744680851,
+    "green_VOL_0_1_mA": 0.25531914893617014
+  },
+  "source_sha256": "53F71B392EC67C85B7633720FA81F5C8D8ACC5AA4D4EA868C8716A00F00F0F5C",
+  "nets": [
+    {
+      "name": "+3V3",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "C15",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C16",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C2",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C3",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C4",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C5",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C6",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "FB1",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "FB2",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R14",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R15",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R2",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R3",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R5",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R6",
+          "pin": "1"
+        },
+        {
+          "function": "VCCIO_12",
+          "ref": "U1",
+          "pin": "12"
+        },
+        {
+          "function": "VCCIO_24",
+          "ref": "U1",
+          "pin": "24"
+        },
+        {
+          "function": "VCCD(3V3)_39",
+          "ref": "U1",
+          "pin": "39"
+        },
+        {
+          "function": "VREGIN_40",
+          "ref": "U1",
+          "pin": "40"
+        },
+        {
+          "function": "VCCIO_46",
+          "ref": "U1",
+          "pin": "46"
+        },
+        {
+          "function": "VCCA_1",
+          "ref": "U2",
+          "pin": "1"
+        },
+        {
+          "function": "1DIR_2",
+          "ref": "U2",
+          "pin": "2"
+        },
+        {
+          "function": "VOUT_5",
+          "ref": "U3",
+          "pin": "5"
+        },
+        {
+          "function": "VCC_8",
+          "ref": "U5",
+          "pin": "8"
+        }
+      ]
+    },
+    {
+      "name": "/EE_DATA",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "R4",
+          "pin": "2"
+        },
+        {
+          "function": "EEDATA_43",
+          "ref": "U1",
+          "pin": "43"
+        },
+        {
+          "function": "DI_3",
+          "ref": "U5",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "name": "/EE_DO",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "R3",
+          "pin": "2"
+        },
+        {
+          "function": null,
+          "ref": "R4",
+          "pin": "1"
+        },
+        {
+          "function": "DO_4",
+          "ref": "U5",
+          "pin": "4"
+        }
+      ]
+    },
+    {
+      "name": "/LED_PWR_A",
+      "nodes": [
+        {
+          "function": "A_2",
+          "ref": "D2",
+          "pin": "2"
+        },
+        {
+          "function": null,
+          "ref": "R13",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "/LED_RX_A",
+      "nodes": [
+        {
+          "function": "A_2",
+          "ref": "D4",
+          "pin": "2"
+        },
+        {
+          "function": null,
+          "ref": "R15",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "/LED_TX_A",
+      "nodes": [
+        {
+          "function": "A_2",
+          "ref": "D3",
+          "pin": "2"
+        },
+        {
+          "function": null,
+          "ref": "R14",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "/PWREN_N",
+      "nodes": [
+        {
+          "function": "G_1",
+          "ref": "Q1",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R5",
+          "pin": "2"
+        },
+        {
+          "function": "ACBUS8/PWREN#_32",
+          "ref": "U1",
+          "pin": "32"
+        },
+        {
+          "function": "2OE#_14",
+          "ref": "U2",
+          "pin": "14"
+        },
+        {
+          "function": "1OE#_15",
+          "ref": "U2",
+          "pin": "15"
+        }
+      ]
+    },
+    {
+      "name": "/PWR_EN",
+      "nodes": [
+        {
+          "function": "D_3",
+          "ref": "Q1",
+          "pin": "3"
+        },
+        {
+          "function": null,
+          "ref": "R6",
+          "pin": "2"
+        },
+        {
+          "function": "EN_3",
+          "ref": "U4",
+          "pin": "3"
+        },
+        {
+          "function": "ON_3",
+          "ref": "U6",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "name": "/QOD",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "R16",
+          "pin": "1"
+        },
+        {
+          "function": "QOD_5",
+          "ref": "U6",
+          "pin": "5"
+        }
+      ]
+    },
+    {
+      "name": "/RXLED_N",
+      "nodes": [
+        {
+          "function": "K_1",
+          "ref": "D4",
+          "pin": "1"
+        },
+        {
+          "function": "ACBUS3/RXLED#_27",
+          "ref": "U1",
+          "pin": "27"
+        }
+      ]
+    },
+    {
+      "name": "/TXLED_N",
+      "nodes": [
+        {
+          "function": "K_1",
+          "ref": "D3",
+          "pin": "1"
+        },
+        {
+          "function": "ACBUS4/TXLED#_28",
+          "ref": "U1",
+          "pin": "28"
+        }
+      ]
+    },
+    {
+      "name": "/XTAL_IN",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "C13",
+          "pin": "1"
+        },
+        {
+          "function": "OSCI_1",
+          "ref": "U1",
+          "pin": "1"
+        },
+        {
+          "function": "1_1",
+          "ref": "Y1",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "/XTAL_OUT",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "C14",
+          "pin": "1"
+        },
+        {
+          "function": "OSCO_2",
+          "ref": "U1",
+          "pin": "2"
+        },
+        {
+          "function": "3_3",
+          "ref": "Y1",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "name": "USB5V",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "C1",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C18",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "C20",
+          "pin": "1"
+        },
+        {
+          "function": "VBUS_1",
+          "ref": "J1",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R13",
+          "pin": "1"
+        },
+        {
+          "function": "VIN_1",
+          "ref": "U3",
+          "pin": "1"
+        },
+        {
+          "function": "EN_3",
+          "ref": "U3",
+          "pin": "3"
+        },
+        {
+          "function": "IN_1",
+          "ref": "U4",
+          "pin": "1"
+        },
+        {
+          "function": "IN_1",
+          "ref": "U6",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "USB5V_ENABLED",
+      "nodes": [
+        {
+          "function": null,
+          "ref": "C21",
+          "pin": "1"
+        },
+        {
+          "function": null,
+          "ref": "R16",
+          "pin": "2"
+        },
+        {
+          "function": "ON/source_3",
+          "ref": "SW2",
+          "pin": "3"
+        },
+        {
+          "function": "OUT_6",
+          "ref": "U6",
+          "pin": "6"
+        }
+      ]
+    },
+    {
+      "name": "USB5V_OUT",
+      "nodes": [
+        {
+          "function": "Pin_4_4",
+          "ref": "J2",
+          "pin": "4"
+        },
+        {
+          "function": "COMMON/out_2",
+          "ref": "SW2",
+          "pin": "2"
+        }
+      ]
+    }
+  ],
+  "scope": "Read-only investigation; calculations are estimates, not measured or guaranteed",
+  "components": [
+    {
+      "footprint": "A2:C_0402_1005Metric",
+      "ref": "C13",
+      "value": "27p",
+      "mpn": "C1005C0G1H270J050BA"
+    },
+    {
+      "footprint": "A2:C_0402_1005Metric",
+      "ref": "C14",
+      "value": "27p",
+      "mpn": "C1005C0G1H270J050BA"
+    },
+    {
+      "footprint": "A2:LED_0603_1608Metric",
+      "ref": "D2",
+      "value": "RED",
+      "mpn": "LTST-C190KRKT"
+    },
+    {
+      "footprint": "A2:LED_0603_1608Metric",
+      "ref": "D3",
+      "value": "GREEN TX",
+      "mpn": "LTST-C190KGKT"
+    },
+    {
+      "footprint": "A2:LED_0603_1608Metric",
+      "ref": "D4",
+      "value": "GREEN RX",
+      "mpn": "LTST-C190KGKT"
+    },
+    {
+      "footprint": "A2:SOT-23",
+      "ref": "Q1",
+      "value": "2N7002",
+      "mpn": "2N7002P,215"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R3",
+      "value": "10k",
+      "mpn": "RC0402FR-0710KL"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R4",
+      "value": "2.2k",
+      "mpn": "RC0402FR-072K2L"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R5",
+      "value": "10k",
+      "mpn": "RC0402FR-0710KL"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R6",
+      "value": "10k",
+      "mpn": "RC0402FR-0710KL"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R13",
+      "value": "10k",
+      "mpn": "RC0402FR-0710KL"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R14",
+      "value": "4.7k",
+      "mpn": "RC0402FR-074K7L"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R15",
+      "value": "4.7k",
+      "mpn": "RC0402FR-074K7L"
+    },
+    {
+      "footprint": "A2:R_0402_1005Metric",
+      "ref": "R16",
+      "value": "100",
+      "mpn": "RC0402FR-07100RL"
+    },
+    {
+      "footprint": "A2:SW_SPDT_PCM12",
+      "ref": "SW2",
+      "value": "USB5V OUT",
+      "mpn": "PCM12SMTR"
+    },
+    {
+      "footprint": "A2:LQFP-48_7x7mm_P0.5mm",
+      "ref": "U1",
+      "value": "FT232HL",
+      "mpn": "FT232HL-REEL"
+    },
+    {
+      "footprint": "A2:TSSOP-16_4.4x5mm_P0.65mm",
+      "ref": "U2",
+      "value": "SN74AXC4T245PWR",
+      "mpn": "SN74AXC4T245PWR"
+    },
+    {
+      "footprint": "A2:SOT-23-5",
+      "ref": "U3",
+      "value": "AP2112K-3.3",
+      "mpn": "AP2112K-3.3TRG1"
+    },
+    {
+      "footprint": "A2:SOT-23-5",
+      "ref": "U4",
+      "value": "TLV75801PDBV",
+      "mpn": "TLV75801PDBVR"
+    },
+    {
+      "footprint": "A2:MSOP-8_3x3mm_P0.65mm",
+      "ref": "U5",
+      "value": "93LC56B",
+      "mpn": "93LC56B-I/MS"
+    },
+    {
+      "footprint": "A2:SOT-363_SC-70-6",
+      "ref": "U6",
+      "value": "TPS22919DCK",
+      "mpn": "TPS22919DCKR"
+    },
+    {
+      "footprint": "A2:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "ref": "Y1",
+      "value": "12MHz 18pF",
+      "mpn": "ABM8-12.000MHZ-B2-T"
+    }
+  ],
+  "source": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/netlist.xml",
+  "recorded_at": "2026-11-22 17:53"
+}
