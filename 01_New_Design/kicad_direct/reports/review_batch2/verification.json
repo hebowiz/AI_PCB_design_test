@@ -1,0 +1,107 @@
+{
+  "checks": {
+    "only_expected_terminal_delta": true,
+    "only_dedicated_parts_removed": true,
+    "only_C1_C2_note_properties_changed": true,
+    "all_libraries_unchanged": true,
+    "remaining_UUIDs_unchanged": true,
+    "R1_R2_R3_R6_and_shared_control_unchanged": true,
+    "no_global_label_connectors": true,
+    "input_output_power_nets_separate": true,
+    "manual_switch_input_USB5V": true,
+    "C1_C2_vertical_and_GND_lower": true,
+    "before_ERC_zero": true,
+    "after_ERC_zero": true,
+    "ERC_config_unchanged": true,
+    "only_existing_schematic_changed": true,
+    "existing_A2_files_protected": true
+  },
+  "all_pass": true,
+  "base": "3b8700a24ef3cee159253b8f21e5b9d400c67a10",
+  "timestamp": "2026-11-22T18:46:55.138025+09:00",
+  "components": [
+    58,
+    54
+  ],
+  "terminals": [
+    203,
+    191
+  ],
+  "nets": [
+    57,
+    54
+  ],
+  "terminal_delta": {
+    "C20.1": {
+      "before": "USB5V",
+      "after": null
+    },
+    "C20.2": {
+      "before": "GND",
+      "after": null
+    },
+    "C21.1": {
+      "before": "USB5V_ENABLED",
+      "after": null
+    },
+    "C21.2": {
+      "before": "GND",
+      "after": null
+    },
+    "R16.1": {
+      "before": "/QOD",
+      "after": null
+    },
+    "R16.2": {
+      "before": "USB5V_ENABLED",
+      "after": null
+    },
+    "SW2.3": {
+      "before": "USB5V_ENABLED",
+      "after": "USB5V"
+    },
+    "U6.1": {
+      "before": "USB5V",
+      "after": null
+    },
+    "U6.2": {
+      "before": "GND",
+      "after": null
+    },
+    "U6.3": {
+      "before": "/PWR_EN",
+      "after": null
+    },
+    "U6.4": {
+      "before": "unconnected-(U6-NC-Pad4)",
+      "after": null
+    },
+    "U6.5": {
+      "before": "/QOD",
+      "after": null
+    },
+    "U6.6": {
+      "before": "USB5V_ENABLED",
+      "after": null
+    }
+  },
+  "attribute_delta": {
+    "C1": {
+      "Note": [
+        "R-0004: USB5V input bulk retained; place at U1 VREGIN on future PCB update.",
+        "USB5V input bypass at U1.40 VREGIN; maintain effective capacitance at DC bias."
+      ]
+    },
+    "C2": {
+      "Note": [
+        "R-0004: +3V3 VCCD output bulk retained; verify effective capacitance and place at U1 on future PCB update.",
+        "+3V3 output bypass at U1.39 VCCD; verify effective capacitance and transients."
+      ]
+    }
+  },
+  "protected_count": 473,
+  "modified_existing_files": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch"
+  ],
+  "source_sha256": "16d7ca64a537080f151b43bca03173ec019d6e0481f97fbe7237fd6e2e9cd82c"
+}

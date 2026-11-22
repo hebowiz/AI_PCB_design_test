@@ -1,0 +1,22 @@
+{
+  "before\\a2_usb_uart.kicad_sch": "39e91f5695cf9acfc6592f9d230b20cb0f9cb10e529f2e0444f9e0667bcfe0f4",
+  "before\\clock.png": "f9f46bbb12e715c8ab96a4c89d7f921361b036d342bb84fbec5ce6b04f002b5d",
+  "before\\erc.json": "435693aa65b9c3b2fbf73e4922b2fdaca6f77181df6a2de699e4344fce56e4bf",
+  "before\\ft232h_power.png": "79495de81eb56d41e04aba0fc2558bc9b3741042545aad60aa4bbeab434c584c",
+  "before\\leds.png": "7dcb83728081a396a12d3e4b5dff59a22f75b67b0f2f40c5b949a4415e17ed87",
+  "before\\manual_5v.png": "bf194d86d56e728e4467b033de8f367e727742d208b2facf89bdbd51406c78e2",
+  "before\\netlist.xml": "8b4ced52f72944d049e7cc3161b5974535c61f401cd590acf437f1829da80be8",
+  "before\\overview.png": "92bfa84a24d7ddef64b033e405437dee128c8c70fb4e9a732f77a5b8c84e1196",
+  "before\\schematic.pdf": "1cad05254ba63ce52ac935be5b0644f46ebd71a952f759706683544e24f21547",
+  "before\\schematic.png": "07e3086b44d627bce03c38390c5d6139752ae97c6fe62cf20f7f96f3c37b678d",
+  "after\\a2_usb_uart.kicad_sch": "16d7ca64a537080f151b43bca03173ec019d6e0481f97fbe7237fd6e2e9cd82c",
+  "after\\clock.png": "f9f46bbb12e715c8ab96a4c89d7f921361b036d342bb84fbec5ce6b04f002b5d",
+  "after\\erc.json": "112dab5a4797d7690a4dbb2e9e1bb889f64b36be6cbdcf6067221af6a02a8e8b",
+  "after\\ft232h_power.png": "457a0d94a533764f915705a9d2095a32125d65d03c870f9580f0326ce46379bd",
+  "after\\leds.png": "7dcb83728081a396a12d3e4b5dff59a22f75b67b0f2f40c5b949a4415e17ed87",
+  "after\\manual_5v.png": "838d9018791b3dec59e5fa3dca92e1ab23eace8fc3d9f65bd4373001f7815322",
+  "after\\netlist.xml": "ab9c67be4bf3cd3457ad7b6d414cb187a77d559173b54691e5e8284b3502737a",
+  "after\\overview.png": "353f7e01450d79cb75061b1de0ece59f1c3093f2e65a51b5f621c236ae108c0a",
+  "after\\schematic.pdf": "c7b96f104a71f3cf7b28e69e309103be3e9ea2ea310788228ed526bc0c7cf9a2",
+  "after\\schematic.png": "f9b4f92de8c7797b98dc9bd527695402f6fcaedf8f63a868aa8ce1947c818d00"
+}
