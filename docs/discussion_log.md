@@ -116,3 +116,12 @@ V3保存図の一次画像確認では、D1とUSB信号線の分岐が大きく�
 - 入力仕様：案件ごとに編集できる構造化リストを構想。必須/推奨、確定/暫定/未定、根拠/承認履歴を持たせる。DXF/STEP等の機構情報、特殊外形、固定部品・禁止領域・高さ制限も設計制約として扱いたい。2D/3D機構検証は将来の実証課題。
 - A-2 V3-polish：ユーザーは回路図の作図品質を主観的に「約95点」と評価し、追加の注文を一旦停止してV4作図実験か回路レビューへ移る意向。GitHubの画像とネットリスト/ERC記録から作図レビュー候補として妥当と評価した。回路・基板の性能や製造性の承認ではない。
 - 詳細は`docs/future_design_agent_vision.md`、`docs/a2_schematic_v3_polish_assistant_review.md`を参照。将来の構想は議論の進展に応じて改訂してよい。
+
+## 2026-11-22 — A-2レビュー中の質問: D1の部品選定理由
+
+- 背景: ユーザーから「D1の部品選定理由は？」との質問を受けた。対象は`experiment/A2-schematic-v3-polish`、`778ab8896a4f9b71efba0c45f701cbf2fdfc2cac`。質問の送信時刻は未確認。今回は問題や変更要求が明示されていないため、質問と調査を本ログへ記録し、指摘IDは発行していない。
+- 確認した事実: D1のMPNは`TPD2EUSB30DRTR`。保存済みネットリストでピン1はUSB_D+、ピン2はUSB_D-、ピン3はGND。初回設計の`scripts/design.py`も同じ部品をUSB ESD用途として定義している。初回レポートはTI資料を参照しているが、他候補との比較、価格・調達性の評価、この型番を最適とする詳細な選定記録は確認できなかった。
+- 技術的な適合理由: 2回路でUSBの差動対を保護でき、信号-GND間容量は0.7 pF typ.（2.5 V、100 kHz）。TIは5 Gbps対応、動作範囲0～5.5 V、IEC 61000-4-2接触放電8 kVを示している。外部電源端子がなく、信号2本とGNDで接続できる。これらは現在の回路とデータシートから説明できる利点であり、当初の比較検討を復元できたという意味ではない。
+- 未検証: FT232Hを十分に保護できるかの評価、実装状態での信号品質・ESD試験。D1のクランプ電圧は1 A条件で8 V typ.であり、低容量や部品単体のESD定格だけでは保護対象ICの耐性との適合を判断できない。コスト・入手性・実装性を含めた代替品比較も未実施。
+- 対応案: 採用妥当性まで判断する場合は、要求するESD試験条件とFT232Hの耐性資料を基に、クランプ特性とPCB上の保護経路を評価する。今回は部品変更や設計承認を行っていない。
+- 証跡: [対象版のネットリスト](https://github.com/hebowiz/AI_PCB_design_test/blob/778ab8896a4f9b71efba0c45f701cbf2fdfc2cac/01_New_Design/kicad_direct/reports/schematic_v3_polish/after/netlist.xml)、[初回レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/778ab8896a4f9b71efba0c45f701cbf2fdfc2cac/01_New_Design/kicad_direct/reports/result.md)、[TIデータシートRev. G、pp.3～5、8～10](https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)。
