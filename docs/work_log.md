@@ -404,3 +404,17 @@
 - 検証: 台帳6件・15列・ID一意性・詳細リンク・状態・判定を確認し、yomiyasuで日本語を最終確認、git diff --checkを実行する。設計の保全は対象Worktreeのstatusで確認し、設計の再生成・修正・ERC/DRC・実機試験は行わない。記録だけをまとめてコミット・pushする。
 - 未解決: 各詳細の実機評価、追加電源仕様、ユーザーの方針と最終判定。調査提案を修正承認へ読み替えない。
 - 検査結果: 台帳6件・15列・ID・詳細リンク・判定保持と計算値を確認した。V3-polishとR-0001修正Worktreeはともに変更なし。yomiyasuの一覧表検査は指摘なし。詳細の定型メタデータ箇条書きと意味のある技術的否定は保持した。
+
+## 2026-11-22 18:23 JST — R-0002〜R-0006一括対応と台帳更新
+
+目的: 承認済み3件を修正し、保留・OK判定を区別して保存する。作業開始18:07 JST、設計push完了18:20 JST、台帳記録時点で約15.7分。
+
+実施操作: mainのAGENTS.md・レビューREADMEを再確認し、完了済みR-0001 Worktreeのクリーンな`e4e46cf7f6c4286d6ff57e220f6d0643bf028347`から`git switch -c codex/a2-review-batch1`。Y1/C13/C14再選定、LED注記、U3削除とVREGINの5V化。新規専用補助`change_review_batch.py`を作成し、`kicad-cli sch export netlist --format kicadxml`、`sch erc --format json --exit-code-violations`、`sch export pdf`、`pdftoppm`で出力。全体・拡大画像を確認し、ラベルと注記を修正して再出力した。旧生成スクリプトは実行していない。
+
+結果: 設計`3b8700a24ef3cee159253b8f21e5b9d400c67a10`を`origin/codex/a2-review-batch1`へpushし、ローカル・リモートSHA一致。ERC前後0件、意図した端子差分のみ、既存A-2ファイル437件の保全を確認。R-0002〜R-0004は確認待ち、R-0005は修正保留。R-0006は本人回答18:05 JSTにより完了／OK。
+
+変更ファイル: 設計側は回路図と`reports/review_batch1/`。main側はレビュー台帳、R-0002〜R-0006詳細、一括対応記録、判定証跡JSON、本ログ・議論・判断ログ。設計成果物はmainへマージしない。
+
+環境: Windows/PowerShell 7.6、KiCad 10.0.8、Python 3.11.5、pdftoppm 26.07.0。PWR_FLAG番号重複を事前assertで検出し修正。ローカル電源ラベルのERC警告2件をグローバル化して解消。CRLFを含む生バイト比較はGit属性適用後のhash-objectへ修正。Webの403/HTML応答、pdftotext未導入、通常権限のCLI版確認でHKCU拒否が発生した。詳細は[固定コミットの報告書](https://github.com/hebowiz/AI_PCB_design_test/blob/3b8700a24ef3cee159253b8f21e5b9d400c67a10/01_New_Design/kicad_direct/reports/review_batch1/README.md)とcommands.json。日本語はyomiyasuで最終推敲した。
+
+未検証: 水晶の発振・負荷容量調整、電源の最大負荷・起動・復帰・熱、LED輝度、EEPROM設定、PCB/BOM反映。ERC合格を実機検証・最終判定・製造承認へ置き換えない。

@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-11-22T18:23:02.045608+09:00",
+  "design_branch": "codex/a2-review-batch1",
+  "design_commit": "3b8700a24ef3cee159253b8f21e5b9d400c67a10",
+  "design_base": "e4e46cf7f6c4286d6ff57e220f6d0643bf028347",
+  "R-0002": "確認待ち／未判定",
+  "R-0003": "確認待ち／未判定",
+  "R-0004": "確認待ち／未判定",
+  "R-0005": "保留／未判定",
+  "R-0006": {
+    "status": "完了",
+    "verdict": "OK",
+    "judge": "ユーザー",
+    "judged_at": "2026-11-22T18:05:00+09:00",
+    "source": "OK。修正は不要。／日時回答20261122-1805"
+  },
+  "evidence_url": "https://github.com/hebowiz/AI_PCB_design_test/blob/3b8700a24ef3cee159253b8f21e5b9d400c67a10/01_New_Design/kicad_direct/reports/review_batch1/verification.json"
+}
