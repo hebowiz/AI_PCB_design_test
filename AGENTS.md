@@ -23,6 +23,13 @@
 
 レビュー指摘を受けたら`docs/reviews/review_register.md`へ登録する。IDは全工程共通の連番とし、調査・修正・検証・判定を分けて記録する。ユーザーの承認前にOK・完了扱いにしない。詳細は[レビュー運用ルール](docs/reviews/README.md)に従う。
 
+
+## 回路図の作図スキル（追加ルール）
+
+回路図の新規作成、視認性改善、回路レビュー後の作図修正では、`.agents/skills/schematic-design/SKILL.md`を参照する。作図スタイルを使う場合は**一度に1種類だけ選択**し、現在のV3系標準は`.agents/skills/schematic-style-standard/SKILL.md`を使う。未指定ならV3系標準を候補として提示し、既存の別スタイルや明示要求を勝手に置き換えない。
+
+作図の修正後は、接続/ERCだけでなく**既存の作図規約の回帰チェック**（コンデンサの向き、PWR_FLAG上向き、ペア信号の不要な交差、余分な配線長、線分の重複、Ref/Valueの対応）と画像確認を行う。未実施の自動検査を実施済みと報告しない。これらの追加スキルは既存`pcb-pipeline`の上流コピーを変更しない。
+
 ## ディレクトリ
 - `01_New_Design/`: **A: 新規設計**。`specs/`は共通仕様、`atopile/`はA-1、`kicad_direct/`はA-2、`easyeda/`はA-3。`$pcb-pipeline`はA-1のみの候補で、スキルは`.agents/skills/pcb-pipeline/SKILL.md`にある。
 - `02_Design_Modification/`: **B-2: KiCad既存設計修正のみ**。`original/`を原本用、`working/`を作業用とし、`reports/`に差分・検証を置く。

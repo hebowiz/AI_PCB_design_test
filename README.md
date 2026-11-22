@@ -35,6 +35,8 @@ AIによる回路・基板設計の実地検証プロジェクト（開始: 2026
 
 Codexからの利用: `$pcb-pipeline`。
 
+回路図作図用の独立追加スキル：`.agents/skills/schematic-design/`（電気的同一性・品質確認）、`.agents/skills/schematic-style-standard/`（V3系の作図スタイル）。使用時は`$schematic-design`と`$schematic-style-standard`を併用。既存の`pcb-pipeline`を改変せず、別スタイルを将来追加できる構成。
+
 **注意:** オリジナルはmacOS/Linux向け。Windows環境での実行可否・必要な変更は未検証。スキルを配置しただけではatopile/KiCad/Freerouting/Java等はインストールされません。
 
 ## 記録と安全
