@@ -39,6 +39,8 @@ Codexからの利用: `$pcb-pipeline`。
 
 **注意:** オリジナルはmacOS/Linux向け。Windows環境での実行可否・必要な変更は未検証。スキルを配置しただけではatopile/KiCad/Freerouting/Java等はインストールされません。
 
+レビュー議事録の自動整理と品質チェックには、独立スキル[design-review-records](.agents/skills/design-review-records/SKILL.md)を適用します。回路設計・回路図・PCB・製造のレビュー台帳は共通で、変更履歴と技術的な判断を保持します。
+
 ## 記録と安全
 
 - `AGENTS.md`: Codexの作業ルール
