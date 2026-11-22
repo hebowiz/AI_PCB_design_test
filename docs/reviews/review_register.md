@@ -6,4 +6,4 @@
 
 | ID | 指摘日時 | 指摘者 | 対象工程 | 対象設計 | 対象箇所 | 重要度 | 指摘内容 | 対応内容 | 対応状況 | 対応後判定 | 判定者 | 判定日時 | 修正先 | 証跡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [R-0001](details/R-0001.md) | 2026-11-22 17 JST | ユーザー | 回路設計 | A-2、experiment/A2-schematic-v3-polish、778ab8896a4f9b71efba0c45f701cbf2fdfc2cac | a2_usb_uart.kicad_sch、D1、U1.6/7、USB_D-/USB_D+ | Major | FT232HのDP/DM耐圧を調査し、D1で問題ないか確認する | USBポート保護に関わるためMajorを暫定設定。資料調査と対応案の提示を依頼された。設計変更は未承認 | 未着手 | 未判定 | 未確認 | 未確認 | 未実施 | [詳細](details/R-0001.md)。指摘日時17:07 JSTはユーザー回答で確認 |
+| [R-0001](details/R-0001.md) | 2026-11-22 17 JST | ユーザー | 回路設計 | A-2、experiment/A2-schematic-v3-polish、778ab8896a4f9b71efba0c45f701cbf2fdfc2cac | a2_usb_uart.kicad_sch、D1、U1.6/7、USB_D-/USB_D+ | Major | FT232HのDP/DM耐圧を調査し、D1で問題ないか確認する | USBポート保護に関わるためMajorを暫定設定。資料調査と対応案の提示を依頼された。設計変更は未承認 | 調査中 | 未判定 | 未確認 | 未確認 | 未実施 | [詳細](details/R-0001.md)。指摘日時17:07 JSTはユーザー回答で確認 |
