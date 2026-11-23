@@ -657,3 +657,13 @@ origin/mainの5e240b0を確認・同期。今後は日時とレビュー内容�
 検証: HEAD一致、clean状態、git hash-objectによる3ファイル一致を確認。proは16b674eaf8da87116be59e8f857109cf95d5089f、schはe88162e1f25603078933b1f937471adf33d78f9a、pcbは7b3bf2c75dc95e97315ae56be09438b6d9700268。mainのプロジェクト設定の未コミット編集を保持した。
 
 記録変更: mainのdocs/design_workspaces.md、docs/work_log.md。設計成果物はmainへマージせず、再生成もしていない。今回の更新はレビュー候補版の配置で、PCBの最終OK判定ではない。ERC/DRCは同期版の検証結果を参照し再実行なし。製造データは旧版扱いを維持する。
+
+## 2026-11-23 17:09 JST — A-2固定WorkspaceのPCB消失疑いを調査
+
+指摘: ユーザーが更新後の基板データを参照し、内容が消えたように見えると報告。固定Workspaceのgit status、CADのGit blob・SHA256とKiCad 10.0.8 pcbnewによる実体読み取りで確認した。設計・表示設定は変更していない。
+
+結果: PCBは772133 bytes、SHA256は44bb1f145bef99df99dca3a6b34ecc009f95e87b7ee9b0d350329fec9d866c59で更新元と完全一致。58フットプリント、1039配線、128ビア、2ゾーン、4外形線が存在し、R17/TP1/TP2も存在する。pro/sch/pcbはa300e1c7cd89654fd2800c1bc7b8bad59dae5516と一致し、固定Worktreeはclean。保存済みCADの消失は確認されなかった。
+
+表示の原因候補: 固定先のGit管理外a2_usb_uart.kicad_prlはschema 3、board.visible_items=[12]で、旧形式の12はグリッドに対応する。部品・配線・ビア・ゾーンの表示指定が欠けている。インストール済みpcbnewの列挙値と[KiCad公式の設定読込・移行コード](https://docs.kicad.org/doxygen/project__local__settings_8cpp_source.html)で確認した。前回のWorkspace更新はCAD一致を検証したが、このローカル表示設定は確認対象に含めていなかった。
+
+未検証: ユーザーが見た実際の画面と、表示設定を戻した後のGUI表示は未確認。KiCadマネージャは起動中、pcbnew/eeschemaのプロセスは検出されなかった。今回は確認依頼のため設定の変更・アプリ終了は行わず、表示設定の確認方法を案内する。mainの未コミットプロジェクト編集を維持し、作業記録のみ更新した。
