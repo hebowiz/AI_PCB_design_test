@@ -1,0 +1,117 @@
+{
+  "C2": {
+    "pos": [
+      118.2,
+      111.5
+    ],
+    "angle": 0,
+    "score": 0.07999999999999546,
+    "conflicting_copper": []
+  },
+  "C1": {
+    "pos": [
+      118.9,
+      108.5
+    ],
+    "angle": 180,
+    "score": 0.5521320343559734,
+    "conflicting_copper": [
+      "fe08ff8c-8e07-417d-ac1d-4b13e66330c0"
+    ]
+  },
+  "C12": {
+    "pos": [
+      108.7,
+      107.3
+    ],
+    "angle": 180,
+    "score": 5.076862194110814,
+    "conflicting_copper": [
+      "3355d0ea-09db-4c14-be8e-227b965efa24",
+      "4a43f074-abb6-4766-bbce-8c0f4c8f22de",
+      "4e23bf4d-eb27-4e36-a046-5c8fbc046534",
+      "506de76f-9723-4bf4-862c-b3c5d39d9d07",
+      "dbf0c3fa-ced5-45cd-917b-3904234590d7"
+    ]
+  },
+  "C11": {
+    "pos": [
+      103.9,
+      106.0
+    ],
+    "angle": 90,
+    "score": 0.8039900496896708,
+    "conflicting_copper": []
+  },
+  "D1": {
+    "pos": [
+      110.9,
+      107.5
+    ],
+    "angle": 90,
+    "score": 2.326600006114637,
+    "conflicting_copper": [
+      "08da1c05-c906-4a30-9890-10bb2fc26917",
+      "826442d1-1396-4509-b3c9-dfd612c1431f",
+      "ab2e818c-5688-4945-9f17-d5134fc48927",
+      "ef52759a-2ce5-49a4-8106-fbfb2c2ca91f",
+      "2ecbc4f3-d496-4319-8028-4dd68bd8a510",
+      "384167fc-4c64-4481-a620-791058fac6eb",
+      "478c1306-acb3-4d0b-bdf0-2b51a1bd1382",
+      "684178d8-98b1-4e1d-9edf-85cea5ebd509",
+      "a8cd6edc-32ef-416b-be3b-1688b8b042cd"
+    ]
+  },
+  "D5": {
+    "pos": [
+      111.9,
+      108.7
+    ],
+    "angle": 0,
+    "score": 0.7602631123499375,
+    "conflicting_copper": []
+  },
+  "C23": {
+    "pos": [
+      117.2,
+      117.2
+    ],
+    "angle": 90,
+    "score": 0.7498969003941911,
+    "conflicting_copper": [
+      "a2bfb54d-3305-4645-9bd0-c1c1f8e590df"
+    ]
+  },
+  "TP1": {
+    "pos": [
+      102.7,
+      136.1
+    ],
+    "angle": 0,
+    "score": 0.3394112549695316,
+    "conflicting_copper": []
+  },
+  "TP2": {
+    "pos": [
+      104.9,
+      134.5
+    ],
+    "angle": 0,
+    "score": 1.8373509092741163,
+    "conflicting_copper": [
+      "fc4e1462-61f8-4678-9661-d3ae86795d9e"
+    ]
+  },
+  "R17": {
+    "pos": [
+      104.7,
+      132.0
+    ],
+    "angle": 0,
+    "score": 2.288157592133195,
+    "conflicting_copper": [
+      "1290a95b-287d-48a2-87dd-8bc77db91797",
+      "88c95bec-e605-4fd5-ab22-c534ace1918e"
+    ]
+  }
+}

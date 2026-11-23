@@ -1,0 +1,4159 @@
+{
+  "base": "fffbcdbe41bad236baee48d88cf96b95f27421f4",
+  "components": 58,
+  "pad_objects": 218,
+  "schematic_terminals": 197,
+  "errors": [],
+  "erc": 0,
+  "drc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "added_components": [
+    "C23",
+    "D5",
+    "R17",
+    "TP1",
+    "TP2"
+  ],
+  "deleted_components": [
+    "C20",
+    "C21",
+    "R16",
+    "U3",
+    "U6"
+  ],
+  "moved_components": {
+    "D1": {
+      "before": {
+        "xy": [
+          111.0,
+          107.5
+        ],
+        "angle": 0.0
+      },
+      "after": {
+        "xy": [
+          110.9,
+          107.5
+        ],
+        "angle": 90.0
+      }
+    },
+    "C2": {
+      "before": {
+        "xy": [
+          118.5,
+          111.5
+        ],
+        "angle": 0.0
+      },
+      "after": {
+        "xy": [
+          118.2,
+          111.5
+        ],
+        "angle": 0.0
+      }
+    },
+    "C11": {
+      "before": {
+        "xy": [
+          108.0,
+          106.8
+        ],
+        "angle": 0.0
+      },
+      "after": {
+        "xy": [
+          103.9,
+          106.0
+        ],
+        "angle": 90.0
+      }
+    },
+    "C1": {
+      "before": {
+        "xy": [
+          116.3,
+          105.8
+        ],
+        "angle": 90.0
+      },
+      "after": {
+        "xy": [
+          118.9,
+          108.5
+        ],
+        "angle": 180.0
+      }
+    },
+    "C12": {
+      "before": {
+        "xy": [
+          120.5,
+          112.3
+        ],
+        "angle": 90.0
+      },
+      "after": {
+        "xy": [
+          108.7,
+          107.3
+        ],
+        "angle": 180.0
+      }
+    }
+  },
+  "tracks_before": 1088,
+  "tracks_after": 1167,
+  "original_tracks_retained": 1022,
+  "retained_percent": 93.93,
+  "original_track_geometry_changes": [],
+  "removed_tracks": [
+    {
+      "uuid": "00770770-51ce-4e7d-8fbb-3ea8551c4287",
+      "start": [
+        120.5,
+        111.8
+      ],
+      "end": [
+        120.5,
+        111.8
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "/GND"
+    },
+    {
+      "uuid": "00d6198c-866a-4e83-adfe-90d05ffefd88",
+      "start": [
+        115.6,
+        117.15
+      ],
+      "end": [
+        116.0,
+        117.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "024c8dff-ea21-4d66-9f09-db42315cc19e",
+      "start": [
+        115.15,
+        117.75
+      ],
+      "end": [
+        115.15,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "08da1c05-c906-4a30-9890-10bb2fc26917",
+      "start": [
+        111.35,
+        107.925
+      ],
+      "end": [
+        111.35,
+        107.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "09e56c87-0c62-45e2-b4f4-ff69471a4632",
+      "start": [
+        105.3,
+        134.199999
+      ],
+      "end": [
+        104.55,
+        134.199999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/QOD"
+    },
+    {
+      "uuid": "0b982db0-436f-445c-b4c1-6a8a5f1658ba",
+      "start": [
+        120.5,
+        111.82
+      ],
+      "end": [
+        120.5,
+        111.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/GND"
+    },
+    {
+      "uuid": "0e2d07ee-07c3-4ebb-8daf-556e433d9278",
+      "start": [
+        102.65,
+        134.65
+      ],
+      "end": [
+        103.25,
+        135.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "1290a95b-287d-48a2-87dd-8bc77db91797",
+      "start": [
+        105.55,
+        132.699999
+      ],
+      "end": [
+        105.6,
+        132.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "21691646-c72c-4a24-9efa-55bf9c93b275",
+      "start": [
+        106.0,
+        134.5
+      ],
+      "end": [
+        105.6,
+        134.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/QOD"
+    },
+    {
+      "uuid": "23df38e1-c3bb-4a32-b4e0-eb566c623714",
+      "start": [
+        120.1,
+        112.8
+      ],
+      "end": [
+        119.8,
+        112.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "2ecbc4f3-d496-4319-8028-4dd68bd8a510",
+      "start": [
+        110.55,
+        107.35
+      ],
+      "end": [
+        110.5,
+        107.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "319d625d-e6e4-4b13-ad6e-f55aa68f3b64",
+      "start": [
+        118.6,
+        112.45
+      ],
+      "end": [
+        116.4,
+        112.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "3237e3f4-3209-4e60-a239-a744b2443625",
+      "start": [
+        116.4,
+        116.75
+      ],
+      "end": [
+        116.5,
+        116.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "3355d0ea-09db-4c14-be8e-227b965efa24",
+      "start": [
+        107.25,
+        106.8
+      ],
+      "end": [
+        106.9,
+        106.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPHY"
+    },
+    {
+      "uuid": "3372d4b9-73ea-4b6a-9aa0-1145d2514ee6",
+      "start": [
+        115.5,
+        117.25
+      ],
+      "end": [
+        115.6,
+        117.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "384167fc-4c64-4481-a620-791058fac6eb",
+      "start": [
+        110.65,
+        107.9
+      ],
+      "end": [
+        110.65,
+        107.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "3e322b20-1758-4e62-b842-1dfbb810a07f",
+      "start": [
+        117.3625,
+        107.55
+      ],
+      "end": [
+        117.35,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "3f1e0e42-2e52-435d-aa27-7809733cc5ff",
+      "start": [
+        116.5,
+        116.75
+      ],
+      "end": [
+        116.6,
+        116.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "478c1306-acb3-4d0b-bdf0-2b51a1bd1382",
+      "start": [
+        110.55,
+        107.4
+      ],
+      "end": [
+        110.55,
+        107.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "4a43f074-abb6-4766-bbce-8c0f4c8f22de",
+      "start": [
+        107.52,
+        106.8
+      ],
+      "end": [
+        107.5,
+        106.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPHY"
+    },
+    {
+      "uuid": "4e23bf4d-eb27-4e36-a046-5c8fbc046534",
+      "start": [
+        107.5,
+        106.8
+      ],
+      "end": [
+        107.25,
+        106.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPHY"
+    },
+    {
+      "uuid": "506de76f-9723-4bf4-862c-b3c5d39d9d07",
+      "start": [
+        107.52,
+        106.8
+      ],
+      "end": [
+        107.5,
+        106.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPHY"
+    },
+    {
+      "uuid": "684178d8-98b1-4e1d-9edf-85cea5ebd509",
+      "start": [
+        110.65,
+        107.5
+      ],
+      "end": [
+        110.55,
+        107.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "7232e188-2141-4098-84d6-806f1a36bccc",
+      "start": [
+        115.15,
+        117.25
+      ],
+      "end": [
+        115.5,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "748f3234-86db-475e-8d7d-cb40def78916",
+      "start": [
+        118.0,
+        116.0
+      ],
+      "end": [
+        117.65,
+        115.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "74a660d0-22a7-4deb-a6a1-64f2fdac7c7f",
+      "start": [
+        105.6,
+        134.5
+      ],
+      "end": [
+        105.3,
+        134.199999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/QOD"
+    },
+    {
+      "uuid": "759a3487-c7ca-4960-90eb-8f4a62890ed5",
+      "start": [
+        119.05,
+        117.1
+      ],
+      "end": [
+        118.0,
+        116.05
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "7b95f28d-62a4-4972-a394-2de8100ed322",
+      "start": [
+        120.5,
+        112.8
+      ],
+      "end": [
+        120.1,
+        112.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "826442d1-1396-4509-b3c9-dfd612c1431f",
+      "start": [
+        111.25,
+        108.0
+      ],
+      "end": [
+        111.35,
+        107.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "88c95bec-e605-4fd5-ab22-c534ace1918e",
+      "start": [
+        105.6,
+        132.65
+      ],
+      "end": [
+        107.45,
+        132.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "8df3427d-325d-46f4-88a1-4fc6475648b6",
+      "start": [
+        103.73,
+        142.75
+      ],
+      "end": [
+        103.75,
+        142.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_OUT"
+    },
+    {
+      "uuid": "9301c21d-7db6-4881-a674-d14b229f284a",
+      "start": [
+        103.25,
+        135.25
+      ],
+      "end": [
+        104.0,
+        135.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "9ac1f452-f2b1-4e5b-b950-60af47764f85",
+      "start": [
+        106.0,
+        134.51
+      ],
+      "end": [
+        106.0,
+        134.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/QOD"
+    },
+    {
+      "uuid": "a1aace80-643c-45c5-b54e-a6b35fc06e97",
+      "start": [
+        104.05,
+        132.699999
+      ],
+      "end": [
+        105.55,
+        132.699999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "a1cbaef5-64fd-4e4d-b651-d3788bf17888",
+      "start": [
+        102.6625,
+        134.65
+      ],
+      "end": [
+        102.65,
+        134.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "a2bfb54d-3305-4645-9bd0-c1c1f8e590df",
+      "start": [
+        116.65,
+        116.65
+      ],
+      "end": [
+        117.8,
+        115.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "a8cd6edc-32ef-416b-be3b-1688b8b042cd",
+      "start": [
+        110.5,
+        107.3
+      ],
+      "end": [
+        110.5,
+        106.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "ab2e818c-5688-4945-9f17-d5134fc48927",
+      "start": [
+        111.25,
+        111.85
+      ],
+      "end": [
+        111.25,
+        108.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "b05b8f74-ffc0-4e43-be19-6095ec236ef0",
+      "start": [
+        104.0,
+        135.25
+      ],
+      "end": [
+        104.05,
+        135.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "b37070a7-b1db-4724-9a53-57a1aab47fa0",
+      "start": [
+        117.3625,
+        109.45
+      ],
+      "end": [
+        117.35,
+        109.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "b3f3ad9d-3b2c-4295-8cea-cecbd5dbdb2b",
+      "start": [
+        102.65,
+        133.35
+      ],
+      "end": [
+        103.25,
+        132.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "be9bec84-234e-4e7c-b731-19320b107a15",
+      "start": [
+        102.6625,
+        133.35
+      ],
+      "end": [
+        102.65,
+        133.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "c390b435-e790-4e92-ae91-b683ca67a76b",
+      "start": [
+        116.6,
+        116.65
+      ],
+      "end": [
+        116.65,
+        116.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "c75223f3-d8ee-48c9-8961-ca46bb327498",
+      "start": [
+        103.75,
+        142.75
+      ],
+      "end": [
+        104.35,
+        143.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_OUT"
+    },
+    {
+      "uuid": "cb399d4b-2031-4171-9859-8b7361f386e6",
+      "start": [
+        118.0,
+        116.05
+      ],
+      "end": [
+        118.0,
+        116.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "cb65c01f-44c3-4152-bb5d-96e98e48fcf2",
+      "start": [
+        116.3,
+        106.28
+      ],
+      "end": [
+        116.3,
+        106.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "cc979d03-245a-4323-ad27-402b072e94b4",
+      "start": [
+        116.0,
+        117.15
+      ],
+      "end": [
+        116.4,
+        116.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "d128ca7f-91ad-43a9-9b23-48c0e918c4a2",
+      "start": [
+        105.6,
+        135.35
+      ],
+      "end": [
+        107.2,
+        135.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "d2ff89f5-78a0-472d-a422-1559c6b44559",
+      "start": [
+        104.0,
+        132.75
+      ],
+      "end": [
+        104.05,
+        132.699999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "d3dd2efc-b8be-466b-880f-bab18e2b19c8",
+      "start": [
+        120.5,
+        112.78
+      ],
+      "end": [
+        120.5,
+        112.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "d4a6b61c-bc8d-47d2-bf98-16c74ea81d1f",
+      "start": [
+        104.35,
+        143.35
+      ],
+      "end": [
+        104.75,
+        143.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_OUT"
+    },
+    {
+      "uuid": "d9def447-5915-4ca0-b7aa-933193c1c43d",
+      "start": [
+        117.3625,
+        107.55
+      ],
+      "end": [
+        117.35,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "d9f495f0-0e94-46ce-be38-ca3d50151773",
+      "start": [
+        104.3375,
+        134.0
+      ],
+      "end": [
+        104.35,
+        134.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/QOD"
+    },
+    {
+      "uuid": "dbeae2ca-f1c9-450a-a576-d85614d510f8",
+      "start": [
+        102.32,
+        131.199998
+      ],
+      "end": [
+        102.3,
+        131.199999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "dbf0c3fa-ced5-45cd-917b-3904234590d7",
+      "start": [
+        109.5,
+        108.8
+      ],
+      "end": [
+        107.5,
+        106.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPHY"
+    },
+    {
+      "uuid": "dff2ed03-62de-46fd-9098-d88a80c80c43",
+      "start": [
+        119.8,
+        112.5
+      ],
+      "end": [
+        118.65,
+        112.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "e6a5cfb9-3e58-45fb-bce5-240b104674c8",
+      "start": [
+        116.4,
+        112.45
+      ],
+      "end": [
+        113.5,
+        109.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "e8e29465-0538-4a0f-b4ed-c38066eec21f",
+      "start": [
+        104.3375,
+        133.35
+      ],
+      "end": [
+        104.35,
+        133.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_ENABLED"
+    },
+    {
+      "uuid": "ef52759a-2ce5-49a4-8106-fbfb2c2ca91f",
+      "start": [
+        111.35,
+        107.9
+      ],
+      "end": [
+        111.35,
+        107.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "f0a0797d-4e12-4d99-98c5-2af94f343f54",
+      "start": [
+        105.55,
+        135.3
+      ],
+      "end": [
+        105.6,
+        135.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "f24944b6-e6ad-412c-a49f-e20ebc55d6dc",
+      "start": [
+        115.1625,
+        117.25
+      ],
+      "end": [
+        115.15,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    },
+    {
+      "uuid": "f5f9da72-0384-4435-b2f8-65aea685ed8e",
+      "start": [
+        103.25,
+        132.75
+      ],
+      "end": [
+        104.0,
+        132.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V"
+    },
+    {
+      "uuid": "fc4e1462-61f8-4678-9661-d3ae86795d9e",
+      "start": [
+        104.05,
+        135.3
+      ],
+      "end": [
+        105.55,
+        135.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/PWR_EN"
+    },
+    {
+      "uuid": "fced4781-a929-4fc4-9905-dd85c0e1e0f8",
+      "start": [
+        104.55,
+        134.199999
+      ],
+      "end": [
+        104.35,
+        134.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/QOD"
+    },
+    {
+      "uuid": "fd20453f-962d-4e49-8fc7-032d300cb9ab",
+      "start": [
+        118.65,
+        112.5
+      ],
+      "end": [
+        118.6,
+        112.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/VPLL"
+    },
+    {
+      "uuid": "fe08ff8c-8e07-417d-ac1d-4b13e66330c0",
+      "start": [
+        119.65,
+        107.55
+      ],
+      "end": [
+        119.05,
+        108.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/+3V3"
+    }
+  ],
+  "added_tracks": [
+    {
+      "uuid": "0257119a-b0a8-4188-b51b-246e6f54c6bf",
+      "start": [
+        116.15,
+        117.25
+      ],
+      "end": [
+        116.15,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "02e3541c-99d3-47d4-8db6-15b04d51b13b",
+      "start": [
+        103.7,
+        132.25
+      ],
+      "end": [
+        103.7,
+        132.75
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "04e1de4d-2733-4717-aa0c-1b6493745723",
+      "start": [
+        111.4,
+        107.6
+      ],
+      "end": [
+        111.4,
+        108.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "05e09eac-874e-4681-b8d0-b4b1823bd685",
+      "start": [
+        105.4,
+        132.1
+      ],
+      "end": [
+        105.3,
+        132.199999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "05fb0129-8433-4dc2-a5ec-62341317186d",
+      "start": [
+        109.95,
+        108.3
+      ],
+      "end": [
+        110.0,
+        108.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "070a16a9-a255-4cdf-8965-652fc7d87a0c",
+      "start": [
+        119.45,
+        107.35
+      ],
+      "end": [
+        119.45,
+        107.35
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "095c5d85-a1d8-4a42-b6ea-8ac134f82115",
+      "start": [
+        120.65,
+        117.0
+      ],
+      "end": [
+        120.05,
+        116.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "0addbf1c-afba-4871-a507-7272ccf2dd99",
+      "start": [
+        105.3,
+        132.199999
+      ],
+      "end": [
+        105.3,
+        134.0
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "0db331f6-0336-46c8-8f0d-ed73bd9c0a11",
+      "start": [
+        115.1625,
+        117.25
+      ],
+      "end": [
+        115.15,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "0ebcb067-b9c4-4107-b63c-2dc65be9e54b",
+      "start": [
+        116.75,
+        113.15
+      ],
+      "end": [
+        116.75,
+        110.35
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "15bfb1c6-f9c7-475e-a73c-ce44d8549d36",
+      "start": [
+        115.15,
+        117.25
+      ],
+      "end": [
+        116.15,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "203e2442-41ae-4ecb-86e0-5987729afa14",
+      "start": [
+        107.0,
+        106.55
+      ],
+      "end": [
+        107.0,
+        108.1
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "212d8e25-7b4e-4ee6-b327-5dcd0dba8291",
+      "start": [
+        105.52,
+        107.0
+      ],
+      "end": [
+        105.5,
+        107.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "2152c62e-daac-4c31-a5fb-b922c86ccaf6",
+      "start": [
+        119.25,
+        116.35
+      ],
+      "end": [
+        118.85,
+        116.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "245302c6-7944-4d39-9bd2-05004acb3d59",
+      "start": [
+        116.8,
+        113.2
+      ],
+      "end": [
+        116.75,
+        113.15
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "25bc58f8-31ad-4703-893c-1dd0aa99b16a",
+      "start": [
+        116.75,
+        110.35
+      ],
+      "end": [
+        116.75,
+        110.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "27301431-1849-4d60-9ad5-59457d7149b2",
+      "start": [
+        117.45,
+        118.45
+      ],
+      "end": [
+        118.45,
+        118.45
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "29af5296-c825-45f0-bc1d-6422e9d699a1",
+      "start": [
+        110.25,
+        110.3
+      ],
+      "end": [
+        110.25,
+        110.3
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "2a2b3f7c-87ed-4fce-8d83-9dab5d0e4fa4",
+      "start": [
+        103.15,
+        135.0
+      ],
+      "end": [
+        102.7,
+        135.45
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "2c9c5f20-bb02-46ee-98da-6f9c46cca5f9",
+      "start": [
+        119.25,
+        107.9
+      ],
+      "end": [
+        119.2,
+        107.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "2d740f36-bcd0-4814-a287-4739e82584bf",
+      "start": [
+        116.8,
+        113.25
+      ],
+      "end": [
+        116.8,
+        113.2
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "2eebc136-7f3a-4e73-8148-ac72a4d15050",
+      "start": [
+        116.4,
+        117.85
+      ],
+      "end": [
+        116.75,
+        118.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "30d6a9cd-d095-4493-b17e-6198d55d1c41",
+      "start": [
+        102.8,
+        141.4
+      ],
+      "end": [
+        102.8,
+        141.4
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "317aedc4-2277-4051-aef0-cf8b1de5dea3",
+      "start": [
+        107.2,
+        132.9
+      ],
+      "end": [
+        107.45,
+        132.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "372684af-032d-44f2-aa1d-68242a7dc1a3",
+      "start": [
+        111.25,
+        111.85
+      ],
+      "end": [
+        111.25,
+        109.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "38bf1098-fbd0-4d86-a4e8-2cef586ec99f",
+      "start": [
+        104.9,
+        134.5
+      ],
+      "end": [
+        104.9,
+        135.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "3c07342b-82bb-4fcd-a99b-f1a53a2bc7b4",
+      "start": [
+        107.0,
+        108.1
+      ],
+      "end": [
+        107.05,
+        108.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "3c335d0c-f932-44c4-9b05-b800cc6bc207",
+      "start": [
+        110.4,
+        107.65
+      ],
+      "end": [
+        110.65,
+        107.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "3cde97d4-6b37-4e30-b91c-8a657e6b8681",
+      "start": [
+        111.25,
+        111.8375
+      ],
+      "end": [
+        111.25,
+        111.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "3d0a3a10-c575-4833-a352-7a6dbede29c8",
+      "start": [
+        119.2,
+        107.85
+      ],
+      "end": [
+        118.9,
+        107.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "3db05974-0259-46af-a016-a3a3f8038de0",
+      "start": [
+        103.55,
+        142.15
+      ],
+      "end": [
+        103.55,
+        142.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "42f72255-9361-4876-aca1-5b1716752248",
+      "start": [
+        115.85,
+        117.75
+      ],
+      "end": [
+        115.95,
+        117.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "4362af9b-278d-472c-a21e-c77ad6df7957",
+      "start": [
+        105.3,
+        134.0
+      ],
+      "end": [
+        105.3,
+        134.1
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "45ac4746-2d89-4245-8dc6-6ae20140e156",
+      "start": [
+        116.75,
+        110.35
+      ],
+      "end": [
+        116.75,
+        110.35
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "46a4f9a0-826c-4799-ab96-71084393bed8",
+      "start": [
+        110.5,
+        106.8
+      ],
+      "end": [
+        110.4,
+        106.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "47ac7791-c80b-4570-9768-7bc8fe5aa320",
+      "start": [
+        103.75,
+        132.75
+      ],
+      "end": [
+        103.25,
+        132.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "4872d63e-0e07-47d0-9622-5924cc604c06",
+      "start": [
+        104.9,
+        140.8
+      ],
+      "end": [
+        104.9,
+        140.8
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "4922f6ef-f799-47e2-a3b4-7df90ccc676b",
+      "start": [
+        110.0,
+        109.6
+      ],
+      "end": [
+        110.25,
+        109.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "49df8ad5-f4c6-4fdc-9eb2-47e335b94721",
+      "start": [
+        119.05,
+        108.15
+      ],
+      "end": [
+        118.95,
+        108.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "4a15f552-7c13-4ccc-8e52-f9a4effac355",
+      "start": [
+        105.425,
+        132.0
+      ],
+      "end": [
+        105.4,
+        132.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "4aa778a7-8760-4041-a8a4-1c463a4106d5",
+      "start": [
+        119.3,
+        107.95
+      ],
+      "end": [
+        119.3,
+        107.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "4baf3dd3-b3e3-492d-a20e-5e8acf86f30e",
+      "start": [
+        115.15,
+        117.25
+      ],
+      "end": [
+        115.85,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "4cee4c62-a0c8-4b8b-a860-f9c3f30f96ed",
+      "start": [
+        103.55,
+        142.55
+      ],
+      "end": [
+        103.75,
+        142.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "4d9b6bba-7edf-4d38-9d15-4b114b0890a4",
+      "start": [
+        115.95,
+        117.85
+      ],
+      "end": [
+        116.4,
+        117.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "4ed5c31a-fc41-4e87-83a7-3cb6cf20adae",
+      "start": [
+        119.45,
+        107.35
+      ],
+      "end": [
+        119.65,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "542720ca-2fdc-4ada-8466-48ef505ca6b8",
+      "start": [
+        103.9,
+        106.95
+      ],
+      "end": [
+        105.45,
+        106.95
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "565beada-e751-4f2d-ad69-bed2b34b26ab",
+      "start": [
+        119.3,
+        107.9
+      ],
+      "end": [
+        119.25,
+        107.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "59300113-e202-472f-ae10-d4dd2a18cc2e",
+      "start": [
+        119.85,
+        108.5
+      ],
+      "end": [
+        119.3,
+        107.95
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "5af2ee3d-266f-411b-9422-c9d2e2e3ad21",
+      "start": [
+        118.95,
+        108.3
+      ],
+      "end": [
+        118.9,
+        108.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "5d36025e-5b2a-45a7-91fd-44342022dcbf",
+      "start": [
+        109.65,
+        107.7
+      ],
+      "end": [
+        109.95,
+        108.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "5e767ae0-128a-47aa-9633-f72dc22fc3bb",
+      "start": [
+        104.9,
+        143.2
+      ],
+      "end": [
+        104.75,
+        143.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "607ad9c7-5b6e-4b12-a742-e41bff25e64e",
+      "start": [
+        105.4,
+        132.0
+      ],
+      "end": [
+        105.4,
+        132.1
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "60decff2-df20-4d54-9011-a653d8111ea1",
+      "start": [
+        102.7,
+        140.15
+      ],
+      "end": [
+        102.75,
+        140.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "63a2cf10-be38-4c5d-a4f7-b9618dae5296",
+      "start": [
+        110.25,
+        110.3
+      ],
+      "end": [
+        110.7,
+        110.3
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "64418fb6-85c8-467b-be69-89bce6dcadf9",
+      "start": [
+        116.8,
+        116.5
+      ],
+      "end": [
+        116.8,
+        116.45
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "644b5d6a-3fc6-4243-bfeb-7eaed5ff95ba",
+      "start": [
+        117.2,
+        118.2
+      ],
+      "end": [
+        117.45,
+        118.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "6488f937-d7bc-41ad-8df3-6e06ad879965",
+      "start": [
+        116.75,
+        118.2
+      ],
+      "end": [
+        117.2,
+        118.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "64ad1de6-38d2-4f29-9e04-8df72af7d4b3",
+      "start": [
+        115.15,
+        117.75
+      ],
+      "end": [
+        115.85,
+        117.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "64b23e99-0dfa-446e-8822-a5b35acdf5eb",
+      "start": [
+        110.4,
+        106.9
+      ],
+      "end": [
+        110.4,
+        107.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "662b6fcb-1bdd-41a8-83fd-3493d4545cda",
+      "start": [
+        112.25,
+        109.15
+      ],
+      "end": [
+        112.25,
+        109.15
+      ],
+      "layer": 0,
+      "width": 0.5,
+      "via": true,
+      "drill": 0.25,
+      "net": "GND"
+    },
+    {
+      "uuid": "6813e81e-6cb2-4a1f-a650-ae307b34a7d4",
+      "start": [
+        110.25,
+        109.85
+      ],
+      "end": [
+        110.25,
+        110.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "6b0d8312-1d55-4a7d-aa9c-2e06c38d3fad",
+      "start": [
+        110.0,
+        108.35
+      ],
+      "end": [
+        110.0,
+        109.6
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "6b218805-bb42-455d-81fa-aab09d75a8f5",
+      "start": [
+        104.9,
+        135.0
+      ],
+      "end": [
+        104.9,
+        140.8
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "6c8ea6a0-0a4b-47f4-8034-1fcf2ead7542",
+      "start": [
+        103.15,
+        133.3
+      ],
+      "end": [
+        103.15,
+        135.0
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "6d662b18-18ca-4a49-ba2b-f8714c19706a",
+      "start": [
+        116.65,
+        116.75
+      ],
+      "end": [
+        116.65,
+        116.65
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "6d867ff6-b49b-4211-b54b-fc7e72e88a84",
+      "start": [
+        118.6,
+        107.55
+      ],
+      "end": [
+        117.35,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "6dabcb7a-a51d-4c59-bb8b-f5183f1de331",
+      "start": [
+        116.15,
+        117.25
+      ],
+      "end": [
+        116.65,
+        116.75
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "6f9e7338-32f5-4c3c-831a-ea1e7513ba8f",
+      "start": [
+        105.45,
+        106.95
+      ],
+      "end": [
+        105.5,
+        107.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "74563757-562f-4db6-8192-2949938498fc",
+      "start": [
+        119.45,
+        107.75
+      ],
+      "end": [
+        119.45,
+        107.35
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "757813f1-3bc1-4419-af77-ce5f2af63cb0",
+      "start": [
+        118.85,
+        116.35
+      ],
+      "end": [
+        118.0,
+        115.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "769780bb-531c-4c09-a9d9-290395d26e84",
+      "start": [
+        105.3,
+        134.1
+      ],
+      "end": [
+        104.9,
+        134.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "79bd1d37-ed21-4cb3-8ce7-ea24bfa1fdbb",
+      "start": [
+        116.75,
+        117.4
+      ],
+      "end": [
+        116.9,
+        117.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "7c414aeb-9f37-41d9-b0ee-22f0a57320ec",
+      "start": [
+        102.7,
+        136.65
+      ],
+      "end": [
+        102.55,
+        136.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "7c82cc8b-e2db-41f1-94eb-802a475c737e",
+      "start": [
+        117.3,
+        109.6
+      ],
+      "end": [
+        117.3,
+        109.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "7cd48596-3cf8-4464-879b-02919d1b7cb9",
+      "start": [
+        111.35,
+        107.55
+      ],
+      "end": [
+        111.4,
+        107.6
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "7d152ce2-808f-4a59-be74-347ba8e38230",
+      "start": [
+        116.7,
+        117.35
+      ],
+      "end": [
+        116.75,
+        117.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "7e6995fc-87ea-4b0a-ae23-d7889aeee3f8",
+      "start": [
+        111.5,
+        108.65
+      ],
+      "end": [
+        111.55,
+        108.7
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "80ccc991-c98a-4056-a9c9-e11ebff1079c",
+      "start": [
+        105.3,
+        134.0
+      ],
+      "end": [
+        105.3,
+        134.0
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "80d44f3c-893e-40e4-ab8c-e04cf72ad08e",
+      "start": [
+        102.7,
+        135.45
+      ],
+      "end": [
+        102.7,
+        136.1
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "82d8c298-fec4-4678-81c9-d5cc50077475",
+      "start": [
+        104.35,
+        133.35
+      ],
+      "end": [
+        103.75,
+        132.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "83ac5fb3-0687-4188-b30b-0b4a1daef910",
+      "start": [
+        102.8,
+        140.4
+      ],
+      "end": [
+        102.8,
+        141.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "85b4402e-e033-4ddb-884d-f669298fa201",
+      "start": [
+        116.8,
+        116.45
+      ],
+      "end": [
+        116.85,
+        116.4
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "8618f551-a7b6-4109-8921-87620a136d22",
+      "start": [
+        118.45,
+        118.45
+      ],
+      "end": [
+        118.5,
+        118.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "86714658-11b2-44d7-b418-482afa9eb9bb",
+      "start": [
+        108.95,
+        108.25
+      ],
+      "end": [
+        109.5,
+        108.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "87dae775-2b71-40ca-a2a0-2443ffb7c074",
+      "start": [
+        120.05,
+        116.4
+      ],
+      "end": [
+        119.3,
+        116.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "8d95f2ac-79cc-4a02-9613-d5e201cd3308",
+      "start": [
+        103.7,
+        132.25
+      ],
+      "end": [
+        103.7,
+        132.25
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "8de574a3-b430-43a2-b81f-32a60255028b",
+      "start": [
+        106.0,
+        133.49
+      ],
+      "end": [
+        106.0,
+        133.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "8e2f2586-d38c-433c-8d40-e642630651e9",
+      "start": [
+        118.0,
+        115.51
+      ],
+      "end": [
+        118.0,
+        115.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "9038e872-9d37-441e-9c96-fb936b6c6d61",
+      "start": [
+        118.9,
+        108.3
+      ],
+      "end": [
+        119.45,
+        107.75
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "90a1aa1f-a724-4b92-bf9a-e0d93966be33",
+      "start": [
+        102.55,
+        137.6
+      ],
+      "end": [
+        102.45,
+        137.7
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "925b6c93-ef62-4ca3-a8cd-0af7828f72b4",
+      "start": [
+        103.73,
+        142.75
+      ],
+      "end": [
+        103.75,
+        142.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "934e24d0-874f-4785-98b0-f1d03c08c7ab",
+      "start": [
+        118.9,
+        108.35
+      ],
+      "end": [
+        118.9,
+        108.3
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "94467275-4679-4557-9e9b-97df90950ce8",
+      "start": [
+        102.8,
+        141.4
+      ],
+      "end": [
+        103.55,
+        142.15
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "948ef59c-f9fe-4fd5-81ac-e9c44676522f",
+      "start": [
+        106.0,
+        133.5
+      ],
+      "end": [
+        106.6,
+        132.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "97936fe3-36a7-40f1-b251-5a26373378a1",
+      "start": [
+        103.7,
+        132.75
+      ],
+      "end": [
+        103.15,
+        133.3
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "99296d74-4586-4ffb-82f3-6b7b0edc11ce",
+      "start": [
+        117.45,
+        118.45
+      ],
+      "end": [
+        117.45,
+        118.45
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "9a402a09-9111-4b04-9ac4-47e3b4fc795a",
+      "start": [
+        109.485,
+        108.8
+      ],
+      "end": [
+        109.5,
+        108.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "9ca55453-03b1-4808-8fdd-f4f5fae1c072",
+      "start": [
+        105.3,
+        132.199999
+      ],
+      "end": [
+        105.3,
+        132.199999
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "9d9f3f09-2d1f-4bfd-a735-81715b91f3ff",
+      "start": [
+        116.9,
+        117.4
+      ],
+      "end": [
+        117.2,
+        117.7
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "9dd1f745-34dc-4fb3-a0a8-d2b552da32c6",
+      "start": [
+        102.75,
+        140.2
+      ],
+      "end": [
+        102.75,
+        140.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "9e538b28-cfdb-480c-a7a0-8d13d9b84913",
+      "start": [
+        110.7,
+        110.3
+      ],
+      "end": [
+        110.75,
+        110.35
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "9f28565e-30f9-409f-a43f-71fb6a432434",
+      "start": [
+        104.9,
+        135.0
+      ],
+      "end": [
+        104.9,
+        135.0
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "USB5V_OUT"
+    },
+    {
+      "uuid": "9f2ab957-cfa1-4f07-97fd-16441ce1ccfb",
+      "start": [
+        111.4,
+        108.2
+      ],
+      "end": [
+        111.5,
+        108.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "9f633d4f-7645-4904-96e0-5e53be8f3421",
+      "start": [
+        111.25,
+        109.0
+      ],
+      "end": [
+        111.55,
+        108.7
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "a34a7269-55bb-4bd1-b352-7b3634bc6cb0",
+      "start": [
+        102.45,
+        139.8
+      ],
+      "end": [
+        102.65,
+        140.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "a4534d00-d858-4ada-bbd2-b7b226bbd2ea",
+      "start": [
+        118.9,
+        107.85
+      ],
+      "end": [
+        118.6,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "a665ef6e-c7fb-475e-b433-fcb86dbefb74",
+      "start": [
+        118.95,
+        108.25
+      ],
+      "end": [
+        118.95,
+        108.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "a6b6bcb3-41b4-45dc-be34-ed20487d806a",
+      "start": [
+        102.65,
+        140.0
+      ],
+      "end": [
+        102.65,
+        140.05
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "a8ca03d3-41ad-47f6-98ba-b62091ca6ad2",
+      "start": [
+        107.05,
+        108.15
+      ],
+      "end": [
+        107.05,
+        108.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "a939699d-4a0e-4742-afb2-5c4fbc6aeca8",
+      "start": [
+        106.9,
+        106.45
+      ],
+      "end": [
+        107.0,
+        106.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "a941e5ef-92e1-4d2c-83d6-e1d2f9960130",
+      "start": [
+        115.1625,
+        117.75
+      ],
+      "end": [
+        115.15,
+        117.75
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "a9e4d284-637d-42e4-a1b3-6df1cac21534",
+      "start": [
+        103.55,
+        142.15
+      ],
+      "end": [
+        103.55,
+        142.15
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "aa7b3c45-46f3-454e-bd47-70e089ade72b",
+      "start": [
+        103.95,
+        132.0
+      ],
+      "end": [
+        103.7,
+        132.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "b2141c06-8ea2-472b-ac86-e4f9e9e51d84",
+      "start": [
+        116.75,
+        110.15
+      ],
+      "end": [
+        117.3,
+        109.6
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "b2bc0524-eb7d-4ae8-9521-470a30d9f911",
+      "start": [
+        107.1,
+        108.25
+      ],
+      "end": [
+        108.95,
+        108.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "b98ec55b-450c-49fd-8a1e-204faae0f0ca",
+      "start": [
+        102.7,
+        136.1
+      ],
+      "end": [
+        102.7,
+        136.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "ba67f0a8-c2a1-4cdd-9aea-04584dc6b2a7",
+      "start": [
+        106.6,
+        132.9
+      ],
+      "end": [
+        107.2,
+        132.9
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "bac64c2a-d9ae-4612-9096-d1420d2004af",
+      "start": [
+        116.85,
+        113.3
+      ],
+      "end": [
+        116.8,
+        113.25
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "bb609a1b-a4dc-4465-ad8d-d8015ab33041",
+      "start": [
+        117.2,
+        117.68
+      ],
+      "end": [
+        117.2,
+        117.7
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "bbcd5a60-6c1d-445c-9877-c2c9fcc07945",
+      "start": [
+        115.95,
+        117.35
+      ],
+      "end": [
+        116.7,
+        117.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "bbe7790b-2c3d-4203-9dbe-60eb74f37c29",
+      "start": [
+        115.85,
+        117.25
+      ],
+      "end": [
+        115.95,
+        117.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "beab47f5-e250-4030-8577-8832f6945e47",
+      "start": [
+        117.3,
+        109.5
+      ],
+      "end": [
+        117.35,
+        109.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "bf6b811a-9fda-4c31-8011-bbaa92a8cd6c",
+      "start": [
+        107.05,
+        108.2
+      ],
+      "end": [
+        107.1,
+        108.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPHY"
+    },
+    {
+      "uuid": "c07a25d8-2f4e-403c-b1eb-7e6fbce6958c",
+      "start": [
+        118.45,
+        118.45
+      ],
+      "end": [
+        118.45,
+        118.45
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "c27a9dc6-d688-4e93-b811-19d623a977e5",
+      "start": [
+        102.7,
+        135.45
+      ],
+      "end": [
+        102.7,
+        135.45
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "c79a5572-006a-401b-887c-a9b58d003ee3",
+      "start": [
+        115.1625,
+        117.25
+      ],
+      "end": [
+        115.15,
+        117.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "c7d97065-3eda-4eab-aeee-6ec7cf2c001f",
+      "start": [
+        102.45,
+        137.7
+      ],
+      "end": [
+        102.45,
+        139.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "cc2a9ad7-ba78-46a1-b421-51c49b72a40e",
+      "start": [
+        109.95,
+        108.0
+      ],
+      "end": [
+        109.95,
+        108.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "d07ada76-60a6-4646-bbc2-59e9e45fd61b",
+      "start": [
+        116.65,
+        116.65
+      ],
+      "end": [
+        116.8,
+        116.5
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "d4d8818a-c137-437a-a185-d77d9b9685a1",
+      "start": [
+        119.3,
+        116.4
+      ],
+      "end": [
+        119.25,
+        116.35
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "d84b2ad3-5d24-453a-91ac-d9bbd0e42500",
+      "start": [
+        109.65,
+        107.3
+      ],
+      "end": [
+        109.65,
+        107.7
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "VPLL"
+    },
+    {
+      "uuid": "dc11c7ac-e1b8-4f34-b87c-5d3b22b1dfaf",
+      "start": [
+        102.65,
+        140.05
+      ],
+      "end": [
+        102.7,
+        140.1
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "e09588e0-306c-410e-b23b-d15e482dfc43",
+      "start": [
+        102.7,
+        140.1
+      ],
+      "end": [
+        102.7,
+        140.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "e291444c-b5cd-44df-8ad2-623d29e2e5ba",
+      "start": [
+        118.9,
+        108.35
+      ],
+      "end": [
+        118.9,
+        108.35
+      ],
+      "layer": 0,
+      "width": 0.55,
+      "via": true,
+      "drill": 0.25,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "e457e5e1-df7d-44ff-ab79-f4ec6624d9bc",
+      "start": [
+        110.5,
+        106.4
+      ],
+      "end": [
+        110.5,
+        106.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D+"
+    },
+    {
+      "uuid": "e5d63630-781b-4881-9f6f-8acb12b79caf",
+      "start": [
+        111.35,
+        107.5
+      ],
+      "end": [
+        111.35,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "e610d268-1600-4e52-b378-70250d40e75a",
+      "start": [
+        112.25,
+        108.7
+      ],
+      "end": [
+        112.25,
+        109.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "GND"
+    },
+    {
+      "uuid": "e9d97bad-7c4d-441f-9876-98dd68501088",
+      "start": [
+        119.6375,
+        107.55
+      ],
+      "end": [
+        119.65,
+        107.55
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "eba0d311-542c-494a-ae1f-a8be97d2a8fd",
+      "start": [
+        111.5,
+        108.3
+      ],
+      "end": [
+        111.5,
+        108.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB_D-"
+    },
+    {
+      "uuid": "ebf2e7a1-799f-40af-b23a-00e4546547a5",
+      "start": [
+        103.975,
+        132.0
+      ],
+      "end": [
+        103.95,
+        132.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "ed961a04-a298-4b55-8e06-2e6c9df5c172",
+      "start": [
+        102.55,
+        136.8
+      ],
+      "end": [
+        102.55,
+        137.6
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "eeca98ea-ccca-426a-9631-d37e0b388c28",
+      "start": [
+        118.5,
+        118.51
+      ],
+      "end": [
+        118.5,
+        118.5
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "+3V3"
+    },
+    {
+      "uuid": "ef9db881-887c-41ba-ba94-068f7470a73e",
+      "start": [
+        102.75,
+        140.35
+      ],
+      "end": [
+        102.8,
+        140.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "/USB5V_SW"
+    },
+    {
+      "uuid": "f5fd44d8-edba-4a6f-b40d-edf3afcd2dd5",
+      "start": [
+        116.85,
+        116.4
+      ],
+      "end": [
+        116.85,
+        113.3
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V"
+    },
+    {
+      "uuid": "f6baafae-c8ac-4776-a70d-e9aa7d2256a3",
+      "start": [
+        104.9,
+        140.8
+      ],
+      "end": [
+        104.9,
+        143.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false,
+      "drill": null,
+      "net": "USB5V_OUT"
+    }
+  ],
+  "protected_io_positions": [
+    "J1",
+    "J2",
+    "J3",
+    "SW1",
+    "SW2",
+    "SW3"
+  ],
+  "outline_mm": [
+    22.0,
+    50.0
+  ],
+  "thickness_mm": 1.6,
+  "copper_layers": 2,
+  "zones_outlines_preserved": true,
+  "all_footprints_front": true,
+  "protected_blobs": {
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "e88162e1f25603078933b1f937471adf33d78f9a",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "16b674eaf8da87116be59e8f857109cf95d5089f"
+  },
+  "manufacturing_and_libraries_and_original_scripts_unchanged": true,
+  "via_in_smd_pad": [
+    {
+      "ref": "U4",
+      "pad": "2",
+      "via": "13ffa04c-d34d-4e6f-b8a5-5322a0472960",
+      "pos": [
+        109.35,
+        136.2
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C13",
+      "pad": "2",
+      "via": "160b1055-65dd-43e8-abf1-8688eb9619d1",
+      "pos": [
+        101.6,
+        106.7
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C15",
+      "pad": "2",
+      "via": "16102239-1e11-402c-b730-1538563f6126",
+      "pos": [
+        104.5,
+        119.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "Y1",
+      "pad": "4",
+      "via": "1b70b30c-d381-4e64-af51-72de81ee155f",
+      "pos": [
+        103.2,
+        109.15
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C19",
+      "pad": "2",
+      "via": "29384310-6047-4a04-8319-5c7d0833894c",
+      "pos": [
+        111.45,
+        133.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C5",
+      "pad": "2",
+      "via": "29406ce8-119b-49eb-8c5f-e5096e6240ee",
+      "pos": [
+        118.2,
+        113.0
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U2",
+      "pad": "9",
+      "via": "2b813d80-3d52-43db-94ba-1a08f76c6c09",
+      "pos": [
+        113.85,
+        131.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C18",
+      "pad": "2",
+      "via": "2f227d92-5dcd-4776-bb3b-962b82f52642",
+      "pos": [
+        108.5,
+        132.6
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C9",
+      "pad": "2",
+      "via": "335f89de-694f-4495-867e-fd887851ba53",
+      "pos": [
+        106.5,
+        107.0
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "J3",
+      "pad": "3",
+      "via": "399610b1-73f4-43a5-bcfc-84b3534ad67b",
+      "pos": [
+        112.25,
+        143.65
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "via": "4423c7db-bbc4-4a82-81d0-39f30d2d8351",
+      "pos": [
+        107.2,
+        147.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R8",
+      "pad": "2",
+      "via": "563e8e4a-6a57-40bb-908e-f238365a73f4",
+      "pos": [
+        114.7,
+        136.9
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C8",
+      "pad": "2",
+      "via": "5a54e8be-b97e-48d3-afce-848fe2521b6b",
+      "pos": [
+        113.0,
+        123.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C3",
+      "pad": "2",
+      "via": "61f436c7-6fbe-4c61-8953-078dff6912cc",
+      "pos": [
+        115.5,
+        109.6
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C17",
+      "pad": "2",
+      "via": "6749711c-f8ad-40f1-9111-ac5718c6e0af",
+      "pos": [
+        115.5,
+        126.2
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C6",
+      "pad": "2",
+      "via": "6b1d714a-6237-4fd0-8691-731255f362d2",
+      "pos": [
+        111.5,
+        122.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C4",
+      "pad": "2",
+      "via": "6fb8850c-5b01-498c-8109-d724145258cb",
+      "pos": [
+        104.5,
+        114.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C22",
+      "pad": "2",
+      "via": "702ec1cf-10e4-4e2a-896a-34206f2150a9",
+      "pos": [
+        120.0,
+        114.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "D2",
+      "pad": "1",
+      "via": "7576a048-5f64-4da3-9159-2459493175bc",
+      "pos": [
+        119.0,
+        105.8
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R1",
+      "pad": "2",
+      "via": "79d1185c-37fd-4e81-b4b8-aed8bb67dead",
+      "pos": [
+        107.0,
+        110.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "via": "7de00b8b-a562-488f-b5fb-ccf010d34182",
+      "pos": [
+        114.5,
+        104.75
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U2",
+      "pad": "3",
+      "via": "7def01cf-ed99-46a0-945e-f7e8fb5b6a7a",
+      "pos": [
+        108.15,
+        128.05
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "D1",
+      "pad": "2",
+      "via": "7ea717d2-dcfe-4046-bbfb-40023216b9b3",
+      "pos": [
+        111.0,
+        107.1
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U2",
+      "pad": "8",
+      "via": "8c9a2ada-2b74-46f0-bc7a-caebdbeba6e0",
+      "pos": [
+        108.15,
+        131.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C2",
+      "pad": "2",
+      "via": "8f407701-b2b9-48c1-82e5-eda83fd4d9da",
+      "pos": [
+        119.3,
+        111.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "SW1",
+      "pad": "3",
+      "via": "9a7a89bf-2896-4e97-898a-bdb3dd6176fb",
+      "pos": [
+        118.25,
+        132.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "41",
+      "via": "9d1086cf-d159-4aaf-8f9c-13042413ab5a",
+      "pos": [
+        115.15,
+        116.65
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C16",
+      "pad": "2",
+      "via": "a3939c96-a0bb-4836-befd-43f4f24f5e44",
+      "pos": [
+        108.5,
+        123.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "9",
+      "via": "ae20d665-1c72-493b-86c8-025e8e9d4cb5",
+      "pos": [
+        109.65,
+        111.85
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C10",
+      "pad": "2",
+      "via": "c9933d84-b2c5-47ed-b010-918c5dba615c",
+      "pos": [
+        113.5,
+        108.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "47",
+      "via": "ca0308ea-552a-4137-bc07-3fc333dc53fb",
+      "pos": [
+        115.15,
+        113.65
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C7",
+      "pad": "2",
+      "via": "cd5063d0-f672-4646-a5c7-e4a40a1da91b",
+      "pos": [
+        115.2,
+        123.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "Q1",
+      "pad": "2",
+      "via": "d1b81d01-fa67-4f26-9483-8523e7baece1",
+      "pos": [
+        117.55,
+        124.95
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "35",
+      "via": "d475976c-fc40-4a96-bc4d-845e8cac4134",
+      "pos": [
+        113.35,
+        120.15
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U5",
+      "pad": "5",
+      "via": "d6d783b9-50e8-4013-afa4-1f08af761184",
+      "pos": [
+        106.6,
+        123.95
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "22",
+      "via": "deae7cd7-9409-4310-8635-3b16cef0d0f4",
+      "pos": [
+        106.85,
+        117.85
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "Y1",
+      "pad": "2",
+      "via": "eccac3e5-839d-4506-96b2-d3a8e1ff5906",
+      "pos": [
+        105.4,
+        110.85
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C14",
+      "pad": "2",
+      "via": "f43427c3-5398-48aa-9d43-36356d3d6d1a",
+      "pos": [
+        101.6,
+        112.5
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "10",
+      "via": "f57d69b8-4a08-4bd4-addd-2fbe186662e3",
+      "pos": [
+        109.1,
+        111.85
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C17",
+      "pad": "1",
+      "via": "64880a5e-517d-447c-b449-abff7240fb40",
+      "pos": [
+        115.5,
+        127.2
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C19",
+      "pad": "1",
+      "via": "ee513151-a366-466e-b326-a7092cf5611a",
+      "pos": [
+        110.1,
+        133.699999
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U1",
+      "pad": "24",
+      "via": "17b6fe63-fe28-4790-88ba-455ab558ea54",
+      "pos": [
+        106.75,
+        118.85
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U5",
+      "pad": "8",
+      "via": "4c8d3f77-1883-4f80-87d0-446a3e562175",
+      "pos": [
+        106.6,
+        122.05
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R2",
+      "pad": "1",
+      "via": "9afda499-b695-4f58-ba11-e385d25d8012",
+      "pos": [
+        118.0,
+        115.3
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R14",
+      "pad": "1",
+      "via": "c07a25d8-2f4e-403c-b1eb-7e6fbce6958c",
+      "pos": [
+        118.45,
+        118.45
+      ],
+      "new_via": true
+    },
+    {
+      "ref": "FB1",
+      "pad": "1",
+      "via": "cc63635f-120f-49b3-a4b3-83501bacc82d",
+      "pos": [
+        108.75,
+        108.8
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C2",
+      "pad": "1",
+      "via": "e9039981-e3f5-4a54-80e1-d89cb078a010",
+      "pos": [
+        117.25,
+        111.95
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "C5",
+      "pad": "1",
+      "via": "fa71e23c-684a-49c7-9a4f-5f490cdc358a",
+      "pos": [
+        117.25,
+        112.95
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R17",
+      "pad": "1",
+      "via": "8d95f2ac-79cc-4a02-9613-d5e201cd3308",
+      "pos": [
+        103.7,
+        132.25
+      ],
+      "new_via": true
+    },
+    {
+      "ref": "TP1",
+      "pad": "1",
+      "via": "c27a9dc6-d688-4e93-b811-19d623a977e5",
+      "pos": [
+        102.7,
+        135.45
+      ],
+      "new_via": true
+    },
+    {
+      "ref": "TP2",
+      "pad": "1",
+      "via": "80ccc991-c98a-4056-a9c9-e11ebff1079c",
+      "pos": [
+        105.3,
+        134.0
+      ],
+      "new_via": true
+    },
+    {
+      "ref": "R17",
+      "pad": "2",
+      "via": "9ca55453-03b1-4808-8fdd-f4f5fae1c072",
+      "pos": [
+        105.3,
+        132.199999
+      ],
+      "new_via": true
+    },
+    {
+      "ref": "TP2",
+      "pad": "1",
+      "via": "9f28565e-30f9-409f-a43f-71fb6a432434",
+      "pos": [
+        104.9,
+        135.0
+      ],
+      "new_via": true
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "via": "9cf0274b-afe4-4c2c-a458-f43259763eb4",
+      "pos": [
+        111.45,
+        105.45
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U2",
+      "pad": "11",
+      "via": "1e7154de-2803-4c38-9e28-ee5796ac6cc1",
+      "pos": [
+        114.05,
+        129.949999
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R11",
+      "pad": "2",
+      "via": "ce7bb4bb-1529-4e69-b0d2-f8e4301a9219",
+      "pos": [
+        115.3,
+        128.699999
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U2",
+      "pad": "7",
+      "via": "121d9e18-334f-4de9-930f-5b8007ae0599",
+      "pos": [
+        108.15,
+        130.6
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "R12",
+      "pad": "2",
+      "via": "081648e1-9c70-42f6-8a6e-0f96e63b2580",
+      "pos": [
+        115.35,
+        130.85
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "U2",
+      "pad": "10",
+      "via": "0e96f60c-47a0-43ba-9a5c-3c3481393949",
+      "pos": [
+        114.35,
+        130.65
+      ],
+      "new_via": false
+    },
+    {
+      "ref": "J3",
+      "pad": "2",
+      "via": "81fe0285-4ef4-4a57-91c8-6ea932eec147",
+      "pos": [
+        109.95,
+        140.15
+      ],
+      "new_via": false
+    }
+  ],
+  "usb_total_copper_metrics_not_delay_or_skew": {
+    "/USB_D+": {
+      "before": {
+        "total_track_mm": 7.8624,
+        "vias": 2
+      },
+      "after": {
+        "total_track_mm": 7.9452,
+        "vias": 2
+      }
+    },
+    "/USB_D-": {
+      "before": {
+        "total_track_mm": 7.8624,
+        "vias": 0
+      },
+      "after": {
+        "total_track_mm": 8.0156,
+        "vias": 0
+      }
+    }
+  },
+  "ignored_checks_unchanged": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ]
+}

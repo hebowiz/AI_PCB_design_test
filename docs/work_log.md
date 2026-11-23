@@ -270,3 +270,13 @@
 判断・未解決: 0Ωは過電流保護なし。Bourns CR0603-PFを通常実装用に選定。PPTC候補MF-FSMF020X-2/010X-2の推奨ランドとは共通範囲がなく、直接交換互換なし。将来の採用にはランド認定または変更と、温度・電圧降下・トリップ評価が必要。PPTC未実装、PCB更新・DRC・実機測定・ユーザー最終判定・製造承認は未実施。
 
 証跡: 01_New_Design/kicad_direct/reports/review_usb5v_jumper/report.md、verification.json、preservation.json、commands.json、前後PDF/PNG。コード構文修正、CRLF差の保全誤判定と是正、資料取得失敗・再試行は報告書へ記録。台帳はmainの共通記録として別途更新し、設計ブランチをmainへマージしない。
+
+## 2026-11-23 16:49 JST — A-2承認済み回路図のPCB同期
+
+目的: R-0001〜R-0016承認済みfffbcdbe41bad236baee48d88cf96b95f27421f4を基準に、専用codex/a2-pcb-sync WorktreeでPCBレビュー候補を作成。mainと固定workspace/a2-activeの未コミット設定を保護した。
+
+実施: KiCad CLIのsch export netlist / sch erc / pcb drc --schematic-parityとpcbnewで部品・ネットを同期し、新規・交換部品の配置と未配線区間を局所修正した。変更ファイルはa2_usb_uart.kicad_pcb、A-2 README、reports/pcb_sync/の証跡・補助スクリプト、作業・判断記録。詳細コマンドと試行履歴は01_New_Design/kicad_direct/reports/pcb_sync/work_log.md。
+
+結果: 58部品・197回路図端子が一致。ERC0、DRC0、未配線0、回路図不一致0。旧1088配線・ビアの1022を形状維持。既存5部品を移動、J1/J2/J3/SW1/SW2/SW3位置・外形22×50mm・板厚1.6mm・2層・GNDゾーン輪郭を保護。回路図・プロジェクト設定・ライブラリ・既存生成スクリプト・製造データは変更なし。
+
+未検証: USB差動インピーダンスとリターン経路、パッド内ビアの実装性、ESD経路、TPアクセス、電源・発振の実機性能。人間によるPCBレビューと製造承認は未実施。BOM/Gerber/実装座標は旧版扱い。固定Worktreeへは承認前に反映しない。

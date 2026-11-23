@@ -1,0 +1,2511 @@
+{
+  "base": "fffbcdbe41bad236baee48d88cf96b95f27421f4",
+  "protected_worktrees": [
+    {
+      "worktree": "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test",
+      "project_sha256": "e5b768239d2eb761331199dc0d3ef02ef9c2289797037a22e0de9d5ca595767d",
+      "unchanged_from_start": true,
+      "head": "664b58595ea96c4748b9fb23c9c8510a20b18b27",
+      "status": " M 01_New_Design/kicad_direct/a2_usb_uart.kicad_pro\n"
+    },
+    {
+      "worktree": "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2",
+      "project_sha256": "76037c8b55e89cfdcec0035909d6596f7a8c13c9ff943d55cca7e6c104228221",
+      "unchanged_from_start": true,
+      "head": "fffbcdbe41bad236baee48d88cf96b95f27421f4",
+      "status": " M 01_New_Design/kicad_direct/a2_usb_uart.kicad_pro\n"
+    }
+  ],
+  "refs": {
+    "main": "664b58595ea96c4748b9fb23c9c8510a20b18b27",
+    "origin/main": "664b58595ea96c4748b9fb23c9c8510a20b18b27",
+    "workspace/a2-active": "fffbcdbe41bad236baee48d88cf96b95f27421f4",
+    "codex/a2-r0016-usb5v-jumper": "fffbcdbe41bad236baee48d88cf96b95f27421f4"
+  },
+  "changed_existing_files": [
+    "01_New_Design/kicad_direct/README.md",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb",
+    "docs/decision_log.md",
+    "docs/work_log.md"
+  ],
+  "unchanged_a2_files": [
+    {
+      "path": "01_New_Design/kicad_direct/.gitattributes",
+      "git_blob": "aa698cccd6d89d5602048827d4d22f3ad6000339"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/.gitignore",
+      "git_blob": "2033af1dd69f0029fbdaf94d46bec9d816602655"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/.gitkeep",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro",
+      "git_blob": "16b674eaf8da87116be59e8f857109cf95d5089f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch",
+      "git_blob": "e88162e1f25603078933b1f937471adf33d78f9a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/fp-lib-table",
+      "git_blob": "db130cc2243fc6f8f96f88cd61c7d8fe5178a502"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.kicad_sym",
+      "git_blob": "a7f348056b6e8a75eea0b5fcf03919c427889ed6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/C_0402_1005Metric.kicad_mod",
+      "git_blob": "cb827bd3e4c7f2eff70895e8f842effa499798e0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/C_0603_1608Metric.kicad_mod",
+      "git_blob": "c3143bdcf282c8fb1186b2e5009915851abe6190"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/Crystal_SMD_3225-4Pin_3.2x2.5mm.kicad_mod",
+      "git_blob": "b26e124725700b3a3d92f584d09dc3986b0c050d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/LED_0603_1608Metric.kicad_mod",
+      "git_blob": "d78e24053efbff65cf89d41dabcc150f7a395286"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/LQFP-48_7x7mm_P0.5mm.kicad_mod",
+      "git_blob": "34b3cf9225e51fe97152b71c2aaf7098b01ca6fb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/L_0402_1005Metric.kicad_mod",
+      "git_blob": "a8ebb2f17c62754292c3f710c05fc922736b6d84"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/MSOP-8_3x3mm_P0.65mm.kicad_mod",
+      "git_blob": "933cbddf0e9cd5418419313c1edbfcf666914971"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left.kicad_mod",
+      "git_blob": "f9cb9d280ac09a9a67d57b310dfe9e523b37af14"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/R_0402_1005Metric.kicad_mod",
+      "git_blob": "61ac3368244e150609388062b2dd1e6b1b00baad"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/R_0603_Bourns_CRPF.kicad_mod",
+      "git_blob": "80ccb94cfca5fbba49805cea996069af2e74a5a7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/SOT-23-5.kicad_mod",
+      "git_blob": "d4a0580210bfcc975f0363fe6379723a87d32c16"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/SOT-23.kicad_mod",
+      "git_blob": "4774df105c0fcbaa89b26d92091e254dd529e4c9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/SOT-363_SC-70-6.kicad_mod",
+      "git_blob": "c84f7620e13d236bbc52562561e3638b386c245c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/SW_SP3T_PCM13.kicad_mod",
+      "git_blob": "420fdc258d4a4fddd940f7112fa0b06178a1212a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/SW_SPDT_PCM12.kicad_mod",
+      "git_blob": "ad77c900ff5e4a833f8f2356db0fe28b68c706b2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/TSM_104_SH_PROVISIONAL.kicad_mod",
+      "git_blob": "e97bf8fecf42a49ffcded29850b12dc0e89b1060"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+      "git_blob": "c6dd2b49b8250d26b4949580ee51896d1de6dd56"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+      "git_blob": "271a179f6af34d7473438b38ced4cfd8e25b7577"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/Texas_DRT-3.kicad_mod",
+      "git_blob": "5c9b7268ddfd3d73421812d166674931eb73d3c3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2.pretty/USB_A_Molex_48037-2200_Horizontal.kicad_mod",
+      "git_blob": "2e43b72dca2769aee40724d7bc5d16b07b8705ae"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2_PowerV3.kicad_sym",
+      "git_blob": "4cec3be8191c47f6e028f60ba1283fdab9a0f522"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/A2_Refine.kicad_sym",
+      "git_blob": "2191e25ae5465074ff68ce6aedafc9a950ee98ed"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/LICENSE-KiCad.md",
+      "git_blob": "327317f61dd65cd0da7af643a9ace96da9d90c8f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/libraries/NOTICE.md",
+      "git_blob": "c579e7794f4f54647023f0700ebaed952319340e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/README.md",
+      "git_blob": "17bb34c4dd43c162cc1ecc5af62afcf26847a5fa"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/bom.csv",
+      "git_blob": "a844d806e1d2cac67be78d1d131f3592a533b9cf"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/drill/a2_usb_uart-NPTH-drl_map.pdf",
+      "git_blob": "e05baa83f202854f549822e5deb8f1b4c052863f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/drill/a2_usb_uart-NPTH.drl",
+      "git_blob": "20d9361ec86a43a5c864950ec419bb4d215f6b77"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/drill/a2_usb_uart-PTH-drl_map.pdf",
+      "git_blob": "f53882c03f57d0b7afd00d179f7a47f11a9859d0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/drill/a2_usb_uart-PTH.drl",
+      "git_blob": "281d0799bf32e4af2bc13c5532d3cf6edd01e5f6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/drill_report.txt",
+      "git_blob": "d62c7d74bcb2ccb598413c694e98dd6c85bc9663"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-B_Cu.gbl",
+      "git_blob": "72cc289b0ff395909d858d62d0bc5103db3d591c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-B_Mask.gbs",
+      "git_blob": "0e2bffc516bf6fe91433fec81d3d19b412876fd8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-B_Silkscreen.gbo",
+      "git_blob": "da0e881122ac8a0f4c82211953ce35bfb5dcbec7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-Edge_Cuts.gm1",
+      "git_blob": "1938df62ec96707075356121d09e7dbd59ee9e81"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-F_Cu.gtl",
+      "git_blob": "acfa4ebd7991949438a95ef62ed4ae5fa1abd889"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-F_Mask.gts",
+      "git_blob": "9bc3ec5b040fb0cd9e2185b5431db869a51f577a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-F_Paste.gtp",
+      "git_blob": "23496d56e678898c6b7d187b0481fd0c6079c704"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-F_Silkscreen.gto",
+      "git_blob": "2e520e32d48996c7bd8312e71d81804647b423cd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/gerbers/a2_usb_uart-job.gbrjob",
+      "git_blob": "288dac27ecb348cae162fe0bbf483931c5134e26"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/manufacturing_review/positions_front.csv",
+      "git_blob": "180f33199beb9cdb1259a94c39bb83b8aeca6d05"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/bom.csv",
+      "git_blob": "d126b773d55baae2bcfd26e6973549d8f3f24a49"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/cli_stderr_initial.txt",
+      "git_blob": "85405a08e5f070c1468cda8384a7b66c465d2b7a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/debug_FT_CTS_N.png",
+      "git_blob": "d775f9eb034f387601d4fcacc143e2661dc628d3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/debug_REF12K.png",
+      "git_blob": "25357ce0f2c9d39ed7f5f764161e2efac588e459"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/debug_VPHY.png",
+      "git_blob": "10f8353c9841de863f67da52dc6d5669ccf7d616"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/decision_log.md",
+      "git_blob": "2f45ea08c4d4601b016ca13379d3ed1c3a876c4c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/design_input_snapshot.md",
+      "git_blob": "e413947f802b3fd276bf3555d53ae9738e785472"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/design_manifest.json",
+      "git_blob": "e2ef17dbc217c74be77c36de821fecd073b726dd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/design_sha256.csv",
+      "git_blob": "2d7a7e8bf5a2bca92c7cf48da4ae3adfd60071d2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/discussion_log.md",
+      "git_blob": "58bee0cf6009b5e5a69be9e6c413eeffbde74fc1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_final.json",
+      "git_blob": "76ef62966b171ee30e7e3a221dd115e55365e95b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_finished_routes.json",
+      "git_blob": "48142606c04468f9aa964012fd4e3dcbea43cbcb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_metadata.json",
+      "git_blob": "8002d40aa4d9c115cd1543024db1004bc2c2526e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_placement.json",
+      "git_blob": "e6bf848266b9b594308b4656a9c2fce0e157a7c1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_placement2.json",
+      "git_blob": "664425218d5acd33adec69da869caf38ac579a17"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_placement3.json",
+      "git_blob": "bee85b3de0c5098d9feb61ab5d08d506faefbe17"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_placement4.json",
+      "git_blob": "539be9971342f6bf5d2ebeb0495969e6e39cc66a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_routed1.json",
+      "git_blob": "bf60747a073f12923e67217c87a4410eff1ac318"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_routed2.json",
+      "git_blob": "f71dae36a77d5789b65b60c551c234b163f97dab"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/drc_routed3.json",
+      "git_blob": "9f3d3e19bceaf363e2580fbd04ec783e694ceb29"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/erc.json",
+      "git_blob": "170bc3746108a1f8f1b6f47572eb62cf41202d02"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/erc_final.json",
+      "git_blob": "ae98b12631a29b7dd0027feefaa54628469b77df"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/erc_initial.json",
+      "git_blob": "951dd432bee56c9a1c260a51da98c819562bd29d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/export_log.txt",
+      "git_blob": "708970d6d12fbf97801c1eee7929a54b6b6f0874"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/manufacturing_sha256.csv",
+      "git_blob": "f91aef99f3c159000317a04b99811361e1fe0eef"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/pcb_layer-3.png",
+      "git_blob": "7c20ed93c3387fc76f3e888579d80e27ff8647ed"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/pcb_layer-4.png",
+      "git_blob": "b7561d011775279a33139c3b517ed55ac4482614"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/pcb_layers.pdf",
+      "git_blob": "515fa62b8d750076ba6ab06fd65c00b39fc1a322"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/pcb_preview.png",
+      "git_blob": "3715061561e2e238acc014a1b3c87ac10fd305b7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/result.md",
+      "git_blob": "ff3006a1aab5501d85b36ea06f6af4eb2318eb61"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/.gitattributes",
+      "git_blob": "ce13d0e4ef87c63dbd6cd7de074b379bd1aaded1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/README.md",
+      "git_blob": "e08def391e121f0196f1a963f37780e4db4838e1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/erc.json",
+      "git_blob": "32d3079ba2967d590fbd911c227384d83a6a1faa"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/manifest.json",
+      "git_blob": "eadf64ee287b32c0a3ebce8bcf6474c9f4d65137"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/netlist.xml",
+      "git_blob": "3ef08251d74f88c79f38ec7f74bc997263b25408"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/overview.png",
+      "git_blob": "31e174140ac900164de84049ea92715730a20ac0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/revision_notes.png",
+      "git_blob": "cc11dcfe8d564d6dde63d4051b4baddcc1a39e8b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/schematic.pdf",
+      "git_blob": "d6cbff4c56aed8388d03242d2b1242cac762a857"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/schematic.png",
+      "git_blob": "9ad341617621b55a55cb3267d6d2744b88b734ca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/after/usb_detail.png",
+      "git_blob": "592ad25bfd635b11617e680a3ad26b3ab77053f4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/a2_usb_uart.kicad_sch",
+      "git_blob": "8717365c0dabc94d21b37fcbd7016eee02fe4c89"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/erc.json",
+      "git_blob": "4c5b2ea9de7ed41859b36f7586e6eef96225d2f4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/manifest.json",
+      "git_blob": "4df8404a5492cee32e4d31f881bb00196312bf59"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/netlist.xml",
+      "git_blob": "3a182cd271bd8cbfcbf9cb55bfb71965b148b905"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/overview.png",
+      "git_blob": "d90653aba766cb3a428dda49e185d1f0e3054cc6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/schematic.pdf",
+      "git_blob": "7a77b6a9b551b9b8fd7b6953728acee82edfbba2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/schematic.png",
+      "git_blob": "d3d9530dbeb4fb42ed11dee2e028b211e0cfe399"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/before/usb_detail.png",
+      "git_blob": "656facd00ead5ab3b10605c139ad4c07aa71c621"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/change_esd.py",
+      "git_blob": "6c3b66dfd52b602baff4a9dd988b509725b5b6f8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/check_preservation.py",
+      "git_blob": "96c790cdf4c6c7943d6f0d82cbb3f4bc40b7a7a5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/commands.json",
+      "git_blob": "66e4a0580621d4a68f61b94adaee0a9cfb109aa8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/comparison_usb.png",
+      "git_blob": "3a83ac1b20905da0e8c930e0c77f60140724bb61"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/iterations/preservation_manifest_failure.json",
+      "git_blob": "3c0eb56f5f1003b2aea0f41fb4aea5ed0ca6ec3a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/patch.json",
+      "git_blob": "d7ddfe8969a5f9c5ed9ec97d972624b4b017c2a7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/preservation.json",
+      "git_blob": "8acc925b75b6709343fb7065ed816a92b89a56ed"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/protected_files.csv",
+      "git_blob": "232e1c30a6e22759c42f29a6d5786f98fc621b36"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/verification.json",
+      "git_blob": "5c56d477119090b5548a6f840a189755bc456496"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_R-0001/work_log.md",
+      "git_blob": "fbaa313b7d8b6c45989eb17f24f46586b32c0660"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/README.md",
+      "git_blob": "fa046f1ea73c57c84f193a76bf19c751a9021d76"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/a2_usb_uart.kicad_sch",
+      "git_blob": "e5aa559807d1a16192e0d85097cd69eb84d19935"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/clock.png",
+      "git_blob": "30ea15c0648a47dd1030023ee39db2026f7c7210"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/clock_notes.png",
+      "git_blob": "1981b862448ad9f6486ba86b3cfe6bca2412b427"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/erc.json",
+      "git_blob": "39992a58539e315ecb0b9f2182c118c1cfec49de"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/leds.png",
+      "git_blob": "cfeb4134c3332b2cb67beb8d2fdab16f92e96717"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/netlist.xml",
+      "git_blob": "a4c6e93d245572faf871d32dc05398c25b8021a0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/overview.png",
+      "git_blob": "81370797d4e6956bd937355a983bce89deb86c5c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/power_pins.png",
+      "git_blob": "76efe1a7c47a955e2844e9cc30dae26c19fffe1f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/power_tree.png",
+      "git_blob": "7b2e47f3472031f9d3e9a1c9a3c8e4ca8402a6aa"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/schematic.pdf",
+      "git_blob": "4c8a41654923ad81a8d5a96d5bb013fd3e92179f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/schematic.png",
+      "git_blob": "e1c79ff3791dc8d824c37bd71351b2a5405b74b5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/after/usb.png",
+      "git_blob": "f979bc230d67a2242984af389ef8a6722f642175"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/a2_usb_uart.kicad_sch",
+      "git_blob": "1287a83585d4946c4587e50024a528aaef1a1660"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/clock.png",
+      "git_blob": "9295373956762588f678fba5f0c49ab8a5a39a7f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/clock_notes.png",
+      "git_blob": "0fd0d07afa10f2d4571d4dfb20035bffd4a232ab"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/erc.json",
+      "git_blob": "5633f284e2c2cfd3c5053c8eea9ce05374fe7095"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/leds.png",
+      "git_blob": "2eaba3dda93e50804c4ffb9a9df5519d5a1d6443"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/netlist.xml",
+      "git_blob": "9cd4c46dc576229071a9989c96735b890443d328"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/overview.png",
+      "git_blob": "31e174140ac900164de84049ea92715730a20ac0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/power_pins.png",
+      "git_blob": "3ca5cab1e795cc88c6f1a8bbdf2a12156db88b7c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/power_tree.png",
+      "git_blob": "877e7b33ed12cde4ca4f0a88d59b7693258a7a62"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/schematic.pdf",
+      "git_blob": "341fd6e3d778122ee52fa068e9b516c6b68b9e21"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/schematic.png",
+      "git_blob": "9ad341617621b55a55cb3267d6d2744b88b734ca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/before/usb.png",
+      "git_blob": "f979bc230d67a2242984af389ef8a6722f642175"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/change_review_batch.py",
+      "git_blob": "b074433b9c72d831884c654a5c0e4a8776f7bc26"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/commands.json",
+      "git_blob": "5cb8a90591b09968f905f4e801f0fc8c2b8555cc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/comparison_clock.png",
+      "git_blob": "ef620719b5a98404c3191b377d6c168a1615fc9a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/comparison_clock_notes.png",
+      "git_blob": "04aa2a3c1f6445c2d044495dea3b070d55f7a57c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/comparison_leds.png",
+      "git_blob": "9ac082b09816172cbebd6184cd0fa343634ef6d6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/comparison_power_pins.png",
+      "git_blob": "e5e351de59a4fb5523ea9d0a09eb80d8631f72c3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/comparison_power_tree.png",
+      "git_blob": "52895570445ed61ff8573e2ae1e8bef449e3e51f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/comparison_usb.png",
+      "git_blob": "9075a9de338df437bf7129f197d41ec310fd1c0d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/export_manifest.json",
+      "git_blob": "c5fc1d14ee0ae71a09a72e9999e4ac6921e0de3a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/preservation.json",
+      "git_blob": "8e0507005c9b3e833a15d94b480ec2fbf7c6956d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch1/verification.json",
+      "git_blob": "db7a717ccf260ca4ec69d96bb9599e29a9f09dd2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/README.md",
+      "git_blob": "a6f73f5bd7783a414edd7167bae24e17b3bffe04"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/a2_usb_uart.kicad_sch",
+      "git_blob": "f516e7e786141d5f199221477dda32624dc9ed8b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/clock.png",
+      "git_blob": "30ea15c0648a47dd1030023ee39db2026f7c7210"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/erc.json",
+      "git_blob": "11e7c5472c98c2ec65bc99b8055f20035b533c0e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/ft232h_power.png",
+      "git_blob": "b64b1d196c1dbbcf1477faf481b8b8025d9f29d9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/leds.png",
+      "git_blob": "cfeb4134c3332b2cb67beb8d2fdab16f92e96717"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/manual_5v.png",
+      "git_blob": "be708be02c572fe8227ec886db60a653c677e8c4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/netlist.xml",
+      "git_blob": "8b3056db31685eabc7f8ee6884061bd57eceb704"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/overview.png",
+      "git_blob": "132aae6d2083b7793eacc19ac9f44450ecb03ae5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/schematic.pdf",
+      "git_blob": "deffc824b457882e2fa3c1224c96478778ec6a2b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/after/schematic.png",
+      "git_blob": "ea034b4f83d9d67fde3bf674de3ba6ca37eac1e3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/a2_usb_uart.kicad_sch",
+      "git_blob": "e5aa559807d1a16192e0d85097cd69eb84d19935"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/clock.png",
+      "git_blob": "30ea15c0648a47dd1030023ee39db2026f7c7210"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/erc.json",
+      "git_blob": "f4b2bde55d729d649c43bc134b7dcd1eabb82999"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/ft232h_power.png",
+      "git_blob": "270948c4123d15fd86a4e0eb6ae1563c7668aad4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/leds.png",
+      "git_blob": "cfeb4134c3332b2cb67beb8d2fdab16f92e96717"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/manual_5v.png",
+      "git_blob": "cf19e6fe1c43c78728c785d832db8a6d08fbf3a0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/netlist.xml",
+      "git_blob": "8a6ec3178c0f21321c06bfd7d2de9407c886531f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/overview.png",
+      "git_blob": "81370797d4e6956bd937355a983bce89deb86c5c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/schematic.pdf",
+      "git_blob": "ef42645e69bd90e01c9da9110f27fe6736136c98"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/before/schematic.png",
+      "git_blob": "e1c79ff3791dc8d824c37bd71351b2a5405b74b5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/change_power_review.py",
+      "git_blob": "79ff837702f95f46ab1bc57282264372e9034309"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/commands.json",
+      "git_blob": "872eb52cf04c3b2920319dfdd89c1566da3342f1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/comparison_clock.png",
+      "git_blob": "45fd9c011957a431dbf31c6c672b7575121af7b0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/comparison_ft232h_power.png",
+      "git_blob": "1d7edf91f653ef65b594f30fd278403fa81421c8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/comparison_leds.png",
+      "git_blob": "7b1084987e4e8644aaff6e59466b59182ec0ab8a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/comparison_manual_5v.png",
+      "git_blob": "cac75cd637138d338041f1576524e2cfb0ae582a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/export_manifest.json",
+      "git_blob": "827f3b0481a6744948dd0c81979c9c799ad9e623"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_batch2/verification.json",
+      "git_blob": "035c31b44029fa1433df9b372c6876f99acf1d40"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/README.md",
+      "git_blob": "4f632c6c732b44f98c3bbe78d83cbf9b8bbb550d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/a2_usb_uart.kicad_sch",
+      "git_blob": "3f5b25664e90bae15e322530960999cbe6ff3861"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/erc.json",
+      "git_blob": "a6426de0a6501cb15c431cabe1efbac1c3bc23b5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/ft232h.png",
+      "git_blob": "eb731c8b70ef5cfd28797b4660ad31e71de3a41f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/netlist.xml",
+      "git_blob": "ea50ab6e810614deceefb542632a3d1263df9781"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/overview.png",
+      "git_blob": "e7850e0b29731b0e918f74e51b279bdd311ea502"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/phy_pll.png",
+      "git_blob": "b3754bbcdec020102b8640c6e7e436a3d7652a48"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/power_pins.png",
+      "git_blob": "9244ed8db7430a85155842f4005ccb135bb28b12"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/schematic.pdf",
+      "git_blob": "abe913a922cd636c56463982b77cb8c649260010"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/after/schematic.png",
+      "git_blob": "78f49d8724df31314b4593d17279863df261ef9c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/a2_usb_uart.kicad_sch",
+      "git_blob": "f516e7e786141d5f199221477dda32624dc9ed8b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/erc.json",
+      "git_blob": "40accc606d54211d7dd620168edccc8b8bdb8ccc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/ft232h.png",
+      "git_blob": "a5486e4fc2ab9da0076ccd10430dfee5d6ce166a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/netlist.xml",
+      "git_blob": "d8472a1936af0267722799b0fda904825e66bf45"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/overview.png",
+      "git_blob": "132aae6d2083b7793eacc19ac9f44450ecb03ae5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/phy_pll.png",
+      "git_blob": "68ec3e545cb8add898faceab538459f073ee8b5a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/power_pins.png",
+      "git_blob": "4825a36b7175789c8048bd103bd8620e496ba273"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/schematic.pdf",
+      "git_blob": "6c4e34b907aaef8cae0076f3bcfa205c5dcdb486"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/before/schematic.png",
+      "git_blob": "ea034b4f83d9d67fde3bf674de3ba6ca37eac1e3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/change_capacitors.py",
+      "git_blob": "e53eacbf9331372e82b79c7fd127cdb6c0ac944e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/commands.json",
+      "git_blob": "dfd75a0ab35250720e1da2d10d022abd711d975a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/comparison_ft232h.png",
+      "git_blob": "6e8830f67472f609bf9a9dcd773d1f67c87d92c6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/comparison_phy_pll.png",
+      "git_blob": "9826402984aa9a882db8584a9a8a7f4e0c0de9ca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/comparison_power_pins.png",
+      "git_blob": "820a6c72ea9f897bfeef11d85440e21eb64831f4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/export_manifest.json",
+      "git_blob": "58c8bc5a0fbe6d388b53f12a1c1d91c0fa269d6c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_capacitors/verification.json",
+      "git_blob": "85a6269d84508ad23ddf09b1a5cae9bcbb06c629"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/README.md",
+      "git_blob": "1eec915032854cfd8dffbbaf8b421ce01d1985d4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/a2_usb_uart.kicad_sch",
+      "git_blob": "d613dd99ceac661968deae38184ed5c9fe475bc8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/erc.json",
+      "git_blob": "effdd3ac5fca962ae57ed95db8cc897ea7a1660e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/flag.png",
+      "git_blob": "1fcce95a48163cbe551d7ef5b9bfb45b5995f1eb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/netlist.xml",
+      "git_blob": "63874f5b0404146469895b6199af9024bf86385e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/overview.png",
+      "git_blob": "4536ca66d6931864df1f66c722dd969e4ea9a7f9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/pairs.png",
+      "git_blob": "eee4f82a4fb13ceda67353717507a8b71bd5a441"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/power_block.png",
+      "git_blob": "6b58fd5d99ceeb8472fdb547cb3d2a2d464bf25b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/power_pins.png",
+      "git_blob": "d2a88341169e2a83ca945efde1ea403feee25beb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/schematic.pdf",
+      "git_blob": "0be61995e618c78665ba78c3b3687faa00a3539a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/after/schematic.png",
+      "git_blob": "30af017f2b4e292d6788ea36e066068fd46a56a0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/audit_drawing.py",
+      "git_blob": "1dfe60e7288da9a897c11d678380f835e0c7cf66"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/a2_usb_uart.kicad_sch",
+      "git_blob": "3f5b25664e90bae15e322530960999cbe6ff3861"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/erc.json",
+      "git_blob": "2cfd16dc90f0b1ab3505ad6b0aa9e3873742cca7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/flag.png",
+      "git_blob": "2f37d410fbdf1ee0d846a4fba63a077f6a6c8919"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/netlist.xml",
+      "git_blob": "8c95d7179f64934e919b8c3656ff616e6b13c59a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/overview.png",
+      "git_blob": "e7850e0b29731b0e918f74e51b279bdd311ea502"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/pairs.png",
+      "git_blob": "c44dbc852f1acd64504db830bb950dc17e50665b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/power_block.png",
+      "git_blob": "e47eeb8690911fbf694bc2e96e47e79a875b7170"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/power_pins.png",
+      "git_blob": "be63ab1c289fa43fa5d0b590d0faed56f51b16d2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/schematic.pdf",
+      "git_blob": "72b44d296102581b9c403bf391afe964622e73c9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/before/schematic.png",
+      "git_blob": "78f49d8724df31314b4593d17279863df261ef9c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/canonical_netlist_after.json",
+      "git_blob": "72d7a1a314f0a112b4d9b857cf5d97c1eff1b60a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/canonical_netlist_before.json",
+      "git_blob": "72d7a1a314f0a112b4d9b857cf5d97c1eff1b60a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/change_drawing.py",
+      "git_blob": "1864deab5eee466614bbc4ba7fa6796854e80d35"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/commands.json",
+      "git_blob": "338c0f1bc32f7c3158ac12a301eea03f290f0bca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/comparison_flag.png",
+      "git_blob": "212af6c27602a3ad0d0b8d4d552b850bd52df19f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/comparison_pairs.png",
+      "git_blob": "034254289652aae825f8400d91df6ce9f502b3cc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/comparison_power_block.png",
+      "git_blob": "391ee9753b01bd5c4131793dc8affddeddfa5f89"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/comparison_power_pins.png",
+      "git_blob": "a72613a9c797796a872c407201da85138ea47461"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/drawing_audit.json",
+      "git_blob": "b154852f4dc6c1c0509786f8628c9c745ca04e1f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/export_manifest.json",
+      "git_blob": "1cfe2196a918535cb9d1e51dd319af9e689e17eb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/flag_review.png",
+      "git_blob": "b016328aefaf27723347f1636d6682b5b71bb839"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_drawing/verification.json",
+      "git_blob": "be1b5bd5da29579caf0c0ea5a0b7b8cd54c29b3b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/README.md",
+      "git_blob": "3841a9a695353f44bfb5df3c27ef775de23d9468"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/a2_usb_uart.kicad_sch",
+      "git_blob": "639cdf98e54c37beb2f647a73fe03539f3b16196"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/erc.json",
+      "git_blob": "0cb3ef765f4e3e441507e67d53245a64920b1728"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/flags.png",
+      "git_blob": "569e3d8f7fa335de4cfb52f7eeedcaebad24d26c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/netlist.xml",
+      "git_blob": "bda9ff9503325e95149d583242cd9279f87ace6f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/overview.png",
+      "git_blob": "ff13ae9f4420802711ee10ca761066c230a987ff"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/reset.png",
+      "git_blob": "978d21a621b26c1affa828d1391ba41a4c66b211"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/reset_before_context.png",
+      "git_blob": "40db79f7d4bfb8c0d6bfcba093ae9e7a1bc74fe8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/schematic.pdf",
+      "git_blob": "1facd277674670eb160335929c0852f32e0cb444"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/after/schematic.png",
+      "git_blob": "ea5a40f1c001e268a9e7dc298693aede31116e03"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/a2_usb_uart.kicad_sch",
+      "git_blob": "d613dd99ceac661968deae38184ed5c9fe475bc8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/erc.json",
+      "git_blob": "8ced888e9e5a5c65d3e47f6b2c86e881df2197d8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/flags.png",
+      "git_blob": "2387ff8f828f90852cdb950b31730be636463153"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/netlist.xml",
+      "git_blob": "5bd0b6cef5f4e830cf004642d10dd3f015afb71b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/overview.png",
+      "git_blob": "4536ca66d6931864df1f66c722dd969e4ea9a7f9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/reset.png",
+      "git_blob": "bdcd6293333da53b3a64486eb1e22eaa6319611e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/reset_before_context.png",
+      "git_blob": "3097c5bc144b9e92e4582bd935d85f2e9ac19a12"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/schematic.pdf",
+      "git_blob": "33fde9320d300d049cf2a36060f1e5eded9ed391"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/before/schematic.png",
+      "git_blob": "30af017f2b4e292d6788ea36e066068fd46a56a0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/canonical_netlist_after.json",
+      "git_blob": "72d7a1a314f0a112b4d9b857cf5d97c1eff1b60a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/canonical_netlist_before.json",
+      "git_blob": "72d7a1a314f0a112b4d9b857cf5d97c1eff1b60a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/change_reset_flags.py",
+      "git_blob": "241dbd52eb96904692284f8ff307d840011fcb02"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/commands.json",
+      "git_blob": "7aa4a6b92c2b3bb03d06de149adb3abfa45eb831"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/comparison_flags.png",
+      "git_blob": "87f4d2585971904c0225cb240218e1150d1daa6b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/comparison_reset.png",
+      "git_blob": "53406286651abf05803f55fd479d210dc3c8b75e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/comparison_reset_before_context.png",
+      "git_blob": "cbda300a909fd12109fce6bde516993d309f1329"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/export_manifest.json",
+      "git_blob": "0f5e060903cc12a17dbacca86a1da8d410c0dd63"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_reset_flags/verification.json",
+      "git_blob": "58a4a755982d8db107f89f019d81fa1020acac2c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/.gitattributes",
+      "git_blob": "658a7eeeab47b15edf38af50145d5a87484e02f1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/J2.png",
+      "git_blob": "12c606b1989ff01ba6f049ec191cb0c2735e9844"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/a2_usb_uart.kicad_sch",
+      "git_blob": "e88162e1f25603078933b1f937471adf33d78f9a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/erc.json",
+      "git_blob": "a6858c55a209adb844bd4c94030c67471e258e2c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/netlist.xml",
+      "git_blob": "efbee2a3ddfd179be4a45386510200d80fa4acbe"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/overview.png",
+      "git_blob": "9d876f06e471e02f9a7672d4fa46e82d2e9a8fca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/power_block.png",
+      "git_blob": "7bf9256d38dea75ff324b4ff3af90d2ecf76b79b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/schematic.pdf",
+      "git_blob": "85ff92dd9db353546ff4add6062a5ad735087ce2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/schematic.png",
+      "git_blob": "aa4b29fd516a7dbca5f9695097cb0ae3d8a76e87"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/after/usb5v_output.png",
+      "git_blob": "70a0c56ede7f46ccad4fc06f74b0ab98c127f149"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/J2.png",
+      "git_blob": "12c606b1989ff01ba6f049ec191cb0c2735e9844"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/a2_usb_uart.kicad_sch",
+      "git_blob": "639cdf98e54c37beb2f647a73fe03539f3b16196"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/erc.json",
+      "git_blob": "d465c3e03cf7b79d363e315aabc2f365a337eb3a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/netlist.xml",
+      "git_blob": "0ce3f4be09f5d21bb688c8b337aa708309c287dc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/overview.png",
+      "git_blob": "ff13ae9f4420802711ee10ca761066c230a987ff"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/power_block.png",
+      "git_blob": "1e60a34685884d10414c3e5f90f3515d2d260a0f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/schematic.pdf",
+      "git_blob": "e370c54a9020c7d7a029cc7dcabca80865002f9f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/schematic.png",
+      "git_blob": "ea5a40f1c001e268a9e7dc298693aede31116e03"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/before/usb5v_output.png",
+      "git_blob": "b8338edfe0c9a37cc1a5121f59852293add6ddd2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/change_usb5v_jumper.py",
+      "git_blob": "c8a470ae6f989d7b861afac1de36f778bf0421c7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/commands.json",
+      "git_blob": "cca5c0b4309dda925b4e0b05bc4c173991636524"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/comparison.png",
+      "git_blob": "270342abf764159a30fd0761ab8f72cd919da7aa"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/export_manifest.json",
+      "git_blob": "cc4e68a2ff0fddb7389d180c02a7f357244da638"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/preservation.json",
+      "git_blob": "3bcce6764483edb088755c67314fb39dc73c3ef8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/report.md",
+      "git_blob": "b892df714022fc3f9c9b30210a01fb6c75f9dc83"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/sources.json",
+      "git_blob": "527865f044191cd6a1fe0f7d0aee6918da43b085"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/verification.json",
+      "git_blob": "78c51fa732ce83ee1218708afbbf65536fbb7377"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/review_usb5v_jumper/verify.py",
+      "git_blob": "9068200f5e93c91399937173f64c081d685799be"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/routing.json",
+      "git_blob": "5acec480e730fd44be93b30446e19bacdac73b06"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/routing_cage_repairs.json",
+      "git_blob": "549f8ebb00468d3617112686bbb42f381307f9a6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/routing_cage_repairs_console.txt",
+      "git_blob": "9ac089bb3b0c7705e00dae8ef5e105fbccf87a1b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/routing_console.txt",
+      "git_blob": "68d7d6872774114356d54013138653007b2526d7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/routing_repairs.json",
+      "git_blob": "4a2b0b9bdc6765bbfdce994966b70e8c7efaa25c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/routing_repairs_console.txt",
+      "git_blob": "19a3470e4e4b4a098eb3ee0572f6e16a457438a4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic.net.xml",
+      "git_blob": "ccd96f81e589a4e32e398e95d400dfc02da5e742"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic.pdf",
+      "git_blob": "769e78389e8b388eb0dddf1f68aeb23a2cfc2b3e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic/a2_usb_uart.svg",
+      "git_blob": "7900e1ce8ba05e12dadf72bf14518cf5e7332833"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_preview.png",
+      "git_blob": "6afaae46b90d6747286097095d2c586cdb3717ec"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/.gitattributes",
+      "git_blob": "3ffce5afdf6d37bc428fe7a3f04a2e315d5a8215"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/README.md",
+      "git_blob": "96b45b0f2d8a13195f8e4af41a8d13b087de72af"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_eeprom.png",
+      "git_blob": "2a3da4389b4c751dbb24d079898d0b86c08b4a3f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_enable.png",
+      "git_blob": "169f1000c83e223f3439a5e2787cf0e55853266b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_fixed_3v3.png",
+      "git_blob": "9281f5099b4764ee5bc9abda7cd412ae34b3b16d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_ft_supply_bank.png",
+      "git_blob": "00961071f920ea577f3dbbe91fcbc01ae2c51595"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_indicators.png",
+      "git_blob": "c8a1f36e9bfdc6db0b9c3359859ea7a52fdaed50"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_load_switch.png",
+      "git_blob": "390f3d5f2e913808054bdac22f21ed277537da24"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_source.png",
+      "git_blob": "1be5fc583fdbb860beac6708dbc600795442b937"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_uart_io.png",
+      "git_blob": "b229340514c3bcea9982ca9b4fbdde015296df87"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_usb_clock_reset.png",
+      "git_blob": "8d2f7c4472da0a123fab0672e2b1a72c3ae05f8b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/detail_vio_feedback.png",
+      "git_blob": "c9985a06d1c7a0f103614f16c1f41ba03c1d235d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/erc.json",
+      "git_blob": "15547771732d85867b415deea34eef633d8f5ee8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/export_manifest.json",
+      "git_blob": "aa39085df142589fe80ef01dad3303b6a861bc70"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/netlist.normalized.xml",
+      "git_blob": "18483d11a0c3d708b0b8919fd64848109eda72b8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/netlist.xml",
+      "git_blob": "9c82683f3dd729b02d040535ae096bbc6d212db6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/overview.png",
+      "git_blob": "74a2ef0937321980cadfb63c9fdf28046087f08b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/schematic.pdf",
+      "git_blob": "c76900ea43789e7dda3d061ee74642d10b1227e6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/schematic.png",
+      "git_blob": "c19308dab5a0c6a4bcc717c3bd6ec5d990d14986"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/after/source_sha256.txt",
+      "git_blob": "95323edfa595b6692c46e5b93853976c08a87d78"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/a2_usb_uart.kicad_sch",
+      "git_blob": "140df2bdd3d513f554a65d4ed253b9b35f4d046c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/erc.json",
+      "git_blob": "0f4d87ff26307f6170a0949c25cac731dea87314"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/netlist.normalized.xml",
+      "git_blob": "18483d11a0c3d708b0b8919fd64848109eda72b8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/netlist.xml",
+      "git_blob": "dc2aceec6b114f04deb0c643b372cd70ddce13cb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/schematic.pdf",
+      "git_blob": "46d3fa0ac1c742f7d6c30eb32a2e96191474e0ed"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/schematic.png",
+      "git_blob": "650770e415ef0a5a66ed68d4996a2a5e15507838"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/before/source_sha256.txt",
+      "git_blob": "8b9363a97a0a9a324d1a9a425fcba50b81ef06ea"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/comparison.json",
+      "git_blob": "e5eabc8e5e79b0f2f0d253d6340cf47c2b158317"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/comparison_v0_v1_v2.png",
+      "git_blob": "babfaae7c5aea2c81ea122c15d829ecc324a5e31"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/drawing.json",
+      "git_blob": "58f668d8ce9711214f630a863dd65a5957080875"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/drawing_comparison.json",
+      "git_blob": "4628fb5823005830a1916807c0509035a459035b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/export_log.json",
+      "git_blob": "2ea6f28dee4cf6f9f588c0f27a3141d2f2d9fe79"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/export_v2.py",
+      "git_blob": "2fdc1329984fffdfa1d996c33b8ff5630312bd35"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_eeprom.png",
+      "git_blob": "1d1bc64751cf38da76224fdc879c5ccb29b5e33b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_erc.json",
+      "git_blob": "50c9bbf2226f84a692adc166c093fe25e14e8af8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_load_switch.png",
+      "git_blob": "7a3a6d68e9c612bfa1324351f36993eb492a7e70"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_netlist.xml",
+      "git_blob": "5e770ac71b5aaf5c00110680d3714f98dcb5a848"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_overview.png",
+      "git_blob": "128db04d6ec58ea93944fa73771a7879016dc12c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_power.png",
+      "git_blob": "fa4d8bb3ff140a536a860eb259336185fb965c25"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_uart.png",
+      "git_blob": "753604d178ffb89637b5f2377066d1d51a4ea3cb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/01_usb_clock.png",
+      "git_blob": "f9b57ccc883fbac3f9c7bf7328e76e9afe1ce9a1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_eeprom.png",
+      "git_blob": "2a3da4389b4c751dbb24d079898d0b86c08b4a3f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_enable_fixed.png",
+      "git_blob": "6ba3982fdee18ef0b3460604933a9ab76a460687"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_indicators.png",
+      "git_blob": "3236409eae4c778b5b3b6df33aaefe19d1d3354e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_load_switch.png",
+      "git_blob": "390f3d5f2e913808054bdac22f21ed277537da24"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_overview.png",
+      "git_blob": "ea2620899e679385bebfde8254f5a03b34a85d1c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_power.png",
+      "git_blob": "c9985a06d1c7a0f103614f16c1f41ba03c1d235d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_uart.png",
+      "git_blob": "20d5949ff057c110d2cc25cc911b72665e6ef302"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/iterations/02_usb_clock.png",
+      "git_blob": "1db2b4dacbb8ca33393b47c5201102a5d790a554"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/layout_v2.py",
+      "git_blob": "6c39b38b7620ca9eec85b2cf1e8dcbeb1537196e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/protected_files.csv",
+      "git_blob": "508eac30c718eab12b02a9e78365630dd5bb9179"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/provenance.json",
+      "git_blob": "e01d7c4b76b2c5a3a0b241a87e77d3d8f7f83114"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/publication.json",
+      "git_blob": "129046972a2ad065ee13c4e5ff2b058907961154"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/render_details.py",
+      "git_blob": "f7c1b11baa9dabf8ae6e4a32eb83646f5607a939"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/timing.json",
+      "git_blob": "7112cf72724a304ab5092a56602a04b863d309c2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/a2_usb_uart.kicad_sch",
+      "git_blob": "943ca855b0dd52c51b0e5a8940a4a6688d93607c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/erc.json",
+      "git_blob": "747027a188595870226dc25cfae06c8bb89dcae7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/netlist.xml",
+      "git_blob": "24ebaf3c97f69d278ec0f2cfe19ab6c500ba3413"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/provenance.json",
+      "git_blob": "415124ebc59c3264bcc412c8c2ec01fa5cb169a7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/schematic.pdf",
+      "git_blob": "7bfaac259267c49288ab23584950f2906c543c1f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/schematic.png",
+      "git_blob": "6167aed9f0142f1514c4dcd6c2131b510b250484"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/v1_reference/work_log.md",
+      "git_blob": "ed259b52644784d80095fffb40ea0290b97332f7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/verify_v2.py",
+      "git_blob": "e4d295243f2f9926caec859280a8b1950566aeb6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/wire_visibility.json",
+      "git_blob": "c00ebe1de8bf6227973da15f8c3b791bc78bcb81"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/work_log.md",
+      "git_blob": "167694e77567379aaf8225d0cf06bdb4a8f7897f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/yomiyasu_report.json",
+      "git_blob": "59b1914e3089f9cfb43108201e300a894a95f736"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v2/yomiyasu_work_log.json",
+      "git_blob": "4fd28929f4c5863981ab164e9c0a29442100020b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/.gitattributes",
+      "git_blob": "ce13d0e4ef87c63dbd6cd7de074b379bd1aaded1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/README.md",
+      "git_blob": "266a3c50c7008649b73ffb9ca38f3493af0260e8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_crystal.png",
+      "git_blob": "93c83ba8e2ec622349ede4c9f3f9abfd8dd43a25"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_eeprom.png",
+      "git_blob": "5f54d0a63280e5ca2f73714de8d4fb2658c43058"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_ldo_feedback.png",
+      "git_blob": "87501ef45f5f9bb710ccfcc5e00e2e6ec576fb8f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_load_switch.png",
+      "git_blob": "58577893d55691fa4c937e307f03deb495eb0252"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_power_ground_symbols.png",
+      "git_blob": "62a572ee0c2f46e5d7fef15010eceea9c0bf92d2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_power_tree.png",
+      "git_blob": "eb80a26aed11e4419542450931d405c6ee94de84"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_source.png",
+      "git_blob": "c8de7fd7c1c8b87cf8bfdca3b1040932012fa691"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_uart_io.png",
+      "git_blob": "c6d003f20f74f87e2aed0f686a98e77c040d5b04"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/detail_usb_ft232h.png",
+      "git_blob": "343d46f86979e2e2b1793f8a657b067a0d7a1f22"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/erc.json",
+      "git_blob": "6bf071f40086cb8f0ce6a67332581c22dad66073"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/export_manifest.json",
+      "git_blob": "bb09ba54de77006456d93496264fa850c94413a2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/netlist.xml",
+      "git_blob": "fe3c641675b63cf2dda03b6f99f3bd7f8f0f38a0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/overview.png",
+      "git_blob": "e1ddbfff45fc1cb29f9358264b9b0ab07f6425d9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/schematic.pdf",
+      "git_blob": "3493d02c299f0709e175138c262c6de789fc2985"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/schematic.png",
+      "git_blob": "f65fadeb27648b68e8c16ad57a237e0e527c4128"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/after/source_sha256.txt",
+      "git_blob": "c305025355fe3117d9dd94cdc1ce59b098828905"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/a2_usb_uart.kicad_pro",
+      "git_blob": "16b674eaf8da87116be59e8f857109cf95d5089f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/a2_usb_uart.kicad_sch",
+      "git_blob": "56d769f154730ceccc901618664e92316c000718"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/erc.json",
+      "git_blob": "15547771732d85867b415deea34eef633d8f5ee8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/erc_fresh.json",
+      "git_blob": "1b88a9eddc68e0a4d344793d20fa50ca01e0915c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/fp-lib-table",
+      "git_blob": "4e8ef52cf77902c697d57d9f40f01aaf5ef4418a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/netlist.xml",
+      "git_blob": "9c82683f3dd729b02d040535ae096bbc6d212db6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/netlist_fresh.xml",
+      "git_blob": "2818308cd9e08770b1f3924d2ef554604a33c0fa"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/schematic.pdf",
+      "git_blob": "c76900ea43789e7dda3d061ee74642d10b1227e6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/schematic.png",
+      "git_blob": "c19308dab5a0c6a4bcc717c3bd6ec5d990d14986"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/before/sym-lib-table",
+      "git_blob": "38ce8244ca857a5e974848562ccc7e6dd9dde249"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/comparison.json",
+      "git_blob": "a82abc5a9fd555148c7176f0072dad29b8ad9178"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/comparison_v2_v3.png",
+      "git_blob": "953997cff442c1f1a7da11f11c9ca83b63f0f11f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/drawing.json",
+      "git_blob": "6c26d3317c443a88717a04832db63eee8e9a1439"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/drawing_comparison.json",
+      "git_blob": "f3a49c651fd6d80513b94343c240448042beb2a7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/drawing_helpers.py",
+      "git_blob": "442a2910c7011da1f8c9fc0f3dcac92b59afafca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/export_log.json",
+      "git_blob": "a4d18430d86a07da1402b12eabd79973f2278634"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/export_v3.py",
+      "git_blob": "1c5da5cc8785d46a6bac16d9705a255d6b01f198"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/01.pdf",
+      "git_blob": "aed75b11b7ba0ffffaf50a14935a0ae09187b1cb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/01.png",
+      "git_blob": "42b9c8cf01f381fe84b3a4ab3be43a6bf0bbdc24"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/02.pdf",
+      "git_blob": "825d2fbdd8bd9b0038b47d40378093c02d5b7c4a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/02_overview.png",
+      "git_blob": "6f84c0a08b58f68753a0d7b765df8607bab60783"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/02_power_tree.png",
+      "git_blob": "9d67b63a8f8c956e2ce03f32dbc5e12f293cd5db"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/02_uart_io.png",
+      "git_blob": "b16f6d8670a37aaad97183e40a04c6dbc71c82fd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/02_usb_ft232h.png",
+      "git_blob": "32d32d89161358ee1cbf845b2d8e4c4984d494af"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/iterations/baseline_missing_fp_table_erc.json",
+      "git_blob": "ea681e9bad858b9bb3ca0adb264a50d59dafc411"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/layout_v3.py",
+      "git_blob": "44f7eac0fe0f183e5d1c044b0254f31672b2b8ea"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/library_checks.json",
+      "git_blob": "54950fa33b3280a00955a9c4edbdaab748ce0e83"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/pair_metrics.json",
+      "git_blob": "3edaa9ce9defb3b384d702b0a209ae85448997e9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/protected_files.csv",
+      "git_blob": "6e7e36dea82decc762aec508503698945f1e8bd7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/provenance.json",
+      "git_blob": "3ea33c77ebbbcce6f88451ec1b6d199f5f96513b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/publication.json",
+      "git_blob": "7938fa186b24ef966a111943e26bbab0360f52c2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/render_details.py",
+      "git_blob": "37f295c3691a98ac030f10b590245f6240a781c6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/request.md",
+      "git_blob": "6351b48a722301938cbc87f2e351f22a74fe5ae1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/terminal_net_comparison.csv",
+      "git_blob": "f0b3337075457e1eb8431522e8dccc41ab4874fd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/timing.json",
+      "git_blob": "0bc0c048a1c36e8ea6c12791317261382dee2bee"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/verify_v3.py",
+      "git_blob": "957292013d4b2e065f054d301b4d6eb54aa4393a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/work_log.md",
+      "git_blob": "443ed5b922052dd641f4d716e79dcb0ece075bcf"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/yomiyasu_README.json",
+      "git_blob": "6dd7d24ab10f0d0236b0688bdfcdbca66572883a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3/yomiyasu_work_log.json",
+      "git_blob": "d4436a9965aa19d31e1cd670c94d86bdfebf89fa"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/.gitattributes",
+      "git_blob": "4d350ea5d43a479a230832c9f7da2de3b353b28d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_coils.png",
+      "git_blob": "0b967ff56d436b2650cba983a7e625db6c9a8b0d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_crystal.png",
+      "git_blob": "cc49f1d148495652225c3d86681fda0eef61e604"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_eeprom.png",
+      "git_blob": "a56cbd207f500057f241c61659493b00ff086681"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_feedback.png",
+      "git_blob": "620b223445854b56e261c393f1c82d73077b7b96"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_ft232h.png",
+      "git_blob": "7d15cb6e6bc48e9f09f38d8774392c0d3be61014"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_headers.png",
+      "git_blob": "3ce04bf0fa94fe38594ecc1ec09e9716efd092c8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_label_stubs.png",
+      "git_blob": "9085f7bdbbd18cfcb9529ad04430081d8edc9548"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_ldos.png",
+      "git_blob": "b793fac844ff22f33e13d8c816a9816bd857d278"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_leds.png",
+      "git_blob": "fb736a441ff79621f82b57ce5f4978ac7b246bcd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_load_switch.png",
+      "git_blob": "2fd25a1de82a77e754c0fae971fa034506f74572"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_power_tree.png",
+      "git_blob": "b5a0cfb1bcb65b4a605943a21378cb6311177d73"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_reset.png",
+      "git_blob": "66c96c7dfa37dba279fb864a6df788967af359cd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_source.png",
+      "git_blob": "d3d9530dbeb4fb42ed11dee2e028b211e0cfe399"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_uart_caps.png",
+      "git_blob": "76f4722b7ecefc8b9d7cbcf71b5df25f3e46f2f7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_uart_crossings.png",
+      "git_blob": "c6505679aa1f21a702f6888eee6e3fd793373217"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/detail_usb_esd.png",
+      "git_blob": "cd2d5d1caee295aa7f65d7dd50945a1d747f2b59"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/erc.json",
+      "git_blob": "66e91fe32ba9c0da9972979a864d488be23db02b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/export_manifest.json",
+      "git_blob": "15ee9092c01efaf0d22276944242d1e522e56a5d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/netlist.xml",
+      "git_blob": "f8074ca5d24918e456cae526c0e471e7f1bff2e0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/overview.png",
+      "git_blob": "d90653aba766cb3a428dda49e185d1f0e3054cc6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/schematic.pdf",
+      "git_blob": "a59c8d0a9644149588cfcdf98616eecf65ea9154"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/schematic.png",
+      "git_blob": "4354671b4dbf9e780d81b86f710a1d22e3248fb8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/after/source_sha256.txt",
+      "git_blob": "7365f658501674ae2a53ce6d47e693e1d016893e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/a2_usb_uart.kicad_pro",
+      "git_blob": "16b674eaf8da87116be59e8f857109cf95d5089f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/a2_usb_uart.kicad_sch",
+      "git_blob": "b65225a14ca2c7825335adf4908d6fa79e993d1c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_coils.png",
+      "git_blob": "2af392b6d71c0653473bd5cec44bb9efff2381b3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_crystal.png",
+      "git_blob": "b863adcc99e858dca45016f9cd9541f590f30a8b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_eeprom.png",
+      "git_blob": "4c04f8b61d4d617605698d288c0153526c3e974e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_feedback.png",
+      "git_blob": "9fbe6c83c6c1372b3dd130fd762274ec250c9ce8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_ft232h.png",
+      "git_blob": "d9bb41d039472f614580b1bde7f3acfab8ce392c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_headers.png",
+      "git_blob": "80c85b402a2cd7b1fdd5ec127951bb512013846c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_label_stubs.png",
+      "git_blob": "9cf781c4e7c10a160b69d040011a03f4536ef936"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_ldos.png",
+      "git_blob": "229ed79126b79d1aca5b7d5c2881b7de9d1ef151"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_leds.png",
+      "git_blob": "f7a9eb4f0c5e517b60e530b5c8a0d8116fc1edd3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_load_switch.png",
+      "git_blob": "2e5ede08de2784c4238c3223139ede18f1d49fc5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_power_tree.png",
+      "git_blob": "f4f37dea195daaf549f2aa6e50336c5c01956c20"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_reset.png",
+      "git_blob": "2f4b6db62ce6d15b07a1c0f3e39c43a019a8c71c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_source.png",
+      "git_blob": "e6e1f83bd36e0c1dc0dbc040aced27ab2668e39c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_uart_caps.png",
+      "git_blob": "ffefb2f6eb82677d2dcca7433eab91ffa10e5ac9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_uart_crossings.png",
+      "git_blob": "e186cf6ae390c9959e296ae5b9ff585472acf0f4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/detail_usb_esd.png",
+      "git_blob": "8a527da02112c10e38acc199e40b048e3ab06ae5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/erc.json",
+      "git_blob": "f8f30d671b46f27a2f47922e9932b6d3f72b28d4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/erc_fresh.json",
+      "git_blob": "65626c2866c72a4c13f45d23551cccc829e7c485"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/export_manifest.json",
+      "git_blob": "94a862a7ab2ed1a16ec1796b81e900ef66dfc2ba"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/fp-lib-table",
+      "git_blob": "30a507a74447bf2d0dba9667435dd06ea8c2c1d4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/netlist.xml",
+      "git_blob": "8ede5db1923484021d3e23f871907e0be1a29b3b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/netlist_fresh.xml",
+      "git_blob": "fc3c8fff170df9adc82a5c06d47a108c348d7457"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/overview.png",
+      "git_blob": "7df644310f78e514e29feb76de588847b6fb357e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/schematic.pdf",
+      "git_blob": "60d1dbf799963d769fc24c2e990f6bb1513649f1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/schematic.png",
+      "git_blob": "449b917a5a7fc6f4e91ce1838f5383722af3f868"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/source_sha256.txt",
+      "git_blob": "65be5aea57516ef61be1bacb3049b4ff509eb8bf"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/before/sym-lib-table",
+      "git_blob": "6fbba9d5a11e35924e1e6263d10e3d6ba35108f1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/capacitor_orientation_check.csv",
+      "git_blob": "005f53860f5be625eed2e802211e719df7bb18a7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/capacitor_orientation_check.json",
+      "git_blob": "108d927d4f9914d98619d8e1ec3628ef7b368baf"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison.json",
+      "git_blob": "42ce16840cfaaaaf99ff214dd3a846b60bf85a28"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_coils.png",
+      "git_blob": "9193123d4ffbcede4053aa30dcae7ed0f9532fd1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_crystal.png",
+      "git_blob": "e323c79b2403a11cb6276d1d549877a6fc72ea64"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_eeprom.png",
+      "git_blob": "8aacdb8c78a00ee0be8133432a243614389a4cc7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_feedback.png",
+      "git_blob": "35a8e1f0793cf75ec8f177a6857b898874651af4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_ft232h.png",
+      "git_blob": "a6cab747919aee793f648245c578152995f1fa23"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_headers.png",
+      "git_blob": "164f81d690521865cec60862a5f24800dc7bd4ef"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_label_stubs.png",
+      "git_blob": "f0bdb05b49ef73597223f742ba87ed5910fdab78"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_ldos.png",
+      "git_blob": "6707cad9e008217c22de86b51edc4b54a520ccab"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_leds.png",
+      "git_blob": "eb491a2680a12a3e994ac16afbe2b8efca032cc7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_load_switch.png",
+      "git_blob": "021479f441cdd41e49cec1b78e551df312e2facc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_power_tree.png",
+      "git_blob": "f507baaa916c79ff2c2bfa2460c9078ff60ec8db"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_refine_polish.png",
+      "git_blob": "79a2cf2c3bcd5e5d38858df5cef4c0a81aba53b1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_reset.png",
+      "git_blob": "3f6c76d80bf76661716ac95ad5277eee8c44fbc7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_uart_caps.png",
+      "git_blob": "244ba16d5bd0d9a06f8811a002d5e7746308bce8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_uart_crossings.png",
+      "git_blob": "abf6ec1d667dbb959cb966e58074ed75cc4c5bee"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/comparison_usb_esd.png",
+      "git_blob": "757f02f61588cf4d1d3e61f7cb586412c2d41a4e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/component_attribute_comparison.csv",
+      "git_blob": "599aea20dce513ce7320efa7773a7cfbfd3dae4a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/component_field_check.json",
+      "git_blob": "83b940b3e2a4e02044192d904207ece7b42f61a8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/delivery.json",
+      "git_blob": "66279be426d3c245742c6a7c63077aaedf7b6f8e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/documentation_lint.json",
+      "git_blob": "74c2fce0e194cb844a8a249fa1df9b4a52c4c461"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/drawing_metrics.json",
+      "git_blob": "ce3e54dfa6ea01778f8d5a9e2263c258d41f7d38"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/environment.json",
+      "git_blob": "7937217514168df4c8c629f1c7443c917f8c3eae"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/export_log.json",
+      "git_blob": "abf54febf096389f1d313dc931cd7eafd386924b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/export_polish.py",
+      "git_blob": "7726a69ababdf67f54d7a11680df95851e591648"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/iterations/01_eeprom.png",
+      "git_blob": "a56cbd207f500057f241c61659493b00ff086681"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/iterations/01_ft232h.png",
+      "git_blob": "7d15cb6e6bc48e9f09f38d8774392c0d3be61014"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/iterations/01_headers.png",
+      "git_blob": "50363a5c16d05b93430c7b46d8047fd0daa93a6a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/iterations/01_leds.png",
+      "git_blob": "1b396675882aa0ef64d39518877dda4b9f665101"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/iterations/01_uart_caps.png",
+      "git_blob": "76f4722b7ecefc8b9d7cbcf71b5df25f3e46f2f7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/iterations/02_led_alignment.png",
+      "git_blob": "dabec4685802b4b5e5f89d77116f7c14c183e4fc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/label_audit.json",
+      "git_blob": "3f91afb89bff4336afee182086ad6d4b4736ac1c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/patch_manifest.json",
+      "git_blob": "ed73a33a4637c8f1df62c0d9b5f611f9029dd92d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/polish_v3.py",
+      "git_blob": "3032e279fff664e0a0ff7ed493beff69e54e2ab8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/protected_files.csv",
+      "git_blob": "df2e25159a8c1c7829920468cd6527cb2947b66a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/provenance.json",
+      "git_blob": "e17c7d43abccf98795de5229d3e7193765e9acb3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/render_details.py",
+      "git_blob": "b6454a09035c8102eef9f082f5c87ce6989bda36"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/report.md",
+      "git_blob": "7cf7678223bf58bcfdc065e3c67adf4b5532345f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/terminal_net_comparison.csv",
+      "git_blob": "c74a00d63938ec005e8e548d16d409cd58214316"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/timing.json",
+      "git_blob": "b5143a1cefaeb70ba1461d08dfc9ea0fa464deb9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/verify_polish.py",
+      "git_blob": "be9bb9d18eb40effbf617d40c1631d5dcb82873a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/visual_review.json",
+      "git_blob": "8fc4d706bc2cbe2fdd8ccc164f2cc06f8e4b0d90"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_polish/work_log.md",
+      "git_blob": "0b4b7bdda2d4d4c3c35b2568d452bf35014518fc"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/.gitattributes",
+      "git_blob": "4d350ea5d43a479a230832c9f7da2de3b353b28d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_coils.png",
+      "git_blob": "e984f62c1c1be0fda307eb767caab4c2138f8120"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_crystal.png",
+      "git_blob": "563192a7bb4cb1b1e139ca0327e10f97af49dcbf"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_eeprom.png",
+      "git_blob": "b86e0003a9a859a6e15f666ad282b1f3ab4cf9c4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_ft232h.png",
+      "git_blob": "ba685963c29cb787cf522e8267e576b1704ac16b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_label_stubs.png",
+      "git_blob": "9085f7bdbbd18cfcb9529ad04430081d8edc9548"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_ldos.png",
+      "git_blob": "bd3d6b8acf1d211b2fa18d1895351cf5ac7e44ae"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_load_switch.png",
+      "git_blob": "2c1a4d7620cc6dcdf8d94c336f0b606a631e691f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_source.png",
+      "git_blob": "e6e1f83bd36e0c1dc0dbc040aced27ab2668e39c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_uart_caps.png",
+      "git_blob": "eedc50cccf2dcf8a225388ca991acd9aaad6b683"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_uart_crossings.png",
+      "git_blob": "2d6d4f6b1cc9c82b315ee5ba01bf430c57ba07f8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/detail_usb_esd.png",
+      "git_blob": "7302bdaf54f64b702146a0adefdf22334d7b5e43"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/erc.json",
+      "git_blob": "f8f30d671b46f27a2f47922e9932b6d3f72b28d4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/export_manifest.json",
+      "git_blob": "94a862a7ab2ed1a16ec1796b81e900ef66dfc2ba"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/netlist.xml",
+      "git_blob": "8ede5db1923484021d3e23f871907e0be1a29b3b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/overview.png",
+      "git_blob": "7d7498956250e5aa66136f883ca72965a9eb07b8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/schematic.pdf",
+      "git_blob": "60d1dbf799963d769fc24c2e990f6bb1513649f1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/schematic.png",
+      "git_blob": "449b917a5a7fc6f4e91ce1838f5383722af3f868"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/after/source_sha256.txt",
+      "git_blob": "65be5aea57516ef61be1bacb3049b4ff509eb8bf"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/a2_usb_uart.kicad_pro",
+      "git_blob": "16b674eaf8da87116be59e8f857109cf95d5089f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/a2_usb_uart.kicad_sch",
+      "git_blob": "9e80dd1011940450307bd9c7fc1888aed60e8dd1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_coils.png",
+      "git_blob": "2350faafe79b52001d0aba11590c16153a30462a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_crystal.png",
+      "git_blob": "792ebeb2626bd208b2018a26f1254a908afb5ebe"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_eeprom.png",
+      "git_blob": "1203d0004ae610938280270f04fd1e1bddc65e7b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_ft232h.png",
+      "git_blob": "de18b2c6b87b3e7f7ec62b4e2d780b6368ea7724"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_label_stubs.png",
+      "git_blob": "30577343b618319266dff4f088e2b6fb1f9c4f23"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_ldos.png",
+      "git_blob": "166744628ce526ece15935a94861259fb8a15237"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_load_switch.png",
+      "git_blob": "825abea1b4e4d1dc795ad17ffbc933c31e432b73"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_source.png",
+      "git_blob": "c8de7fd7c1c8b87cf8bfdca3b1040932012fa691"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_uart_caps.png",
+      "git_blob": "014c5eb722f010b5a688b73ee1c2dac8ce9c92d5"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_uart_crossings.png",
+      "git_blob": "19bfd2ea2fcb7669f442be429a15769488183596"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/detail_usb_esd.png",
+      "git_blob": "d964b5ced239a8605d972b75f80f098ae072ea9b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/erc.json",
+      "git_blob": "6bf071f40086cb8f0ce6a67332581c22dad66073"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/erc_fresh.json",
+      "git_blob": "4f1523279cd49b8c98522acbc43da331e3320c00"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/export_manifest.json",
+      "git_blob": "bb09ba54de77006456d93496264fa850c94413a2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/fp-lib-table",
+      "git_blob": "4e8ef52cf77902c697d57d9f40f01aaf5ef4418a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/netlist.xml",
+      "git_blob": "fe3c641675b63cf2dda03b6f99f3bd7f8f0f38a0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/netlist_fresh.xml",
+      "git_blob": "4138b89ad743c851adcbedb6c6d1de3e89fbf059"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/overview.png",
+      "git_blob": "60c27ccb7bd4575e59a38b9110141a9b97801078"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/schematic.pdf",
+      "git_blob": "3493d02c299f0709e175138c262c6de789fc2985"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/schematic.png",
+      "git_blob": "f65fadeb27648b68e8c16ad57a237e0e527c4128"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/source_sha256.txt",
+      "git_blob": "c305025355fe3117d9dd94cdc1ce59b098828905"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/before/sym-lib-table",
+      "git_blob": "75d7f057beebae4f215ca105748e316e84836340"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison.json",
+      "git_blob": "9af6ccf021042659f77c66b029450b9aff8ec3b1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_coils.png",
+      "git_blob": "1814af67ce25dc7f351e2457a3ceb31cf5061d85"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_crystal.png",
+      "git_blob": "3fbbfb79aa6ba515615da276c195acf6f5be7124"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_eeprom.png",
+      "git_blob": "a5e967f853a96889d7c84063390f059804c45d4a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_ft232h.png",
+      "git_blob": "e5885800370e4d72cc72218ecdbff9b3756b6d28"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_label_stubs.png",
+      "git_blob": "4e4d64daa7f046a968f42179545a0f471cb58401"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_ldos.png",
+      "git_blob": "8482fe7b5a53f401ce73269c9f34ec960c011a86"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_load_switch.png",
+      "git_blob": "690b58eecd13c98efd2e3e4795e4642ddab1c9dd"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_uart_caps.png",
+      "git_blob": "dddf01fd579ebdbb79ce22a555ec883e0f6d3df9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_uart_crossings.png",
+      "git_blob": "4f4b5994c36beb0d66b059daf850dfe124299d9f"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_usb_esd.png",
+      "git_blob": "a6138c49925fb245a498e7d7bd8481c222cd8b2a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/comparison_v3_refine.png",
+      "git_blob": "b186cb686fc0cf1744bd769d4f11bfd019734467"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/component_attribute_comparison.csv",
+      "git_blob": "902de45db32da568db90e12fd03012231ef01044"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/delivery.json",
+      "git_blob": "3bcb0e7e7f2f9f270250a5881991862f56bdb4a4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/documentation_lint.json",
+      "git_blob": "f219ea79fc040a4a01ca322fa8e9d3c80a9c943a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/drawing_metrics.json",
+      "git_blob": "57b4f55eea51771694637adb36c1bef69449d09e"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/environment.json",
+      "git_blob": "ea3dfa6c5618b26398a8175fcf3d2f54eb42cb75"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/export_log.json",
+      "git_blob": "3b806f7e65091d4d0f507850108ee20e6c1c4f5c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/export_refine.py",
+      "git_blob": "2ee7f07374c52f2404d55d67177ef4ec8da14333"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/iterations/01_erc.json",
+      "git_blob": "6e468a0d2ee3f64a756e4849ad1f4808be078427"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/iterations/01_export_log.json",
+      "git_blob": "ac6959636f3ae6b5c8a81afdd1d3949de44ac80b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/iterations/02_ft232h.png",
+      "git_blob": "f8999fcf0246fe3701f4b3f5431ee5f2ac7bd14d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/iterations/02_ldos.png",
+      "git_blob": "3ac9b06e034501a5b84b7e22888b1520e7511be2"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/iterations/02_load_switch.png",
+      "git_blob": "3fed2e82311299653e49a0b5586f7de39afc8692"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/label_audit.json",
+      "git_blob": "a296ccbf14fe516a00d6184cd6493453b59ece5d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/patch_manifest.json",
+      "git_blob": "130d2cdca22dded9c7263bcd6710312cd4829833"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/protected_files.csv",
+      "git_blob": "ba73a131d1b520e89ab7ec93353923c133ce3405"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/provenance.json",
+      "git_blob": "2f94f2116e4a2e6400b4d0af32390aab3acdd1ee"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/refine_v3.py",
+      "git_blob": "9208b15b9d1b7069652d79c625d900be0b3c657d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/render_details.py",
+      "git_blob": "297fc8d8511e84dff3d83ecb5ef5fd92d41a9d8b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/report.md",
+      "git_blob": "68da7618351dca2c708afc460faf50b39290f62a"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/terminal_net_comparison.csv",
+      "git_blob": "7f2917ba3089b38aea2e01084ad507f8f4b889bb"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/timing.json",
+      "git_blob": "f028f16d1b696794804eb7c358e21d4d5130baf6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/verify_refine.py",
+      "git_blob": "a1738c595d0189d727a8bcb4a116988b5ccc62f3"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/schematic_v3_refine/work_log.md",
+      "git_blob": "3678f723d085fe0b4eb728440e3cb4f584179b34"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/verification.json",
+      "git_blob": "df136ec75f5bc2b7464e64ffd9ac169ee18bbb6d"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/verification_console.txt",
+      "git_blob": "2d0a70f6e153a77923f4bce408eb2e2a5958cd3b"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/work_log.md",
+      "git_blob": "feb287fe5cc27c336fad03ccbbf927b6ad7a42d0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/yomiyasu_README.json",
+      "git_blob": "cc048c17816a628fbb679e1a62bda3684b72b6f1"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/yomiyasu_manufacturing_review_README.json",
+      "git_blob": "8d10e6c353d13ac8f5f979beaddc0df80e9c3764"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/yomiyasu_reports_decision_log.json",
+      "git_blob": "28c356b346167897124fcdf79e8cc21197574cee"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/yomiyasu_reports_discussion_log.json",
+      "git_blob": "2bf95b356fa5f7c7610fefef114ee4bbec0488f9"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/yomiyasu_reports_result.json",
+      "git_blob": "057419869b448d01809a9b874f0b00e6af84d15c"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/reports/yomiyasu_reports_work_log.json",
+      "git_blob": "9cd4191bfb62dbc0a6fe292330f5b65895d2da02"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/back_legend.py",
+      "git_blob": "caa15cc4f269072428d5661af2a14d7fade84578"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/design.py",
+      "git_blob": "a2e690a23e3a89e34e82d61403574487296bafee"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/export.ps1",
+      "git_blob": "f4c50a8aee80f18941eb3f2fa0d3dfe4cf859bca"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/finalize.py",
+      "git_blob": "8ade0ae463207d2a0187a9214d5b0d0dcc393fc7"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/generate.py",
+      "git_blob": "0155c0553e2a02a939558f1a44e620de216aafb8"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/preview.py",
+      "git_blob": "f7bc1cfd39841b140bf0e0bccc4db2be34ed9ce4"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/repair_routes.py",
+      "git_blob": "ac9a179f602d8b21c5b2c492b0a47f3eca55e824"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/resolve_cages.py",
+      "git_blob": "3b6a1fe077c4387f1ed5b86f5e6a24889967c2e6"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/route.py",
+      "git_blob": "08e521480ab2c00c756b50e848a2265e59af2e35"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/sexpr.py",
+      "git_blob": "8f53841ed78f95542b2a557d2b5376e6d1493027"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/silkscreen.py",
+      "git_blob": "6676ebbe9f91bafcccc857d811ee618e3ed272e0"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/scripts/verify.py",
+      "git_blob": "191118223cc79d2f7cee6251e349d085834ee353"
+    },
+    {
+      "path": "01_New_Design/kicad_direct/sym-lib-table",
+      "git_blob": "bf68e0a0da96108e2d48be50004e17e2f806cb09"
+    }
+  ],
+  "unchanged_file_count": 619,
+  "schematic_pcb_approval": "PCB review pending; manufacturing files old"
+}

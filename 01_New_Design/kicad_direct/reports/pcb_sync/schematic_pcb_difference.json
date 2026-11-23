@@ -1,0 +1,1071 @@
+{
+  "C1": {
+    "value": {
+      "pcb": "1u",
+      "schematic": "4.7u"
+    },
+    "footprint": {
+      "pcb": "A2:C_0402_1005Metric",
+      "schematic": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "pads": {
+      "1": {
+        "pcb": "/USB5V",
+        "schematic": "USB5V"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C10": {
+    "pads": {
+      "1": {
+        "pcb": "/VPLL",
+        "schematic": "VPLL"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C11": {
+    "value": {
+      "pcb": "1u",
+      "schematic": "4.7u"
+    },
+    "footprint": {
+      "pcb": "A2:C_0402_1005Metric",
+      "schematic": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "pads": {
+      "1": {
+        "pcb": "/VPHY",
+        "schematic": "VPHY"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C12": {
+    "value": {
+      "pcb": "1u",
+      "schematic": "4.7u"
+    },
+    "footprint": {
+      "pcb": "A2:C_0402_1005Metric",
+      "schematic": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "pads": {
+      "1": {
+        "pcb": "/VPLL",
+        "schematic": "VPLL"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C13": {
+    "value": {
+      "pcb": "27p",
+      "schematic": "15p 1%"
+    },
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C14": {
+    "value": {
+      "pcb": "27p",
+      "schematic": "15p 1%"
+    },
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C15": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C16": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C17": {
+    "pads": {
+      "1": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C18": {
+    "pads": {
+      "1": {
+        "pcb": "/USB5V",
+        "schematic": "USB5V"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C19": {
+    "pads": {
+      "1": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C2": {
+    "value": {
+      "pcb": "2.2u",
+      "schematic": "4.7u"
+    },
+    "footprint": {
+      "pcb": "A2:C_0603_1608Metric",
+      "schematic": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C20": {
+    "removed": {
+      "value": "1u",
+      "footprint": "A2:C_0402_1005Metric",
+      "uuid": "f5b588f1-6c41-4dad-a1d3-d80c338181a9",
+      "path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb/38337ebd-ac90-5d9e-80d1-bf5fa353c613",
+      "pos": [
+        102.8,
+        131.199999
+      ],
+      "angle": 0.0,
+      "dnp": false,
+      "pads": {
+        "1": {
+          "net": "/USB5V",
+          "pos": [
+            102.32,
+            131.199999
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "uuid": "c4406796-3e7b-44ed-9f47-3c978e4b4bb7"
+        },
+        "2": {
+          "net": "/GND",
+          "pos": [
+            103.28,
+            131.199999
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "uuid": "eff98994-5205-4571-83d5-addcaac4ae90"
+        }
+      }
+    }
+  },
+  "C21": {
+    "removed": {
+      "value": "1u",
+      "footprint": "A2:C_0402_1005Metric",
+      "uuid": "cce932f5-ed1b-48d9-8eea-5d50bad1c890",
+      "path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb/bcd35d5c-ed75-5c52-aaaf-1cac066f05bb",
+      "pos": [
+        105.5,
+        136.5
+      ],
+      "angle": 90.0,
+      "dnp": false,
+      "pads": {
+        "1": {
+          "net": "/USB5V_ENABLED",
+          "pos": [
+            105.5,
+            136.98
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "uuid": "345b66aa-c789-42c4-a7b4-a5a9e28bc59a"
+        },
+        "2": {
+          "net": "/GND",
+          "pos": [
+            105.5,
+            136.02
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "uuid": "cada8b9c-e711-4a17-9205-216cb30fcd6f"
+        }
+      }
+    }
+  },
+  "C22": {
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C23": {
+    "added": {
+      "value": "100n",
+      "footprint": "A2:C_0402_1005Metric",
+      "fields": {
+        "MPN": "CL05B104KO5NNNC",
+        "Note": "100nF local decoupling for U1.40 VREGIN, parallel to C1; place directly at this PCB pin.",
+        "Footprint": "A2:C_0402_1005Metric",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "properties": {
+        "MPN": "CL05B104KO5NNNC",
+        "Note": "100nF local decoupling for U1.40 VREGIN, parallel to C1; place directly at this PCB pin.",
+        "Sheetname": "a2_usb_uart",
+        "Sheetfile": "a2_usb_uart.kicad_sch",
+        "ki_keywords": "cap capacitor",
+        "ki_fp_filters": "C_*"
+      },
+      "uuid": "f8bb378e-b498-4026-9cd4-1cf430da7a85",
+      "sheet": "/"
+    }
+  },
+  "C3": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C4": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C5": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C6": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C7": {
+    "pads": {
+      "1": {
+        "pcb": "/VCCA_1V8",
+        "schematic": "VCCA_1V8"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C8": {
+    "pads": {
+      "1": {
+        "pcb": "/VCORE_1V8",
+        "schematic": "VCORE_1V8"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "C9": {
+    "pads": {
+      "1": {
+        "pcb": "/VPHY",
+        "schematic": "VPHY"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "D1": {
+    "value": {
+      "pcb": "TPD2EUSB30",
+      "schematic": "ESD321DPYR"
+    },
+    "footprint": {
+      "pcb": "A2:Texas_DRT-3",
+      "schematic": "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+    },
+    "pads": {
+      "2": {
+        "pcb": "/USB_D-",
+        "schematic": "GND"
+      },
+      "3": {
+        "pcb": "/GND",
+        "schematic": ""
+      }
+    }
+  },
+  "D2": {
+    "pads": {
+      "1": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "D5": {
+    "added": {
+      "value": "ESD321DPYR",
+      "footprint": "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm",
+      "fields": {
+        "MPN": "ESD321DPYR",
+        "Note": "Unidirectional USB ESD; DPY pin 1=IO(K), pin 2=GND(A); R-0001",
+        "Footprint": "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/esd321.pdf",
+        "Description": ""
+      },
+      "properties": {
+        "MPN": "ESD321DPYR",
+        "Note": "Unidirectional USB ESD; DPY pin 1=IO(K), pin 2=GND(A); R-0001",
+        "Sheetname": "a2_usb_uart",
+        "Sheetfile": "a2_usb_uart.kicad_sch",
+        "ki_keywords": "diode",
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*"
+      },
+      "uuid": "b2f84db6-a6f5-44ee-8e80-0c0396011468",
+      "sheet": "/"
+    }
+  },
+  "FB1": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/VPHY",
+        "schematic": "VPHY"
+      }
+    }
+  },
+  "FB2": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/VPLL",
+        "schematic": "VPLL"
+      }
+    }
+  },
+  "J1": {
+    "pads": {
+      "1": {
+        "pcb": "/USB5V",
+        "schematic": "USB5V"
+      },
+      "4": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "SH": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "J2": {
+    "pads": {
+      "1": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "4": {
+        "pcb": "/USB5V_OUT",
+        "schematic": "USB5V_OUT"
+      }
+    }
+  },
+  "J3": {
+    "pads": {
+      "3": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "4": {
+        "pcb": "/VIO_OUT",
+        "schematic": "VIO_OUT"
+      }
+    }
+  },
+  "Q1": {
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "R1": {
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "R11": {
+    "pads": {
+      "1": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      }
+    }
+  },
+  "R12": {
+    "pads": {
+      "1": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      }
+    }
+  },
+  "R13": {
+    "pads": {
+      "1": {
+        "pcb": "/USB5V",
+        "schematic": "USB5V"
+      }
+    }
+  },
+  "R14": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "R15": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "R16": {
+    "removed": {
+      "value": "100",
+      "footprint": "A2:R_0402_1005Metric",
+      "uuid": "d3ae8ea3-3ffe-4bf0-b6be-6f1b6d9f1960",
+      "path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb/8bab8709-4ba1-5ef9-8156-447bf952442c",
+      "pos": [
+        106.0,
+        134.0
+      ],
+      "angle": 90.0,
+      "dnp": false,
+      "pads": {
+        "1": {
+          "net": "/QOD",
+          "pos": [
+            106.0,
+            134.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ],
+          "uuid": "2c49ff82-86f4-4fc9-98d8-578354c9d2b4"
+        },
+        "2": {
+          "net": "/USB5V_ENABLED",
+          "pos": [
+            106.0,
+            133.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ],
+          "uuid": "9d98327f-8608-4ab6-abbe-638c4f96f172"
+        }
+      }
+    }
+  },
+  "R17": {
+    "added": {
+      "value": "0R / 0603",
+      "footprint": "A2:R_0603_Bourns_CRPF",
+      "fields": {
+        "MPN": "CR0603-J/-000EPF",
+        "Note": "Normally fitted jumper; no overcurrent protection. PPTC replacement requires land-pattern and electrical requalification.",
+        "Footprint": "A2:R_0603_Bourns_CRPF",
+        "Datasheet": "https://www.bourns.com/docs/product-datasheets/cr-pf.pdf",
+        "Description": ""
+      },
+      "properties": {
+        "MPN": "CR0603-J/-000EPF",
+        "Note": "Normally fitted jumper; no overcurrent protection. PPTC replacement requires land-pattern and electrical requalification.",
+        "Sheetname": "a2_usb_uart",
+        "Sheetfile": "a2_usb_uart.kicad_sch",
+        "ki_keywords": "R res resistor",
+        "ki_fp_filters": "R_*"
+      },
+      "uuid": "1e9dd570-7a6d-46c1-a336-5a3bf71b5166",
+      "sheet": "/"
+    }
+  },
+  "R2": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "R3": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "R5": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "R6": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "R7": {
+    "pads": {
+      "1": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      }
+    }
+  },
+  "R8": {
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "SW1": {
+    "pads": {
+      "1": {
+        "pcb": "unconnected-(SW1-1V8{slash}open-Pad1)",
+        "schematic": "unconnected-(SW1-1V8/open-Pad1)"
+      },
+      "3": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "SW2": {
+    "pads": {
+      "1": {
+        "pcb": "unconnected-(SW2-OFF{slash}open-Pad1)",
+        "schematic": "unconnected-(SW2-OFF/open-Pad1)"
+      },
+      "2": {
+        "pcb": "/USB5V_OUT",
+        "schematic": "/USB5V_SW"
+      },
+      "3": {
+        "pcb": "/USB5V_ENABLED",
+        "schematic": "USB5V"
+      }
+    }
+  },
+  "SW3": {
+    "pads": {
+      "1": {
+        "pcb": "unconnected-(SW3-OFF{slash}open-Pad1)",
+        "schematic": "unconnected-(SW3-OFF/open-Pad1)"
+      },
+      "2": {
+        "pcb": "/VIO_OUT",
+        "schematic": "VIO_OUT"
+      },
+      "3": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      }
+    }
+  },
+  "TP1": {
+    "added": {
+      "value": "D1.5mm",
+      "footprint": "A2:TestPoint_Pad_D1.5mm",
+      "fields": {
+        "MPN": "PCB copper pad; no fitted component",
+        "Note": "Exposed F.Cu pad, diameter 1.5mm, no solder paste. Remove R17 and bridge TP1/TP2 with an ammeter for current measurement.",
+        "Footprint": "A2:TestPoint_Pad_D1.5mm",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "properties": {
+        "MPN": "PCB copper pad; no fitted component",
+        "Note": "Exposed F.Cu pad, diameter 1.5mm, no solder paste. Remove R17 and bridge TP1/TP2 with an ammeter for current measurement.",
+        "Sheetname": "a2_usb_uart",
+        "Sheetfile": "a2_usb_uart.kicad_sch",
+        "exclude_from_bom": "",
+        "ki_keywords": "test point tp",
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "uuid": "06061412-bc94-43df-909f-062a65bae0af",
+      "sheet": "/"
+    }
+  },
+  "TP2": {
+    "added": {
+      "value": "D1.5mm",
+      "footprint": "A2:TestPoint_Pad_D1.5mm",
+      "fields": {
+        "MPN": "PCB copper pad; no fitted component",
+        "Note": "Exposed F.Cu pad, diameter 1.5mm, no solder paste. Remove R17 and bridge TP1/TP2 with an ammeter for current measurement.",
+        "Footprint": "A2:TestPoint_Pad_D1.5mm",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "properties": {
+        "MPN": "PCB copper pad; no fitted component",
+        "Note": "Exposed F.Cu pad, diameter 1.5mm, no solder paste. Remove R17 and bridge TP1/TP2 with an ammeter for current measurement.",
+        "Sheetname": "a2_usb_uart",
+        "Sheetfile": "a2_usb_uart.kicad_sch",
+        "exclude_from_bom": "",
+        "ki_keywords": "test point tp",
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "uuid": "ee134237-0d51-49fe-b3d6-543efa994125",
+      "sheet": "/"
+    }
+  },
+  "U1": {
+    "pads": {
+      "3": {
+        "pcb": "/VPHY",
+        "schematic": "VPHY"
+      },
+      "4": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "8": {
+        "pcb": "/VPLL",
+        "schematic": "VPLL"
+      },
+      "9": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "10": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "11": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "12": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "22": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "23": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "24": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "35": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "36": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "37": {
+        "pcb": "/VCCA_1V8",
+        "schematic": "VCCA_1V8"
+      },
+      "38": {
+        "pcb": "/VCORE_1V8",
+        "schematic": "VCORE_1V8"
+      },
+      "39": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "40": {
+        "pcb": "/+3V3",
+        "schematic": "USB5V"
+      },
+      "41": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "42": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "46": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "47": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "48": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  },
+  "U2": {
+    "pads": {
+      "1": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "2": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      },
+      "3": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "8": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "9": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "16": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      }
+    }
+  },
+  "U3": {
+    "removed": {
+      "value": "AP2112K-3.3",
+      "footprint": "A2:SOT-23-5",
+      "uuid": "1069588e-b52f-4dff-834f-043b9d39cd30",
+      "path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb/16cb5176-b9a1-5ba7-82ba-c5b67ff50b8a",
+      "pos": [
+        118.5,
+        108.5
+      ],
+      "angle": 0.0,
+      "dnp": false,
+      "pads": {
+        "1": {
+          "net": "/USB5V",
+          "pos": [
+            117.3625,
+            107.55
+          ],
+          "size": [
+            1.325,
+            0.6
+          ],
+          "uuid": "2cbdaa1f-7217-4509-8f8c-7d31adb6eef0"
+        },
+        "2": {
+          "net": "/GND",
+          "pos": [
+            117.3625,
+            108.5
+          ],
+          "size": [
+            1.325,
+            0.6
+          ],
+          "uuid": "f3a920ac-23f3-48d2-b394-862e5cbb3297"
+        },
+        "3": {
+          "net": "/USB5V",
+          "pos": [
+            117.3625,
+            109.45
+          ],
+          "size": [
+            1.325,
+            0.6
+          ],
+          "uuid": "e51030d1-07ca-481a-9dbf-bd85d6f4bd8d"
+        },
+        "4": {
+          "net": "unconnected-(U3-NC-Pad4)",
+          "pos": [
+            119.6375,
+            109.45
+          ],
+          "size": [
+            1.325,
+            0.6
+          ],
+          "uuid": "d7aafac9-0fb1-4188-a030-4f9d639de0b8"
+        },
+        "5": {
+          "net": "/+3V3",
+          "pos": [
+            119.6375,
+            107.55
+          ],
+          "size": [
+            1.325,
+            0.6
+          ],
+          "uuid": "2d29a777-d48b-4904-8c14-a50c23f1d10c"
+        }
+      }
+    }
+  },
+  "U4": {
+    "pads": {
+      "1": {
+        "pcb": "/USB5V",
+        "schematic": "USB5V"
+      },
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "5": {
+        "pcb": "/VIO",
+        "schematic": "VIO"
+      }
+    }
+  },
+  "U5": {
+    "pads": {
+      "5": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "8": {
+        "pcb": "/+3V3",
+        "schematic": "+3V3"
+      }
+    }
+  },
+  "U6": {
+    "removed": {
+      "value": "TPS22919DCK",
+      "footprint": "A2:SOT-363_SC-70-6",
+      "uuid": "62f694eb-cfba-4fd7-9699-52811ef61d4a",
+      "path": "/3e3080c2-3ce4-53d0-8789-6121588a45cb/c2b6f5de-d08c-5858-9242-b4acbc3fc2e0",
+      "pos": [
+        103.5,
+        134.0
+      ],
+      "angle": 0.0,
+      "dnp": false,
+      "pads": {
+        "1": {
+          "net": "/USB5V",
+          "pos": [
+            102.6625,
+            133.35
+          ],
+          "size": [
+            1.025,
+            0.35
+          ],
+          "uuid": "0f60485a-fecf-4fd3-a5e3-8134f9d3723e"
+        },
+        "2": {
+          "net": "/GND",
+          "pos": [
+            102.6625,
+            134.0
+          ],
+          "size": [
+            1.025,
+            0.35
+          ],
+          "uuid": "86cc028f-6eb2-4de2-b53a-ce57d18987e7"
+        },
+        "3": {
+          "net": "/PWR_EN",
+          "pos": [
+            102.6625,
+            134.65
+          ],
+          "size": [
+            1.025,
+            0.35
+          ],
+          "uuid": "d05ad6de-c45b-4c63-a5e6-b282b9325090"
+        },
+        "4": {
+          "net": "unconnected-(U6-NC-Pad4)",
+          "pos": [
+            104.3375,
+            134.65
+          ],
+          "size": [
+            1.025,
+            0.35
+          ],
+          "uuid": "f727998f-ba3e-4917-9fbd-3f44ddafb724"
+        },
+        "5": {
+          "net": "/QOD",
+          "pos": [
+            104.3375,
+            134.0
+          ],
+          "size": [
+            1.025,
+            0.35
+          ],
+          "uuid": "cb4b4ee5-b503-48ae-9f9c-f4278e2bd8f3"
+        },
+        "6": {
+          "net": "/USB5V_ENABLED",
+          "pos": [
+            104.3375,
+            133.35
+          ],
+          "size": [
+            1.025,
+            0.35
+          ],
+          "uuid": "664c1351-b515-4130-a7bd-55008f871171"
+        }
+      }
+    }
+  },
+  "Y1": {
+    "value": {
+      "pcb": "12MHz 18pF",
+      "schematic": "12MHz 12pF"
+    },
+    "pads": {
+      "2": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      },
+      "4": {
+        "pcb": "/GND",
+        "schematic": "GND"
+      }
+    }
+  }
+}

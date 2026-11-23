@@ -1,0 +1,2123 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T16:20:24",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "値 ( C1 ) はシンボル値 ( 1u ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C1",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 105.8
+                    },
+                    "uuid": "9bb5c833-a531-4c96-b913-4844b6112a1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "A2:C_0402_1005Metric はシンボル ( Capacitor_SMD:C_0805_2012Metric ) によって指定されたフットプリントと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C1",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 105.8
+                    },
+                    "uuid": "9bb5c833-a531-4c96-b913-4844b6112a1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'CL05A105KA5NQNC', 回路図: 'CL21A475KAQNNNE')",
+            "items": [
+                {
+                    "description": "フットプリント C1",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 105.8
+                    },
+                    "uuid": "9bb5c833-a531-4c96-b913-4844b6112a1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/USB5V)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/USB5V] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 106.28
+                    },
+                    "uuid": "e5e8ac45-1615-46cd-8d67-43d77e1667ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 105.32
+                    },
+                    "uuid": "d8cf28ea-b4a5-41ac-b25f-90d14a1ccf02"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "値 ( C2 ) はシンボル値 ( 2.2u ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C2",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 111.5
+                    },
+                    "uuid": "820dfdd6-2f5d-48a6-9969-f67bb663316e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "A2:C_0603_1608Metric はシンボル ( Capacitor_SMD:C_0805_2012Metric ) によって指定されたフットプリントと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C2",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 111.5
+                    },
+                    "uuid": "820dfdd6-2f5d-48a6-9969-f67bb663316e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'GRM188R61A225KE34D', 回路図: 'CL21A475KAQNNNE')",
+            "items": [
+                {
+                    "description": "フットプリント C2",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 111.5
+                    },
+                    "uuid": "820dfdd6-2f5d-48a6-9969-f67bb663316e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.725,
+                        "y": 111.5
+                    },
+                    "uuid": "3a9ddee6-5be9-4d60-90ad-17881b3a6c2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.275,
+                        "y": 111.5
+                    },
+                    "uuid": "640f9717-8d30-40bc-bd2e-9fb47d4dd8a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "フィールド 'Note' が異なります(プリント基板図: 'Capacitance at DC bias must meet regulator minimum', 回路図: '100nF local decoupling for U1.12 VCCIO; place directly at this PCB pin.')",
+            "items": [
+                {
+                    "description": "フットプリント C3",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 109.6
+                    },
+                    "uuid": "2acc9cb5-f3fc-4626-b0e6-2e00bc50d745"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.52,
+                        "y": 109.6
+                    },
+                    "uuid": "a7bdf158-bfff-48ee-a9e1-4a801caa9c6f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.48,
+                        "y": 109.6
+                    },
+                    "uuid": "a04ecf0e-afdd-4aee-bc65-c1f20c959708"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "フィールド 'Note' が異なります(プリント基板図: 'Capacitance at DC bias must meet regulator minimum', 回路図: '100nF local decoupling for U1.24 VCCIO; place directly at this PCB pin.')",
+            "items": [
+                {
+                    "description": "フットプリント C4",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 115.0
+                    },
+                    "uuid": "a728d648-4877-490c-917f-fae9fe646544"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 115.48
+                    },
+                    "uuid": "bee509eb-5b5e-4033-b8b7-235b15de92a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 114.52
+                    },
+                    "uuid": "d3db2617-70df-424b-bb1f-d9265ce20b16"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "フィールド 'Note' が異なります(プリント基板図: 'Capacitance at DC bias must meet regulator minimum', 回路図: '100nF local decoupling for U1.39 VCCD; C2 is the parallel bulk capacitor.')",
+            "items": [
+                {
+                    "description": "フットプリント C5",
+                    "pos": {
+                        "x": 117.7,
+                        "y": 113.0
+                    },
+                    "uuid": "c13b577a-642a-4475-be4d-a91790447818"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.22,
+                        "y": 113.0
+                    },
+                    "uuid": "296fe8d5-9cd2-402f-9ee6-131813d89213"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.18,
+                        "y": 113.0
+                    },
+                    "uuid": "46e26f18-0b04-4163-aa82-6be908b63b9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "フィールド 'Note' が異なります(プリント基板図: 'Capacitance at DC bias must meet regulator minimum', 回路図: '100nF local decoupling for U1.46 VCCIO; place directly at this PCB pin.')",
+            "items": [
+                {
+                    "description": "フットプリント C6",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 122.5
+                    },
+                    "uuid": "78be483b-0a51-46cb-af19-151664978478"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.52,
+                        "y": 122.5
+                    },
+                    "uuid": "cea765a5-c3b9-41f8-a15b-0ac41006437d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 111.48,
+                        "y": 122.5
+                    },
+                    "uuid": "5a13a30e-e348-44c9-9b38-2244b78240c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VCCA_1V8)は、回路図(VCCA_1V8)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VCCA_1V8] - C7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.2,
+                        "y": 124.28
+                    },
+                    "uuid": "f95c253e-59c7-4839-978d-8446d8ea0364"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.2,
+                        "y": 123.32
+                    },
+                    "uuid": "68b4276f-6211-41d5-991c-ea85ed08fe5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VCORE_1V8)は、回路図(VCORE_1V8)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VCORE_1V8] - C8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 124.28
+                    },
+                    "uuid": "5a45eea3-9416-4482-8e15-dc617d4f2264"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 123.32
+                    },
+                    "uuid": "30caf3fd-dfca-456c-867d-622b9a626e6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VPHY)は、回路図(VPHY)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VPHY] - C9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.52,
+                        "y": 107.0
+                    },
+                    "uuid": "b6ea44aa-62ff-44a9-9b25-ebd37cb233dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.48,
+                        "y": 107.0
+                    },
+                    "uuid": "d4c082b8-5ec2-4937-a791-60d1e5164f87"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VPLL)は、回路図(VPLL)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VPLL] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 109.48
+                    },
+                    "uuid": "1679aa98-02ad-4c7b-a76f-4aa0f2649bb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.5,
+                        "y": 108.52
+                    },
+                    "uuid": "1dad6333-e79e-428e-86d2-38ca209443bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "値 ( C11 ) はシンボル値 ( 1u ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 106.8
+                    },
+                    "uuid": "27a74878-42a5-4345-9432-0bd5bcaf6f41"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "A2:C_0402_1005Metric はシンボル ( Capacitor_SMD:C_0805_2012Metric ) によって指定されたフットプリントと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 106.8
+                    },
+                    "uuid": "27a74878-42a5-4345-9432-0bd5bcaf6f41"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フットプリントの属性がシンボルと一致しない: ''未実装(DNP)'' の設定が異なります",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 106.8
+                    },
+                    "uuid": "27a74878-42a5-4345-9432-0bd5bcaf6f41"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'CL05A105KA5NQNC', 回路図: 'CL21A475KAQNNNE')",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 106.8
+                    },
+                    "uuid": "27a74878-42a5-4345-9432-0bd5bcaf6f41"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/VPHY)は、回路図(VPHY)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VPHY] - C11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.52,
+                        "y": 106.8
+                    },
+                    "uuid": "69776bad-89fc-4446-a7a3-78d7805f02c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.48,
+                        "y": 106.8
+                    },
+                    "uuid": "99a53b32-3528-433b-90f1-cb041b1827cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "値 ( C12 ) はシンボル値 ( 1u ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C12",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 112.3
+                    },
+                    "uuid": "86319332-fffc-48ab-afe7-47a2db419f3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "A2:C_0402_1005Metric はシンボル ( Capacitor_SMD:C_0805_2012Metric ) によって指定されたフットプリントと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C12",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 112.3
+                    },
+                    "uuid": "86319332-fffc-48ab-afe7-47a2db419f3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フットプリントの属性がシンボルと一致しない: ''未実装(DNP)'' の設定が異なります",
+            "items": [
+                {
+                    "description": "フットプリント C12",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 112.3
+                    },
+                    "uuid": "86319332-fffc-48ab-afe7-47a2db419f3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'CL05A105KA5NQNC', 回路図: 'CL21A475KAQNNNE')",
+            "items": [
+                {
+                    "description": "フットプリント C12",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 112.3
+                    },
+                    "uuid": "86319332-fffc-48ab-afe7-47a2db419f3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/VPLL)は、回路図(VPLL)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VPLL] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 112.78
+                    },
+                    "uuid": "e95543ab-4775-40c4-9328-4266d95f3bcd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 111.82
+                    },
+                    "uuid": "66bb8660-ae02-463e-a32b-b9c2aeb28393"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "値 ( C13 ) はシンボル値 ( 27p ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C13",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 107.2
+                    },
+                    "uuid": "d7d152ae-160e-42e4-85fd-96b1ea988f22"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'C1005C0G1H270J050BA', 回路図: 'GRM1555C1H150FA01D')",
+            "items": [
+                {
+                    "description": "フットプリント C13",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 107.2
+                    },
+                    "uuid": "d7d152ae-160e-42e4-85fd-96b1ea988f22"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 106.72
+                    },
+                    "uuid": "2f978d28-b9eb-4c83-a1cd-8921e520d769"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "値 ( C14 ) はシンボル値 ( 27p ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント C14",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 113.0
+                    },
+                    "uuid": "738db9db-0509-4607-a86c-547c9479bcd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'C1005C0G1H270J050BA', 回路図: 'GRM1555C1H150FA01D')",
+            "items": [
+                {
+                    "description": "フットプリント C14",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 113.0
+                    },
+                    "uuid": "738db9db-0509-4607-a86c-547c9479bcd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 101.6,
+                        "y": 112.52
+                    },
+                    "uuid": "f9c6c030-054b-4088-9cc3-c64839bfc37f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.52,
+                        "y": 119.3
+                    },
+                    "uuid": "895ec2a8-ed84-4fcb-aac2-3af09748786c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 104.48,
+                        "y": 119.3
+                    },
+                    "uuid": "7711ec65-5d96-4902-a0a9-a38c959b2a2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - C16 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.5,
+                        "y": 124.48
+                    },
+                    "uuid": "d815d531-400c-448b-a858-2e1524768e26"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C16 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.5,
+                        "y": 123.52
+                    },
+                    "uuid": "240375a9-dd90-4261-8cd3-be787d1a82a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VIO] - C17 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 127.18
+                    },
+                    "uuid": "71ac8a2a-9d66-428d-bd32-e0c4aca30cae"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C17 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 126.22
+                    },
+                    "uuid": "38119f91-305e-4151-8d06-c58d36cd7896"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/USB5V] - C18 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.52,
+                        "y": 132.6
+                    },
+                    "uuid": "ab957aa4-ea19-4a64-bc56-97e5b5772da2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C18 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.48,
+                        "y": 132.6
+                    },
+                    "uuid": "b7b49665-0ac5-4118-b34d-b0d5a0e21d2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VIO] - C19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.925,
+                        "y": 133.5
+                    },
+                    "uuid": "db5cfebe-09d9-4d8f-b839-1291d6cadab4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 111.475,
+                        "y": 133.5
+                    },
+                    "uuid": "d138ce04-37f7-4a92-ac11-5ce92482fc20"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C22 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 114.52
+                    },
+                    "uuid": "df0ed1e0-953e-404f-aba5-1708e8e8b5c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "見つからないフットプリント C23 (100n)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "値 ( D1 ) はシンボル値 ( TPD2EUSB30 ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 107.5
+                    },
+                    "uuid": "a7dd2ca4-c4c6-4ba5-8b03-59008240cf66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "A2:Texas_DRT-3 はシンボル ( Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm ) によって指定されたフットプリントと一致しません",
+            "items": [
+                {
+                    "description": "フットプリント D1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 107.5
+                    },
+                    "uuid": "a7dd2ca4-c4c6-4ba5-8b03-59008240cf66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'TPD2EUSB30DRTR', 回路図: 'ESD321DPYR')",
+            "items": [
+                {
+                    "description": "フットプリント D1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 107.5
+                    },
+                    "uuid": "a7dd2ca4-c4c6-4ba5-8b03-59008240cf66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/USB_D-)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB_D-] - D1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 111.35,
+                        "y": 107.925
+                    },
+                    "uuid": "53e3a357-87e7-4ac7-8884-4206120c49dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "回路図に対応するピンが見つかりません",
+            "items": [
+                {
+                    "description": "パッド 3 [/GND] - D1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 107.075
+                    },
+                    "uuid": "8d4a06bd-c2d2-4fc0-97e4-b81911373b37"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/GND] - D2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 105.7875
+                    },
+                    "uuid": "ddc04c76-d65b-400f-b293-cbd93b652352"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "見つからないフットプリント D5 (ESD321DPYR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - FB1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.515,
+                        "y": 108.8
+                    },
+                    "uuid": "cccb71b9-31ff-47d6-b5a5-cf3a45b1b0b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VPHY)は、回路図(VPHY)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/VPHY] - FB1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.485,
+                        "y": 108.8
+                    },
+                    "uuid": "33c9459b-f0ca-4c3c-956e-5b8090dc6f8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - FB2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.515,
+                        "y": 107.5
+                    },
+                    "uuid": "9d8942bf-771e-4e57-ba9b-d3680afd99d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VPLL)は、回路図(VPLL)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/VPLL] - FB2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.485,
+                        "y": 107.5
+                    },
+                    "uuid": "48150fc4-c08a-4da4-905a-4c522c93f985"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 104.75
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 4 [/GND] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 104.75
+                    },
+                    "uuid": "19fc74bd-b159-425e-a2c8-be66e72a764c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "PTHパッド SH [/GND] (J1)",
+                    "pos": {
+                        "x": 105.15,
+                        "y": 102.15
+                    },
+                    "uuid": "d7441f17-d2ad-4911-8d6d-3e4b193a618f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "PTHパッド SH [/GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.15
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/GND] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 147.3
+                    },
+                    "uuid": "0a0c2aff-d74e-466b-bdfe-fafc8f09e28a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V_OUT)は、回路図(USB5V_OUT)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 4 [/USB5V_OUT] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.81,
+                        "y": 147.3
+                    },
+                    "uuid": "b68ca59f-ec9e-4af2-9c8a-e315e481f7e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 3 [/GND] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.27,
+                        "y": 143.655
+                    },
+                    "uuid": "da97f905-9483-47cf-8569-7470b15eaa88"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO_OUT)は、回路図(VIO_OUT)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 4 [/VIO_OUT] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.81,
+                        "y": 140.345
+                    },
+                    "uuid": "1212ead9-f7b6-40e4-9e18-699ddcaaac3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - Q1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.5625,
+                        "y": 124.95
+                    },
+                    "uuid": "e75fa8bb-9b4b-4ee5-9536-fdfbad9b00a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - R1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 110.29
+                    },
+                    "uuid": "12222349-3781-45ee-929f-19e70ff86cec"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - R2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 115.51
+                    },
+                    "uuid": "1c046e87-86e2-4bd7-b20b-a745af493952"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - R3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 127.51
+                    },
+                    "uuid": "b3e07838-a8ae-4640-be27-0939ef280a5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - R5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.69,
+                        "y": 126.8
+                    },
+                    "uuid": "371c4a55-a4df-44a2-baf3-8c576d0a355b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - R6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 126.91
+                    },
+                    "uuid": "07cc33a3-8798-4b0f-b925-12b5c425994c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VIO] - R7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.2,
+                        "y": 135.71
+                    },
+                    "uuid": "5a333f1f-111c-481a-a294-1b95487d588e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - R8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.7,
+                        "y": 136.89
+                    },
+                    "uuid": "a6f0fa52-bee8-4765-bbc6-c033a0624174"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VIO] - R11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 129.51
+                    },
+                    "uuid": "35aa1aa6-276d-4ac7-b6a8-222ce83318bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/VIO] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 132.01
+                    },
+                    "uuid": "6605991e-7caa-4996-9f07-82def9c52779"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/USB5V] - R13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.49,
+                        "y": 103.0
+                    },
+                    "uuid": "ea1f9993-80c9-41c8-a558-5b3ebde937ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - R14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 118.51
+                    },
+                    "uuid": "dfee3d50-dc78-427e-b6ed-93cd25b07448"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - R15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.2,
+                        "y": 118.51
+                    },
+                    "uuid": "fd82962a-98ae-4348-a23a-bc253dd951e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "見つからないフットプリント R17 (0R / 0603)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 3 [/GND] - SW1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.27,
+                        "y": 132.5
+                    },
+                    "uuid": "32febbc9-7551-4b67-9f6c-cb97ebcf004c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V_OUT)は、回路図(/USB5V_SW)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB5V_OUT] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V_ENABLED)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 3 [/USB5V_ENABLED] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 144.25
+                    },
+                    "uuid": "e45fe7cc-30cd-4414-9fde-f5ae7f21134d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO_OUT)は、回路図(VIO_OUT)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/VIO_OUT] - SW3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.27,
+                        "y": 143.75
+                    },
+                    "uuid": "8e0e7828-f5c9-4bc7-a5af-363f3d096ff1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 3 [/VIO] - SW3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.27,
+                        "y": 142.25
+                    },
+                    "uuid": "9c67b44e-8d7e-4a30-b8b3-b0671fcc1823"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "見つからないフットプリント TP1 (D1.5mm)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "見つからないフットプリント TP2 (D1.5mm)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "フィールド 'Note' が異なります(プリント基板図: 'UART mode; EEPROM programming required', 回路図: 'R-0004: USB5V into VREGIN; VCCD supplies +3V3. UART/LED/PWREN EEPROM programming required.')",
+            "items": [
+                {
+                    "description": "フットプリント U1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 116.0
+                    },
+                    "uuid": "9f4c1821-c17f-4805-b537-ce5176d50b82"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/VPHY)は、回路図(VPHY)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 3 [/VPHY] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 111.8375
+                    },
+                    "uuid": "efad4604-881d-44ce-90f9-f6763d55b107"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 4 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.25,
+                        "y": 111.8375
+                    },
+                    "uuid": "a172adb8-e2dc-4184-8d2c-758bd4ff2b5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VPLL)は、回路図(VPLL)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 8 [/VPLL] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.25,
+                        "y": 111.8375
+                    },
+                    "uuid": "adeb1164-88f6-4b84-a9a0-aedf07e9067a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 9 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.75,
+                        "y": 111.8375
+                    },
+                    "uuid": "a842cfc3-ee8c-4180-8e00-5091ff302d60"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 10 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.25,
+                        "y": 111.8375
+                    },
+                    "uuid": "4a35d0f7-3aeb-4918-a84a-315809ecee46"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 11 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.75,
+                        "y": 111.8375
+                    },
+                    "uuid": "5f8f0618-b2c3-43bc-a613-edcddd54f665"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 12 [/+3V3] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.25,
+                        "y": 111.8375
+                    },
+                    "uuid": "e5b1714e-f765-450b-905a-87dcf64804de"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 22 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.8375,
+                        "y": 117.75
+                    },
+                    "uuid": "ccfa6e6d-8588-44ac-b4c3-1ea83785a840"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 23 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.8375,
+                        "y": 118.25
+                    },
+                    "uuid": "7e69cefa-3f18-4553-9d95-6f2517aa0031"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 24 [/+3V3] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.8375,
+                        "y": 118.75
+                    },
+                    "uuid": "c6c3a340-dc01-4201-a408-c17a6da9ca69"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 35 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.25,
+                        "y": 120.1625
+                    },
+                    "uuid": "7c53aa0e-8baa-4236-b7a7-396197f82ae3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 36 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 120.1625
+                    },
+                    "uuid": "b1ec5c68-c2d3-4c16-9b21-96bda3351df5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VCCA_1V8)は、回路図(VCCA_1V8)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 37 [/VCCA_1V8] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 118.75
+                    },
+                    "uuid": "0c7fc8b0-ad84-414a-81ee-a1a8c66b9e7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VCORE_1V8)は、回路図(VCORE_1V8)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 38 [/VCORE_1V8] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 118.25
+                    },
+                    "uuid": "df325779-9051-4501-9adc-890ba199f58c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 39 [/+3V3] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 117.75
+                    },
+                    "uuid": "2e6920bb-7c39-42ea-99be-f2daff416eca"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 40 [/+3V3] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 117.25
+                    },
+                    "uuid": "9c5b994e-bf86-4498-86d2-02b806da5cf1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 41 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 116.75
+                    },
+                    "uuid": "24809851-be0d-49ad-a786-f613dc3c835b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 42 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 116.25
+                    },
+                    "uuid": "b0ed181f-7813-4145-aa06-ccc40523f09d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 46 [/+3V3] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 114.25
+                    },
+                    "uuid": "37cee1e9-62cc-4065-ae5d-d316169c252c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 47 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 113.75
+                    },
+                    "uuid": "5149c60b-ec6a-46a4-a293-582a8c80722c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 48 [/GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 113.25
+                    },
+                    "uuid": "a5d271ff-9022-416d-92cc-f208e4e6e92e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/+3V3] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 126.725
+                    },
+                    "uuid": "e3508e75-7089-46ce-b3ab-cc901101e6c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/+3V3] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 127.375
+                    },
+                    "uuid": "d7b18522-a8c9-4cc1-b087-1e9cd3cfb654"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 3 [/GND] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 128.025
+                    },
+                    "uuid": "a86118c9-9129-408c-b369-be92eb5962b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 8 [/GND] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 131.275
+                    },
+                    "uuid": "de58e875-c62c-4c66-9764-5a170215ba36"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 9 [/GND] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 131.275
+                    },
+                    "uuid": "18204db8-637c-4c5c-9168-dc93c1d806ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 16 [/VIO] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 126.725
+                    },
+                    "uuid": "9968534a-9344-43c8-bcdb-d03fd417d448"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/USB5V)は、回路図(USB5V)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 1 [/USB5V] - U4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.3625,
+                        "y": 135.25
+                    },
+                    "uuid": "92f3527c-a3ed-4b95-8757-4c4ca0c839be"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - U4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.3625,
+                        "y": 136.2
+                    },
+                    "uuid": "df4e0fa8-f8c4-4011-a590-c51fa45bc19f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/VIO)は、回路図(VIO)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 5 [/VIO] - U4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 111.6375,
+                        "y": 135.25
+                    },
+                    "uuid": "64093ab6-a4b3-4097-b96e-391d3431e45b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 5 [/GND] - U5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.6125,
+                        "y": 123.975
+                    },
+                    "uuid": "56708d29-06d3-4bf5-9b0c-8e0e113473a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/+3V3)は、回路図(+3V3)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 8 [/+3V3] - U5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.6125,
+                        "y": 122.025
+                    },
+                    "uuid": "cfed3667-cb9b-49a3-b9e9-da8c0a90fbf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "値 ( Y1 ) はシンボル値 ( 12MHz 18pF ) と一致しません",
+            "items": [
+                {
+                    "description": "フットプリント Y1",
+                    "pos": {
+                        "x": 104.3,
+                        "y": 110.0
+                    },
+                    "uuid": "455200a8-962b-4577-b420-aaafc17014b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "フィールド 'MPN' が異なります(プリント基板図: 'ABM8-12.000MHZ-B2-T', 回路図: 'ABM8-12.000MHZ-12-B1U-T')",
+            "items": [
+                {
+                    "description": "フットプリント Y1",
+                    "pos": {
+                        "x": 104.3,
+                        "y": 110.0
+                    },
+                    "uuid": "455200a8-962b-4577-b420-aaafc17014b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 110.85
+                    },
+                    "uuid": "81d6c12a-0623-40d7-ac62-9faadc8e392f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "パッドのネット(/GND)は、回路図(GND)で指定されたネットと一致しません",
+            "items": [
+                {
+                    "description": "パッド 4 [/GND] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.2,
+                        "y": 109.15
+                    },
+                    "uuid": "79678a44-ca7e-4a78-b03a-c2740ecfb838"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "フットプリント U3",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 108.5
+                    },
+                    "uuid": "1069588e-b52f-4dff-834f-043b9d39cd30"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "フットプリント U6",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 134.0
+                    },
+                    "uuid": "62f694eb-cfba-4fd7-9699-52811ef61d4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "フットプリント C21",
+                    "pos": {
+                        "x": 105.5,
+                        "y": 136.5
+                    },
+                    "uuid": "cce932f5-ed1b-48d9-8eea-5d50bad1c890"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "フットプリント R16",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 134.0
+                    },
+                    "uuid": "d3ae8ea3-3ffe-4bf0-b6be-6f1b6d9f1960"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "フットプリント C20",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 131.199999
+                    },
+                    "uuid": "f5b588f1-6c41-4dad-a1d3-d80c338181a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

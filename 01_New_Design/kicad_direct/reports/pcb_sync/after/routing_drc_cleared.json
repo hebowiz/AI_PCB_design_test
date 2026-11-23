@@ -1,0 +1,442 @@
+[
+  {
+    "index": 0,
+    "net": "VPHY",
+    "from": {
+      "description": "パッド 1 [VPHY] - C11 ( F.Cu 上)",
+      "pos": {
+        "x": 103.9,
+        "y": 106.95
+      },
+      "uuid": "bd9a51f4-17fc-4185-bf4f-c77a2fa54eb7"
+    },
+    "to": {
+      "description": "配線 [VPHY] ( F.Cu 上、長さ: 0.0200 mm )",
+      "pos": {
+        "x": 105.52,
+        "y": 107.0
+      },
+      "uuid": "51d5e13a-e6ab-4cc7-bdf0-4bb059508242"
+    },
+    "visited": 64,
+    "success": true
+  },
+  {
+    "index": 1,
+    "net": "VPHY",
+    "from": {
+      "description": "配線 [VPHY] ( F.Cu 上、長さ: 0.8500 mm )",
+      "pos": {
+        "x": 106.9,
+        "y": 106.45
+      },
+      "uuid": "61538a17-9b2b-4e21-aeac-0c991ac41b80"
+    },
+    "to": {
+      "description": "パッド 2 [VPHY] - FB1 ( F.Cu 上)",
+      "pos": {
+        "x": 109.485,
+        "y": 108.8
+      },
+      "uuid": "33c9459b-f0ca-4c3c-956e-5b8090dc6f8c"
+    },
+    "visited": 534,
+    "success": true
+  },
+  {
+    "index": 2,
+    "net": "USB5V",
+    "from": {
+      "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.0125 mm )",
+      "pos": {
+        "x": 104.3375,
+        "y": 133.35
+      },
+      "uuid": "e8e29465-0538-4a0f-b4ed-c38066eec21f"
+    },
+    "to": {
+      "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.7500 mm )",
+      "pos": {
+        "x": 103.25,
+        "y": 132.75
+      },
+      "uuid": "f5f9da72-0384-4435-b2f8-65aea685ed8e"
+    },
+    "visited": 143,
+    "success": true
+  },
+  {
+    "index": 3,
+    "net": "USB5V",
+    "from": {
+      "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.0100 mm )",
+      "pos": {
+        "x": 106.0,
+        "y": 133.49
+      },
+      "uuid": "a31e57c2-6d9c-425c-91af-acdd1cea9875"
+    },
+    "to": {
+      "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.0707 mm )",
+      "pos": {
+        "x": 107.45,
+        "y": 132.65
+      },
+      "uuid": "a32c0ec8-a968-4a84-91a8-1579166aa021"
+    },
+    "visited": 226,
+    "success": true
+  },
+  {
+    "index": 4,
+    "net": "USB5V",
+    "from": {
+      "description": "パッド 40 [USB5V] - U1 ( F.Cu 上)",
+      "pos": {
+        "x": 115.1625,
+        "y": 117.25
+      },
+      "uuid": "9c5b994e-bf86-4498-86d2-02b806da5cf1"
+    },
+    "to": {
+      "description": "パッド 1 [USB5V] - C23 ( F.Cu 上)",
+      "pos": {
+        "x": 117.2,
+        "y": 117.68
+      },
+      "uuid": "a08c5bf2-4e55-42f0-a9db-3ad3971173ec"
+    },
+    "visited": 220,
+    "success": true
+  },
+  {
+    "index": 5,
+    "net": "USB5V",
+    "from": {
+      "description": "パッド 40 [USB5V] - U1 ( F.Cu 上)",
+      "pos": {
+        "x": 115.1625,
+        "y": 117.25
+      },
+      "uuid": "9c5b994e-bf86-4498-86d2-02b806da5cf1"
+    },
+    "to": {
+      "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.2121 mm )",
+      "pos": {
+        "x": 117.35,
+        "y": 109.45
+      },
+      "uuid": "96db4803-ff35-403a-a816-cd2285019631"
+    },
+    "visited": 14946,
+    "success": true
+  },
+  {
+    "index": 6,
+    "net": "USB5V",
+    "from": {
+      "description": "パッド 1 [USB5V] - C1 ( F.Cu 上)",
+      "pos": {
+        "x": 119.85,
+        "y": 108.5
+      },
+      "uuid": "fe2170a9-7c94-4c30-a921-4f6ca3c78bc5"
+    },
+    "to": {
+      "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.0125 mm )",
+      "pos": {
+        "x": 117.3625,
+        "y": 107.55
+      },
+      "uuid": "3e322b20-1758-4e62-b842-1dfbb810a07f"
+    },
+    "visited": 176,
+    "success": true
+  },
+  {
+    "index": 7,
+    "net": "/PWR_EN",
+    "from": {
+      "description": "配線 [/PWR_EN] ( F.Cu 上、長さ: 0.0707 mm )",
+      "pos": {
+        "x": 105.55,
+        "y": 135.3
+      },
+      "uuid": "f0a0797d-4e12-4d99-98c5-2af94f343f54"
+    },
+    "to": {
+      "description": "配線 [/PWR_EN] ( F.Cu 上、長さ: 0.0707 mm )",
+      "pos": {
+        "x": 104.0,
+        "y": 135.25
+      },
+      "uuid": "b05b8f74-ffc0-4e43-be19-6095ec236ef0"
+    },
+    "visited": 84,
+    "success": true
+  },
+  {
+    "index": 8,
+    "net": "+3V3",
+    "from": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.1000 mm )",
+      "pos": {
+        "x": 116.4,
+        "y": 116.75
+      },
+      "uuid": "3237e3f4-3209-4e60-a239-a744b2443625"
+    },
+    "to": {
+      "description": "パッド 39 [+3V3] - U1 ( F.Cu 上)",
+      "pos": {
+        "x": 115.1625,
+        "y": 117.75
+      },
+      "uuid": "2e6920bb-7c39-42ea-99be-f2daff416eca"
+    },
+    "visited": 50,
+    "success": false
+  },
+  {
+    "index": 9,
+    "net": "+3V3",
+    "from": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.0500 mm )",
+      "pos": {
+        "x": 116.6,
+        "y": 116.65
+      },
+      "uuid": "c390b435-e790-4e92-ae91-b683ca67a76b"
+    },
+    "to": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.4950 mm )",
+      "pos": {
+        "x": 118.0,
+        "y": 116.0
+      },
+      "uuid": "748f3234-86db-475e-8d7d-cb40def78916"
+    },
+    "visited": 50,
+    "success": false
+  },
+  {
+    "index": 10,
+    "net": "+3V3",
+    "from": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.5500 mm )",
+      "pos": {
+        "x": 119.05,
+        "y": 108.15
+      },
+      "uuid": "564b7ef1-fb59-4c6a-a568-d7b8eb3ee2d5"
+    },
+    "to": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.0125 mm )",
+      "pos": {
+        "x": 119.6375,
+        "y": 107.55
+      },
+      "uuid": "5c5c0788-5554-41c1-ad47-551ab37298c7"
+    },
+    "visited": 2502,
+    "success": true
+  },
+  {
+    "index": 11,
+    "net": "VPLL",
+    "from": {
+      "description": "パッド 1 [VPLL] - C12 ( F.Cu 上)",
+      "pos": {
+        "x": 109.65,
+        "y": 107.3
+      },
+      "uuid": "9f953a17-af1f-46db-aedb-4a9b42483e81"
+    },
+    "to": {
+      "description": "配線 [VPLL] ( B.Cu 上、長さ: 1.2000 mm )",
+      "pos": {
+        "x": 110.75,
+        "y": 110.35
+      },
+      "uuid": "7cb8c313-27d6-4f18-9af2-ce324e23a2d7"
+    },
+    "visited": 2360,
+    "success": true
+  },
+  {
+    "index": 12,
+    "net": "VPLL",
+    "from": {
+      "description": "配線 [VPLL] ( F.Cu 上、長さ: 0.0200 mm )",
+      "pos": {
+        "x": 120.5,
+        "y": 112.78
+      },
+      "uuid": "d3dd2efc-b8be-466b-880f-bab18e2b19c8"
+    },
+    "to": {
+      "description": "配線 [VPLL] ( F.Cu 上、長さ: 0.0200 mm )",
+      "pos": {
+        "x": 120.5,
+        "y": 111.82
+      },
+      "uuid": "0b982db0-436f-445c-b4c1-6a8a5f1658ba"
+    },
+    "visited": 21,
+    "success": true
+  },
+  {
+    "index": 13,
+    "net": "/USB5V_SW",
+    "from": {
+      "description": "パッド 1 [/USB5V_SW] - TP1 ( F.Cu 上)",
+      "pos": {
+        "x": 102.7,
+        "y": 136.1
+      },
+      "uuid": "2e610788-be0b-4f14-a122-a1352912891c"
+    },
+    "to": {
+      "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+      "pos": {
+        "x": 103.73,
+        "y": 142.75
+      },
+      "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+    },
+    "visited": 17991,
+    "success": true
+  },
+  {
+    "index": 14,
+    "net": "/USB5V_SW",
+    "from": {
+      "description": "パッド 1 [/USB5V_SW] - R17 ( F.Cu 上)",
+      "pos": {
+        "x": 103.975,
+        "y": 132.0
+      },
+      "uuid": "7b49537b-08eb-4edd-955b-0e2e5c91210b"
+    },
+    "to": {
+      "description": "パッド 1 [/USB5V_SW] - TP1 ( F.Cu 上)",
+      "pos": {
+        "x": 102.7,
+        "y": 136.1
+      },
+      "uuid": "2e610788-be0b-4f14-a122-a1352912891c"
+    },
+    "visited": 7679,
+    "success": true
+  },
+  {
+    "index": 15,
+    "net": "USB5V_OUT",
+    "from": {
+      "description": "パッド 1 [USB5V_OUT] - TP2 ( F.Cu 上)",
+      "pos": {
+        "x": 104.9,
+        "y": 134.5
+      },
+      "uuid": "c94f7f6b-c9a0-4716-9b06-30e1defec998"
+    },
+    "to": {
+      "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 2.5456 mm )",
+      "pos": {
+        "x": 104.75,
+        "y": 143.35
+      },
+      "uuid": "49eaf8ad-9f61-42a5-9535-05216834a147"
+    },
+    "visited": 12267,
+    "success": true
+  },
+  {
+    "index": 16,
+    "net": "USB5V_OUT",
+    "from": {
+      "description": "パッド 2 [USB5V_OUT] - R17 ( F.Cu 上)",
+      "pos": {
+        "x": 105.425,
+        "y": 132.0
+      },
+      "uuid": "d010fb96-c042-4446-ab68-7a6e41339809"
+    },
+    "to": {
+      "description": "パッド 1 [USB5V_OUT] - TP2 ( F.Cu 上)",
+      "pos": {
+        "x": 104.9,
+        "y": 134.5
+      },
+      "uuid": "c94f7f6b-c9a0-4716-9b06-30e1defec998"
+    },
+    "visited": 5033,
+    "success": true
+  },
+  {
+    "index": 17,
+    "net": "/USB_D-",
+    "from": {
+      "description": "パッド 6 [/USB_D-] - U1 ( F.Cu 上)",
+      "pos": {
+        "x": 111.25,
+        "y": 111.8375
+      },
+      "uuid": "ce2bdab9-2a38-416a-880d-e0da91aeb718"
+    },
+    "to": {
+      "description": "パッド 1 [/USB_D-] - D5 ( F.Cu 上)",
+      "pos": {
+        "x": 111.55,
+        "y": 108.7
+      },
+      "uuid": "edccf226-05ba-44cb-99b1-be5d2542be59"
+    },
+    "visited": 259,
+    "success": true
+  },
+  {
+    "index": 18,
+    "net": "/USB_D-",
+    "from": {
+      "description": "配線 [/USB_D-] ( F.Cu 上、長さ: 0.1414 mm )",
+      "pos": {
+        "x": 111.35,
+        "y": 107.5
+      },
+      "uuid": "80c90357-84bd-42e7-bda7-bbb5b6dfddc1"
+    },
+    "to": {
+      "description": "パッド 1 [/USB_D-] - D5 ( F.Cu 上)",
+      "pos": {
+        "x": 111.55,
+        "y": 108.7
+      },
+      "uuid": "edccf226-05ba-44cb-99b1-be5d2542be59"
+    },
+    "visited": 67,
+    "success": true
+  },
+  {
+    "index": 19,
+    "net": "/USB_D+",
+    "from": {
+      "description": "配線 [/USB_D+] ( F.Cu 上、長さ: 0.2828 mm )",
+      "pos": {
+        "x": 110.5,
+        "y": 106.4
+      },
+      "uuid": "cae6857e-8c31-4766-af30-faa2e87cb543"
+    },
+    "to": {
+      "description": "配線 [/USB_D+] ( F.Cu 上、長さ: 0.4000 mm )",
+      "pos": {
+        "x": 110.65,
+        "y": 107.9
+      },
+      "uuid": "384167fc-4c64-4481-a620-791058fac6eb"
+    },
+    "visited": 99,
+    "success": true
+  }
+]

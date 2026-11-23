@@ -1,0 +1,46 @@
+[
+  {
+    "index": 0,
+    "net": "+3V3",
+    "from": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.0125 mm )",
+      "pos": {
+        "x": 115.1625,
+        "y": 117.75
+      },
+      "uuid": "11f09700-828e-4687-aa39-04bcafbe41be"
+    },
+    "to": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.0100 mm )",
+      "pos": {
+        "x": 118.5,
+        "y": 118.51
+      },
+      "uuid": "e5689b7f-c35b-4d38-918d-9e374e78d62e"
+    },
+    "visited": 4407,
+    "success": true
+  },
+  {
+    "index": 1,
+    "net": "+3V3",
+    "from": {
+      "description": "配線 [+3V3] ( F.Cu 上、長さ: 1.5000 mm )",
+      "pos": {
+        "x": 120.65,
+        "y": 117.0
+      },
+      "uuid": "58db4b86-0565-4be9-8a90-13531cf32ec7"
+    },
+    "to": {
+      "description": "パッド 1 [+3V3] - R2 ( F.Cu 上)",
+      "pos": {
+        "x": 118.0,
+        "y": 115.51
+      },
+      "uuid": "1c046e87-86e2-4bd7-b20b-a745af493952"
+    },
+    "visited": 724,
+    "success": true
+  }
+]
