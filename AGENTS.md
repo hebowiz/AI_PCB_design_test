@@ -19,6 +19,10 @@
 
 13. 作業が完了するごとに、公開可能な変更と作業記録をコミットし、GitHubへpushする。毎回の追加確認は不要。pushの成否を確認し、失敗した場合は未反映の変更と原因を報告する。ルール9の公開制限は引き続き守る。
 
+## CAD固定ワークスペース
+
+**人間が開くCAD設計の最新版確認、ローカル同期、Worktree作成・切替・レビューOK後の版更新には、`.agents/skills/design-workspace-management/SKILL.md`を自動適用する。** A-2の固定パスは`<repo>/workspaces/A-2/01_New_Design/kicad_direct/a2_usb_uart.kicad_pro`。共通スキルはmain側が正本。古い設計WorktreeのAGENTS.mdには最新ルールが無い場合があるため、mainの実ファイルも参照する。ローカル専用Worktreeの作成が完了するまでは、固定パスが存在すると断定しない。設計とmainを無断マージしない。詳細は`docs/design_workspaces.md`。
+
 ## 設計レビューの記録
 
 **レビュー台帳・詳細議事録・一括調査/判定記録の作成・編集・監査時には、`.agents/skills/design-review-records/SKILL.md`を自動適用する。** スキル名はユーザーに要求しない。共通台帳は最終状態を簡潔に示し、技術的判断・試行・検証・判定の履歴は詳細で保持する。日時は自動取得し、取得経緯の説明や同じ判定の重複を繰り返さない。

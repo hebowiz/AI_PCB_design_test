@@ -21,6 +21,16 @@ AIによる回路・基板設計の実地検証プロジェクト（開始: 2026
 
 検証ケースは合計4つ。詳しい評価項目は `docs/comparison_matrix.md`。
 
+## KiCadで最新A-2を開く場所
+
+**固定ローカルWorktree（ローカルCodexによる初回セットアップが必要）**
+
+```text
+<リポジトリ>/workspaces/A-2/01_New_Design/kicad_direct/a2_usb_uart.kicad_pro
+```
+
+`main/01_New_Design/kicad_direct/`にあるA-2回路図は初期設計であり、R-0016まで修正された最新版ではありません。固定Worktreeはリポジトリ内に作りますが、Gitの`workspaces/`をignoreするためGitHub上には表示されません。詳細は[固定ワークスペース運用](docs/design_workspaces.md)を参照。
+
 ## ディレクトリ
 - `01_New_Design/specs/` — A-1/A-2/A-3に共通の要求仕様
 - `01_New_Design/atopile/` — A-1の成果物
