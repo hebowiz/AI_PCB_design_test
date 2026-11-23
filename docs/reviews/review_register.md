@@ -4,6 +4,16 @@
 
 登録16件。発行済みIDは`R-0001`〜`R-0016`。過去レポートからの自動転記は行っていない。
 
+## A-2 PCBレビュー
+
+開始: 2026-11-23 19:10 JST。議事録の管理担当は本チャットのCodexセッション、編集先はmainの共通台帳。
+
+対象は`codex/a2-pcb-sync`、コミット`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`。固定Workspaceの`workspace/a2-active`も同コミットを参照する。対象ファイルは`01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb`。回路図との同期済みPCBをレビューし、BOM・Gerber・実装座標などの製造データは旧版として扱う。
+
+回路レビューから通し番号を継続し、次の新規指摘はR-0017。指摘収集モードで質問も一件ずつ登録し、複数件をまとめて受け付ける。返答はIDと要旨のみ。一括調査の指示で調査し、承認された項目だけ別の設計ブランチで修正する。最終判定はユーザーが行う。収集の区切りでコミット・pushする。
+
+既存R-0001〜R-0016のOK判定を維持する。以下の既存行にある検証結果やPCB未反映の記述は、各回路修正時点の記録。今回のPCBへの反映結果は[同期版の検証記録](https://github.com/hebowiz/AI_PCB_design_test/blob/a300e1c7cd89654fd2800c1bc7b8bad59dae5516/01_New_Design/kicad_direct/reports/pcb_sync/README.md)を参照する。開始時点ではPCBレビュー指摘は未登録、PCBの最終判定も未実施。
+
 | ID | 指摘日時 | 指摘者 | 対象工程 | 対象設計 | 対象箇所 | 重要度 | 指摘内容 | 対応内容 | 対応状況 | 対応後判定 | 判定者 | 判定日時 | 修正先 | 証跡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [R-0001](details/R-0001.md) | 2026-11-22 17:07 JST | ユーザー | 回路設計 | A-2、experiment/A2-schematic-v3-polish、778ab8896a4f9b71efba0c45f701cbf2fdfc2cac | a2_usb_uart.kicad_sch、D1、U1.6/7、USB_D-/USB_D+ | Major | FT232HのDP/DM耐圧を調べ、D1の保護適合性を確認する。 | D1/D5をESD321DPYR×2へ変更。予定した端子差分のみでERC0件。保護協調・実機ESD・USB信号品質とPCB/BOM反映は未完了。 | 完了 | OK | ユーザー | 2026-11-22 19:00 JST | codex/a2-r0001-esd321、e4e46cf7f6c4286d6ff57e220f6d0643bf028347 | [詳細・判定履歴](details/R-0001.md) |

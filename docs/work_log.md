@@ -667,3 +667,9 @@ origin/mainの5e240b0を確認・同期。今後は日時とレビュー内容�
 表示の原因候補: 固定先のGit管理外a2_usb_uart.kicad_prlはschema 3、board.visible_items=[12]で、旧形式の12はグリッドに対応する。部品・配線・ビア・ゾーンの表示指定が欠けている。インストール済みpcbnewの列挙値と[KiCad公式の設定読込・移行コード](https://docs.kicad.org/doxygen/project__local__settings_8cpp_source.html)で確認した。前回のWorkspace更新はCAD一致を検証したが、このローカル表示設定は確認対象に含めていなかった。
 
 未検証: ユーザーが見た実際の画面と、表示設定を戻した後のGUI表示は未確認。KiCadマネージャは起動中、pcbnew/eeschemaのプロセスは検出されなかった。今回は確認依頼のため設定の変更・アプリ終了は行わず、表示設定の確認方法を案内する。mainの未コミットプロジェクト編集を維持し、作業記録のみ更新した。
+
+## 2026-11-23 19:10 JST — A-2 PCBレビュー開始
+
+ユーザーの依頼により、回路レビューと同じ共通台帳でPCBレビューを開始。design-review-recordsとreferences、レビューREADMEを適用し、mainの台帳冒頭へ対象コミット・管理担当・指摘収集方式を追記した。対象はcodex/a2-pcb-syncのa300e1c7cd89654fd2800c1bc7b8bad59dae5516、次のIDはR-0017。
+
+検証: 既存16行の内容・15列・ID・OK判定は変更なし。今回の開始宣言では指摘IDを発行せず、設計修正・新たな電気的検証・PCB承認は行っていない。変更はdocs/reviews/review_register.mdと本ログだけ。mainのプロジェクト設定の未コミット編集と固定Workspaceを保持した。記録文はyomiyasuの方針で確認した。
