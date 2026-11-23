@@ -637,3 +637,13 @@ origin/mainの5e240b0を確認・同期。今後は日時とレビュー内容�
 - 結果：mainは10650aded0c34879086c00c4484b870250d03356、レビュー後の設計用Worktreeはcodex/a2-r0016-usb5v-jumperのfffbcdbe41bad236baee48d88cf96b95f27421f4で、いずれも対応するoriginブランチと一致。両Worktreeに未コミット変更なし。
 - 変更ファイル：docs/work_log.mdのみ。設計成果物・設計ブランチは変更せず、mainへの設計マージも実施していない。
 - 検証証跡：上記コミットSHAとGitの同期結果。未解決事項なし。
+
+## 2026-11-23 10:09 JST — A-2固定Worktreeへの初回移行
+
+- 目的：人間が開くA-2設計を`workspaces/A-2/`へ固定する。
+- 適用規則：mainのAGENTS.md、design-workspace-managementスキル、references/windows-setup.md、docs/design_workspaces.md。記録文はyomiyasuで確認。
+- 実施操作：`git fetch origin`後、mainを`85da616494a885cefabe78788170d52efb127639`へfast-forward。最新台帳16件とリモートを照合し、R-0016の`fffbcdbe41bad236baee48d88cf96b95f27421f4`を最新承認済み版として確認。固定先・同名ブランチが存在せず、固定先がGit管理対象外であることを確認した。
+- 作成コマンド：mainルートで`git worktree add --no-track -b workspace/a2-active workspaces/A-2 fffbcdbe41bad236baee48d88cf96b95f27421f4`。固定パス指定に従いGit CLIで作成し、ローカル専用ブランチにはupstreamを設定していない。
+- 検証：固定WorktreeのHEAD・ブランチ・clean状態を確認。`git hash-object --path`と承認済みコミットのblobを照合し、`.kicad_pro`=`16b674eaf8da87116be59e8f857109cf95d5089f`、`.kicad_sch`=`e88162e1f25603078933b1f937471adf33d78f9a`、`.kicad_pcb`=`30bf8acf0bf9559f892c173a1ba0ddf2ce0445c0`が一致。既存11WorktreeのHEAD・状態・差分と、既存ブランチ参照も移行前と一致した。
+- 変更ファイル：mainの`docs/design_workspaces.md`と`docs/work_log.md`のみ。固定Worktree内の設計・レビュー台帳は変更していない。設計ブランチのmainへのマージ・再生成・削除は未実施。
+- 結果・未検証事項：固定パスの作成と承認版への一致を確認。PCB/BOM/Gerberと回路図の未同期状態を維持。電気的検証・KiCad起動・PCB更新は今回の対象外。

@@ -43,3 +43,15 @@ A-2最新の回路図はR-0016を反映しているが、**PCB・BOM・Gerberは
 - 将来B-2やA-1/A-3へ展開する際は、各ケースのCAD・作業方針を確認し`workspaces/<CASE>/`を採用する。
 
 Windowsでの安全な初回作成・更新手順は[こちら](../.agents/skills/design-workspace-management/references/windows-setup.md)。
+
+## ローカル移行結果
+
+2026-11-23、このPCの固定Worktreeを次の場所に作成した。
+
+```text
+D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Design\kicad_direct\a2_usb_uart.kicad_pro
+```
+
+ローカルブランチは`workspace/a2-active`、初期コミットは`fffbcdbe41bad236baee48d88cf96b95f27421f4`。最新の共通台帳とリモートを確認し、R-0016より新しい承認済み設計はなかった。プロジェクト・回路図・PCBのGit blobが初期コミットと一致し、Worktreeが未変更であることを確認した。
+
+既存のレビュー用Worktreeと設計ブランチは保持した。PCB・BOM・Gerberは回路図と未同期のまま。今後は承認済み版への更新前に未コミット変更とコミットの系譜を確認し、fast-forwardできる場合だけ固定Worktreeを更新する。
