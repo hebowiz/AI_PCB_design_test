@@ -647,3 +647,13 @@ origin/mainの5e240b0を確認・同期。今後は日時とレビュー内容�
 - 検証：固定WorktreeのHEAD・ブランチ・clean状態を確認。`git hash-object --path`と承認済みコミットのblobを照合し、`.kicad_pro`=`16b674eaf8da87116be59e8f857109cf95d5089f`、`.kicad_sch`=`e88162e1f25603078933b1f937471adf33d78f9a`、`.kicad_pcb`=`30bf8acf0bf9559f892c173a1ba0ddf2ce0445c0`が一致。既存11WorktreeのHEAD・状態・差分と、既存ブランチ参照も移行前と一致した。
 - 変更ファイル：mainの`docs/design_workspaces.md`と`docs/work_log.md`のみ。固定Worktree内の設計・レビュー台帳は変更していない。設計ブランチのmainへのマージ・再生成・削除は未実施。
 - 結果・未検証事項：固定パスの作成と承認版への一致を確認。PCB/BOM/Gerberと回路図の未同期状態を維持。電気的検証・KiCad起動・PCB更新は今回の対象外。
+
+## 2026-11-23 17:04 JST — A-2固定WorkspaceをPCBレビュー候補版へ更新
+
+目的: ユーザーの依頼に従い、固定レビュー先へPCB同期版を配置する。design-workspace-managementを適用し、記録文をyomiyasuの方針で確認した。
+
+実施: `git fetch origin`と固定先の状態・系譜を確認。ユーザーの破棄承認後、`git restore --source=HEAD --worktree -- 01_New_Design/kicad_direct/a2_usb_uart.kicad_pro`で固定先の変更1件だけを破棄し、`git merge --ff-only a300e1c7cd89654fd2800c1bc7b8bad59dae5516 --quiet`を実行。固定ブランチはworkspace/a2-activeを維持。KiCad関連プロセスは検出されなかった。
+
+検証: HEAD一致、clean状態、git hash-objectによる3ファイル一致を確認。proは16b674eaf8da87116be59e8f857109cf95d5089f、schはe88162e1f25603078933b1f937471adf33d78f9a、pcbは7b3bf2c75dc95e97315ae56be09438b6d9700268。mainのプロジェクト設定の未コミット編集を保持した。
+
+記録変更: mainのdocs/design_workspaces.md、docs/work_log.md。設計成果物はmainへマージせず、再生成もしていない。今回の更新はレビュー候補版の配置で、PCBの最終OK判定ではない。ERC/DRCは同期版の検証結果を参照し再実行なし。製造データは旧版扱いを維持する。

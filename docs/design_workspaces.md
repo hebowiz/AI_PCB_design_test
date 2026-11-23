@@ -31,9 +31,11 @@ git -C workspaces/A-2 rev-parse HEAD
 
 **初回移行前提**：`workspaces/A-2/`はGitHubから自動生成されない。ローカルのCodexでWorktree作成が必要。今回のスキル追加コミットはローカル移行完了の証明ではない。
 
-## 現時点で一致していない範囲
+## 現在のレビュー対象
 
-A-2最新の回路図はR-0016を反映しているが、**PCB・BOM・Gerberは初期設計のまま**。同一フォルダに`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`があることは、回路図とPCBが一致することを意味しない。PCB同期後に改めて設計検証する。
+固定Worktreeは`codex/a2-pcb-sync`の`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`を参照する。2026-11-23、ユーザーの更新指示によりPCBレビュー候補版を配置した。回路図はR-0016まで承認済み、PCBは回路図へ同期済みで、人間によるPCBレビューは未承認。
+
+同期版の検証結果はERC・DRC・未配線・回路図不一致が各0件。今回のWorkspace更新ではCADのGit blob一致を検証し、ERC/DRCは再実行していない。詳細と未検証事項は同期版の`01_New_Design/kicad_direct/reports/pcb_sync/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のままで、同期後PCBには対応しない。
 
 ## Codexの基本ルール
 
@@ -55,3 +57,9 @@ D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Des
 ローカルブランチは`workspace/a2-active`、初期コミットは`fffbcdbe41bad236baee48d88cf96b95f27421f4`。最新の共通台帳とリモートを確認し、R-0016より新しい承認済み設計はなかった。プロジェクト・回路図・PCBのGit blobが初期コミットと一致し、Worktreeが未変更であることを確認した。
 
 既存のレビュー用Worktreeと設計ブランチは保持した。PCB・BOM・Gerberは回路図と未同期のまま。今後は承認済み版への更新前に未コミット変更とコミットの系譜を確認し、fast-forwardできる場合だけ固定Worktreeを更新する。
+
+## 2026-11-23 PCBレビュー候補版への更新
+
+ユーザーが固定Workspaceの更新と未コミット変更の破棄を承認したため、対象の`a2_usb_uart.kicad_pro`だけを復元し、`workspace/a2-active`を`fffbcdbe41bad236baee48d88cf96b95f27421f4`から`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`へfast-forwardした。更新後のプロジェクト・回路図・PCBは対象コミットと一致し、固定Worktreeに未コミット変更はない。
+
+今回は明示された更新依頼に基づくレビュー用配置であり、PCBのOK判定ではない。main側のプロジェクト設定の未コミット変更、既存設計ブランチ、他Worktreeは保持した。設計成果物のmainへのマージと再生成は実施していない。
