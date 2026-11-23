@@ -49,6 +49,3 @@ for ref in ['SW1','SW2','SW3']:
  pad=next(a for a in fps[ref].Pads() if a.GetNumber()=='1');name=pad.GetNetname().replace('/','{slash}');pad.SetNet(b.FindNet(name))
 p.SaveBoard(str(ROOT/'a2_usb_uart.kicad_pcb'),b)
 (OUT/'local_placement.json').write_text(json.dumps(log,indent=2),encoding='utf8')
-
-
-

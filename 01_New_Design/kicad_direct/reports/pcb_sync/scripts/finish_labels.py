@@ -39,6 +39,3 @@ for ref in refs:
  print('Label',ref,x,y)
 p.SaveBoard(str(path),b)
 (OUT/'finishing.json').write_text(json.dumps({'removed_uuids':ids,'ground_stitch':[xy(via.GetPosition())],'reference_positions':log},indent=2),encoding='utf8')
-
-
-

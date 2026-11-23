@@ -26,5 +26,3 @@ snapshot={'components':components,'terminals':terminals,'footprints':footprints,
 print(json.dumps(changes,indent=2,ensure_ascii=False))
 print('COUNTS',len(components),len(footprints),len(tracks),'thickness/layers',snapshot['thickness'],snapshot['layers'])
 print('PLACEMENTS',json.dumps({r:(f['pos'],f['angle']) for r,f in footprints.items()}))
-
-

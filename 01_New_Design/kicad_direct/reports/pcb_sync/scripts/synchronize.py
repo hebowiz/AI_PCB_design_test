@@ -69,4 +69,3 @@ for ref,num in [('U1','40'),('SW2','2')]:
 b.BuildConnectivity();p.SaveBoard(str(boardfile),b)
 (OUT/'synchronization_actions.json').write_text(json.dumps({'removed':removed,'added':added,'replaced':replaced,'placements':placements,'removed_track_uuids':removed_tracks},indent=2),encoding='utf-8')
 print('SYNC',removed,added,replaced,'removed tracks',len(removed_tracks))
-
