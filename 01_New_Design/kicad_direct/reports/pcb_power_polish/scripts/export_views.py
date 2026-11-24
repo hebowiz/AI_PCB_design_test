@@ -9,3 +9,6 @@ for stage in ['before','after']:
   if side=='back':cmd.insert(4,'--mirror')
   subprocess.run(cmd,check=True)
 
+# Normalize KiCad export whitespace, preserving drawing geometry.
+for file in OUT.glob("*/*.svg"):
+ file.write_text("\n".join(line.rstrip() for line in file.read_text().splitlines()).rstrip()+"\n")

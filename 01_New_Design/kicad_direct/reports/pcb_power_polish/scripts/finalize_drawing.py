@@ -7,4 +7,3 @@ for t in old.GetTracks():
 (OUT/'restored_protected_usb.json').write_text(json.dumps(restored,indent=2))
 fps['D1'].Reference().SetPosition(v(110.55,107.8));fps['D5'].Reference().SetPosition(v(109.3,107.8));fps['C14'].Reference().SetPosition(v(112.1,107.9))
 drc('protected_usb_restored')
-
