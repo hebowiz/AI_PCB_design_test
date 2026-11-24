@@ -33,9 +33,9 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeは`codex/a2-pcb-sync`の`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`を参照する。2026-11-23、ユーザーの更新指示によりPCBレビュー候補版を配置した。回路図はR-0016まで承認済み、PCBは回路図へ同期済みで、人間によるPCBレビューは未承認。
+固定Worktreeは`codex/a2-pcb-review-batch1`の`5596d3bc8802687b89b21fd9c57e1117ec9382e5`を参照する。2026-11-24、ユーザーの「KiCADでの確認のため固定workspaceを更新してほしい」という指示でPCB修正候補を配置した。回路図はR-0016まで承認済み。PCBのR-0017〜R-0027は確認待ちであり、今回の更新はOK判定ではない。
 
-同期版の検証結果はERC・DRC・未配線・回路図不一致が各0件。今回のWorkspace更新ではCADのGit blob一致を検証し、ERC/DRCは再実行していない。詳細と未検証事項は同期版の`01_New_Design/kicad_direct/reports/pcb_sync/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のままで、同期後PCBには対応しない。
+修正候補の検証結果はERC・DRC・未配線・回路図不一致が各0件。今回のWorkspace更新ではプロジェクト・回路図・PCB・カスタムルールのGit blob一致を確認し、ERC/DRCは再実行していない。比較画像・検証条件・残課題は固定Workspace内の`01_New_Design/kicad_direct/reports/pcb_review_batch1/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のまま。
 
 ## Codexの基本ルール
 
@@ -63,3 +63,11 @@ D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Des
 ユーザーが固定Workspaceの更新と未コミット変更の破棄を承認したため、対象の`a2_usb_uart.kicad_pro`だけを復元し、`workspace/a2-active`を`fffbcdbe41bad236baee48d88cf96b95f27421f4`から`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`へfast-forwardした。更新後のプロジェクト・回路図・PCBは対象コミットと一致し、固定Worktreeに未コミット変更はない。
 
 今回は明示された更新依頼に基づくレビュー用配置であり、PCBのOK判定ではない。main側のプロジェクト設定の未コミット変更、既存設計ブランチ、他Worktreeは保持した。設計成果物のmainへのマージと再生成は実施していない。
+
+## 2026-11-24 PCB修正候補への更新
+
+21:21 JST、`workspace/a2-active`を`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`から`5596d3bc8802687b89b21fd9c57e1117ec9382e5`へfast-forwardした。更新前の未コミット変更はプロジェクト設定だけで、回路図・PCBに保存済み変更はなかった。
+
+設定ファイルはローカルの`workspaces/_backups/A-2-20261124-212157/a2_usb_uart.kicad_pro`とGit stash `e51f0f6b9f3b540b1f42a1ec218900cfcf5a09a8`へ退避した。更新先の配線ルールを保持するため、旧設定は再適用していない。復元が必要な場合は内容を比較してから扱う。`.history/`内の7ファイルはハッシュ一致を確認した。
+
+更新後のCAD4ファイルは対象コミットと一致し、追跡対象に未コミット変更はない。KiCadの回路図・PCBエディタは更新前に起動していなかった。mainの既存設定変更、他の設計ブランチ、レビュー判定は保持した。ローカルの更新記録はバックアップフォルダの`update_record.json`に保存した。

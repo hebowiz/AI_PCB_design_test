@@ -691,3 +691,9 @@ design-review-records、schematic-designの接続保全規則とyomiyasuを適�
 ユーザーの一括修正・限定置換計画の承認に基づき、別WorktreeでPCB/設定/ルールと検証資料を作成した。設計は`codex/a2-pcb-review-batch1`の`5596d3bc8802687b89b21fd9c57e1117ec9382e5`へコミット・push済み。操作・変更箇所・試行・検証・残課題は[修正記録](reviews/batches/2026-11-24_R-0017_R-0027_changes.md)と、そのリンク先の作業ログに記録した。
 
 ERC/DRC/未配線/回路図等価性は各0件、58部品・197端子の属性/接続一致。mainでは共通台帳のR-0017〜R-0027を確認待ちへ更新し、R-0001〜R-0016のOK判定・全27件の日時と15列を保持した。設計成果物のmainへのマージ、固定Workspace更新、製造データ更新は実施していない。mainと固定Workspaceの既存プロジェクト設定変更は保持した。
+
+## 2026-11-24 21:21 JST — A-2固定WorkspaceをPCB修正候補へ更新
+
+ユーザーのKiCad確認用更新依頼を受け、最新mainのAGENTSとdesign-workspace-managementを適用した。`git fetch origin`、差分・プロセス・祖先関係の確認後、未コミットのプロジェクト設定をバックアップとstashへ保存し、`git merge --ff-only 5596d3bc8802687b89b21fd9c57e1117ec9382e5`で更新した。
+
+プロジェクト・回路図・PCB・カスタムルールのGit blob一致と、`.history/`7ファイル・mainの既存設定の保全を検証した。ERC/DRC再実行、CAD再生成、設計のmainへのマージ、レビュー判定の更新は行っていない。退避先と復元用stashは[固定Workspace管理](design_workspaces.md)に記録。公開変更は管理文書と本ログのみ。
