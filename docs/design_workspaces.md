@@ -33,9 +33,9 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeは`codex/a2-pcb-review-batch1`の`5596d3bc8802687b89b21fd9c57e1117ec9382e5`を参照する。2026-11-24、ユーザーの「KiCADでの確認のため固定workspaceを更新してほしい」という指示でPCB修正候補を配置した。回路図はR-0016まで承認済み。PCBのR-0017〜R-0027は確認待ちであり、今回の更新はOK判定ではない。
+固定Worktreeは`codex/a2-pcb-quality-r0028-r0032`の`87711e88e10653e79fdce9c3ade341b8f1440489`を参照する。2026-11-24、ユーザーのKiCadレビュー用Workspace更新依頼に基づき配置した。回路図はR-0016まで承認済み。PCBのR-0017〜R-0027は最終判定保留、R-0028〜R-0032は確認待ち・未判定であり、今回の更新はOK判定ではない。
 
-修正候補の検証結果はERC・DRC・未配線・回路図不一致が各0件。今回のWorkspace更新ではプロジェクト・回路図・PCB・カスタムルールのGit blob一致を確認し、ERC/DRCは再実行していない。比較画像・検証条件・残課題は固定Workspace内の`01_New_Design/kicad_direct/reports/pcb_review_batch1/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のまま。
+修正候補の検証結果はERC・DRC・未配線・回路図不一致が各0件。今回のWorkspace更新ではプロジェクト・回路図・PCB・カスタムルールのGit blob一致を確認し、ERC/DRCは再実行していない。比較画像・検証条件・残課題は固定Workspace内の`01_New_Design/kicad_direct/reports/pcb_quality_revision/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のまま。
 
 ## Codexの基本ルール
 
@@ -71,3 +71,9 @@ D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Des
 設定ファイルはローカルの`workspaces/_backups/A-2-20261124-212157/a2_usb_uart.kicad_pro`とGit stash `e51f0f6b9f3b540b1f42a1ec218900cfcf5a09a8`へ退避した。更新先の配線ルールを保持するため、旧設定は再適用していない。復元が必要な場合は内容を比較してから扱う。`.history/`内の7ファイルはハッシュ一致を確認した。
 
 更新後のCAD4ファイルは対象コミットと一致し、追跡対象に未コミット変更はない。KiCadの回路図・PCBエディタは更新前に起動していなかった。mainの既存設定変更、他の設計ブランチ、レビュー判定は保持した。ローカルの更新記録はバックアップフォルダの`update_record.json`に保存した。
+
+## 2026-11-24 PCB配線品質修正候補への更新
+
+23:40 JST、`workspace/a2-active`を`5596d3bc8802687b89b21fd9c57e1117ec9382e5`から`87711e88e10653e79fdce9c3ade341b8f1440489`へfast-forwardした。未コミットのプロジェクト設定は`workspaces/_backups/A-2-20261124-234010/a2_usb_uart.kicad_pro`とGit stash `c8af3aafe7a6c3fa85550309751a95bdfcd29804`へ退避し、候補版の設定を使用する。旧設定は再適用していない。`.history/`は保持した。
+
+更新後のCAD4ファイルは対象コミットと一致した。KiCad APIで部品58個、配線694本、ビア96個、ゾーン6個、板厚1.6mmを確認した。追跡対象に未コミット変更はない。mainの既存プロジェクト設定変更と既存設計ブランチは保護し、レビュー判定を変更していない。更新記録はバックアップフォルダの`update_record.json`に保存した。
