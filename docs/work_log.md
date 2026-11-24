@@ -697,3 +697,7 @@ ERC/DRC/未配線/回路図等価性は各0件、58部品・197端子の属性/�
 ユーザーのKiCad確認用更新依頼を受け、最新mainのAGENTSとdesign-workspace-managementを適用した。`git fetch origin`、差分・プロセス・祖先関係の確認後、未コミットのプロジェクト設定をバックアップとstashへ保存し、`git merge --ff-only 5596d3bc8802687b89b21fd9c57e1117ec9382e5`で更新した。
 
 プロジェクト・回路図・PCB・カスタムルールのGit blob一致と、`.history/`7ファイル・mainの既存設定の保全を検証した。ERC/DRC再実行、CAD再生成、設計のmainへのマージ、レビュー判定の更新は行っていない。退避先と復元用stashは[固定Workspace管理](design_workspaces.md)に記録。公開変更は管理文書と本ログのみ。
+
+## 2026-11-24 22:15 JST — A-2配線品質の追加指摘登録
+
+最新mainとレビュー運用を確認し、R-0028〜R-0032を新規登録した。ユーザー指定によりR-0017〜R-0027は判定保留へ移行。対象5596d3bの読み取り調査と計画作成を開始し、実際のPCB修正は行わない。[受付記録](reviews/batches/2026-11-24_R-0028_R-0032_collection.md)。
