@@ -1,0 +1,36 @@
+[
+  {
+    "net": "/USB5V_SW",
+    "total_mm": 13.41472,
+    "min_width_mm": 0.5,
+    "max_width_mm": 0.5,
+    "under_0_5_segments": 0,
+    "under_0_5_total_mm": 0,
+    "widths": {
+      "0.5": 13.41472
+    }
+  },
+  {
+    "net": "USB5V",
+    "total_mm": 86.50392,
+    "min_width_mm": 0.25,
+    "max_width_mm": 0.5,
+    "under_0_5_segments": 2,
+    "under_0_5_total_mm": 1.18721,
+    "widths": {
+      "0.25": 1.18721,
+      "0.5": 85.31672
+    }
+  },
+  {
+    "net": "USB5V_OUT",
+    "total_mm": 21.3066,
+    "min_width_mm": 0.5,
+    "max_width_mm": 0.5,
+    "under_0_5_segments": 0,
+    "under_0_5_total_mm": 0,
+    "widths": {
+      "0.5": 21.3066
+    }
+  }
+]

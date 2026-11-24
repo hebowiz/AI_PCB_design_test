@@ -1,0 +1,55 @@
+[
+  {
+    "net": "GND",
+    "length_mm": 1.65981,
+    "points": [
+      [
+        112.45,
+        107.8
+      ],
+      [
+        112.55,
+        107.0
+      ],
+      [
+        112.775,
+        106.775
+      ]
+    ],
+    "uuids": [
+      "64f0058e-34de-4100-8c9b-a4def86af180",
+      "a0a46205-0e6b-49c6-b2a6-9d2d6598e585",
+      "e051f4a6-8824-4e8a-bc80-e8f6e9258642"
+    ],
+    "classification": "GND exception candidate"
+  },
+  {
+    "net": "GND",
+    "length_mm": 1.86782,
+    "points": [
+      [
+        108.95,
+        108.9
+      ],
+      [
+        109.5,
+        108.35
+      ],
+      [
+        109.5,
+        109.22
+      ],
+      [
+        108.95,
+        109.19
+      ]
+    ],
+    "uuids": [
+      "17b85f92-aeaf-4ce0-8b15-5987cd13932e",
+      "3dcb1411-9e3c-464e-8582-0a7a4d480b3c",
+      "785459d1-7383-4e64-a11f-49c1cd48aaa6",
+      "c5c54133-4211-4279-ad7a-91678eb10dc5"
+    ],
+    "classification": "GND exception candidate"
+  }
+]

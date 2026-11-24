@@ -1,0 +1,325 @@
+{
+  "base": "87711e88e10653e79fdce9c3ade341b8f1440489",
+  "pcb_sha256": "e66b30c63273a53de74074dfbc3e599ff447f4682d2be866e046ed7a5e76f36c",
+  "components": 58,
+  "schematic_terminals": 197,
+  "attributes_footprints_pad_nets_identical": true,
+  "moved_footprints": [
+    {
+      "ref": "FB2",
+      "before": [
+        [
+          107.6,
+          108.5
+        ],
+        0.0,
+        0
+      ],
+      "after": [
+        [
+          105.0,
+          108.6
+        ],
+        0.0,
+        0
+      ]
+    },
+    {
+      "ref": "C11",
+      "before": [
+        [
+          120.2,
+          110.2
+        ],
+        90.0,
+        0
+      ],
+      "after": [
+        [
+          119.2,
+          111.5
+        ],
+        0.0,
+        0
+      ]
+    },
+    {
+      "ref": "C3",
+      "before": [
+        [
+          107.1,
+          110.1
+        ],
+        180.0,
+        0
+      ],
+      "after": [
+        [
+          106.0,
+          110.4
+        ],
+        90.0,
+        0
+      ]
+    },
+    {
+      "ref": "C10",
+      "before": [
+        [
+          109.0,
+          110.15
+        ],
+        180.0,
+        0
+      ],
+      "after": [
+        [
+          109.5,
+          109.7
+        ],
+        90.0,
+        0
+      ]
+    },
+    {
+      "ref": "C2",
+      "before": [
+        [
+          120.0,
+          117.2
+        ],
+        90.0,
+        0
+      ],
+      "after": [
+        [
+          120.0,
+          117.7
+        ],
+        -90.0,
+        0
+      ]
+    },
+    {
+      "ref": "C12",
+      "before": [
+        [
+          103.0,
+          109.0
+        ],
+        180.0,
+        0
+      ],
+      "after": [
+        [
+          107.65,
+          108.5
+        ],
+        90.0,
+        0
+      ]
+    },
+    {
+      "ref": "C1",
+      "before": [
+        [
+          120.1,
+          113.7
+        ],
+        90.0,
+        0
+      ],
+      "after": [
+        [
+          120.1,
+          114.2
+        ],
+        90.0,
+        0
+      ]
+    },
+    {
+      "ref": "R1",
+      "before": [
+        [
+          106.7,
+          107.0
+        ],
+        0.0,
+        0
+      ],
+      "after": [
+        [
+          104.2,
+          107.0
+        ],
+        0.0,
+        0
+      ]
+    },
+    {
+      "ref": "FB1",
+      "before": [
+        [
+          117.4,
+          111.4
+        ],
+        0.0,
+        0
+      ],
+      "after": [
+        [
+          120.0,
+          109.55
+        ],
+        -90.0,
+        0
+      ]
+    }
+  ],
+  "schematic_project_rules_byte_identical": true,
+  "outline_mm": [
+    22,
+    50
+  ],
+  "thickness_mm": 1.6,
+  "layers": 2,
+  "usb_copper_uuid_geometry_identical": true,
+  "erc": 0,
+  "drc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "new_exclusions": 0,
+  "via_hole_outer_mm": [
+    0.3,
+    0.6
+  ],
+  "global_mask_clearance_mm": 0.05,
+  "pad_zone_connection": "thermal",
+  "short_edge_crossings": 64,
+  "short_edge_errors": 0,
+  "non45_segments": 0,
+  "grazing_contacts": 0,
+  "ordinary_ge90_corners": 0,
+  "raw_turn_candidates": [
+    {
+      "net": "GND",
+      "at": [
+        109.5,
+        108.35
+      ],
+      "layer": 0,
+      "degree": 2,
+      "angle": 135.0,
+      "pins": [],
+      "vias": [
+        "221bc986-09b0-482b-a4f2-4404511c9bcd"
+      ],
+      "uuids": [
+        "17b85f92-aeaf-4ce0-8b15-5987cd13932e",
+        "c5c54133-4211-4279-ad7a-91678eb10dc5"
+      ],
+      "lengths": [
+        0.7778174593052083,
+        0.8700000000000045
+      ]
+    },
+    {
+      "net": "GND",
+      "at": [
+        109.5,
+        109.22
+      ],
+      "layer": 0,
+      "degree": 2,
+      "angle": 90.0,
+      "pins": [
+        "C10.2"
+      ],
+      "vias": [],
+      "uuids": [
+        "3dcb1411-9e3c-464e-8582-0a7a4d480b3c",
+        "c5c54133-4211-4279-ad7a-91678eb10dc5"
+      ],
+      "lengths": [
+        0.519999999999996,
+        0.8700000000000045
+      ]
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        106.4,
+        126.6
+      ],
+      "layer": 0,
+      "degree": 3,
+      "angle": 90.0,
+      "pins": [
+        "C16.1"
+      ],
+      "vias": [],
+      "uuids": [
+        "1a051c6a-b57d-44ee-ae86-bc5cd2eaf62f",
+        "251df7e5-c67a-46ff-8877-35fcb7c648ae"
+      ],
+      "lengths": [
+        0.44999999999998863,
+        0.04999999999999716
+      ]
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        106.4,
+        126.6
+      ],
+      "layer": 0,
+      "degree": 3,
+      "angle": 90.0,
+      "pins": [
+        "C16.1"
+      ],
+      "vias": [],
+      "uuids": [
+        "1a051c6a-b57d-44ee-ae86-bc5cd2eaf62f",
+        "33716e98-13ef-4f09-b756-1e0038642a64"
+      ],
+      "lengths": [
+        0.44999999999998863,
+        0.5220000000000056
+      ]
+    },
+    {
+      "net": "+3V3",
+      "at": [
+        103.45,
+        111.1
+      ],
+      "layer": 0,
+      "degree": 3,
+      "angle": 135.0,
+      "pins": [],
+      "vias": [],
+      "uuids": [
+        "97cdd13d-d4da-4abe-acde-3a511fe8a280",
+        "b23113de-4e47-42cb-8629-7361569fe1a1"
+      ],
+      "lengths": [
+        0.5999999999999943,
+        0.3111269837220793
+      ]
+    }
+  ],
+  "power_chains_verified": 10,
+  "copper_diff_counts": {
+    "removed": 204,
+    "added": 129,
+    "modified": 59,
+    "unchanged_count": 527
+  },
+  "protected_files": {
+    "C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "d55cc3e2146be62a39707161abc60ae3331315a21a19285f17e98840de278c94",
+    "D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test/01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "e5b768239d2eb761331199dc0d3ef02ef9c2289797037a22e0de9d5ca595767d"
+  }
+}

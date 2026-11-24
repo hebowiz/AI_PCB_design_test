@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T00:49:26",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0843 mm)",
+            "items": [
+                {
+                    "description": "C14のリファレンスフィールド",
+                    "pos": {
+                        "x": 111.949999,
+                        "y": 107.9
+                    },
+                    "uuid": "1cd48ee1-1d89-466f-ba59-039851591d95"
+                },
+                {
+                    "description": "D1のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.6,
+                        "y": 107.65
+                    },
+                    "uuid": "8edf039b-0987-4461-a42e-8c47eec8b624"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0857 mm)",
+            "items": [
+                {
+                    "description": "D1のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.6,
+                        "y": 107.65
+                    },
+                    "uuid": "8edf039b-0987-4461-a42e-8c47eec8b624"
+                },
+                {
+                    "description": "D5のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 107.8
+                    },
+                    "uuid": "e025f128-6a5d-4378-b494-12b330282592"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

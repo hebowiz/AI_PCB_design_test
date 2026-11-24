@@ -1,0 +1,169 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T00:41:19",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [+3V3] ( B.Cu 上、長さ: 1.8000 mm )",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 117.75
+                    },
+                    "uuid": "00788b40-80c0-4f61-b372-eeacdb92be24"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 108.5
+                    },
+                    "uuid": "9e20a4ac-0ea8-485d-8eb4-5f35ef7f5024"
+                },
+                {
+                    "description": "パッド 2 [GND] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 109.22
+                    },
+                    "uuid": "1dad6333-e79e-428e-86d2-38ca209443bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D5のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.5,
+                        "y": 107.0
+                    },
+                    "uuid": "e025f128-6a5d-4378-b494-12b330282592"
+                },
+                {
+                    "description": "パッド 2 [GND] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 107.55
+                    },
+                    "uuid": "7b02d0d6-510f-4912-996b-5803f4462467"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 113.3
+                    },
+                    "uuid": "62fc1cde-9691-4ea2-b38c-390fbcc87392"
+                },
+                {
+                    "description": "パッド 2 [GND] - C6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.88,
+                        "y": 113.8
+                    },
+                    "uuid": "5a13a30e-e348-44c9-9b38-2244b78240c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 115.6
+                    },
+                    "uuid": "321e3f99-2898-4121-be9e-c7bdf9af2d63"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.1,
+                        "y": 115.15
+                    },
+                    "uuid": "fe2170a9-7c94-4c30-a921-4f6ca3c78bc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "tracks": {
+    "before": 694,
+    "after": 615
+  },
+  "vias": {
+    "before": 96,
+    "after": 100
+  },
+  "total_track_mm": {
+    "before": 807.70265,
+    "after": 808.25188
+  },
+  "turn_ge90": {
+    "before": 4,
+    "after": 0
+  },
+  "non_GND_cycles": {
+    "before": 0,
+    "after": 0
+  },
+  "duplicate_overlap_pairs": {
+    "before": 8,
+    "after": 0
+  },
+  "near_pad_track_pairs": {
+    "before": 14,
+    "after": 23
+  },
+  "corridor_track_pair_hits": {
+    "before": 0,
+    "after": 0
+  },
+  "detour_pairs": {
+    "before": 134,
+    "after": 133
+  },
+  "raw_endpoint_angle_candidates": {
+    "before": 121,
+    "after": 5
+  }
+}

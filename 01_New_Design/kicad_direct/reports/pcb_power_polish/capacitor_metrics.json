@@ -1,0 +1,170 @@
+[
+  {
+    "stage": "before",
+    "from": "C12.1",
+    "to": "C10.1",
+    "copper_graph_length_excluding_pad_mm": 5.008
+  },
+  {
+    "stage": "before",
+    "from": "C11.1",
+    "to": "C9.1",
+    "copper_graph_length_excluding_pad_mm": 14.8173
+  },
+  {
+    "stage": "before",
+    "from": "C1.1",
+    "to": "C23.1",
+    "copper_graph_length_excluding_pad_mm": 3.2514
+  },
+  {
+    "stage": "before",
+    "from": "U4.5",
+    "to": "C19.1",
+    "copper_graph_length_excluding_pad_mm": 1.0053
+  },
+  {
+    "stage": "before",
+    "ground_pin": "C1.2",
+    "nearest_ground_via_mm": 1.4534,
+    "via": [
+      119.0,
+      113.7
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "before",
+    "ground_pin": "C2.2",
+    "nearest_ground_via_mm": 1.5352,
+    "via": [
+      118.88,
+      117.3
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "before",
+    "ground_pin": "C11.2",
+    "nearest_ground_via_mm": 4.609,
+    "via": [
+      119.0,
+      113.7
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "before",
+    "ground_pin": "C12.2",
+    "nearest_ground_via_mm": 3.9272,
+    "via": [
+      105.82,
+      110.1
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "before",
+    "ground_pin": "C18.2",
+    "nearest_ground_via_mm": 1.5089,
+    "via": [
+      108.15,
+      136.25
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "before",
+    "ground_pin": "C19.2",
+    "nearest_ground_via_mm": 1.2121,
+    "via": [
+      112.2255,
+      132.4255
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "after",
+    "from": "C12.1",
+    "to": "C10.1",
+    "copper_graph_length_excluding_pad_mm": 1.3853
+  },
+  {
+    "stage": "after",
+    "from": "C11.1",
+    "to": "C9.1",
+    "copper_graph_length_excluding_pad_mm": 13.1906
+  },
+  {
+    "stage": "after",
+    "from": "C1.1",
+    "to": "C23.1",
+    "copper_graph_length_excluding_pad_mm": 3.4681
+  },
+  {
+    "stage": "after",
+    "from": "U4.5",
+    "to": "C19.1",
+    "copper_graph_length_excluding_pad_mm": 1.0053
+  },
+  {
+    "stage": "after",
+    "ground_pin": "C1.2",
+    "nearest_ground_via_mm": 1.3285,
+    "via": [
+      118.85,
+      113.7
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "after",
+    "ground_pin": "C2.2",
+    "nearest_ground_via_mm": 1.05,
+    "via": [
+      120.0,
+      119.7
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "after",
+    "ground_pin": "C11.2",
+    "nearest_ground_via_mm": 1.6325,
+    "via": [
+      118.9,
+      112.55
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "after",
+    "ground_pin": "C12.2",
+    "nearest_ground_via_mm": 1.05,
+    "via": [
+      107.65,
+      106.5
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "after",
+    "ground_pin": "C18.2",
+    "nearest_ground_via_mm": 1.5089,
+    "via": [
+      108.15,
+      136.25
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  },
+  {
+    "stage": "after",
+    "ground_pin": "C19.2",
+    "nearest_ground_via_mm": 1.2121,
+    "via": [
+      112.2255,
+      132.4255
+    ],
+    "metric": "pad center to via center, not extracted inductance or routed length"
+  }
+]

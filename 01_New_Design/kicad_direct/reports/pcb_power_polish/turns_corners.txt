@@ -1,0 +1,5 @@
+all 4 outside 4
+{'net': '+3V3', 'at': (107.1, 126.7), 'layer': 0, 'degree': 2, 'angle': 90.0, 'pins': [], 'vias': [], 'uuids': ['2b4b75f0-bf66-434a-aea9-8e0a469b0763', '9f5c5a8c-2d3f-46a0-8642-6df6ce768cc7'], 'lengths': [0.7000000000000028, 0.6999999999999886]}
+{'net': '+3V3', 'at': (107.1, 126.725), 'layer': 0, 'degree': 2, 'angle': 90.0, 'pins': [], 'vias': [], 'uuids': ['65a1d465-4216-4605-9dca-4a6bf5de8acf', '9c1ff6d1-628c-4963-a857-0a0b3caeb371'], 'lengths': [0.375, 1.0375000000000085]}
+{'net': 'USB5V_OUT', 'at': (114.81, 145.4), 'layer': 0, 'degree': 2, 'angle': 90.0, 'pins': [], 'vias': [], 'uuids': ['bde42f4f-0c6f-4f9a-bc44-aca718144da3', 'e3f791c2-b5df-4a51-af9c-9ebb3c7477d5'], 'lengths': [0.010000000000005116, 1.9000000000000057]}
+{'net': '/CTS_N', 'at': (114.7, 130.6), 'layer': 0, 'degree': 2, 'angle': 90.0, 'pins': [], 'vias': [], 'uuids': ['066b8d3a-8faa-4f2e-9d9a-56a92ae2da59', 'adfd8ec2-3a67-4e77-89e7-b5f277acd327'], 'lengths': [0.3535533905932738, 0.03535533905933542]}

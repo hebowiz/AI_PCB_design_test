@@ -1,0 +1,313 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T00:40:29",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.8000 mm )",
+                    "pos": {
+                        "x": 113.9,
+                        "y": 118.8
+                    },
+                    "uuid": "9aa06c3b-bb33-400a-8b04-44b412e00512"
+                },
+                {
+                    "description": "配線 [+3V3] ( B.Cu 上、長さ: 1.8000 mm )",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 117.75
+                    },
+                    "uuid": "00788b40-80c0-4f61-b372-eeacdb92be24"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 39 [+3V3] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 117.75
+                    },
+                    "uuid": "2e6920bb-7c39-42ea-99be-f2daff416eca"
+                },
+                {
+                    "description": "配線 [+3V3] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 115.6,
+                        "y": 117.75
+                    },
+                    "uuid": "52942c15-203e-4fc7-a4a9-ee01a66fbd94"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.5162 mm )",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 108.7
+                    },
+                    "uuid": "d3b9fc09-e5f4-45c1-93dd-afc0d8d9b708"
+                },
+                {
+                    "description": "配線 [+3V3] ( B.Cu 上、長さ: 5.9000 mm )",
+                    "pos": {
+                        "x": 116.05,
+                        "y": 117.3
+                    },
+                    "uuid": "cbf5129c-7e5e-4ee0-ba21-16cf393ec07d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "アイテム禁止 (ルール 'reference_plane_signal_vias')",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 108.4
+                    },
+                    "uuid": "a13add4e-eb0b-4b38-9e80-15451c2050e3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 118.7,
+                        "y": 116.4
+                    },
+                    "uuid": "18ada3f9-c0ae-4ce1-8692-0d35da939615"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 117.75
+                    },
+                    "uuid": "35044577-d415-4fc0-948c-dae03342a9fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 119.6,
+                        "y": 120.45
+                    },
+                    "uuid": "52f57e68-c500-48b2-9b24-ee603add2cd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 116.05,
+                        "y": 111.4
+                    },
+                    "uuid": "9691009b-193e-438a-8b92-ed029d66037d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 108.4
+                    },
+                    "uuid": "a13add4e-eb0b-4b38-9e80-15451c2050e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 108.5
+                    },
+                    "uuid": "9e20a4ac-0ea8-485d-8eb4-5f35ef7f5024"
+                },
+                {
+                    "description": "パッド 2 [GND] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 109.22
+                    },
+                    "uuid": "1dad6333-e79e-428e-86d2-38ca209443bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D5のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.5,
+                        "y": 107.0
+                    },
+                    "uuid": "e025f128-6a5d-4378-b494-12b330282592"
+                },
+                {
+                    "description": "パッド 2 [GND] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 107.55
+                    },
+                    "uuid": "7b02d0d6-510f-4912-996b-5803f4462467"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 113.3
+                    },
+                    "uuid": "62fc1cde-9691-4ea2-b38c-390fbcc87392"
+                },
+                {
+                    "description": "パッド 2 [GND] - C6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.88,
+                        "y": 113.8
+                    },
+                    "uuid": "5a13a30e-e348-44c9-9b38-2244b78240c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 115.6
+                    },
+                    "uuid": "321e3f99-2898-4121-be9e-c7bdf9af2d63"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.1,
+                        "y": 115.15
+                    },
+                    "uuid": "fe2170a9-7c94-4c30-a921-4f6ca3c78bc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "net": "USB5V",
+    "expected": [
+      "J1.1",
+      "C1.1",
+      "C23.1",
+      "U1.40"
+    ],
+    "actual_pins": [
+      "J1.1",
+      "C1.1",
+      "C23.1",
+      "U1.40"
+    ],
+    "in_order": true,
+    "trace_length_excluding_pad_copper_mm": 26.155210960862732
+  },
+  {
+    "net": "USB5V",
+    "expected": [
+      "J1.1",
+      "C1.1",
+      "C18.1",
+      "U4.1"
+    ],
+    "actual_pins": [
+      "J1.1",
+      "C1.1",
+      "C18.1",
+      "U4.1"
+    ],
+    "in_order": true,
+    "trace_length_excluding_pad_copper_mm": 52.534808032263456
+  },
+  {
+    "net": "VPHY",
+    "expected": [
+      "FB1.2",
+      "C11.1",
+      "C9.1",
+      "U1.3"
+    ],
+    "actual_pins": [
+      "FB1.2",
+      "C9.1",
+      "U1.3"
+    ],
+    "in_order": false,
+    "trace_length_excluding_pad_copper_mm": 13.940264786586958
+  },
+  {
+    "net": "VPLL",
+    "expected": [
+      "FB2.2",
+      "C12.1",
+      "C10.1",
+      "U1.8"
+    ],
+    "actual_pins": [
+      "FB2.2",
+      "C10.1",
+      "U1.8"
+    ],
+    "in_order": false,
+    "trace_length_excluding_pad_copper_mm": 3.47647640559574
+  },
+  {
+    "net": "+3V3",
+    "expected": [
+      "U1.39",
+      "C2.1",
+      "C3.1",
+      "U1.12"
+    ],
+    "actual_pins": [
+      "U1.39",
+      "C5.1",
+      "C2.1",
+      "C4.1",
+      "C3.1",
+      "U1.12"
+    ],
+    "in_order": true,
+    "trace_length_excluding_pad_copper_mm": 36.98583164473527
+  },
+  {
+    "net": "+3V3",
+    "expected": [
+      "U1.39",
+      "C2.1",
+      "C4.1",
+      "U1.24"
+    ],
+    "actual_pins": [
+      "U1.39",
+      "C5.1",
+      "C2.1",
+      "C4.1",
+      "U1.24"
+    ],
+    "in_order": true,
+    "trace_length_excluding_pad_copper_mm": 23.19356859125189
+  },
+  {
+    "net": "+3V3",
+    "expected": [
+      "U1.39",
+      "C2.1",
+      "C6.1",
+      "U1.46"
+    ],
+    "actual_pins": [
+      "U1.39",
+      "C6.1",
+      "U1.46"
+    ],
+    "in_order": false,
+    "trace_length_excluding_pad_copper_mm": 10.421556708123596
+  },
+  {
+    "net": "+3V3",
+    "expected": [
+      "U1.39",
+      "C2.1",
+      "C16.1",
+      "U2.1"
+    ],
+    "actual_pins": [
+      "U1.39",
+      "C5.1",
+      "C2.1",
+      "C15.1",
+      "U2.1"
+    ],
+    "in_order": false,
+    "trace_length_excluding_pad_copper_mm": 26.179411739553334
+  },
+  {
+    "net": "+3V3",
+    "expected": [
+      "U1.39",
+      "C2.1",
+      "C15.1",
+      "U5.8"
+    ],
+    "actual_pins": [
+      "U1.39",
+      "C5.1",
+      "C2.1",
+      "U5.8"
+    ],
+    "in_order": false,
+    "trace_length_excluding_pad_copper_mm": 21.147862245892128
+  },
+  {
+    "net": "VIO",
+    "expected": [
+      "U4.5",
+      "C19.1",
+      "C17.1",
+      "U2.16"
+    ],
+    "actual_pins": [
+      "U4.5",
+      "C19.1",
+      "R7.1",
+      "R12.1",
+      "R11.1",
+      "C17.1",
+      "U2.16"
+    ],
+    "in_order": true,
+    "trace_length_excluding_pad_copper_mm": 15.748991784068743
+  }
+]

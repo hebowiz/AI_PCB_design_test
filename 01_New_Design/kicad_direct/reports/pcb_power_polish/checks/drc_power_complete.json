@@ -1,0 +1,260 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T00:42:24",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "クリアランス違反 (ルール 'R0020_same_net_via_via' クリアランス 0.5000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 112.45,
+                        "y": 132.725
+                    },
+                    "uuid": "b62690c1-43d7-4610-9525-8613ee1eba12"
+                },
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 112.2255,
+                        "y": 132.4255
+                    },
+                    "uuid": "eb51cdf5-5d1d-4a46-a9d9-a15726eb978b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 (ルール 'R0019_same_net_pad_via' クリアランス 0.2000 mm; 現状 0.1750 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 112.45,
+                        "y": 132.725
+                    },
+                    "uuid": "b62690c1-43d7-4610-9525-8613ee1eba12"
+                },
+                {
+                    "description": "パッド 2 [GND] - C19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.4,
+                        "y": 132.725
+                    },
+                    "uuid": "d138ce04-37f7-4a92-ac11-5ce92482fc20"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [+3V3] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 115.6,
+                        "y": 117.75
+                    },
+                    "uuid": "52942c15-203e-4fc7-a4a9-ee01a66fbd94"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "ドリル穴と他の穴が近過ぎる (基板の設定の制約 最小 0.2500 mm; 現状 0.0743 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 112.45,
+                        "y": 132.725
+                    },
+                    "uuid": "b62690c1-43d7-4610-9525-8613ee1eba12"
+                },
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 112.2255,
+                        "y": 132.4255
+                    },
+                    "uuid": "eb51cdf5-5d1d-4a46-a9d9-a15726eb978b"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント of C12 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 106.915,
+                        "y": 108.761252
+                    },
+                    "uuid": "330b385b-19b1-4e64-9414-27a21d8aab56"
+                },
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 106.4,
+                        "y": 108.5
+                    },
+                    "uuid": "9e20a4ac-0ea8-485d-8eb4-5f35ef7f5024"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0864 mm)",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 121.1,
+                        "y": 117.7
+                    },
+                    "uuid": "321e3f99-2898-4121-be9e-c7bdf9af2d63"
+                },
+                {
+                    "description": "セグメント of C2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 120.735,
+                        "y": 117.438748
+                    },
+                    "uuid": "b135e5a6-446e-460e-931d-81a8f67b5c12"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 121.05,
+                        "y": 114.3
+                    },
+                    "uuid": "62fc1cde-9691-4ea2-b38c-390fbcc87392"
+                },
+                {
+                    "description": "セグメント of C1 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 120.835,
+                        "y": 114.461252
+                    },
+                    "uuid": "a61560bd-0706-447d-a348-1b83e1e3bbbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 106.4,
+                        "y": 108.5
+                    },
+                    "uuid": "9e20a4ac-0ea8-485d-8eb4-5f35ef7f5024"
+                },
+                {
+                    "description": "パッド 2 [VPLL] - FB2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.485,
+                        "y": 108.6
+                    },
+                    "uuid": "48150fc4-c08a-4da4-905a-4c522c93f985"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D5のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 106.0
+                    },
+                    "uuid": "e025f128-6a5d-4378-b494-12b330282592"
+                },
+                {
+                    "description": "パッド 2 [/USB_D-] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 104.75
+                    },
+                    "uuid": "0790b439-645e-40f0-8b2e-c44bb8b00891"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 121.05,
+                        "y": 114.3
+                    },
+                    "uuid": "62fc1cde-9691-4ea2-b38c-390fbcc87392"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.1,
+                        "y": 115.15
+                    },
+                    "uuid": "fe2170a9-7c94-4c30-a921-4f6ca3c78bc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

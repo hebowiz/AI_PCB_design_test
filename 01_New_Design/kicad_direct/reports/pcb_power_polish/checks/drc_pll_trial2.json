@@ -1,0 +1,322 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T00:25:35",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/REF12K] ( B.Cu 上、長さ: 4.6500 mm )",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 112.6
+                    },
+                    "uuid": "591acc17-b1ef-4c2b-b689-21d6d5ec346c"
+                },
+                {
+                    "description": "配線 [/REF12K] ( F.Cu 上、長さ: 2.2500 mm )",
+                    "pos": {
+                        "x": 104.1,
+                        "y": 107.95
+                    },
+                    "uuid": "908bcc66-4d96-4881-9b67-de4b5a32d8cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1235 mm)",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 0.9000 mm )",
+                    "pos": {
+                        "x": 106.7,
+                        "y": 109.92
+                    },
+                    "uuid": "1487ee08-59eb-485c-b06a-30f53c66967b"
+                },
+                {
+                    "description": "パッド 1 [VPLL] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 109.45
+                    },
+                    "uuid": "9f953a17-af1f-46db-aedb-4a9b42483e81"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット VPLL と GND)",
+            "items": [
+                {
+                    "description": "パッド 1 [VPLL] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 109.45
+                    },
+                    "uuid": "9f953a17-af1f-46db-aedb-4a9b42483e81"
+                },
+                {
+                    "description": "パッド 2 [GND] - C3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.7,
+                        "y": 109.92
+                    },
+                    "uuid": "a04ecf0e-afdd-4aee-bc65-c1f20c959708"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 (ルール 'R0019_same_net_pad_via' クリアランス 0.2000 mm; 現状 0.1000 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [GND] - D5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.45,
+                        "y": 107.0
+                    },
+                    "uuid": "d305c7bf-234c-4c7c-8e68-06c3b2e26ace"
+                },
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 108.9,
+                        "y": 106.9
+                    },
+                    "uuid": "efb62eaf-3fdb-4a47-a983-aff1287deb94"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント C3",
+                    "pos": {
+                        "x": 106.7,
+                        "y": 110.4
+                    },
+                    "uuid": "2acc9cb5-f3fc-4626-b0e6-2e00bc50d745"
+                },
+                {
+                    "description": "フットプリント C12",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 108.5
+                    },
+                    "uuid": "86319332-fffc-48ab-afe7-47a2db419f3a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント C10",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 109.95
+                    },
+                    "uuid": "69fde4e3-031e-4e4f-b927-223f5868f5a2"
+                },
+                {
+                    "description": "フットプリント U1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 116.0
+                    },
+                    "uuid": "9f4c1821-c17f-4805-b537-ce5176d50b82"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "パッド 2 [GND] - C3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.7,
+                        "y": 109.92
+                    },
+                    "uuid": "a04ecf0e-afdd-4aee-bc65-c1f20c959708"
+                },
+                {
+                    "description": "パッド 1 [VPLL] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 109.45
+                    },
+                    "uuid": "9f953a17-af1f-46db-aedb-4a9b42483e81"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/REF12K] ( F.Cu 上、長さ: 2.2500 mm )",
+                    "pos": {
+                        "x": 104.1,
+                        "y": 107.95
+                    },
+                    "uuid": "908bcc66-4d96-4881-9b67-de4b5a32d8cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/REF12K] ( B.Cu 上、長さ: 4.6500 mm )",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 112.6
+                    },
+                    "uuid": "591acc17-b1ef-4c2b-b689-21d6d5ec346c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C10のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 110.45
+                    },
+                    "uuid": "48f11480-2577-434a-8bc1-2b7bd9b62ece"
+                },
+                {
+                    "description": "パッド 7 [/USB_D+] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.75,
+                        "y": 111.8375
+                    },
+                    "uuid": "fdb5677d-e90a-4694-bf9d-571a601f8021"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C10のリファレンスフィールド",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 110.45
+                    },
+                    "uuid": "48f11480-2577-434a-8bc1-2b7bd9b62ece"
+                },
+                {
+                    "description": "パッド 8 [VPLL] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.25,
+                        "y": 111.8375
+                    },
+                    "uuid": "adeb1164-88f6-4b84-a9a0-aedf07e9067a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 108.5
+                    },
+                    "uuid": "9e20a4ac-0ea8-485d-8eb4-5f35ef7f5024"
+                },
+                {
+                    "description": "パッド 2 [GND] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 109.47
+                    },
+                    "uuid": "1dad6333-e79e-428e-86d2-38ca209443bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D5のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.5,
+                        "y": 107.0
+                    },
+                    "uuid": "e025f128-6a5d-4378-b494-12b330282592"
+                },
+                {
+                    "description": "パッド 2 [GND] - C12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 107.55
+                    },
+                    "uuid": "7b02d0d6-510f-4912-996b-5803f4462467"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

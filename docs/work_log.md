@@ -294,3 +294,11 @@
 検証証跡：[修正報告](../01_New_Design/kicad_direct/reports/pcb_quality_revision/README.md)、同フォルダの`integrity.json`、`quality_comparison.json`、`copper_diff.json`、`after/`。日本語本文をyomiyasuの意味・数値保全方針で校正した。
 
 未解決事項：迂回候補端子対は120→131であり、全て解消とは扱わない。保護対象の90°、接続近傍14組、電源ネックの妥当性は人間レビューへ提示。SI/EMC/実機・製造未評価。R-0017〜R-0027の保留を維持し、R-0028〜R-0032も最終判定を行わない。
+
+## 2026-11-25 01:00 JST — PCBの残件再修正
+
+目的：R-0024・R-0027・R-0029への再指摘に対応する。実施操作：87711e8から専用ブランチを作り、候補PCBで大容量コンデンサの配置・給電順・GND帰路と配線角を修正した。KiCad 10.0.8のPython API、`sch export netlist`、`sch erc`、`pcb drc --schematic-parity`、配線グラフ・幾何検査、SVG/PNG出力を使用。
+
+変更ファイル：A-2 PCB、`reports/pcb_power_polish/`、本ログ・判断・議論記録。結果：ERC/DRC/未配線/回路図不一致0、10電源経路の順序を確認。回路図・設定・BOM・製造データ・既存生成処理は保持。候補の検証後にPCBへ反映した。
+
+検証証跡・失敗と再試行：[修正報告](../01_New_Design/kicad_direct/reports/pcb_power_polish/README.md)、同フォルダの`integrity.json`・`checks/`・`copper_diff.json`。日本語本文はyomiyasuで意味・数値を保持して校正した。未解決事項：C11の残る迂回と実機電気性能、人間による最終判定。固定Workspaceはユーザーの更新依頼に従い、版確定後に安全に反映する。
