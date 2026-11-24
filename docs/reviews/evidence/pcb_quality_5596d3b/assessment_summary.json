@@ -1,0 +1,56 @@
+{
+  "leaf_classes": {
+    "junction/copper-covered tip: not confirmed stub": 16,
+    "exposed leaf: inspect intended use": 11,
+    "zone-return: excluded from open-stub count": 32
+  },
+  "turn_angles": {
+    "90.0": 98,
+    "135.0": 8
+  },
+  "detour_non_GND_pairs": 120,
+  "detour_non_GND_nets": [
+    "+3V3",
+    "/EE_CLK",
+    "/EE_DATA",
+    "/PWREN_N",
+    "/RESET_N",
+    "/TXLED_N",
+    "USB5V",
+    "VIO",
+    "VPHY"
+  ],
+  "core_nets": 32,
+  "core_segments": 709,
+  "core_vias": 76,
+  "core_mm": 790.13965,
+  "protected_nets": [
+    "/USB_D+",
+    "/USB_D-",
+    "/XTAL_IN",
+    "/XTAL_OUT",
+    "GND"
+  ],
+  "scope_is_not_removal_authorization": true,
+  "near_gap_range_mm": [
+    0.0,
+    0.125279
+  ],
+  "tiers": {
+    "A: topology / power trunk": {
+      "nets": 14,
+      "segments": 479,
+      "vias": 47
+    },
+    "B: local bends / pad approach / leaf": {
+      "nets": 18,
+      "segments": 230,
+      "vias": 29
+    },
+    "P: protected": {
+      "nets": 4,
+      "segments": 83,
+      "vias": 21
+    }
+  }
+}

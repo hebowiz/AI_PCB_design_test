@@ -1,0 +1,139 @@
+[
+  {
+    "file": "01_eeprom_detour.png",
+    "bounds_mm": [
+      100,
+      112,
+      120,
+      128.5
+    ],
+    "nets": [
+      "/EE_CLK",
+      "/EE_DATA"
+    ],
+    "layers": [
+      0,
+      2
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "02_turns.png",
+    "bounds_mm": [
+      105,
+      114,
+      114,
+      124
+    ],
+    "nets": [
+      "+3V3"
+    ],
+    "layers": [
+      0,
+      2
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "03_control_stub.png",
+    "bounds_mm": [
+      115.5,
+      124.4,
+      120,
+      129
+    ],
+    "nets": [
+      "/PWREN_N"
+    ],
+    "layers": [
+      0,
+      2
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "04_power_loops.png",
+    "bounds_mm": [
+      111,
+      131.8,
+      118.5,
+      137.2
+    ],
+    "nets": [
+      "/FB_2V5",
+      "VIO"
+    ],
+    "layers": [
+      0,
+      2
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "05_interpad.png",
+    "bounds_mm": [
+      111.8,
+      126.6,
+      115.3,
+      128.9
+    ],
+    "nets": [
+      "/PWREN_N"
+    ],
+    "layers": [
+      0
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "06_ldo_pad_near.png",
+    "bounds_mm": [
+      107.5,
+      133.5,
+      110.8,
+      136.2
+    ],
+    "nets": [
+      "USB5V"
+    ],
+    "layers": [
+      0
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "07_usb5v_routes.png",
+    "bounds_mm": [
+      100,
+      102,
+      122,
+      150
+    ],
+    "nets": [
+      "/USB5V_SW",
+      "USB5V",
+      "USB5V_OUT"
+    ],
+    "layers": [
+      0,
+      2
+    ],
+    "zones": "not shown"
+  },
+  {
+    "file": "08_output_stub.png",
+    "bounds_mm": [
+      103.8,
+      131.5,
+      106.4,
+      136.5
+    ],
+    "nets": [
+      "USB5V_OUT"
+    ],
+    "layers": [
+      2
+    ],
+    "zones": "not shown"
+  }
+]

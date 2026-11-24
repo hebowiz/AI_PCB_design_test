@@ -1,0 +1,18 @@
+{
+  "register_base": "b8a48da1c7385c60c8789909a0630acaad9d2a95",
+  "rows": 32,
+  "columns": 15,
+  "R0001_R0027_all_cells_unchanged_since_registration": true,
+  "R0028_R0032_only_action_and_evidence_changed": true,
+  "R0001_R0016_completed_OK": 16,
+  "R0017_R0027_hold": 11,
+  "R0028_R0032_investigating_unjudged": 5,
+  "source_and_fixed_commit": "5596d3bc8802687b89b21fd9c57e1117ec9382e5",
+  "source_and_fixed_tracked_changes": false,
+  "source_and_fixed_pcb_sha256": "d55cc3e2146be62a39707161abc60ae3331315a21a19285f17e98840de278c94",
+  "preexisting_main_project_sha256_unchanged": "e5b768239d2eb761331199dc0d3ef02ef9c2289797037a22e0de9d5ca595767d",
+  "local_report_links_broken": [],
+  "python_syntax": "pass",
+  "git_diff_check": "pass",
+  "analysis_not_approved_skill": true
+}

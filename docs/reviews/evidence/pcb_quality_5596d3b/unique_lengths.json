@@ -1,0 +1,236 @@
+[
+  {
+    "net": "+3V3",
+    "sum_mm": 123.750918,
+    "unique_centerline_mm": 111.335207,
+    "coincident_excess_mm": 12.415711
+  },
+  {
+    "net": "/CTS_N",
+    "sum_mm": 22.658552,
+    "unique_centerline_mm": 22.658552,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/EE_CLK",
+    "sum_mm": 31.055635,
+    "unique_centerline_mm": 31.030635,
+    "coincident_excess_mm": 0.025
+  },
+  {
+    "net": "/EE_CS",
+    "sum_mm": 24.9,
+    "unique_centerline_mm": 24.9,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/EE_DATA",
+    "sum_mm": 40.605229,
+    "unique_centerline_mm": 40.595229,
+    "coincident_excess_mm": 0.01
+  },
+  {
+    "net": "/EE_DO",
+    "sum_mm": 6.942119,
+    "unique_centerline_mm": 6.132119,
+    "coincident_excess_mm": 0.81
+  },
+  {
+    "net": "/FB",
+    "sum_mm": 11.680582,
+    "unique_centerline_mm": 11.088084,
+    "coincident_excess_mm": 0.592498
+  },
+  {
+    "net": "/FB_2V5",
+    "sum_mm": 8.008427,
+    "unique_centerline_mm": 8.008427,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/FB_3V3",
+    "sum_mm": 6.337716,
+    "unique_centerline_mm": 6.337716,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/FT_CTS_N",
+    "sum_mm": 22.076826,
+    "unique_centerline_mm": 21.730992,
+    "coincident_excess_mm": 0.345834
+  },
+  {
+    "net": "/FT_RTS_N",
+    "sum_mm": 22.040531,
+    "unique_centerline_mm": 21.990531,
+    "coincident_excess_mm": 0.05
+  },
+  {
+    "net": "/FT_RXD",
+    "sum_mm": 31.389949,
+    "unique_centerline_mm": 31.389949,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/FT_TXD",
+    "sum_mm": 23.887923,
+    "unique_centerline_mm": 23.887923,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "/LED_PWR_A",
+    "sum_mm": 1.7225,
+    "unique_centerline_mm": 1.7225,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "/LED_RX_A",
+    "sum_mm": 3.000317,
+    "unique_centerline_mm": 3.000317,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "/LED_TX_A",
+    "sum_mm": 3.000317,
+    "unique_centerline_mm": 3.000317,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "/PWREN_N",
+    "sum_mm": 35.989037,
+    "unique_centerline_mm": 34.539037,
+    "coincident_excess_mm": 1.45
+  },
+  {
+    "net": "/PWR_EN",
+    "sum_mm": 28.360978,
+    "unique_centerline_mm": 28.360978,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "/REF12K",
+    "sum_mm": 12.8225,
+    "unique_centerline_mm": 12.8225,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/RESET_N",
+    "sum_mm": 8.4275,
+    "unique_centerline_mm": 7.7075,
+    "coincident_excess_mm": 0.72
+  },
+  {
+    "net": "/RTS_N",
+    "sum_mm": 18.483264,
+    "unique_centerline_mm": 18.483264,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/RXD",
+    "sum_mm": 26.024484,
+    "unique_centerline_mm": 25.999482,
+    "coincident_excess_mm": 0.025002
+  },
+  {
+    "net": "/RXLED_N",
+    "sum_mm": 16.188846,
+    "unique_centerline_mm": 14.238846,
+    "coincident_excess_mm": 1.95
+  },
+  {
+    "net": "/TXD",
+    "sum_mm": 24.368086,
+    "unique_centerline_mm": 24.368086,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/TXLED_N",
+    "sum_mm": 19.1,
+    "unique_centerline_mm": 19.05,
+    "coincident_excess_mm": 0.05
+  },
+  {
+    "net": "/USB5V_SW",
+    "sum_mm": 17.457742,
+    "unique_centerline_mm": 16.507742,
+    "coincident_excess_mm": 0.95
+  },
+  {
+    "net": "/USB_D+",
+    "sum_mm": 7.955267,
+    "unique_centerline_mm": 7.955267,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/USB_D-",
+    "sum_mm": 7.996688,
+    "unique_centerline_mm": 7.996688,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "/XTAL_IN",
+    "sum_mm": 8.388404,
+    "unique_centerline_mm": 7.709582,
+    "coincident_excess_mm": 0.678823
+  },
+  {
+    "net": "/XTAL_OUT",
+    "sum_mm": 7.204506,
+    "unique_centerline_mm": 7.204506,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "GND",
+    "sum_mm": 41.645851,
+    "unique_centerline_mm": 41.585851,
+    "coincident_excess_mm": 0.06
+  },
+  {
+    "net": "USB5V",
+    "sum_mm": 86.650321,
+    "unique_centerline_mm": 85.847821,
+    "coincident_excess_mm": 0.8025
+  },
+  {
+    "net": "USB5V_OUT",
+    "sum_mm": 32.488049,
+    "unique_centerline_mm": 31.188049,
+    "coincident_excess_mm": 1.3
+  },
+  {
+    "net": "VCCA_1V8",
+    "sum_mm": 3.0075,
+    "unique_centerline_mm": 3.0075,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "VCORE_1V8",
+    "sum_mm": 2.2075,
+    "unique_centerline_mm": 2.2075,
+    "coincident_excess_mm": 0.0
+  },
+  {
+    "net": "VIO",
+    "sum_mm": 48.817996,
+    "unique_centerline_mm": 48.242998,
+    "coincident_excess_mm": 0.574998
+  },
+  {
+    "net": "VIO_OUT",
+    "sum_mm": 4.878326,
+    "unique_centerline_mm": 4.878326,
+    "coincident_excess_mm": -0.0
+  },
+  {
+    "net": "VPHY",
+    "sum_mm": 18.766333,
+    "unique_centerline_mm": 18.746333,
+    "coincident_excess_mm": 0.02
+  },
+  {
+    "net": "VPLL",
+    "sum_mm": 11.588846,
+    "unique_centerline_mm": 11.548846,
+    "coincident_excess_mm": 0.04
+  }
+]

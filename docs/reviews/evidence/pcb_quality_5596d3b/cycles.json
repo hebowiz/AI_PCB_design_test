@@ -1,0 +1,534 @@
+[
+  {
+    "net": "+3V3",
+    "length_mm": 1.4166,
+    "points": [
+      [
+        108.32,
+        122.05
+      ],
+      [
+        108.05,
+        122.9
+      ],
+      [
+        108.3,
+        122.9
+      ]
+    ],
+    "uuids": [
+      "47133953-1c3c-422b-90ac-a6f283b7ac5b",
+      "ef2b281a-4ec8-40c4-9994-c3635a85c303",
+      "f8e07371-2e1d-4a35-9a3b-d85cb960ee7b"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "+3V3",
+    "length_mm": 1.8666,
+    "points": [
+      [
+        108.32,
+        122.05
+      ],
+      [
+        107.85,
+        122.05
+      ],
+      [
+        107.85,
+        122.9
+      ],
+      [
+        108.05,
+        122.9
+      ]
+    ],
+    "uuids": [
+      "61fe9b99-736a-4105-a4ba-af69942a772b",
+      "bc749e0b-ab4b-4da8-adda-35439710e26c",
+      "c63c070f-3e05-4d26-a584-0e7a37b1f8f9",
+      "ef2b281a-4ec8-40c4-9994-c3635a85c303",
+      "f8e07371-2e1d-4a35-9a3b-d85cb960ee7b"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "+3V3",
+    "length_mm": 0.2,
+    "points": [
+      [
+        107.7,
+        122.025
+      ],
+      [
+        107.725,
+        122.025
+      ],
+      [
+        107.85,
+        122.05
+      ]
+    ],
+    "uuids": [
+      "01e2c207-0024-4deb-b3c8-f9eb145f3fc2",
+      "3b4af52e-4b3d-49cf-9c99-00b921663f6f",
+      "61fe9b99-736a-4105-a4ba-af69942a772b",
+      "9a6d6fc1-8acb-4486-8ed2-9804f090347e",
+      "b844a7b5-0b53-40a3-a850-6ba3c1ae4d4f",
+      "bc749e0b-ab4b-4da8-adda-35439710e26c",
+      "c63c070f-3e05-4d26-a584-0e7a37b1f8f9"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "+3V3",
+    "length_mm": 2.075,
+    "points": [
+      [
+        107.7,
+        122.025
+      ],
+      [
+        107.7,
+        121.0
+      ],
+      [
+        107.725,
+        122.025
+      ]
+    ],
+    "uuids": [
+      "01e2c207-0024-4deb-b3c8-f9eb145f3fc2",
+      "3b4af52e-4b3d-49cf-9c99-00b921663f6f",
+      "9a6d6fc1-8acb-4486-8ed2-9804f090347e",
+      "b844a7b5-0b53-40a3-a850-6ba3c1ae4d4f",
+      "b84639b8-d3cf-4c5a-9d6d-244344c9a4ea",
+      "c63c070f-3e05-4d26-a584-0e7a37b1f8f9"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "+3V3",
+    "length_mm": 1.90924,
+    "points": [
+      [
+        107.6,
+        110.75
+      ],
+      [
+        107.58,
+        110.1
+      ],
+      [
+        107.336,
+        110.364
+      ],
+      [
+        106.95,
+        110.75
+      ]
+    ],
+    "uuids": [
+      "38e942ab-7fcf-4052-8cb2-db762a9beeb4",
+      "7edc90f1-0585-4624-a86c-7e7772fe095a",
+      "8f4975f8-dc79-4136-8cb5-f3103b0b5afc",
+      "9901f950-f8b7-47cf-b8d5-11a1ab7f380d"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "+3V3",
+    "length_mm": 3.26782,
+    "points": [
+      [
+        117.26399,
+        117.56399
+      ],
+      [
+        117.02,
+        117.3
+      ],
+      [
+        117.0,
+        117.75
+      ],
+      [
+        116.2,
+        117.75
+      ],
+      [
+        116.2,
+        117.95
+      ],
+      [
+        117.55,
+        117.85
+      ]
+    ],
+    "uuids": [
+      "5e870304-61c0-4187-8962-92e3260406ca",
+      "9eae87ba-7e6c-4138-ad5b-d5a1f036484b",
+      "a2b4eeb2-090e-4931-929a-7e8c1f1dc30a",
+      "c9306fd4-3d05-4731-b34d-a2c5e7475a79",
+      "d6f4fa95-7e20-41cc-8aa4-4b1504dd4c3f"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "+3V3",
+    "length_mm": 4.35263,
+    "points": [
+      [
+        117.69,
+        126.8
+      ],
+      [
+        117.6,
+        125.9
+      ],
+      [
+        117.6,
+        126.75
+      ],
+      [
+        116.5,
+        125.6
+      ]
+    ],
+    "uuids": [
+      "620eead0-b344-4bac-b1f3-aab03863b870",
+      "8c9ad9d4-f1fe-4242-ab33-c231b6a5f4c7",
+      "90d6a7fc-0978-4b03-982f-90bbee78dd55",
+      "cc3fde4d-7a63-45b5-9c62-c9870b7bce61"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "/CTS_N",
+    "length_mm": 0.08536,
+    "points": [
+      [
+        112.85,
+        130.6
+      ],
+      [
+        112.825,
+        130.625
+      ],
+      [
+        112.85,
+        130.625
+      ]
+    ],
+    "uuids": [
+      "1d557cae-9671-448d-92e4-865d64e04c91",
+      "a54f35da-9cbc-4203-86d7-8d28e6468cb2",
+      "ff2de779-8fc0-46e9-b236-5bb7e4f0b65c"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "/CTS_N",
+    "length_mm": 2.5,
+    "points": [
+      [
+        114.55,
+        130.85
+      ],
+      [
+        114.25,
+        130.85
+      ],
+      [
+        114.25,
+        131.949999
+      ]
+    ],
+    "uuids": [
+      "1d9ba1ec-919a-4fbf-b877-9e1dcc7a4cef",
+      "305b272b-6953-4351-aa46-f1a14ee3032e",
+      "6647e6fe-cf92-4589-bdb6-349819a0ce8c"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "/EE_DO",
+    "length_mm": 0.08536,
+    "points": [
+      [
+        101.3,
+        123.95
+      ],
+      [
+        101.275,
+        123.975
+      ],
+      [
+        101.3,
+        123.975
+      ]
+    ],
+    "uuids": [
+      "09424aaa-ebf2-47bf-9e81-0da58e4988f0",
+      "c09ef03c-5c71-4bec-a5b9-7783a53406fb",
+      "d4fa7d78-15cf-43f2-881c-4ba208ec14f4"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "/FB_2V5",
+    "length_mm": 3.75563,
+    "points": [
+      [
+        116.6,
+        134.4
+      ],
+      [
+        116.6,
+        133.3
+      ],
+      [
+        117.7,
+        134.4
+      ]
+    ],
+    "uuids": [
+      "385ef3b3-4d17-4f90-9807-03bd10cc5e84",
+      "e93435c8-c770-4262-895b-dbaeab20b151",
+      "fc62ef30-983e-4535-874f-53313c93b886"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "/PWREN_N",
+    "length_mm": 1.49749,
+    "points": [
+      [
+        118.75,
+        124.7
+      ],
+      [
+        118.75,
+        125.25
+      ],
+      [
+        118.55,
+        124.55
+      ]
+    ],
+    "uuids": [
+      "08ae4e43-dacf-4b5d-a439-ac9fa89eaf56",
+      "36b31628-d15c-4a8d-8b96-81d06f0ea4df",
+      "80ef4813-89a1-4708-b6a0-1d8e94ad78cb"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "/PWREN_N",
+    "length_mm": 4.21139,
+    "points": [
+      [
+        118.71,
+        126.8
+      ],
+      [
+        118.55,
+        127.35
+      ],
+      [
+        118.7,
+        127.7
+      ],
+      [
+        118.7,
+        126.25
+      ],
+      [
+        118.75,
+        125.25
+      ]
+    ],
+    "uuids": [
+      "6aff19b6-6140-4d54-926b-5a7426875c61",
+      "80ef4813-89a1-4708-b6a0-1d8e94ad78cb",
+      "e2582f8e-c216-42a9-a1f0-7aad8aad5b22",
+      "f97fd748-4f5c-43ee-a07d-bd3224c97b53"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "/PWREN_N",
+    "length_mm": 1.16249,
+    "points": [
+      [
+        118.71,
+        126.8
+      ],
+      [
+        118.1,
+        127.35
+      ],
+      [
+        118.55,
+        127.35
+      ]
+    ],
+    "uuids": [
+      "80ef4813-89a1-4708-b6a0-1d8e94ad78cb",
+      "cab1620f-303a-47bb-ac66-db33f689be55",
+      "f97fd748-4f5c-43ee-a07d-bd3224c97b53",
+      "fd66c9d3-2136-4d49-9b74-7ef537ae6d4f"
+    ],
+    "classification": "signal review"
+  },
+  {
+    "net": "GND",
+    "length_mm": 1.65981,
+    "points": [
+      [
+        112.45,
+        107.8
+      ],
+      [
+        112.55,
+        107.0
+      ],
+      [
+        112.775,
+        106.775
+      ]
+    ],
+    "uuids": [
+      "64f0058e-34de-4100-8c9b-a4def86af180",
+      "a0a46205-0e6b-49c6-b2a6-9d2d6598e585",
+      "e051f4a6-8824-4e8a-bc80-e8f6e9258642"
+    ],
+    "classification": "GND exception candidate"
+  },
+  {
+    "net": "USB5V",
+    "length_mm": 2.55673,
+    "points": [
+      [
+        116.78101,
+        116.36899
+      ],
+      [
+        116.2,
+        116.95
+      ],
+      [
+        116.2,
+        116.1
+      ],
+      [
+        117.02,
+        116.1
+      ]
+    ],
+    "uuids": [
+      "03966ce6-e2f6-4078-867b-9ac432f60724",
+      "7d3ea4ae-25d7-4cdc-ae41-df80a43b09c1",
+      "d63db441-07aa-4547-a067-c60f5bc901f8"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "USB5V_OUT",
+    "length_mm": 2.13388,
+    "points": [
+      [
+        104.65,
+        132.2
+      ],
+      [
+        105.3,
+        132.2
+      ],
+      [
+        104.65,
+        132.8
+      ]
+    ],
+    "uuids": [
+      "a206f417-2242-4d51-8980-5d40de3a58bb",
+      "cb5cff2b-41f4-486b-bae9-a99905146d90",
+      "fba6c434-d335-4c01-be4f-1e83f75703ed"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "VIO",
+    "length_mm": 5.90919,
+    "points": [
+      [
+        114.15,
+        133.65
+      ],
+      [
+        114.15,
+        134.3
+      ],
+      [
+        115.5,
+        134.3
+      ],
+      [
+        115.5,
+        132.3
+      ]
+    ],
+    "uuids": [
+      "12a71e08-7473-431f-acc8-e866231abd43",
+      "4be38a3c-6ae9-4fac-a212-e86981f51ddb",
+      "9feca767-ca0b-4fd5-bd5f-7831d3e62059",
+      "f199f6a6-ba26-4c0e-b2e2-3b02edc9a2a3"
+    ],
+    "classification": "power/parallel review"
+  },
+  {
+    "net": "VIO",
+    "length_mm": 7.21003,
+    "points": [
+      [
+        113.4,
+        134.275
+      ],
+      [
+        111.75,
+        134.4
+      ],
+      [
+        112.85,
+        134.4
+      ],
+      [
+        112.9,
+        136.1
+      ],
+      [
+        114.7,
+        135.91
+      ],
+      [
+        114.15,
+        135.35
+      ],
+      [
+        114.15,
+        134.3
+      ]
+    ],
+    "uuids": [
+      "1a825972-2798-401c-8382-8d5df991b41b",
+      "28d88e45-084e-4f38-9562-46c4be6fcc3a",
+      "4d9fdd19-1fa7-40d5-a09c-8142520f4ab3",
+      "6abe8d22-9027-484e-a956-87eabc40636a",
+      "9feca767-ca0b-4fd5-bd5f-7831d3e62059",
+      "af7117b6-3773-4bce-be66-3c47bf310d44",
+      "f199f6a6-ba26-4c0e-b2e2-3b02edc9a2a3"
+    ],
+    "classification": "power/parallel review"
+  }
+]

@@ -1,0 +1,716 @@
+[
+  {
+    "net": "VPHY",
+    "pin": "C9.1",
+    "pad_uuid": "b6ea44aa-62ff-44a9-9b25-ebd37cb233dc",
+    "track_uuid": "c9260cd6-1c7f-49d8-bc8e-54931de83349",
+    "gap_mm": 0.065001,
+    "at": [
+      112.75,
+      110.8
+    ],
+    "layer": 0,
+    "a": [
+      112.75,
+      111.8375
+    ],
+    "b": [
+      112.75,
+      110.8
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "USB5V",
+    "pin": "U4.1",
+    "pad_uuid": "92f3527c-a3ed-4b95-8757-4c4ca0c839be",
+    "track_uuid": "0da05c3b-e5aa-4957-8671-ccf6b9696903",
+    "gap_mm": 0.025,
+    "at": [
+      108.95,
+      134.85
+    ],
+    "layer": 0,
+    "a": [
+      108.95,
+      134.35
+    ],
+    "b": [
+      108.95,
+      134.85
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "USB5V",
+    "pin": "U4.1",
+    "pad_uuid": "92f3527c-a3ed-4b95-8757-4c4ca0c839be",
+    "track_uuid": "62cf2b64-3b36-443a-a9f0-cf56dbb9bc7d",
+    "gap_mm": 0.025,
+    "at": [
+      108.840006,
+      134.85
+    ],
+    "layer": 0,
+    "a": [
+      108.95,
+      134.85
+    ],
+    "b": [
+      108.55,
+      134.85
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "VIO",
+    "pin": "R11.1",
+    "pad_uuid": "35aa1aa6-276d-4ac7-b6a8-222ce83318bb",
+    "track_uuid": "b3c3d287-a216-42f5-b080-bbb8f70c1882",
+    "gap_mm": 0.0,
+    "at": [
+      115.8,
+      129.199999
+    ],
+    "layer": 0,
+    "a": [
+      115.8,
+      129.199998
+    ],
+    "b": [
+      115.8,
+      129.199999
+    ],
+    "copper_contact": true
+  },
+  {
+    "net": "VIO",
+    "pin": "R11.1",
+    "pad_uuid": "35aa1aa6-276d-4ac7-b6a8-222ce83318bb",
+    "track_uuid": "f260c77e-95a4-4431-84b0-448adca6bd74",
+    "gap_mm": 0.0,
+    "at": [
+      115.8,
+      129.199999
+    ],
+    "layer": 0,
+    "a": [
+      116.3,
+      128.699999
+    ],
+    "b": [
+      115.8,
+      129.199999
+    ],
+    "copper_contact": true
+  },
+  {
+    "net": "+3V3",
+    "pin": "U2.1",
+    "pad_uuid": "e3508e75-7089-46ce-b3ab-cc901101e6c0",
+    "track_uuid": "b8c9d373-9961-4163-9a0f-f2d87c8b82e3",
+    "gap_mm": 0.018426,
+    "at": [
+      107.3625,
+      126.4875
+    ],
+    "layer": 0,
+    "a": [
+      107.75,
+      126.1
+    ],
+    "b": [
+      107.25,
+      126.6
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/FT_TXD",
+    "pin": "U2.4",
+    "pad_uuid": "17cef7ce-4121-4dce-9a7f-957129eb554e",
+    "track_uuid": "04a78638-de51-4809-9bd4-11e1ed713643",
+    "gap_mm": 0.081399,
+    "at": [
+      109.0,
+      128.449999
+    ],
+    "layer": 0,
+    "a": [
+      109.1,
+      128.35
+    ],
+    "b": [
+      109.0,
+      128.449999
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/FT_TXD",
+    "pin": "U2.4",
+    "pad_uuid": "17cef7ce-4121-4dce-9a7f-957129eb554e",
+    "track_uuid": "e9b071f8-c580-4c2c-ab7e-3f25d8783be4",
+    "gap_mm": 0.0814,
+    "at": [
+      109.0,
+      128.449998
+    ],
+    "layer": 0,
+    "a": [
+      109.0,
+      128.449998
+    ],
+    "b": [
+      109.225001,
+      128.675
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/PWREN_N",
+    "pin": "U2.14",
+    "pad_uuid": "accc1499-8626-4ff0-802d-21dfc65805a5",
+    "track_uuid": "5eb69b78-6784-4f94-b359-557f1446c014",
+    "gap_mm": 0.05,
+    "at": [
+      114.509561,
+      127.7
+    ],
+    "layer": 0,
+    "a": [
+      112.6,
+      127.7
+    ],
+    "b": [
+      114.7,
+      127.7
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/PWREN_N",
+    "pin": "U2.14",
+    "pad_uuid": "accc1499-8626-4ff0-802d-21dfc65805a5",
+    "track_uuid": "fd5234ea-92e1-4e4e-a538-a6a47f92a3ca",
+    "gap_mm": 0.125279,
+    "at": [
+      114.7,
+      127.7
+    ],
+    "layer": 0,
+    "a": [
+      114.7,
+      127.7
+    ],
+    "b": [
+      114.9,
+      127.7
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/PWREN_N",
+    "pin": "U2.15",
+    "pad_uuid": "a21da25f-2f3e-4351-a63a-ceaea4093ee8",
+    "track_uuid": "5eb69b78-6784-4f94-b359-557f1446c014",
+    "gap_mm": 0.05,
+    "at": [
+      113.215439,
+      127.7
+    ],
+    "layer": 0,
+    "a": [
+      112.6,
+      127.7
+    ],
+    "b": [
+      114.7,
+      127.7
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/PWREN_N",
+    "pin": "U2.15",
+    "pad_uuid": "a21da25f-2f3e-4351-a63a-ceaea4093ee8",
+    "track_uuid": "fd5234ea-92e1-4e4e-a538-a6a47f92a3ca",
+    "gap_mm": 0.125279,
+    "at": [
+      114.7,
+      127.7
+    ],
+    "layer": 0,
+    "a": [
+      114.7,
+      127.7
+    ],
+    "b": [
+      114.9,
+      127.7
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/RTS_N",
+    "pin": "J3.1",
+    "pad_uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe",
+    "track_uuid": "110b012c-1499-4f89-82dc-4782a2cd9764",
+    "gap_mm": 0.035,
+    "at": [
+      107.8,
+      142.4
+    ],
+    "layer": 0,
+    "a": [
+      107.8,
+      143.05
+    ],
+    "b": [
+      107.8,
+      142.3
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/RTS_N",
+    "pin": "J3.1",
+    "pad_uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe",
+    "track_uuid": "1ecbc5a3-f976-46a5-ae09-ff89c3fd8758",
+    "gap_mm": 0.073751,
+    "at": [
+      107.8,
+      142.3
+    ],
+    "layer": 0,
+    "a": [
+      107.8,
+      142.3
+    ],
+    "b": [
+      107.85,
+      142.25
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "VIO_OUT",
+    "pin": "J3.4",
+    "pad_uuid": "1212ead9-f7b6-40e4-9e18-699ddcaaac3d",
+    "track_uuid": "01bdad41-d648-476d-8f33-05d0bc6da5d4",
+    "gap_mm": 0.065,
+    "at": [
+      115.45,
+      140.95
+    ],
+    "layer": 0,
+    "a": [
+      115.45,
+      140.95
+    ],
+    "b": [
+      118.25,
+      143.75
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "VIO_OUT",
+    "pin": "J3.4",
+    "pad_uuid": "1212ead9-f7b6-40e4-9e18-699ddcaaac3d",
+    "track_uuid": "15d0360a-f895-4fbc-901a-bcd16b9f32cb",
+    "gap_mm": 0.015,
+    "at": [
+      115.4,
+      140.95
+    ],
+    "layer": 0,
+    "a": [
+      115.4,
+      140.95
+    ],
+    "b": [
+      115.45,
+      140.95
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "+3V3",
+    "pin": "C15.1",
+    "pad_uuid": "895ec2a8-ed84-4fcb-aac2-3af09748786c",
+    "track_uuid": "c63c070f-3e05-4d26-a584-0e7a37b1f8f9",
+    "gap_mm": 0.115,
+    "at": [
+      107.85,
+      121.868687
+    ],
+    "layer": 0,
+    "a": [
+      107.85,
+      121.0
+    ],
+    "b": [
+      107.85,
+      122.9
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/FT_TXD",
+    "pin": "U1.13",
+    "pad_uuid": "e7a2e3f7-2546-42b7-8727-4d8ea7615ab4",
+    "track_uuid": "2bfc40ca-c703-4708-a4ac-365810c74c37",
+    "gap_mm": 0.075,
+    "at": [
+      107.507118,
+      112.95
+    ],
+    "layer": 0,
+    "a": [
+      107.6,
+      112.95
+    ],
+    "b": [
+      105.8,
+      112.95
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/FT_TXD",
+    "pin": "U1.13",
+    "pad_uuid": "e7a2e3f7-2546-42b7-8727-4d8ea7615ab4",
+    "track_uuid": "997a4065-7936-4eef-8887-b321bd346b12",
+    "gap_mm": 0.07981,
+    "at": [
+      107.65365,
+      113.00365000000001
+    ],
+    "layer": 0,
+    "a": [
+      111.35,
+      116.7
+    ],
+    "b": [
+      107.6,
+      112.95
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "+3V3",
+    "pin": "U1.24",
+    "pad_uuid": "c6c3a340-dc01-4201-a408-c17a6da9ca69",
+    "track_uuid": "b6d5fbf3-0a07-411e-b7d4-d604e86e4ff2",
+    "gap_mm": 0.107086,
+    "at": [
+      105.95,
+      118.95
+    ],
+    "layer": 0,
+    "a": [
+      105.95,
+      118.95
+    ],
+    "b": [
+      105.8,
+      118.95
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "+3V3",
+    "pin": "U1.24",
+    "pad_uuid": "c6c3a340-dc01-4201-a408-c17a6da9ca69",
+    "track_uuid": "def2b4b0-077c-4a51-857b-722be1457c98",
+    "gap_mm": 0.097487,
+    "at": [
+      106.00885,
+      119.00885
+    ],
+    "layer": 0,
+    "a": [
+      107.7,
+      120.7
+    ],
+    "b": [
+      105.95,
+      118.95
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "+3V3",
+    "pin": "C4.1",
+    "pad_uuid": "bee509eb-5b5e-4033-b8b7-235b15de92a9",
+    "track_uuid": "8817c669-9b45-4699-adb1-2f463955be92",
+    "gap_mm": 0.065,
+    "at": [
+      105.8,
+      118.931313
+    ],
+    "layer": 0,
+    "a": [
+      105.8,
+      118.95
+    ],
+    "b": [
+      105.8,
+      118.75
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "+3V3",
+    "pin": "C4.1",
+    "pad_uuid": "bee509eb-5b5e-4033-b8b7-235b15de92a9",
+    "track_uuid": "b6d5fbf3-0a07-411e-b7d4-d604e86e4ff2",
+    "gap_mm": 0.066119,
+    "at": [
+      105.8,
+      118.95
+    ],
+    "layer": 0,
+    "a": [
+      105.95,
+      118.95
+    ],
+    "b": [
+      105.8,
+      118.95
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "+3V3",
+    "pin": "C4.1",
+    "pad_uuid": "bee509eb-5b5e-4033-b8b7-235b15de92a9",
+    "track_uuid": "ff69d4a6-a62b-4e76-aad1-bf4b907b08b4",
+    "gap_mm": 0.065001,
+    "at": [
+      105.8,
+      118.75
+    ],
+    "layer": 0,
+    "a": [
+      106.8375,
+      118.75
+    ],
+    "b": [
+      105.8,
+      118.75
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/USB_D+",
+    "pin": "D1.1",
+    "pad_uuid": "b6dddf5c-25a3-4b49-9166-52e59773326f",
+    "track_uuid": "2d665e00-6e19-43fe-bd1d-bf389c138011",
+    "gap_mm": 0.117696,
+    "at": [
+      111.5,
+      106.3
+    ],
+    "layer": 0,
+    "a": [
+      112.0,
+      105.8
+    ],
+    "b": [
+      111.5,
+      106.3
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/USB_D+",
+    "pin": "D1.1",
+    "pad_uuid": "b6dddf5c-25a3-4b49-9166-52e59773326f",
+    "track_uuid": "dffb9042-8bd8-4250-bbf7-80d4e0c61503",
+    "gap_mm": 0.0,
+    "at": [
+      111.5,
+      106.817882
+    ],
+    "layer": 0,
+    "a": [
+      111.5,
+      106.3
+    ],
+    "b": [
+      111.5,
+      109.25
+    ],
+    "copper_contact": true
+  },
+  {
+    "net": "GND",
+    "pin": "D1.2",
+    "pad_uuid": "a4cd5484-7aee-4e5e-aead-e8bb833327c2",
+    "track_uuid": "2ece3d90-cab9-4dd4-a7da-546dae62956a",
+    "gap_mm": 0.026614,
+    "at": [
+      112.8,
+      106.8
+    ],
+    "layer": 0,
+    "a": [
+      112.8,
+      106.8
+    ],
+    "b": [
+      112.8,
+      106.35
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "GND",
+    "pin": "D1.2",
+    "pad_uuid": "a4cd5484-7aee-4e5e-aead-e8bb833327c2",
+    "track_uuid": "a0a46205-0e6b-49c6-b2a6-9d2d6598e585",
+    "gap_mm": 0.025,
+    "at": [
+      112.8,
+      106.817882
+    ],
+    "layer": 0,
+    "a": [
+      112.8,
+      108.0
+    ],
+    "b": [
+      112.8,
+      106.8
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/FB_2V5",
+    "pin": "SW1.2",
+    "pad_uuid": "380e5bd1-a02d-460b-af56-e194181c096e",
+    "track_uuid": "86c76a24-8683-4fa9-b5e6-00be9772696d",
+    "gap_mm": 0.075,
+    "at": [
+      117.75,
+      135.0
+    ],
+    "layer": 0,
+    "a": [
+      117.75,
+      134.45
+    ],
+    "b": [
+      117.75,
+      135.0
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/RXD",
+    "pin": "J2.3",
+    "pad_uuid": "e61a78b5-4a7d-40a3-acaa-713336537673",
+    "track_uuid": "0ad1312a-5f2e-4d65-9125-e0819cd03e7f",
+    "gap_mm": 0.095,
+    "at": [
+      112.9,
+      145.9
+    ],
+    "layer": 0,
+    "a": [
+      112.9,
+      145.9
+    ],
+    "b": [
+      112.9,
+      145.15
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/RXD",
+    "pin": "J2.3",
+    "pad_uuid": "e61a78b5-4a7d-40a3-acaa-713336537673",
+    "track_uuid": "885bbf16-7178-4b13-82f3-ab6e867f97de",
+    "gap_mm": 0.029404,
+    "at": [
+      112.85,
+      145.95
+    ],
+    "layer": 0,
+    "a": [
+      112.85,
+      145.95
+    ],
+    "b": [
+      112.9,
+      145.9
+    ],
+    "copper_contact": false
+  },
+  {
+    "net": "/RXD",
+    "pin": "J2.3",
+    "pad_uuid": "e61a78b5-4a7d-40a3-acaa-713336537673",
+    "track_uuid": "b8d4bcbf-55fc-42e0-9548-bae899537967",
+    "gap_mm": 0.0,
+    "at": [
+      112.85,
+      146.05
+    ],
+    "layer": 0,
+    "a": [
+      112.85,
+      146.7
+    ],
+    "b": [
+      112.85,
+      145.95
+    ],
+    "copper_contact": true
+  },
+  {
+    "net": "/USB_D-",
+    "pin": "D5.1",
+    "pad_uuid": "edccf226-05ba-44cb-99b1-be5d2542be59",
+    "track_uuid": "03e23a3b-fb7e-441a-8ec9-c445180429bf",
+    "gap_mm": 0.0,
+    "at": [
+      110.5,
+      107.182118
+    ],
+    "layer": 0,
+    "a": [
+      110.5,
+      106.3
+    ],
+    "b": [
+      110.5,
+      109.25
+    ],
+    "copper_contact": true
+  },
+  {
+    "net": "/USB_D-",
+    "pin": "D5.1",
+    "pad_uuid": "edccf226-05ba-44cb-99b1-be5d2542be59",
+    "track_uuid": "c635de9a-615f-4620-a8f6-aedc2d9600fd",
+    "gap_mm": 0.117696,
+    "at": [
+      110.5,
+      106.3
+    ],
+    "layer": 0,
+    "a": [
+      110.0,
+      105.8
+    ],
+    "b": [
+      110.5,
+      106.3
+    ],
+    "copper_contact": false
+  }
+]

@@ -1,0 +1,1383 @@
+[
+  {
+    "net": "+3V3",
+    "at": [
+      113.0,
+      123.85
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "002bdbdd-bc1c-42ba-8302-7c4348411860",
+      "06eb61c5-36f4-43ab-9b24-aff27e31b445"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      107.85,
+      118.8
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "085dc907-c897-40fb-9487-848ff1d445e1",
+      "e732936e-c48c-43ad-821e-0aaabd0ad398"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      116.2,
+      113.8
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1a265543-7dd1-436f-a246-49bc8a5f85f4",
+      "1ebe4157-c346-4b9f-ba92-239c053c4144"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      106.4,
+      127.5
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1d546bb0-c323-4739-b4b5-14d8ac383333",
+      "33716e98-13ef-4f09-b756-1e0038642a64"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      116.2,
+      114.25
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1ebe4157-c346-4b9f-ba92-239c053c4144",
+      "5e77642d-d6fd-4714-b526-17b169eb0e4d"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      103.45,
+      110.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "35608e42-b1fb-4562-b0e4-bcbcbb9a22d1",
+      "a7970b47-751c-4d5b-afd9-03aebc155fda"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      116.9,
+      112.5
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "552a6091-2a29-4eac-9c1d-b7b508951dc8",
+      "6ac8f0ed-f714-42ca-bce7-0161bec47868"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      108.25,
+      110.8
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "5c46ee7f-4d75-4f7b-94cf-4f38a025fbb3",
+      "e7150900-4f7f-43eb-b6bb-cf7666badcc9"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      117.0,
+      117.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "5e870304-61c0-4187-8962-92e3260406ca",
+      "a2b4eeb2-090e-4931-929a-7e8c1f1dc30a"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      116.2,
+      117.95
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "9eae87ba-7e6c-4138-ad5b-d5a1f036484b",
+      "c9306fd4-3d05-4731-b34d-a2c5e7475a79"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      107.85,
+      122.9
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "c63c070f-3e05-4d26-a584-0e7a37b1f8f9",
+      "ef2b281a-4ec8-40c4-9994-c3635a85c303"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      116.05,
+      117.75
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "00788b40-80c0-4f61-b372-eeacdb92be24",
+      "cbf5129c-7e5e-4ee0-ba21-16cf393ec07d"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      105.05,
+      108.8
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "6857aaa6-0da4-4c90-9749-818e1c5d8cd7",
+      "6bddc99e-cee2-428a-bb12-5bbadbacfe95"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      116.5,
+      124.7
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "71b7ee83-0667-42b3-83ef-739a8fb0602e",
+      "9d66c14c-b964-4c75-857b-ee695d8ddb68"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      117.6,
+      126.75
+    ],
+    "layer": 2,
+    "turn_deg": 135.0,
+    "uuids": [
+      "8c9ad9d4-f1fe-4242-ab33-c231b6a5f4c7",
+      "cc3fde4d-7a63-45b5-9c62-c9870b7bce61"
+    ]
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      119.45,
+      124.7
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "aa9ceea6-2a82-480d-9883-feda6d04409f",
+      "d05c2c28-fbc2-4c49-a77b-fd158d5bee8e"
+    ]
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      112.85,
+      131.95
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1d557cae-9671-448d-92e4-865d64e04c91",
+      "e2ccc9d7-d6e3-4df7-8822-dbfdac4ddf63"
+    ]
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      112.85,
+      130.6
+    ],
+    "layer": 0,
+    "turn_deg": 135.0,
+    "uuids": [
+      "1d557cae-9671-448d-92e4-865d64e04c91",
+      "a54f35da-9cbc-4203-86d7-8d28e6468cb2"
+    ]
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      112.825,
+      130.625
+    ],
+    "layer": 0,
+    "turn_deg": 135.0,
+    "uuids": [
+      "a54f35da-9cbc-4203-86d7-8d28e6468cb2",
+      "ff2de779-8fc0-46e9-b236-5bb7e4f0b65c"
+    ]
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      114.55,
+      130.85
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1d9ba1ec-919a-4fbf-b877-9e1dcc7a4cef",
+      "305b272b-6953-4351-aa46-f1a14ee3032e"
+    ]
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      114.25,
+      130.85
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1d9ba1ec-919a-4fbf-b877-9e1dcc7a4cef",
+      "6647e6fe-cf92-4589-bdb6-349819a0ce8c"
+    ]
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      114.55,
+      138.1
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "305b272b-6953-4351-aa46-f1a14ee3032e",
+      "48d3b83f-b557-40b4-8cf6-d2e43ef254ff"
+    ]
+  },
+  {
+    "net": "/EE_CLK",
+    "at": [
+      103.5,
+      124.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "04710be4-98a2-498c-89eb-63b19037b217",
+      "b6340927-2b2b-426e-a3bb-32d8286d7ef6"
+    ]
+  },
+  {
+    "net": "/EE_CLK",
+    "at": [
+      101.1,
+      124.75
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "53026d6d-44f6-4502-8d91-b2dd8236a651",
+      "af5cef27-f60c-4a8f-9a9c-a1095e7e33b0"
+    ]
+  },
+  {
+    "net": "/EE_CLK",
+    "at": [
+      101.1,
+      114.0
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "59d712b8-ba17-4453-ad0f-855b0aad592a",
+      "f4066abe-2e18-4c8c-9d59-d49eb4b3c8d4"
+    ]
+  },
+  {
+    "net": "/EE_CS",
+    "at": [
+      114.1,
+      114.55
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0b1fa260-a742-4af7-bf5a-5d5abc4f158c",
+      "1ce6c65d-cf2d-4fa3-beb4-95ad7092d48c"
+    ]
+  },
+  {
+    "net": "/EE_CS",
+    "at": [
+      101.65,
+      121.05
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "56b29deb-dc5b-421e-bbed-ed594b9f16ee",
+      "80736546-e2ed-4f7f-8f34-aab78aca7fe9"
+    ]
+  },
+  {
+    "net": "/EE_CS",
+    "at": [
+      101.65,
+      114.55
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "7e7b17e1-40ca-422e-b137-63edf15b401e",
+      "ea344a9f-2405-4682-a0f1-69793929db85"
+    ]
+  },
+  {
+    "net": "/EE_DATA",
+    "at": [
+      111.3,
+      115.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "453386d9-8933-419a-9b84-e229030a7650",
+      "5c857d4b-b82a-41fa-8b12-91590c56a4a7"
+    ]
+  },
+  {
+    "net": "/EE_DATA",
+    "at": [
+      100.95,
+      127.0
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "7d42ec39-2338-4576-aca4-c471c5f924d5",
+      "9228bee3-f397-42a4-b3c5-db0d71b552cd"
+    ]
+  },
+  {
+    "net": "/EE_DATA",
+    "at": [
+      102.2,
+      115.1
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "07984c4f-a98d-4863-9c2a-30ada5dfeaf6",
+      "510237b7-14a5-465d-9330-f1c2263b0bf8"
+    ]
+  },
+  {
+    "net": "/EE_DATA",
+    "at": [
+      102.2,
+      124.2
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "2b9ac7a2-e764-464d-850b-9ac5e0ebc880",
+      "86ef8a09-7cd3-4f55-b7ad-e9b36f6ea489"
+    ]
+  },
+  {
+    "net": "/EE_DATA",
+    "at": [
+      107.05,
+      124.2
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "2b9ac7a2-e764-464d-850b-9ac5e0ebc880",
+      "7875355a-3032-4ed7-ae0b-62711cd2b06e"
+    ]
+  },
+  {
+    "net": "/EE_DATA",
+    "at": [
+      107.05,
+      124.8
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "402e6b33-ae7a-4888-ae64-7970f356e6f8",
+      "7875355a-3032-4ed7-ae0b-62711cd2b06e"
+    ]
+  },
+  {
+    "net": "/EE_DO",
+    "at": [
+      102.1,
+      124.65
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0401f116-8df5-46ba-bdfc-69593cc379a6",
+      "854652ee-a2d2-485b-b50c-7b840bbc7b57"
+    ]
+  },
+  {
+    "net": "/EE_DO",
+    "at": [
+      101.3,
+      124.65
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0401f116-8df5-46ba-bdfc-69593cc379a6",
+      "09424aaa-ebf2-47bf-9e81-0da58e4988f0"
+    ]
+  },
+  {
+    "net": "/EE_DO",
+    "at": [
+      101.3,
+      123.95
+    ],
+    "layer": 0,
+    "turn_deg": 135.0,
+    "uuids": [
+      "09424aaa-ebf2-47bf-9e81-0da58e4988f0",
+      "d4fa7d78-15cf-43f2-881c-4ba208ec14f4"
+    ]
+  },
+  {
+    "net": "/EE_DO",
+    "at": [
+      101.275,
+      123.975
+    ],
+    "layer": 0,
+    "turn_deg": 135.0,
+    "uuids": [
+      "c09ef03c-5c71-4bec-a5b9-7783a53406fb",
+      "d4fa7d78-15cf-43f2-881c-4ba208ec14f4"
+    ]
+  },
+  {
+    "net": "/FB",
+    "at": [
+      116.3,
+      134.9
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "7e370e27-78a4-4459-bca9-2dc36dbdc4c1",
+      "d662aa67-0551-429b-85c2-fe48fde2f4c5"
+    ]
+  },
+  {
+    "net": "/FB_2V5",
+    "at": [
+      116.6,
+      134.4
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "385ef3b3-4d17-4f90-9807-03bd10cc5e84",
+      "e93435c8-c770-4262-895b-dbaeab20b151"
+    ]
+  },
+  {
+    "net": "/FT_CTS_N",
+    "at": [
+      108.05,
+      114.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "9d002b9a-192d-46bb-89bf-be2322b0e504",
+      "a24551f2-7469-4188-99e7-bb51bb33beb6"
+    ]
+  },
+  {
+    "net": "/FT_CTS_N",
+    "at": [
+      107.65,
+      130.5
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "7805ef04-c623-4c99-a9ea-73c1bb76b243",
+      "e4e938f0-07d3-484d-bfc8-982a91d7253e"
+    ]
+  },
+  {
+    "net": "/FT_RTS_N",
+    "at": [
+      105.5,
+      114.25
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "68825a88-4f6d-4af5-893c-f87902dc6440",
+      "df380883-7e1f-4527-9266-1c61e5f3f0a2"
+    ]
+  },
+  {
+    "net": "/FT_RTS_N",
+    "at": [
+      109.4,
+      121.35
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "4261d1c6-3945-4e41-bdbc-7b7cc26a6589",
+      "c8a6300e-0769-4a05-af8a-c80f43ffc8b0"
+    ]
+  },
+  {
+    "net": "/FT_RXD",
+    "at": [
+      104.95,
+      113.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "599e6b3f-2273-4910-9e4c-7dccbe489329",
+      "f48be5e1-6e14-418b-8987-aa7205a3e0bf"
+    ]
+  },
+  {
+    "net": "/FT_RXD",
+    "at": [
+      100.65,
+      121.6
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "85acae4e-6467-414a-a2d4-3a7d4049683d",
+      "ff722eb5-352d-4d14-9682-2a074c9755ef"
+    ]
+  },
+  {
+    "net": "/FT_RXD",
+    "at": [
+      100.65,
+      128.6
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "b283cf89-dd34-46cd-9615-80373d488805",
+      "cf150ad6-c17c-4bc3-8e0b-fe352038ecd6"
+    ]
+  },
+  {
+    "net": "/FT_RXD",
+    "at": [
+      104.4,
+      115.95
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0cce8f83-14bc-4d4e-a635-e526c163dc79",
+      "630f4550-5cc0-4236-9f36-d339616d9f73"
+    ]
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      105.8,
+      112.95
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "069d14d1-48a2-4193-a87c-7e21ff991e43",
+      "2bfc40ca-c703-4708-a4ac-365810c74c37"
+    ]
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      105.8,
+      113.25
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "069d14d1-48a2-4193-a87c-7e21ff991e43",
+      "82765e30-c9ec-4536-8832-755d3ce74ea3"
+    ]
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      109.1,
+      123.45
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "100431c1-7b09-46c8-af3c-dd2fdd47e6df",
+      "3ed0686a-43bf-4389-902c-0a969f6929ba"
+    ]
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      109.225,
+      128.675
+    ],
+    "layer": 0,
+    "turn_deg": 135.0,
+    "uuids": [
+      "9c6b5c7c-5ac7-4e25-8eb4-c3484ad6e76d",
+      "e9b071f8-c580-4c2c-ab7e-3f25d8783be4"
+    ]
+  },
+  {
+    "net": "/LED_RX_A",
+    "at": [
+      104.55,
+      112.0
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "443b6cf1-c3ac-4ae9-ae7a-38b9b83d2292",
+      "c620c5d0-e483-470e-bfa5-cbfe8346217a"
+    ]
+  },
+  {
+    "net": "/LED_TX_A",
+    "at": [
+      101.95,
+      112.0
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "26ddb2e1-40e4-4896-84f8-bc39d317293e",
+      "dce9cb56-69ca-4871-9988-7d2dfc2c157d"
+    ]
+  },
+  {
+    "net": "/PWREN_N",
+    "at": [
+      112.6,
+      124.4
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1b132cea-24a6-4774-bac9-9f996e9c38ba",
+      "4a12a2d2-911b-42bf-90a0-b216a83d173a"
+    ]
+  },
+  {
+    "net": "/PWREN_N",
+    "at": [
+      112.6,
+      127.7
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "5eb69b78-6784-4f94-b359-557f1446c014",
+      "bcc32354-0191-48e8-929d-c07259281f47"
+    ]
+  },
+  {
+    "net": "/PWREN_N",
+    "at": [
+      112.2,
+      122.5
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "18e39734-d75c-4196-86b5-4ad083affde6",
+      "8f0940af-7ba3-417e-a8b7-2df2419c2833"
+    ]
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      110.25,
+      127.15
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0eb7bacf-4719-4821-91c9-78eef76b9b75",
+      "bf4d8e57-e837-48da-a3b9-0de800fd9bd9"
+    ]
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      110.25,
+      137.15
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "26736562-303b-4f47-ab54-58668c06b0f5",
+      "8ed49498-0ae6-4a1c-a50a-c3c81d8adbda"
+    ]
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      119.7,
+      123.15
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "294b2e4c-1030-48c5-b3ca-6c0c9d374539",
+      "76ff04b7-6e45-44e0-8c05-0cfe19b35eea"
+    ]
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      113.7,
+      126.3
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "5a13090b-c096-4b42-8265-973fcce32163",
+      "bd430e32-9aa8-402c-ba03-0b0956c49c90"
+    ]
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      113.7,
+      124.95
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "bd430e32-9aa8-402c-ba03-0b0956c49c90",
+      "e0cd2aea-fed1-4f68-95f0-45512defaaa5"
+    ]
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      114.15,
+      123.15
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1cdb9e5d-2859-45c3-94b4-e86c2b214c86",
+      "87b1b579-0844-4df6-a6c5-dd9b25503265"
+    ]
+  },
+  {
+    "net": "/REF12K",
+    "at": [
+      106.35,
+      113.05
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "591acc17-b1ef-4c2b-b689-21d6d5ec346c",
+      "821256f7-7d8b-41d7-ac4e-5d41f83ee711"
+    ]
+  },
+  {
+    "net": "/RESET_N",
+    "at": [
+      112.75,
+      121.2
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "360a9a8d-3da2-4622-9a2e-d614d42628a4",
+      "4611d0d9-538f-4572-bc19-0826a68c54c1"
+    ]
+  },
+  {
+    "net": "/RESET_N",
+    "at": [
+      115.5,
+      122.9
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "3846250b-feae-4aea-9719-3e43cb45737e",
+      "4c3acb7f-0a25-4a04-9b49-064e82bfc8e7"
+    ]
+  },
+  {
+    "net": "/RTS_N",
+    "at": [
+      110.8,
+      130.25
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "5d5f260d-bf58-4767-a566-dd42ffd49303",
+      "aee5e4a4-e416-47f1-9aeb-1a6432b53fc6"
+    ]
+  },
+  {
+    "net": "/RXD",
+    "at": [
+      115.45,
+      129.95
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "58a93222-4ce6-40b5-88c8-36b67f75f121",
+      "5e53ed60-ac09-4b4d-ad89-0062aad6eb99"
+    ]
+  },
+  {
+    "net": "/RXLED_N",
+    "at": [
+      109.25,
+      121.5
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "04afa8d1-8395-4f90-ba1d-ffced289ef7b",
+      "7099317f-effa-4baa-b7e7-b6c02769c43c",
+      "ad6bcca2-7b98-4d0c-ac7c-92fe5a7aa986",
+      "ea75525f-7246-47a7-b123-9e2617460a2d"
+    ]
+  },
+  {
+    "net": "/RXLED_N",
+    "at": [
+      110.05,
+      116.65
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "032a05e5-eee4-4901-947e-bc17ca7ada1b",
+      "96b5df85-2cba-44cc-bdd8-0189f5c1e7e5"
+    ]
+  },
+  {
+    "net": "/TXD",
+    "at": [
+      108.45,
+      146.7
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "194892a6-eacc-4921-b0d4-fba15c378aa6",
+      "37c6b96f-84f4-4df1-923e-782677bc3178"
+    ]
+  },
+  {
+    "net": "/TXLED_N",
+    "at": [
+      102.75,
+      115.4
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1106e25c-a375-4eb7-9c51-f73727ff22a3",
+      "8d9b77af-e5dd-484f-8d0d-fdf22b7300c3"
+    ]
+  },
+  {
+    "net": "/TXLED_N",
+    "at": [
+      110.8,
+      115.4
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "7af4b9df-7c9c-4978-89c4-da061acca723",
+      "970ceba7-b3fb-49bf-9d53-23eb35610976"
+    ]
+  },
+  {
+    "net": "/USB5V_SW",
+    "at": [
+      102.7,
+      134.9
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0b39a15c-b5eb-4e3d-8926-74c965f244ed",
+      "88bf215b-d58e-4e6e-8c60-06f31219bb68"
+    ]
+  },
+  {
+    "net": "/USB5V_SW",
+    "at": [
+      103.55,
+      142.15
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "3db05974-0259-46af-a016-a3a3f8038de0",
+      "49e3d12f-fe3d-446a-ab06-702b1a53542c"
+    ]
+  },
+  {
+    "net": "/USB5V_SW",
+    "at": [
+      103.7,
+      132.25
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "02e3541c-99d3-47d4-8db6-15b04d51b13b",
+      "f7207b2f-ff60-4979-9306-01c0d9ebed33"
+    ]
+  },
+  {
+    "net": "/USB5V_SW",
+    "at": [
+      104.1,
+      132.25
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "06b7fb0d-5bc9-41f0-a573-4aa22433ae86",
+      "f7207b2f-ff60-4979-9306-01c0d9ebed33"
+    ]
+  },
+  {
+    "net": "/USB5V_SW",
+    "at": [
+      102.8,
+      141.85
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "410a5dc1-2d7e-4e80-867a-e184d19b9eeb",
+      "797f87f7-056c-4bf1-94bc-4a8479192544"
+    ]
+  },
+  {
+    "net": "/XTAL_IN",
+    "at": [
+      117.6,
+      110.7
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "34380ddf-523a-4eec-8e15-ef18779b71df",
+      "e579f53b-11d7-407f-9cb5-56e0b629e6e0"
+    ]
+  },
+  {
+    "net": "GND",
+    "at": [
+      112.8,
+      108.0
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "a0a46205-0e6b-49c6-b2a6-9d2d6598e585",
+      "cdd7ee9b-e7e1-46a8-9e89-34c3961da2bc"
+    ]
+  },
+  {
+    "net": "GND",
+    "at": [
+      116.0,
+      109.6
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "acb688bd-d713-4d52-92c9-b3da26ad7698",
+      "bd48e421-0551-4bda-8617-e08d423907d8"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      108.95,
+      134.85
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0da05c3b-e5aa-4957-8671-ccf6b9696903",
+      "62cf2b64-3b36-443a-a9f0-cf56dbb9bc7d"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      107.5,
+      103.5
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "0f495a6f-e99d-4853-88b1-c93455fa3812",
+      "3eeb1056-1d9b-4e56-8ad4-450adfcfbde8"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      109.4,
+      124.0
+    ],
+    "layer": 0,
+    "turn_deg": 135.0,
+    "uuids": [
+      "13dcfdc9-7fee-4712-8d9f-559d677d4030",
+      "3ae3d389-061c-4a31-8f79-995cc70dae03"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      116.2,
+      117.25
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "2e75be68-62b3-4f54-9ef1-f70a03e7b5f1",
+      "7d3ea4ae-25d7-4cdc-ae41-df80a43b09c1",
+      "9a0c0b66-236f-4f70-8a21-bd5c76a20ed9"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      116.2,
+      116.1
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "7d3ea4ae-25d7-4cdc-ae41-df80a43b09c1",
+      "d63db441-07aa-4547-a067-c60f5bc901f8"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      108.0,
+      136.05
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "85672ea6-9f29-4178-9dc1-403f70fbf995",
+      "b4823d43-2637-480b-90be-c947f3d4d905"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      118.35,
+      122.85
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "00766074-cbec-460a-9b67-fde17f135b92",
+      "469fc89a-1694-4007-a93d-86e6af3a4bb4"
+    ]
+  },
+  {
+    "net": "USB5V",
+    "at": [
+      119.35,
+      114.9
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "a307f0ce-1b92-4810-a6f3-10efd7d20e89",
+      "e70d8d82-07e0-4b65-8c9a-6bbb81f39e12"
+    ]
+  },
+  {
+    "net": "USB5V_OUT",
+    "at": [
+      105.4,
+      132.8
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "3fed0aa8-a6ab-47b8-81b6-64c94af0f71d",
+      "7832bfce-ee75-4feb-b546-33fd30ac907e"
+    ]
+  },
+  {
+    "net": "USB5V_OUT",
+    "at": [
+      104.75,
+      143.35
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "49eaf8ad-9f61-42a5-9535-05216834a147",
+      "5e767ae0-128a-47aa-9633-f72dc22fc3bb"
+    ]
+  },
+  {
+    "net": "USB5V_OUT",
+    "at": [
+      104.65,
+      132.2
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "a206f417-2242-4d51-8980-5d40de3a58bb",
+      "fba6c434-d335-4c01-be4f-1e83f75703ed"
+    ]
+  },
+  {
+    "net": "USB5V_OUT",
+    "at": [
+      105.3,
+      132.2
+    ],
+    "layer": 2,
+    "turn_deg": 135.0,
+    "uuids": [
+      "cb5cff2b-41f4-486b-bae9-a99905146d90",
+      "fba6c434-d335-4c01-be4f-1e83f75703ed"
+    ]
+  },
+  {
+    "net": "VCCA_1V8",
+    "at": [
+      116.2,
+      119.9
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "374cf168-8351-4902-855f-43afa005d6c4",
+      "4f367a26-a005-4553-aa2f-d2edd15c394b"
+    ]
+  },
+  {
+    "net": "VCCA_1V8",
+    "at": [
+      116.2,
+      118.75
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "374cf168-8351-4902-855f-43afa005d6c4",
+      "5c71a711-5a3c-4f03-85e9-bd71f8b9c959"
+    ]
+  },
+  {
+    "net": "VIO",
+    "at": [
+      120.85,
+      130.4
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "081b002f-a5b7-47f1-8488-f0938113ea58",
+      "4707fe81-e0d1-4568-91e8-068a82b20df1"
+    ]
+  },
+  {
+    "net": "VIO",
+    "at": [
+      117.55,
+      137.8
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "25669498-f1fb-48f9-9b30-e28faea517b0",
+      "269de624-b16e-4760-b0a9-76ba74bdb806"
+    ]
+  },
+  {
+    "net": "VIO",
+    "at": [
+      120.85,
+      137.8
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "25669498-f1fb-48f9-9b30-e28faea517b0",
+      "ad6bb027-6635-4940-9f98-6284ac00585a"
+    ]
+  },
+  {
+    "net": "VIO",
+    "at": [
+      115.5,
+      134.3
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "4be38a3c-6ae9-4fac-a212-e86981f51ddb",
+      "9feca767-ca0b-4fd5-bd5f-7831d3e62059"
+    ]
+  },
+  {
+    "net": "VIO",
+    "at": [
+      112.85,
+      134.4
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "4d9fdd19-1fa7-40d5-a09c-8142520f4ab3",
+      "6abe8d22-9027-484e-a956-87eabc40636a"
+    ]
+  },
+  {
+    "net": "VPHY",
+    "at": [
+      117.9,
+      111.95
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "1239f9e3-8c3e-4f4d-b085-b6de5f35222b",
+      "27e0fd91-aa67-49ba-8098-371385015e50"
+    ]
+  },
+  {
+    "net": "VPHY",
+    "at": [
+      112.15,
+      108.65
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "abf68b41-47e8-47be-8b74-1c275585560e",
+      "ef8abb80-1b10-42fe-b5b8-009e370c92c1"
+    ]
+  },
+  {
+    "net": "VPHY",
+    "at": [
+      112.55,
+      112.95
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "af9620d8-24e2-4c7d-9d67-2a8773b7a9fe",
+      "b84690c0-9313-427a-808e-224b8cb860e3"
+    ]
+  },
+  {
+    "net": "VPHY",
+    "at": [
+      114.4,
+      112.95
+    ],
+    "layer": 2,
+    "turn_deg": 90.0,
+    "uuids": [
+      "af9620d8-24e2-4c7d-9d67-2a8773b7a9fe",
+      "e8999c73-1547-4747-9b28-f06483aa1fdc"
+    ]
+  },
+  {
+    "net": "VPLL",
+    "at": [
+      109.5,
+      108.5
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "135f0e93-f51b-47a9-8233-cda4ebd3db05",
+      "ec080047-87a6-40a4-9726-1c80c7a3a426"
+    ]
+  },
+  {
+    "net": "VPLL",
+    "at": [
+      110.25,
+      110.15
+    ],
+    "layer": 0,
+    "turn_deg": 90.0,
+    "uuids": [
+      "6505a23b-1acb-4922-95ef-f2e332673dc1",
+      "a615cc3c-5f79-4a9f-928f-6d08e4f447a0"
+    ]
+  }
+]
