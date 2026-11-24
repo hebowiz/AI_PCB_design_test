@@ -1,0 +1,12 @@
+{
+  "main_base": "13981f4f7c83c6f01de4ca8c2b8c37fc6b3e3728",
+  "design_commit": "87711e88e10653e79fdce9c3ade341b8f1440489",
+  "records": 32,
+  "columns": 15,
+  "R0001_R0027_unchanged": true,
+  "R0017_R0027_hold_preserved": true,
+  "R0028_R0032_status": "確認待ち",
+  "R0028_R0032_verdict": "未判定",
+  "identities_dates_verdicts_protected": true,
+  "main_existing_project_change_preserved": true
+}
