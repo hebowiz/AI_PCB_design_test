@@ -1,0 +1,14 @@
+{'ref': 'D1', 'via': [np.float64(112.45), np.float64(107.8)], 'route': True}
+{'ref': 'D5', 'via': [np.float64(108.75), np.float64(107.0)], 'route': True}
+Traceback (most recent call last):
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\ground_pads.py", line 13, in <module>
+    ok,n=route(start,q,net,False)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\local_tools.py", line 97, in route
+    else:r.track((x,y),(u,v),z,net)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "original_router_definitions", line 120, in track
+  File "original_router_definitions", line 16, in vec
+  File "C:\Users\hebow\AppData\Local\Programs\KiCad\10.0\bin\Lib\site-packages\pcbnew.py", line 24308, in FromMM
+    raise TypeError("FromMM() expects int, float, wxPoint, wxSize, VECTOR2I or VECTOR2L, instead got type " + str(type(mm)))
+TypeError: FromMM() expects int, float, wxPoint, wxSize, VECTOR2I or VECTOR2L, instead got type <class 'numpy.float64'>

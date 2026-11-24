@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\ground_pads.py", line 15, in <module>
+    via(q[0]+100,q[1]+100,'GND');logs.append({'ref':ref,'via':[q[0]+100,q[1]+100],'route':True});save();refresh();break
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\common.py", line 14, in via
+    t=p.PCB_VIA(b);t.SetPosition(v(x,y));t.SetLayerPair(p.F_Cu,p.B_Cu);t.SetViaType(p.VIATYPE_THROUGH);t.SetWidth(p.FromMM(.6));t.SetDrill(p.FromMM(.3));t.SetNet(b.FindNet(net));b.Add(t);KEEP.append(t);return t
+                                 ^^^^^^
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\common.py", line 6, in v
+    def v(x,y):return p.VECTOR2I(p.FromMM(x),p.FromMM(y))
+                                 ^^^^^^^^^^^
+  File "C:\Users\hebow\AppData\Local\Programs\KiCad\10.0\bin\Lib\site-packages\pcbnew.py", line 24308, in FromMM
+    raise TypeError("FromMM() expects int, float, wxPoint, wxSize, VECTOR2I or VECTOR2L, instead got type " + str(type(mm)))
+TypeError: FromMM() expects int, float, wxPoint, wxSize, VECTOR2I or VECTOR2L, instead got type <class 'numpy.float64'>

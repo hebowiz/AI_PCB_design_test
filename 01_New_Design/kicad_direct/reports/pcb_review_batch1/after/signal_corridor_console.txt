@@ -1,0 +1,4 @@
+42 個の違反を検出しました
+15 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_signal_corridor.json にDRC レポートを保存
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.

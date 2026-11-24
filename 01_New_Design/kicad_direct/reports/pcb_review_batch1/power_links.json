@@ -1,0 +1,128 @@
+[
+  {
+    "from": "C23.1",
+    "to": "U1.40",
+    "success": true,
+    "visited": 133
+  },
+  {
+    "from": "C1.1",
+    "to": "C23.1",
+    "success": true,
+    "visited": 733
+  },
+  {
+    "from": "C5.1",
+    "to": "U1.39",
+    "success": true,
+    "visited": 80
+  },
+  {
+    "from": "C2.1",
+    "to": "C5.1",
+    "success": true,
+    "visited": 507
+  },
+  {
+    "from": "C3.1",
+    "to": "U1.12",
+    "success": true,
+    "visited": 44
+  },
+  {
+    "from": "C4.1",
+    "to": "U1.24",
+    "success": true,
+    "visited": 9
+  },
+  {
+    "from": "C6.1",
+    "to": "U1.46",
+    "success": true,
+    "visited": 60
+  },
+  {
+    "from": "C7.1",
+    "to": "U1.37",
+    "success": true,
+    "visited": 136
+  },
+  {
+    "from": "C8.1",
+    "to": "U1.38",
+    "success": true,
+    "visited": 77
+  },
+  {
+    "from": "C9.1",
+    "to": "U1.3",
+    "success": true,
+    "visited": 10
+  },
+  {
+    "from": "C10.1",
+    "to": "U1.8",
+    "success": true,
+    "visited": 42
+  },
+  {
+    "from": "FB1.2",
+    "to": "C9.1",
+    "success": true,
+    "visited": 34290
+  },
+  {
+    "from": "FB2.2",
+    "to": "C10.1",
+    "success": true,
+    "visited": 174
+  },
+  {
+    "from": "C11.1",
+    "to": "C9.1",
+    "success": false,
+    "visited": 450000
+  },
+  {
+    "from": "C12.1",
+    "to": "C10.1",
+    "success": true,
+    "visited": 378
+  },
+  {
+    "from": "C15.1",
+    "to": "U5.8",
+    "success": true,
+    "visited": 13
+  },
+  {
+    "from": "C16.1",
+    "to": "U2.1",
+    "success": false,
+    "visited": 450000
+  },
+  {
+    "from": "C16.1",
+    "to": "U2.2",
+    "success": false,
+    "visited": 450000
+  },
+  {
+    "from": "C17.1",
+    "to": "U2.16",
+    "success": true,
+    "visited": 32
+  },
+  {
+    "from": "C18.1",
+    "to": "U4.1",
+    "success": true,
+    "visited": 28
+  },
+  {
+    "from": "C19.1",
+    "to": "U4.5",
+    "success": true,
+    "visited": 334
+  }
+]

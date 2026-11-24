@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\reconnect_islands.py", line 2, in <module>
+    prev=sys.argv[1] if len(sys.argv)>1 else 'reconnect2';name=sys.argv[2] if len(sys.argv)>2 else 'islands';j=json.loads((OUT/'after'/('drc_'+prev+'.json')).read_text());logs=[]
+                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hebow\AppData\Local\Programs\KiCad\10.0\bin\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hebow\AppData\Local\Programs\KiCad\10.0\bin\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\hebow\\.codex\\worktrees\\a2-pcb-review\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\reports\\pcb_review_batch1\\after\\drc_all_connected.json'

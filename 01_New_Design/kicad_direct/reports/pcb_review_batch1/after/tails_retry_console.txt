@@ -1,0 +1,89 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+52 個の違反を検出しました
+24 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_0.json にDRC レポートを保存
+0 7
+51 個の違反を検出しました
+24 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_1.json にDRC レポートを保存
+1 6
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_2.json にDRC レポートを保存
+2 3
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_3.json にDRC レポートを保存
+3 2
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_4.json にDRC レポートを保存
+4 2
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_5.json にDRC レポートを保存
+5 2
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_6.json にDRC レポートを保存
+6 2
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_7.json にDRC レポートを保存
+7 2
+49 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_8.json にDRC レポートを保存
+8 2
+48 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_9.json にDRC レポートを保存
+9 1
+47 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_retry_10.json にDRC レポートを保存
+10 0
+47 個の違反を検出しました
+23 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_tails_final.json にDRC レポートを保存
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.

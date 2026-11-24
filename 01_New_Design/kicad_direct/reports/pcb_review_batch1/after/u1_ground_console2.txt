@@ -1,0 +1,17 @@
+ground return (3.2254999999999967, 18.479495, 0) False 10762
+ground return (3.2254999999999967, 18.479495, 1) False 10762
+ground return (12.584063999999998, 16.725499999999997, 0) False 10762
+ground return (12.584063999999998, 16.725499999999997, 1) False 10762
+ground return (10.480000000000004, 22.349999999999994, 0) False 10762
+ground return (10.480000000000004, 22.349999999999994, 1) False 10762
+ground return (11.775499999999994, 13.723320000000001, 0) False 10762
+ground return (11.775499999999994, 13.723320000000001, 1) False 10762
+ground return (5.025499999999994, 23.590655999999996, 0) False 10762
+ground return (5.025499999999994, 23.590655999999996, 1) False 10762
+ground return (5.819999999999993, 10.099999999999994, 0) False 10762
+ground return (5.819999999999993, 10.099999999999994, 1) False 10762
+Traceback (most recent call last):
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\connect_u1_ground.py", line 11, in <module>
+    assert ok;drc('all_connected')
+    ^^^^^^^^^
+AssertionError

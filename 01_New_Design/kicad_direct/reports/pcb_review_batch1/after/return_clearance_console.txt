@@ -1,0 +1,5 @@
+35 個の違反を検出しました
+4 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_returns_final.json にDRC レポートを保存
+ island mode 0
+ island mode 0

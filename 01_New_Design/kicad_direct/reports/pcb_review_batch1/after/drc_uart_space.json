@@ -1,0 +1,1484 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-24T20:24:56",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C16 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.42,
+                        "y": 126.6
+                    },
+                    "uuid": "240375a9-dd90-4261-8cd3-be787d1a82a5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.28,
+                        "y": 122.05
+                    },
+                    "uuid": "7711ec65-5d96-4902-a0a9-a38c959b2a2a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.28,
+                        "y": 122.05
+                    },
+                    "uuid": "7711ec65-5d96-4902-a0a9-a38c959b2a2a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [GND] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.52,
+                        "y": 110.15
+                    },
+                    "uuid": "1dad6333-e79e-428e-86d2-38ca209443bc"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [GND] - D5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.45,
+                        "y": 107.0
+                    },
+                    "uuid": "d305c7bf-234c-4c7c-8e68-06c3b2e26ace"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.7,
+                        "y": 109.42
+                    },
+                    "uuid": "d4c082b8-5ec2-4937-a791-60d1e5164f87"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.7,
+                        "y": 109.42
+                    },
+                    "uuid": "d4c082b8-5ec2-4937-a791-60d1e5164f87"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - D1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.55,
+                        "y": 107.0
+                    },
+                    "uuid": "a4cd5484-7aee-4e5e-aead-e8bb833327c2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] B.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "c2d2208c-fa47-4e34-828a-02f8de7c8ce5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 118.6
+                    },
+                    "uuid": "30caf3fd-dfca-456c-867d-622b9a626e6d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/FT_RTS_N] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 105.65,
+                        "y": 121.65
+                    },
+                    "uuid": "bccfe448-6c6e-4e8c-959f-3875ba253a56"
+                },
+                {
+                    "description": "配線 [/FT_RTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 129.324999
+                    },
+                    "uuid": "d5d69f04-a8e6-4fd3-a2d3-b7c2afbd2fef"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/FT_CTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 106.8375,
+                        "y": 114.75
+                    },
+                    "uuid": "d81e9e6c-10f0-4ce2-81e8-31f3ba5bd5ad"
+                },
+                {
+                    "description": "配線 [/FT_CTS_N] ( B.Cu 上、長さ: 0.4000 mm )",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 130.5
+                    },
+                    "uuid": "e4e938f0-07d3-484d-bfc8-982a91d7253e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "配線 [/CTS_N] ( F.Cu 上、長さ: 0.2121 mm )",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 131.0
+                    },
+                    "uuid": "519d37cb-0ba1-401d-9877-c69873657bfc"
+                },
+                {
+                    "description": "配線 [/CTS_N] ( B.Cu 上、長さ: 7.2500 mm )",
+                    "pos": {
+                        "x": 114.55,
+                        "y": 138.1
+                    },
+                    "uuid": "305b272b-6953-4351-aa46-f1a14ee3032e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1000 mm)",
+            "items": [
+                {
+                    "description": "配線 [/PWR_EN] ( F.Cu 上、長さ: 9.5000 mm )",
+                    "pos": {
+                        "x": 110.25,
+                        "y": 127.15
+                    },
+                    "uuid": "0eb7bacf-4719-4821-91c9-78eef76b9b75"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 8.7000 mm )",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 124.6
+                    },
+                    "uuid": "a44330b8-38cc-4654-86ca-bd265d808ddb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1000 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 8.7000 mm )",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 124.6
+                    },
+                    "uuid": "a44330b8-38cc-4654-86ca-bd265d808ddb"
+                },
+                {
+                    "description": "配線 [/PWR_EN] ( F.Cu 上、長さ: 1.8000 mm )",
+                    "pos": {
+                        "x": 112.05,
+                        "y": 127.15
+                    },
+                    "uuid": "bf4d8e57-e837-48da-a3b9-0de800fd9bd9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /FT_CTS_N と GND)",
+            "items": [
+                {
+                    "description": "パッド 7 [/FT_CTS_N] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 130.625
+                    },
+                    "uuid": "38407899-002a-46d8-8026-9ae57b51d752"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2243 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 131.275
+                    },
+                    "uuid": "a269c285-85f6-4eb1-a91f-d0acb31ca4c8"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 106.62,
+                        "y": 110.1
+                    },
+                    "uuid": "a04ecf0e-afdd-4aee-bc65-c1f20c959708"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.52,
+                        "y": 110.15
+                    },
+                    "uuid": "1dad6333-e79e-428e-86d2-38ca209443bc"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.28,
+                        "y": 122.05
+                    },
+                    "uuid": "7711ec65-5d96-4902-a0a9-a38c959b2a2a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C17 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.58,
+                        "y": 126.6
+                    },
+                    "uuid": "38119f91-305e-4151-8d06-c58d36cd7896"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 118.6
+                    },
+                    "uuid": "30caf3fd-dfca-456c-867d-622b9a626e6d"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 117.3
+                    },
+                    "uuid": "46e26f18-0b04-4163-aa82-6be908b63b9b"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 119.9
+                    },
+                    "uuid": "68b4276f-6211-41d5-991c-ea85ed08fe5a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "パッド 2 [GND] - C23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 116.1
+                    },
+                    "uuid": "09a888bb-f9e4-4bbc-af6f-d07ef2319084"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2243 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 131.275
+                    },
+                    "uuid": "a269c285-85f6-4eb1-a91f-d0acb31ca4c8"
+                },
+                {
+                    "description": "パッド 7 [/FT_CTS_N] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 130.625
+                    },
+                    "uuid": "38407899-002a-46d8-8026-9ae57b51d752"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [VIO] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 128.449998
+                    },
+                    "uuid": "58d45943-687c-4c68-8fc4-f5bd187b29e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [VIO] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 128.449998
+                    },
+                    "uuid": "98785206-d1c6-49d5-a46f-588324550caf"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 132.199998
+                    },
+                    "uuid": "5585e0aa-ba3c-4a52-85f6-a51c6b09d591"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 132.199998
+                    },
+                    "uuid": "c1d5e308-9b69-422b-8409-caebe1db6d89"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RXD] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 114.05,
+                        "y": 129.949998
+                    },
+                    "uuid": "ac1bd647-e39f-4a01-9e3c-a376af56fbd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_TXD] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 128.675
+                    },
+                    "uuid": "dcfc2789-2f44-4826-9563-8a0a020a697c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_RTS_N] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 105.65,
+                        "y": 121.65
+                    },
+                    "uuid": "bccfe448-6c6e-4e8c-959f-3875ba253a56"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_RTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 129.324999
+                    },
+                    "uuid": "d5d69f04-a8e6-4fd3-a2d3-b7c2afbd2fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_RXD] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 129.975
+                    },
+                    "uuid": "12a3da79-7106-4c1b-867e-236aab61b554"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_CTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 106.8375,
+                        "y": 114.75
+                    },
+                    "uuid": "d81e9e6c-10f0-4ce2-81e8-31f3ba5bd5ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_CTS_N] ( B.Cu 上、長さ: 0.4000 mm )",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 130.5
+                    },
+                    "uuid": "e4e938f0-07d3-484d-bfc8-982a91d7253e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 129.324999
+                    },
+                    "uuid": "4d60f745-a026-4ef0-b8e8-bad987db8909"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.0
+                    },
+                    "uuid": "63446ac3-9016-4a05-a66f-ec95c1e91dfb"
+                },
+                {
+                    "description": "C11のリファレンスフィールド",
+                    "pos": {
+                        "x": 122.1,
+                        "y": 110.2
+                    },
+                    "uuid": "c53b890b-8529-4101-8e2c-7574ebbdfd7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "基板端でシルクスクリーンが切り取られている (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0776 mm)",
+            "items": [
+                {
+                    "description": "セグメント (Edge.Cuts 上)",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.0
+                    },
+                    "uuid": "63446ac3-9016-4a05-a66f-ec95c1e91dfb"
+                },
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 121.6,
+                        "y": 113.7
+                    },
+                    "uuid": "62fc1cde-9691-4ea2-b38c-390fbcc87392"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0992 mm)",
+            "items": [
+                {
+                    "description": "C3のリファレンスフィールド",
+                    "pos": {
+                        "x": 107.1,
+                        "y": 111.300001
+                    },
+                    "uuid": "74f8d439-0403-4c30-9bc1-2ffa9e879e5c"
+                },
+                {
+                    "description": "C12のリファレンスフィールド",
+                    "pos": {
+                        "x": 106.7,
+                        "y": 112.1
+                    },
+                    "uuid": "9e20a4ac-0ea8-485d-8eb4-5f35ef7f5024"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0629 mm)",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 117.2
+                    },
+                    "uuid": "321e3f99-2898-4121-be9e-c7bdf9af2d63"
+                },
+                {
+                    "description": "C23のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 117.5
+                    },
+                    "uuid": "eab8228e-5577-4029-a98a-1c56df4191c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C16のリファレンスフィールド",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 126.6
+                    },
+                    "uuid": "cf09ee97-7f40-4ddd-8589-f4e885e6a235"
+                },
+                {
+                    "description": "パッド 1 [+3V3] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 126.725
+                    },
+                    "uuid": "e3508e75-7089-46ce-b3ab-cc901101e6c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C9のリファレンスフィールド",
+                    "pos": {
+                        "x": 114.4,
+                        "y": 109.0
+                    },
+                    "uuid": "633ee9a0-5d33-4862-ad14-658a10133025"
+                },
+                {
+                    "description": "パッド 4 [GND] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.15,
+                        "y": 109.5
+                    },
+                    "uuid": "79678a44-ca7e-4a78-b03a-c2740ecfb838"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "FB2のリファレンスフィールド",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 103.9
+                    },
+                    "uuid": "509118ea-7f6a-4d74-8305-7ddc2226624f"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 105.15,
+                        "y": 102.15
+                    },
+                    "uuid": "d7441f17-d2ad-4911-8d6d-3e4b193a618f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 117.2
+                    },
+                    "uuid": "321e3f99-2898-4121-be9e-c7bdf9af2d63"
+                },
+                {
+                    "description": "パッド 2 [GND] - C5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 117.3
+                    },
+                    "uuid": "46e26f18-0b04-4163-aa82-6be908b63b9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C8のリファレンスフィールド",
+                    "pos": {
+                        "x": 119.1,
+                        "y": 118.6
+                    },
+                    "uuid": "a26c9972-3f39-42ff-91bc-4d71cb0e2ca6"
+                },
+                {
+                    "description": "パッド 1 [+3V3] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 118.15
+                    },
+                    "uuid": "49186c38-3537-4a68-9557-5d6ce22a59f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C5のリファレンスフィールド",
+                    "pos": {
+                        "x": 116.6,
+                        "y": 118.3
+                    },
+                    "uuid": "6c427fb5-f595-4a2c-830d-0cebe97ea9aa"
+                },
+                {
+                    "description": "パッド 1 [VCORE_1V8] - C8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.02,
+                        "y": 118.6
+                    },
+                    "uuid": "5a45eea3-9416-4482-8e15-dc617d4f2264"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C23のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 117.5
+                    },
+                    "uuid": "eab8228e-5577-4029-a98a-1c56df4191c4"
+                },
+                {
+                    "description": "パッド 2 [GND] - C5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 117.3
+                    },
+                    "uuid": "46e26f18-0b04-4163-aa82-6be908b63b9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C23のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 117.5
+                    },
+                    "uuid": "eab8228e-5577-4029-a98a-1c56df4191c4"
+                },
+                {
+                    "description": "パッド 2 [GND] - C8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 118.6
+                    },
+                    "uuid": "30caf3fd-dfca-456c-867d-622b9a626e6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Y1のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.1,
+                        "y": 109.1
+                    },
+                    "uuid": "5ff2eb1e-09f8-4511-87c8-ae7b897e75ca"
+                },
+                {
+                    "description": "パッド 2 [GND] - C13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.6,
+                        "y": 109.02
+                    },
+                    "uuid": "2f978d28-b9eb-4c83-a1cd-8921e520d769"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "D1のリファレンスフィールド",
+                    "pos": {
+                        "x": 113.2,
+                        "y": 108.1
+                    },
+                    "uuid": "8edf039b-0987-4461-a42e-8c47eec8b624"
+                },
+                {
+                    "description": "パッド 2 [GND] - C14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.35,
+                        "y": 108.18
+                    },
+                    "uuid": "f9c6c030-054b-4088-9cc3-c64839bfc37f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C16のリファレンスフィールド",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 126.6
+                    },
+                    "uuid": "cf09ee97-7f40-4ddd-8589-f4e885e6a235"
+                },
+                {
+                    "description": "パッド 2 [+3V3] - U2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 127.375
+                    },
+                    "uuid": "d7b18522-a8c9-4cc1-b087-1e9cd3cfb654"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C15のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.8,
+                        "y": 120.85
+                    },
+                    "uuid": "29950dfe-0add-4f90-82b6-457bf6d05209"
+                },
+                {
+                    "description": "パッド 25 [unconnected-(U1-ACBUS1-Pad25)] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.25,
+                        "y": 120.1625
+                    },
+                    "uuid": "31217435-9316-4db7-90ee-f6916d18cd51"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C15のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.8,
+                        "y": 120.85
+                    },
+                    "uuid": "29950dfe-0add-4f90-82b6-457bf6d05209"
+                },
+                {
+                    "description": "パッド 26 [unconnected-(U1-ACBUS2-Pad26)] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 108.75,
+                        "y": 120.1625
+                    },
+                    "uuid": "2dbc6c37-6f59-48e0-aed5-2b0dd313c2e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C15のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.8,
+                        "y": 120.85
+                    },
+                    "uuid": "29950dfe-0add-4f90-82b6-457bf6d05209"
+                },
+                {
+                    "description": "パッド 27 [/RXLED_N] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.25,
+                        "y": 120.1625
+                    },
+                    "uuid": "1c3d1781-1646-4e65-bbcb-2517de2a6ece"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C15のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.8,
+                        "y": 120.85
+                    },
+                    "uuid": "29950dfe-0add-4f90-82b6-457bf6d05209"
+                },
+                {
+                    "description": "パッド 28 [/TXLED_N] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.75,
+                        "y": 120.1625
+                    },
+                    "uuid": "36c3d114-1539-400c-8b0c-3a91205ad9b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C17のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.2,
+                        "y": 124.9
+                    },
+                    "uuid": "613f3528-ab82-4081-ad42-d285a9b2160b"
+                },
+                {
+                    "description": "パッド 2 [GND] - Q1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.5625,
+                        "y": 124.95
+                    },
+                    "uuid": "e75fa8bb-9b4b-4ee5-9536-fdfbad9b00a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R7のリファレンスフィールド",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 137.099999
+                    },
+                    "uuid": "7baa085d-8f7f-4b05-9096-458668ba5130"
+                },
+                {
+                    "description": "パッド 2 [GND] - R8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.7,
+                        "y": 136.89
+                    },
+                    "uuid": "a6f0fa52-bee8-4765-bbc6-c033a0624174"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 132.4
+                    },
+                    "uuid": "23761536-9311-471d-96f8-2a551ae69288"
+                },
+                {
+                    "description": "パッド 2 [GND] - C19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.4,
+                        "y": 132.725
+                    },
+                    "uuid": "d138ce04-37f7-4a92-ac11-5ce92482fc20"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

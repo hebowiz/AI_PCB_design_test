@@ -1,0 +1,112 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+{
+  "base": "a300e1c7cd89654fd2800c1bc7b8bad59dae5516",
+  "components": 58,
+  "schematic_terminals": 197,
+  "attributes_and_pin_net_map_identical": true,
+  "erc": 0,
+  "drc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "drc_exclusions_and_severities_unchanged": true,
+  "fixed_positions": [
+    "J1",
+    "J2",
+    "J3",
+    "SW1",
+    "SW2",
+    "SW3"
+  ],
+  "outline_unchanged": true,
+  "outline_mm": [
+    22,
+    50
+  ],
+  "thickness_mm": 1.6,
+  "layers": 2,
+  "track_counts": {
+    "before": {
+      "segments": 1039,
+      "shorter_than_0_3_mm": 557,
+      "vias": 128
+    },
+    "after": {
+      "segments": 809,
+      "shorter_than_0_3_mm": 293,
+      "vias": 97
+    }
+  },
+  "copper_diff_counts": {
+    "removed": 973,
+    "added": 712,
+    "modified": 8,
+    "unchanged_count": 186
+  },
+  "via_dimensions": {
+    "hole_0_3_outer_0_6_count": 97
+  },
+  "short_edge_crossings": 67,
+  "short_edge_deviations": 0,
+  "grazing_contacts": 0,
+  "non45_segments": 0,
+  "signal_copper_lengths_including_branches_not_electrical_skew": {
+    "/USB_D+": {
+      "before": {
+        "total_track_mm": 7.9452,
+        "vias": 2
+      },
+      "after": {
+        "total_track_mm": 7.9553,
+        "vias": 0
+      }
+    },
+    "/USB_D-": {
+      "before": {
+        "total_track_mm": 8.0156,
+        "vias": 0
+      },
+      "after": {
+        "total_track_mm": 7.9967,
+        "vias": 2
+      }
+    },
+    "/XTAL_IN": {
+      "before": {
+        "total_track_mm": 16.6571,
+        "vias": 2
+      },
+      "after": {
+        "total_track_mm": 8.3884,
+        "vias": 0
+      }
+    },
+    "/XTAL_OUT": {
+      "before": {
+        "total_track_mm": 15.745,
+        "vias": 3
+      },
+      "after": {
+        "total_track_mm": 7.2045,
+        "vias": 0
+      }
+    }
+  },
+  "protected": {
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "unchanged",
+    "01_New_Design/kicad_direct/libraries": "unchanged",
+    "01_New_Design/kicad_direct/scripts": "unchanged",
+    "01_New_Design/kicad_direct/manufacturing_review": "unchanged"
+  }
+}

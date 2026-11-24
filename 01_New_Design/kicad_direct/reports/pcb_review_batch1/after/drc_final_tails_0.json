@@ -1,0 +1,242 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-24T20:44:13",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [VIO] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 128.449998
+                    },
+                    "uuid": "58d45943-687c-4c68-8fc4-f5bd187b29e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [VIO] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 128.449998
+                    },
+                    "uuid": "98785206-d1c6-49d5-a46f-588324550caf"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 132.199998
+                    },
+                    "uuid": "5585e0aa-ba3c-4a52-85f6-a51c6b09d591"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 132.199998
+                    },
+                    "uuid": "c1d5e308-9b69-422b-8409-caebe1db6d89"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RXD] ( B.Cu 上、長さ: 1.000e-06 mm )",
+                    "pos": {
+                        "x": 114.05,
+                        "y": 129.949998
+                    },
+                    "uuid": "ac1bd647-e39f-4a01-9e3c-a376af56fbd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_TXD] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 128.675
+                    },
+                    "uuid": "dcfc2789-2f44-4826-9563-8a0a020a697c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_RTS_N] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 105.65,
+                        "y": 121.65
+                    },
+                    "uuid": "bccfe448-6c6e-4e8c-959f-3875ba253a56"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_RTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 129.324999
+                    },
+                    "uuid": "d5d69f04-a8e6-4fd3-a2d3-b7c2afbd2fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_RXD] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 129.975
+                    },
+                    "uuid": "12a3da79-7106-4c1b-867e-236aab61b554"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/FT_CTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 130.625
+                    },
+                    "uuid": "727425b8-e580-4d0c-9ed8-6618be87819d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RTS_N] ( F.Cu 上、長さ: 1.0375 mm )",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 129.324999
+                    },
+                    "uuid": "4d60f745-a026-4ef0-b8e8-bad987db8909"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [/RXLED_N] ( B.Cu 上、長さ: 4.9500 mm )",
+                    "pos": {
+                        "x": 104.95,
+                        "y": 121.7
+                    },
+                    "uuid": "d31ccb35-67f5-434e-9872-5032d3cba40e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

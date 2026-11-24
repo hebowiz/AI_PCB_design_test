@@ -1,0 +1,7 @@
+{
+  "analytic_zero_thickness_ohm": 96.90571517007615,
+  "finite_volume_zero_thickness_ohm": 96.45622268175285,
+  "difference_percent": -0.4638451793420151,
+  "source": "https://qucs.sourceforge.net/tech/node77.html",
+  "limitation": "Analytic check is zero-thickness only; production estimate includes .035mm copper. Uniform 2D line, not transitions."
+}

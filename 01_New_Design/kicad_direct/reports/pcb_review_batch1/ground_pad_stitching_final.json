@@ -1,0 +1,18 @@
+[
+  {
+    "ref": "C3",
+    "via": [
+      105.82,
+      110.1
+    ],
+    "route": true
+  },
+  {
+    "ref": "C23",
+    "route": false
+  },
+  {
+    "ref": "C8",
+    "route": false
+  }
+]

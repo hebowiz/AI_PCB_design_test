@@ -1,0 +1,15 @@
+{'ref': 'D1', 'via': [113.15, 106.4], 'route': True}
+{'ref': 'D5', 'via': [109.45, 107.9], 'route': True}
+{'ref': 'C9', 'via': [113.8, 109.62], 'route': True}
+{'ref': 'C10', 'route': False}
+{'ref': 'C15', 'via': [110.48, 122.35], 'route': True}
+{'ref': 'C16', 'route': False}
+{'ref': 'C8', 'route': False}
+{'ref': 'C3', 'route': False}
+{'ref': 'C17', 'via': [115.68, 125.8], 'route': True}
+{'ref': 'C5', 'via': [118.88, 117.3], 'route': True}
+{'ref': 'C7', 'route': False}
+{'ref': 'C23', 'route': False}
+40 個の違反を検出しました
+15 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_ground_pads.json にDRC レポートを保存

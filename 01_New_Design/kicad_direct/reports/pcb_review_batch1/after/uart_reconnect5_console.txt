@@ -1,0 +1,6 @@
+{'net': '/FT_RTS_N', 'ok': False, 'start_candidates': 1, 'target_candidates': 26, 'visited': 499676}
+{'net': '/FT_CTS_N', 'ok': False, 'start_candidates': 1, 'target_candidates': 10, 'visited': 16611}
+{'net': '/CTS_N', 'ok': False, 'start_candidates': 2, 'target_candidates': 60, 'visited': 241}
+45 個の違反を検出しました
+19 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_uart_reconnect5.json にDRC レポートを保存

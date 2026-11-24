@@ -1,0 +1,47 @@
+[
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "height_mm": 1.51,
+    "copper_mm": 0.035,
+    "er": 4.5,
+    "mesh_step_mm": 0.01,
+    "far_boundary_mm": 15,
+    "nodes": 21462,
+    "Zdiff_ohm": 89.79792262474207,
+    "Codd_F_per_m": 1.20636384805821e-10,
+    "Codd_air_F_per_m": 4.575174803924451e-11,
+    "max_residual": 3.552713678800501e-14,
+    "model": "2-D quasi-static uncoated coupled microstrip; vias, pad transitions, soldermask and dispersive loss excluded"
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "height_mm": 1.51,
+    "copper_mm": 0.035,
+    "er": 4.5,
+    "mesh_step_mm": 0.005,
+    "far_boundary_mm": 15,
+    "nodes": 52614,
+    "Zdiff_ohm": 90.22594006168286,
+    "Codd_F_per_m": 1.1989322544808116e-10,
+    "Codd_air_F_per_m": 4.559960809247749e-11,
+    "max_residual": 4.263256414560601e-14,
+    "model": "2-D quasi-static uncoated coupled microstrip; vias, pad transitions, soldermask and dispersive loss excluded"
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "height_mm": 1.51,
+    "copper_mm": 0.035,
+    "er": 4.5,
+    "mesh_step_mm": 0.0025,
+    "far_boundary_mm": 15,
+    "nodes": 155541,
+    "Zdiff_ohm": 90.39929017836688,
+    "Codd_F_per_m": 1.1957270938576619e-10,
+    "Codd_air_F_per_m": 4.554665367278047e-11,
+    "max_residual": 1.4210854715202004e-13,
+    "model": "2-D quasi-static uncoated coupled microstrip; vias, pad transitions, soldermask and dispersive loss excluded"
+  }
+]

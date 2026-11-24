@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "A2")(type "KiCad")(uri "${KIPRJMOD}/../../../libraries/A2.pretty")(options "")(descr "A-2 frozen footprints")))

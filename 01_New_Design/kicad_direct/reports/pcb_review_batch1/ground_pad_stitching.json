@@ -1,0 +1,74 @@
+[
+  {
+    "ref": "D1",
+    "via": [
+      113.15,
+      106.4
+    ],
+    "route": true
+  },
+  {
+    "ref": "D5",
+    "via": [
+      109.45,
+      107.9
+    ],
+    "route": true
+  },
+  {
+    "ref": "C9",
+    "via": [
+      113.8,
+      109.62
+    ],
+    "route": true
+  },
+  {
+    "ref": "C10",
+    "route": false
+  },
+  {
+    "ref": "C15",
+    "via": [
+      110.48,
+      122.35
+    ],
+    "route": true
+  },
+  {
+    "ref": "C16",
+    "route": false
+  },
+  {
+    "ref": "C8",
+    "route": false
+  },
+  {
+    "ref": "C3",
+    "route": false
+  },
+  {
+    "ref": "C17",
+    "via": [
+      115.68,
+      125.8
+    ],
+    "route": true
+  },
+  {
+    "ref": "C5",
+    "via": [
+      118.88,
+      117.3
+    ],
+    "route": true
+  },
+  {
+    "ref": "C7",
+    "route": false
+  },
+  {
+    "ref": "C23",
+    "route": false
+  }
+]

@@ -1,0 +1,5 @@
+187 個の違反を検出しました
+78 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_replacement_plan.json にDRC レポートを保存
+{'track': 106, 'via': 41}
+Counter({'GND': 16, '+3V3': 15, '/FT_RXD': 12, '/FT_RTS_N': 11, 'VIO': 8, '/TXD': 7, '/PWREN_N': 7, 'USB5V': 7, '/CTS_N': 6, '/RXD': 5, '/EE_DATA': 5, '/FT_CTS_N': 5, '/USB5V_SW': 5, '/PWR_EN': 4, '/FB': 3, '/FT_TXD': 3, '/RXLED_N': 3, '/RTS_N': 3, '/RESET_N': 3, 'USB5V_OUT': 3, '/EE_CS': 3, '/FB_2V5': 2, '/EE_DO': 2, '/EE_CLK': 2, '/FB_3V3': 1, '/TXLED_N': 1, 'VPHY': 1, 'VPLL': 1, '/REF12K': 1, 'VCCA_1V8': 1, 'VCORE_1V8': 1})

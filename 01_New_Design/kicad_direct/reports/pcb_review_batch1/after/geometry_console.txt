@@ -1,0 +1,52 @@
+crossings 65 noncenter 6
+[
+  {
+    "pin": "U2.5",
+    "net": "/FT_RTS_N",
+    "uuid": "a5581c2d-7a2d-4b8f-8eb0-ca9d09ec5d53",
+    "short_edge": true,
+    "offset_mm": -0.025,
+    "ok": false
+  },
+  {
+    "pin": "U2.10",
+    "net": "/CTS_N",
+    "uuid": "479aca0f-12d9-424c-8bee-6643fdc434f4",
+    "short_edge": true,
+    "offset_mm": -0.025,
+    "ok": false
+  },
+  {
+    "pin": "U4.1",
+    "net": "USB5V",
+    "uuid": "9200d12c-0557-4320-8af1-30fe7fb335c0",
+    "short_edge": false,
+    "offset_mm": -0.3125,
+    "ok": false
+  },
+  {
+    "pin": "U4.3",
+    "net": "/PWR_EN",
+    "uuid": "30aec6d3-0c14-42db-a424-43c823010866",
+    "short_edge": false,
+    "offset_mm": -0.3125,
+    "ok": false
+  },
+  {
+    "pin": "U4.4",
+    "net": "/FB",
+    "uuid": "bdd247c7-c52f-4dc4-aee4-5c15cb0df627",
+    "short_edge": true,
+    "offset_mm": 0.1,
+    "ok": false
+  },
+  {
+    "pin": "U4.5",
+    "net": "VIO",
+    "uuid": "be188576-38b0-4b5f-83b9-1fc05560a83b",
+    "short_edge": false,
+    "offset_mm": 0.0125,
+    "ok": false
+  }
+]
+non45 4 [{"uuid": "9dc8bb56-bf53-4309-914e-ffa8ccf8e075", "net": "GND", "a": [112.27, 143.655], "b": [112.25, 143.65]}, {"uuid": "2141e572-3a75-4598-a051-90bb842ac4d3", "net": "VIO_OUT", "a": [114.81, 140.345], "b": [114.8, 140.35]}, {"uuid": "f3f2128b-6762-4635-9585-bedf504c04f7", "net": "/CTS_N", "a": [109.73, 140.345], "b": [109.75, 140.35]}, {"uuid": "cd8a9b91-6438-4be7-8330-a8b7c91ccde5", "net": "/RTS_N", "a": [107.19, 143.655], "b": [107.2, 143.65]}]

@@ -1,0 +1,23 @@
+[
+  {
+    "net": "/FT_RTS_N",
+    "ok": true,
+    "start_candidates": 4,
+    "target_candidates": 29,
+    "visited": 29191
+  },
+  {
+    "net": "/FT_CTS_N",
+    "ok": true,
+    "start_candidates": 4,
+    "target_candidates": 15,
+    "visited": 23414
+  },
+  {
+    "net": "/RXLED_N",
+    "ok": true,
+    "start_candidates": 9,
+    "target_candidates": 19,
+    "visited": 8637
+  }
+]

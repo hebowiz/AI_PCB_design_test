@@ -1,0 +1,30 @@
+[
+  {
+    "net": "/FT_RTS_N",
+    "ok": false,
+    "start_candidates": 4,
+    "target_candidates": 40,
+    "visited": 26
+  },
+  {
+    "net": "/FT_CTS_N",
+    "ok": false,
+    "start_candidates": 1,
+    "target_candidates": 19,
+    "visited": 16611
+  },
+  {
+    "net": "/CTS_N",
+    "ok": false,
+    "start_candidates": 2,
+    "target_candidates": 64,
+    "visited": 495
+  },
+  {
+    "net": "/TXD",
+    "ok": false,
+    "start_candidates": 4,
+    "target_candidates": 35,
+    "visited": 84
+  }
+]

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\hebow\.codex\worktrees\a2-pcb-review\99_AI_PCB_design_test\01_New_Design\kicad_direct\reports\pcb_review_batch1\scripts\uart_fanout.py", line 5, in <module>
+    ts=[t for t in list(b.GetTracks()) if not isinstance(t,p.PCB_VIA) and t.GetNetCode()==a.GetNetCode() and {xy(t.GetStart()),xy(t.GetEnd())}=={pt,tuple(old)}];assert len(ts)==1,(key,len(ts));remove(ts[0]);tr(pt,new,a.GetNetname(),w=.15);fan[key]=new;log.append({'pin':key,'old':old,'new':new})
+                                                                                                                                                                        ^^^^^^^^^^
+AssertionError: ('U2.5', 0)

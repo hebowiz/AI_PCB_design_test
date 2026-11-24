@@ -1,0 +1,601 @@
+{
+  "global_mask_expansion_mm": 0.05,
+  "pad_and_footprint_mask_overrides": false,
+  "ground_zones_pad_connection": "thermal",
+  "priority_unexpected_projection_overlaps": 0,
+  "base": "a300e1c7cd89654fd2800c1bc7b8bad59dae5516",
+  "components": 58,
+  "schematic_terminals": 197,
+  "attributes_and_pin_net_map_identical": true,
+  "erc": 0,
+  "drc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "drc_exclusions_and_severities_unchanged": true,
+  "ignored_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "fixed_positions": [
+    "J1",
+    "J2",
+    "J3",
+    "SW1",
+    "SW2",
+    "SW3"
+  ],
+  "outline_unchanged": true,
+  "outline_mm": [
+    22,
+    50
+  ],
+  "thickness_mm": 1.6,
+  "layers": 2,
+  "moved_components": {
+    "C9": {
+      "before": [
+        106.0,
+        107.0,
+        0.0
+      ],
+      "after": [
+        112.7,
+        109.9,
+        90.0
+      ]
+    },
+    "FB2": {
+      "before": [
+        113.0,
+        107.5,
+        0.0
+      ],
+      "after": [
+        107.6,
+        108.5,
+        0.0
+      ]
+    },
+    "R14": {
+      "before": [
+        118.5,
+        118.0,
+        90.0
+      ],
+      "after": [
+        102.5,
+        112.5,
+        90.0
+      ]
+    },
+    "D3": {
+      "before": [
+        118.5,
+        120.5,
+        90.0
+      ],
+      "after": [
+        102.5,
+        115.0,
+        90.0
+      ]
+    },
+    "C16": {
+      "before": [
+        108.5,
+        124.0,
+        90.0
+      ],
+      "after": [
+        105.9,
+        126.6,
+        180.0
+      ]
+    },
+    "C11": {
+      "before": [
+        103.9,
+        106.0,
+        90.0
+      ],
+      "after": [
+        120.2,
+        110.2,
+        90.0
+      ]
+    },
+    "C3": {
+      "before": [
+        115.0,
+        109.6,
+        0.0
+      ],
+      "after": [
+        107.1,
+        110.1,
+        180.0
+      ]
+    },
+    "Y1": {
+      "before": [
+        104.3,
+        110.0,
+        0.0
+      ],
+      "after": [
+        116.0,
+        108.4,
+        90.0
+      ]
+    },
+    "R2": {
+      "before": [
+        118.0,
+        115.0,
+        90.0
+      ],
+      "after": [
+        113.0,
+        122.4,
+        90.0
+      ]
+    },
+    "C10": {
+      "before": [
+        113.5,
+        109.0,
+        90.0
+      ],
+      "after": [
+        109.0,
+        110.15,
+        180.0
+      ]
+    },
+    "C14": {
+      "before": [
+        101.6,
+        113.0,
+        90.0
+      ],
+      "after": [
+        113.35,
+        107.7,
+        -90.0
+      ]
+    },
+    "C18": {
+      "before": [
+        108.0,
+        132.6,
+        0.0
+      ],
+      "after": [
+        107.5,
+        135.25,
+        180.0
+      ]
+    },
+    "C6": {
+      "before": [
+        111.0,
+        122.5,
+        0.0
+      ],
+      "after": [
+        117.4,
+        113.8,
+        0.0
+      ]
+    },
+    "C2": {
+      "before": [
+        118.2,
+        111.5,
+        0.0
+      ],
+      "after": [
+        120.0,
+        117.2,
+        90.0
+      ]
+    },
+    "C12": {
+      "before": [
+        108.7,
+        107.3,
+        180.0
+      ],
+      "after": [
+        103.0,
+        109.0,
+        180.0
+      ]
+    },
+    "C22": {
+      "before": [
+        120.0,
+        115.0,
+        90.0
+      ],
+      "after": [
+        114.5,
+        122.4,
+        90.0
+      ]
+    },
+    "C15": {
+      "before": [
+        104.0,
+        119.3,
+        0.0
+      ],
+      "after": [
+        108.8,
+        122.05,
+        0.0
+      ]
+    },
+    "R15": {
+      "before": [
+        120.2,
+        118.0,
+        90.0
+      ],
+      "after": [
+        104.0,
+        112.5,
+        90.0
+      ]
+    },
+    "R7": {
+      "before": [
+        114.2,
+        135.2,
+        90.0
+      ],
+      "after": [
+        114.7,
+        135.4,
+        90.0
+      ]
+    },
+    "C1": {
+      "before": [
+        118.9,
+        108.5,
+        180.0
+      ],
+      "after": [
+        120.1,
+        113.7,
+        90.0
+      ]
+    },
+    "R1": {
+      "before": [
+        107.0,
+        110.8,
+        90.0
+      ],
+      "after": [
+        106.7,
+        107.0,
+        0.0
+      ]
+    },
+    "D4": {
+      "before": [
+        120.2,
+        120.5,
+        90.0
+      ],
+      "after": [
+        104.0,
+        115.0,
+        90.0
+      ]
+    },
+    "C4": {
+      "before": [
+        104.5,
+        115.0,
+        90.0
+      ],
+      "after": [
+        104.9,
+        118.75,
+        180.0
+      ]
+    },
+    "D1": {
+      "before": [
+        110.9,
+        107.5,
+        90.0
+      ],
+      "after": [
+        112.2,
+        107.0,
+        0.0
+      ]
+    },
+    "C19": {
+      "before": [
+        110.7,
+        133.5,
+        0.0
+      ],
+      "after": [
+        113.4,
+        133.5,
+        90.0
+      ]
+    },
+    "C17": {
+      "before": [
+        115.5,
+        126.7,
+        90.0
+      ],
+      "after": [
+        116.1,
+        126.6,
+        0.0
+      ]
+    },
+    "C8": {
+      "before": [
+        113.0,
+        123.8,
+        90.0
+      ],
+      "after": [
+        117.5,
+        118.6,
+        0.0
+      ]
+    },
+    "C5": {
+      "before": [
+        117.7,
+        113.0,
+        0.0
+      ],
+      "after": [
+        117.5,
+        117.3,
+        0.0
+      ]
+    },
+    "R4": {
+      "before": [
+        105.0,
+        127.0,
+        0.0
+      ],
+      "after": [
+        103.9,
+        125.6,
+        0.0
+      ]
+    },
+    "C7": {
+      "before": [
+        115.2,
+        123.8,
+        90.0
+      ],
+      "after": [
+        117.5,
+        119.9,
+        0.0
+      ]
+    },
+    "FB1": {
+      "before": [
+        109.0,
+        108.8,
+        0.0
+      ],
+      "after": [
+        117.4,
+        111.4,
+        0.0
+      ]
+    },
+    "C13": {
+      "before": [
+        101.6,
+        107.2,
+        90.0
+      ],
+      "after": [
+        118.6,
+        109.5,
+        90.0
+      ]
+    },
+    "D5": {
+      "before": [
+        111.9,
+        108.7,
+        0.0
+      ],
+      "after": [
+        109.8,
+        107.0,
+        180.0
+      ]
+    },
+    "C23": {
+      "before": [
+        117.2,
+        117.2,
+        90.0
+      ],
+      "after": [
+        117.5,
+        116.1,
+        0.0
+      ]
+    }
+  },
+  "track_counts": {
+    "before": {
+      "segments": 1039,
+      "shorter_than_0_3_mm": 557,
+      "vias": 128
+    },
+    "after": {
+      "segments": 810,
+      "shorter_than_0_3_mm": 293,
+      "vias": 97
+    }
+  },
+  "copper_diff_counts": {
+    "removed": 973,
+    "added": 713,
+    "modified": 8,
+    "unchanged_count": 186
+  },
+  "via_dimensions": {
+    "hole_0_3_outer_0_6_count": 97
+  },
+  "short_edge_crossings": 67,
+  "short_edge_deviations": 0,
+  "grazing_contacts": 0,
+  "non45_segments": 0,
+  "cap_to_pin_distances_mm": {
+    "C1": {
+      "before": 9.515,
+      "after": 6.081
+    },
+    "C23": {
+      "before": 2.038,
+      "after": 2.605
+    },
+    "C2": {
+      "before": 6.949,
+      "after": 4.869
+    },
+    "C5": {
+      "before": 5.385,
+      "after": 2.38
+    },
+    "C3": {
+      "before": 7.111,
+      "after": 2.084
+    },
+    "C4": {
+      "before": 4.419,
+      "after": 1.938
+    },
+    "C6": {
+      "before": 9.241,
+      "after": 2.282
+    },
+    "C7": {
+      "before": 5.05,
+      "after": 2.605
+    },
+    "C8": {
+      "before": 5.956,
+      "after": 2.364
+    },
+    "C9": {
+      "before": 8.304,
+      "after": 1.938
+    },
+    "C10": {
+      "before": 4.314,
+      "after": 2.1
+    },
+    "C15": {
+      "before": 3.775,
+      "after": 2.188
+    },
+    "C16": {
+      "before": 2.749,
+      "after": 2.241
+    },
+    "C17": {
+      "before": 1.638,
+      "after": 2.241
+    },
+    "C18": {
+      "before": 2.98,
+      "after": 1.862
+    },
+    "C19": {
+      "before": 1.985,
+      "after": 2.484
+    }
+  },
+  "signal_copper_lengths_including_branches_not_electrical_skew": {
+    "/USB_D+": {
+      "before": {
+        "total_track_mm": 7.9452,
+        "vias": 2
+      },
+      "after": {
+        "total_track_mm": 7.9553,
+        "vias": 0
+      }
+    },
+    "/USB_D-": {
+      "before": {
+        "total_track_mm": 8.0156,
+        "vias": 0
+      },
+      "after": {
+        "total_track_mm": 7.9967,
+        "vias": 2
+      }
+    },
+    "/XTAL_IN": {
+      "before": {
+        "total_track_mm": 16.6571,
+        "vias": 2
+      },
+      "after": {
+        "total_track_mm": 8.3884,
+        "vias": 0
+      }
+    },
+    "/XTAL_OUT": {
+      "before": {
+        "total_track_mm": 15.745,
+        "vias": 3
+      },
+      "after": {
+        "total_track_mm": 7.2045,
+        "vias": 0
+      }
+    }
+  },
+  "protected": {
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "unchanged",
+    "01_New_Design/kicad_direct/libraries": "unchanged",
+    "01_New_Design/kicad_direct/scripts": "unchanged",
+    "01_New_Design/kicad_direct/manufacturing_review": "unchanged"
+  }
+}

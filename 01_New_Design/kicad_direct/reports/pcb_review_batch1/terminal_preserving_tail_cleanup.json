@@ -1,0 +1,415 @@
+[
+  {
+    "iteration": 0,
+    "removed": [
+      {
+        "uuid": "57427b1b-7abe-4656-a747-c99a5ae05a90",
+        "net": "USB5V",
+        "a": [
+          102.9,
+          131.8
+        ],
+        "b": [
+          102.9,
+          132.4
+        ]
+      },
+      {
+        "uuid": "c19749d5-7577-4ef3-a2c1-ca3104cc5a56",
+        "net": "/PWR_EN",
+        "a": [
+          119.45,
+          124.0
+        ],
+        "b": [
+          119.45,
+          125.8
+        ]
+      },
+      {
+        "uuid": "06459c4a-f22e-45bd-ba8c-b47bb14e1440",
+        "net": "/FT_RTS_N",
+        "a": [
+          107.2,
+          129.05
+        ],
+        "b": [
+          107.25,
+          129.1
+        ]
+      },
+      {
+        "uuid": "7481fe00-02d6-49eb-9970-4f19a38fb330",
+        "net": "/FT_RTS_N",
+        "a": [
+          105.55,
+          121.75
+        ],
+        "b": [
+          105.55,
+          124.3
+        ]
+      },
+      {
+        "uuid": "da7d94da-7928-40ea-a397-9ffdb6b219f8",
+        "net": "/FT_CTS_N",
+        "a": [
+          107.7,
+          127.8
+        ],
+        "b": [
+          107.65,
+          127.85
+        ]
+      },
+      {
+        "uuid": "19a261e6-918f-4fab-b196-289e63320934",
+        "net": "/TXD",
+        "a": [
+          114.8,
+          128.949999
+        ],
+        "b": [
+          114.75,
+          128.9
+        ]
+      },
+      {
+        "uuid": "ce8003d0-5a5b-458b-95c6-e7481e35a802",
+        "net": "/TXD",
+        "a": [
+          110.55,
+          136.9
+        ],
+        "b": [
+          111.65,
+          135.8
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 1,
+    "removed": [
+      {
+        "uuid": "379441f3-82ea-40d4-82ca-3a7625011d5b",
+        "net": "USB5V",
+        "a": [
+          102.9,
+          132.4
+        ],
+        "b": [
+          103.25,
+          132.75
+        ]
+      },
+      {
+        "uuid": "0dbf32f6-7295-4b09-b55d-62afe71e7934",
+        "net": "/FT_RTS_N",
+        "a": [
+          105.6,
+          121.7
+        ],
+        "b": [
+          105.55,
+          121.75
+        ]
+      },
+      {
+        "uuid": "2ab96928-cb1f-4abb-9e18-08568c31702d",
+        "net": "/FT_RTS_N",
+        "a": [
+          107.25,
+          129.1
+        ],
+        "b": [
+          107.95,
+          129.1
+        ]
+      },
+      {
+        "uuid": "70f265ef-cb55-467a-996a-e143bbbbf409",
+        "net": "/FT_CTS_N",
+        "a": [
+          107.65,
+          127.85
+        ],
+        "b": [
+          107.65,
+          130.1
+        ]
+      },
+      {
+        "uuid": "4f63ff95-bb48-4731-a937-d95b44b3e905",
+        "net": "/TXD",
+        "a": [
+          110.55,
+          137.75
+        ],
+        "b": [
+          110.55,
+          136.9
+        ]
+      },
+      {
+        "uuid": "618c5ece-69b9-4973-a8d3-ccd41e063b65",
+        "net": "/TXD",
+        "a": [
+          114.75,
+          128.9
+        ],
+        "b": [
+          114.05,
+          128.9
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 2,
+    "removed": [
+      {
+        "uuid": "47ac7791-c80b-4570-9768-7bc8fe5aa320",
+        "net": "USB5V",
+        "a": [
+          103.75,
+          132.75
+        ],
+        "b": [
+          103.25,
+          132.75
+        ]
+      },
+      {
+        "uuid": "5ab6f05d-1e0a-4c18-ac07-51b349b5d0c1",
+        "net": "/FT_RTS_N",
+        "a": [
+          105.6,
+          121.65
+        ],
+        "b": [
+          105.6,
+          121.7
+        ]
+      },
+      {
+        "uuid": "4a09e432-6ff3-4eba-bbe8-124142c74dd4",
+        "net": "/TXD",
+        "a": [
+          110.5,
+          137.8
+        ],
+        "b": [
+          110.55,
+          137.75
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 3,
+    "removed": [
+      {
+        "uuid": "82d8c298-fec4-4678-81c9-d5cc50077475",
+        "net": "USB5V",
+        "a": [
+          104.35,
+          133.35
+        ],
+        "b": [
+          103.75,
+          132.75
+        ]
+      },
+      {
+        "uuid": "c4976e36-2281-43d0-8582-0545a66409b5",
+        "net": "/TXD",
+        "a": [
+          110.5,
+          137.85
+        ],
+        "b": [
+          110.5,
+          137.8
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 4,
+    "removed": [
+      {
+        "uuid": "f907907e-3ccd-4e91-a0ae-a7b25ee26673",
+        "net": "USB5V",
+        "a": [
+          104.4,
+          133.35
+        ],
+        "b": [
+          104.35,
+          133.35
+        ]
+      },
+      {
+        "uuid": "06bd53c4-9397-42ed-9afb-1cace16cd1ed",
+        "net": "/TXD",
+        "a": [
+          110.45,
+          137.9
+        ],
+        "b": [
+          110.5,
+          137.85
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 5,
+    "removed": [
+      {
+        "uuid": "8389b6a1-1b1a-4700-bcce-2cad3da33dc0",
+        "net": "USB5V",
+        "a": [
+          104.45,
+          133.4
+        ],
+        "b": [
+          104.4,
+          133.35
+        ]
+      },
+      {
+        "uuid": "7b1bbb63-f805-4066-b279-b1ff111e3b16",
+        "net": "/TXD",
+        "a": [
+          110.45,
+          144.35
+        ],
+        "b": [
+          110.45,
+          137.9
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 6,
+    "removed": [
+      {
+        "uuid": "2be80c0c-4388-49e7-8497-d399d6bfceed",
+        "net": "USB5V",
+        "a": [
+          105.2,
+          133.4
+        ],
+        "b": [
+          104.45,
+          133.4
+        ]
+      },
+      {
+        "uuid": "4256f50b-ba9b-4855-b501-5ad43b1325a4",
+        "net": "/TXD",
+        "a": [
+          110.4,
+          144.4
+        ],
+        "b": [
+          110.45,
+          144.35
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 7,
+    "removed": [
+      {
+        "uuid": "ddd235ac-ddc0-451b-80f7-921305c7c7da",
+        "net": "USB5V",
+        "a": [
+          105.3,
+          133.5
+        ],
+        "b": [
+          105.2,
+          133.4
+        ]
+      },
+      {
+        "uuid": "4aff88d4-b24f-4954-a2ab-c16da0de9b54",
+        "net": "/TXD",
+        "a": [
+          110.4,
+          145.9
+        ],
+        "b": [
+          110.4,
+          144.4
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 8,
+    "removed": [
+      {
+        "uuid": "09a009f2-5dcf-4941-8a09-6c7025055b4a",
+        "net": "USB5V",
+        "a": [
+          106.0,
+          133.5
+        ],
+        "b": [
+          105.3,
+          133.5
+        ]
+      },
+      {
+        "uuid": "5209b74c-c637-41c4-bcc9-fe0f78d6cbe6",
+        "net": "/TXD",
+        "a": [
+          110.35,
+          145.95
+        ],
+        "b": [
+          110.4,
+          145.9
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 9,
+    "removed": [
+      {
+        "uuid": "20ec77cb-10f7-4a40-beb8-4f8bc0f846e2",
+        "net": "/TXD",
+        "a": [
+          110.35,
+          146.7
+        ],
+        "b": [
+          110.35,
+          145.95
+        ]
+      }
+    ],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  },
+  {
+    "iteration": 10,
+    "removed": [],
+    "all_physical_pad_connectivity_groups_unchanged": true
+  }
+]

@@ -1,0 +1,6 @@
+{'ref': 'C3', 'via': [105.82, 110.1], 'route': True}
+{'ref': 'C23', 'route': False}
+{'ref': 'C8', 'route': False}
+35 個の違反を検出しました
+3 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/pcb_review_batch1/after/drc_ground_pads_final.json にDRC レポートを保存

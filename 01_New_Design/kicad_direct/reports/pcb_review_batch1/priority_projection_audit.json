@@ -1,0 +1,90 @@
+{
+  "scope": "Copper projection of every F.Cu USB/crystal segment against all B.Cu tracks and through-via rings; GND excluded. USB pair crossover permitted by user.",
+  "unexpected_overlaps": [],
+  "permitted_usb_pair_overlaps": [
+    {
+      "front": "03e23a3b-fb7e-441a-8ec9-c445180429bf",
+      "front_net": "/USB_D-",
+      "back_or_via": "ec4fff3e-80c5-4aae-ad0c-1cb6cf72798e",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.45
+    },
+    {
+      "front": "03e23a3b-fb7e-441a-8ec9-c445180429bf",
+      "front_net": "/USB_D-",
+      "back_or_via": "089903a2-1e3e-4684-93c6-9ae7b0e62ec1",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.3
+    },
+    {
+      "front": "1f05712d-9e1f-4aea-a865-d208c27e0b95",
+      "front_net": "/USB_D-",
+      "back_or_via": "ec4fff3e-80c5-4aae-ad0c-1cb6cf72798e",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.45
+    },
+    {
+      "front": "1f05712d-9e1f-4aea-a865-d208c27e0b95",
+      "front_net": "/USB_D-",
+      "back_or_via": "089903a2-1e3e-4684-93c6-9ae7b0e62ec1",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.3
+    },
+    {
+      "front": "279bc002-b57e-41a3-bfeb-4f87556b06fa",
+      "front_net": "/USB_D-",
+      "back_or_via": "a9c79942-862a-470b-86cb-9dfec62e5275",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.375
+    },
+    {
+      "front": "279bc002-b57e-41a3-bfeb-4f87556b06fa",
+      "front_net": "/USB_D-",
+      "back_or_via": "089903a2-1e3e-4684-93c6-9ae7b0e62ec1",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.125
+    },
+    {
+      "front": "279bc002-b57e-41a3-bfeb-4f87556b06fa",
+      "front_net": "/USB_D-",
+      "back_or_via": "e4f664e7-bf21-4bfe-aa22-a7ba59eca7ab",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.225
+    },
+    {
+      "front": "8788637b-c492-4998-a54b-adf894215b86",
+      "front_net": "/USB_D-",
+      "back_or_via": "a9c79942-862a-470b-86cb-9dfec62e5275",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.3043
+    },
+    {
+      "front": "8788637b-c492-4998-a54b-adf894215b86",
+      "front_net": "/USB_D-",
+      "back_or_via": "089903a2-1e3e-4684-93c6-9ae7b0e62ec1",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.0669
+    },
+    {
+      "front": "8788637b-c492-4998-a54b-adf894215b86",
+      "front_net": "/USB_D-",
+      "back_or_via": "e4f664e7-bf21-4bfe-aa22-a7ba59eca7ab",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.1543
+    },
+    {
+      "front": "6284c13e-7737-4fdc-beaf-3431f069366a",
+      "front_net": "/USB_D+",
+      "back_or_via": "089903a2-1e3e-4684-93c6-9ae7b0e62ec1",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.225
+    },
+    {
+      "front": "d8967357-af75-493f-8352-6656e49e540f",
+      "front_net": "/USB_D+",
+      "back_or_via": "089903a2-1e3e-4684-93c6-9ae7b0e62ec1",
+      "other_net": "/USB_D-",
+      "projected_edge_gap_mm": -0.0482
+    }
+  ]
+}
