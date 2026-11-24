@@ -1,0 +1,55 @@
+{
+  "management_baseline": "78f21e35581f99ce2777470536d3f0943d8c4cd6",
+  "pcb_baseline": "a300e1c7cd89654fd2800c1bc7b8bad59dae5516",
+  "register_rows": 27,
+  "register_columns": 15,
+  "R0001_R0016_unchanged": true,
+  "protected_register_fields_unchanged": true,
+  "worktrees": {
+    "source": {
+      "head": "a300e1c7cd89654fd2800c1bc7b8bad59dae5516",
+      "status": "",
+      "files": {
+        "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": {
+          "git_blob": "7b3bf2c75dc95e97315ae56be09438b6d9700268",
+          "sha256": "44bb1f145bef99df99dca3a6b34ecc009f95e87b7ee9b0d350329fec9d866c59",
+          "matches_baseline": true
+        },
+        "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": {
+          "git_blob": "16b674eaf8da87116be59e8f857109cf95d5089f",
+          "sha256": "9ae97379e7f82aa08db981fad5c6ec40012e22c8566b31cff1065a224bb22ffc",
+          "matches_baseline": true
+        },
+        "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": {
+          "git_blob": "e88162e1f25603078933b1f937471adf33d78f9a",
+          "sha256": "56a796f529558cb68d0bb7dbc452f4826e73c2e51c96c5d8ae8fd5f4e0df3187",
+          "matches_baseline": true
+        }
+      }
+    },
+    "fixed": {
+      "head": "a300e1c7cd89654fd2800c1bc7b8bad59dae5516",
+      "status": "?? 01_New_Design/kicad_direct/.history/",
+      "files": {
+        "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": {
+          "git_blob": "7b3bf2c75dc95e97315ae56be09438b6d9700268",
+          "sha256": "44bb1f145bef99df99dca3a6b34ecc009f95e87b7ee9b0d350329fec9d866c59",
+          "matches_baseline": true
+        },
+        "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": {
+          "git_blob": "16b674eaf8da87116be59e8f857109cf95d5089f",
+          "sha256": "9ae97379e7f82aa08db981fad5c6ec40012e22c8566b31cff1065a224bb22ffc",
+          "matches_baseline": true
+        },
+        "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": {
+          "git_blob": "e88162e1f25603078933b1f937471adf33d78f9a",
+          "sha256": "56a796f529558cb68d0bb7dbc452f4826e73c2e51c96c5d8ae8fd5f4e0df3187",
+          "matches_baseline": true
+        }
+      }
+    }
+  },
+  "scripts_parse": true,
+  "report_local_links_exist": true,
+  "preserved_preexisting_main_project_sha256": "e5b768239d2eb761331199dc0d3ef02ef9c2289797037a22e0de9d5ca595767d"
+}

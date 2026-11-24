@@ -1,0 +1,4 @@
+C:\Users\hebow\AppData\Local\Programs\KiCad\10.0\bin\kicad-cli.exe pcb drc --format json --severity-all -o D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\docs\reviews\evidence\2026-11-24_pcb_investigation\proposed_rules_drc.json C:\Users\hebow\AppData\Local\Temp\a2-review-r0017-m8tr2mav\a2_usb_uart.kicad_pcb
+349 個の違反を検出しました
+0 個の未配線アイテムを検出しました
+D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test/docs/reviews/evidence/2026-11-24_pcb_investigation/proposed_rules_drc.json にDRC レポートを保存

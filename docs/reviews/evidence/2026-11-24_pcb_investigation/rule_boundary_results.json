@@ -1,0 +1,106 @@
+[
+  {
+    "id": "pad_via_0",
+    "pair": [
+      "d5318cc7-658e-42a5-afc9-f41b679e2e5c",
+      "33a34d00-67c6-4cdd-a09a-de3607f437f7"
+    ],
+    "gap": 0,
+    "same_net": true,
+    "expected_violation": true,
+    "rule": "R0019",
+    "actual_violation": true,
+    "pass": true
+  },
+  {
+    "id": "pad_via_1",
+    "pair": [
+      "0418a947-2cc0-4a6f-85f9-02b92419f0b9",
+      "00164c7c-e70e-4b48-bfdc-dc53f88ec02c"
+    ],
+    "gap": 0.199,
+    "same_net": true,
+    "expected_violation": true,
+    "rule": "R0019",
+    "actual_violation": true,
+    "pass": true
+  },
+  {
+    "id": "pad_via_2",
+    "pair": [
+      "689d2658-af84-4a12-9619-47015ec625cc",
+      "00b7818c-36d9-4849-b1f7-3bbf321027e5"
+    ],
+    "gap": 0.201,
+    "same_net": true,
+    "expected_violation": false,
+    "rule": "R0019",
+    "actual_violation": false,
+    "pass": true
+  },
+  {
+    "id": "pad_via_3",
+    "pair": [
+      "758e497e-1892-4313-a7a4-87329548ec4f",
+      "acd93841-04ec-4c54-aded-4a064a123347"
+    ],
+    "gap": 0.15,
+    "same_net": false,
+    "expected_violation": false,
+    "rule": "R0019",
+    "actual_violation": false,
+    "pass": true
+  },
+  {
+    "id": "via_via_0",
+    "pair": [
+      "f7b689bb-f32b-4394-8eca-778ea49b9baf",
+      "f4b73d7c-a186-42b6-874e-6c82061ae5b6"
+    ],
+    "gap": 0,
+    "same_net": true,
+    "expected_violation": true,
+    "rule": "R0020",
+    "actual_violation": true,
+    "pass": true
+  },
+  {
+    "id": "via_via_1",
+    "pair": [
+      "aa792629-ca02-420a-be7f-6c4c2d11f9e8",
+      "05f54c5e-60e8-4a64-be1e-b3b6a8e1f95a"
+    ],
+    "gap": 0.499,
+    "same_net": true,
+    "expected_violation": true,
+    "rule": "R0020",
+    "actual_violation": true,
+    "pass": true
+  },
+  {
+    "id": "via_via_2",
+    "pair": [
+      "ddbd406b-79f4-41a9-be69-50316064bff6",
+      "dd7dd5f9-539f-4f92-9cbb-6d601859e22a"
+    ],
+    "gap": 0.501,
+    "same_net": true,
+    "expected_violation": false,
+    "rule": "R0020",
+    "actual_violation": false,
+    "pass": true
+  },
+  {
+    "id": "via_via_3",
+    "pair": [
+      "97472cd4-86bd-4c3c-9585-16557d546571",
+      "50ced7ca-ae70-46a9-bb1d-3b0451c4f98c"
+    ],
+    "gap": 0.3,
+    "same_net": false,
+    "expected_violation": false,
+    "rule": "R0020",
+    "actual_violation": false,
+    "pass": true
+  }
+]

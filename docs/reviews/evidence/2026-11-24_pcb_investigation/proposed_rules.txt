@@ -1,0 +1,13 @@
+(version 1)
+(rule "R0018_through_via_size"
+ (condition "A.Type == 'Via' && A.Via_Type == 'Through'")
+ (constraint hole_size (min 0.3mm) (max 0.3mm))
+ (constraint via_diameter (min 0.5mm) (max 0.5mm)))
+(rule "R0019_same_net_pad_via"
+ (layer outer)
+ (condition "A.Net == B.Net && ((A.Type == 'Pad' && B.Type == 'Via' && B.Via_Type == 'Through') || (B.Type == 'Pad' && A.Type == 'Via' && A.Via_Type == 'Through'))")
+ (constraint physical_clearance (min 0.2mm)))
+(rule "R0020_same_net_via_via"
+ (layer outer)
+ (condition "A.Net == B.Net && A.Type == 'Via' && B.Type == 'Via' && A.Via_Type == 'Through' && B.Via_Type == 'Through'")
+ (constraint physical_clearance (min 0.5mm)))

@@ -1,0 +1,694 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-24T19:24:38",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "fixture.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f7b689bb-f32b-4394-8eca-778ea49b9baf"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 20.0
+                    },
+                    "uuid": "f4b73d7c-a186-42b6-874e-6c82061ae5b6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 20.0
+                    },
+                    "uuid": "f4b73d7c-a186-42b6-874e-6c82061ae5b6"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 20.0
+                    },
+                    "uuid": "aa792629-ca02-420a-be7f-6c4c2d11f9e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.75,
+                        "y": 10.0
+                    },
+                    "uuid": "33a34d00-67c6-4cdd-a09a-de3607f437f7"
+                },
+                {
+                    "description": "パッド 1 [TEST_A] - PAD0 ( F.Cu 上)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 10.0
+                    },
+                    "uuid": "d5318cc7-658e-42a5-afc9-f41b679e2e5c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [TEST_A] - PAD1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 10.0
+                    },
+                    "uuid": "0418a947-2cc0-4a6f-85f9-02b92419f0b9"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.75,
+                        "y": 10.0
+                    },
+                    "uuid": "33a34d00-67c6-4cdd-a09a-de3607f437f7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [TEST_A] - PAD1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 10.0
+                    },
+                    "uuid": "0418a947-2cc0-4a6f-85f9-02b92419f0b9"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 20.0
+                    },
+                    "uuid": "aa792629-ca02-420a-be7f-6c4c2d11f9e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 20.0
+                    },
+                    "uuid": "aa792629-ca02-420a-be7f-6c4c2d11f9e8"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.999,
+                        "y": 20.0
+                    },
+                    "uuid": "05f54c5e-60e8-4a64-be1e-b3b6a8e1f95a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.949,
+                        "y": 10.0
+                    },
+                    "uuid": "00164c7c-e70e-4b48-bfdc-dc53f88ec02c"
+                },
+                {
+                    "description": "パッド 1 [TEST_A] - PAD1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 10.0
+                    },
+                    "uuid": "0418a947-2cc0-4a6f-85f9-02b92419f0b9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.999,
+                        "y": 20.0
+                    },
+                    "uuid": "05f54c5e-60e8-4a64-be1e-b3b6a8e1f95a"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 20.0
+                    },
+                    "uuid": "ddbd406b-79f4-41a9-be69-50316064bff6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [TEST_A] - PAD2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 10.0
+                    },
+                    "uuid": "689d2658-af84-4a12-9619-47015ec625cc"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.949,
+                        "y": 10.0
+                    },
+                    "uuid": "00164c7c-e70e-4b48-bfdc-dc53f88ec02c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 20.0
+                    },
+                    "uuid": "ddbd406b-79f4-41a9-be69-50316064bff6"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 27.001,
+                        "y": 20.0
+                    },
+                    "uuid": "dd7dd5f9-539f-4f92-9cbb-6d601859e22a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 26.951,
+                        "y": 10.0
+                    },
+                    "uuid": "00b7818c-36d9-4849-b1f7-3bbf321027e5"
+                },
+                {
+                    "description": "パッド 1 [TEST_A] - PAD2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 10.0
+                    },
+                    "uuid": "689d2658-af84-4a12-9619-47015ec625cc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 27.001,
+                        "y": 20.0
+                    },
+                    "uuid": "dd7dd5f9-539f-4f92-9cbb-6d601859e22a"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 20.0
+                    },
+                    "uuid": "97472cd4-86bd-4c3c-9585-16557d546571"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [TEST_A] - PAD3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 10.0
+                    },
+                    "uuid": "758e497e-1892-4313-a7a4-87329548ec4f"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 26.951,
+                        "y": 10.0
+                    },
+                    "uuid": "00b7818c-36d9-4849-b1f7-3bbf321027e5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ビア [TEST_B] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.8,
+                        "y": 20.0
+                    },
+                    "uuid": "50ced7ca-ae70-46a9-bb1d-3b0451c4f98c"
+                },
+                {
+                    "description": "ビア [TEST_B] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.9,
+                        "y": 10.0
+                    },
+                    "uuid": "acd93841-04ec-4c54-aded-4a064a123347"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [TEST_A] - PAD3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 10.0
+                    },
+                    "uuid": "758e497e-1892-4313-a7a4-87329548ec4f"
+                },
+                {
+                    "description": "ビア [TEST_B] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.9,
+                        "y": 10.0
+                    },
+                    "uuid": "acd93841-04ec-4c54-aded-4a064a123347"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 (ルール 'R0019_same_net_pad_via' クリアランス 0.2000 mm; 現状 0.1990 mm)",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.949,
+                        "y": 10.0
+                    },
+                    "uuid": "00164c7c-e70e-4b48-bfdc-dc53f88ec02c"
+                },
+                {
+                    "description": "パッド 1 [TEST_A] - PAD1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 10.0
+                    },
+                    "uuid": "0418a947-2cc0-4a6f-85f9-02b92419f0b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 (ルール 'R0020_same_net_via_via' クリアランス 0.5000 mm; 現状 0.4990 mm)",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.999,
+                        "y": 20.0
+                    },
+                    "uuid": "05f54c5e-60e8-4a64-be1e-b3b6a8e1f95a"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 20.0
+                    },
+                    "uuid": "aa792629-ca02-420a-be7f-6c4c2d11f9e8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 (ルール 'R0019_same_net_pad_via' クリアランス 0.2000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.75,
+                        "y": 10.0
+                    },
+                    "uuid": "33a34d00-67c6-4cdd-a09a-de3607f437f7"
+                },
+                {
+                    "description": "パッド 1 [TEST_A] - PAD0 ( F.Cu 上)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 10.0
+                    },
+                    "uuid": "d5318cc7-658e-42a5-afc9-f41b679e2e5c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 (ルール 'R0020_same_net_via_via' クリアランス 0.5000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 20.0
+                    },
+                    "uuid": "f4b73d7c-a186-42b6-874e-6c82061ae5b6"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f7b689bb-f32b-4394-8eca-778ea49b9baf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "基板外形が異常な形状 (Edge.Cutsのレイヤーに基板外形がありません)",
+            "items": [
+                {
+                    "description": "プリント基板",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "836da2b0-87cc-42fb-b53c-be64de146f44"
+                }
+            ],
+            "severity": "error",
+            "type": "invalid_outline"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.949,
+                        "y": 10.0
+                    },
+                    "uuid": "00164c7c-e70e-4b48-bfdc-dc53f88ec02c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 26.951,
+                        "y": 10.0
+                    },
+                    "uuid": "00b7818c-36d9-4849-b1f7-3bbf321027e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.999,
+                        "y": 20.0
+                    },
+                    "uuid": "05f54c5e-60e8-4a64-be1e-b3b6a8e1f95a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.75,
+                        "y": 10.0
+                    },
+                    "uuid": "33a34d00-67c6-4cdd-a09a-de3607f437f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 20.0
+                    },
+                    "uuid": "97472cd4-86bd-4c3c-9585-16557d546571"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 20.0
+                    },
+                    "uuid": "aa792629-ca02-420a-be7f-6c4c2d11f9e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 27.001,
+                        "y": 20.0
+                    },
+                    "uuid": "dd7dd5f9-539f-4f92-9cbb-6d601859e22a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 20.0
+                    },
+                    "uuid": "ddbd406b-79f4-41a9-be69-50316064bff6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 20.0
+                    },
+                    "uuid": "f4b73d7c-a186-42b6-874e-6c82061ae5b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f7b689bb-f32b-4394-8eca-778ea49b9baf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_B] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.8,
+                        "y": 20.0
+                    },
+                    "uuid": "50ced7ca-ae70-46a9-bb1d-3b0451c4f98c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "ビア [TEST_B] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 34.9,
+                        "y": 10.0
+                    },
+                    "uuid": "acd93841-04ec-4c54-aded-4a064a123347"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "ドリル穴と他の穴が近過ぎる (基板の設定の制約 最小 0.2500 mm; 現状 0.2000 mm)",
+            "items": [
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.5,
+                        "y": 20.0
+                    },
+                    "uuid": "f4b73d7c-a186-42b6-874e-6c82061ae5b6"
+                },
+                {
+                    "description": "ビア [TEST_A] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 20.0
+                    },
+                    "uuid": "f7b689bb-f32b-4394-8eca-778ea49b9baf"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        }
+    ]
+}
