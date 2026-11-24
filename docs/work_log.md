@@ -715,3 +715,7 @@ ERC/DRC/未配線/回路図等価性は各0件、58部品・197端子の属性/�
 検証証跡：[調査報告](reviews/batches/2026-11-24_R-0028_R-0032_investigation.md)、[保全検査](reviews/evidence/pcb_quality_5596d3b/preservation.json)。PCBの入力blobと前後hashを照合。mainの既存プロジェクト変更を保持し、設計ブランチ・固定Workspaceを更新しない。
 
 未解決事項：候補全件の接続意図判定、実際の再配線経路・ネック長、修正後のDRC/帰路/SI評価、人間による最終判定。調査用検査は未承認の試作でありスキルへ登録しない。
+
+## 2026-11-24 22:42 JST — PCB品質修正の開始
+
+ユーザー承認を受け、5596d3bから独立Worktreeと`codex/a2-pcb-quality-r0028-r0032`を作成。mainの最新AGENTS、Worktree管理・レビュー記録・回路図検証の関連規則を適用する。台帳R-0028〜R-0032を対応中へ更新し、既存11件の判定は保留。固定Workspaceと既存設計は保護する。[承認記録](reviews/batches/2026-11-24_R-0028_R-0032_authorization.md)。
