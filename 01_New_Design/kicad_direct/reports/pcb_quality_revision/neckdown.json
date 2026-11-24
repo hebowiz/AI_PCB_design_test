@@ -1,0 +1,9 @@
+{
+  "net": "USB5V",
+  "pin": "U1.40",
+  "width_mm": 0.25,
+  "centerline_length_mm": 1.18721,
+  "outside_pad_length_mm": 0.44971,
+  "reason": "U1の0.5mmピッチ・0.3mm幅パッドから短辺中央に引き出すため。パッド外約0.45mmで0.5mmへ拡幅。",
+  "human_review": "未判定"
+}

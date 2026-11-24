@@ -1,0 +1,71 @@
+{
+  "base": "5596d3bc8802687b89b21fd9c57e1117ec9382e5",
+  "pcb_sha256": "3050da346a6d76e879fd3505c282a47a194f6da79f6527ffc4a8f0e8ac686526",
+  "components": 58,
+  "schematic_terminals": 197,
+  "all_attributes_pad_nets_and_positions_identical": true,
+  "schematic_project_custom_rules_byte_identical": true,
+  "outline_mm": [
+    22,
+    50
+  ],
+  "outline_identical": true,
+  "thickness_mm": 1.6,
+  "layers": 2,
+  "priority_copper_uuid_geometry_identical": [
+    "/USB_D+",
+    "/USB_D-",
+    "/XTAL_IN",
+    "/XTAL_OUT"
+  ],
+  "erc": 0,
+  "drc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "same_ignored_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "new_exclusions": 0,
+  "via_hole_outer_mm": [
+    0.3,
+    0.6
+  ],
+  "global_mask_clearance_mm": 0.05,
+  "pad_zone_connection": "thermal",
+  "short_edge_crossings": 65,
+  "short_edge_errors": 0,
+  "non45_segments": 0,
+  "grazing_contacts": 0,
+  "priority_unexpected_underpasses": 0,
+  "priority_ground_area_new_loss_mm2": 0,
+  "copper_diff_counts": {
+    "removed": 329,
+    "added": 212,
+    "modified": 134,
+    "unchanged_count": 444
+  },
+  "protected_files": {
+    "C:/Users/hebow/.codex/worktrees/a2-pcb-review/99_AI_PCB_design_test/01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "d55cc3e2146be62a39707161abc60ae3331315a21a19285f17e98840de278c94",
+    "D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test/workspaces/A-2/01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "d55cc3e2146be62a39707161abc60ae3331315a21a19285f17e98840de278c94",
+    "D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test/01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "e5b768239d2eb761331199dc0d3ef02ef9c2289797037a22e0de9d5ca595767d"
+  }
+}

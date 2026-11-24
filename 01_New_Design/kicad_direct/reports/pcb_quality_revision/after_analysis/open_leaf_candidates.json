@@ -1,0 +1,1066 @@
+[
+  {
+    "net": "+3V3",
+    "end": [
+      107.1,
+      127.4
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "2b4b75f0-bf66-434a-aea9-8e0a469b0763"
+    ],
+    "points": [
+      [
+        107.1,
+        127.4
+      ],
+      [
+        107.1,
+        127.375
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/CTS_N",
+    "end": [
+      112.85,
+      130.6
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "1d557cae-9671-448d-92e4-865d64e04c91"
+    ],
+    "points": [
+      [
+        112.85,
+        130.6
+      ],
+      [
+        112.85,
+        130.625
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/CTS_N",
+    "end": [
+      112.825,
+      130.625
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "ff2de779-8fc0-46e9-b236-5bb7e4f0b65c"
+    ],
+    "points": [
+      [
+        112.825,
+        130.625
+      ],
+      [
+        112.85,
+        130.625
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/EE_CLK",
+    "end": [
+      103.5,
+      122.65
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "04710be4-98a2-498c-89eb-63b19037b217"
+    ],
+    "points": [
+      [
+        103.5,
+        122.65
+      ],
+      [
+        103.5,
+        122.675
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/EE_DATA",
+    "end": [
+      101.275,
+      123.325
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "73fd1e55-8476-407b-9955-940977a797cd"
+    ],
+    "points": [
+      [
+        101.275,
+        123.325
+      ],
+      [
+        101.3,
+        123.325
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/EE_DO",
+    "end": [
+      101.3,
+      123.95
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "09424aaa-ebf2-47bf-9e81-0da58e4988f0"
+    ],
+    "points": [
+      [
+        101.3,
+        123.95
+      ],
+      [
+        101.3,
+        123.975
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/EE_DO",
+    "end": [
+      101.275,
+      123.975
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "c09ef03c-5c71-4bec-a5b9-7783a53406fb"
+    ],
+    "points": [
+      [
+        101.275,
+        123.975
+      ],
+      [
+        101.3,
+        123.975
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/FT_RXD",
+    "end": [
+      105.35,
+      121.45
+    ],
+    "via_end": false,
+    "length_mm": 0.9,
+    "uuids": [
+      "9c40df62-0b6d-4499-aff8-be5aa0c58cf2",
+      "ff722eb5-352d-4d14-9682-2a074c9755ef"
+    ],
+    "points": [
+      [
+        105.35,
+        121.45
+      ],
+      [
+        105.25,
+        121.45
+      ],
+      [
+        104.4,
+        121.45
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/PWR_EN",
+    "end": [
+      112.9,
+      126.05
+    ],
+    "via_end": false,
+    "length_mm": 0.25,
+    "uuids": [
+      "1c9a1321-8d1e-41d3-bb7e-0d890831c010"
+    ],
+    "points": [
+      [
+        112.9,
+        126.05
+      ],
+      [
+        113.15,
+        126.05
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/PWR_EN",
+    "end": [
+      113.0,
+      126.3
+    ],
+    "via_end": false,
+    "length_mm": 0.15,
+    "uuids": [
+      "5a13090b-c096-4b42-8265-973fcce32163"
+    ],
+    "points": [
+      [
+        113.0,
+        126.3
+      ],
+      [
+        113.15,
+        126.05
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/RXD",
+    "end": [
+      114.9,
+      130.25
+    ],
+    "via_end": false,
+    "length_mm": 0.25,
+    "uuids": [
+      "5f0ca01e-d53b-4aa7-b3c3-6dd977e68bea"
+    ],
+    "points": [
+      [
+        114.9,
+        130.25
+      ],
+      [
+        115.15,
+        130.25
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/TXD",
+    "end": [
+      112.825,
+      128.675
+    ],
+    "via_end": false,
+    "length_mm": 0.025,
+    "uuids": [
+      "0495604b-60b6-455d-89fa-cc893c4911ef"
+    ],
+    "points": [
+      [
+        112.825,
+        128.675
+      ],
+      [
+        112.85,
+        128.675
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "/TXLED_N",
+    "end": [
+      109.75,
+      121.2
+    ],
+    "via_end": false,
+    "length_mm": 0.05,
+    "uuids": [
+      "0b08e1fb-1ae3-43ba-af18-c1b35a6867e6"
+    ],
+    "points": [
+      [
+        109.75,
+        121.2
+      ],
+      [
+        109.75,
+        121.15
+      ]
+    ],
+    "zone_exception": false
+  },
+  {
+    "net": "GND",
+    "end": [
+      105.5,
+      136.02
+    ],
+    "via_end": false,
+    "length_mm": 0.02,
+    "uuids": [
+      "024853f1-feff-4aa0-aa96-2da8b63af364"
+    ],
+    "points": [
+      [
+        105.5,
+        136.02
+      ],
+      [
+        105.5,
+        136.0
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      105.5,
+      136.0
+    ],
+    "via_end": false,
+    "length_mm": 0.02,
+    "uuids": [
+      "024853f1-feff-4aa0-aa96-2da8b63af364"
+    ],
+    "points": [
+      [
+        105.5,
+        136.0
+      ],
+      [
+        105.5,
+        136.02
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      113.25,
+      119.125
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "052dc5e1-8113-4a3d-b490-9c626a430f7a"
+    ],
+    "points": [
+      [
+        113.25,
+        119.125
+      ],
+      [
+        113.25,
+        120.1625
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      112.8,
+      106.35
+    ],
+    "via_end": false,
+    "length_mm": 0.05,
+    "uuids": [
+      "2ece3d90-cab9-4dd4-a7da-546dae62956a",
+      "717c52d3-3d6f-44e2-9634-dae589694eab"
+    ],
+    "points": [
+      [
+        112.8,
+        106.35
+      ],
+      [
+        113.15,
+        106.4
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      114.125,
+      116.75
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "3ea4e081-add6-4e4e-94fa-a76758bf1bcd"
+    ],
+    "points": [
+      [
+        114.125,
+        116.75
+      ],
+      [
+        115.1625,
+        116.75
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      115.68,
+      125.8
+    ],
+    "via_end": true,
+    "length_mm": 0.75803,
+    "uuids": [
+      "66536abf-89a6-4806-b915-a88551f7565c"
+    ],
+    "points": [
+      [
+        115.68,
+        125.8
+      ],
+      [
+        116.58,
+        126.6
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      107.875,
+      117.75
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "403c947d-90ad-4e9a-b15d-07379f7f024a"
+    ],
+    "points": [
+      [
+        107.875,
+        117.75
+      ],
+      [
+        106.8375,
+        117.75
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      105.8,
+      110.1
+    ],
+    "via_end": false,
+    "length_mm": 0.54,
+    "uuids": [
+      "42ce39e8-a731-44bf-ad8b-d7e87231fbdc",
+      "fe7e31c0-79ec-45f3-90e7-15a02effb3c0"
+    ],
+    "points": [
+      [
+        105.8,
+        110.1
+      ],
+      [
+        105.82,
+        110.1
+      ],
+      [
+        106.62,
+        110.1
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      114.125,
+      113.75
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "46a8297c-3a71-405e-b319-ba7e171089ab"
+    ],
+    "points": [
+      [
+        114.125,
+        113.75
+      ],
+      [
+        115.1625,
+        113.75
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      110.5,
+      122.35
+    ],
+    "via_end": false,
+    "length_mm": 1.0266,
+    "uuids": [
+      "5ece67bc-72cb-4b2e-a1da-b312d6453827",
+      "b369c31d-13e0-41f4-a896-fb91029fdc62"
+    ],
+    "points": [
+      [
+        110.5,
+        122.35
+      ],
+      [
+        110.48,
+        122.35
+      ],
+      [
+        109.28,
+        122.05
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      118.9,
+      117.3
+    ],
+    "via_end": false,
+    "length_mm": 0.64,
+    "uuids": [
+      "62d86163-1270-479a-b4f4-dfe5ec7b2d89",
+      "af5e0e0c-9168-456c-875c-5e8a4474529f"
+    ],
+    "points": [
+      [
+        118.9,
+        117.3
+      ],
+      [
+        118.88,
+        117.3
+      ],
+      [
+        117.98,
+        117.3
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      108.75,
+      107.0
+    ],
+    "via_end": true,
+    "length_mm": 0.55,
+    "uuids": [
+      "6d71f4de-2b59-4e71-9e27-1b9840517b74"
+    ],
+    "points": [
+      [
+        108.75,
+        107.0
+      ],
+      [
+        109.45,
+        107.0
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      107.1,
+      131.275
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "74f57bff-9581-4c3d-b95a-864288b34307"
+    ],
+    "points": [
+      [
+        107.1,
+        131.275
+      ],
+      [
+        108.1375,
+        131.275
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      114.125,
+      113.25
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "7b639213-6371-4a26-9ad5-3a5575537a37"
+    ],
+    "points": [
+      [
+        114.125,
+        113.25
+      ],
+      [
+        115.1625,
+        113.25
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      114.125,
+      116.25
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "8105ac8c-f251-4ea6-9358-f16dad382450"
+    ],
+    "points": [
+      [
+        114.125,
+        116.25
+      ],
+      [
+        115.1625,
+        116.25
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      109.75,
+      112.875
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "89cfd120-c289-40ec-a94d-6746bd547e13"
+    ],
+    "points": [
+      [
+        109.75,
+        112.875
+      ],
+      [
+        109.75,
+        111.8375
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      109.25,
+      112.875
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "93adfa87-596e-49af-b836-37d07c35669c"
+    ],
+    "points": [
+      [
+        109.25,
+        112.875
+      ],
+      [
+        109.25,
+        111.8375
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      103.28,
+      131.2
+    ],
+    "via_end": false,
+    "length_mm": 0.02,
+    "uuids": [
+      "93cec70b-31cd-4531-8691-f5274071572d"
+    ],
+    "points": [
+      [
+        103.28,
+        131.2
+      ],
+      [
+        103.3,
+        131.199999
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      103.3,
+      131.199999
+    ],
+    "via_end": true,
+    "length_mm": 0.02,
+    "uuids": [
+      "93cec70b-31cd-4531-8691-f5274071572d"
+    ],
+    "points": [
+      [
+        103.3,
+        131.199999
+      ],
+      [
+        103.28,
+        131.2
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      112.25,
+      112.875
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "a449a25f-21cd-422e-8d99-743187a00d8f"
+    ],
+    "points": [
+      [
+        112.25,
+        112.875
+      ],
+      [
+        112.25,
+        111.8375
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      114.9,
+      131.275
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "a8108dab-b8c5-4a7f-a103-1868960436d4"
+    ],
+    "points": [
+      [
+        114.9,
+        131.275
+      ],
+      [
+        113.8625,
+        131.275
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      113.8,
+      109.62
+    ],
+    "via_end": true,
+    "length_mm": 0.75,
+    "uuids": [
+      "acb688bd-d713-4d52-92c9-b3da26ad7698"
+    ],
+    "points": [
+      [
+        113.8,
+        109.62
+      ],
+      [
+        115.15,
+        109.5
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      108.75,
+      112.875
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "b21c9183-3141-499d-829a-873a46f0aac9"
+    ],
+    "points": [
+      [
+        108.75,
+        112.875
+      ],
+      [
+        108.75,
+        111.8375
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      109.45,
+      107.9
+    ],
+    "via_end": true,
+    "length_mm": 0.65,
+    "uuids": [
+      "b47028ce-7631-467c-bd29-7a963c8741fe"
+    ],
+    "points": [
+      [
+        109.45,
+        107.9
+      ],
+      [
+        109.45,
+        107.0
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      107.725,
+      123.975
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "baebe68a-3d9f-4cfb-b93c-35831fc23e5a"
+    ],
+    "points": [
+      [
+        107.725,
+        123.975
+      ],
+      [
+        106.6125,
+        123.975
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      113.75,
+      119.125
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "dca305f0-170e-44bf-98c2-f720dc29c5d0"
+    ],
+    "points": [
+      [
+        113.75,
+        119.125
+      ],
+      [
+        113.75,
+        120.1625
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      107.875,
+      118.25
+    ],
+    "via_end": false,
+    "length_mm": 0.3,
+    "uuids": [
+      "f4e67f7e-04db-4b6e-a9b9-260ae94a3173"
+    ],
+    "points": [
+      [
+        107.875,
+        118.25
+      ],
+      [
+        106.8375,
+        118.25
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      112.25,
+      132.45
+    ],
+    "via_end": false,
+    "length_mm": 17.14262,
+    "uuids": [
+      "0610a811-8400-4989-8b0c-c620a9299cce",
+      "110b147e-ad36-4f34-8516-090a56259323",
+      "3d22d2af-7f49-4bfd-a3dd-6df3d7bf67a7",
+      "494cca1f-02a2-4e6b-afcb-6807358a8666",
+      "5b08eee4-3750-4d46-be55-5cf7b2990c9a",
+      "a41612be-58de-4d91-bbf7-dec92d16e311",
+      "b692cd5f-9605-4f88-b0fa-9f27b8210011",
+      "c4280ae9-9137-4a6f-90bf-4b2ebab6187b"
+    ],
+    "points": [
+      [
+        112.25,
+        132.45
+      ],
+      [
+        112.2255,
+        132.4255
+      ],
+      [
+        108.15,
+        136.25
+      ],
+      [
+        107.05,
+        137.35
+      ],
+      [
+        106.25,
+        136.55
+      ],
+      [
+        106.25,
+        128.5
+      ],
+      [
+        106.7255,
+        127.9755
+      ],
+      [
+        108.1375,
+        128.025
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      116.25,
+      121.95
+    ],
+    "via_end": true,
+    "length_mm": 2.1,
+    "uuids": [
+      "3c93d9e9-d154-4f45-b750-b190f6d122fe"
+    ],
+    "points": [
+      [
+        116.25,
+        121.95
+      ],
+      [
+        114.15,
+        121.95
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "GND",
+    "end": [
+      114.15,
+      121.95
+    ],
+    "via_end": false,
+    "length_mm": 2.1,
+    "uuids": [
+      "3c93d9e9-d154-4f45-b750-b190f6d122fe"
+    ],
+    "points": [
+      [
+        114.15,
+        121.95
+      ],
+      [
+        116.25,
+        121.95
+      ]
+    ],
+    "zone_exception": true
+  },
+  {
+    "net": "VIO",
+    "end": [
+      111.65,
+      134.3
+    ],
+    "via_end": false,
+    "length_mm": 0.1,
+    "uuids": [
+      "28d88e45-084e-4f38-9562-46c4be6fcc3a"
+    ],
+    "points": [
+      [
+        111.65,
+        134.3
+      ],
+      [
+        111.75,
+        134.4
+      ]
+    ],
+    "zone_exception": false
+  }
+]

@@ -1,0 +1,2194 @@
+[
+  {
+    "uuid": "ef2b281a-4ec8-40c4-9994-c3635a85c303",
+    "net": "+3V3",
+    "a": [
+      107.85,
+      122.9
+    ],
+    "b": [
+      113.0,
+      122.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "38e942ab-7fcf-4052-8cb2-db762a9beeb4",
+    "net": "+3V3",
+    "a": [
+      107.6,
+      110.75
+    ],
+    "b": [
+      104.6,
+      110.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9eae87ba-7e6c-4138-ad5b-d5a1f036484b",
+    "net": "+3V3",
+    "a": [
+      116.2,
+      117.95
+    ],
+    "b": [
+      118.3,
+      117.95
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "620eead0-b344-4bac-b1f3-aab03863b870",
+    "net": "+3V3",
+    "a": [
+      117.7,
+      126.8
+    ],
+    "b": [
+      116.5,
+      125.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a9b93775-ebbc-4219-8d89-4fbdcfdde92b",
+    "net": "+3V3",
+    "a": [
+      116.05,
+      112.5
+    ],
+    "b": [
+      116.05,
+      111.4
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "48266dfd-9787-4282-bcdf-f0bd29fc951c",
+    "net": "+3V3",
+    "a": [
+      107.25,
+      126.6
+    ],
+    "b": [
+      106.38,
+      126.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "90aaa971-8160-452d-8fbb-3f9ad0d18e2d",
+    "net": "+3V3",
+    "a": [
+      116.05,
+      111.4
+    ],
+    "b": [
+      116.9,
+      111.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "6b4151e4-da55-4e25-a3cd-cfdec2c71710",
+    "net": "+3V3",
+    "a": [
+      103.3,
+      113.0
+    ],
+    "b": [
+      104.0,
+      113.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9901f950-f8b7-47cf-b8d5-11a1ab7f380d",
+    "net": "+3V3",
+    "a": [
+      107.6,
+      110.1
+    ],
+    "b": [
+      107.6,
+      110.8
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "bc749e0b-ab4b-4da8-adda-35439710e26c",
+    "net": "+3V3",
+    "a": [
+      108.3,
+      122.05
+    ],
+    "b": [
+      107.7,
+      122.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8eadb714-5b56-4531-a962-b6fc852cae97",
+    "net": "+3V3",
+    "a": [
+      104.0,
+      113.0
+    ],
+    "b": [
+      103.45,
+      113.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "bcaa9bd1-4b86-4ac3-bf52-df952f5cc3df",
+    "net": "+3V3",
+    "a": [
+      104.5,
+      110.75
+    ],
+    "b": [
+      105.05,
+      110.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "c9306fd4-3d05-4731-b34d-a2c5e7475a79",
+    "net": "+3V3",
+    "a": [
+      116.2,
+      117.75
+    ],
+    "b": [
+      116.2,
+      117.95
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "1676e780-9d5d-4965-91cf-1d118dcf9e55",
+    "net": "+3V3",
+    "a": [
+      104.6,
+      110.75
+    ],
+    "b": [
+      104.5,
+      110.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a4979da0-0cd5-42a2-a91c-4cb48c9f8cdc",
+    "net": "+3V3",
+    "a": [
+      106.4,
+      126.7
+    ],
+    "b": [
+      106.4,
+      126.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "62d6fa17-e7aa-4ab6-82a8-8013fc28fb08",
+    "net": "+3V3",
+    "a": [
+      107.65,
+      125.35
+    ],
+    "b": [
+      107.55,
+      125.35
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "ccd5e7a5-0dce-4566-8e1f-0d8f376f497b",
+    "net": "+3V3",
+    "a": [
+      117.55,
+      126.7
+    ],
+    "b": [
+      117.6,
+      126.7
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "e0835295-3760-41b1-9c84-80ef08d866f2",
+    "net": "+3V3",
+    "a": [
+      117.6,
+      126.7
+    ],
+    "b": [
+      117.55,
+      126.7
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "3b4af52e-4b3d-49cf-9c99-00b921663f6f",
+    "net": "+3V3",
+    "a": [
+      107.725,
+      122.025
+    ],
+    "b": [
+      107.7,
+      122.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9a6d6fc1-8acb-4486-8ed2-9804f090347e",
+    "net": "+3V3",
+    "a": [
+      107.725,
+      122.025
+    ],
+    "b": [
+      107.7,
+      122.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "b844a7b5-0b53-40a3-a850-6ba3c1ae4d4f",
+    "net": "+3V3",
+    "a": [
+      107.725,
+      122.025
+    ],
+    "b": [
+      107.7,
+      122.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "1ba3bac9-ac46-4bbe-b065-7610e5ef6442",
+    "net": "+3V3",
+    "a": [
+      107.1,
+      127.375
+    ],
+    "b": [
+      107.1,
+      127.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8a17a841-26c6-4fcc-82a3-c0bd7b21df5b",
+    "net": "+3V3",
+    "a": [
+      107.1,
+      126.725
+    ],
+    "b": [
+      107.1,
+      126.7
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "c7704ea1-243c-4430-8bbf-74d44163b18a",
+    "net": "+3V3",
+    "a": [
+      107.1,
+      126.725
+    ],
+    "b": [
+      107.1,
+      126.7
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "0d38d371-0d7a-486e-a758-12cd3c5b7703",
+    "net": "+3V3",
+    "a": [
+      116.92,
+      113.8
+    ],
+    "b": [
+      116.9,
+      113.8
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "1e5cc3f0-5429-4938-a9a8-1594c5edd007",
+    "net": "+3V3",
+    "a": [
+      106.38,
+      126.6
+    ],
+    "b": [
+      106.4,
+      126.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "2e4a43e4-1de3-428b-9300-41d77bb5e5ff",
+    "net": "+3V3",
+    "a": [
+      105.38,
+      118.75
+    ],
+    "b": [
+      105.4,
+      118.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "32b236b7-cd7c-4158-a004-6b4f28156ad8",
+    "net": "+3V3",
+    "a": [
+      107.58,
+      110.1
+    ],
+    "b": [
+      107.6,
+      110.1
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "36f04c84-cf7b-4cfc-83cc-daf54c2ac130",
+    "net": "+3V3",
+    "a": [
+      117.02,
+      117.3
+    ],
+    "b": [
+      117.0,
+      117.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "44fd7fa2-af42-47e5-b00b-bd1d2640e46f",
+    "net": "+3V3",
+    "a": [
+      105.38,
+      118.75
+    ],
+    "b": [
+      105.4,
+      118.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "5d6cea68-1ebc-4800-9a2a-753935772e06",
+    "net": "+3V3",
+    "a": [
+      108.32,
+      122.05
+    ],
+    "b": [
+      108.3,
+      122.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "6504678c-1780-4de8-ae17-b76d47d1f2d7",
+    "net": "+3V3",
+    "a": [
+      117.02,
+      117.3
+    ],
+    "b": [
+      117.0,
+      117.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "6e2d9f2b-a9c2-42d0-b8a8-e9e24ac62093",
+    "net": "+3V3",
+    "a": [
+      108.32,
+      122.05
+    ],
+    "b": [
+      108.3,
+      122.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "7a91c45e-8fba-41bf-a669-9e944b76b2d6",
+    "net": "+3V3",
+    "a": [
+      116.92,
+      113.8
+    ],
+    "b": [
+      116.9,
+      113.8
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "7adb0b0a-3683-401f-b4ed-96b8d087cb2a",
+    "net": "+3V3",
+    "a": [
+      106.38,
+      126.6
+    ],
+    "b": [
+      106.4,
+      126.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d76704f8-513b-4d59-8919-84dd006914ee",
+    "net": "+3V3",
+    "a": [
+      107.58,
+      110.1
+    ],
+    "b": [
+      107.6,
+      110.1
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "479bcc3c-4eaa-4ae0-9656-09f4acf4f479",
+    "net": "+3V3",
+    "a": [
+      107.115,
+      108.5
+    ],
+    "b": [
+      107.1,
+      108.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "7f74f5f8-55d3-43ec-8c22-29954849f93d",
+    "net": "+3V3",
+    "a": [
+      116.915,
+      111.4
+    ],
+    "b": [
+      116.9,
+      111.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9f18cd99-7e21-4fd4-8bef-dd4490101517",
+    "net": "+3V3",
+    "a": [
+      107.115,
+      108.5
+    ],
+    "b": [
+      107.1,
+      108.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "baf4aa78-454f-4c39-9382-3506b332aca8",
+    "net": "+3V3",
+    "a": [
+      116.915,
+      111.4
+    ],
+    "b": [
+      116.9,
+      111.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "03d16287-2be8-47ea-a36c-1c41225bf2d7",
+    "net": "+3V3",
+    "a": [
+      104.0,
+      113.01
+    ],
+    "b": [
+      104.0,
+      113.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "521c2f70-314b-4761-8689-e449358dfac3",
+    "net": "+3V3",
+    "a": [
+      104.0,
+      113.01
+    ],
+    "b": [
+      104.0,
+      113.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8b76df61-2efc-4560-a006-1d44fba6b363",
+    "net": "+3V3",
+    "a": [
+      113.0,
+      122.91
+    ],
+    "b": [
+      113.0,
+      122.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "98399e8d-23f3-48ba-b067-7272bf69eab4",
+    "net": "+3V3",
+    "a": [
+      104.0,
+      113.01
+    ],
+    "b": [
+      104.0,
+      113.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "e52afc3e-de8d-4710-b44a-1c83531c4e37",
+    "net": "+3V3",
+    "a": [
+      113.0,
+      122.91
+    ],
+    "b": [
+      113.0,
+      122.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "f960d7e9-e151-43cb-848d-aa8bd2d35e54",
+    "net": "+3V3",
+    "a": [
+      113.0,
+      122.91
+    ],
+    "b": [
+      113.0,
+      122.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "6647e6fe-cf92-4589-bdb6-349819a0ce8c",
+    "net": "/CTS_N",
+    "a": [
+      114.25,
+      130.85
+    ],
+    "b": [
+      114.25,
+      131.949999
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "1d9ba1ec-919a-4fbf-b877-9e1dcc7a4cef",
+    "net": "/CTS_N",
+    "a": [
+      114.55,
+      130.85
+    ],
+    "b": [
+      114.25,
+      130.85
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a54f35da-9cbc-4203-86d7-8d28e6468cb2",
+    "net": "/CTS_N",
+    "a": [
+      112.825,
+      130.625
+    ],
+    "b": [
+      112.85,
+      130.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "54226606-8a6f-4929-b501-ccfc32ed0bd7",
+    "net": "/EE_CLK",
+    "a": [
+      103.5,
+      122.675
+    ],
+    "b": [
+      103.5,
+      122.65
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "537bfcf7-3a5c-4c4d-b4af-e3cd6166629d",
+    "net": "/EE_DATA",
+    "a": [
+      101.275,
+      123.325
+    ],
+    "b": [
+      101.3,
+      123.35
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8150332b-aca6-4a77-b1d5-cb017d14734a",
+    "net": "/EE_DATA",
+    "a": [
+      104.41,
+      125.6
+    ],
+    "b": [
+      104.4,
+      125.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "ae2f6bdb-5f82-4f29-97d1-12231f28f991",
+    "net": "/EE_DATA",
+    "a": [
+      104.41,
+      125.6
+    ],
+    "b": [
+      104.4,
+      125.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "f26aca87-1de3-4499-99c6-28b9dd99b030",
+    "net": "/EE_DO",
+    "a": [
+      102.1,
+      125.6
+    ],
+    "b": [
+      102.1,
+      126.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d4fa7d78-15cf-43f2-881c-4ba208ec14f4",
+    "net": "/EE_DO",
+    "a": [
+      101.275,
+      123.975
+    ],
+    "b": [
+      101.3,
+      123.95
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "c0f13ba1-ac1d-4eea-9c10-781593b78bb3",
+    "net": "/EE_DO",
+    "a": [
+      103.39,
+      125.6
+    ],
+    "b": [
+      103.4,
+      125.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "f6b7b93a-aa3e-4d2c-811c-a44a7aef90b8",
+    "net": "/FB",
+    "a": [
+      114.7,
+      134.9
+    ],
+    "b": [
+      115.25,
+      134.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "3921ac04-0376-4170-ba5c-48456f0bcf69",
+    "net": "/FB",
+    "a": [
+      111.6375,
+      137.15
+    ],
+    "b": [
+      111.65,
+      137.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "18dfa602-d34a-4fee-9174-e88eb6bd7f30",
+    "net": "/FB",
+    "a": [
+      114.7,
+      134.89
+    ],
+    "b": [
+      114.7,
+      134.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a59c43fe-feff-4d14-b762-74d4d670567b",
+    "net": "/FB",
+    "a": [
+      114.7,
+      134.89
+    ],
+    "b": [
+      114.7,
+      134.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "7696f7e4-0c5e-43c4-8589-8dbec894cab5",
+    "net": "/FB",
+    "a": [
+      116.3,
+      134.009999
+    ],
+    "b": [
+      116.3,
+      134.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8e06e413-08f1-4ec1-a9ba-c98a96cce412",
+    "net": "/FB",
+    "a": [
+      116.3,
+      134.009999
+    ],
+    "b": [
+      116.3,
+      134.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "fc62ef30-983e-4535-874f-53313c93b886",
+    "net": "/FB_2V5",
+    "a": [
+      116.6,
+      133.3
+    ],
+    "b": [
+      117.75,
+      134.45
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "93e49d24-52c3-4bfd-923e-9bb694288e1a",
+    "net": "/FB_2V5",
+    "a": [
+      116.3,
+      133.0
+    ],
+    "b": [
+      116.6,
+      133.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d81e9e6c-10f0-4ce2-81e8-31f3ba5bd5ad",
+    "net": "/FT_CTS_N",
+    "a": [
+      106.8375,
+      114.75
+    ],
+    "b": [
+      107.875,
+      114.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "e615299c-0150-4777-a2a1-76208824bb9a",
+    "net": "/FT_CTS_N",
+    "a": [
+      107.529166,
+      114.75
+    ],
+    "b": [
+      107.55,
+      114.75
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "577d7609-257c-4634-a42f-25be2a04fa11",
+    "net": "/FT_RTS_N",
+    "a": [
+      105.65,
+      121.35
+    ],
+    "b": [
+      105.65,
+      121.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "b0c36c2f-e53a-42cc-8dbc-4229e8f59392",
+    "net": "/FT_RXD",
+    "a": [
+      105.35,
+      121.45
+    ],
+    "b": [
+      105.3,
+      121.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "1d755b91-daa2-4e0d-913e-df81bb4ce0e2",
+    "net": "/LED_PWR_A",
+    "a": [
+      119.0,
+      104.2
+    ],
+    "b": [
+      119.5,
+      104.2
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "80ef4813-89a1-4708-b6a0-1d8e94ad78cb",
+    "net": "/PWREN_N",
+    "a": [
+      118.55,
+      127.35
+    ],
+    "b": [
+      118.55,
+      124.55
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "fd66c9d3-2136-4d49-9b74-7ef537ae6d4f",
+    "net": "/PWREN_N",
+    "a": [
+      117.0,
+      127.35
+    ],
+    "b": [
+      118.55,
+      127.35
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "2c1ebd5d-9cb6-467b-b21a-20df1481cf9e",
+    "net": "/PWREN_N",
+    "a": [
+      117.0,
+      127.35
+    ],
+    "b": [
+      118.1,
+      127.35
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "cab1620f-303a-47bb-ac66-db33f689be55",
+    "net": "/PWREN_N",
+    "a": [
+      118.1,
+      127.35
+    ],
+    "b": [
+      118.65,
+      126.8
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "f9bcd11f-eab7-468a-8c5d-8844f87cdaab",
+    "net": "/PWREN_N",
+    "a": [
+      114.9,
+      127.7
+    ],
+    "b": [
+      114.9,
+      127.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a39e9ac2-9df2-44cd-a3f5-bba4f345d708",
+    "net": "/PWREN_N",
+    "a": [
+      116.75,
+      122.25
+    ],
+    "b": [
+      116.95,
+      122.45
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "94d93680-565f-423c-91ea-b4589b1786f8",
+    "net": "/PWREN_N",
+    "a": [
+      114.9,
+      128.025
+    ],
+    "b": [
+      114.9,
+      128.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a048d582-ed64-47e3-9033-a7f9d54a2268",
+    "net": "/PWREN_N",
+    "a": [
+      114.9,
+      127.375
+    ],
+    "b": [
+      114.9,
+      127.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "c6d15607-028d-4b34-9ea3-95ffc0d2b6ae",
+    "net": "/PWREN_N",
+    "a": [
+      114.9,
+      127.375
+    ],
+    "b": [
+      114.9,
+      127.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "2529deca-3ceb-4185-860a-e3132b6121cc",
+    "net": "/PWR_EN",
+    "a": [
+      112.9,
+      126.4
+    ],
+    "b": [
+      112.9,
+      126.05
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "bb537ad0-9bf4-4f52-baca-79ed3b675bb3",
+    "net": "/PWR_EN",
+    "a": [
+      113.0,
+      126.3
+    ],
+    "b": [
+      112.9,
+      126.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "fb5405c2-1a26-434c-960c-49ddd14d5a52",
+    "net": "/RESET_N",
+    "a": [
+      113.0,
+      121.9
+    ],
+    "b": [
+      113.0,
+      121.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "6307bc23-6c2c-4d0d-a671-68c137595782",
+    "net": "/RESET_N",
+    "a": [
+      113.0,
+      121.89
+    ],
+    "b": [
+      113.0,
+      121.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d6c180f6-30f6-41e6-be56-70145650f1e1",
+    "net": "/RESET_N",
+    "a": [
+      113.0,
+      121.89
+    ],
+    "b": [
+      113.0,
+      121.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8c7fc1d7-61e7-463c-a826-3624e704e122",
+    "net": "/RXD",
+    "a": [
+      112.25,
+      147.3
+    ],
+    "b": [
+      112.85,
+      146.7
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "960246cd-9dd3-4f09-8b15-00ece360d4e4",
+    "net": "/RXD",
+    "a": [
+      113.0,
+      138.15
+    ],
+    "b": [
+      113.35,
+      137.8
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "262d145f-eb3c-4676-a603-485f6800d50d",
+    "net": "/RXD",
+    "a": [
+      114.9,
+      129.949999
+    ],
+    "b": [
+      114.9,
+      130.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "e7002032-0000-446d-8fe4-0e75bc02e8d6",
+    "net": "/RXD",
+    "a": [
+      113.35,
+      130.65
+    ],
+    "b": [
+      113.45,
+      130.65
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "374e56cf-37c8-4c43-b2e0-4e2304fb078d",
+    "net": "/RXD",
+    "a": [
+      114.9,
+      129.975
+    ],
+    "b": [
+      114.9,
+      129.949999
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "ad6bcca2-7b98-4d0c-ac7c-92fe5a7aa986",
+    "net": "/RXLED_N",
+    "a": [
+      109.25,
+      120.15
+    ],
+    "b": [
+      109.25,
+      121.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "ea75525f-7246-47a7-b123-9e2617460a2d",
+    "net": "/RXLED_N",
+    "a": [
+      109.25,
+      121.5
+    ],
+    "b": [
+      109.85,
+      121.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a07a0f64-356d-4bf5-8014-772c6ca17b24",
+    "net": "/RXLED_N",
+    "a": [
+      109.25,
+      120.1625
+    ],
+    "b": [
+      109.25,
+      120.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d356d10d-8eeb-4f6f-b362-2db455460d41",
+    "net": "/TXD",
+    "a": [
+      109.75,
+      147.3
+    ],
+    "b": [
+      110.35,
+      146.7
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9b0e3086-00de-49d4-92e9-099701071b1e",
+    "net": "/TXD",
+    "a": [
+      112.825,
+      128.675
+    ],
+    "b": [
+      112.85,
+      128.699999
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "1e04bcf9-b5a1-41d7-95e1-65bcf5da03b3",
+    "net": "/TXLED_N",
+    "a": [
+      109.75,
+      121.2
+    ],
+    "b": [
+      109.75,
+      121.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "83ac5fb3-0687-4188-b30b-0b4a1daef910",
+    "net": "/USB5V_SW",
+    "a": [
+      102.8,
+      140.4
+    ],
+    "b": [
+      102.8,
+      141.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "7d3ea4ae-25d7-4cdc-ae41-df80a43b09c1",
+    "net": "USB5V",
+    "a": [
+      116.2,
+      116.1
+    ],
+    "b": [
+      116.2,
+      117.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d63db441-07aa-4547-a067-c60f5bc901f8",
+    "net": "USB5V",
+    "a": [
+      117.0,
+      116.1
+    ],
+    "b": [
+      116.2,
+      116.1
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "80e1d4a1-b539-44c1-b394-f6cc74d8c922",
+    "net": "USB5V",
+    "a": [
+      117.25,
+      114.9
+    ],
+    "b": [
+      117.0,
+      114.65
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "546271be-8cf1-4bb4-ab41-bd5dfd66d48d",
+    "net": "USB5V",
+    "a": [
+      111.65,
+      122.85
+    ],
+    "b": [
+      111.9,
+      122.85
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "83fc4a1d-c138-458d-b258-0eaa3014e681",
+    "net": "USB5V",
+    "a": [
+      118.5,
+      103.0
+    ],
+    "b": [
+      118.3,
+      103.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "6757fac0-e476-4f69-aa1f-8de791b7170b",
+    "net": "USB5V",
+    "a": [
+      108.15,
+      135.25
+    ],
+    "b": [
+      107.98,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "644d6383-850b-409a-89c5-96784a9335e6",
+    "net": "USB5V",
+    "a": [
+      117.02,
+      116.1
+    ],
+    "b": [
+      117.0,
+      116.1
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "69841b1d-6ea1-47ac-a750-88eb7d5ba5b8",
+    "net": "USB5V",
+    "a": [
+      117.02,
+      116.1
+    ],
+    "b": [
+      117.0,
+      116.1
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8b6a0f41-659b-4d6d-86ca-c89964df2fd6",
+    "net": "USB5V",
+    "a": [
+      107.98,
+      135.25
+    ],
+    "b": [
+      108.0,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "fdfde857-ddb8-48cb-ac08-aa8461f9bea5",
+    "net": "USB5V",
+    "a": [
+      107.98,
+      135.25
+    ],
+    "b": [
+      108.0,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "40a4c973-a328-48c8-8458-ff15b11e0706",
+    "net": "USB5V",
+    "a": [
+      109.3625,
+      135.25
+    ],
+    "b": [
+      109.35,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "b168c6bd-2273-4822-b3da-cac6f32e3c1a",
+    "net": "USB5V",
+    "a": [
+      109.3625,
+      135.25
+    ],
+    "b": [
+      109.35,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "27e91e54-0721-4bd1-b408-428fd573e86f",
+    "net": "USB5V",
+    "a": [
+      118.49,
+      103.0
+    ],
+    "b": [
+      118.5,
+      103.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "4eaac138-90f9-44fc-8c4c-431cdffa3118",
+    "net": "USB5V",
+    "a": [
+      118.49,
+      103.0
+    ],
+    "b": [
+      118.5,
+      103.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "8de574a3-b430-43a2-b81f-32a60255028b",
+    "net": "USB5V",
+    "a": [
+      106.0,
+      133.49
+    ],
+    "b": [
+      106.0,
+      133.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a31e57c2-6d9c-425c-91af-acdd1cea9875",
+    "net": "USB5V",
+    "a": [
+      106.0,
+      133.49
+    ],
+    "b": [
+      106.0,
+      133.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "e9d51c84-5cec-40db-9ccf-8082839c9157",
+    "net": "USB5V_OUT",
+    "a": [
+      104.9,
+      135.0
+    ],
+    "b": [
+      104.9,
+      135.8
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "fba6c434-d335-4c01-be4f-1e83f75703ed",
+    "net": "USB5V_OUT",
+    "a": [
+      105.3,
+      132.199999
+    ],
+    "b": [
+      104.65,
+      132.199999
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a206f417-2242-4d51-8980-5d40de3a58bb",
+    "net": "USB5V_OUT",
+    "a": [
+      104.65,
+      132.199999
+    ],
+    "b": [
+      104.65,
+      132.8
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "38bf1098-fbd0-4d86-a4e8-2cef586ec99f",
+    "net": "USB5V_OUT",
+    "a": [
+      104.9,
+      134.5
+    ],
+    "b": [
+      104.9,
+      135.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "4be38a3c-6ae9-4fac-a212-e86981f51ddb",
+    "net": "VIO",
+    "a": [
+      115.5,
+      134.3
+    ],
+    "b": [
+      115.5,
+      132.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9feca767-ca0b-4fd5-bd5f-7831d3e62059",
+    "net": "VIO",
+    "a": [
+      113.4,
+      134.3
+    ],
+    "b": [
+      115.5,
+      134.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "720324b9-9d67-41a2-b1fb-0f21408a9e7c",
+    "net": "VIO",
+    "a": [
+      115.75,
+      128.449999
+    ],
+    "b": [
+      116.3,
+      128.449999
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "d0fe332d-5232-490f-8f3f-82c4a7ddc67e",
+    "net": "VIO",
+    "a": [
+      115.75,
+      128.449999
+    ],
+    "b": [
+      116.2,
+      128.449999
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "bde18529-888f-4486-8296-1dc11aacb9ba",
+    "net": "VIO",
+    "a": [
+      115.5,
+      129.5
+    ],
+    "b": [
+      115.5,
+      129.699999
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "91697b62-99c9-46b6-ad21-ec075c8b9ab6",
+    "net": "VIO",
+    "a": [
+      111.65,
+      134.3
+    ],
+    "b": [
+      111.75,
+      134.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9d5c783a-f123-4389-8349-3dde0f9a71bd",
+    "net": "VIO",
+    "a": [
+      113.4,
+      134.4
+    ],
+    "b": [
+      113.4,
+      134.275
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "35f54b86-3d12-42ce-8ba0-4e1f33d3c0d8",
+    "net": "VIO",
+    "a": [
+      113.4,
+      134.275
+    ],
+    "b": [
+      113.4,
+      134.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "7f56a9b9-7f9a-4e4b-8c5c-b8df9afa5928",
+    "net": "VIO",
+    "a": [
+      113.4,
+      134.275
+    ],
+    "b": [
+      113.4,
+      134.3
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "135aeac6-268e-4bc9-a5bc-8f64f5511eed",
+    "net": "VIO",
+    "a": [
+      115.62,
+      126.6
+    ],
+    "b": [
+      115.6,
+      126.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "995db5ec-4007-4b05-9fff-b67a056b9a6b",
+    "net": "VIO",
+    "a": [
+      115.62,
+      126.6
+    ],
+    "b": [
+      115.6,
+      126.6
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "2d3e8476-6740-4101-89a1-0f6a8c2fbc63",
+    "net": "VIO",
+    "a": [
+      111.6375,
+      135.25
+    ],
+    "b": [
+      111.65,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "c89e7065-7097-435e-b73e-8cba753f5224",
+    "net": "VIO",
+    "a": [
+      111.6375,
+      135.25
+    ],
+    "b": [
+      111.65,
+      135.25
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "393f5914-bab9-4eec-8cec-7a0864ae522d",
+    "net": "VIO",
+    "a": [
+      114.7,
+      135.91
+    ],
+    "b": [
+      114.7,
+      135.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "a7f740c2-f474-423d-9cc9-408353e68dd9",
+    "net": "VIO",
+    "a": [
+      114.7,
+      135.91
+    ],
+    "b": [
+      114.7,
+      135.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "9a9d8209-f301-412f-b563-f1ecd12c2ad7",
+    "net": "VIO",
+    "a": [
+      115.5,
+      129.509999
+    ],
+    "b": [
+      115.5,
+      129.5
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "ad63fd8e-b86e-405a-b808-06439e568815",
+    "net": "VIO",
+    "a": [
+      115.5,
+      132.009999
+    ],
+    "b": [
+      115.5,
+      132.0
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "5b412f77-af85-43a0-809c-4bf8be86c4b8",
+    "net": "VPHY",
+    "a": [
+      112.7,
+      110.38
+    ],
+    "b": [
+      112.7,
+      110.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "c835d7cc-4c13-4a17-9134-8048d996b2f6",
+    "net": "VPHY",
+    "a": [
+      112.7,
+      110.38
+    ],
+    "b": [
+      112.7,
+      110.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "252fdee1-7cdf-4aa5-8792-24845049a001",
+    "net": "VPLL",
+    "a": [
+      109.48,
+      110.15
+    ],
+    "b": [
+      109.5,
+      110.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "aa75ef2f-b4be-4093-ae0f-b210fc29f024",
+    "net": "VPLL",
+    "a": [
+      109.48,
+      110.15
+    ],
+    "b": [
+      109.5,
+      110.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  },
+  {
+    "uuid": "ea77062f-a0d3-4400-9c5f-e22d87043697",
+    "net": "VPLL",
+    "a": [
+      109.48,
+      110.15
+    ],
+    "b": [
+      109.5,
+      110.15
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "reason": "candidate redundancy; native terminal connectivity preserved"
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "uuid": "00766074-cbec-460a-9b67-fde17f135b92",
+    "net": "USB5V",
+    "a": [
+      118.35,
+      122.85
+    ],
+    "b": [
+      111.65,
+      122.85
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "00766074-cbec-460a-9b67-fde17f135b92",
+      "net": "USB5V",
+      "a": [
+        118.35,
+        122.85
+      ],
+      "b": [
+        111.9,
+        122.85
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "uuid": "b1207b34-4b6a-48f4-927a-fe7c3a078f78",
+    "net": "+3V3",
+    "a": [
+      118.3,
+      117.95
+    ],
+    "b": [
+      119.6,
+      117.95
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "b1207b34-4b6a-48f4-927a-fe7c3a078f78",
+      "net": "+3V3",
+      "a": [
+        118.3,
+        117.95
+      ],
+      "b": [
+        119.6,
+        117.95
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "uuid": "c63c070f-3e05-4d26-a584-0e7a37b1f8f9",
+    "net": "+3V3",
+    "a": [
+      107.85,
+      121.0
+    ],
+    "b": [
+      107.85,
+      122.9
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "c63c070f-3e05-4d26-a584-0e7a37b1f8f9",
+      "net": "+3V3",
+      "a": [
+        107.85,
+        121.0
+      ],
+      "b": [
+        107.85,
+        122.05
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "uuid": "2fb6141f-8efb-49c3-80c1-da86f6567bbd",
+    "net": "+3V3",
+    "a": [
+      116.5,
+      125.6
+    ],
+    "b": [
+      116.5,
+      125.6
+    ],
+    "layer": 0,
+    "width": 0.6,
+    "via": true,
+    "action": "remove unused via"
+  },
+  {
+    "uuid": "c1f21277-eb9e-4b84-82ff-ab4607a08a1c",
+    "net": "+3V3",
+    "a": [
+      107.65,
+      125.35
+    ],
+    "b": [
+      107.65,
+      125.35
+    ],
+    "layer": 0,
+    "width": 0.6,
+    "via": true,
+    "action": "remove unused via"
+  },
+  {
+    "uuid": "6b218805-bb42-455d-81fa-aab09d75a8f5",
+    "net": "USB5V_OUT",
+    "a": [
+      104.9,
+      135.0
+    ],
+    "b": [
+      104.9,
+      140.8
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "6b218805-bb42-455d-81fa-aab09d75a8f5",
+      "net": "USB5V_OUT",
+      "a": [
+        104.9,
+        135.8
+      ],
+      "b": [
+        104.9,
+        140.8
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "uuid": "cb5cff2b-41f4-486b-bae9-a99905146d90",
+    "net": "USB5V_OUT",
+    "a": [
+      105.3,
+      132.199999
+    ],
+    "b": [
+      103.85,
+      133.65
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "cb5cff2b-41f4-486b-bae9-a99905146d90",
+      "net": "USB5V_OUT",
+      "a": [
+        104.674999,
+        132.824999
+      ],
+      "b": [
+        103.85,
+        133.65
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "uuid": "d933afac-8a13-416e-891d-476c6363960c",
+    "net": "/PWREN_N",
+    "a": [
+      118.55,
+      124.55
+    ],
+    "b": [
+      118.4,
+      124.4
+    ],
+    "layer": 0,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "d933afac-8a13-416e-891d-476c6363960c",
+      "net": "/PWREN_N",
+      "a": [
+        118.425,
+        124.425
+      ],
+      "b": [
+        118.4,
+        124.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "uuid": "305b272b-6953-4351-aa46-f1a14ee3032e",
+    "net": "/CTS_N",
+    "a": [
+      114.55,
+      138.1
+    ],
+    "b": [
+      114.55,
+      130.85
+    ],
+    "layer": 2,
+    "width": 0.15,
+    "via": false,
+    "action": "trim excess ends to required contacts",
+    "after": {
+      "uuid": "305b272b-6953-4351-aa46-f1a14ee3032e",
+      "net": "/CTS_N",
+      "a": [
+        114.55,
+        138.1
+      ],
+      "b": [
+        114.55,
+        131.949998
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    }
+  }
+]

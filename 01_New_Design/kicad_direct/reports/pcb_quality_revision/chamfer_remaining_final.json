@@ -1,0 +1,418 @@
+[
+  {
+    "net": "VPHY",
+    "at": [
+      117.9,
+      111.95
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "1239f9e3-8c3e-4f4d-b085-b6de5f35222b",
+      "27e0fd91-aa67-49ba-8098-371385015e50"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      110.25,
+      137.15
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "26736562-303b-4f47-ab54-58668c06b0f5",
+      "8ed49498-0ae6-4a1c-a50a-c3c81d8adbda"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "VIO",
+    "at": [
+      114.9,
+      126.6
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "18fea675-c016-4cec-9806-234ced1d2e03",
+      "e871cb9a-1e7d-4458-ab66-585c67f9e237"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      107.1,
+      126.7
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "2b4b75f0-bf66-434a-aea9-8e0a469b0763",
+      "9f5c5a8c-2d3f-46a0-8642-6df6ce768cc7"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      117.0,
+      117.75
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "5e870304-61c0-4187-8962-92e3260406ca",
+      "a2b4eeb2-090e-4931-929a-7e8c1f1dc30a"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      107.85,
+      122.05
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "61fe9b99-736a-4105-a4ba-af69942a772b",
+      "c63c070f-3e05-4d26-a584-0e7a37b1f8f9"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      119.6,
+      120.45
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "70fb7acb-29ba-4447-bff7-43eb5b6d1a9c",
+      "9567b167-7000-4bb3-b164-96438e4368a2"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/LED_TX_A",
+    "at": [
+      101.95,
+      112.0
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "26ddb2e1-40e4-4896-84f8-bc39d317293e",
+      "dce9cb56-69ca-4871-9988-7d2dfc2c157d"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/RESET_N",
+    "at": [
+      113.0,
+      121.2
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "26e21926-b320-411b-b94a-ef12769f8d97",
+      "4611d0d9-538f-4572-bc19-0826a68c54c1"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      109.0,
+      128.45
+    ],
+    "angle": 90.00021952489686,
+    "uuids": [
+      "04a78638-de51-4809-9bd4-11e1ed713643",
+      "e9b071f8-c580-4c2c-ab7e-3f25d8783be4"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      105.8,
+      113.25
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "069d14d1-48a2-4193-a87c-7e21ff991e43",
+      "82765e30-c9ec-4536-8832-755d3ce74ea3"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_RXD",
+    "at": [
+      104.4,
+      121.45
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "9c40df62-0b6d-4499-aff8-be5aa0c58cf2",
+      "d2591c39-7b75-4846-94dc-a257598b206a"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_CTS_N",
+    "at": [
+      105.35,
+      121.1
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "70c5bbe3-8283-4b51-b717-0c2481f9fc86",
+      "fc9cf916-283d-42d9-98dc-fb5ad44c5a95"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      114.7,
+      130.6
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "066b8d3a-8faa-4f2e-9d9a-56a92ae2da59",
+      "adfd8ec2-3a67-4e77-89e7-b5f277acd327"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/LED_RX_A",
+    "at": [
+      104.55,
+      112.0
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "443b6cf1-c3ac-4ae9-ae7a-38b9b83d2292",
+      "c620c5d0-e483-470e-bfa5-cbfe8346217a"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/EE_CLK",
+    "at": [
+      114.1,
+      115.1
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "61008039-136a-43e3-9d19-83c44fe12eb2",
+      "b9e478e9-524b-453e-a3c1-76519b199d7d"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "VPHY",
+    "at": [
+      117.9,
+      111.95
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "1239f9e3-8c3e-4f4d-b085-b6de5f35222b",
+      "27e0fd91-aa67-49ba-8098-371385015e50"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/PWR_EN",
+    "at": [
+      110.25,
+      137.15
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "26736562-303b-4f47-ab54-58668c06b0f5",
+      "8ed49498-0ae6-4a1c-a50a-c3c81d8adbda"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "VIO",
+    "at": [
+      114.9,
+      126.6
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "18fea675-c016-4cec-9806-234ced1d2e03",
+      "e871cb9a-1e7d-4458-ab66-585c67f9e237"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      107.1,
+      126.7
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "2b4b75f0-bf66-434a-aea9-8e0a469b0763",
+      "9f5c5a8c-2d3f-46a0-8642-6df6ce768cc7"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      117.0,
+      117.75
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "5e870304-61c0-4187-8962-92e3260406ca",
+      "a2b4eeb2-090e-4931-929a-7e8c1f1dc30a"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      107.85,
+      122.05
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "61fe9b99-736a-4105-a4ba-af69942a772b",
+      "c63c070f-3e05-4d26-a584-0e7a37b1f8f9"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "+3V3",
+    "at": [
+      119.6,
+      120.45
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "70fb7acb-29ba-4447-bff7-43eb5b6d1a9c",
+      "9567b167-7000-4bb3-b164-96438e4368a2"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/LED_TX_A",
+    "at": [
+      101.95,
+      112.0
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "26ddb2e1-40e4-4896-84f8-bc39d317293e",
+      "dce9cb56-69ca-4871-9988-7d2dfc2c157d"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/RESET_N",
+    "at": [
+      113.0,
+      121.2
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "26e21926-b320-411b-b94a-ef12769f8d97",
+      "4611d0d9-538f-4572-bc19-0826a68c54c1"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      109.0,
+      128.45
+    ],
+    "angle": 90.00021952489686,
+    "uuids": [
+      "04a78638-de51-4809-9bd4-11e1ed713643",
+      "e9b071f8-c580-4c2c-ab7e-3f25d8783be4"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_TXD",
+    "at": [
+      105.8,
+      113.25
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "069d14d1-48a2-4193-a87c-7e21ff991e43",
+      "82765e30-c9ec-4536-8832-755d3ce74ea3"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_RXD",
+    "at": [
+      104.4,
+      121.45
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "9c40df62-0b6d-4499-aff8-be5aa0c58cf2",
+      "d2591c39-7b75-4846-94dc-a257598b206a"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FT_CTS_N",
+    "at": [
+      105.35,
+      121.1
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "70c5bbe3-8283-4b51-b717-0c2481f9fc86",
+      "fc9cf916-283d-42d9-98dc-fb5ad44c5a95"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      114.7,
+      130.6
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "066b8d3a-8faa-4f2e-9d9a-56a92ae2da59",
+      "adfd8ec2-3a67-4e77-89e7-b5f277acd327"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/LED_RX_A",
+    "at": [
+      104.55,
+      112.0
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "443b6cf1-c3ac-4ae9-ae7a-38b9b83d2292",
+      "c620c5d0-e483-470e-bfa5-cbfe8346217a"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/EE_CLK",
+    "at": [
+      114.1,
+      115.1
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "61008039-136a-43e3-9d19-83c44fe12eb2",
+      "b9e478e9-524b-453e-a3c1-76519b199d7d"
+    ],
+    "reason": "no local chamfer with clearance"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "authorization_log": "2026-11-24 22:42 JST",
+  "artifacts_completed": "2026-11-24 23:33 JST",
+  "elapsed_minutes_from_authorization_log": 51.7,
+  "branch": "codex/a2-pcb-quality-r0028-r0032",
+  "base_commit": "5596d3bc8802687b89b21fd9c57e1117ec9382e5",
+  "review_status": "ユーザー確認待ち・最終OK未取得"
+}

@@ -1,0 +1,7 @@
+candidate/
+checks/*.kicad_pcb
+**/__pycache__/
+*.kicad_prl
+before/*.kicad_prl
+after/*.kicad_prl
+checks/*.txt

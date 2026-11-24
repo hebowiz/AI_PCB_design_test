@@ -1,0 +1,2131 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-24T22:47:58",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /PWR_EN と USB5V)",
+            "items": [
+                {
+                    "description": "配線 [/PWR_EN] ( F.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 110.25,
+                        "y": 127.6
+                    },
+                    "uuid": "9278c5fb-e0d9-47fd-a7aa-d93dab8856e8"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 8.8000 mm )",
+                    "pos": {
+                        "x": 109.95,
+                        "y": 124.55
+                    },
+                    "uuid": "a44330b8-38cc-4654-86ca-bd265d808ddb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0703 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.9799 mm )",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 116.95
+                    },
+                    "uuid": "03966ce6-e2f6-4078-867b-9ac432f60724"
+                },
+                {
+                    "description": "パッド 41 [GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 116.75
+                    },
+                    "uuid": "24809851-be0d-49ad-a786-f613dc3c835b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1000 mm)",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 1.0000 mm )",
+                    "pos": {
+                        "x": 103.95,
+                        "y": 131.0
+                    },
+                    "uuid": "0d689cf6-31c2-4c22-8ac8-0dd7473f2f37"
+                },
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 103.3,
+                        "y": 131.199999
+                    },
+                    "uuid": "320a6808-a8fb-4712-97f9-171abcecec49"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /USB_D- と USB5V)",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB_D-] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 104.75
+                    },
+                    "uuid": "0790b439-645e-40f0-8b2e-c44bb8b00891"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 7.6700 mm )",
+                    "pos": {
+                        "x": 115.2,
+                        "y": 103.5
+                    },
+                    "uuid": "0f495a6f-e99d-4853-88b1-c93455fa3812"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0318 mm)",
+            "items": [
+                {
+                    "description": "パッド [<no net>] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 138.35
+                    },
+                    "uuid": "398cbf53-b35b-4af0-b3d1-4b45699a27e5"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.8000 mm )",
+                    "pos": {
+                        "x": 102.55,
+                        "y": 136.8
+                    },
+                    "uuid": "ed961a04-a298-4b55-8e06-2e6c9df5c172"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0352 mm)",
+            "items": [
+                {
+                    "description": "ビア [USB5V_OUT] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 104.9,
+                        "y": 140.8
+                    },
+                    "uuid": "4872d63e-0e07-47d0-9622-5924cc604c06"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.4500 mm )",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 140.25
+                    },
+                    "uuid": "6293a8a8-e2a1-4688-b2f6-73c2d595312f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0816 mm)",
+            "items": [
+                {
+                    "description": "配線 [/PWREN_N] ( B.Cu 上、長さ: 0.5049 mm )",
+                    "pos": {
+                        "x": 112.557,
+                        "y": 122.5
+                    },
+                    "uuid": "1cb26978-5c1f-4a51-bf66-1dd407ccbdb7"
+                },
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 112.35,
+                        "y": 122.85
+                    },
+                    "uuid": "8e2b12d3-ddaf-4aa7-80a3-5352ae6addef"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0187 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [/RTS_N] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 143.655
+                    },
+                    "uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 2.4956 mm )",
+                    "pos": {
+                        "x": 104.785355,
+                        "y": 143.385355
+                    },
+                    "uuid": "49eaf8ad-9f61-42a5-9535-05216834a147"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /FT_TXD と USB5V)",
+            "items": [
+                {
+                    "description": "ビア [/FT_TXD] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 111.35,
+                        "y": 123.45
+                    },
+                    "uuid": "96638b18-e331-47fa-8254-2ff255abe9ea"
+                },
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 0.7000 mm )",
+                    "pos": {
+                        "x": 111.9,
+                        "y": 123.3
+                    },
+                    "uuid": "c2596889-10cd-4df8-8a7f-0ff57017709f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0816 mm)",
+            "items": [
+                {
+                    "description": "配線 [/PWREN_N] ( B.Cu 上、長さ: 3.9430 mm )",
+                    "pos": {
+                        "x": 112.557,
+                        "y": 122.5
+                    },
+                    "uuid": "18e39734-d75c-4196-86b5-4ad083affde6"
+                },
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 112.35,
+                        "y": 122.85
+                    },
+                    "uuid": "8e2b12d3-ddaf-4aa7-80a3-5352ae6addef"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0750 mm)",
+            "items": [
+                {
+                    "description": "配線 [/TXD] ( F.Cu 上、長さ: 5.3000 mm )",
+                    "pos": {
+                        "x": 108.45,
+                        "y": 140.95
+                    },
+                    "uuid": "37c6b96f-84f4-4df1-923e-782677bc3178"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.2021 mm )",
+                    "pos": {
+                        "x": 107.2,
+                        "y": 145.15
+                    },
+                    "uuid": "61ef717a-5b58-40b0-8f08-70a91d2afb90"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0750 mm)",
+            "items": [
+                {
+                    "description": "配線 [/TXD] ( F.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 108.9,
+                        "y": 146.7
+                    },
+                    "uuid": "73d30707-20f8-4d8d-b668-c2fae31e0939"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.8000 mm )",
+                    "pos": {
+                        "x": 108.05,
+                        "y": 146.0
+                    },
+                    "uuid": "e1b91c1f-2e9e-4490-a69a-0e47b33ee075"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /FT_RTS_N と USB5V)",
+            "items": [
+                {
+                    "description": "ビア [/FT_RTS_N] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 109.4,
+                        "y": 129.5
+                    },
+                    "uuid": "70f6ec3b-47ad-4a4c-b51f-4acbb8dc0319"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 8.8000 mm )",
+                    "pos": {
+                        "x": 109.95,
+                        "y": 124.55
+                    },
+                    "uuid": "a44330b8-38cc-4654-86ca-bd265d808ddb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0187 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 108.95,
+                        "y": 148.7
+                    },
+                    "uuid": "fd878d1a-7032-4051-a3af-b97f069f97f5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V_OUT と /RXD)",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.4000 mm )",
+                    "pos": {
+                        "x": 112.95,
+                        "y": 148.75
+                    },
+                    "uuid": "cc18942b-0e5d-4998-a9c6-23727f66b40b"
+                },
+                {
+                    "description": "パッド 3 [/RXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.27,
+                        "y": 147.3
+                    },
+                    "uuid": "e61a78b5-4a7d-40a3-acaa-713336537673"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /TXD と USB5V_OUT)",
+            "items": [
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.0000 mm )",
+                    "pos": {
+                        "x": 108.95,
+                        "y": 147.7
+                    },
+                    "uuid": "9faeda09-4f2a-49c0-b1a1-949c67b25fc3"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V_OUT と /RXD)",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 148.8
+                    },
+                    "uuid": "7a7e89a9-922c-45c3-b94f-f3699e259eba"
+                },
+                {
+                    "description": "パッド 3 [/RXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.27,
+                        "y": 147.3
+                    },
+                    "uuid": "e61a78b5-4a7d-40a3-acaa-713336537673"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /RTS_N と USB5V_OUT)",
+            "items": [
+                {
+                    "description": "パッド 1 [/RTS_N] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 143.655
+                    },
+                    "uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.2021 mm )",
+                    "pos": {
+                        "x": 107.2,
+                        "y": 145.15
+                    },
+                    "uuid": "61ef717a-5b58-40b0-8f08-70a91d2afb90"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /TXD と USB5V_OUT)",
+            "items": [
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 3.8000 mm )",
+                    "pos": {
+                        "x": 109.1,
+                        "y": 148.8
+                    },
+                    "uuid": "58ef7891-5033-468c-9162-37ca63c0346a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0600 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [GND] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 147.3
+                    },
+                    "uuid": "0a0c2aff-d74e-466b-bdfe-fafc8f09e28a"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.8000 mm )",
+                    "pos": {
+                        "x": 108.05,
+                        "y": 146.0
+                    },
+                    "uuid": "e1b91c1f-2e9e-4490-a69a-0e47b33ee075"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /TXD と USB5V_OUT)",
+            "items": [
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 148.75
+                    },
+                    "uuid": "7d64e3bf-8a3f-48f6-823f-5ae1b231ee04"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V_OUT と /RTS_N)",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.6500 mm )",
+                    "pos": {
+                        "x": 106.55,
+                        "y": 145.15
+                    },
+                    "uuid": "28396b2d-8089-4042-be13-d3d3063de6e4"
+                },
+                {
+                    "description": "パッド 1 [/RTS_N] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 143.655
+                    },
+                    "uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1232 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 104.785355,
+                        "y": 143.385355
+                    },
+                    "uuid": "b72403bf-697e-4fdf-b5a2-7821f294e459"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0600 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [GND] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 147.3
+                    },
+                    "uuid": "0a0c2aff-d74e-466b-bdfe-fafc8f09e28a"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.2728 mm )",
+                    "pos": {
+                        "x": 108.05,
+                        "y": 146.8
+                    },
+                    "uuid": "2f48e2ac-7947-468b-b253-3c55fbaf9dc5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0157 mm)",
+            "items": [
+                {
+                    "description": "ビア [/USB5V_SW] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 103.9,
+                        "y": 141.85
+                    },
+                    "uuid": "b7a1b159-b4ec-45e8-ae93-6ba0a2e75251"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0157 mm)",
+            "items": [
+                {
+                    "description": "ビア [/USB5V_SW] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 141.35
+                    },
+                    "uuid": "8fb01c17-8ee3-425e-96c0-a04670f51b99"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0999 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.9500 mm )",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 140.4
+                    },
+                    "uuid": "f0fbfffb-a585-4f55-b736-be7f174bbf71"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0300 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 102.65,
+                        "y": 140.05
+                    },
+                    "uuid": "dc11c7ac-e1b8-4f34-b87c-5d3b22b1dfaf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0300 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 102.7,
+                        "y": 140.1
+                    },
+                    "uuid": "e09588e0-306c-410e-b23b-d15e482dfc43"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0897 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 140.35
+                    },
+                    "uuid": "ef9db881-887c-41ba-ba94-068f7470a73e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット <ネットなし> と /USB5V_SW)",
+            "items": [
+                {
+                    "description": "パッド [<no net>] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 138.35
+                    },
+                    "uuid": "398cbf53-b35b-4af0-b3d1-4b45699a27e5"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 2.1000 mm )",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 137.7
+                    },
+                    "uuid": "c7d97065-3eda-4eab-aeee-6ec7cf2c001f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0800 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 102.65,
+                        "y": 140.0
+                    },
+                    "uuid": "a6b6bcb3-41b4-45dc-be34-ed20487d806a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0187 mm)",
+            "items": [
+                {
+                    "description": "パッド [<no net>] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 138.35
+                    },
+                    "uuid": "398cbf53-b35b-4af0-b3d1-4b45699a27e5"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.1414 mm )",
+                    "pos": {
+                        "x": 102.55,
+                        "y": 137.6
+                    },
+                    "uuid": "90a1aa1f-a724-4b92-bf9a-e0d93966be33"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0008 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.1500 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 140.2
+                    },
+                    "uuid": "9dd1f745-34dc-4fb3-a0a8-d2b552da32c6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0657 mm)",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.3000 mm )",
+                    "pos": {
+                        "x": 103.9,
+                        "y": 142.15
+                    },
+                    "uuid": "8fe47093-ad9c-427e-bbfe-02d33a92c65f"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0008 mm)",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 102.7,
+                        "y": 140.15
+                    },
+                    "uuid": "60decff2-df20-4d54-9011-a653d8111ea1"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0515 mm)",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.3200 mm )",
+                    "pos": {
+                        "x": 103.58,
+                        "y": 142.15
+                    },
+                    "uuid": "49e3d12f-fe3d-446a-ab06-702b1a53542c"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1232 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.1621 mm )",
+                    "pos": {
+                        "x": 104.9,
+                        "y": 143.2
+                    },
+                    "uuid": "5e767ae0-128a-47aa-9633-f72dc22fc3bb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0515 mm)",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0424 mm )",
+                    "pos": {
+                        "x": 103.55,
+                        "y": 142.18
+                    },
+                    "uuid": "3f95804e-370c-4270-8d2e-9bc1214daf57"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0515 mm)",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.3700 mm )",
+                    "pos": {
+                        "x": 103.55,
+                        "y": 142.18
+                    },
+                    "uuid": "3db05974-0259-46af-a016-a3a3f8038de0"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0800 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.2828 mm )",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 139.8
+                    },
+                    "uuid": "a34a7269-55bb-4bd1-b352-7b3634bc6cb0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /TXD と USB5V_OUT)",
+            "items": [
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                },
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 109.05,
+                        "y": 148.75
+                    },
+                    "uuid": "64de56b6-c3d4-4400-9548-06616e1d60b3"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /PWR_EN と USB5V)",
+            "items": [
+                {
+                    "description": "配線 [/PWR_EN] ( B.Cu 上、長さ: 4.2000 mm )",
+                    "pos": {
+                        "x": 118.8,
+                        "y": 123.15
+                    },
+                    "uuid": "87b1b579-0844-4df6-a6c5-dd9b25503265"
+                },
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 117.899999,
+                        "y": 122.85
+                    },
+                    "uuid": "ff1d506c-8dd5-48ce-abc9-4b7a13068786"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /PWR_EN と USB5V)",
+            "items": [
+                {
+                    "description": "配線 [/PWR_EN] ( F.Cu 上、長さ: 9.0500 mm )",
+                    "pos": {
+                        "x": 110.25,
+                        "y": 127.6
+                    },
+                    "uuid": "0eb7bacf-4719-4821-91c9-78eef76b9b75"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.7778 mm )",
+                    "pos": {
+                        "x": 109.95,
+                        "y": 133.35
+                    },
+                    "uuid": "15d3c9b8-d491-4cd8-8c5b-f1432ec2fc94"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と /PWR_EN)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 5.5500 mm )",
+                    "pos": {
+                        "x": 117.899999,
+                        "y": 122.85
+                    },
+                    "uuid": "00766074-cbec-460a-9b67-fde17f135b92"
+                },
+                {
+                    "description": "配線 [/PWR_EN] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 114.15,
+                        "y": 123.6
+                    },
+                    "uuid": "4ff0a879-2040-4531-a8e5-73891e17bb84"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0187 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.4142 mm )",
+                    "pos": {
+                        "x": 103.75,
+                        "y": 144.25
+                    },
+                    "uuid": "dfdefe94-5702-45fa-ae0c-29f733b4236d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0116 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と USB5V)",
+            "items": [
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.15
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.9000 mm )",
+                    "pos": {
+                        "x": 117.6,
+                        "y": 104.0
+                    },
+                    "uuid": "b2494a26-2688-41cc-bf88-e71bd1713427"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /USB5V_SW と USB5V)",
+            "items": [
+                {
+                    "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.0500 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 143.25
+                    },
+                    "uuid": "c2268350-fb3f-4088-8f4d-7be80fdd63c8"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0542 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [GND] - C23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 116.1
+                    },
+                    "uuid": "09a888bb-f9e4-4bbc-af6f-d07ef2319084"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.2500 mm )",
+                    "pos": {
+                        "x": 118.35,
+                        "y": 115.55
+                    },
+                    "uuid": "a01c913f-a4fc-49e4-97e5-92c5c78960ec"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1218 mm)",
+            "items": [
+                {
+                    "description": "パッド 4 [GND] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 104.75
+                    },
+                    "uuid": "19fc74bd-b159-425e-a2c8-be66e72a764c"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.7071 mm )",
+                    "pos": {
+                        "x": 115.7,
+                        "y": 104.0
+                    },
+                    "uuid": "5d6ac0da-5e04-451f-9066-e1ea8e5c506b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と USB5V)",
+            "items": [
+                {
+                    "description": "パッド 2 [GND] - C23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 116.1
+                    },
+                    "uuid": "09a888bb-f9e4-4bbc-af6f-d07ef2319084"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.7500 mm )",
+                    "pos": {
+                        "x": 117.6,
+                        "y": 115.55
+                    },
+                    "uuid": "492d3ec1-3b64-43a3-9365-cd2bd759e9b9"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と unconnected-(SW2-OFF{slash}open-Pad1))",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.4500 mm )",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 140.25
+                    },
+                    "uuid": "6293a8a8-e2a1-4688-b2f6-73c2d595312f"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と /FT_TXD)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.1733 mm )",
+                    "pos": {
+                        "x": 111.9,
+                        "y": 124.0
+                    },
+                    "uuid": "3ae3d389-061c-4a31-8f79-995cc70dae03"
+                },
+                {
+                    "description": "ビア [/FT_TXD] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 111.35,
+                        "y": 123.45
+                    },
+                    "uuid": "96638b18-e331-47fa-8254-2ff255abe9ea"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0703 mm)",
+            "items": [
+                {
+                    "description": "パッド 41 [GND] - U1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.1625,
+                        "y": 116.75
+                    },
+                    "uuid": "24809851-be0d-49ad-a786-f613dc3c835b"
+                },
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.2250 mm )",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 117.175
+                    },
+                    "uuid": "2e75be68-62b3-4f54-9ef1-f70a03e7b5f1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 118.95,
+                        "y": 119.5
+                    },
+                    "uuid": "40107c56-60b8-4884-a392-dcbbcc5c7a8c"
+                },
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 7.1000 mm )",
+                    "pos": {
+                        "x": 118.35,
+                        "y": 115.3
+                    },
+                    "uuid": "469fc89a-1694-4007-a93d-86e6af3a4bb4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と GND)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 4.2000 mm )",
+                    "pos": {
+                        "x": 118.3,
+                        "y": 103.0
+                    },
+                    "uuid": "148de8e5-5c3f-4409-8b91-60668451bdf7"
+                },
+                {
+                    "description": "パッド 1 [GND] - D2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 105.7875
+                    },
+                    "uuid": "ddc04c76-d65b-400f-b293-cbd93b652352"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と USB5V)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 118.88,
+                        "y": 117.3
+                    },
+                    "uuid": "28e131a1-7c7a-4f38-b6de-102dbdde2785"
+                },
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 7.1000 mm )",
+                    "pos": {
+                        "x": 118.35,
+                        "y": 115.3
+                    },
+                    "uuid": "469fc89a-1694-4007-a93d-86e6af3a4bb4"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0201 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 112.35,
+                        "y": 122.85
+                    },
+                    "uuid": "8e2b12d3-ddaf-4aa7-80a3-5352ae6addef"
+                },
+                {
+                    "description": "ビア [/FT_TXD] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 111.35,
+                        "y": 123.45
+                    },
+                    "uuid": "96638b18-e331-47fa-8254-2ff255abe9ea"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 4.2000 mm )",
+                    "pos": {
+                        "x": 118.3,
+                        "y": 103.0
+                    },
+                    "uuid": "148de8e5-5c3f-4409-8b91-60668451bdf7"
+                },
+                {
+                    "description": "パッド 1 [GND] - D2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 105.7875
+                    },
+                    "uuid": "ddc04c76-d65b-400f-b293-cbd93b652352"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 4.2000 mm )",
+                    "pos": {
+                        "x": 118.3,
+                        "y": 103.0
+                    },
+                    "uuid": "148de8e5-5c3f-4409-8b91-60668451bdf7"
+                },
+                {
+                    "description": "パッド 2 [/LED_PWR_A] - D2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 104.2125
+                    },
+                    "uuid": "14e85bca-2764-4c50-9f8e-1f53dca3e8ed"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.7500 mm )",
+                    "pos": {
+                        "x": 117.6,
+                        "y": 115.55
+                    },
+                    "uuid": "492d3ec1-3b64-43a3-9365-cd2bd759e9b9"
+                },
+                {
+                    "description": "パッド 2 [GND] - C23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 116.1
+                    },
+                    "uuid": "09a888bb-f9e4-4bbc-af6f-d07ef2319084"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.9799 mm )",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 116.95
+                    },
+                    "uuid": "03966ce6-e2f6-4078-867b-9ac432f60724"
+                },
+                {
+                    "description": "パッド 2 [GND] - C23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.98,
+                        "y": 116.1
+                    },
+                    "uuid": "09a888bb-f9e4-4bbc-af6f-d07ef2319084"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.4500 mm )",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 140.25
+                    },
+                    "uuid": "6293a8a8-e2a1-4688-b2f6-73c2d595312f"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 7.6700 mm )",
+                    "pos": {
+                        "x": 115.2,
+                        "y": 103.5
+                    },
+                    "uuid": "0f495a6f-e99d-4853-88b1-c93455fa3812"
+                },
+                {
+                    "description": "パッド 3 [/USB_D+] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 104.75
+                    },
+                    "uuid": "adc25e39-4e6c-4ab6-8ffb-3230b25059b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 7.6700 mm )",
+                    "pos": {
+                        "x": 115.2,
+                        "y": 103.5
+                    },
+                    "uuid": "0f495a6f-e99d-4853-88b1-c93455fa3812"
+                },
+                {
+                    "description": "パッド 4 [GND] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 104.75
+                    },
+                    "uuid": "19fc74bd-b159-425e-a2c8-be66e72a764c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 102.7,
+                        "y": 140.15
+                    },
+                    "uuid": "60decff2-df20-4d54-9011-a653d8111ea1"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 7.6700 mm )",
+                    "pos": {
+                        "x": 115.2,
+                        "y": 103.5
+                    },
+                    "uuid": "0f495a6f-e99d-4853-88b1-c93455fa3812"
+                },
+                {
+                    "description": "パッド 2 [/USB_D-] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 104.75
+                    },
+                    "uuid": "0790b439-645e-40f0-8b2e-c44bb8b00891"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 108.95,
+                        "y": 148.7
+                    },
+                    "uuid": "fd878d1a-7032-4051-a3af-b97f069f97f5"
+                },
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.6500 mm )",
+                    "pos": {
+                        "x": 106.55,
+                        "y": 145.15
+                    },
+                    "uuid": "28396b2d-8089-4042-be13-d3d3063de6e4"
+                },
+                {
+                    "description": "パッド 1 [/RTS_N] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 143.655
+                    },
+                    "uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.1414 mm )",
+                    "pos": {
+                        "x": 102.55,
+                        "y": 137.6
+                    },
+                    "uuid": "90a1aa1f-a724-4b92-bf9a-e0d93966be33"
+                },
+                {
+                    "description": "パッド [<no net>] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 138.35
+                    },
+                    "uuid": "398cbf53-b35b-4af0-b3d1-4b45699a27e5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.9000 mm )",
+                    "pos": {
+                        "x": 117.6,
+                        "y": 104.0
+                    },
+                    "uuid": "b2494a26-2688-41cc-bf88-e71bd1713427"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.15
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.2728 mm )",
+                    "pos": {
+                        "x": 108.05,
+                        "y": 146.8
+                    },
+                    "uuid": "2f48e2ac-7947-468b-b253-3c55fbaf9dc5"
+                },
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.1500 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 140.2
+                    },
+                    "uuid": "9dd1f745-34dc-4fb3-a0a8-d2b552da32c6"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.0500 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 143.25
+                    },
+                    "uuid": "c2268350-fb3f-4088-8f4d-7be80fdd63c8"
+                },
+                {
+                    "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 2.4956 mm )",
+                    "pos": {
+                        "x": 104.785355,
+                        "y": 143.385355
+                    },
+                    "uuid": "49eaf8ad-9f61-42a5-9535-05216834a147"
+                },
+                {
+                    "description": "パッド 1 [/RTS_N] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 143.655
+                    },
+                    "uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.4142 mm )",
+                    "pos": {
+                        "x": 103.75,
+                        "y": 144.25
+                    },
+                    "uuid": "dfdefe94-5702-45fa-ae0c-29f733b4236d"
+                },
+                {
+                    "description": "パッド 2 [/USB5V_SW] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 142.75
+                    },
+                    "uuid": "3c2b398a-ec92-4b18-ba36-b77c908d1e38"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 3.8000 mm )",
+                    "pos": {
+                        "x": 109.1,
+                        "y": 148.8
+                    },
+                    "uuid": "58ef7891-5033-468c-9162-37ca63c0346a"
+                },
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 2.1000 mm )",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 137.7
+                    },
+                    "uuid": "c7d97065-3eda-4eab-aeee-6ec7cf2c001f"
+                },
+                {
+                    "description": "パッド [<no net>] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 138.35
+                    },
+                    "uuid": "398cbf53-b35b-4af0-b3d1-4b45699a27e5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 3.8000 mm )",
+                    "pos": {
+                        "x": 109.1,
+                        "y": 148.8
+                    },
+                    "uuid": "58ef7891-5033-468c-9162-37ca63c0346a"
+                },
+                {
+                    "description": "パッド 3 [/RXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.27,
+                        "y": 147.3
+                    },
+                    "uuid": "e61a78b5-4a7d-40a3-acaa-713336537673"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 2.7577 mm )",
+                    "pos": {
+                        "x": 102.75,
+                        "y": 142.2
+                    },
+                    "uuid": "e326226a-e169-4981-9969-6942c2489979"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 102.65,
+                        "y": 140.05
+                    },
+                    "uuid": "dc11c7ac-e1b8-4f34-b87c-5d3b22b1dfaf"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.2021 mm )",
+                    "pos": {
+                        "x": 107.2,
+                        "y": 145.15
+                    },
+                    "uuid": "61ef717a-5b58-40b0-8f08-70a91d2afb90"
+                },
+                {
+                    "description": "パッド 1 [/RTS_N] - J3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 143.655
+                    },
+                    "uuid": "293bf876-d19e-4395-9d99-2028c4e5d7fe"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 102.7,
+                        "y": 140.1
+                    },
+                    "uuid": "e09588e0-306c-410e-b23b-d15e482dfc43"
+                },
+                {
+                    "description": "パッド 1 [unconnected-(SW2-OFF/open-Pad1)] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.73,
+                        "y": 139.75
+                    },
+                    "uuid": "96df7208-1790-4de9-ab31-879987d0247b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.2021 mm )",
+                    "pos": {
+                        "x": 107.2,
+                        "y": 145.15
+                    },
+                    "uuid": "61ef717a-5b58-40b0-8f08-70a91d2afb90"
+                },
+                {
+                    "description": "パッド 1 [GND] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.19,
+                        "y": 147.3
+                    },
+                    "uuid": "0a0c2aff-d74e-466b-bdfe-fafc8f09e28a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/USB5V_SW] ( F.Cu 上、長さ: 0.8000 mm )",
+                    "pos": {
+                        "x": 102.55,
+                        "y": 136.8
+                    },
+                    "uuid": "ed961a04-a298-4b55-8e06-2e6c9df5c172"
+                },
+                {
+                    "description": "パッド [<no net>] - SW2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 103.08,
+                        "y": 138.35
+                    },
+                    "uuid": "398cbf53-b35b-4af0-b3d1-4b45699a27e5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 109.05,
+                        "y": 148.75
+                    },
+                    "uuid": "64de56b6-c3d4-4400-9548-06616e1d60b3"
+                },
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0707 mm )",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 148.8
+                    },
+                    "uuid": "7a7e89a9-922c-45c3-b94f-f3699e259eba"
+                },
+                {
+                    "description": "パッド 3 [/RXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.27,
+                        "y": 147.3
+                    },
+                    "uuid": "e61a78b5-4a7d-40a3-acaa-713336537673"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.0500 mm )",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 148.75
+                    },
+                    "uuid": "7d64e3bf-8a3f-48f6-823f-5ae1b231ee04"
+                },
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 1.0000 mm )",
+                    "pos": {
+                        "x": 108.95,
+                        "y": 147.7
+                    },
+                    "uuid": "9faeda09-4f2a-49c0-b1a1-949c67b25fc3"
+                },
+                {
+                    "description": "パッド 2 [/TXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 109.73,
+                        "y": 147.3
+                    },
+                    "uuid": "2feedcce-1820-4897-8bba-526c4faa2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V_OUT] ( F.Cu 上、長さ: 0.4000 mm )",
+                    "pos": {
+                        "x": 112.95,
+                        "y": 148.75
+                    },
+                    "uuid": "cc18942b-0e5d-4998-a9c6-23727f66b40b"
+                },
+                {
+                    "description": "パッド 3 [/RXD] - J2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.27,
+                        "y": 147.3
+                    },
+                    "uuid": "e61a78b5-4a7d-40a3-acaa-713336537673"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

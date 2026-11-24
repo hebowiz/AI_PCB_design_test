@@ -1,0 +1,19 @@
+[
+  {
+    "removed_isolated_source_stub": {
+      "uuid": "2983ba69-3445-4380-b8b7-bcf0cde261e5",
+      "net": "GND",
+      "a": [
+        102.6625,
+        134.0
+      ],
+      "b": [
+        102.65,
+        134.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  }
+]
