@@ -33,9 +33,9 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeは`codex/a2-pcb-quality-r0028-r0032`の`87711e88e10653e79fdce9c3ade341b8f1440489`を参照する。2026-11-24、ユーザーのKiCadレビュー用Workspace更新依頼に基づき配置した。回路図はR-0016まで承認済み。PCBのR-0017〜R-0027は最終判定保留、R-0028〜R-0032は確認待ち・未判定であり、今回の更新はOK判定ではない。
+固定Worktreeは`codex/a2-pcb-corners-decoupling`の`22a74e75bdd508a28644a9df42fda8d10793d63e`を参照する。2026-11-25 01:03 JST、ユーザーの明示依頼でPCB再修正候補を配置した。R-0024・R-0027・R-0029は確認待ち・未判定。R-0017〜R-0023、R-0025、R-0026、R-0028、R-0030〜R-0032は直前の候補に対してユーザーOK。回路図はR-0016まで承認済み。
 
-修正候補の検証結果はERC・DRC・未配線・回路図不一致が各0件。今回のWorkspace更新ではプロジェクト・回路図・PCB・カスタムルールのGit blob一致を確認し、ERC/DRCは再実行していない。比較画像・検証条件・残課題は固定Workspace内の`01_New_Design/kicad_direct/reports/pcb_quality_revision/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のまま。
+候補版はERC・DRC・未配線・回路図不一致が各0件。CAD4ファイルのGit blob一致を確認した。58部品、615配線、100ビア、6ゾーン、1.6mm厚。比較画像・検証条件・残課題は固定Workspace内の`01_New_Design/kicad_direct/reports/pcb_power_polish/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のまま。
 
 ## Codexの基本ルール
 
@@ -77,3 +77,9 @@ D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Des
 23:40 JST、`workspace/a2-active`を`5596d3bc8802687b89b21fd9c57e1117ec9382e5`から`87711e88e10653e79fdce9c3ade341b8f1440489`へfast-forwardした。未コミットのプロジェクト設定は`workspaces/_backups/A-2-20261124-234010/a2_usb_uart.kicad_pro`とGit stash `c8af3aafe7a6c3fa85550309751a95bdfcd29804`へ退避し、候補版の設定を使用する。旧設定は再適用していない。`.history/`は保持した。
 
 更新後のCAD4ファイルは対象コミットと一致した。KiCad APIで部品58個、配線694本、ビア96個、ゾーン6個、板厚1.6mmを確認した。追跡対象に未コミット変更はない。mainの既存プロジェクト設定変更と既存設計ブランチは保護し、レビュー判定を変更していない。更新記録はバックアップフォルダの`update_record.json`に保存した。
+
+## 2026-11-25 直角配線・電源デカップリング再修正候補への更新
+
+01:03 JST、ユーザーの依頼により`workspace/a2-active`を`87711e88e10653e79fdce9c3ade341b8f1440489`から`22a74e75bdd508a28644a9df42fda8d10793d63e`へfast-forwardした。未コミットのプロジェクト設定は`workspaces/_backups/A-2-20261125-010305/`とstash `408b61b3c6f00e48c6caed48828bdcd8fe7d0eea`へ保存し、検証した候補版の設定を使用する。`.history/`7ファイル、mainの既存設定変更、既存設計ブランチを保持した。
+
+更新後のCAD4ファイルは対象コミットと一致し、追跡対象に未コミット変更はない。PCB・回路図エディタは更新前に起動していなかった。ローカルの`update_record.json`にバックアップ・stash・ハッシュを記録した。R-0024・R-0027・R-0029の最終判定は未取得。
