@@ -4,7 +4,7 @@
 対象: A-2、codex/a2-r0033-3d-models、`cd67233358d06e299d319934ea59fc6a67662b57`
 対象箇所: `01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb`、J2
 重要度: Major（受付時）
-状態: 調査中 / 未判定
+状態: 確認待ち / 未判定
 
 ## 指摘内容
 
@@ -81,3 +81,39 @@ J2の暫定ランドを残してモデルの突出量だけ移動する案は、
 - [推奨ランド図 B、2022-06-07](https://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-sh-xx-xxx-x-xx-footprint.pdf)
 - [対象PCB](https://github.com/hebowiz/AI_PCB_design_test/blob/cd67233358d06e299d319934ea59fc6a67662b57/01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb)
 - [既存モデルの生成条件](https://github.com/hebowiz/AI_PCB_design_test/blob/cd67233358d06e299d319934ea59fc6a67662b57/01_New_Design/kicad_direct/reports/3d_models/scripts/build_models.py)
+
+## 修正・検証 — 2026-11-25 16:58 JST
+
+ユーザーから、J3の現行パッドサイズを確認したうえでレイアウトを修正する指示を受けた。基準版から専用ブランチcodex/a2-r0034-header-layoutを作り、[修正コミット](https://github.com/hebowiz/AI_PCB_design_test/commit/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a)に保存した。
+
+### J3の照合と実装内容
+
+J3はTSM-104-01-T-SV。現行ランドは列方向幅1.00×尾部方向長さ2.51mm、千鳥中心±1.655mmで、選定品の推奨寸法と一致していなかった。[Samtec推奨ランド図D](https://suddendocs.samtec.com/prints/tsm-1xx-xx-xx-sv-xx-xxx-xx-footprint.pdf)に従い、1.27×3.429mm、千鳥中心±1.4605mmへ修正した。2.54mmピッチと端子番号・ネットは維持した。
+
+公式上面視図を180°回して1番端子を左側に置き、奇数番の尾部を基板内側へ向けた。新しいローカルフットプリントA2:TSM_104_SVと、[部品図CG](https://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-sv-xx-xxx-x-xx-mkt.pdf)に基づく独自の簡略モデルを追加した。型番にないLC/Aオプション穴は追加していない。
+
+### 配置・配線の変更と判断
+
+J2のランドも1.27×3.175mmへ修正し、パッド列をY=147.300から143.1928mmへ移した。樹脂前面は基板端Y=150mmと一致する。モデル原点は推奨ランドとの対応に合わせて0.7172mm補正し、モデル寸法は変えていない。
+
+J3をY=137.9mmへ移し、干渉する可変電源周辺とGND帰路のためにJ2、J3、U4、C18、C19、R7、R8、R10、R12の9部品を移動・回転した。他の49部品は位置・回転を維持。TP1/TP2/R17、USB、FT232H、水晶、スイッチ類は移動していない。J3のCourtyardを実形状に沿わせ、TP2の移動を避けた。9部品が数学的な最小移動数であるとは検証していない。
+
+初期の局所配線ではGND領域の分離とVIOの迂回が生じた。R12の向きと位置を見直し、端子の引き出しを確保して復旧した。試行で追加したGND配線の撤回は、一括処理が自動承認審査で拒否されたため、対象UUIDを特定して1個ずつDRC・未配線を検証する方法へ変更した。29個中28個を撤回し、必要な1個は残した。VIOの約48.65mmの迂回は約10.71mmへ短縮し、狭い通路約1.70mmだけ0.15mm幅を残した。USB5V系の幅条件は維持した。
+
+総配線長は808.25から878.90mmへ増えた。コネクタと周辺部品の移動に伴う増分で、全体の配線長最適化を達成したとは扱わない。試行・採否と幅・経路の比較は[設計レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/README.md)に記録した。
+
+### 検証・保全
+
+- ERC・DRC・未配線・回路図不一致は各0件。除外・設定の追加なし。
+- 58部品の値・型番、全パッドの接続、回路図のネット・端子機能・電気種別は一致。回路図の変更はJ3のFootprint関連付けだけ。
+- USB差動線と水晶線のUUID・座標・層・幅・ビアを維持。非45°線分、IC短辺中央以外の引き出し、不自然な同一ネットのパッド接触は各0件。90°以上の曲がりはパッド・ビア接触と分岐点を除く2線分間で0件。
+- 外形22×50mm、板厚1.6mm、2層、6ゾーンを維持。プロジェクト設定・カスタムルールは基準版と一致。
+- BOM・Gerber・既存生成スクリプト・既存設計ブランチ・固定Workspaceは変更していない。mainの既存未コミットCADも保護した。
+
+[検証集計](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/integrity.json)、[配線差分](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/copper_diff.json)、[前後画像](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/images/comparison.png)、[3D画像](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/images/after_3d.png)を参照。表裏の全体図・拡大図と3Dを確認し、R7/R8の文字位置も修正した。
+
+### 残る確認と判定
+
+R-0034は確認待ち・未判定。ユーザーの最終OKは未実施。実物のピン1方向・嵌合空間・公差・実装工程と、移動後のU4/C18/C19の電源・GND帰路を確認する必要がある。簡略3DモデルはメーカーCADではなく、公差や端子曲げの細部を省略している。製造データは旧版のまま。
+
+設計作業は2026-11-25 15:36〜16:50 JST、約75分。固定Workspaceへの反映は別途指示後に行う。

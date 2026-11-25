@@ -773,3 +773,12 @@ R-0033をユーザーのOK判定により完了へ更新し、J2の樹脂部外�
 試行: 最初のfetchは共有Git領域の権限で失敗し、許可されたfetchで再実行。ビアGetWidthの層引数省略はAPIアサートとなり中断、F.Cuを明示して読み取りをやり直した。matplotlib未導入のため画像生成はPillowへ変更。設計ファイルの保存・再生成は行っていない。
 
 保全確認: 設計Worktreeは`cd67233358d06e299d319934ea59fc6a67662b57`で追跡ファイル差分なし。固定Workspaceは`22a74e75bdd508a28644a9df42fda8d10793d63e`のまま、既存`.history/`を保持。mainの既存プロジェクト設定SHA-256も不変。台帳34件・15列、既存33行の一致を確認した。
+
+## 2026-11-25 16:58 JST — R-0034 J2/J3ランド照合と局所配置修正
+
+目的: J3の現行パッドを確認し、J2樹脂前面を基板端に合わせる。
+実施操作: Samtec公式図面を照合し、専用ブランチでJ2/J3ランドと9部品の配置・関連配線を修正。KiCad 10.0.8のpcbnew API、kicad-cli sch erc、kicad-cli pcb drc、ネットリスト出力とPython比較、表裏PDF・3D出力を実行。Windows/FreeCAD 0.20を使用。試行コマンド・スクリプト・失敗と再試行は[設計レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/README.md)に保存。
+変更ファイル: 設計ブランチのPCB・回路図のJ3 Footprint属性・ローカルフットプリント/モデル・reports/header_layout・作業ログ。mainは共通台帳、R-0034詳細、作業・議論・判断ログのみ。
+結果: ERC・DRC・未配線・回路図不一致0件。58部品の接続を保護。設計コミット07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0aをpush済み。R-0034は確認待ち・未判定。
+保全: mainの既存未コミット.kicad_pro、固定Workspace、旧設計ブランチ、製造データを変更していない。台帳34件・15列、R-0001〜R-0033の行を維持。
+未解決事項: 機構・実装公差、移動後の電源帰路、人間による最終レビュー。設計作業約75分。
