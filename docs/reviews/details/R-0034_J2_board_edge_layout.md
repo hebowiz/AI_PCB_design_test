@@ -4,9 +4,9 @@
 対象: A-2、codex/a2-r0033-3d-models、`cd67233358d06e299d319934ea59fc6a67662b57`
 対象箇所: `01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb`、J2
 重要度: Major（受付時）
-状態: 調査中 / 未判定
+状態: 確認待ち / 未判定
 
-> 追記訂正: 修正コミット07cc2d9のJ2は、F.Fabと基板端だけが一致し、3D樹脂前面は0.7172mm内側に残っている。以下の過去の「モデル原点を補正」「3D確認済み」は成立していなかった。末尾の再確認結果を参照。
+> 追記訂正: 修正コミット07cc2d9のJ2は、F.Fabと基板端だけが一致し、3D樹脂前面は0.7172mm内側に残っている。以下の過去の「モデル原点を補正」「3D確認済み」は成立していなかった。再確認の経緯と末尾の再対応結果を参照。
 
 ## 指摘内容
 
@@ -144,3 +144,17 @@ R-0034は確認待ち・未判定。ユーザーの最終OKは未実施。実物
 
 [再確認の数値証跡](../evidence/R-0034/model_alignment_recheck.json)。
 [対象の上面拡大画像](https://github.com/hebowiz/AI_PCB_design_test/blob/07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a/01_New_Design/kicad_direct/reports/header_layout/images/after_top_detail.png)。
+
+## 再対応・保存後検証 — 2026-11-25 20:35 JST
+
+ユーザーの「再対応をお願い」を受け、同じ専用ブランチでJ2の3Dオフセットを再対応した。修正候補は[5cce544](https://github.com/hebowiz/AI_PCB_design_test/commit/5cce544232e1f0eb137ef95f5060eeea5c9729ef)。
+
+PCBとローカルフットプリントの該当model式だけを一意に特定し、Yオフセットを0から-0.7172mmへ変更した。2ファイルはこの数値以外のバイトが変更前と完全一致する。銅箔・配置・パッド・ネット・ゾーン・3Dモデル形状と倍率は不変。
+
+保存したPCBをLoadBoard、ライブラリをFootprintLoadで別途再読込し、両者のオフセットが-0.7172mmであることを確認した。VRMLの樹脂頂点をPCB座標へ換算するとY=147.460000012〜150.000000012mmとなり、F.Fabの147.46〜150.00mmと基板端150.00mmに一致する。差約0.000000012mmはVRML小数丸めの範囲で、判定許容値0.000001mm内。
+
+新たに上面・上面拡大・斜視をレンダリングし、上面でも隙間が解消したことを確認した。ERC・DRC・未配線・回路図不一致は各0件。旧レポートには誤った一致報告の訂正と新レポートへの案内を追加し、初回画像は履歴として残した。
+
+[再対応レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/README.md)、[保存後の座標検証](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/checks/alignment.json)、[上面拡大画像](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/images/top_detail.png)、[DRC](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/checks/drc.json)、[ERC](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/checks/erc.json)。
+
+R-0034は確認待ち・未判定。実物の公差・嵌合と、前回移動した電源周辺のレビューは残る。回路図・製造データ・固定Workspace・mainの既存未コミットCADは変更していない。再対応は20:31 JST開始、約5分。

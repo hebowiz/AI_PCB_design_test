@@ -791,3 +791,8 @@ R-0033をユーザーのOK判定により完了へ更新し、J2の樹脂部外�
 変更ファイル: 共通台帳、R-0034詳細・数値証跡、作業・議論・判断ログ。
 証跡: [再確認結果](reviews/evidence/R-0034/model_alignment_recheck.json)。設計候補07cc2d9は変更せず、mainの既存CAD変更と固定Workspaceも維持。
 未検証: 正しいモデル書き戻しと再出力後の一致。修正は今回未実施。
+
+## 2026-11-25 20:35 JST — R-0034の3D端合わせ再対応を記録
+
+ユーザーの再対応指示に従い、専用ブランチのJ2モデルオフセットを保存。PCB/ローカルライブラリの2箇所以外はバイト不変。KiCad 10.0.8 LoadBoard/FootprintLoadで保存後の設定を再読込し、樹脂前面と基板端の差が0.000001mm未満であることを検証。上面・拡大・斜視PNGを確認し、CLIによるERC・DRC・未配線・回路図不一致0件。設計コミット5cce544232e1f0eb137ef95f5060eeea5c9729efをpush済み。
+mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列と他IDの内容・判定を維持。mainの既存CAD・固定Workspace・製造データは保護。使用スキルはdesign-review-records、文書推敲はyomiyasu。実物公差・嵌合と最終判定は未確認。[証跡](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/README.md)。
