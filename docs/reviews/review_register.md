@@ -2,11 +2,11 @@
 
 正本はmainの本ファイル。運用は[README](README.md)、個別詳細は[details/](details/)、ひな形は[詳細テンプレート](templates/review_detail.md)を参照する。
 
-登録34件。発行済みIDは`R-0001`〜`R-0034`。過去レポートからの自動転記は行っていない。
+登録35件。発行済みIDは`R-0001`〜`R-0035`。過去レポートからの自動転記は行っていない。
 
 ## A-2 PCBレビュー
 
-固定Workspaceは、ユーザーの更新依頼によりR-0034修正候補codex/a2-r0034-header-layoutの5cce544232e1f0eb137ef95f5060eeea5c9729efを参照する。最終判定は確認待ち。
+固定Workspaceは、ユーザーの更新依頼によりR-0034修正候補codex/a2-r0034-header-layoutの5cce544232e1f0eb137ef95f5060eeea5c9729efを参照する。R-0034はユーザーOK。USBコネクタと基板端の位置確認をR-0035として受け付けた。
 
 R-0033の3Dモデル補完版`cd67233358d06e299d319934ea59fc6a67662b57`はユーザーOK。J2配置はR-0034として別途管理する。
 
@@ -16,7 +16,7 @@ R-0024・R-0027・R-0029の再レビュー候補は`codex/a2-pcb-corners-decoupl
 
 開始時の対象は`codex/a2-pcb-sync`、コミット`a300e1c7cd89654fd2800c1bc7b8bad59dae5516`。当時の固定Workspaceの`workspace/a2-active`も同コミットを参照していた。対象ファイルは`01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb`。回路図との同期済みPCBをレビューし、BOM・Gerber・実装座標などの製造データは旧版として扱う。
 
-回路レビューから通し番号を継続し、次の新規指摘はR-0035。指摘収集モードで質問も一件ずつ登録し、複数件をまとめて受け付ける。返答はIDと要旨のみ。一括調査の指示で調査し、承認された項目だけ別の設計ブランチで修正する。最終判定はユーザーが行う。収集の区切りでコミット・pushする。
+回路レビューから通し番号を継続し、次の新規指摘はR-0036。指摘収集モードで質問も一件ずつ登録し、複数件をまとめて受け付ける。返答はIDと要旨のみ。一括調査の指示で調査し、承認された項目だけ別の設計ブランチで修正する。最終判定はユーザーが行う。収集の区切りでコミット・pushする。
 
 既存R-0001〜R-0016のOK判定を維持する。以下の既存行にある検証結果やPCB未反映の記述は、各回路修正時点の記録。今回のPCBへの反映結果は[同期版の検証記録](https://github.com/hebowiz/AI_PCB_design_test/blob/a300e1c7cd89654fd2800c1bc7b8bad59dae5516/01_New_Design/kicad_direct/reports/pcb_sync/README.md)を参照する。開始時点ではPCBレビュー指摘は未登録、PCBの最終判定も未実施。
 
@@ -55,4 +55,5 @@ R-0024・R-0027・R-0029の再レビュー候補は`codex/a2-pcb-corners-decoupl
 | R-0031 | 2026-11-24 22:15 JST | ユーザー | PCB | A-2、codex/a2-pcb-review-batch1、5596d3bc8802687b89b21fd9c57e1117ec9382e5 | a2_usb_uart.kicad_pcb、同一ネットのパッド–配線間・狭ピッチIC | Major | 意図的な接続以外の同一ネットのパッド–配線間にも異ネット同等の離隔を確保する。狭ピッチパッド間の通過と側面への近接・接触を禁止し、正常な短辺中央接続は除外して幾何検査する。 | PWREN_NのU2パッド間通過を外側接続へ変更し、FT_TXD・電源・ヘッダ進入も整理。パッド間通過0、IC短辺中央65交点のずれ0。近接14組は意図的接続近傍・保護経路として人間確認へ残す。 | 完了 | OK | ユーザー | 2026-11-25 00:18 JST | codex/a2-pcb-quality-r0028-r0032、87711e88e10653e79fdce9c3ade341b8f1440489 | [受付・関連項目](batches/2026-11-24_R-0028_R-0032_collection.md)・[調査・修正計画](batches/2026-11-24_R-0028_R-0032_investigation.md)・[修正承認](batches/2026-11-24_R-0028_R-0032_authorization.md)・[修正・検証](batches/2026-11-24_R-0028_R-0032_changes.md)・[今回の判定・再修正](batches/2026-11-25_R-0017_R-0032_verdict_rework.md) |
 | R-0032 | 2026-11-24 22:15 JST | ユーザー | PCB | A-2、codex/a2-pcb-review-batch1、5596d3bc8802687b89b21fd9c57e1117ec9382e5 | a2_usb_uart.kicad_pcb、USB5V・USB5V_SW・USB5V_OUT等 | Major | USB5V系を原則0.5mm以上とし、分岐電源も電流容量を考慮する。物理制約で必要な短いネックダウンだけを許容し、幅・長さ・必要性を記録する。USB信号線とは区別する。 | USB5V系3ネットを0.5mmへ再配線し、GND帰路を補った。U1.40のみ0.25mm、中心線1.18721mm（パッド外約0.44971mm）のネックを残し、ERC・DRC・未配線・回路図整合性0件。 | 完了 | OK | ユーザー | 2026-11-25 00:18 JST | codex/a2-pcb-quality-r0028-r0032、87711e88e10653e79fdce9c3ade341b8f1440489 | [受付・関連項目](batches/2026-11-24_R-0028_R-0032_collection.md)・[調査・修正計画](batches/2026-11-24_R-0028_R-0032_investigation.md)・[修正承認](batches/2026-11-24_R-0028_R-0032_authorization.md)・[修正・検証](batches/2026-11-24_R-0028_R-0032_changes.md)・[今回の判定・再修正](batches/2026-11-25_R-0017_R-0032_verdict_rework.md) |
 | R-0033 | 2026-11-25 14:28 JST | ユーザー | PCB | A-2、codex/a2-pcb-corners-decoupling、22a74e75bdd508a28644a9df42fda8d10793d63e | J1、J2、D1/D5等の3Dモデル | Minor | 未実装ではなく3Dモデルが欠けている部品を確認し、メーカー公式モデルを入手・反映する。公式が使えなければ代替手段を検討する。 | J1へMolex公式STEP、J2とD1/D5へ公式寸法図に基づく簡略モデル、R17へKiCad汎用モデルを反映。3D設定以外は不変でERC・DRC・未配線・回路図整合性0件。J2の配置問題はR-0034で別途管理する。 | 完了 | OK | ユーザー | 2026-11-25 15:22 JST | codex/a2-r0033-3d-models、cd67233358d06e299d319934ea59fc6a67662b57 | [詳細](details/R-0033_missing_3d_models.md) |
-| R-0034 | 2026-11-25 15:22 JST | ユーザー | PCB | A-2、codex/a2-r0033-3d-models、cd67233358d06e299d319934ea59fc6a67662b57 | a2_usb_uart.kicad_pcb、J2と基板外形 | Major | J2が基板外形からはみ出して実装できない。基板外形とJ2の樹脂部外形を揃えるよう配置を修正し、他部品の配置変更は最小限にする。 | J2/J3の推奨ランド化と9部品の局所再配置に加え、未保存だったJ2モデル位置補正を再対応。保存後の樹脂前面と基板端がY=150mmで一致し、ERC・DRC・未配線・回路図不一致0件。実物の嵌合・公差と電源帰路はレビュー待ち。 | 確認待ち | 未判定 | 未判定 | 未判定 | codex/a2-r0034-header-layout、5cce544232e1f0eb137ef95f5060eeea5c9729ef | [詳細](details/R-0034_J2_board_edge_layout.md) |
+| R-0034 | 2026-11-25 15:22 JST | ユーザー | PCB | A-2、codex/a2-r0033-3d-models、cd67233358d06e299d319934ea59fc6a67662b57 | a2_usb_uart.kicad_pcb、J2と基板外形 | Major | J2が基板外形からはみ出して実装できない。基板外形とJ2の樹脂部外形を揃えるよう配置を修正し、他部品の配置変更は最小限にする。 | J2/J3の推奨ランド化と9部品の局所再配置に加え、未保存だったJ2モデル位置補正を再対応。保存後の樹脂前面と基板端がY=150mmで一致し、ERC・DRC・未配線・回路図不一致0件。実物の嵌合・公差と電源特性の実測は未検証。 | 完了 | OK | ユーザー | 2026-11-25 20:50 JST | codex/a2-r0034-header-layout、5cce544232e1f0eb137ef95f5060eeea5c9729ef | [詳細](details/R-0034_J2_board_edge_layout.md) |
+| R-0035 | 2026-11-25 20:50 JST | ユーザー | PCB | A-2、codex/a2-r0034-header-layout、5cce544232e1f0eb137ef95f5060eeea5c9729ef | a2_usb_uart.kicad_pcb、J1（USBコネクタ）と基板外形 | Major | USBコネクタと基板外形の間に隙間があるように見える。基板端に対するコネクタの位置が正しいか確認する。 | 受付のみ。位置の適否は未調査。 | 未着手 | 未判定 | 未判定 | 未判定 | 未実施 | [詳細](details/R-0035_USB_connector_board_edge.md) |

@@ -801,3 +801,8 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 
 ユーザーの明示依頼でdesign-workspace-managementを適用。未コミット追跡変更なし・fast-forward可能・PCB/回路図エディタ停止を確認し、git merge --ff-onlyでworkspace/a2-activeを22a74e75から5cce544232e1f0eb137ef95f5060eeea5c9729efへ更新した。USBローカルモデル2点は新規コピーしハッシュ確認。CAD4点とライブラリ・モデル計38ファイルはgit hash-objectと対象コミットのblobが一致。.history/7ファイルはハッシュ不変。pcbnewで58部品・銅箔アイテム788・6ゾーン・厚さ1.6mm・J2モデルY=-0.7172mmを確認した。
 変更した管理文書はdesign_workspaces.md、共通台帳の参照先説明、R-0034詳細、本ログ。レビュー判定・設計ブランチ・mainの既存CAD変更は保護。ローカル証跡はworkspaces/_backups/A-2-20261125-203945/update_record.json。製造データは旧版、人間の最終判定は未実施。
+
+## 2026-11-25 20:50 JST — R-0034判定とR-0035受付
+
+ユーザーの明示OKを受け、固定Workspaceの対象版5cce544232e1f0eb137ef95f5060eeea5c9729efに対してR-0034を完了・OKへ更新。USBコネクタJ1と基板端の位置確認を次番R-0035として未着手・未判定で登録した。指摘収集のため詳細調査・修正・検証は実施していない。
+変更は共通台帳、R-0034/R-0035詳細、固定Workspaceの現在状態説明、本ログ。設計・固定Workspace・mainの既存CAD変更は保護。design-review-recordsに従い判定と新規指摘を分け、yomiyasuの方針で記録を整理した。

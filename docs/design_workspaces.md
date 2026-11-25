@@ -33,7 +33,7 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeはcodex/a2-r0034-header-layoutの5cce544232e1f0eb137ef95f5060eeea5c9729efを参照する。2026-11-25 20:40 JST、ユーザーの明示依頼によりJ2/J3レイアウトとJ2モデル位置補正を含むレビュー候補へ更新した。R-0034およびR-0024・R-0027・R-0029の最終判定は未取得。R-0033のOK判定と、既存の回路・PCB判定は維持する。
+固定Worktreeはcodex/a2-r0034-header-layoutの5cce544232e1f0eb137ef95f5060eeea5c9729efを参照する。2026-11-25 20:40 JST、ユーザーの明示依頼によりJ2/J3レイアウトとJ2モデル位置補正を含むレビュー候補へ更新した。R-0034はユーザーOK。R-0024・R-0027・R-0029の最終判定は未取得。USBコネクタと基板端の位置確認はR-0035として受付済み。R-0033のOK判定と、既存の回路・PCB判定は維持する。
 
 CAD4ファイルとローカルライブラリ・モデルを含む38ファイルのGit blob一致を確認した。58部品、配線・ビア計788個、6ゾーン、板厚1.6mm。保存済みJ2モデルYオフセットは-0.7172mm。候補版のERC・DRC・未配線・回路図不一致は各0件で、更新作業ではCADを再生成していない。最新の3D画像と検証結果は固定Workspace内の01_New_Design/kicad_direct/reports/header_alignment_fix/README.mdを参照する。BOM・Gerber・実装座標は旧版のまま。
 
