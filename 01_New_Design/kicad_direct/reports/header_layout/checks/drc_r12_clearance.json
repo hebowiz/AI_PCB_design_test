@@ -1,0 +1,131 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T16:20:52",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント R12",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 135.6
+                    },
+                    "uuid": "90035de8-152c-4210-8509-7066b199706a"
+                },
+                {
+                    "description": "フットプリント SW1",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 134.0
+                    },
+                    "uuid": "a99ce71e-fadb-4e33-9f49-690466b18d25"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0727 mm)",
+            "items": [
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 133.05
+                    },
+                    "uuid": "5ddf68bb-7dbc-4303-acd0-5cf789df118e"
+                },
+                {
+                    "description": "セグメント of R17 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 104.45,
+                        "y": 132.6
+                    },
+                    "uuid": "60164216-3951-4a48-a575-7928c82f0d1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 135.6
+                    },
+                    "uuid": "23761536-9311-471d-96f8-2a551ae69288"
+                },
+                {
+                    "description": "パッド 2 [/FB_2V5] - SW1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.27,
+                        "y": 135.5
+                    },
+                    "uuid": "380e5bd1-a02d-460b-af56-e194181c096e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

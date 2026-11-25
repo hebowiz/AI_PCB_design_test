@@ -1,0 +1,582 @@
+[
+  {
+    "item": {
+      "uuid": "0630119b-c733-41b4-b46f-aac7b2c24947",
+      "net": "GND",
+      "a": [
+        113.65,
+        135.05
+      ],
+      "b": [
+        115.1,
+        135.05
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "085e4660-e232-4522-8bd9-e87c912a28f9",
+      "net": "GND",
+      "a": [
+        117.85,
+        124.3
+      ],
+      "b": [
+        117.85,
+        124.1
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "0f37eabd-77ea-4466-9e22-42e1ba62e2e3",
+      "net": "GND",
+      "a": [
+        108.8,
+        131.4
+      ],
+      "b": [
+        108.8,
+        133.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "266dc629-99b5-4be0-a937-3755dc617332",
+      "net": "GND",
+      "a": [
+        112.27,
+        136.4395
+      ],
+      "b": [
+        112.2595,
+        136.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "3e493be2-5ffe-4200-8a68-8d5ab01407c4",
+      "net": "GND",
+      "a": [
+        118.15,
+        129.199999
+      ],
+      "b": [
+        118.15,
+        127.2
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "7f0f47a4-fbd4-4b41-ad08-38d5aa7229f0",
+      "net": "GND",
+      "a": [
+        118.2,
+        124.65
+      ],
+      "b": [
+        117.85,
+        124.3
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "80913083-908c-422e-b5b9-d994fba832ea",
+      "net": "GND",
+      "a": [
+        112.25,
+        136.45
+      ],
+      "b": [
+        113.65,
+        135.05
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "9e68d7b4-9241-411a-84cb-9f0bfc461352",
+      "net": "GND",
+      "a": [
+        108.775,
+        133.0
+      ],
+      "b": [
+        108.8,
+        133.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "bf5d7d48-1a36-44bd-adcb-645f9ac08220",
+      "net": "GND",
+      "a": [
+        117.7,
+        129.65
+      ],
+      "b": [
+        118.15,
+        129.199999
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "d0809065-0eb9-4a89-aeb6-a57f9453d7c7",
+      "net": "GND",
+      "a": [
+        109.95,
+        125.95
+      ],
+      "b": [
+        109.95,
+        130.25
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "da0d8af8-298e-428c-842a-4768a06692f9",
+      "net": "GND",
+      "a": [
+        118.2,
+        127.15
+      ],
+      "b": [
+        118.2,
+        124.65
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": false,
+    "violations": 0,
+    "unconnected": 1
+  },
+  {
+    "item": {
+      "uuid": "df181d3a-883a-43ff-bd1f-d2444d61aead",
+      "net": "GND",
+      "a": [
+        109.95,
+        130.25
+      ],
+      "b": [
+        108.8,
+        131.4
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "e4ec510f-e711-4090-83a3-923eca6ab0bc",
+      "net": "GND",
+      "a": [
+        118.15,
+        127.2
+      ],
+      "b": [
+        118.2,
+        127.15
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "e73178c4-44ec-464d-b45b-6e235380b289",
+      "net": "GND",
+      "a": [
+        112.2595,
+        136.45
+      ],
+      "b": [
+        112.25,
+        136.45
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "f0a93615-2a0d-49d7-bce2-a9156f316519",
+      "net": "GND",
+      "a": [
+        111.9,
+        124.0
+      ],
+      "b": [
+        109.95,
+        125.95
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "05314228-d474-4a40-bae9-b3ee41ab823c",
+      "net": "GND",
+      "a": [
+        117.85,
+        124.1
+      ],
+      "b": [
+        117.85,
+        124.1
+      ],
+      "layer": 0,
+      "width": 0.6,
+      "via": true
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "09db138a-cee6-4aa2-a923-12ab56471009",
+      "net": "GND",
+      "a": [
+        111.9,
+        124.0
+      ],
+      "b": [
+        111.9,
+        124.0
+      ],
+      "layer": 0,
+      "width": 0.6,
+      "via": true
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "36929517-0e2c-4d84-9547-5e38ec8865d8",
+      "net": "GND",
+      "a": [
+        117.7,
+        129.65
+      ],
+      "b": [
+        117.7,
+        129.65
+      ],
+      "layer": 0,
+      "width": 0.6,
+      "via": true
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "f06e74c5-c933-4f14-afb0-4712c2239c0d",
+      "net": "GND",
+      "a": [
+        115.1,
+        135.05
+      ],
+      "b": [
+        115.1,
+        135.05
+      ],
+      "layer": 0,
+      "width": 0.6,
+      "via": true
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "2b21424d-7c37-4157-a098-f92beeb3be73",
+      "net": "GND",
+      "a": [
+        111.9,
+        123.2
+      ],
+      "b": [
+        111.9,
+        124.0
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "2e85f8ee-b0e0-4d37-a089-6148007b1911",
+      "net": "GND",
+      "a": [
+        117.85,
+        124.1
+      ],
+      "b": [
+        119.35,
+        124.1
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "3b8d364c-bd2d-4a95-8658-e73d4cdf02ad",
+      "net": "GND",
+      "a": [
+        112.45,
+        120.6
+      ],
+      "b": [
+        111.65,
+        121.4
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "670129ce-2154-4120-9743-067aab2325e0",
+      "net": "GND",
+      "a": [
+        111.65,
+        122.95
+      ],
+      "b": [
+        111.9,
+        123.2
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "694b86af-7aec-4f61-96ea-dcac6e8235cd",
+      "net": "GND",
+      "a": [
+        115.1,
+        132.25
+      ],
+      "b": [
+        117.7,
+        129.65
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "98dcde5e-2534-48d2-aee3-90f10e223ec7",
+      "net": "GND",
+      "a": [
+        119.35,
+        124.1
+      ],
+      "b": [
+        119.35,
+        122.9
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "bd9e7ff3-ed3e-4a53-ae51-c3efac81fed9",
+      "net": "GND",
+      "a": [
+        115.1,
+        135.05
+      ],
+      "b": [
+        115.1,
+        132.25
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "bf8efacd-3f81-4e01-aa24-59ec8ba85217",
+      "net": "GND",
+      "a": [
+        111.65,
+        121.4
+      ],
+      "b": [
+        111.65,
+        122.95
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "e004910a-518f-4bc3-bef3-63ff94f95f9f",
+      "net": "GND",
+      "a": [
+        117.05,
+        120.6
+      ],
+      "b": [
+        112.45,
+        120.6
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  },
+  {
+    "item": {
+      "uuid": "e96e617c-1fc8-479e-9d9f-bd61ad388395",
+      "net": "GND",
+      "a": [
+        119.35,
+        122.9
+      ],
+      "b": [
+        117.05,
+        120.6
+      ],
+      "layer": 2,
+      "width": 0.15,
+      "via": false
+    },
+    "accepted": true,
+    "violations": 0,
+    "unconnected": 0
+  }
+]

@@ -1,0 +1,27 @@
+routed VIO (106.95, 128.2) (106.1, 133.0) new 2 vis 1740
+routed /FT_CTS_N (107.1, 130.625) (107.482, 130.5) new 7 vis 173
+routed /PWR_EN (102.4, 130.25) (110.25, 127.6) new 8 vis 27108
+routed /TXD (109.73, 145.2) (107.6, 133.949999) new 5 vis 13285
+routed /FB (106.8, 130.25) (109.8, 133.85) new 11 vis 11259
+routed /FB (109.8, 133.85) (109.8, 132.4) new 1 vis 30
+routed /FB (109.8, 132.4) (112.2, 133.5) new 3 vis 493
+routed /FB (112.2, 133.5) (116.3, 134.7) new 4 vis 1430
+routed /FB_3V3 (114.6, 133.5) (117.1, 131.0) new 3 vis 1386
+routed /RTS_N (107.19, 138.6) (110.8, 130.699999) new 8 vis 25711
+routed USB5V (101.7, 128.2) (102.4, 128.35) new 2 vis 30
+routed USB5V (101.7, 128.2) (109.7, 132.9) new 7 vis 21939
+routed USB5V (104.9, 144.25) (109.7, 132.9) new 6 vis 19745
+routed USB5V_OUT (106.15, 132.0) (104.9, 135.65) new 15 vis 22902
+routed USB5V_OUT (104.9, 135.65) (114.81, 145.2) new 7 vis 15906
+routed VIO (106.35, 133.0) (112.2, 132.4) new 17 vis 124204
+routed VIO (112.2, 132.4) (115.5, 132.7) new 2 vis 543
+routed VIO (115.5, 132.7) (117.4, 130.4) new 5 vis 630
+routed VIO (117.1, 142.25) (120.85, 137.35) new 3 vis 3695
+routed VIO_OUT (114.81, 137.2) (117.1, 143.75) new 4 vis 2521
+routed /RXD (112.27, 145.2) (113.45, 137.6) new 8 vis 10625
+routed /CTS_N (109.73, 137.2) (114.55, 137.785) new 11 vis 26628
+routed /FT_RXD (106.75, 128.8) (101.1, 128.6) new 11 vis 10984
+12 個の違反を検出しました
+4 個の未配線アイテムを検出しました
+C:/Users/hebow/.codex/worktrees/a2-pcb-quality/99_AI_PCB_design_test/01_New_Design/kicad_direct/reports/header_layout/checks/drc_connected.json にDRC レポートを保存
+DRC connected 12 4

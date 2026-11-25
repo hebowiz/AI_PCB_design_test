@@ -3,21 +3,23 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Provisional 2.54 mm horizontal SMT header; confirm vendor land pattern before release")
-	(property "Reference" "REF**"
-		(at 0 -2 0)
+	(descr "Samtec TSM-104-01-T-SH: recommended footprint revision B, no LC/A options")
+	(property "Reference" "J2"
+		(at 0 2.8072 0)
 		(layer "F.SilkS")
-		(uuid "de7556d2-bb11-44c7-9067-55be063f5593")
+		(uuid "1b397270-9ffa-4f8e-8063-71890242659a")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "GND TXD RXD 5V"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "597bc26d-455b-48b9-a5ec-4560702ab1aa")
+		(hide yes)
+		(uuid "8062e238-0003-4df9-bc38-86ac6b212238")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "35aa3422-b52a-4337-82a9-2f60cd0f4120")
+		(uuid "a530a982-eea8-490e-bec6-c7e5d9d012ba")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,69 +41,157 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "25bd2308-c331-4192-abc4-87b506285145")
+		(uuid "fc3075c0-b6fd-4b97-8b3c-e2e7a3e3188d")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "MPN" "TSM-104-01-T-SH"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "267b9997-bc1e-42e3-bf19-4aedfd549e0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Note" "PROVISIONAL footprint; manufacturer land-pattern confirmation required"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7cccbb6c-7008-40c0-ab7f-009c3359caac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -5.4 -1.55)
-		(end 5.4 10)
+	(fp_line
+		(start -5.33 -1.8375)
+		(end 5.33 -1.8375)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5085bfe1-0d01-414c-ace6-c55013a920c8")
+		(uuid "891a3b3d-9240-404f-9e0d-2764f9e1de8d")
 	)
-	(fp_rect
-		(start -5.08 1.3)
-		(end 5.08 3.84)
+	(fp_line
+		(start -5.33 12.8992)
+		(end -5.33 -1.8375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "05af5db8-a0fd-4228-b350-7d3e13ddae8f")
+	)
+	(fp_line
+		(start 5.33 -1.8375)
+		(end 5.33 12.8992)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b91e990-05ef-4eac-bddc-2b8fbfd55adf")
+	)
+	(fp_line
+		(start 5.33 12.8992)
+		(end -5.33 12.8992)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d559412-648e-4661-a6ce-68b645d37e4d")
+	)
+	(fp_line
+		(start -5.08 4.2672)
+		(end 5.08 4.2672)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
 		(layer "F.Fab")
-		(uuid "864e8821-d9f3-4f09-a051-8061d9de6d3e")
+		(uuid "c647e4fa-002d-4413-ab40-7dc8bcafe91a")
+	)
+	(fp_line
+		(start -5.08 6.8072)
+		(end -5.08 4.2672)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5321cc4a-3bda-45f5-b3d9-7192e30d7479")
+	)
+	(fp_line
+		(start 5.08 4.2672)
+		(end 5.08 6.8072)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "442327ea-d907-4038-8c2a-af1ec3c9e71e")
+	)
+	(fp_line
+		(start 5.08 6.8072)
+		(end -5.08 6.8072)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7f95afd8-0192-401a-9d9f-3b7e25747f82")
 	)
 	(pad "1" smd rect
 		(at -3.81 0)
-		(size 1.1 2.5)
+		(size 1.27 3.175)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "6b6be9c0-3ca5-4817-bc24-de9535f9ffa5")
+		(uuid "0a0c2aff-d74e-466b-bdfe-fafc8f09e28a")
 	)
 	(pad "2" smd rect
 		(at -1.27 0)
-		(size 1.1 2.5)
+		(size 1.27 3.175)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "3cfdaf3f-f19b-47aa-a3a4-16902fa1ff77")
+		(uuid "2feedcce-1820-4897-8bba-526c4faa2fe7")
 	)
 	(pad "3" smd rect
 		(at 1.27 0)
-		(size 1.1 2.5)
+		(size 1.27 3.175)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "f0122ec6-79de-49fb-89e6-81f96426e10a")
+		(uuid "e61a78b5-4a7d-40a3-acaa-713336537673")
 	)
 	(pad "4" smd rect
 		(at 3.81 0)
-		(size 1.1 2.5)
+		(size 1.27 3.175)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "05b12b3e-3393-4b50-8130-3ff4f1663822")
+		(uuid "b68ca59f-ec9e-4af2-9c8a-e315e481f7e0")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/TSM_104_01_T_SH_simplified.wrl"
-		(offset (xyz 0 0 0))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

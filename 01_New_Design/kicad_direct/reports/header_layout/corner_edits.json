@@ -1,0 +1,174 @@
+[
+  {
+    "removed_covered": {
+      "uuid": "0ebb329e-602d-4057-96cc-99c4932df388",
+      "net": "/FT_RXD",
+      "a": [
+        106.84,
+        128.89
+      ],
+      "b": [
+        106.95,
+        129.0
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "removed_covered": {
+      "uuid": "9efdc48c-5eb4-49c2-b613-b4e9405ebaad",
+      "net": "/FT_RXD",
+      "a": [
+        106.787279,
+        128.89
+      ],
+      "b": [
+        106.75,
+        128.927279
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "removed_covered": {
+      "uuid": "ced617c3-22ea-4ba1-a542-2a23d0905a2f",
+      "net": "/FT_RXD",
+      "a": [
+        106.84,
+        128.89
+      ],
+      "b": [
+        106.787279,
+        128.89
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "removed_covered": {
+      "uuid": "30265e42-d88e-4f53-84b2-5acc41818735",
+      "net": "/FT_CTS_N",
+      "a": [
+        106.95,
+        130.8
+      ],
+      "b": [
+        106.9,
+        130.8
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "removed_covered": {
+      "uuid": "e657a18a-82c8-4474-ac2c-b2460ee09500",
+      "net": "/CTS_N",
+      "a": [
+        116.61,
+        135.85
+      ],
+      "b": [
+        116.852,
+        135.85
+      ],
+      "layer": 0,
+      "width": 0.15,
+      "via": false
+    }
+  },
+  {
+    "corner": [
+      106.1,
+      133.0
+    ],
+    "angle": 90.0,
+    "net": "VIO",
+    "before": [
+      {
+        "uuid": "43efd86a-fec1-41bb-9952-d53bea2f3e9f",
+        "net": "VIO",
+        "a": [
+          106.1,
+          133.0
+        ],
+        "b": [
+          107.75,
+          133.0
+        ],
+        "layer": 2,
+        "width": 0.3,
+        "via": false
+      },
+      {
+        "uuid": "6393f3d8-bd0d-43dd-8b34-7e8845b2be77",
+        "net": "VIO",
+        "a": [
+          106.1,
+          129.05
+        ],
+        "b": [
+          106.1,
+          133.0
+        ],
+        "layer": 2,
+        "width": 0.3,
+        "via": false
+      }
+    ],
+    "after": [
+      {
+        "uuid": "43efd86a-fec1-41bb-9952-d53bea2f3e9f",
+        "net": "VIO",
+        "a": [
+          106.6,
+          133.0
+        ],
+        "b": [
+          107.75,
+          133.0
+        ],
+        "layer": 2,
+        "width": 0.3,
+        "via": false
+      },
+      {
+        "uuid": "6393f3d8-bd0d-43dd-8b34-7e8845b2be77",
+        "net": "VIO",
+        "a": [
+          106.1,
+          129.05
+        ],
+        "b": [
+          106.1,
+          132.5
+        ],
+        "layer": 2,
+        "width": 0.3,
+        "via": false
+      },
+      {
+        "uuid": "eb6511fb-3af6-4568-82e5-45dceaef5f74",
+        "net": "VIO",
+        "a": [
+          106.6,
+          133.0
+        ],
+        "b": [
+          106.1,
+          132.5
+        ],
+        "layer": 2,
+        "width": 0.3,
+        "via": false
+      }
+    ]
+  }
+]

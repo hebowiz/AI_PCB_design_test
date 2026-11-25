@@ -1,0 +1,5 @@
+candidate/
+before/*.kicad_*
+checks/*.kicad_*
+__pycache__/
+scripts/__pycache__/

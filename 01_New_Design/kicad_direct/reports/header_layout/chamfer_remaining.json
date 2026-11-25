@@ -1,0 +1,106 @@
+[
+  {
+    "net": "/FB",
+    "at": [
+      116.3,
+      134.7
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "8887451d-4a54-4e0e-820f-45895ef6ed81",
+      "e125ef90-1c9c-48af-929b-38bba85edc6d"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FB_3V3",
+    "at": [
+      117.1,
+      131.0
+    ],
+    "angle": 135.0,
+    "uuids": [
+      "3c8447f8-6a32-498b-b276-392c0a5e7ea7",
+      "fc5ac0d3-e04e-4561-a11e-b4faf53495e1"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "USB5V_OUT",
+    "at": [
+      106.15,
+      132.0
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "c173fbff-853f-4c95-924d-3c66d0042709",
+      "ec84e795-2a62-4f71-bb28-29ea7a61308f"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      117.05,
+      135.85
+    ],
+    "angle": 134.99999999999926,
+    "uuids": [
+      "c40f63b7-3932-4849-8187-957b98f50b92",
+      "e657a18a-82c8-4474-ac2c-b2460ee09500"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FB",
+    "at": [
+      116.3,
+      134.7
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "8887451d-4a54-4e0e-820f-45895ef6ed81",
+      "e125ef90-1c9c-48af-929b-38bba85edc6d"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/FB_3V3",
+    "at": [
+      117.1,
+      131.0
+    ],
+    "angle": 135.0,
+    "uuids": [
+      "3c8447f8-6a32-498b-b276-392c0a5e7ea7",
+      "fc5ac0d3-e04e-4561-a11e-b4faf53495e1"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "USB5V_OUT",
+    "at": [
+      106.15,
+      132.0
+    ],
+    "angle": 90.0,
+    "uuids": [
+      "c173fbff-853f-4c95-924d-3c66d0042709",
+      "ec84e795-2a62-4f71-bb28-29ea7a61308f"
+    ],
+    "reason": "no local chamfer with clearance"
+  },
+  {
+    "net": "/CTS_N",
+    "at": [
+      117.05,
+      135.85
+    ],
+    "angle": 134.99999999999926,
+    "uuids": [
+      "c40f63b7-3932-4849-8187-957b98f50b92",
+      "e657a18a-82c8-4474-ac2c-b2460ee09500"
+    ],
+    "reason": "no local chamfer with clearance"
+  }
+]

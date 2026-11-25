@@ -1,0 +1,208 @@
+{
+  "base_commit": "cd67233358d06e299d319934ea59fc6a67662b57",
+  "real_components": 58,
+  "component_attributes_equal": true,
+  "pcb_pin_net_equal": true,
+  "schematic_pin_function_type_and_net_equal": true,
+  "expected_footprint_change": [
+    {
+      "ref": "J3",
+      "field": "fields",
+      "before": "<fields>\n        <field name=\"MPN\">TSM-104-01-T-SV</field>\n        <field name=\"Note\">Generic KiCad land pattern; confirm exact part before fab</field>\n        <field name=\"Footprint\">A2:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</field>\n        <field name=\"Datasheet\" />\n        <field name=\"Description\" />\n      </fields>",
+      "after": "<fields>\n        <field name=\"MPN\">TSM-104-01-T-SV</field>\n        <field name=\"Note\">Generic KiCad land pattern; confirm exact part before fab</field>\n        <field name=\"Footprint\">A2:TSM_104_SV</field>\n        <field name=\"Datasheet\" />\n        <field name=\"Description\" />\n      </fields>"
+    },
+    {
+      "ref": "J3",
+      "field": "footprint",
+      "before": "<footprint>A2:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</footprint>",
+      "after": "<footprint>A2:TSM_104_SV</footprint>"
+    }
+  ],
+  "placements": [
+    {
+      "ref": "U4",
+      "before": [
+        [
+          110.5,
+          136.2
+        ],
+        0.0
+      ],
+      "after": [
+        [
+          104.2,
+          129.5
+        ],
+        0.0
+      ]
+    },
+    {
+      "ref": "R10",
+      "before": [
+        [
+          116.3,
+          137.0
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          113.4,
+          133.5
+        ],
+        0.0
+      ]
+    },
+    {
+      "ref": "C18",
+      "before": [
+        [
+          107.5,
+          135.25
+        ],
+        180.0
+      ],
+      "after": [
+        [
+          101.1,
+          130.4
+        ],
+        -90.0
+      ]
+    },
+    {
+      "ref": "R12",
+      "before": [
+        [
+          115.5,
+          131.5
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          116.1,
+          135.85
+        ],
+        0.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "before": [
+        [
+          111.0,
+          142.0
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          111.0,
+          137.9
+        ],
+        0.0
+      ]
+    },
+    {
+      "ref": "R7",
+      "before": [
+        [
+          114.7,
+          135.4
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          111.0,
+          132.4
+        ],
+        180.0
+      ]
+    },
+    {
+      "ref": "C19",
+      "before": [
+        [
+          113.4,
+          133.5
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          108.0,
+          133.0
+        ],
+        0.0
+      ]
+    },
+    {
+      "ref": "R8",
+      "before": [
+        [
+          114.7,
+          137.4
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          111.0,
+          133.85
+        ],
+        0.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "before": [
+        [
+          111.0,
+          147.3
+        ],
+        0.0
+      ],
+      "after": [
+        [
+          111.0,
+          143.1928
+        ],
+        0.0
+      ]
+    }
+  ],
+  "priority_routing_unchanged": true,
+  "board": {
+    "x_min": 100.0,
+    "x_max": 122.0,
+    "y_min": 100.0,
+    "y_max": 150.0
+  },
+  "thickness_mm": 1.6,
+  "copper_layers": 2,
+  "copper_diff_counts": {
+    "removed": 131,
+    "added": 204,
+    "edited": 4
+  },
+  "total_length_mm": [
+    808.2518843785093,
+    878.8971973264171
+  ],
+  "counts_before_after": [
+    [
+      715,
+      6
+    ],
+    [
+      788,
+      6
+    ]
+  ],
+  "project_and_rules_unchanged": {
+    "kicad_pro": true,
+    "kicad_dru": true
+  }
+}

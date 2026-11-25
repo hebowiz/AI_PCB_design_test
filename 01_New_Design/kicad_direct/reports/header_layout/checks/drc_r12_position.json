@@ -1,0 +1,338 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T16:21:21",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "２つのネットを短絡するアイテム (ネット VIO と VIO_OUT)",
+            "items": [
+                {
+                    "description": "パッド 1 [VIO] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 137.11
+                    },
+                    "uuid": "6605991e-7caa-4996-9f07-82def9c52779"
+                },
+                {
+                    "description": "配線 [VIO_OUT] ( F.Cu 上、長さ: 6.1000 mm )",
+                    "pos": {
+                        "x": 116.65,
+                        "y": 137.2
+                    },
+                    "uuid": "b32675ed-e112-46db-ab32-d4db3e9d3918"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット VIO と VIO_OUT)",
+            "items": [
+                {
+                    "description": "パッド 1 [VIO] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 137.11
+                    },
+                    "uuid": "6605991e-7caa-4996-9f07-82def9c52779"
+                },
+                {
+                    "description": "配線 [VIO_OUT] ( F.Cu 上、長さ: 1.8500 mm )",
+                    "pos": {
+                        "x": 114.8,
+                        "y": 137.2
+                    },
+                    "uuid": "80e042ae-d302-4d2a-beca-1ea3535570f2"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /CTS_N と VIO)",
+            "items": [
+                {
+                    "description": "パッド 2 [/CTS_N] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.09
+                    },
+                    "uuid": "a5017d83-95b1-4829-b538-7b1f0e86dfeb"
+                },
+                {
+                    "description": "配線 [VIO] ( F.Cu 上、長さ: 1.0100 mm )",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 137.11
+                    },
+                    "uuid": "ea236885-30f5-419c-b3be-20d9c04e00d8"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /CTS_N と VIO)",
+            "items": [
+                {
+                    "description": "パッド 2 [/CTS_N] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.09
+                    },
+                    "uuid": "a5017d83-95b1-4829-b538-7b1f0e86dfeb"
+                },
+                {
+                    "description": "配線 [VIO] ( F.Cu 上、長さ: 1.2728 mm )",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.1
+                    },
+                    "uuid": "d8268cf4-799e-47a2-9773-79c1590243fb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント R12",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.6
+                    },
+                    "uuid": "90035de8-152c-4210-8509-7066b199706a"
+                },
+                {
+                    "description": "フットプリント SW1",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 134.0
+                    },
+                    "uuid": "a99ce71e-fadb-4e33-9f49-690466b18d25"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [VIO_OUT] ( F.Cu 上、長さ: 1.8500 mm )",
+                    "pos": {
+                        "x": 114.8,
+                        "y": 137.2
+                    },
+                    "uuid": "80e042ae-d302-4d2a-beca-1ea3535570f2"
+                },
+                {
+                    "description": "パッド 1 [VIO] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 137.11
+                    },
+                    "uuid": "6605991e-7caa-4996-9f07-82def9c52779"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [VIO_OUT] ( F.Cu 上、長さ: 6.1000 mm )",
+                    "pos": {
+                        "x": 116.65,
+                        "y": 137.2
+                    },
+                    "uuid": "b32675ed-e112-46db-ab32-d4db3e9d3918"
+                },
+                {
+                    "description": "パッド 1 [VIO] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 137.11
+                    },
+                    "uuid": "6605991e-7caa-4996-9f07-82def9c52779"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [VIO] ( F.Cu 上、長さ: 1.2728 mm )",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.1
+                    },
+                    "uuid": "d8268cf4-799e-47a2-9773-79c1590243fb"
+                },
+                {
+                    "description": "パッド 2 [/CTS_N] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.09
+                    },
+                    "uuid": "a5017d83-95b1-4829-b538-7b1f0e86dfeb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [VIO] ( F.Cu 上、長さ: 1.0100 mm )",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 137.11
+                    },
+                    "uuid": "ea236885-30f5-419c-b3be-20d9c04e00d8"
+                },
+                {
+                    "description": "パッド 2 [/CTS_N] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.09
+                    },
+                    "uuid": "a5017d83-95b1-4829-b538-7b1f0e86dfeb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0763 mm)",
+            "items": [
+                {
+                    "description": "セグメント of R17 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 104.45,
+                        "y": 131.4
+                    },
+                    "uuid": "1a182b7c-0660-4f05-8900-aecd3f7b7756"
+                },
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 131.0
+                    },
+                    "uuid": "5ddf68bb-7dbc-4303-acd0-5cf789df118e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 131.0
+                    },
+                    "uuid": "5ddf68bb-7dbc-4303-acd0-5cf789df118e"
+                },
+                {
+                    "description": "パッド 4 [/FB] - U4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 105.3375,
+                        "y": 130.45
+                    },
+                    "uuid": "778fa8cf-a837-4de9-9085-6d0ab8e3b4a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 135.5
+                    },
+                    "uuid": "23761536-9311-471d-96f8-2a551ae69288"
+                },
+                {
+                    "description": "パッド 2 [/CTS_N] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 136.09
+                    },
+                    "uuid": "a5017d83-95b1-4829-b538-7b1f0e86dfeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

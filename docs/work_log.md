@@ -302,3 +302,11 @@
 変更ファイル：A-2 PCB、`reports/pcb_power_polish/`、本ログ・判断・議論記録。結果：ERC/DRC/未配線/回路図不一致0、10電源経路の順序を確認。回路図・設定・BOM・製造データ・既存生成処理は保持。候補の検証後にPCBへ反映した。
 
 検証証跡・失敗と再試行：[修正報告](../01_New_Design/kicad_direct/reports/pcb_power_polish/README.md)、同フォルダの`integrity.json`・`checks/`・`copper_diff.json`。日本語本文はyomiyasuで意味・数値を保持して校正した。未解決事項：C11の残る迂回と実機電気性能、人間による最終判定。固定Workspaceはユーザーの更新依頼に従い、版確定後に安全に反映する。
+
+## 2026-11-25 16:50 JST — R-0034 J2/J3ランド・配置修正候補
+
+J3の現行パッドも確認するユーザー指示に基づき、基準cd672333から`codex/a2-r0034-header-layout`を作成。SamtecのSH/SV推奨ランドと部品図を照合し、J2/J3と電源周辺の9部品を局所再配置した。回路図はJ3 Footprintだけ変更。全58部品の属性・端子ネット、USB/水晶経路、22×50×1.6mm/2層を保護。BOM/Gerber・既存生成スクリプト・固定Workspaceを更新していない。
+
+操作: KiCad 10.0.8 pcbnew API、`kicad-cli sch export netlist`、`sch erc`、`pcb drc --schematic-parity --severity-all`、`pcb export pdf`、`pcb render`、FreeCAD/Pythonによる簡略モデル作成、pypdfium2/Pillowによる図面確認。ERC/DRC/未配線/回路図不一致0件、非45°線分0件、IC非中心引き出し0件。GND補修の一括撤回は自動審査で拒否されたため、限定UUIDを1個ずつDRC検証して28個を撤回。VIO迂回を約49→11mmへ短縮。試行・APIエラーと修正の経緯、変更ファイルと検証証跡は[レポート](../01_New_Design/kicad_direct/reports/header_layout/README.md)。経過約75分。
+
+設計レビュー・機構公差・実装条件・電源実測は未確認。共通台帳の最終判定はユーザーが行う。design-workspace-management/design-review-recordsの運用、yomiyasuの日本語最終校正を適用。

@@ -1,0 +1,222 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T16:08:58",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "ゾーン [GND] F.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "0fbdaf8e-cff5-4828-ac0e-f7925ab523c3"
+                },
+                {
+                    "description": "ゾーン [GND] B.Cu 上, 優先度 0",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 100.25
+                    },
+                    "uuid": "c2d2208c-fa47-4e34-828a-02f8de7c8ce5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/CTS_N] ( F.Cu 上、長さ: 0.9000 mm )",
+                    "pos": {
+                        "x": 112.85,
+                        "y": 131.5
+                    },
+                    "uuid": "1d557cae-9671-448d-92e4-865d64e04c91"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2125 mm )",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 131.275
+                    },
+                    "uuid": "b066968d-369f-425e-81d8-71f6c8f7a252"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0500 mm)",
+            "items": [
+                {
+                    "description": "配線 [/CTS_N] ( F.Cu 上、長さ: 0.6364 mm )",
+                    "pos": {
+                        "x": 112.85,
+                        "y": 131.5
+                    },
+                    "uuid": "3bcef50d-2265-44cc-9fb6-af0c9cca8ce7"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2125 mm )",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 131.275
+                    },
+                    "uuid": "b066968d-369f-425e-81d8-71f6c8f7a252"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/FT_TXD] ( F.Cu 上、長さ: 0.8250 mm )",
+                    "pos": {
+                        "x": 109.1,
+                        "y": 128.574999
+                    },
+                    "uuid": "603f5fac-6d5b-4142-bd59-0524223c43a9"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2125 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 128.025
+                    },
+                    "uuid": "c8309dc0-50ad-470e-984b-cdb840300c85"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1000 mm)",
+            "items": [
+                {
+                    "description": "配線 [/FT_TXD] ( F.Cu 上、長さ: 3.8500 mm )",
+                    "pos": {
+                        "x": 109.1,
+                        "y": 127.75
+                    },
+                    "uuid": "100431c1-7b09-46c8-af3c-dd2fdd47e6df"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2125 mm )",
+                    "pos": {
+                        "x": 108.1375,
+                        "y": 128.025
+                    },
+                    "uuid": "c8309dc0-50ad-470e-984b-cdb840300c85"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.6000 mm; 現状 0.5500 mm)",
+            "items": [
+                {
+                    "description": "U4のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 128.9
+                    },
+                    "uuid": "9fe7fb6f-4c89-4273-bda8-583bc7aa4444"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.6000 mm; 現状 0.5500 mm)",
+            "items": [
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 133.3
+                    },
+                    "uuid": "5ddf68bb-7dbc-4303-acd0-5cf789df118e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.6000 mm; 現状 0.5500 mm)",
+            "items": [
+                {
+                    "description": "C19のリファレンスフィールド",
+                    "pos": {
+                        "x": 108.4,
+                        "y": 134.199999
+                    },
+                    "uuid": "c9a392e5-c44f-4d4a-ae68-0c482da6a221"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 133.3
+                    },
+                    "uuid": "5ddf68bb-7dbc-4303-acd0-5cf789df118e"
+                },
+                {
+                    "description": "円 of TP2 、F.Silkscreen 上",
+                    "pos": {
+                        "x": 104.9,
+                        "y": 134.5
+                    },
+                    "uuid": "f54e251f-bf61-42d7-9604-c22fa614c0e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
