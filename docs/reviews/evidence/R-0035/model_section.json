@@ -1,0 +1,12 @@
+{
+  "model_sha256": "5f607a79f8238c47609cd3ed59a324cbe94ec7a536b95c43786abbd0916cea9a",
+  "method": "FreeCAD Boolean intersection with thin slab, local y=-0.01..0.01, z=-0.81..-0.79 mm; longitudinal central section through board thickness",
+  "model_local_x_recess_boundary_mm": -5.425000000000001,
+  "current_pcb_boundary_y_mm": 99.2,
+  "current_board_edge_y_mm": 100,
+  "current_gap_mm": 0.7999999999999972,
+  "proposed_gap_mm": 0.20000000000000284,
+  "interpretation": "3D nominal cross-section only; not a manufacturer mechanical clearance tolerance",
+  "local_drawing_sha256": "c2d60b1b15f46b45f5790b55a2f3c4cba5efe66b2c78e750c281df4fb39ab023",
+  "drawing_id": "SD-48037-004, Rev D, 2015-11-05"
+}

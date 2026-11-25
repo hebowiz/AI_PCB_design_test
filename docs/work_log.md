@@ -806,3 +806,11 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 
 ユーザーの明示OKを受け、固定Workspaceの対象版5cce544232e1f0eb137ef95f5060eeea5c9729efに対してR-0034を完了・OKへ更新。USBコネクタJ1と基板端の位置確認を次番R-0035として未着手・未判定で登録した。指摘収集のため詳細調査・修正・検証は実施していない。
 変更は共通台帳、R-0034/R-0035詳細、固定Workspaceの現在状態説明、本ログ。設計・固定Workspace・mainの既存CAD変更は保護。design-review-recordsに従い判定と新規指摘を分け、yomiyasuの方針で記録を整理した。
+
+## 2026-11-25 21:00 JST — R-0035 USBコネクタ基板端位置の調査
+
+目的: 現行J1と基板端の隙間・位置適否を確認する。
+実施操作: 最新mainと台帳を取得。Molex公式製品ページ・PDFを確認し、取得済みRev D図面をpypdfium2で描画して目視。pcbnew LoadBoardで位置・穴・PCB Edge補助線を抽出し、FreeCAD 0.20のSTEP断面とkicad-cli pcb render --side rightで側面を確認。Python/Shapelyの読み取り専用スクリプトで移動案のCourtyardとパッド包絡を比較した。
+結果: メーカー推奨2.75mmに対し位置決め穴から基板端は2.15mmで、J1は0.60mm外側。+Yへ0.60mm移動する案と、D1/D5・Y1・C14・C12の局所調整候補を提示。形状比較の初回試行は矩形・円対応不足を修正し最終5件を確認。PDF再取得のタイムアウトはローカル取得済み資料で補った。
+変更ファイル: 共通台帳、R-0035詳細、数値証跡・画像・読取スクリプト、作業/議論/判断ログ。CADと固定Workspaceは未変更。調査前後のPCBハッシュ一致、R-0034のOKと他行を保護。
+証跡: [R-0035](reviews/details/R-0035_USB_connector_board_edge.md)。実装・機構公差と修正候補の電気/配線検証は未実施。design-review-records/PDFを適用し、記録はyomiyasuの方針で推敲した。
