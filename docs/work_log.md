@@ -310,3 +310,7 @@ J3の現行パッドも確認するユーザー指示に基づき、基準cd6723
 操作: KiCad 10.0.8 pcbnew API、`kicad-cli sch export netlist`、`sch erc`、`pcb drc --schematic-parity --severity-all`、`pcb export pdf`、`pcb render`、FreeCAD/Pythonによる簡略モデル作成、pypdfium2/Pillowによる図面確認。ERC/DRC/未配線/回路図不一致0件、非45°線分0件、IC非中心引き出し0件。GND補修の一括撤回は自動審査で拒否されたため、限定UUIDを1個ずつDRC検証して28個を撤回。VIO迂回を約49→11mmへ短縮。試行・APIエラーと修正の経緯、変更ファイルと検証証跡は[レポート](../01_New_Design/kicad_direct/reports/header_layout/README.md)。経過約75分。
 
 設計レビュー・機構公差・実装条件・電源実測は未確認。共通台帳の最終判定はユーザーが行う。design-workspace-management/design-review-recordsの運用、yomiyasuの日本語最終校正を適用。
+
+## 2026-11-25 20:33 JST — R-0034 J2の3Dモデル位置補正を保存
+
+ユーザーの再対応指示に従い、PCBとローカルフットプリントのJ2モデルYオフセットだけを-0.7172mmへ変更。その他のバイトが基準07cc2d9と同じであることを検証し、回路・配置・銅箔を保護した。保存後のLoadBoard/FootprintLoadとVRML頂点換算で樹脂前面Y=150.000000012mm、基板端Y=150mmの一致を確認。上面・拡大・斜視を再出力して目視し、ERC/DRC/未配線/回路図不一致0件。旧レポートに訂正を追記し、新しい検証・画像・スクリプトをreports/header_alignment_fixへ保存。main CAD・固定Workspace・製造データは未変更。公差・実物嵌合・ユーザーの最終判定は未確認。[再対応記録](../01_New_Design/kicad_direct/reports/header_alignment_fix/README.md)。

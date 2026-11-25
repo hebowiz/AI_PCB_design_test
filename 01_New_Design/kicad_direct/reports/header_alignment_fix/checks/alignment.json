@@ -1,0 +1,31 @@
+{
+  "base_commit": "07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a",
+  "files": [
+    {
+      "file": "a2_usb_uart.kicad_pcb",
+      "only_model_offset_changed": true,
+      "before_sha256": "832e16a631fa7833e471228112cbb3dbd3dd0b65cb5a1f37439376e769dda880",
+      "after_sha256": "c7e1b852195499e5fc2f96a2d18bd091832cc7c90bb7118e8ff7be54da77a63f"
+    },
+    {
+      "file": "libraries/A2.pretty/TSM_104_SH_PROVISIONAL.kicad_mod",
+      "only_model_offset_changed": true,
+      "before_sha256": "ff49a9c35b5120df6bb090ac7dd175645cc6e8f4aefee73674be2e626ec4efb7",
+      "after_sha256": "35a072a96202569b1e65eb8430ba313ade2bb2a5605d30688e5e219e33299c4e"
+    }
+  ],
+  "saved_pcb_and_library_offset_y_mm": -0.7172,
+  "j2_origin_y_mm": 143.1928,
+  "body_board_y_bounds_mm": [
+    147.460000012,
+    150.000000012
+  ],
+  "fab_y_bounds_mm": [
+    147.46,
+    150.0
+  ],
+  "board_edge_y_mm": 150.0,
+  "remaining_gap_mm": -1.1999986782029737e-08,
+  "tolerance_mm": 1e-06,
+  "layout_copper_pads_nets_fields_unchanged": true
+}
