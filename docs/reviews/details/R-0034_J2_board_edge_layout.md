@@ -158,3 +158,7 @@ PCBとローカルフットプリントの該当model式だけを一意に特定
 [再対応レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/README.md)、[保存後の座標検証](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/checks/alignment.json)、[上面拡大画像](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/images/top_detail.png)、[DRC](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/checks/drc.json)、[ERC](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/checks/erc.json)。
 
 R-0034は確認待ち・未判定。実物の公差・嵌合と、前回移動した電源周辺のレビューは残る。回路図・製造データ・固定Workspace・mainの既存未コミットCADは変更していない。再対応は20:31 JST開始、約5分。
+
+## 2026-11-25 20:40 JST — 固定Workspaceへレビュー候補を反映
+
+ユーザーの明示依頼により、固定Workspaceのworkspace/a2-activeを5cce544232e1f0eb137ef95f5060eeea5c9729efへfast-forwardした。CAD・ライブラリ・モデルの38ファイルが対象コミットと一致し、ローカル専用USBモデルも補完した。.history/7ファイルとmainの既存CAD変更は保護。R-0034の確認待ち・未判定は維持する。[固定Workspace記録](../../design_workspaces.md)。

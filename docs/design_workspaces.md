@@ -33,9 +33,9 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeは`codex/a2-pcb-corners-decoupling`の`22a74e75bdd508a28644a9df42fda8d10793d63e`を参照する。2026-11-25 01:03 JST、ユーザーの明示依頼でPCB再修正候補を配置した。R-0024・R-0027・R-0029は確認待ち・未判定。R-0017〜R-0023、R-0025、R-0026、R-0028、R-0030〜R-0032は直前の候補に対してユーザーOK。回路図はR-0016まで承認済み。
+固定Worktreeはcodex/a2-r0034-header-layoutの5cce544232e1f0eb137ef95f5060eeea5c9729efを参照する。2026-11-25 20:40 JST、ユーザーの明示依頼によりJ2/J3レイアウトとJ2モデル位置補正を含むレビュー候補へ更新した。R-0034およびR-0024・R-0027・R-0029の最終判定は未取得。R-0033のOK判定と、既存の回路・PCB判定は維持する。
 
-候補版はERC・DRC・未配線・回路図不一致が各0件。CAD4ファイルのGit blob一致を確認した。58部品、615配線、100ビア、6ゾーン、1.6mm厚。比較画像・検証条件・残課題は固定Workspace内の`01_New_Design/kicad_direct/reports/pcb_power_polish/README.md`を参照する。BOM・Gerber・ドリル・実装座標は旧版のまま。
+CAD4ファイルとローカルライブラリ・モデルを含む38ファイルのGit blob一致を確認した。58部品、配線・ビア計788個、6ゾーン、板厚1.6mm。保存済みJ2モデルYオフセットは-0.7172mm。候補版のERC・DRC・未配線・回路図不一致は各0件で、更新作業ではCADを再生成していない。最新の3D画像と検証結果は固定Workspace内の01_New_Design/kicad_direct/reports/header_alignment_fix/README.mdを参照する。BOM・Gerber・実装座標は旧版のまま。
 
 ## Codexの基本ルール
 
@@ -83,3 +83,11 @@ D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Des
 01:03 JST、ユーザーの依頼により`workspace/a2-active`を`87711e88e10653e79fdce9c3ade341b8f1440489`から`22a74e75bdd508a28644a9df42fda8d10793d63e`へfast-forwardした。未コミットのプロジェクト設定は`workspaces/_backups/A-2-20261125-010305/`とstash `408b61b3c6f00e48c6caed48828bdcd8fe7d0eea`へ保存し、検証した候補版の設定を使用する。`.history/`7ファイル、mainの既存設定変更、既存設計ブランチを保持した。
 
 更新後のCAD4ファイルは対象コミットと一致し、追跡対象に未コミット変更はない。PCB・回路図エディタは更新前に起動していなかった。ローカルの`update_record.json`にバックアップ・stash・ハッシュを記録した。R-0024・R-0027・R-0029の最終判定は未取得。
+
+## 2026-11-25 20:40 JST — J2/J3修正と3D端合わせ候補への更新
+
+ユーザーの「workspaceの更新をお願い。KiCADで確認したい」に従い、workspace/a2-activeを22a74e75bdd508a28644a9df42fda8d10793d63eから5cce544232e1f0eb137ef95f5060eeea5c9729efへfast-forwardした。追跡ファイルに未コミット変更はなく、.history/7ファイルのハッシュを保持した。PCB・回路図エディタは起動していなかった。
+
+USBコネクタのローカル専用STEP2点もコピーし、元ファイル・移動先のハッシュと、元データの出典SHAを照合した。モデルはGit除外対象のまま。既存ファイルの破棄・強制上書きはしていない。更新後のCAD・ライブラリ・モデルのGit blobとPCBの読込を確認した。ローカル記録はworkspaces/_backups/A-2-20261125-203945/update_record.json。
+
+mainの未コミットプロジェクト設定、既存設計ブランチ、レビュー判定は保持した。これは人間レビュー用の更新で、最終OKや製造承認ではない。

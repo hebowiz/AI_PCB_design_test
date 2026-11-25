@@ -796,3 +796,8 @@ R-0033をユーザーのOK判定により完了へ更新し、J2の樹脂部外�
 
 ユーザーの再対応指示に従い、専用ブランチのJ2モデルオフセットを保存。PCB/ローカルライブラリの2箇所以外はバイト不変。KiCad 10.0.8 LoadBoard/FootprintLoadで保存後の設定を再読込し、樹脂前面と基板端の差が0.000001mm未満であることを検証。上面・拡大・斜視PNGを確認し、CLIによるERC・DRC・未配線・回路図不一致0件。設計コミット5cce544232e1f0eb137ef95f5060eeea5c9729efをpush済み。
 mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列と他IDの内容・判定を維持。mainの既存CAD・固定Workspace・製造データは保護。使用スキルはdesign-review-records、文書推敲はyomiyasu。実物公差・嵌合と最終判定は未確認。[証跡](https://github.com/hebowiz/AI_PCB_design_test/blob/5cce544232e1f0eb137ef95f5060eeea5c9729ef/01_New_Design/kicad_direct/reports/header_alignment_fix/README.md)。
+
+## 2026-11-25 20:40 JST — A-2固定WorkspaceをR-0034修正候補へ更新
+
+ユーザーの明示依頼でdesign-workspace-managementを適用。未コミット追跡変更なし・fast-forward可能・PCB/回路図エディタ停止を確認し、git merge --ff-onlyでworkspace/a2-activeを22a74e75から5cce544232e1f0eb137ef95f5060eeea5c9729efへ更新した。USBローカルモデル2点は新規コピーしハッシュ確認。CAD4点とライブラリ・モデル計38ファイルはgit hash-objectと対象コミットのblobが一致。.history/7ファイルはハッシュ不変。pcbnewで58部品・銅箔アイテム788・6ゾーン・厚さ1.6mm・J2モデルY=-0.7172mmを確認した。
+変更した管理文書はdesign_workspaces.md、共通台帳の参照先説明、R-0034詳細、本ログ。レビュー判定・設計ブランチ・mainの既存CAD変更は保護。ローカル証跡はworkspaces/_backups/A-2-20261125-203945/update_record.json。製造データは旧版、人間の最終判定は未実施。
