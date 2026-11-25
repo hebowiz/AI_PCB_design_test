@@ -747,3 +747,11 @@ ERC/DRC/未配線/回路図等価性は各0件、58部品・197端子の属性/�
 操作：設定をバックアップ・stashへ保存し、`git merge --ff-only 22a74e75bdd508a28644a9df42fda8d10793d63e`を固定Workspaceで実行。CAD4ファイルのblob一致と履歴7ファイルの保全を確認した。起動プロセス確認の初回コマンドは該当プロセスなしを終了コード1で返したため停止し、判定方法を修正してから実施した。
 
 変更ファイル：共通台帳、一括修正記録、`docs/design_workspaces.md`、本ログ。mainの既存プロジェクト変更は保護し、設計をmainへマージしていない。検証・試行・未解決事項は[再修正記録](reviews/batches/2026-11-25_R-0024_R-0027_R-0029_changes.md)。日本語をyomiyasuで校正。成果物とWorkspace反映まで約45分。
+
+## 2026-11-25 14:45 JST — R-0033の3Dモデル補完
+
+目的: 未実装属性を変えず、3Dモデル不足を補完する。
+実施操作: 最新origin/mainの規則を読み、design-review-recordsとyomiyasuを適用。PDFスキルの画像確認で公式寸法図を確認した。22a74e75bdd508a28644a9df42fda8d10793d63eからcodex/a2-r0033-3d-modelsを作成し、J1/J2/D1/D5/R17のmodel参照だけを更新。FreeCAD 0.20.2でモデル生成・座標変換、KiCad 10.0.8 CLIのpcb render、pcb drc --schematic-parity、sch ercを実行した。
+変更ファイル: 設計側はPCB、ローカルフットプリント3件、models/、reports/3d_models/。mainは共通台帳、R-0033詳細、作業・議論・判断ログ。
+結果: ERC/DRC/未配線/回路図整合性0件。3D設定以外のCAD内容は一致、既存32件の全行・判定を保持し33件・15列を確認。設計コミットはcd67233358d06e299d319934ea59fc6a67662b57。証跡は[詳細](reviews/details/R-0033_missing_3d_models.md)。mainに既存の未コミット.kicad_pro、固定Workspaceの.history/、既存設計ブランチは保持した。
+未解決: J2暫定ランド外形差、メーカーCADへの置換、機構実測。USB公式STEPはローカルに保持し公開Gitから除外。旧URLのタイムアウト、初回モデル上下の再修正、STEP行末空白の整理を設計レポートに記録した。
