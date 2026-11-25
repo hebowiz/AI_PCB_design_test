@@ -1,0 +1,71 @@
+{
+  "source_commit": "cd67233358d06e299d319934ea59fc6a67662b57",
+  "board_mm": [
+    100,
+    100,
+    122,
+    150
+  ],
+  "J2_origin_current_mm": [
+    111,
+    147.3
+  ],
+  "current_body_from_simplified_model_mm": [
+    105.92,
+    150.85,
+    116.08,
+    153.39
+  ],
+  "official_pad_mm": [
+    1.27,
+    3.175
+  ],
+  "official_pad_pitch_mm": 2.54,
+  "official_pad_to_edge_mm": 6.8072,
+  "J2_candidate_origin_mm": [
+    111,
+    143.1928
+  ],
+  "J2_move_inward_mm": 4.107200000000006,
+  "model_registration_difference_mm": 0.7172000000000001,
+  "J2_J3_pad_pairs_below_0_2mm": [
+    {
+      "J2": "1",
+      "J3": "1",
+      "gap_mm": 0.0,
+      "overlap": true
+    },
+    {
+      "J2": "2",
+      "J3": "2",
+      "gap_mm": 0.0053,
+      "overlap": false
+    },
+    {
+      "J2": "3",
+      "J3": "3",
+      "gap_mm": 0.0,
+      "overlap": true
+    },
+    {
+      "J2": "4",
+      "J3": "4",
+      "gap_mm": 0.0053,
+      "overlap": false
+    }
+  ],
+  "J3_candidate_origin_mm": [
+    111,
+    137.9
+  ],
+  "J3_candidate_courtyard_bbox_conflicts": [
+    "U4",
+    "R10",
+    "TP2",
+    "C18",
+    "R7",
+    "C19",
+    "R8"
+  ],
+  "qualification": "Planning geometry only; no PCB edit, routing or DRC of candidate."
+}
