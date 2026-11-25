@@ -1,0 +1,597 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T21:12:50",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "２つのネットを短絡するアイテム (ネット VPHY と +3V3)",
+            "items": [
+                {
+                    "description": "配線 [VPHY] ( F.Cu 上、長さ: 0.8485 mm )",
+                    "pos": {
+                        "x": 119.83,
+                        "y": 108.085
+                    },
+                    "uuid": "0985e502-7d4f-443e-b10e-7047fa55d133"
+                },
+                {
+                    "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.4850 mm )",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 108.2
+                    },
+                    "uuid": "8789cec9-809e-4363-ba47-6a16f2a1237e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/XTAL_OUT] ( F.Cu 上、長さ: 1.3250 mm )",
+                    "pos": {
+                        "x": 115.15,
+                        "y": 107.4
+                    },
+                    "uuid": "ae993d1d-0fd7-445b-8088-1076a1a049fd"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.6825 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 106.417499
+                    },
+                    "uuid": "c55eb208-6b8d-46d8-a41b-c3621a04ea1d"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/XTAL_IN] ( F.Cu 上、長さ: 1.2700 mm )",
+                    "pos": {
+                        "x": 119.925,
+                        "y": 109.98
+                    },
+                    "uuid": "0baf21c0-adc1-43b5-a70f-490044a8d68d"
+                },
+                {
+                    "description": "配線 [VPHY] ( F.Cu 上、長さ: 2.0150 mm )",
+                    "pos": {
+                        "x": 119.23,
+                        "y": 108.685
+                    },
+                    "uuid": "5852324f-3d4e-4212-82d6-15f1dfeee613"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [/XTAL_OUT] ( F.Cu 上、長さ: 3.1250 mm )",
+                    "pos": {
+                        "x": 113.35,
+                        "y": 107.32
+                    },
+                    "uuid": "a3140874-c0d2-4f8e-ab24-ec3151ea3e31"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.6825 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 106.417499
+                    },
+                    "uuid": "c55eb208-6b8d-46d8-a41b-c3621a04ea1d"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット VPHY と +3V3)",
+            "items": [
+                {
+                    "description": "パッド 2 [VPHY] - FB1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.6,
+                        "y": 108.085
+                    },
+                    "uuid": "33c9459b-f0ca-4c3c-956e-5b8090dc6f8c"
+                },
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 108.2
+                    },
+                    "uuid": "a13add4e-eb0b-4b38-9e80-15451c2050e3"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "配線 [+3V3] ( F.Cu 上、長さ: 0.4850 mm )",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 108.2
+                    },
+                    "uuid": "8789cec9-809e-4363-ba47-6a16f2a1237e"
+                },
+                {
+                    "description": "配線 [VPHY] ( F.Cu 上、長さ: 0.7700 mm )",
+                    "pos": {
+                        "x": 120.6,
+                        "y": 108.085
+                    },
+                    "uuid": "e888b3a4-745e-43f5-b279-9d7f4431ece8"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と VPHY)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 118.9,
+                        "y": 112.55
+                    },
+                    "uuid": "176cb8af-1b0d-4bb5-8efa-1de8bdf03242"
+                },
+                {
+                    "description": "パッド 1 [VPHY] - C11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 111.85
+                    },
+                    "uuid": "bd9a51f4-17fc-4185-bf4f-c77a2fa54eb7"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット /XTAL_OUT と GND)",
+            "items": [
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.6825 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 106.417499
+                    },
+                    "uuid": "c55eb208-6b8d-46d8-a41b-c3621a04ea1d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と /XTAL_OUT)",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.3750 mm )",
+                    "pos": {
+                        "x": 116.8,
+                        "y": 107.3
+                    },
+                    "uuid": "94697dd0-1146-41ac-8dcb-7c472d528c65"
+                },
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と /XTAL_OUT)",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.1314 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 108.1
+                    },
+                    "uuid": "59c85456-6e4f-402a-8669-404e5935ff90"
+                },
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.1252 mm)",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 0.0955 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 106.417499
+                    },
+                    "uuid": "3068c697-3ce9-47d7-9c7e-baf4b08e93e8"
+                },
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0589 mm)",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.4849 mm )",
+                    "pos": {
+                        "x": 119.95,
+                        "y": 111.5
+                    },
+                    "uuid": "6ee22c6b-a1eb-43fd-ab0c-c958aed0ce8f"
+                },
+                {
+                    "description": "パッド 1 [VPHY] - C11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 111.85
+                    },
+                    "uuid": "bd9a51f4-17fc-4185-bf4f-c77a2fa54eb7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "パッド 2 [VPHY] - FB1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.6,
+                        "y": 108.085
+                    },
+                    "uuid": "33c9459b-f0ca-4c3c-956e-5b8090dc6f8c"
+                },
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 108.2
+                    },
+                    "uuid": "a13add4e-eb0b-4b38-9e80-15451c2050e3"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0589 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [VPHY] - C11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 111.85
+                    },
+                    "uuid": "bd9a51f4-17fc-4185-bf4f-c77a2fa54eb7"
+                },
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 118.9,
+                        "y": 112.55
+                    },
+                    "uuid": "176cb8af-1b0d-4bb5-8efa-1de8bdf03242"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント D2",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 105.0
+                    },
+                    "uuid": "17c92cb1-b823-4ea7-aa39-b1154f905434"
+                },
+                {
+                    "description": "フットプリント Y1",
+                    "pos": {
+                        "x": 117.325,
+                        "y": 108.4
+                    },
+                    "uuid": "455200a8-962b-4577-b420-aaafc17014b6"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 111.85
+                    },
+                    "uuid": "27a74878-42a5-4345-9432-0bd5bcaf6f41"
+                },
+                {
+                    "description": "フットプリント C1",
+                    "pos": {
+                        "x": 120.1,
+                        "y": 114.2
+                    },
+                    "uuid": "9bb5c833-a531-4c96-b913-4844b6112a1f"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.1314 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 108.1
+                    },
+                    "uuid": "59c85456-6e4f-402a-8669-404e5935ff90"
+                },
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.3750 mm )",
+                    "pos": {
+                        "x": 116.8,
+                        "y": 107.3
+                    },
+                    "uuid": "94697dd0-1146-41ac-8dcb-7c472d528c65"
+                },
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "ビア [+3V3] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 108.2
+                    },
+                    "uuid": "a13add4e-eb0b-4b38-9e80-15451c2050e3"
+                },
+                {
+                    "description": "パッド 2 [VPHY] - FB1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 120.6,
+                        "y": 108.085
+                    },
+                    "uuid": "33c9459b-f0ca-4c3c-956e-5b8090dc6f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.6825 mm )",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 106.417499
+                    },
+                    "uuid": "c55eb208-6b8d-46d8-a41b-c3621a04ea1d"
+                },
+                {
+                    "description": "パッド 3 [/XTAL_OUT] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 116.475,
+                        "y": 107.3
+                    },
+                    "uuid": "aeff5d07-1376-42ab-8475-d66a2c7e9bbc"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 118.9,
+                        "y": 112.55
+                    },
+                    "uuid": "176cb8af-1b0d-4bb5-8efa-1de8bdf03242"
+                },
+                {
+                    "description": "パッド 1 [VPHY] - C11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 111.85
+                    },
+                    "uuid": "bd9a51f4-17fc-4185-bf4f-c77a2fa54eb7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 7.1000 mm )",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 103.85
+                    },
+                    "uuid": "6217b76d-2053-4f7f-b993-e286f254461b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.6000 mm; 現状 0.5500 mm)",
+            "items": [
+                {
+                    "description": "C14のリファレンスフィールド",
+                    "pos": {
+                        "x": 113.45,
+                        "y": 108.75
+                    },
+                    "uuid": "1cd48ee1-1d89-466f-ba59-039851591d95"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "シルクスクリーンのクリアランス (基板の設定のシルクスクリーンの制約 クリアランス 0.1000 mm; 現状 0.0970 mm)",
+            "items": [
+                {
+                    "description": "D2のリファレンスフィールド",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 105.0
+                    },
+                    "uuid": "9fd8b28a-4e31-483d-905b-24f2b1d74b6b"
+                },
+                {
+                    "description": "FB1のリファレンスフィールド",
+                    "pos": {
+                        "x": 120.6,
+                        "y": 105.7
+                    },
+                    "uuid": "ce6e0091-d9e0-4ec2-94a3-b3cbc0be869d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C14のリファレンスフィールド",
+                    "pos": {
+                        "x": 113.45,
+                        "y": 108.75
+                    },
+                    "uuid": "1cd48ee1-1d89-466f-ba59-039851591d95"
+                },
+                {
+                    "description": "パッド 2 [GND] - C14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.35,
+                        "y": 108.28
+                    },
+                    "uuid": "f9c6c030-054b-4088-9cc3-c64839bfc37f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

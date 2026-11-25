@@ -1,0 +1,1393 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T21:06:57",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "a2_usb_uart.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と /XTAL_IN)",
+            "items": [
+                {
+                    "description": "パッド 4 [GND] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.15,
+                        "y": 110.1
+                    },
+                    "uuid": "79678a44-ca7e-4a78-b03a-c2740ecfb838"
+                },
+                {
+                    "description": "配線 [/XTAL_IN] ( F.Cu 上、長さ: 3.5475 mm )",
+                    "pos": {
+                        "x": 113.85,
+                        "y": 110.7
+                    },
+                    "uuid": "e579f53b-11d7-407f-9cb5-56e0b629e6e0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と GND)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 2.4500 mm )",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "395f7711-05ee-4a2a-b56d-7f7dd797add8"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と GND)",
+            "items": [
+                {
+                    "description": "ビア [USB5V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "412e1af7-e990-43de-b66d-5cb1bf79e865"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1014 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 0.7071 mm )",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 103.25
+                    },
+                    "uuid": "e21c575b-8e60-457b-a01f-c99d8ffec5a4"
+                },
+                {
+                    "description": "J1のNPTHパッド",
+                    "pos": {
+                        "x": 108.75,
+                        "y": 102.75
+                    },
+                    "uuid": "2941ce9c-4239-4b2e-9055-cfc233b808c7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と GND)",
+            "items": [
+                {
+                    "description": "ビア [USB5V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "412e1af7-e990-43de-b66d-5cb1bf79e865"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0485 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.2728 mm )",
+                    "pos": {
+                        "x": 108.95,
+                        "y": 104.15
+                    },
+                    "uuid": "854ad0dd-6682-4c3b-b613-be2b1558fb10"
+                },
+                {
+                    "description": "J1のNPTHパッド",
+                    "pos": {
+                        "x": 108.75,
+                        "y": 102.75
+                    },
+                    "uuid": "2941ce9c-4239-4b2e-9055-cfc233b808c7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 7.1000 mm )",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 103.25
+                    },
+                    "uuid": "6217b76d-2053-4f7f-b993-e286f254461b"
+                },
+                {
+                    "description": "J1のNPTHパッド",
+                    "pos": {
+                        "x": 108.75,
+                        "y": 102.75
+                    },
+                    "uuid": "2941ce9c-4239-4b2e-9055-cfc233b808c7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット USB5V と GND)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.6263 mm )",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 103.0
+                    },
+                    "uuid": "1fb042c6-f4a2-4ebf-9bfd-02cb8b28307a"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0192 mm)",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 5.7983 mm )",
+                    "pos": {
+                        "x": 115.1,
+                        "y": 103.25
+                    },
+                    "uuid": "25201e61-6567-44df-820b-ae650f237b3b"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と USB5V)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 106.5
+                    },
+                    "uuid": "46f896ba-725d-43c1-99f3-49f0df793df7"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 105.35
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "クリアランス違反 ( クリアランス 0.1270 mm; 現状 0.0749 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [/XTAL_OUT] - C14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 113.35,
+                        "y": 107.32
+                    },
+                    "uuid": "85bbf3aa-c88c-47d0-85b8-972128493eb4"
+                },
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 0.8485 mm )",
+                    "pos": {
+                        "x": 112.55,
+                        "y": 107.4
+                    },
+                    "uuid": "97c40dc7-bf25-4a69-ae7c-0001399ec6f7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "２つのネットを短絡するアイテム (ネット GND と USB5V)",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2000 mm )",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 107.7
+                    },
+                    "uuid": "3c3b8792-c263-4c41-86cc-aa52e40bb468"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 105.35
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "パッド 1 [USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 105.35
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                },
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 106.5
+                    },
+                    "uuid": "46f896ba-725d-43c1-99f3-49f0df793df7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                },
+                {
+                    "description": "ビア [USB5V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "412e1af7-e990-43de-b66d-5cb1bf79e865"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                },
+                {
+                    "description": "ビア [USB5V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "412e1af7-e990-43de-b66d-5cb1bf79e865"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "フットプリント C11",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 111.5
+                    },
+                    "uuid": "27a74878-42a5-4345-9432-0bd5bcaf6f41"
+                },
+                {
+                    "description": "フットプリント Y1",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 109.0
+                    },
+                    "uuid": "455200a8-962b-4577-b420-aaafc17014b6"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 1.6263 mm )",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 103.0
+                    },
+                    "uuid": "1fb042c6-f4a2-4ebf-9bfd-02cb8b28307a"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( F.Cu 上、長さ: 5.7983 mm )",
+                    "pos": {
+                        "x": 115.1,
+                        "y": 103.25
+                    },
+                    "uuid": "25201e61-6567-44df-820b-ae650f237b3b"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 106.5
+                    },
+                    "uuid": "46f896ba-725d-43c1-99f3-49f0df793df7"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 105.35
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [GND] ( F.Cu 上、長さ: 1.2000 mm )",
+                    "pos": {
+                        "x": 107.65,
+                        "y": 107.7
+                    },
+                    "uuid": "3c3b8792-c263-4c41-86cc-aa52e40bb468"
+                },
+                {
+                    "description": "パッド 1 [USB5V] - J1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 107.5,
+                        "y": 105.35
+                    },
+                    "uuid": "d23de9d9-332e-414b-8ae1-3c28083b0528"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "ビア [USB5V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "412e1af7-e990-43de-b66d-5cb1bf79e865"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "ビア [USB5V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "412e1af7-e990-43de-b66d-5cb1bf79e865"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが裏面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [USB5V] ( B.Cu 上、長さ: 2.4500 mm )",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 104.15
+                    },
+                    "uuid": "395f7711-05ee-4a2a-b56d-7f7dd797add8"
+                },
+                {
+                    "description": "PTHパッド SH [GND] (J1)",
+                    "pos": {
+                        "x": 116.85,
+                        "y": 102.75
+                    },
+                    "uuid": "4713068d-f171-41da-a1b3-741f5c9ff239"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "異なるネットのアイテムが表面ハンダマスクの開口部で接続されている",
+            "items": [
+                {
+                    "description": "配線 [/XTAL_IN] ( F.Cu 上、長さ: 3.5475 mm )",
+                    "pos": {
+                        "x": 113.85,
+                        "y": 110.7
+                    },
+                    "uuid": "e579f53b-11d7-407f-9cb5-56e0b629e6e0"
+                },
+                {
+                    "description": "パッド 4 [GND] - Y1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 115.15,
+                        "y": 110.1
+                    },
+                    "uuid": "79678a44-ca7e-4a78-b03a-c2740ecfb838"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C9",
+                    "pos": {
+                        "x": 112.7,
+                        "y": 109.9
+                    },
+                    "uuid": "071be4a4-8fc6-4cbf-b943-7ec35eadb695"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント U4",
+                    "pos": {
+                        "x": 104.2,
+                        "y": 129.5
+                    },
+                    "uuid": "0aff97f5-79ca-45dc-b7d3-8084b21a17ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント FB2",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 108.6
+                    },
+                    "uuid": "0c24bb09-0cf1-4665-b44a-f177704dd167"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R14",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 112.5
+                    },
+                    "uuid": "11b0d912-36aa-46a8-b22f-5ec752e65e25"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント D2",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 105.0
+                    },
+                    "uuid": "17c92cb1-b823-4ea7-aa39-b1154f905434"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント D3",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 115.0
+                    },
+                    "uuid": "23c1dd50-7fbf-4cfd-9759-31dcf263754f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C16",
+                    "pos": {
+                        "x": 105.9,
+                        "y": 126.6
+                    },
+                    "uuid": "247b8562-cc85-40f9-bdad-04008578bc41"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C3",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 110.4
+                    },
+                    "uuid": "2acc9cb5-f3fc-4626-b0e6-2e00bc50d745"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R10",
+                    "pos": {
+                        "x": 113.4,
+                        "y": 133.5
+                    },
+                    "uuid": "2fe4a083-525c-4034-a915-03f99792f7e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント TP1",
+                    "pos": {
+                        "x": 102.7,
+                        "y": 136.1
+                    },
+                    "uuid": "38460907-76a8-4dd7-81a6-97eb0dc452fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント SW3",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 144.5
+                    },
+                    "uuid": "433d10df-fdce-4b99-9739-e5d98e93cfd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント Y1",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 109.0
+                    },
+                    "uuid": "455200a8-962b-4577-b420-aaafc17014b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント TP2",
+                    "pos": {
+                        "x": 104.9,
+                        "y": 134.5
+                    },
+                    "uuid": "465a8369-4f82-4383-9b33-91f665bfd272"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R2",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 122.4
+                    },
+                    "uuid": "53aa53d0-0341-41aa-9ace-809ecc2fe5b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント J1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 94.375
+                    },
+                    "uuid": "588d7c97-f34b-4cbc-8747-2549570e7dcf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント Q1",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 124.0
+                    },
+                    "uuid": "58fbf743-46fb-4dd4-b102-b735dcf288c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R3",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 127.0
+                    },
+                    "uuid": "5ad26925-aae3-40c7-88c5-add5105bec28"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C10",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 109.7
+                    },
+                    "uuid": "69fde4e3-031e-4e4f-b927-223f5868f5a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R13",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 103.0
+                    },
+                    "uuid": "70822ada-1fbd-4fac-8ff3-0779495fe058"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C14",
+                    "pos": {
+                        "x": 113.35,
+                        "y": 107.8
+                    },
+                    "uuid": "738db9db-0509-4607-a86c-547c9479bcd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C18",
+                    "pos": {
+                        "x": 101.1,
+                        "y": 130.4
+                    },
+                    "uuid": "73985d88-9ec4-417c-820b-71e4a18435df"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C6",
+                    "pos": {
+                        "x": 117.4,
+                        "y": 113.8
+                    },
+                    "uuid": "78be483b-0a51-46cb-af19-151664978478"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R11",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 129.0
+                    },
+                    "uuid": "836769db-6e1a-41d2-9123-3a13414683e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント U2",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 129.0
+                    },
+                    "uuid": "8b79c1a1-1f72-4878-8b03-713e97936b8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R12",
+                    "pos": {
+                        "x": 116.1,
+                        "y": 135.85
+                    },
+                    "uuid": "90035de8-152c-4210-8509-7066b199706a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント J3",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 137.9
+                    },
+                    "uuid": "9133de06-cb5a-4a41-ac53-699785e09d4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C22",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 122.4
+                    },
+                    "uuid": "913f31bd-ae9a-41cd-9c3a-c4532446bc51"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C15",
+                    "pos": {
+                        "x": 108.8,
+                        "y": 122.05
+                    },
+                    "uuid": "92a177c7-d49d-4bd3-a228-1a97dec05fac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R15",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 112.5
+                    },
+                    "uuid": "94b7cf0c-08ab-4de9-a908-a17529082779"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R17",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 132.0
+                    },
+                    "uuid": "98ace24e-d640-48e0-b7c4-cbdb3e5566c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R7",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 132.4
+                    },
+                    "uuid": "9b89952c-381a-4aa6-9115-50fe1ff361bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント U1",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 116.0
+                    },
+                    "uuid": "9f4c1821-c17f-4805-b537-ce5176d50b82"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R1",
+                    "pos": {
+                        "x": 104.2,
+                        "y": 107.0
+                    },
+                    "uuid": "9fca6a39-b234-42f9-a3ab-1ff7799a56a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント D4",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 115.0
+                    },
+                    "uuid": "a2478421-2ecd-4899-9c3d-95702566065b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント U5",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 123.0
+                    },
+                    "uuid": "a6236eed-d5cc-4e6b-b69c-b81e4e0047d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C4",
+                    "pos": {
+                        "x": 104.9,
+                        "y": 118.75
+                    },
+                    "uuid": "a728d648-4877-490c-917f-fae9fe646544"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R5",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 126.8
+                    },
+                    "uuid": "a8d77cf9-9727-41ab-981c-0ec06941e792"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント SW1",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 134.0
+                    },
+                    "uuid": "a99ce71e-fadb-4e33-9f49-690466b18d25"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C19",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 133.0
+                    },
+                    "uuid": "aa0741fd-1cad-4147-a08a-83d7609cecef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R6",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 126.4
+                    },
+                    "uuid": "b4acfdec-4c76-4d6d-9e37-46ef42f8d8f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R8",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 133.85
+                    },
+                    "uuid": "b625f297-c593-4d68-8d2c-e4bc11f8d14a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C17",
+                    "pos": {
+                        "x": 116.1,
+                        "y": 126.6
+                    },
+                    "uuid": "bbd83ec3-b864-441e-97e0-21f2b19bde57"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C8",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 118.6
+                    },
+                    "uuid": "c0558af6-1f76-4a0f-a323-fe0f980c3b4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C5",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 117.3
+                    },
+                    "uuid": "c13b577a-642a-4475-be4d-a91790447818"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R4",
+                    "pos": {
+                        "x": 103.9,
+                        "y": 125.6
+                    },
+                    "uuid": "c7f2d0be-ea42-47e7-9513-19ba8f92ede1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C7",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 119.9
+                    },
+                    "uuid": "c8e68c32-319a-41b8-bbe9-0f187d055913"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント FB1",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 109.55
+                    },
+                    "uuid": "d0cde278-d44d-4ab0-94cf-85d6ffa59f1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント J2",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 143.1928
+                    },
+                    "uuid": "d73cd343-1537-4c11-9af8-3b262db2a7d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C13",
+                    "pos": {
+                        "x": 118.6,
+                        "y": 109.5
+                    },
+                    "uuid": "d7d152ae-160e-42e4-85fd-96b1ea988f22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント SW2",
+                    "pos": {
+                        "x": 102.3,
+                        "y": 142.0
+                    },
+                    "uuid": "d99eb458-3c12-4143-b6e5-90596187ad4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント C23",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 116.1
+                    },
+                    "uuid": "e9618f0b-7141-47dc-8520-7112a1bd4413"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "現在の構成にはフットプリント ライブラリ 'A2' が含まれていません",
+            "items": [
+                {
+                    "description": "フットプリント R9",
+                    "pos": {
+                        "x": 116.3,
+                        "y": 133.5
+                    },
+                    "uuid": "febb7b54-2c10-4f11-840e-ed4e478a5564"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "C14のリファレンスフィールド",
+                    "pos": {
+                        "x": 112.1,
+                        "y": 108.0
+                    },
+                    "uuid": "1cd48ee1-1d89-466f-ba59-039851591d95"
+                },
+                {
+                    "description": "パッド 2 [GND] - D1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 112.55,
+                        "y": 107.4
+                    },
+                    "uuid": "a4cd5484-7aee-4e5e-aead-e8bb833327c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

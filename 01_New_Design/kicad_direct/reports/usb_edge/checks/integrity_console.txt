@@ -1,0 +1,182 @@
+{
+  "base_commit": "5cce544232e1f0eb137ef95f5060eeea5c9729ef",
+  "real_components": 58,
+  "all_attributes_pads_nets_models_equal": true,
+  "schematic_project_rules_byte_identical": true,
+  "placements": [
+    {
+      "ref": "D2",
+      "before_mm": [
+        119.0,
+        105.0
+      ],
+      "after_mm": [
+        119.0,
+        104.75
+      ],
+      "angle_before": 90.0,
+      "angle_after": 90.0
+    },
+    {
+      "ref": "Y1",
+      "before_mm": [
+        116.0,
+        108.4
+      ],
+      "after_mm": [
+        117.325,
+        108.4
+      ],
+      "angle_before": 90.0,
+      "angle_after": 90.0
+    },
+    {
+      "ref": "J1",
+      "before_mm": [
+        111.0,
+        93.775
+      ],
+      "after_mm": [
+        111.0,
+        94.375
+      ],
+      "angle_before": 90.0,
+      "angle_after": 90.0
+    },
+    {
+      "ref": "R13",
+      "before_mm": [
+        119.0,
+        103.0
+      ],
+      "after_mm": [
+        119.0,
+        102.7
+      ],
+      "angle_before": 0.0,
+      "angle_after": 0.0
+    },
+    {
+      "ref": "C14",
+      "before_mm": [
+        113.35,
+        107.7
+      ],
+      "after_mm": [
+        113.35,
+        107.8
+      ],
+      "angle_before": -90.0,
+      "angle_after": -90.0
+    },
+    {
+      "ref": "C12",
+      "before_mm": [
+        107.65,
+        108.5
+      ],
+      "after_mm": [
+        107.65,
+        108.65
+      ],
+      "angle_before": 90.0,
+      "angle_after": 90.0
+    },
+    {
+      "ref": "D1",
+      "before_mm": [
+        112.2,
+        107.0
+      ],
+      "after_mm": [
+        112.075,
+        107.4
+      ],
+      "angle_before": 0.0,
+      "angle_after": 0.0
+    },
+    {
+      "ref": "FB1",
+      "before_mm": [
+        120.0,
+        109.55
+      ],
+      "after_mm": [
+        120.6,
+        107.6
+      ],
+      "angle_before": -90.0,
+      "angle_after": -90.0
+    },
+    {
+      "ref": "C13",
+      "before_mm": [
+        118.6,
+        109.5
+      ],
+      "after_mm": [
+        119.925,
+        109.5
+      ],
+      "angle_before": 90.0,
+      "angle_after": 90.0
+    },
+    {
+      "ref": "D5",
+      "before_mm": [
+        109.8,
+        107.0
+      ],
+      "after_mm": [
+        109.8,
+        107.4
+      ],
+      "angle_before": 180.0,
+      "angle_after": 180.0
+    }
+  ],
+  "all_original_copper_at_y_ge_113_unchanged": true,
+  "edge_cuts_unchanged": true,
+  "zones_outlines_nets_layers_unchanged": true,
+  "zones_count": 6,
+  "thickness_mm": 1.6,
+  "copper_layers": 2,
+  "copper_diff_counts": {
+    "removed": 35,
+    "added": 44,
+    "edited": 20
+  },
+  "total_length_mm": [
+    878.8971973264171,
+    873.3996866258811
+  ],
+  "j1": {
+    "origin_mm": [
+      111.0,
+      94.375
+    ],
+    "pcb_edge_guide_y_mm": [
+      100.0
+    ],
+    "locator_hole_row_y_mm": 102.75,
+    "locator_edge_distance_mm": 2.75,
+    "nominal_model_rear_y_mm": 99.8,
+    "nominal_model_board_gap_mm": 0.20000000000000284,
+    "model_not_altered": true
+  },
+  "usb_track_length_comparison": [
+    {
+      "net": "/USB_D+",
+      "before_mm": 7.9553,
+      "after_mm": 7.2303,
+      "delta_mm": -0.725
+    },
+    {
+      "net": "/USB_D-",
+      "before_mm": 7.9967,
+      "after_mm": 7.3967,
+      "delta_mm": -0.6
+    }
+  ],
+  "all_changed_usb5v_tracks_width_0_5mm": true
+}

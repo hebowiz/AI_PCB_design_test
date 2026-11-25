@@ -1,0 +1,15 @@
+{
+  "tracked_design_changes": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb",
+    "docs/work_log.md"
+  ],
+  "prior_r0034_branch_sha": "5cce544232e1f0eb137ef95f5060eeea5c9729ef",
+  "fixed_workspace_head": "5cce544232e1f0eb137ef95f5060eeea5c9729ef",
+  "fixed_workspace_status_preserved": [
+    " M 01_New_Design/kicad_direct/a2_usb_uart.kicad_pro",
+    "?? 01_New_Design/kicad_direct/.history/"
+  ],
+  "main_existing_project_sha256_unchanged": true,
+  "main_cad_and_fixed_workspace_not_written": true,
+  "no_schematic_library_model_bom_manufacturing_generator_project_or_rule_changes": true
+}

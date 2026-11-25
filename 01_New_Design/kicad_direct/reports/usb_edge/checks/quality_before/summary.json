@@ -1,0 +1,57 @@
+{
+  "source_commit": "5cce544232e1f0eb137ef95f5060eeea5c9729ef",
+  "source_sha256": "c7e1b852195499e5fc2f96a2d18bd091832cc7c90bb7118e8ff7be54da77a63f",
+  "tracks": 675,
+  "vias": 113,
+  "nets_with_tracks": 39,
+  "total_track_mm": 878.8972,
+  "turn_ge90": 0,
+  "detour_pairs": 148,
+  "detour_nets": 12,
+  "independent_cycles": 3,
+  "non_GND_cycles": 1,
+  "leaf_candidates": 51,
+  "non_GND_leaf_candidates": 19,
+  "duplicate_overlap_pairs": 2,
+  "near_pad_track_pairs": 23,
+  "near_unique_tracks": 23,
+  "corridor_track_pair_hits": 0,
+  "corridor_unique_tracks": 0,
+  "usb5v": [
+    {
+      "net": "/USB5V_SW",
+      "total_mm": 13.41472,
+      "min_width_mm": 0.5,
+      "max_width_mm": 0.5,
+      "under_0_5_segments": 0,
+      "under_0_5_total_mm": 0,
+      "widths": {
+        "0.5": 13.41472
+      }
+    },
+    {
+      "net": "USB5V",
+      "total_mm": 106.28471,
+      "min_width_mm": 0.25,
+      "max_width_mm": 0.5,
+      "under_0_5_segments": 2,
+      "under_0_5_total_mm": 1.18721,
+      "widths": {
+        "0.25": 1.18721,
+        "0.5": 105.0975
+      }
+    },
+    {
+      "net": "USB5V_OUT",
+      "total_mm": 31.63015,
+      "min_width_mm": 0.5,
+      "max_width_mm": 0.5,
+      "under_0_5_segments": 0,
+      "under_0_5_total_mm": 0,
+      "widths": {
+        "0.5": 31.63015
+      }
+    }
+  ],
+  "graph_disconnected_non_GND": []
+}

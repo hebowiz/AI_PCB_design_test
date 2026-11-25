@@ -1,0 +1,58 @@
+{
+  "source_commit": "5cce544232e1f0eb137ef95f5060eeea5c9729ef",
+  "source_sha256": "7f1f83a4e5893203c050ea6580480bf2ff14991708906cbf2be862b9277ddbe8",
+  "tracks": 683,
+  "vias": 114,
+  "nets_with_tracks": 39,
+  "total_track_mm": 873.39969,
+  "turn_ge90": 0,
+  "detour_pairs": 143,
+  "detour_nets": 11,
+  "independent_cycles": 2,
+  "non_GND_cycles": 1,
+  "leaf_candidates": 53,
+  "non_GND_leaf_candidates": 19,
+  "duplicate_overlap_pairs": 2,
+  "near_pad_track_pairs": 23,
+  "near_unique_tracks": 23,
+  "corridor_track_pair_hits": 0,
+  "corridor_unique_tracks": 0,
+  "usb5v": [
+    {
+      "net": "/USB5V_SW",
+      "total_mm": 13.41472,
+      "min_width_mm": 0.5,
+      "max_width_mm": 0.5,
+      "under_0_5_segments": 0,
+      "under_0_5_total_mm": 0,
+      "widths": {
+        "0.5": 13.41472
+      }
+    },
+    {
+      "net": "USB5V",
+      "total_mm": 98.23082,
+      "min_width_mm": 0.25,
+      "max_width_mm": 0.5,
+      "under_0_5_segments": 2,
+      "under_0_5_total_mm": 1.18721,
+      "widths": {
+        "0.25": 1.18721,
+        "0.5": 97.04361
+      }
+    },
+    {
+      "net": "USB5V_OUT",
+      "total_mm": 31.63015,
+      "min_width_mm": 0.5,
+      "max_width_mm": 0.5,
+      "under_0_5_segments": 0,
+      "under_0_5_total_mm": 0,
+      "widths": {
+        "0.5": 31.63015
+      }
+    }
+  ],
+  "graph_disconnected_non_GND": []
+}
+POWER_ORDER [{"net": "USB5V", "expected": ["J1.1", "C1.1", "C23.1", "U1.40"], "actual_pins": ["J1.1", "C1.1", "C23.1", "U1.40"], "in_order": true, "trace_length_excluding_pad_copper_mm": 27.459187988298787}, {"net": "USB5V", "expected": ["J1.1", "C1.1", "C18.1", "U4.1"], "actual_pins": ["J1.1", "C1.1", "U4.1"], "in_order": false, "trace_length_excluding_pad_copper_mm": 67.1791067466076}, {"net": "VPHY", "expected": ["FB1.2", "C11.1", "C9.1", "U1.3"], "actual_pins": ["FB1.2", "C11.1", "C9.1", "U1.3"], "in_order": true, "trace_length_excluding_pad_copper_mm": 17.868568078375816}, {"net": "VPLL", "expected": ["FB2.2", "C12.1", "C10.1", "U1.8"], "actual_pins": ["FB2.2", "C12.1", "C10.1", "U1.8"], "in_order": true, "trace_length_excluding_pad_copper_mm": 3.7274302755109416}, {"net": "+3V3", "expected": ["U1.39", "C2.1", "C3.1", "U1.12"], "actual_pins": ["U1.39", "C2.1", "C4.1", "C3.1", "U1.12"], "in_order": true, "trace_length_excluding_pad_copper_mm": 38.91787588777792}, {"net": "+3V3", "expected": ["U1.39", "C2.1", "C4.1", "U1.24"], "actual_pins": ["U1.39", "C2.1", "C4.1", "U1.24"], "in_order": true, "trace_length_excluding_pad_copper_mm": 26.508321779309632}, {"net": "+3V3", "expected": ["U1.39", "C2.1", "C6.1", "U1.46"], "actual_pins": ["U1.39", "C2.1", "C6.1", "U1.46"], "in_order": true, "trace_length_excluding_pad_copper_mm": 14.713587729801889}, {"net": "+3V3", "expected": ["U1.39", "C2.1", "C16.1", "U2.1"], "actual_pins": ["U1.39", "C2.1", "C15.1", "C16.1", "U2.1"], "in_order": true, "trace_length_excluding_pad_copper_mm": 29.922362979144985}, {"net": "+3V3", "expected": ["U1.39", "C2.1", "C15.1", "U5.8"], "actual_pins": ["U1.39", "C2.1", "C15.1", "U5.8"], "in_order": true, "trace_length_excluding_pad_copper_mm": 24.39761543394986}, {"net": "VIO", "expected": ["U4.5", "C19.1", "C17.1", "U2.16"], "actual_pins": ["U4.5", "R11.1", "C17.1", "U2.16"], "in_order": false, "trace_length_excluding_pad_copper_mm": 24.75490911300488}]

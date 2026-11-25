@@ -1,0 +1,236 @@
+[
+  {
+    "net": "+3V3",
+    "before_mm": 107.2258,
+    "after_mm": 109.849,
+    "delta_mm": 2.6232
+  },
+  {
+    "net": "/CTS_N",
+    "before_mm": 30.3464,
+    "after_mm": 30.3464,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/EE_CLK",
+    "before_mm": 29.4574,
+    "after_mm": 29.4574,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/EE_CS",
+    "before_mm": 24.1787,
+    "after_mm": 24.1787,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/EE_DATA",
+    "before_mm": 33.7927,
+    "after_mm": 33.7927,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/EE_DO",
+    "before_mm": 5.3515,
+    "after_mm": 5.3515,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FB",
+    "before_mm": 22.9169,
+    "after_mm": 22.9169,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FB_2V5",
+    "before_mm": 5.2935,
+    "after_mm": 5.2935,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FB_3V3",
+    "before_mm": 6.6298,
+    "after_mm": 6.6298,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FT_CTS_N",
+    "before_mm": 20.7736,
+    "after_mm": 20.7736,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FT_RTS_N",
+    "before_mm": 20.7876,
+    "after_mm": 20.7876,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FT_RXD",
+    "before_mm": 31.2073,
+    "after_mm": 31.2073,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/FT_TXD",
+    "before_mm": 20.7951,
+    "after_mm": 20.7951,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/LED_PWR_A",
+    "before_mm": 1.0712,
+    "after_mm": 1.3712,
+    "delta_mm": 0.3
+  },
+  {
+    "net": "/LED_RX_A",
+    "before_mm": 2.9075,
+    "after_mm": 2.9075,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/LED_TX_A",
+    "before_mm": 2.9075,
+    "after_mm": 2.9075,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/PWREN_N",
+    "before_mm": 29.7406,
+    "after_mm": 29.7406,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/PWR_EN",
+    "before_mm": 33.8643,
+    "after_mm": 33.8643,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/REF12K",
+    "before_mm": 14.6621,
+    "after_mm": 14.6621,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/RESET_N",
+    "before_mm": 6.9619,
+    "after_mm": 6.9619,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/RTS_N",
+    "before_mm": 16.2038,
+    "after_mm": 16.2038,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/RXD",
+    "before_mm": 26.8293,
+    "after_mm": 26.8293,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/RXLED_N",
+    "before_mm": 13.2936,
+    "after_mm": 13.2936,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/TXD",
+    "before_mm": 22.9347,
+    "after_mm": 22.9347,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/TXLED_N",
+    "before_mm": 18.0103,
+    "after_mm": 18.0103,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/USB5V_SW",
+    "before_mm": 13.4147,
+    "after_mm": 13.4147,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "/USB_D+",
+    "before_mm": 7.9553,
+    "after_mm": 7.2303,
+    "delta_mm": -0.725
+  },
+  {
+    "net": "/USB_D-",
+    "before_mm": 7.9967,
+    "after_mm": 7.3967,
+    "delta_mm": -0.6
+  },
+  {
+    "net": "/XTAL_IN",
+    "before_mm": 7.591,
+    "after_mm": 8.4821,
+    "delta_mm": 0.8911
+  },
+  {
+    "net": "/XTAL_OUT",
+    "before_mm": 7.0245,
+    "after_mm": 8.4626,
+    "delta_mm": 1.4381
+  },
+  {
+    "net": "GND",
+    "before_mm": 51.102,
+    "after_mm": 46.9186,
+    "delta_mm": -4.1834
+  },
+  {
+    "net": "USB5V",
+    "before_mm": 106.2847,
+    "after_mm": 98.2308,
+    "delta_mm": -8.0539
+  },
+  {
+    "net": "USB5V_OUT",
+    "before_mm": 31.6302,
+    "after_mm": 31.6302,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "VCCA_1V8",
+    "before_mm": 2.7678,
+    "after_mm": 2.7678,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "VCORE_1V8",
+    "before_mm": 2.0952,
+    "after_mm": 2.0952,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "VIO",
+    "before_mm": 57.3535,
+    "after_mm": 57.3535,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "VIO_OUT",
+    "before_mm": 11.6533,
+    "after_mm": 11.6533,
+    "delta_mm": 0.0
+  },
+  {
+    "net": "VPHY",
+    "before_mm": 17.3874,
+    "after_mm": 20.1997,
+    "delta_mm": 2.8123
+  },
+  {
+    "net": "VPLL",
+    "before_mm": 6.4977,
+    "after_mm": 6.4977,
+    "delta_mm": 0.0
+  }
+]

@@ -1,0 +1,70 @@
+from pathlib import Path
+import json,datetime
+r=Path(__file__).resolve().parents[1];i=json.loads((r/'integrity.json').read_text());q=json.loads((r/'checks/final_summary.json').read_text())
+rows='\n'.join(f"| {p['ref']} | {p['before_mm'][0]:.3f}, {p['before_mm'][1]:.3f} | {p['after_mm'][0]:.3f}, {p['after_mm'][1]:.3f} |" for p in i['placements'])
+text=f'''# R-0035 — USBコネクタをメーカー推奨基板端位置へ修正
+
+基準コミット: `5cce544232e1f0eb137ef95f5060eeea5c9729ef`。修正ブランチ: `codex/a2-r0035-usb-edge`。ユーザーの「では修正を」に基づく修正候補で、最終判定は未実施。
+
+## 修正結果
+
+J1全体を基板内側へ0.60mm移動した。原点は(111.000, 94.375)mm、角度90°。保存後のPCBで、フットプリントのPCB Edge補助線が実際の基板端Y=100.000mmに一致し、位置決め穴中心列Y=102.750mmから基板端まで2.750mmとなることを確認した。信号パッド中心列はY=105.350mm。
+
+根拠は[Molex公式図面](https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/480/48037/480372200_sd.pdf)のSD-48037-004 Rev D、48037-2200の推奨PCBレイアウト。詳しい寸法照合・モデル断面計算は[mainの調査記録](https://github.com/hebowiz/AI_PCB_design_test/blob/ac5171a9669e6a54920e0a29af9a66729fd8935f/docs/reviews/details/R-0035_USB_connector_board_edge.md)を参照する。
+
+モデル自体の形状・倍率・オフセットは変更していない。既存STEPの中心断面に基づく公称隙間は約0.80mmから約0.20mmになる。約0.20mmはメーカーの保証公差ではない。見た目の隙間をゼロにする追加移動や、基板外形の延長は行っていない。
+
+## 局所配置と配線
+
+J1単独移動では5部品のCourtyardと重なる。Y1を下へ動かす試行はU1・C11の実装領域に入るため取りやめ、角度を保って右へ1.325mm移した。C13・FB1と表示LED周辺を順に調整し、最終的にJ1を含む10部品を移動した。C11は途中で動かしたが、最終版では元の位置へ戻した。Courtyardの縮小・DRC除外追加は行っていない。10部品が数学的な最小移動数だとは検証していない。
+
+| 部品 | 修正前X, Y mm | 修正後X, Y mm |
+| --- | --- | --- |
+{rows}
+
+全58部品の角度、型番・値・フットプリント、パッド寸法・穴・接続は保持した。48部品は位置も不変。J2/J3、U1、スイッチ類、基板外形22×50mm・板厚1.6mm・2層は変更していない。
+
+- USB差動主配線の幅0.80mm・間隔0.20mm、既存の2ビアによる交差部、U1引き出しを維持。端子側を短縮し、D+は7.9553→7.3553mm、D−は7.9967→7.3967mm。分岐を含む線分総長の差は約0.0414mmで変わらない。インピーダンス設定・スタックアップは不変で、今回電磁界解析を追加実施したわけではない。
+- D1/D5をUSB線の近くに保ち、GND帰路を付け直した。D1は上側の既存GNDビアを利用し、移動後に干渉する重複ビアを撤去。D1パッド側面とGND並走線の間にも0.15mmを確保した。
+- 位置決め穴・シールド穴と干渉するUSB5V経路を右側のB.Cuへ移した。今回変更したUSB5V線分はすべて0.50mm。既存の下流ネックダウン2線分・計1.18721mmは変更していない。
+- Y1/C13周辺を45°経路で接続し、C14からの分岐も維持した。水晶信号と裏面の非GND配線・ビアとの投影交差は0件。水晶信号直下のGND欠落面積は0mm²。
+- FB1出力はC13とC11の間の通路を使い、主な新規区間を0.20mmとした。FB1→C11→C9→U1.3の順序は維持。FB1からU1.3までのグラフ上の経路は14.9526→17.8686mmと約2.916mm増えており、電源の寄生成分は実測していない。C11/C9からICへの既存経路は保持した。
+
+[銅箔差分](copper_diff.json)はUUIDで撤去35・追加44・編集20アイテム。線分の分割・再作成を含む。Y≧113mmに両端がある既存配線・ビアはすべて不変。総線分長は878.8972→873.3997mm。[ネット別比較](net_lengths.json)。6ゾーンの輪郭・ネット・層を保ち、銅箔を再フィルした。
+
+## 検証
+
+| 項目 | 結果 |
+| --- | --- |
+| 保存後ERC / DRC / 未配線 / 回路図不一致 | 0 / 0 / 0 / 0件 |
+| 回路図 | ファイルのバイト列不変。前後のXMLネットリストで部品・libpart・全端子ネットが一致 |
+| PCB部品 | 58個。属性・パッド・接続・3Dモデル設定が一致 |
+| 既存設定 | `.kicad_pro`、`.kicad_dru`はバイト一致。除外追加なし |
+| 非45°線分 / IC短辺中央以外の引き出し / ICの不自然な同一ネット接触 | 0 / 0 / 0件 |
+| パッド・ビア・分岐を除く90°以上の曲がり | 0→0件 |
+| USB/水晶の直下層に新規の非GND交差 | 0件。既存USB対の交差部だけを許容 |
+| GND参照面 | 新規欠落0mm²。USB交差部の既存欠落は残る |
+| 設計保全 | 回路図・ライブラリ・モデル・既存生成スクリプト・BOM・製造データは変更なし。固定Workspace・既存ブランチも更新なし |
+
+[最終集計](checks/final_summary.json)、[保存後DRC](checks/final_drc.json)、[ERC](checks/final_erc.json)、[構成・座標照合](integrity.json)、[GND比較](ground_reference_comparison.json)、[直下層交差](priority_projection_audit.json)を保存した。
+
+配線グラフの検出値は不良の確定数と区別する。迂回候補148→143、閉路候補3→2、非GND閉路1→1、葉端候補51→53（非GNDは19→19）、重複線分候補2→2、パッド近接候補23→23、狭ピッチパッド間通過0→0。増えた葉端候補はGNDビアへの接続で、開放された信号スタブではない。重複2件とVIO閉路は基準版の下側領域で不変。近接候補にはESDの意図的な直接分岐、太い電源線のパッド接続、短い引き出しの隣接区間も含まれる。
+
+既存の電源順序検査ではU4入力/C18、VIO/C19について基準版からfalseが出る。今回の変更で発生したものではなく、同領域は変更していない。過去のOK判定を変更せず、結果を[前](checks/quality_before/power_order.json)・[後](checks/quality_after/power_order.json)に残す。これらを含め、全基板の品質問題を今回すべて解消したとは扱わない。
+
+## 画像確認
+
+[表面](images/front.png)・[裏面](images/back.png)と拡大図を目視した。USB対の形状、水晶周辺、GND面、5Vの右側経路、シルクと部品の対応を確認した。3D側面の隙間は残るが、数値上の基板端指定との一致を確認した。
+
+- [前後比較](images/comparison.png)
+- [表面拡大](images/front_detail.png) / [裏面拡大](images/back_detail.png)
+- [3D上面](images/after_top.png) / [上面拡大](images/after_top_detail.png)
+- [3D側面](images/after_side.png) / [J1側面拡大](images/after_side_detail.png)
+
+## 経緯と残る確認
+
+[作業ログ](WORK_LOG.md)に試行とコマンドを記録した。`scripts/`の編集スクリプトは試行順序に依存する作業証跡であり、完成版や人間の編集後データへ再実行しない。`before/`・`candidate/`の作業コピーはGit対象外。変更前は基準コミットから復元できる。
+
+残る確認はユーザーのR-0035最終判定、実物の嵌合・機構公差・組立条件、移動した水晶の発振余裕と電源経路の実機特性。ERC/DRC合格を製造承認とは扱わない。BOM・Gerber・実装座標は旧版のまま。
+'''
+(r/'README.md').write_text(text,encoding='utf-8')

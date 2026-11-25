@@ -1,0 +1,34 @@
+[
+  {
+    "net": "/USB_D+",
+    "front_copper_area_mm2": 4.1642712260970836,
+    "before_unreferenced_area_mm2": 0.09771257004971504,
+    "after_unreferenced_area_mm2": 0.09771257004971504,
+    "new_loss_over_2um_tolerance_mm2": 0.0,
+    "new_loss_bounds": []
+  },
+  {
+    "net": "/USB_D-",
+    "front_copper_area_mm2": 4.022821829081947,
+    "before_unreferenced_area_mm2": 0.43570631030568374,
+    "after_unreferenced_area_mm2": 0.43570631030568374,
+    "new_loss_over_2um_tolerance_mm2": 0.0,
+    "new_loss_bounds": []
+  },
+  {
+    "net": "/XTAL_IN",
+    "front_copper_area_mm2": 1.2842313272304682,
+    "before_unreferenced_area_mm2": 0.0351465426296618,
+    "after_unreferenced_area_mm2": 0.0,
+    "new_loss_over_2um_tolerance_mm2": 0.0,
+    "new_loss_bounds": []
+  },
+  {
+    "net": "/XTAL_OUT",
+    "front_copper_area_mm2": 1.2798265877062367,
+    "before_unreferenced_area_mm2": 0.0,
+    "after_unreferenced_area_mm2": 0.0,
+    "new_loss_over_2um_tolerance_mm2": 0.0,
+    "new_loss_bounds": []
+  }
+]

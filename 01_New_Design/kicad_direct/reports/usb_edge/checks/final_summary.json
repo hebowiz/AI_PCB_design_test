@@ -1,0 +1,55 @@
+{
+  "pcb_on_disk_matches_verified_candidate": true,
+  "component_libpart_terminal_netlist_equal": true,
+  "drc": [],
+  "erc": [],
+  "quality_before_after": {
+    "turn_ge90": [
+      0,
+      0
+    ],
+    "detour_pairs": [
+      148,
+      143
+    ],
+    "independent_cycles": [
+      3,
+      2
+    ],
+    "non_GND_cycles": [
+      1,
+      1
+    ],
+    "leaf_candidates": [
+      51,
+      53
+    ],
+    "non_GND_leaf_candidates": [
+      19,
+      19
+    ],
+    "duplicate_overlap_pairs": [
+      2,
+      2
+    ],
+    "near_pad_track_pairs": [
+      23,
+      23
+    ],
+    "corridor_track_pair_hits": [
+      0,
+      0
+    ]
+  },
+  "pcb_sha256": "7f1f83a4e5893203c050ea6580480bf2ff14991708906cbf2be862b9277ddbe8",
+  "real_j1_locator_coordinates_mm": [
+    [
+      108.75,
+      102.75
+    ],
+    [
+      113.25,
+      102.75
+    ]
+  ]
+}
