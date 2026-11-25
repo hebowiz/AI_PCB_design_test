@@ -57,3 +57,20 @@ PCB・回路図・モデル・固定Workspaceは変更していない。現行PC
 図面はPDFを画像として確認し、既存モデルはFreeCAD 0.20で読み取った。公式PDFの再取得はタイムアウトしたため、R-0033で取得済みのローカル資料を照合に使用し、版とハッシュを残した。メーカー資料・CAD本体は公開リポジトリへ転載していない。Courtyard計算の初回試行では線分だけを対象にしていたため矩形・円を追加し、全形状の存在を確認したうえで上記5件を抽出した。
 
 修正は未承認・未着手で、移動後のERC/DRC・未配線・回路図整合性・差動線品質・機構公差は未検証。R-0035は調査中・未判定、R-0034のOKは維持する。修正する場合は対象版から専用設計ブランチで実施し、ユーザーの最終判定を待つ。
+
+
+## 修正・検証 — 2026-11-25 21:26 JST
+
+ユーザーの「では修正を」（2026-11-25 21:01 JST）を受け、5cce544から専用ブランチ`codex/a2-r0035-usb-edge`を作成した。修正コミットは`ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`。最終OK判定は未取得。
+
+J1全体を+Y0.60mm移動した。保存後の原点(111.000, 94.375)mm、PCB Edge補助線Y=100.000mm、位置決め穴中心列Y=102.750mmを確認し、基板端まで2.750mmとなった。ランド寸法・モデル設定・外形は不変。既存STEP中心断面の公称隙間は約0.20mmで、3D側面にも残る。これは保証公差ではない。
+
+Y1を下へ動かす試行はU1/C11の実装領域に入ったため取りやめ、右へ1.325mm移動した。C13/FB1と表示LED周辺も局所調整し、最終移動部品はJ1、D1、D5、Y1、C13、C14、C12、FB1、D2、R13の10個。48部品は位置を保持し、C11は試行後に元へ戻した。Courtyard縮小や除外追加は行っていない。
+
+USB対の主配線幅0.80mm・間隔0.20mm、2ビアの交差部を保持し、両信号の総線分長を各0.60mm短縮。今回変更したUSB5V線分は0.50mm。水晶信号直下の非GND配線・ビア交差は0件、GND欠落面積は0mm²。FB1→C11→C9→U1.3の順序は維持したが、同経路は約2.916mm増えた。主な新規区間を0.20mmとし、実機の電源・発振特性は未検証として残す。
+
+保存後のERC・DRC・未配線・回路図不一致はすべて0件。58部品の属性・パッド・ネット・3D設定が一致し、回路図・プロジェクト・カスタムルールはバイト一致。非45°線分、パッド等を除く90°以上の曲がり、IC短辺中央以外の引き出しも0件。総線分長は878.8972→873.3997mm。Y≧113mmに両端を持つ既存配線・ビアは保持した。
+
+[修正・検証レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/README.md)、[前後画像](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/images/comparison.png)、[3D側面拡大](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/images/after_side_detail.png)、[最終集計](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/checks/final_summary.json)、[作業ログ](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/WORK_LOG.md)。設計・検証・資料作成は約22分。配置の不採用案、ライブラリの候補コピー不足、補助スクリプトのAPI/JSON修正も記録した。グラフ検査に残る既存のVIO閉路、GND/VIO重複、U4/C18とVIO/C19の電源順序検出結果は前後比較で保全し、既存のOK判定は変更していない。
+
+固定Workspaceは5cce544のままで、未コミットのプロジェクト変更と.historyを保護。mainのCAD、既存設計ブランチ、BOM・Gerber・実装座標は変更していない。残る確認はユーザーの最終判定、実物の嵌合・公差、移動した水晶・電源の実機特性。R-0034のOKは維持する。
