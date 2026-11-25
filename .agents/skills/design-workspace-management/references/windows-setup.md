@@ -75,3 +75,7 @@ git -C (Join-Path $repo 'workspaces/A-2') rev-parse HEAD
 - `git reset --hard`、`git clean -fd`、既存Worktreeの削除を無断で行わない。
 - 回路図だけを古い`main`へコピーして上書きしない。
 - 既存のCADファイルを再生成しない。
+
+## 固定成果物の確認
+
+新方式の設計版では`01_New_Design/kicad_direct/reports/current/manifest.json`の入力ハッシュをCADと照合する。ファイルの存在だけで最新・検証済みと判断しない。過去結果はGitの固定SHAから一時領域へ取り出し、固定Workspace内にレビュー別コピーを作らない。旧方式の版を更新する際は旧成果物をそのまま保護し、この手順を理由に再生成しない。共通規約は[固定保存方式](../../../../docs/review_artifacts.md)を参照。

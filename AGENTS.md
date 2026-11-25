@@ -59,3 +59,7 @@
 - `discussion_log.md`: `## YYYY-MM-DD — 議題` 背景／選択肢／反対意見／結論／未検証
 - `decision_log.md`: `## DEC-NNN — 件名` 日付／内容／理由／代替案／再検討条件
 - `work_log.md`: `## YYYY-MM-DD HH:MM JST — 作業名` 目的／実施操作／変更ファイル／結果／検証証跡／未解決事項
+
+## レビュー成果物の固定保存
+
+A-2の新規レビューは[固定保存方式](docs/review_artifacts.md)を適用する。最終成果物は設計ブランチの`01_New_Design/kicad_direct/reports/current/`へ固定名で更新し、試行出力はGit管理外へ置く。レビュー名・日付別のreportsフォルダを新設しない。共通台帳は維持し、詳細・一括記録はmainの`docs/reviews/history.md`へ追記する。再利用する処理は`tools/design_review/`へ機能別に置く。過去証拠は固定コミットで参照し、現行CADと検証入力の一致を確認する。旧成果物の整理は[別計画](docs/review_artifacts_migration.md)とし、無断削除・設計再生成・mainへの設計マージをしない。将来の`pcb-design`も同じ規約を参照する。

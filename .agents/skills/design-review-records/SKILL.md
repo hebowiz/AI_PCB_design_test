@@ -2,7 +2,7 @@
 name: design-review-records
 description: "Maintain, audit, and summarize engineering design-review minutes and issue registers with concise current-state summaries, accurate issue/correction history, precise reviewer approval, traceable commit evidence, and no repetitive timestamp provenance. Use for circuit, schematic, PCB, manufacturing reviews and edits to review_register.md or review detail records."
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # 設計レビュー記録・議事録の管理
@@ -30,8 +30,8 @@ metadata:
 ## 台帳と詳細の役割
 
 - **共通台帳**：既存の15列（ID、指摘日時、指摘者、対象工程、対象設計、対象箇所、重要度、指摘内容、対応内容、対応状況、対応後判定、判定者、判定日時、修正先、証跡）を維持。列を削る場合は別途合意が必要。セルを短くし、各情報を所定列に**一度だけ**書く。
-- **個別詳細**：必要な技術調査・代替案・承認された方針・修正履歴・検証方法と結果・例外/未検証範囲・判定履歴・固定コミットリンクを残す。記録経緯の独白や定型注意書きは繰り返さない。
-- **バッチ記録**：複数IDの一括調査/一括修正だけを共有。台帳全行を再掲しない。現在の状態と当時の状態を混ぜない。
+- **個別詳細**（A-2の新規記録は固定履歴の節）：必要な技術調査・代替案・承認された方針・修正履歴・検証方法と結果・例外/未検証範囲・判定履歴・固定コミットリンクを残す。記録経緯の独白や定型注意書きは繰り返さない。
+- **バッチ記録**（A-2の新規記録は固定履歴の節）：複数IDの一括調査/一括修正だけを共有。台帳全行を再掲しない。現在の状態と当時の状態を混ぜない。
 - **Git履歴**：以前の判断や訂正経緯は追える状態を保つ。ログの可読性向上を理由に、重要な設計判断やユーザー承認を消さない。
 
 ## 日時
@@ -52,3 +52,8 @@ metadata:
 
 - [記録の書き方と実例](references/writing-rules.md)
 - [議事録監査チェック](references/audit-checklist.md)
+
+## A-2成果物の保存方式
+
+新規作業では[共通の固定保存方式](../../../docs/review_artifacts.md)を読む。最終出力は設計ブランチの`reports/current/`、新規の詳細・一括履歴はmainの`docs/reviews/history.md`へ集約する。レビューごとのreports・details・batches・evidenceを新設しない。既存記録は保持し、旧フォルダの整理は別途承認された範囲だけで行う。
+台帳の15列とID運用は変えない。固定履歴には当時の指摘、技術的な試行錯誤、承認された変更、検証と最終判定を追記する。前回成果物を更新する前にGitで復元可能な状態を確保し、過去の証拠へ完全SHA付きリンクを残す。未実行の検証を古いファイルで代用しない。

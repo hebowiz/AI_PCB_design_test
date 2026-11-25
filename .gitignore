@@ -23,3 +23,6 @@ __pycache__/
 
 # Fixed local CAD review worktrees (each nested folder is its own Git worktree)
 /workspaces/
+
+# Disposable review trials; final evidence uses reports/current/
+/.review-tmp/

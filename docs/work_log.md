@@ -838,3 +838,15 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 ユーザーの「0035についても一旦OK」を受け、共通台帳のR-0035を完了・OKへ更新し、個別詳細に対象コミットと判定を追記した。Workspace運用文書の現在の判定も更新した。design-review-recordsを適用し、日本語記録はyomiyasuの方針で簡潔に整えた。以後は配線スタイルの指摘収集を継続し、次の新規IDはR-0036とする。
 
 検証：登録35件・15列とR-0001〜R-0034の全行を保持。設計成果物、固定Workspace、既存の未コミット設定は変更していない。`git fetch origin`の初回は権限エラーとなり、権限付き再実行で最新mainとの一致を確認した。`git diff --check`と文書差分を確認し、管理文書4ファイルのみをコミット・pushする。
+
+## 2026-11-25 23:51 JST — A-2レビュー成果物の固定保存方式を導入
+
+目的：レビュー回数によるフォルダ・ファイルの増加を抑える。design-review-records、design-workspace-management、skill-creatorを適用し、日本語規約をyomiyasuの方針で仕上げた。基準mainは666bf16c21e9d40d8a3ad13c718a291a158f82e3、設計はca191ab2a900714d53f7ab0eb8984b58f3af7ef8。
+
+調査：`git ls-tree -rl`と`rg`で出力先・生成処理を確認。設計reportsは20フォルダ・1,467ファイル、mainのレビュー記録は110ファイル。旧export.ps1には製造出力が含まれ、専用common.pyにはレビュー名・Worktree名依存があった。詳細は[移行計画](review_artifacts_migration.md)。
+
+変更：固定保存規約、整理計画、固定履歴、共通ツールとREADMEを追加。AGENTS、指定2スキルとreferences、レビュー運用・テンプレート、Workspace運用、ignore設定を更新した。旧レポート・専用スクリプト・既存詳細・バッチ・台帳・CADは変更していない。次回から固定成果物を使い、旧スクリプトの抽出は同一入力の比較後に実施する。
+
+検証：読み取り専用check_layout.pyを一時Gitリポジトリで実行。旧成果物・固定名・ignore済み試行の許容、追跡/未追跡の不正パス5種類の検出、不正基準SHAの拒否を確認。現在のmainと設計Worktreeでも検査を実施。共通台帳のGit blob、35件・15列、既存記録とmainの未コミット設定を保全確認した。初回の一時Git作成は権限エラーで再実行。台帳の生バイト照合は改行形式差のためGit blob照合へ修正し、リンク検査で見つかった参照階層の誤りを修正した。
+
+証跡：[保存規約](review_artifacts.md)、[共通ツール](../tools/design_review/README.md)、本コミットの差分。未実施：旧成果物の統合・削除、実CADの新方式による出力、汎用PCB解析の抽出、固定Workspace更新。レビュー判定は不変。

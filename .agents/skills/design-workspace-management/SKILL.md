@@ -2,7 +2,7 @@
 name: design-workspace-management
 description: "Keep a fixed local Git worktree path for the current human-reviewable CAD design, including KiCad, without merging review branches into main or overwriting user edits. Resolve the active reviewed revision, set up and safely advance workspaces, and report the exact project path."
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # CAD設計の固定Worktree管理
@@ -50,6 +50,11 @@ Codexは設計Worktreeの内容だけを読み「最新版のスキルを適用�
 
 ## 補足
 
-- [ローカルWorktreeの運用ルール](../../../../docs/design_workspaces.md)
+- [ローカルWorktreeの運用ルール](../../../docs/design_workspaces.md)
 - [安全な初回セットアップ・更新コマンド](references/windows-setup.md)
 - 設計の電気的検証は`schematic-design`、議事録は`design-review-records`など既存の役割に従う。本スキルはワークスペース運用だけを担当。
+
+## A-2成果物の保存方式
+
+新規作業では[共通の固定保存方式](../../../docs/review_artifacts.md)を読む。最終出力は設計ブランチの`reports/current/`、新規の詳細・一括履歴はmainの`docs/reviews/history.md`へ集約する。レビューごとのreports・details・batches・evidenceを新設しない。既存記録は保持し、旧フォルダの整理は別途承認された範囲だけで行う。
+Workspace更新時は、存在する`reports/current/manifest.json`の対象CADハッシュと実際のファイルを照合する。旧方式の版にはmanifestがないことを記録し、無断生成しない。成果物だけの後続コミットと設計コミットを区別する。更新のためにmainの規則を設計へマージせず、共通ツールはmain側から対象Worktreeを明示して実行する。
