@@ -74,3 +74,7 @@ USB対の主配線幅0.80mm・間隔0.20mm、2ビアの交差部を保持し、�
 [修正・検証レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/README.md)、[前後画像](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/images/comparison.png)、[3D側面拡大](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/images/after_side_detail.png)、[最終集計](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/checks/final_summary.json)、[作業ログ](https://github.com/hebowiz/AI_PCB_design_test/blob/ca191ab2a900714d53f7ab0eb8984b58f3af7ef8/01_New_Design/kicad_direct/reports/usb_edge/WORK_LOG.md)。設計・検証・資料作成は約22分。配置の不採用案、ライブラリの候補コピー不足、補助スクリプトのAPI/JSON修正も記録した。グラフ検査に残る既存のVIO閉路、GND/VIO重複、U4/C18とVIO/C19の電源順序検出結果は前後比較で保全し、既存のOK判定は変更していない。
 
 固定Workspaceは5cce544のままで、未コミットのプロジェクト変更と.historyを保護。mainのCAD、既存設計ブランチ、BOM・Gerber・実装座標は変更していない。残る確認はユーザーの最終判定、実物の嵌合・公差、移動した水晶・電源の実機特性。R-0034のOKは維持する。
+
+## Workspace更新 — 2026-11-25 22:14 JST
+
+ユーザーの依頼により、固定Workspaceを修正候補`ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`へfast-forwardした。CAD・ライブラリ・モデルの一致と、J1原点(111.000, 94.375)mmを確認した。未コミットのプロジェクト設定は退避し、`.history/`も保持した。詳細は[Workspace運用記録](../../design_workspaces.md)を参照する。R-0035の最終判定は未取得。

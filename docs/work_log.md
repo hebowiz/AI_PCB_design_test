@@ -820,3 +820,15 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 
 ユーザー承認に基づき専用ブランチcodex/a2-r0035-usb-edgeでJ1基板端位置を修正し、ca191ab2a900714d53f7ab0eb8984b58f3af7ef8をpushした。pcbnewの局所編集・ゾーン再フィル、kicad-cliのERC/DRC/回路図照合/ネットリスト出力、配線グラフ・GND参照検査、PDF/3D確認を実施。結果と再試行は[R-0035詳細](reviews/details/R-0035_USB_connector_board_edge.md)と設計レポートに保存。
 共通台帳は確認待ち・未判定へ更新。他34件の行と判定、35件/15列を保持。初回台帳照合はリンク付きIDを数えなかったため更新前に停止し、ID抽出を直して再確認した。変更文書は台帳・詳細・作業/判断/議論ログ。mainの既存プロジェクト変更、固定Workspace、既存設計ブランチと製造データは保護。design-review-recordsとyomiyasuを適用。実機特性・公差・ユーザー最終判定は未確認。
+
+## 2026-11-25 22:14 JST — A-2固定WorkspaceをR-0035修正候補へ更新
+
+目的：ユーザーがKiCadでR-0035の修正候補を確認できる状態にする。最新mainのAGENTS.md、design-workspace-managementとWindows手順に従い、記録文をyomiyasuで整理した。
+
+実施操作：`git fetch origin`、`git status --short`、プロジェクト設定差分・エディタ停止・更新先の系譜を確認。未コミット設定をローカルバックアップとパス指定の`git stash push`へ保存し、`git merge --ff-only ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`で固定Workspaceを更新した。
+
+変更ファイル：mainの`docs/design_workspaces.md`、`docs/reviews/review_register.md`の参照版、`docs/reviews/details/R-0035_USB_connector_board_edge.md`、本ログ。固定Workspaceは`workspace/a2-active`の参照コミットを更新した。設計の追加編集・再生成は行っていない。
+
+検証：CAD4ファイルとライブラリ・モデルを含む38ファイルを`git hash-object`で更新先コミットと照合。ローカルモデル10ファイルも設計Worktreeと一致した。KiCad 10.0.8 APIで58部品、配線・ビア797個、6ゾーン、板厚1.6mm、J1原点(111.000,94.375)mm、J2モデルYオフセット-0.7172mmを確認した。`.history/`7ファイルとmainの既存プロジェクト設定をハッシュで保全確認。共通台帳35行の内容と判定は変更していない。
+
+証跡：`workspaces/_backups/A-2-20261125-221454/update_record.json`。退避stashは`9e7f5ac0edc1f10c5acc2637a4330d851e1d6414`。今回ERC/DRCは再実行せず、照合した候補版の検証結果を参照する。未解決事項：R-0035のユーザー最終判定と実機確認。BOM・Gerber・実装座標は旧版のまま。

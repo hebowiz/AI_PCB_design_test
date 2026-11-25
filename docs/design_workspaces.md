@@ -33,9 +33,9 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeはcodex/a2-r0034-header-layoutの5cce544232e1f0eb137ef95f5060eeea5c9729efを参照する。2026-11-25 20:40 JST、ユーザーの明示依頼によりJ2/J3レイアウトとJ2モデル位置補正を含むレビュー候補へ更新した。R-0034はユーザーOK。R-0024・R-0027・R-0029の最終判定は未取得。USBコネクタと基板端の位置確認はR-0035として受付済み。R-0033のOK判定と、既存の回路・PCB判定は維持する。
+固定Worktreeは`codex/a2-r0035-usb-edge`の`ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`を参照する。2026-11-25 22:14 JST、ユーザーの更新依頼によりR-0035のUSBコネクタ位置修正候補へ更新した。R-0035は確認待ち・未判定。R-0034のOKと既存のレビュー判定は維持する。
 
-CAD4ファイルとローカルライブラリ・モデルを含む38ファイルのGit blob一致を確認した。58部品、配線・ビア計788個、6ゾーン、板厚1.6mm。保存済みJ2モデルYオフセットは-0.7172mm。候補版のERC・DRC・未配線・回路図不一致は各0件で、更新作業ではCADを再生成していない。最新の3D画像と検証結果は固定Workspace内の01_New_Design/kicad_direct/reports/header_alignment_fix/README.mdを参照する。BOM・Gerber・実装座標は旧版のまま。
+CAD4ファイルとライブラリ・モデルを含む38ファイルのGit blob一致、ローカルモデル10ファイルの一致を確認した。58部品、配線・ビア計797個、6ゾーン、板厚1.6mm。J1原点は(111.000, 94.375)mm、J2モデルYオフセットは-0.7172mm。候補版のERC・DRC・未配線・回路図不一致は各0件で、今回の更新ではCADを再生成していない。画像と検証結果は固定Workspace内の`01_New_Design/kicad_direct/reports/usb_edge/README.md`を参照する。BOM・Gerber・実装座標は旧版のまま。
 
 ## Codexの基本ルール
 
@@ -91,3 +91,9 @@ D:\Documents\KiCad\10.0\projects\99_AI_PCB_design_test\workspaces\A-2\01_New_Des
 USBコネクタのローカル専用STEP2点もコピーし、元ファイル・移動先のハッシュと、元データの出典SHAを照合した。モデルはGit除外対象のまま。既存ファイルの破棄・強制上書きはしていない。更新後のCAD・ライブラリ・モデルのGit blobとPCBの読込を確認した。ローカル記録はworkspaces/_backups/A-2-20261125-203945/update_record.json。
 
 mainの未コミットプロジェクト設定、既存設計ブランチ、レビュー判定は保持した。これは人間レビュー用の更新で、最終OKや製造承認ではない。
+
+## 2026-11-25 22:14 JST — R-0035修正候補への更新
+
+ユーザーの依頼により`workspace/a2-active`を`5cce544232e1f0eb137ef95f5060eeea5c9729ef`から`ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`へfast-forwardした。未コミットのプロジェクト設定にはUSB差動ネットクラスやビア寸法の差分があったため、`workspaces/_backups/A-2-20261125-221454/a2_usb_uart.kicad_pro`とstash `9e7f5ac0edc1f10c5acc2637a4330d851e1d6414`へ退避した。候補版の検証済み設定を使用し、退避した設定は再適用していない。
+
+回路図・PCBに保存済み変更はなく、更新前に両エディタの停止を確認した。`.history/`7ファイルとmainの既存プロジェクト設定はハッシュ一致で保全を確認した。更新後の追跡ファイルに未コミット変更はない。照合結果はバックアップフォルダの`update_record.json`に保存した。設計ブランチとmainのCADは変更していない。
