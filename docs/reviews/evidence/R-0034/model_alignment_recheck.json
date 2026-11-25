@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-25 20:30 JST",
+  "design_commit": "07cc2d9ab3d8d41842a378ee1c1a4df9c263ae0a",
+  "pcb_sha256": "832e16a631fa7833e471228112cbb3dbd3dd0b65cb5a1f37439376e769dda880",
+  "j2_origin_y_mm": 143.1928,
+  "rotation_deg": 0,
+  "saved_model_offset_mm": [
+    0,
+    0,
+    0
+  ],
+  "saved_model_scale": [
+    1,
+    1,
+    1
+  ],
+  "saved_model_rotation_deg": [
+    0,
+    0,
+    0
+  ],
+  "body_local_y_bounds_mm": [
+    -6.090000012,
+    -3.550000012
+  ],
+  "body_board_y_bounds_mm": [
+    146.742800012,
+    149.282800012
+  ],
+  "board_edge_y_mm": 150,
+  "fab_y_bounds_mm": [
+    147.46,
+    150
+  ],
+  "inward_gap_mm": 0.717199988,
+  "api_memory_only_test": {
+    "iterator_y_after_assignment": -0.7172,
+    "footprint_model_reread_y": 0
+  },
+  "design_modified": false
+}
