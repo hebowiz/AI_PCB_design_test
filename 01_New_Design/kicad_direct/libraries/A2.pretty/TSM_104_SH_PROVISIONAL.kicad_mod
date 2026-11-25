@@ -99,4 +99,9 @@
 		(uuid "05b12b3e-3393-4b50-8130-3ff4f1663822")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/TSM_104_01_T_SH_simplified.wrl"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

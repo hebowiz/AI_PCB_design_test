@@ -1,0 +1,8 @@
+*.html
+*.pdf
+*.pdf.png
+dpy_drawing_*.png
+molex_drawing.png
+samtec_print.png
+ti_package_page2.png
+before.kicad_pcb

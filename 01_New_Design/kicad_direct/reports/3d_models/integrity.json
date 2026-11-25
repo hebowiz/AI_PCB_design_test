@@ -1,0 +1,628 @@
+{
+  "base": "22a74e75bdd508a28644a9df42fda8d10793d63e",
+  "modified_references": [
+    "D1",
+    "D5",
+    "J1",
+    "J2",
+    "R17"
+  ],
+  "all_non_model_PCB_content_equal": true,
+  "footprints": 58,
+  "tracks_and_vias": 715,
+  "zones": 6,
+  "models": [
+    {
+      "ref": "C9",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U4",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "FB2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R14",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "D2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "D3",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C16",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C11",
+      "dnp": true,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R10",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "TP1",
+      "dnp": false,
+      "models": []
+    },
+    {
+      "ref": "SW3",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "Y1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "TP2",
+      "dnp": false,
+      "models": []
+    },
+    {
+      "ref": "R2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KIPRJMOD}/models/vendor/Molex_480372200_aligned.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "Q1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C10",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R13",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C14",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C18",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C6",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C12",
+      "dnp": true,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J3",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C22",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C15",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R15",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R17",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "D4",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "U5",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "D1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KIPRJMOD}/models/DPY0002A_simplified.wrl",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "SW1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SP3T_PCM13.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C19",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R8",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C17",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C8",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C5",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C7",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "FB1",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KIPRJMOD}/models/TSM_104_01_T_SH_simplified.wrl",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C13",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "SW2",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "D5",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KIPRJMOD}/models/DPY0002A_simplified.wrl",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "C23",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "dnp": false,
+      "models": [
+        {
+          "path": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "unchanged_files": {
+    "01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch": {
+      "git_content_identical": true,
+      "worktree_sha256": "56a796f529558cb68d0bb7dbc452f4826e73c2e51c96c5d8ae8fd5f4e0df3187"
+    },
+    "01_New_Design\\kicad_direct\\a2_usb_uart.kicad_pro": {
+      "git_content_identical": true,
+      "worktree_sha256": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b"
+    },
+    "01_New_Design\\kicad_direct\\a2_usb_uart.kicad_dru": {
+      "git_content_identical": true,
+      "worktree_sha256": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273"
+    }
+  },
+  "drc": {
+    "ignored_checks": 5,
+    "included_severities": 2,
+    "schematic_parity": 0,
+    "unconnected_items": 0,
+    "violations": 0
+  },
+  "erc": {
+    "ignored_checks": 4,
+    "included_severities": 2,
+    "sheets": 1,
+    "violations": 0
+  },
+  "dnp_unchanged": [
+    "C11",
+    "C12"
+  ],
+  "bare_copper_no_model_required": [
+    "TP1",
+    "TP2"
+  ],
+  "token_preservation": {
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "All non-model tokens identical (including quoted strings)",
+    "01_New_Design/kicad_direct/libraries/A2.pretty/R_0603_Bourns_CRPF.kicad_mod": "All non-model tokens identical (including quoted strings)",
+    "01_New_Design/kicad_direct/libraries/A2.pretty/TSM_104_SH_PROVISIONAL.kicad_mod": "All non-model tokens identical (including quoted strings)",
+    "01_New_Design/kicad_direct/libraries/A2.pretty/USB_A_Molex_48037-2200_Horizontal.kicad_mod": "All non-model tokens identical (including quoted strings)"
+  },
+  "completed_jst": "2026-11-25 14:45 JST"
+}

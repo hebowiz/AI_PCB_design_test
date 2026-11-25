@@ -1,0 +1,36 @@
+{
+  "J1": {
+    "mpn": "0480372200",
+    "type": "manufacturer STEP via Molex / TraceParts",
+    "page": "https://www.molex.com/en-us/products/part-detail/480372200",
+    "archive": "196112090-659-480372200.zip",
+    "source_sha256": "de4a28f56bc7ed421bf3c6f29631ce54d968eadc6197c90f4f4ba78cc6629998",
+    "local_only": true,
+    "transform_mm": "X=Zvendor+9.375; Y=Xvendor; Z=Yvendor-0.1"
+  },
+  "J2": {
+    "mpn": "TSM-104-01-T-SH",
+    "type": "independent simplified substitute",
+    "page": "https://www.samtec.com/products/tsm-104-01-t-sh",
+    "drawing": "https://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-sh-xx-xxx-x-xx-mkt.pdf",
+    "revision": "CQ",
+    "official_CAD_access": "email entry required; not submitted",
+    "limitation": "Formed tail and body details simplified; provisional footprint F.Fab mismatch retained"
+  },
+  "D1,D5": {
+    "mpn": "ESD321DPYR",
+    "type": "independent simplified substitute",
+    "page": "https://www.ti.com/product/ESD321",
+    "drawing": "https://www.ti.com/lit/ds/symlink/esd321.pdf",
+    "package": "DPY0002A 4224561/C 07/2024",
+    "official_CAD_access": "TI links Ultra Librarian; registration required; not submitted"
+  },
+  "R17": {
+    "mpn": "CR0603-J/-000EPF",
+    "type": "KiCad standard generic 0603 model",
+    "drawing": "https://www.bourns.com/docs/product-datasheets/cr-pf.pdf",
+    "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+    "license": "CC-BY-SA-4.0 with KiCad library exception",
+    "limitation": "generic package, not exact manufacturer model"
+  }
+}
