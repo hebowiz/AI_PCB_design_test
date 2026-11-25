@@ -33,7 +33,7 @@ git -C workspaces/A-2 rev-parse HEAD
 
 ## 現在のレビュー対象
 
-固定Worktreeは`codex/a2-r0035-usb-edge`の`ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`を参照する。2026-11-25 22:14 JST、ユーザーの更新依頼によりR-0035のUSBコネクタ位置修正候補へ更新した。R-0035は確認待ち・未判定。R-0034のOKと既存のレビュー判定は維持する。
+固定Worktreeは`codex/a2-r0035-usb-edge`の`ca191ab2a900714d53f7ab0eb8984b58f3af7ef8`を参照する。2026-11-25 22:14 JST、ユーザーの更新依頼によりR-0035のUSBコネクタ位置修正候補へ更新した。R-0035はユーザーOK。R-0034のOKと既存のレビュー判定は維持する。
 
 CAD4ファイルとライブラリ・モデルを含む38ファイルのGit blob一致、ローカルモデル10ファイルの一致を確認した。58部品、配線・ビア計797個、6ゾーン、板厚1.6mm。J1原点は(111.000, 94.375)mm、J2モデルYオフセットは-0.7172mm。候補版のERC・DRC・未配線・回路図不一致は各0件で、今回の更新ではCADを再生成していない。画像と検証結果は固定Workspace内の`01_New_Design/kicad_direct/reports/usb_edge/README.md`を参照する。BOM・Gerber・実装座標は旧版のまま。
 
