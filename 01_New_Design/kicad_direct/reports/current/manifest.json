@@ -7,10 +7,10 @@
     "R-0039",
     "R-0040"
   ],
-  "base_commit": "0d7a11603da2097970062df54214a574c1589c77",
-  "source_commit": "d1d9cf5f6db50c702c2ec3cb23fa6afa74411902",
+  "base_commit": "32eca597c52d60c4ae0d8cebb13e9e027b95d2f3",
+  "source_commit": "b16abc0023ffc0514cb936e0f7fcf6148b9ce9c1",
   "inputs": {
-    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "d69e88db5f1d7e93e2f581c9766798f453e6dd044b038b15f8775c4d72593934",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
@@ -50,115 +50,121 @@
     "01_New_Design/kicad_direct/models/vendor/.gitignore": "e04c59cab54d5f36ff32b04deaecf14ed075643b15dd7b96a4cca1b35ae41f4e"
   },
   "tools": {
-    "common_tools_commit": "8def616b53f70c10f1d5094a87d5fd5e77eb0967",
     "kicad": "10.0.8",
-    "classification": "classify_copper_candidates.py with per-board analyst assessments stored in metrics.reassessment.analyst_assessments"
+    "python": "KiCad bundled Python; general Python 3.11",
+    "common_tools_commit": "fdd7f1ba718fd33086ffdc1f373d72f4e89a8874",
+    "common_tools_sha256": {
+      "analyze_copper_style.py": "5d482c5b7885577027aff168d7d33cf4c69acd0a6225783e27bcb93fa83aa9e3",
+      "audit_route_geometry.py": "b986649bfc36de3e49eff39507b8b126b160a71541f9d10686d620d27d8409cc",
+      "check_layout.py": "76f5f956f5741e69f70387d48a1b3056257929b53bc595c8b2c8d1b25f1605e3",
+      "classify_copper_candidates.py": "304f622fe66b462dbdaf24b8d5128cabf20e2b231645e109b3a5ed158f3d39a9",
+      "compare_pcb_state.py": "9c3015a1e1d988d936f8d513f936ce0a63aae88514646b3e5e91244e483a68a6",
+      "render_pcb_comparison.py": "d2a83594478af096c7c204f714e0b7b30ff35ff6bdf3ab1cb13ba5ab0c7312a4",
+      "render_review_pdf.py": "ba57cde36777b8189d1868b12304ab11da3551633196c1fd21a6576de0ddb9e0"
+    }
   },
   "commands": [
-    "classify_copper_candidates.py --board <absolute current PCB> --metrics <prior metrics.json> --out <OS TEMP> --packages <TEMP packages> --assessments <JSON stored in metrics.reassessment.analyst_assessments>",
-    "audit_route_geometry.py <PCB at each of five commits> <OS TEMP> <source SHA>",
-    "render_pcb_comparison.py --before <1b8d999 PCB> --after <current PCB> --regions <metrics.reassessment history regions> --output <comparison.png> --packages <TEMP packages>"
+    "kicad-cli pcb drc --format json --severity-all --schematic-parity",
+    "kicad-cli sch erc --format json --severity-all",
+    "kicad-cli sch export netlist --format kicadxml",
+    "analyze_copper_style.py --board <candidate> --out <temp> --packages <temp packages>",
+    "audit_route_geometry.py <candidate> <temp> 32eca597c52d60c4ae0d8cebb13e9e027b95d2f3",
+    "compare_pcb_state.py --before <baseline> --after <candidate> --allow-move R11 --allow-move C18 --allow-move R14 --allow-move R15",
+    "classify_copper_candidates.py --board <candidate> --metrics <current metrics> --assessments <matching decisions>",
+    "kicad-cli pcb export pdf --layers F.Cu,F.Silkscreen,Edge.Cuts --mode-single",
+    "kicad-cli pcb export pdf --layers B.Cu,Edge.Cuts --mode-single",
+    "render_review_pdf.py; render_pcb_comparison.py"
   ],
-  "command_paths": {
-    "board": "C:/Users/hebow/.codex/worktrees/a2-pcb-quality/99_AI_PCB_design_test/01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb",
-    "tools": "D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test/tools/design_review",
-    "historical_boards": "Git-extracted temporary files at the five SHAs listed in README.md",
-    "temp": "OS temporary directory; trial outputs are not tracked"
-  },
-  "artifacts": {
-    "comparison.png": {
-      "status": "generated",
-      "sha256": "6b45a37f56cc865d05b3d401b02ab97a3d5393e3af635dae67dcccc74661b353",
-      "reason": "今回の調査成果物",
-      "source_artifact_commit": null
-    },
-    "connectivity.json": {
-      "status": "reused",
-      "sha256": "949ac551cf6e9c784fe66757b2f9b9660f15268019a5f4581e7e463f89d257b8",
-      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
-      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
-    },
-    "details.png": {
-      "status": "generated",
-      "sha256": "c606b511b340e9257acb5c66ba84f13d93ad4e11e347e292491878a6b9bf495b",
-      "reason": "今回の調査成果物",
-      "source_artifact_commit": null
-    },
-    "drc.json": {
-      "status": "reused",
-      "sha256": "1909fa2050b765b253ca65599a48318878b7f14db98bb91f87e261ef3a813a33",
-      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
-      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
-    },
-    "erc.json": {
-      "status": "reused",
-      "sha256": "0d9a28efa37f748f9fa0b4d69e146778807c7e51c4cdd19b8f84b1f51b30345a",
-      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
-      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
-    },
-    "inspection.html": {
-      "status": "generated",
-      "sha256": "8470a64924a0353ff16fe0e4acc40f899b5523b7ce0fb0246537547cee2cc4ad",
-      "reason": "今回の調査成果物",
-      "source_artifact_commit": null
-    },
-    "metrics.json": {
-      "status": "generated",
-      "sha256": "2d22ec1e5e4f7a7aee9972dc750e9a397378479a0d6b5af1e23754e6848a31c1",
-      "reason": "今回の調査成果物",
-      "source_artifact_commit": null
-    },
-    "pcb_back.png": {
-      "status": "reused",
-      "sha256": "557daf31e552d6795466eebc810cf7aa2ce240daff48e7388a33ae8679fc6c17",
-      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
-      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
-    },
-    "pcb_front.png": {
-      "status": "reused",
-      "sha256": "ab0346a4f80435eb6a7e07e67084c8c557f7aca769d3ae0542eedeb252534050",
-      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
-      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
-    },
-    "preservation.json": {
-      "status": "generated",
-      "sha256": "031c2189d6df98e054d642e8ed8e1b0fd4ea2f387e2c34621a8c80003852fa10",
-      "reason": "今回の調査成果物",
-      "source_artifact_commit": null
-    },
-    "README.md": {
-      "status": "generated",
-      "sha256": "8c11ec6f1ab6520fe3ce838d363af1b299e3c6da7dfea88af90a8afab221edbd",
-      "reason": "今回の調査成果物",
-      "source_artifact_commit": null
-    }
-  },
-  "task": "read_only_reassessment",
-  "generated_at": "2026-11-26T23:05:49.226841+09:00",
-  "history_comparison_regions": [
+  "artifacts": [
     {
-      "title": "VIO loop: pre R-0034 vs current",
-      "layer": "F.Cu",
-      "bounds": [
-        114.2,
-        130.6,
-        117.3,
-        133.7
-      ]
+      "name": "comparison.png",
+      "status": "generated",
+      "sha256": "1292b3565d01a50fc0713b9a5b3a1fb818af3a286ed04a66a235905dc223b7be",
+      "reason": "Current candidate output"
     },
     {
-      "title": "VIO/U4/C19 path: pre R-0034 vs current",
-      "layer": "F.Cu",
-      "bounds": [
-        100.1,
-        126.3,
-        117.8,
-        135.6
-      ]
+      "name": "connectivity.json",
+      "status": "generated",
+      "sha256": "5fd22d933eda941d4bff94e60ebbf568b54d25a3d627aeca9ca9074c68b48c98",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "details.png",
+      "status": "generated",
+      "sha256": "81e981287897a05a5a934d53e12017e2a3f2542db7b881f2fcfd6dd4921d6dc2",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "drc.json",
+      "status": "generated",
+      "sha256": "755e4089d75bf61f0b335fe97fe4ff55b0086306670ae18fb91fe4951e8e685b",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "erc.json",
+      "status": "generated",
+      "sha256": "69f2bffe2907ad133e33ba1f5da2d92eb77b21ebe7cd7e620b5fa0e6af63c0ac",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "inspection.html",
+      "status": "generated",
+      "sha256": "2ddffa226a087816fd0f604e659a8f8db52c25ea3eaef199e001c347da43e464",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "metrics.json",
+      "status": "generated",
+      "sha256": "c584cabb2ad142bb7456f736d5cbea43ed258c6d1afd4ab8ccb52de1d4e570ee",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "netlist.xml",
+      "status": "generated",
+      "sha256": "39b3a26b783e1d84ca619a9dcc0c6942d1d52e5ac2d63dc016cedd722db15fc5",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "pcb_back.png",
+      "status": "generated",
+      "sha256": "b064420587de7ae729c07bc64269d0cefb1fccfb4fc731555ef5bcfd75e21eee",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "pcb_front.png",
+      "status": "generated",
+      "sha256": "738e8a1bba89706abba6e0a830c44bf9615d668108163abb818505c7b87880a5",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "preservation.json",
+      "status": "generated",
+      "sha256": "796425c78e0d24ff75e9aa1317ed585603ad69b2e72044a24530f33fa8c43b7f",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "README.md",
+      "status": "generated",
+      "sha256": "670a73072e911cbca5bc88f84214890cb62c35d3b1d622bd6cb94d21683d190c",
+      "reason": "Current candidate output"
+    },
+    {
+      "name": "schematic.pdf",
+      "status": "not_applicable",
+      "reason": "No schematic/model modification"
+    },
+    {
+      "name": "schematic.png",
+      "status": "not_applicable",
+      "reason": "No schematic/model modification"
+    },
+    {
+      "name": "model.png",
+      "status": "not_applicable",
+      "reason": "No schematic/model modification"
     }
   ],
-  "timing": {
-    "artifacts_generated_jst": "2026-11-26T23:05:49.226841+09:00",
-    "elapsed_minutes": null
-  }
+  "publication_time": "2026-11-27T00:22:09.043976+09:00",
+  "elapsed_minutes": 54.32728691666667,
+  "status": "partial repair candidate; unresolved issues remain; no human OK"
 }

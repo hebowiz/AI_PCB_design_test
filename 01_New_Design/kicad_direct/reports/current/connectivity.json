@@ -1,16 +1,198 @@
 {
-  "base_commit": "0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a",
-  "source_commit": "d1d9cf5f6db50c702c2ec3cb23fa6afa74411902",
-  "pcb_sha256": "d69e88db5f1d7e93e2f581c9766798f453e6dd044b038b15f8775c4d72593934",
+  "base_commit": "32eca597c52d60c4ae0d8cebb13e9e027b95d2f3",
+  "source_commit": "b16abc0023ffc0514cb936e0f7fcf6148b9ce9c1",
+  "pcb_sha256": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
   "schematic_sha256": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
   "schematic_unchanged": true,
-  "footprints_and_pads_unchanged": true,
+  "exported_component_attributes_and_net_terminals_equal": true,
+  "electrical_and_local_pad_geometry_unchanged": true,
   "footprint_count": 58,
   "pad_count": 218,
   "erc_violations": 0,
   "drc_violations": 0,
   "unconnected_items": 0,
   "schematic_parity": 0,
-  "non_ground_graph_disconnected_nets": [],
-  "allowed_electrical_changes": []
+  "allowed_electrical_changes": [],
+  "ignored_export_context": [
+    "Sheetname",
+    "Sheetfile",
+    "design date/path"
+  ],
+  "power_order": [
+    {
+      "net": "USB5V",
+      "expected": [
+        "J1.1",
+        "C1.1",
+        "C23.1",
+        "U1.40"
+      ],
+      "actual_pins": [
+        "J1.1",
+        "C1.1",
+        "C23.1",
+        "U1.40"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 27.459187988298787
+    },
+    {
+      "net": "USB5V",
+      "expected": [
+        "J1.1",
+        "C1.1",
+        "C18.1",
+        "U4.1"
+      ],
+      "actual_pins": [
+        "J1.1",
+        "C1.1",
+        "C18.1",
+        "U4.1"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 67.17428351879353
+    },
+    {
+      "net": "VPHY",
+      "expected": [
+        "FB1.2",
+        "C11.1",
+        "C9.1",
+        "U1.3"
+      ],
+      "actual_pins": [
+        "FB1.2",
+        "C11.1",
+        "C9.1",
+        "U1.3"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 17.751410790850432
+    },
+    {
+      "net": "VPLL",
+      "expected": [
+        "FB2.2",
+        "C12.1",
+        "C10.1",
+        "U1.8"
+      ],
+      "actual_pins": [
+        "FB2.2",
+        "C12.1",
+        "C10.1",
+        "U1.8"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 3.7274302755109416
+    },
+    {
+      "net": "+3V3",
+      "expected": [
+        "U1.39",
+        "C2.1",
+        "C3.1",
+        "U1.12"
+      ],
+      "actual_pins": [
+        "U1.39",
+        "C2.1",
+        "C4.1",
+        "R15.1",
+        "C3.1",
+        "U1.12"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 37.50284475911424
+    },
+    {
+      "net": "+3V3",
+      "expected": [
+        "U1.39",
+        "C2.1",
+        "C4.1",
+        "U1.24"
+      ],
+      "actual_pins": [
+        "U1.39",
+        "C2.1",
+        "C4.1",
+        "U1.24"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 26.508321779309632
+    },
+    {
+      "net": "+3V3",
+      "expected": [
+        "U1.39",
+        "C2.1",
+        "C6.1",
+        "U1.46"
+      ],
+      "actual_pins": [
+        "U1.39",
+        "C2.1",
+        "C6.1",
+        "U1.46"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 14.590747469581268
+    },
+    {
+      "net": "+3V3",
+      "expected": [
+        "U1.39",
+        "C2.1",
+        "C16.1",
+        "U2.1"
+      ],
+      "actual_pins": [
+        "U1.39",
+        "C2.1",
+        "C15.1",
+        "C16.1",
+        "U2.1"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 29.77591636973826
+    },
+    {
+      "net": "+3V3",
+      "expected": [
+        "U1.39",
+        "C2.1",
+        "C15.1",
+        "U5.8"
+      ],
+      "actual_pins": [
+        "U1.39",
+        "C2.1",
+        "C15.1",
+        "U5.8"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 24.39761543394986
+    },
+    {
+      "net": "VIO",
+      "expected": [
+        "U4.5",
+        "C19.1",
+        "C17.1",
+        "U2.16"
+      ],
+      "actual_pins": [
+        "U4.5",
+        "C19.1",
+        "R11.1",
+        "C17.1",
+        "U2.16"
+      ],
+      "in_order": true,
+      "trace_length_excluding_pad_copper_mm": 24.960020089172993
+    }
+  ],
+  "non_ground_graph_disconnected_nets": []
 }
