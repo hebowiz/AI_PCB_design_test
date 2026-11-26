@@ -8,7 +8,7 @@ OUTPUTS = frozenset({
     "README.md", "manifest.json", "erc.json", "drc.json", "connectivity.json",
     "preservation.json", "metrics.json", "netlist.xml", "schematic.pdf",
     "schematic.png", "pcb_front.png", "pcb_back.png", "details.png",
-    "comparison.png", "model.png",
+    "comparison.png", "model.png", "inspection.html",
 })
 REPORTS = "01_New_Design/kicad_direct/reports/"
 
