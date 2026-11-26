@@ -1,7 +1,7 @@
 """Read-only PCB invariant and routing-regression comparison (KiCad Python)."""
 import argparse,hashlib,json,math,sys,collections
 from pathlib import Path
-ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--before',type=Path,required=True);ap.add_argument('--after',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--packages',type=Path,required=True);a=ap.parse_args();sys.path.insert(0,str(a.packages))
+ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--before',type=Path,required=True);ap.add_argument('--after',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--packages',type=Path,required=True);ap.add_argument('--allow-move',action='append',default=[],help='Explicitly authorized footprint reference; electrical and local pad geometry remain invariant');a=ap.parse_args();sys.path.insert(0,str(a.packages))
 import pcbnew as k
 from shapely.geometry import Point,LineString,Polygon
 from shapely.ops import unary_union
@@ -15,7 +15,7 @@ def state(path):
  for f in b.GetFootprints():
   pp=[]
   for p in f.Pads():
-   pp.append({'uuid':uid(p),'number':p.GetNumber(),'net':p.GetNetname(),'position':xy(p.GetPosition()),'size':xy(p.GetSize()),'drill':xy(p.GetDrillSize()),'angle':p.GetOrientationDegrees(),'shape':p.GetShape(),'attribute':p.GetAttribute(),'layers':p.GetLayerSet().FmtBin()})
+   pp.append({'uuid':uid(p),'number':p.GetNumber(),'net':p.GetNetname(),'position':xy(p.GetPosition()),'local_position':xy(p.GetFPRelativePosition()),'relative_angle':round((p.GetOrientationDegrees()-f.GetOrientationDegrees())%360,6),'size':xy(p.GetSize()),'drill':xy(p.GetDrillSize()),'angle':p.GetOrientationDegrees(),'shape':p.GetShape(),'attribute':p.GetAttribute(),'layers':p.GetLayerSet().FmtBin()})
    for layer in [k.F_Cu,k.B_Cu]:
     if p.IsOnLayer(layer):
      s=k.SHAPE_POLY_SET();p.TransformShapeToPolygon(s,layer,0,k.FromMM(.001),k.ERROR_OUTSIDE);pads.append({'pin':f.GetReference()+'.'+p.GetNumber(),'net':p.GetNetname(),'layer':layer,'geom':poly(s)})
@@ -58,11 +58,19 @@ def state(path):
  rule_areas=[{'uuid':uid(z),'name':z.GetZoneName(),'layers':z.GetLayerSet().FmtBin(),'outline':poly(z.Outline()).wkt} for z in b.Zones() if z.GetIsRuleArea()]
  return {'board':b,'keep':keep,'footprints':fps,'tracks':tracks,'ground':ground,'edge':edge,'rule_areas':rule_areas,'thickness_mm':k.ToMM(b.GetDesignSettings().GetBoardThickness()),'layer_count':b.GetCopperLayerCount(),'escape':escape,'non45':angles}
 bs,as_=state(a.before),state(a.after);bt,at=bs['tracks'],as_['tracks'];removed=[bt[u] for u in bt.keys()-at.keys()];added=[at[u] for u in at.keys()-bt.keys()];modified=[{'before':bt[u],'after':at[u]} for u in bt.keys()&at.keys() if bt[u]!=at[u]]
+allowed=set(a.allow_move)
+def electrical(f):
+ d={key:value for key,value in f.items() if key not in ['position','angle','pads']}
+ d['pads']=[{key:value for key,value in p.items() if key not in ['position','angle']} for p in f['pads']]
+ return d
+moves=[{'ref':ref,'before':{'position':bs['footprints'][ref]['position'],'angle':bs['footprints'][ref]['angle']},'after':{'position':as_['footprints'][ref]['position'],'angle':as_['footprints'][ref]['angle']},'authorized':ref in allowed} for ref in bs['footprints'].keys()&as_['footprints'].keys() if (bs['footprints'][ref]['position'],bs['footprints'][ref]['angle'])!=(as_['footprints'][ref]['position'],as_['footprints'][ref]['angle'])]
+electrical_ok={r:electrical(f) for r,f in bs['footprints'].items()}=={r:electrical(f) for r,f in as_['footprints'].items()}
+placement_ok=all(m['authorized'] for m in moves) and bs['footprints'].keys()==as_['footprints'].keys()
 protected=['/USB_D+','/USB_D-','/XTAL_IN','/XTAL_OUT'];refs=[]
 for net in protected:
  for layer,opposite in [('F.Cu','B.Cu'),('B.Cu','F.Cu')]:
   region=unary_union([LineString([t['a'],t['b']]).buffer(t['width_mm']/2) for t in at.values() if not t['via'] and t['net']==net and t['layer']==layer])
   loss=region.intersection(bs['ground'][opposite]).difference(as_['ground'][opposite].buffer(.002))
   refs.append({'net':net,'signal_layer':layer,'new_reference_loss_over_2um_mm2':loss.area,'before_unreferenced_mm2':region.difference(bs['ground'][opposite]).area,'after_unreferenced_mm2':region.difference(as_['ground'][opposite]).area})
-result={'before_sha256':hashlib.sha256(a.before.read_bytes()).hexdigest(),'after_sha256':hashlib.sha256(a.after.read_bytes()).hexdigest(),'checks':{'footprints_and_pads_unchanged':bs['footprints']==as_['footprints'],'edge_unchanged':bs['edge']==as_['edge'],'rule_areas_unchanged':bs['rule_areas']==as_['rule_areas'],'thickness_1_6mm':bs['thickness_mm']==as_['thickness_mm']==1.6,'two_layers':bs['layer_count']==as_['layer_count']==2,'protected_usb_crystal_routes_unchanged':{u:r for u,r in bt.items() if r['net'] in protected}=={u:r for u,r in at.items() if r['net'] in protected},'no_new_reference_loss':all(x['new_reference_loss_over_2um_mm2']<.001 for x in refs),'via_dimensions':all(r['drill_mm']==.3 and r['width_mm']==.6 for r in at.values() if r['via']),'no_non45_segments':not as_['non45'],'all_ic_pad_exits_short_edge_center':all(x['ok'] for x in as_['escape'])},'footprint_count':len(as_['footprints']),'pad_count':sum(len(f['pads']) for f in as_['footprints'].values()),'reference_coverage':refs,'ic_escape_before':bs['escape'],'ic_escape_after':as_['escape'],'removed':removed,'added':added,'modified':modified,'zone_note':'GND outline cutouts/fill may differ; protected rule areas must not.'}
+result={'before_sha256':hashlib.sha256(a.before.read_bytes()).hexdigest(),'after_sha256':hashlib.sha256(a.after.read_bytes()).hexdigest(),'checks':{'footprints_and_pads_unchanged':bs['footprints']==as_['footprints'],'electrical_and_local_pad_geometry_unchanged':electrical_ok,'only_authorized_placements_changed':placement_ok,'edge_unchanged':bs['edge']==as_['edge'],'rule_areas_unchanged':bs['rule_areas']==as_['rule_areas'],'thickness_1_6mm':bs['thickness_mm']==as_['thickness_mm']==1.6,'two_layers':bs['layer_count']==as_['layer_count']==2,'protected_usb_crystal_routes_unchanged':{u:r for u,r in bt.items() if r['net'] in protected}=={u:r for u,r in at.items() if r['net'] in protected},'no_new_reference_loss':all(x['new_reference_loss_over_2um_mm2']<.001 for x in refs),'via_dimensions':all(r['drill_mm']==.3 and r['width_mm']==.6 for r in at.values() if r['via']),'no_non45_segments':not as_['non45'],'all_ic_pad_exits_short_edge_center':all(x['ok'] for x in as_['escape'])},'authorized_moves':sorted(allowed),'placement_changes':moves,'footprint_count':len(as_['footprints']),'pad_count':sum(len(f['pads']) for f in as_['footprints'].values()),'reference_coverage':refs,'ic_escape_before':bs['escape'],'ic_escape_after':as_['escape'],'removed':removed,'added':added,'modified':modified,'zone_note':'GND outline cutouts/fill may differ; protected rule areas must not.'}
 a.out.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(result['checks'],indent=2));print('tracks/vias changed',len(removed),len(added),len(modified))

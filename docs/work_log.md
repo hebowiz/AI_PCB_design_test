@@ -888,3 +888,7 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 実施：`git fetch origin`、`classify_copper_candidates.py --board ... --metrics ... --out <TEMP> --packages ... --assessments ...`、5版へ`audit_route_geometry.py`、`render_pcb_comparison.py`、`check_layout.py --base 0d7a11603da2097970062df54214a574c1589c77`、`git diff --check`。532件を全件画像化・確認し、保守的分類とネット単位の計画を作成。GND領域の列挙順変更は境界と面積による照合で解決。公開前検査のJSONキーをclassificationから実際のclassへ訂正して再実行した。判定基準の見直しと技術的理由は[固定履歴](reviews/history.md#r0036-reassessment-01)へ記録した。
 
 変更：mainの共通解析ツール・固定保存規則、台帳と固定履歴・3ログ。設計側はreports/currentの7ファイルのみ。全38入力不変、40ID・15列・既存35行・判定欄を保持。yomiyasu最終編集を実施し、修正範囲の誤読を防ぐ否定文は保持した。成果物`32eca597c52d60c4ae0d8cebb13e9e027b95d2f3`を専用ブランチへpush済み。初回pushは自動審査が公開承認不足として拒否したが、同じPCB・候補が既存originの0d7a116で公開済みであることとAGENTS第13条の継続許可を確認後、再審査が承認した。mainの設計設定と固定Workspaceを保護。再配線と新規ERC/DRCは未実施。
+
+## 2026-11-27 00:19 JST — A-2配置変更を伴うPCB比較検証
+
+R-0036〜R-0040の承認済み再配線に伴い、比較ツールへ`--allow-move`を追加した。R11/C18の位置・R14/R15の向きの変更と、回路属性・ローカルパッド形状の保全を分離して検証する。対象PCBの厳密比較はfalse、電気属性・許可部品以外の配置・外形・2層1.6mm・USB/水晶配線・GND参照面・ビア寸法・45°線分・IC短辺中央引出しはtrue。候補分類HTMLの「PCB未変更」を「読取解析」へ直し、修正後PCBの解析にも使えるようにした。変更は`tools/design_review/`の2ツールとREADME。本ツールを完成済みPCB設計スキルとは扱わない。
