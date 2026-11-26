@@ -892,3 +892,12 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 ## 2026-11-27 00:19 JST — A-2配置変更を伴うPCB比較検証
 
 R-0036〜R-0040の承認済み再配線に伴い、比較ツールへ`--allow-move`を追加した。R11/C18の位置・R14/R15の向きの変更と、回路属性・ローカルパッド形状の保全を分離して検証する。対象PCBの厳密比較はfalse、電気属性・許可部品以外の配置・外形・2層1.6mm・USB/水晶配線・GND参照面・ビア寸法・45°線分・IC短辺中央引出しはtrue。候補分類HTMLの「PCB未変更」を「読取解析」へ直し、修正後PCBの解析にも使えるようにした。変更は`tools/design_review/`の2ツールとREADME。本ツールを完成済みPCB設計スキルとは扱わない。
+
+
+## 2026-11-27 00:24 JST — A-2ネット単位の再配線候補と残存事項の発行
+
+承認範囲でKiCad 10.0.8/Pythonを使用し、TEMP内の複製でUART/VIO/制御/LED等を再配線した。独立ブランチ`codex/a2-pcb-network-reroute`へPCBのみをコミットし、固定13成果物を別コミットで発行・push。採用した部品移動はR11/C18とR14/R15の回転。試行・不採用理由は[固定履歴](reviews/history.md#r0036-reroute-result)に記録した。
+
+実行は`kicad-cli pcb drc --format json --severity-all --schematic-parity`、`sch erc`、`sch export netlist --format kicadxml`、表裏`pcb export pdf`、共通の`analyze_copper_style.py`、`audit_route_geometry.py`、`compare_pcb_state.py --allow-move`、`classify_copper_candidates.py`、描画・固定保存チェッカー。ERC/DRC/未配線/等価性0。回路図・設定・ライブラリ等38入力の変更はPCBだけ。基準ネットリストの再出力時のSheetname/Sheetfileの差は出力ファイル名由来として分離し、実部品属性と端子接続を照合した。KiCad Save時の一時プロジェクト設定を原設定へ戻して各候補を再検証し、原設定の上書きを防いだ。
+
+設計SHA `b16abc0023ffc0514cb936e0f7fcf6148b9ce9c1`、成果物SHA `3c53ed3ceecdad2ddc6d701d4913993f0e477bf3`。R-0036〜R-0040は要修正345件・未承認例外110件を残すため対応中。台帳40件/15列、既存35件の判定・日時・指摘内容を保全。mainの変更は記録と共通検証ツールのみ。設計ブランチ・固定Workspaceへのマージや製造データ更新は行っていない。

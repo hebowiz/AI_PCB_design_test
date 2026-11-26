@@ -147,3 +147,39 @@ R-0030の承認対象`87711e88e10653e79fdce9c3ade341b8f1440489`とR-0034直前`1
 成果物は`codex/a2-pcb-style-reassessment`の`32eca597c52d60c4ae0d8cebb13e9e027b95d2f3`。[報告](https://github.com/hebowiz/AI_PCB_design_test/blob/32eca597c52d60c4ae0d8cebb13e9e027b95d2f3/01_New_Design/kicad_direct/reports/current/README.md)、[全件画像・検索一覧](https://github.com/hebowiz/AI_PCB_design_test/blob/32eca597c52d60c4ae0d8cebb13e9e027b95d2f3/01_New_Design/kicad_direct/reports/current/inspection.html)、[全測定・分類](https://github.com/hebowiz/AI_PCB_design_test/blob/32eca597c52d60c4ae0d8cebb13e9e027b95d2f3/01_New_Design/kicad_direct/reports/current/metrics.json)、[代表画像](https://github.com/hebowiz/AI_PCB_design_test/blob/32eca597c52d60c4ae0d8cebb13e9e027b95d2f3/01_New_Design/kicad_direct/reports/current/details.png)、[過去版とのVIO比較](https://github.com/hebowiz/AI_PCB_design_test/blob/32eca597c52d60c4ae0d8cebb13e9e027b95d2f3/01_New_Design/kicad_direct/reports/current/comparison.png)、[入力・出力対応](https://github.com/hebowiz/AI_PCB_design_test/blob/32eca597c52d60c4ae0d8cebb13e9e027b95d2f3/01_New_Design/kicad_direct/reports/current/manifest.json)。固定成果物へ画像埋込みの`inspection.html`を追加し、12ファイルで全件を保持した。試行画像は一時領域に置いた。
 
 CAD等38入力は前回ハッシュと一致。PCB・回路図・BOM・Gerber・固定Workspace・mainの既存未コミット設定を変更していない。ERC/DRC/未配線/回路図不一致の各0件は同じ入力の前回証跡を再利用し、今回は再実行していない。配線グラフの履歴比較と分類画像は新規生成。全方向の最小GND幅、実際の配置・再配線と実機特性は未検証。共通ツールは`8def616b53f70c10f1d5094a87d5fd5e77eb0967`で、未承認の検査を完成済み設計スキルにしていない。
+
+<a id="r0036-reroute-start"></a>
+
+## 2026-11-26 23:28 JST — R-0036〜R-0040のネット単位修正着手
+
+ユーザーの「修正やってみよう」に基づき、32eca597c52d60c4ae0d8cebb13e9e027b95d2f3の再配線計画を実施する。専用ブランチはcodex/a2-pcb-network-reroute。機能単位の経路見直しと必要な周辺部品移動を対象とし、外形・回路・コネクタ・スイッチ・U1と既存電気条件を保護する。例外案118件の最終承認とは扱わず、固定Workspaceは更新しない。
+
+
+<a id="r0036-reroute-result"></a>
+
+## 2026-11-27 00:24 JST — R-0036〜R-0040のネット単位修正候補
+
+前節の承認範囲で修正を試行した。設計は`codex/a2-pcb-network-reroute`の`b16abc0023ffc0514cb936e0f7fcf6148b9ce9c1`、成果物は`3c53ed3ceecdad2ddc6d701d4913993f0e477bf3`。5件とも対応中・未判定を維持し、従来35件のOK判定を変更しない。固定Workspaceへは反映していない。[修正レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/3c53ed3ceecdad2ddc6d701d4913993f0e477bf3/01_New_Design/kicad_direct/reports/current/README.md)、[比較画像](https://github.com/hebowiz/AI_PCB_design_test/blob/3c53ed3ceecdad2ddc6d701d4913993f0e477bf3/01_New_Design/kicad_direct/reports/current/comparison.png)、[現行候補全件画像](https://github.com/hebowiz/AI_PCB_design_test/blob/3c53ed3ceecdad2ddc6d701d4913993f0e477bf3/01_New_Design/kicad_direct/reports/current/inspection.html)、[測定・全差分](https://github.com/hebowiz/AI_PCB_design_test/blob/3c53ed3ceecdad2ddc6d701d4913993f0e477bf3/01_New_Design/kicad_direct/reports/current/metrics.json)、[保全](https://github.com/hebowiz/AI_PCB_design_test/blob/3c53ed3ceecdad2ddc6d701d4913993f0e477bf3/01_New_Design/kicad_direct/reports/current/preservation.json)、[入力と出力](https://github.com/hebowiz/AI_PCB_design_test/blob/3c53ed3ceecdad2ddc6d701d4913993f0e477bf3/01_New_Design/kicad_direct/reports/current/manifest.json)。前版は[再調査・計画](#r0036-reassessment-01)で参照できる。
+
+UART 4信号を一緒に配線し直し、U1/U2の短辺中央からの通路を予約した。非GNDビアは83→78個、総配線長は867.334→849.051mm。FT_TXDは20.253→25.953mmへ延びたが、UART群全体では短縮した。単独配線では最後の信号が通れなかったため、隣接ピンの通路を先に確保する方法へ変えた。
+
+VIOの閉ループ・0.25mm重複を除き、U4.5→C19.1→C17.1→U2.16を通る経路へ変更。C19の下流にビアを1個追加し、R11を(115.5,129.0)/90°から(116.2,129.6)/0°へ移してVIOのビア2個を削除した。PWRENをU2内側へ引き直して2個、UART群で2個を削除した。PWR_ENも同時に通路を変更した。R-0030承認時に閉路がなかったという過去の記録・判定は保持する。
+
+C18を(101.1,130.4)から(101.1,129.03)へ移動し、USB5V→C18→U4.1を復元した。電源順序10経路はすべて成立。R14/R15は90°から−90°へ回転し、LEDアノード配線を直線化。電源の途中分岐をC3と抵抗の端子へ移した。画像確認でC3分岐の鋭い切込みを見つけて再修正し、C3のGND帰路を横切った候補は不採用にした。
+
+GNDは最初の広い切除でサーマル不足とC19の接続切れが発生した。端子周辺を保護した115箇所・45.91mm²切除案はDRCに合格したが、鋭い空隙を増やしたため採用しなかった。切除前後の輪郭で新しい切込みを作らず、GND端子・必要帰路・反対面の信号直下を保護できる13箇所・2.8903mm²へ絞った。UART再配線で孤立したU1.22/23とU2.8/C19の帰路にはGNDビアを(105.6,118.0)、(109.35,130.55)へ追加した。
+
+EEPROMは信号の順序を替え、R4の移動、端子通路の予約、既存CLKを残す案まで試した。経路閉塞、U5との実装外形干渉、EE_DO/EE_CLK短絡やGND接続切れが残り、すべて不採用。R4/U5の位置と既存EEPROMの主要経路は保持した。採用した局所経路の変更はUUIDと座標で測定ファイルに記録した。試行スクリプトは一時領域に置き、成果物をレビュー別フォルダへ増設していない。
+
+| 残存候補 | 要修正 | 未承認例外 | 誤検出 |
+| --- | ---: | ---: | ---: |
+| 疑似直角45件 | 45 | 0 | 0 |
+| 途中分岐20件 | 11 | 3 | 6 |
+| GND形状217件 | 193 | 9 | 15 |
+| 鋭い空隙194件 | 96 | 98 | 0 |
+
+計476候補は要修正345・例外案110・誤検出21。候補間の重複を含み、件数減少で完了とはしない。変更前の分類はGit履歴で保持し、同じネット・層・座標・GND輪郭が一致する場合だけ旧判断を参照した。現行IDと旧IDの照合も保存した。新形状の例外を自動確定せず、立証できないものは要修正に残した。分類表の同じIDが別の版で同一箇所を表すとは限らない。
+
+ERC・DRC・未配線・回路図不一致はいずれも0件。回路図の実部品属性・ネット端子は一致し、58部品・218パッドの電気属性とローカル形状を保持。外形・1.6mm・2層、コネクタ・スイッチ・U1配置、USB/XTAL配線と直下GND、ビア0.3/0.6mm、既存ルールを保持した。非45°線分0、ICの短辺中央引出しを確認。GNDの全方向最小幅、残る全ビアの必要性、実機特性は未検証。R-0036〜R-0040の完了条件は満たしていない。
+
+KiCad表裏画像、UART表裏、VIO/C19/R11、C18、LEDと残存箇所を拡大確認した。裏面左のGND幹線、帰還抵抗・電源・EEPROM周辺では隣接部品と配線の再割付がなお必要で、今回その成立案まで作れなかった。部品や配線の保護を勝手に解除して完了扱いにはしない。共通ツールは`fdd7f1ba718fd33086ffdc1f373d72f4e89a8874`。候補と成果物の生成まで約54.3分。CAD、13固定成果物、mainの記録を分離して管理し、回路図・BOM・製造データ・旧成果物・固定Workspace・mainの既存未コミット設定を保護した。
