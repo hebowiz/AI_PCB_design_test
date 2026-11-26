@@ -7,10 +7,10 @@
     "R-0039",
     "R-0040"
   ],
-  "base_commit": "ca191ab2a900714d53f7ab0eb8984b58f3af7ef8",
-  "source_commit": "ca191ab2a900714d53f7ab0eb8984b58f3af7ef8",
+  "base_commit": "0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a",
+  "source_commit": "d1d9cf5f6db50c702c2ec3cb23fa6afa74411902",
   "inputs": {
-    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "7f1f83a4e5893203c050ea6580480bf2ff14991708906cbf2be862b9277ddbe8",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "d69e88db5f1d7e93e2f581c9766798f453e6dd044b038b15f8775c4d72593934",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
@@ -51,15 +51,16 @@
   },
   "tools": {
     "kicad": "10.0.8",
-    "shapely": "2.2.0",
-    "networkx": "3.6.1",
-    "common_tools_commit": "e6deccc4a00c97d9a4c12d126dc7657dd10153ff",
+    "python": "3.11.5 (main, Oct 29 2026, 05:20:44) [MSC v.1951 64 bit (AMD64)]",
+    "os": "Windows-10-10.0.26200-SP0",
+    "common_tools_commit": "8ddab2e0dcbcc999d082d25538469025ad92ce17",
     "common_tool_sha256": {
       "analyze_copper_style.py": "5d482c5b7885577027aff168d7d33cf4c69acd0a6225783e27bcb93fa83aa9e3",
+      "compare_pcb_state.py": "ff63c482e9b5bbc01d374fe9982fa2cf0f2bb8f861ef1b9b5585e73c67669b4f",
+      "audit_route_geometry.py": "b986649bfc36de3e49eff39507b8b126b160a71541f9d10686d620d27d8409cc",
+      "render_pcb_comparison.py": "d2a83594478af096c7c204f714e0b7b30ff35ff6bdf3ab1cb13ba5ab0c7312a4",
       "render_review_pdf.py": "ba57cde36777b8189d1868b12304ab11da3551633196c1fd21a6576de0ddb9e0"
-    },
-    "render_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
-    "os": "Windows-11-10.0.26200-SP0"
+    }
   },
   "commands": [
     "KiCadPython analyze_copper_style.py --board <design>/a2_usb_uart.kicad_pcb --out <temp> --packages <shapely-networkx-path>",
@@ -67,82 +68,78 @@
     "kicad-cli sch erc --format json --severity-all --exit-code-violations -o <temp>/erc.json <design>/a2_usb_uart.kicad_sch",
     "kicad-cli pcb export pdf --mode-single --layers F.Cu,Edge.Cuts --scale 0 -o <temp>/native_front.pdf <design>/a2_usb_uart.kicad_pcb",
     "kicad-cli pcb export pdf --mode-single --layers B.Cu,Edge.Cuts --scale 0 -o <temp>/native_back.pdf <design>/a2_usb_uart.kicad_pcb",
-    "python render_review_pdf.py --front <temp>/native_front.pdf --back <temp>/native_back.pdf --out <temp> --font C:/Windows/Fonts/arial.ttf"
+    "python render_review_pdf.py --front <temp>/native_front.pdf --back <temp>/native_back.pdf --out <temp> --font C:/Windows/Fonts/arial.ttf",
+    "KiCadPython compare_pcb_state.py --before <base-extracted>/baseline.kicad_pcb --after <source-copy>/a2_usb_uart.kicad_pcb --out <temp>/invariants.json --packages <packages>",
+    "KiCadPython audit_route_geometry.py <source-copy>/a2_usb_uart.kicad_pcb <temp>/audit_final 0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a",
+    "KiCadPython render_pcb_comparison.py --before <base-extracted>/baseline.kicad_pcb --after <source-copy>/a2_usb_uart.kicad_pcb --regions <metrics.comparison_regions> --output <temp>/comparison.png --packages <packages>"
   ],
   "command_paths": {
-    "design": "01_New_Design/kicad_direct in source_commit checkout",
-    "common_tools": "tools/design_review at common_tools_commit",
-    "temp": "OS temporary directory, not committed"
+    "source_copy": "Byte-identical temporary copy of source_commit CAD and project",
+    "base_extracted": "git show base_commit:01_New_Design/kicad_direct/a2_usb_uart.{kicad_pcb,kicad_pro,kicad_dru}",
+    "temp": "OS local temporary directory; intermediate outputs are not tracked"
+  },
+  "timing": {
+    "started_jst": "2026-11-26T21:42:00+09:00",
+    "cad_committed_jst": "2026-11-26T22:18:00+09:00",
+    "artifacts_generated_jst": "2026-11-26T22:22:10.695680+09:00",
+    "elapsed_minutes": 40.2
   },
   "artifacts": {
     "README.md": {
       "status": "generated",
-      "sha256": "3064a0f92e5f9b692115324116e8a46ed433499b14c2eb1d665c6d2309d24edb",
-      "reason": "Current read-only investigation of source_commit"
-    },
-    "comparison.png": {
-      "status": "not_applicable",
-      "reason": "No schematic edit, 3D review or PCB modification in this investigation; before/after comparison pending authorized correction."
-    },
-    "connectivity.json": {
-      "status": "generated",
-      "sha256": "bc9fb72a5605523fb24a76841f93144047f4ff2fa175776b5bf9264ccba92ae2",
-      "reason": "Current read-only investigation of source_commit"
-    },
-    "details.png": {
-      "status": "generated",
-      "sha256": "2bb4401d76a239523abd70a7b4d07cacff23045e84de53fbe22e76bccd37f8ce",
-      "reason": "Current read-only investigation of source_commit"
-    },
-    "drc.json": {
-      "status": "generated",
-      "sha256": "6f6d07fa260a3af7ee92c684d37804a7f48b91c0207e0ecfe1cae31055a00d69",
-      "reason": "Current read-only investigation of source_commit"
+      "sha256": "7450720e191437c37253c9d3c0d00d7520d831b57c5b295b71d94d948268ddfe"
     },
     "erc.json": {
       "status": "generated",
-      "sha256": "05b728e1b1c2cbd59f00761aabe7c5d913bfd8e17522debff6078d4743083756",
-      "reason": "Current read-only investigation of source_commit"
+      "sha256": "0d9a28efa37f748f9fa0b4d69e146778807c7e51c4cdd19b8f84b1f51b30345a"
     },
-    "manifest.json": {
+    "drc.json": {
       "status": "generated",
-      "reason": "Input/output provenance; no self hash"
+      "sha256": "1909fa2050b765b253ca65599a48318878b7f14db98bb91f87e261ef3a813a33"
     },
-    "metrics.json": {
+    "connectivity.json": {
       "status": "generated",
-      "sha256": "6d8a45d3b53284fb1e139c7c6dabcd6db9acf0a1ab6421427e4f1371bf511b43",
-      "reason": "Current read-only investigation of source_commit"
-    },
-    "model.png": {
-      "status": "not_applicable",
-      "reason": "No schematic edit, 3D review or PCB modification in this investigation; before/after comparison pending authorized correction."
-    },
-    "netlist.xml": {
-      "status": "not_applicable",
-      "reason": "No schematic edit, 3D review or PCB modification in this investigation; before/after comparison pending authorized correction."
-    },
-    "pcb_back.png": {
-      "status": "generated",
-      "sha256": "11015677cc46fa3d9a882e2437b5e6d3b5ca8d5706657cf1de55819edbc6aa2c",
-      "reason": "Current read-only investigation of source_commit"
-    },
-    "pcb_front.png": {
-      "status": "generated",
-      "sha256": "0596ca9bcbc688cf1adac349565fb48c2f6a5c3d14eb5a1aaf659940b87e548c",
-      "reason": "Current read-only investigation of source_commit"
+      "sha256": "949ac551cf6e9c784fe66757b2f9b9660f15268019a5f4581e7e463f89d257b8"
     },
     "preservation.json": {
       "status": "generated",
-      "sha256": "c6f5e2964696b9a7878fca6c84d0e2e092914f097b7c2b157b3e6dd6955899d8",
-      "reason": "Current read-only investigation of source_commit"
+      "sha256": "c2361f6e6076c92b22c86d9df927f7e0874c825fb65df524eee7884e986247b0"
+    },
+    "metrics.json": {
+      "status": "generated",
+      "sha256": "ae465a9b963d5fd28cbbbd409b6b17a53821a5c950a871867b2442b35f9d255a"
+    },
+    "pcb_front.png": {
+      "status": "generated",
+      "sha256": "ab0346a4f80435eb6a7e07e67084c8c557f7aca769d3ae0542eedeb252534050"
+    },
+    "pcb_back.png": {
+      "status": "generated",
+      "sha256": "557daf31e552d6795466eebc810cf7aa2ce240daff48e7388a33ae8679fc6c17"
+    },
+    "details.png": {
+      "status": "generated",
+      "sha256": "2fb309101066ab9661589bd45176c1d3d0d1290840c17a6db270038e6fcd0f2d"
+    },
+    "comparison.png": {
+      "status": "generated",
+      "sha256": "30fe7ad39944817bee1d562fa414021fa2bfc223d44efe08c226ef0bcf5eadd5"
+    },
+    "netlist.xml": {
+      "status": "not_applicable",
+      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
     },
     "schematic.pdf": {
       "status": "not_applicable",
-      "reason": "No schematic edit, 3D review or PCB modification in this investigation; before/after comparison pending authorized correction."
+      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
     },
     "schematic.png": {
       "status": "not_applicable",
-      "reason": "No schematic edit, 3D review or PCB modification in this investigation; before/after comparison pending authorized correction."
+      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
+    },
+    "model.png": {
+      "status": "not_applicable",
+      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
     }
   }
 }
