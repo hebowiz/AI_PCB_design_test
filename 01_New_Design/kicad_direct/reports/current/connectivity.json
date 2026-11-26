@@ -1,0 +1,8 @@
+{
+  "source_commit": "ca191ab2a900714d53f7ab0eb8984b58f3af7ef8",
+  "method": "KiCad pcb drc --schematic-parity --severity-all on unchanged CAD",
+  "schematic_parity_issues": [],
+  "unconnected_items": [],
+  "component_terminal_netlist_diff": "not_run: no CAD modification; source file blobs match baseline",
+  "no_connection_change_claim_basis": "unchanged input files, not a new before/after netlist export"
+}
