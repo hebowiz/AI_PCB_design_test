@@ -872,3 +872,11 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 調査成果物10ファイルを`reports/current/`に集約し、`codex/a2-pcb-style-investigation`の`0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a`としてpushした。manifestの入力38ファイルと出力ハッシュ、固定ファイル名、レポートのリンク、`git diff --check`を検証した。PCB SHA256は7f1f83a4e5893203c050ea6580480bf2ff14991708906cbf2be862b9277ddbe8で不変。固定Workspaceはca191ab、mainの既存プロジェクト設定も保持した。
 
 共通台帳はR-0036〜R-0040の調査結果・対応案・証跡を更新し、40件・15列、既存35件の全行と今回5件の判定欄を保護した。詳細は[固定履歴](reviews/history.md#r0036-investigation-01)。日本語はyomiyasuの方針で条件・候補・確定結果を区別して整理した。修正・前後画像・最終判定は未実施。検出数をそのまま不良数や撤去数としていない。
+
+## 2026-11-26 22:24 JST — R-0036〜R-0040の局所修正候補
+
+目的：承認された配線品質修正の実施と回帰検証。担当は本セッション。`design-review-records`、`design-workspace-management`、日本語最終編集に`yomiyasu`を適用。
+
+実施操作：調査Worktreeから`codex/a2-pcb-style-refinement`を作成し、OS一時領域の複製で局所配線・GNDを修正。KiCad 10.0.8のPython APIで配置と端子を保護し、CLIの`pcb drc --format json --schematic-parity --severity-all --exit-code-violations`、`sch erc`、`pcb export pdf`を実行。共通の`analyze_copper_style.py`、`compare_pcb_state.py`、`audit_route_geometry.py`、`render_pcb_comparison.py`、`check_layout.py`で形状・保全・画像・保存先を検査した。実行引数とハッシュは[manifest](https://github.com/hebowiz/AI_PCB_design_test/blob/0d7a11603da2097970062df54214a574c1589c77/01_New_Design/kicad_direct/reports/current/manifest.json)に保存。
+
+変更ファイル：設計ブランチのPCBと固定成果物11ファイル。mainは共通ツール3本、台帳、固定履歴、作業・議論・判断ログ。結果：ERC/DRC/未配線/回路図不一致0件。CAD `d1d9cf5f6db50c702c2ec3cb23fa6afa74411902`、成果物 `0d7a11603da2097970062df54214a574c1589c77`。具体的な試行・不採用・残件は[固定履歴](reviews/history.md#r0036-result-01)を参照。固定Workspaceは未更新、mainの既存未コミット`.kicad_pro`を保持。設計ブランチのpush成功を確認した。

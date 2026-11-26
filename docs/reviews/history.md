@@ -93,3 +93,25 @@ KiCad 10.0.8でERC・DRC・未配線・回路図不一致を再実行し各0件�
 局所的にU2周辺の短い曲がり、3組のビア候補を先行し、その後GNDを評価する順序を提案する。全30ネットに影響する可能性があるため領域別に進め、部品移動や全面再配線は計画しない。USB・水晶直下GND、電源順序、USB5V幅、パッド引き出し、ビア離隔、J1/J2/J3とスイッチ位置を保護する。
 
 [調査レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a/01_New_Design/kicad_direct/reports/current/README.md)、[候補・測定一覧](https://github.com/hebowiz/AI_PCB_design_test/blob/0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a/01_New_Design/kicad_direct/reports/current/metrics.json)、[拡大図](https://github.com/hebowiz/AI_PCB_design_test/blob/0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a/01_New_Design/kicad_direct/reports/current/details.png)、[表面](https://github.com/hebowiz/AI_PCB_design_test/blob/0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a/01_New_Design/kicad_direct/reports/current/pcb_front.png)、[裏面](https://github.com/hebowiz/AI_PCB_design_test/blob/0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a/01_New_Design/kicad_direct/reports/current/pcb_back.png)、[検証の入力・出力対応](https://github.com/hebowiz/AI_PCB_design_test/blob/0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a/01_New_Design/kicad_direct/reports/current/manifest.json)。共通解析ツールはmainの`e6deccc4a00c97d9a4c12d126dc7657dd10153ff`。試行・画像修正・CLI再実行の経緯はレポート末尾に記録した。固定Workspaceは更新せず、設計・既存判定を保持した。
+
+<a id="r0036-changes-01"></a>
+
+## 2026-11-26 21:42 JST — R-0036〜R-0040の修正着手
+
+ユーザーの「OK、修正やってみよう」を受け、調査で提示した局所修正へ進む。`codex/a2-pcb-style-refinement`を調査コミット`0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a`から作成。部品位置、USB交差用ビア、電源順序、回路接続を保護し、必要なサーマルは例外として区別する。固定Workspaceは変更しない。最終判定は未実施。
+
+<a id="r0036-result-01"></a>
+
+## 2026-11-26 22:24 JST — R-0036〜R-0040の局所修正候補と残件
+
+対象CADは`d1d9cf5f6db50c702c2ec3cb23fa6afa74411902`、設計ブランチは`codex/a2-pcb-style-refinement`。成果物コミットは`0d7a11603da2097970062df54214a574c1589c77`。基準は`0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a`。[固定レポート](https://github.com/hebowiz/AI_PCB_design_test/blob/0d7a11603da2097970062df54214a574c1589c77/01_New_Design/kicad_direct/reports/current/README.md)と[前後比較](https://github.com/hebowiz/AI_PCB_design_test/blob/0d7a11603da2097970062df54214a574c1589c77/01_New_Design/kicad_direct/reports/current/comparison.png)に数値・座標・UUID・採否理由を保存した。最終判定は未実施。R-0036・R-0037・R-0039は未達箇所を残して対応中、R-0038・R-0040は確認待ちとする。
+
+採用したのは、PWREN_N・PWR_EN・RESET_Nの3組の表面化、U2.4のFT_TXDと局所的な曲がりの整理、26箇所のGND切欠き、左端GND帰路への2ビア追加。非GNDビア89→83、全ビア114→110、疑似直角候補86→75、GND細線等の候補251→225、総配線長873.39969→867.33410mm。途中分岐は27箇所のままで、今回の局所修正だけでは最小化を達成していない。
+
+左端の裏面GND細線部の直上には表面EE_CSがあり、そのままではビアを置けなかった。表面配線をx=101.1mmへ寄せ、(101.65,116.3)/(101.65,119.3)mmにドリル0.3mm・径0.6mmのGNDビアを追加した。細い領域を反対面へ接続したが、1mm未満の幅自体は残り、例外としての妥当性はレビュー対象。R5の候補は既存GND配線`da0d8af8-298e-428c-842a-4768a06692f9`に接触していた。単にGND端子・ビアが候補領域内にないことを理由に削除せず、帰路を保持した。近傍の追加ビア候補にも有効な離隔を確保できなかった。
+
+面取りを機械的に延ばした初期試行では、C23のサーマル不足、ICパッド間への侵入、鋭い空隙の増加を検出して戻した。C16の分岐移動は切込み・近接、C4の直線引き出し案は周辺離隔に問題があり不採用。U1.37の側面引き出しとQ1付近の同一ネット近接も戻した。一時PCB名とプロジェクト設定の対応を修正し、輪郭の穴追加は外周との交差を扱える差集合へ変更した。最終検証は同じ既存設定で行い、失敗出力を合格証跡として残していない。
+
+ERC・DRC・未配線・回路図不一致は各0件。58部品・218パッドの位置、属性、ネット、外形22×50mm、板厚1.6mm、2層、既存ルールエリアを維持。USB・水晶の配線とビアは同一で、直下の新たなGND参照面損失を検出しなかった。既存の無視チェックは増やしていない。同一ネットのパッド近接候補23、狭ピッチパッド間通過候補0は前後同数。電源順序の機械検査は8/10経路を確認し、C18・C19を含む2経路は前後とも最短経路上で拾えず未確定。この結果で既存のユーザー判定を変更しない。
+
+全体図・拡大図・前後比較を目視確認した。残る75箇所の疑似直角候補、27箇所の途中分岐、GNDの細線等225候補は未解決・未分類を含む。閾値の最終妥当性や実機電気特性は未検証で、全件解消とは報告しない。CAD候補の作成は36分、ここまでの成果物・議事録を含め約42.3分。回路図・PCB以外の設計設定・BOM・Gerber・ライブラリ・旧レポート・固定Workspaceを保持した。再利用ツールはmainの`8ddab2e0dcbcc999d082d25538469025ad92ce17`に集約し、設計スキルには昇格していない。
