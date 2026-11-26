@@ -880,3 +880,11 @@ mainの変更は台帳・R-0034詳細・作業/議論/判断ログ。34件15列�
 実施操作：調査Worktreeから`codex/a2-pcb-style-refinement`を作成し、OS一時領域の複製で局所配線・GNDを修正。KiCad 10.0.8のPython APIで配置と端子を保護し、CLIの`pcb drc --format json --schematic-parity --severity-all --exit-code-violations`、`sch erc`、`pcb export pdf`を実行。共通の`analyze_copper_style.py`、`compare_pcb_state.py`、`audit_route_geometry.py`、`render_pcb_comparison.py`、`check_layout.py`で形状・保全・画像・保存先を検査した。実行引数とハッシュは[manifest](https://github.com/hebowiz/AI_PCB_design_test/blob/0d7a11603da2097970062df54214a574c1589c77/01_New_Design/kicad_direct/reports/current/manifest.json)に保存。
 
 変更ファイル：設計ブランチのPCBと固定成果物11ファイル。mainは共通ツール3本、台帳、固定履歴、作業・議論・判断ログ。結果：ERC/DRC/未配線/回路図不一致0件。CAD `d1d9cf5f6db50c702c2ec3cb23fa6afa74411902`、成果物 `0d7a11603da2097970062df54214a574c1589c77`。具体的な試行・不採用・残件は[固定履歴](reviews/history.md#r0036-result-01)を参照。固定Workspaceは未更新、mainの既存未コミット`.kicad_pro`を保持。設計ブランチのpush成功を確認した。
+
+## 2026-11-26 23:12 JST — R-0036〜R-0040の再調査
+
+目的：残候補の全件分類と再配線範囲の提示。最新mainのAGENTSとレビュー・Workspace・固定成果物規則を確認し、design-review-recordsとyomiyasuを適用。Windows/PowerShell 7.6、KiCad 10.0.8 Python API、Shapely/NetworkXで読み取り解析した。
+
+実施：`git fetch origin`、`classify_copper_candidates.py --board ... --metrics ... --out <TEMP> --packages ... --assessments ...`、5版へ`audit_route_geometry.py`、`render_pcb_comparison.py`、`check_layout.py --base 0d7a11603da2097970062df54214a574c1589c77`、`git diff --check`。532件を全件画像化・確認し、保守的分類とネット単位の計画を作成。GND領域の列挙順変更は境界と面積による照合で解決。公開前検査のJSONキーをclassificationから実際のclassへ訂正して再実行した。判定基準の見直しと技術的理由は[固定履歴](reviews/history.md#r0036-reassessment-01)へ記録した。
+
+変更：mainの共通解析ツール・固定保存規則、台帳と固定履歴・3ログ。設計側はreports/currentの7ファイルのみ。全38入力不変、40ID・15列・既存35行・判定欄を保持。yomiyasu最終編集を実施し、修正範囲の誤読を防ぐ否定文は保持した。成果物`32eca597c52d60c4ae0d8cebb13e9e027b95d2f3`を専用ブランチへpush済み。初回pushは自動審査が公開承認不足として拒否したが、同じPCB・候補が既存originの0d7a116で公開済みであることとAGENTS第13条の継続許可を確認後、再審査が承認した。mainの設計設定と固定Workspaceを保護。再配線と新規ERC/DRCは未実施。
