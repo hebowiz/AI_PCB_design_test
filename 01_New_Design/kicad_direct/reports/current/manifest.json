@@ -7,7 +7,7 @@
     "R-0039",
     "R-0040"
   ],
-  "base_commit": "0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a",
+  "base_commit": "0d7a11603da2097970062df54214a574c1589c77",
   "source_commit": "d1d9cf5f6db50c702c2ec3cb23fa6afa74411902",
   "inputs": {
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "d69e88db5f1d7e93e2f581c9766798f453e6dd044b038b15f8775c4d72593934",
@@ -50,96 +50,115 @@
     "01_New_Design/kicad_direct/models/vendor/.gitignore": "e04c59cab54d5f36ff32b04deaecf14ed075643b15dd7b96a4cca1b35ae41f4e"
   },
   "tools": {
+    "common_tools_commit": "8def616b53f70c10f1d5094a87d5fd5e77eb0967",
     "kicad": "10.0.8",
-    "python": "3.11.5 (main, Oct 29 2026, 05:20:44) [MSC v.1951 64 bit (AMD64)]",
-    "os": "Windows-10-10.0.26200-SP0",
-    "common_tools_commit": "8ddab2e0dcbcc999d082d25538469025ad92ce17",
-    "common_tool_sha256": {
-      "analyze_copper_style.py": "5d482c5b7885577027aff168d7d33cf4c69acd0a6225783e27bcb93fa83aa9e3",
-      "compare_pcb_state.py": "ff63c482e9b5bbc01d374fe9982fa2cf0f2bb8f861ef1b9b5585e73c67669b4f",
-      "audit_route_geometry.py": "b986649bfc36de3e49eff39507b8b126b160a71541f9d10686d620d27d8409cc",
-      "render_pcb_comparison.py": "d2a83594478af096c7c204f714e0b7b30ff35ff6bdf3ab1cb13ba5ab0c7312a4",
-      "render_review_pdf.py": "ba57cde36777b8189d1868b12304ab11da3551633196c1fd21a6576de0ddb9e0"
-    }
+    "classification": "classify_copper_candidates.py with per-board analyst assessments stored in metrics.reassessment.analyst_assessments"
   },
   "commands": [
-    "KiCadPython analyze_copper_style.py --board <design>/a2_usb_uart.kicad_pcb --out <temp> --packages <shapely-networkx-path>",
-    "kicad-cli pcb drc --format json --schematic-parity --severity-all --exit-code-violations -o <temp>/drc.json <design>/a2_usb_uart.kicad_pcb",
-    "kicad-cli sch erc --format json --severity-all --exit-code-violations -o <temp>/erc.json <design>/a2_usb_uart.kicad_sch",
-    "kicad-cli pcb export pdf --mode-single --layers F.Cu,Edge.Cuts --scale 0 -o <temp>/native_front.pdf <design>/a2_usb_uart.kicad_pcb",
-    "kicad-cli pcb export pdf --mode-single --layers B.Cu,Edge.Cuts --scale 0 -o <temp>/native_back.pdf <design>/a2_usb_uart.kicad_pcb",
-    "python render_review_pdf.py --front <temp>/native_front.pdf --back <temp>/native_back.pdf --out <temp> --font C:/Windows/Fonts/arial.ttf",
-    "KiCadPython compare_pcb_state.py --before <base-extracted>/baseline.kicad_pcb --after <source-copy>/a2_usb_uart.kicad_pcb --out <temp>/invariants.json --packages <packages>",
-    "KiCadPython audit_route_geometry.py <source-copy>/a2_usb_uart.kicad_pcb <temp>/audit_final 0afd6a69659793ee144c9bd6ff7d2882ef4d1e8a",
-    "KiCadPython render_pcb_comparison.py --before <base-extracted>/baseline.kicad_pcb --after <source-copy>/a2_usb_uart.kicad_pcb --regions <metrics.comparison_regions> --output <temp>/comparison.png --packages <packages>"
+    "classify_copper_candidates.py --board <absolute current PCB> --metrics <prior metrics.json> --out <OS TEMP> --packages <TEMP packages> --assessments <JSON stored in metrics.reassessment.analyst_assessments>",
+    "audit_route_geometry.py <PCB at each of five commits> <OS TEMP> <source SHA>",
+    "render_pcb_comparison.py --before <1b8d999 PCB> --after <current PCB> --regions <metrics.reassessment history regions> --output <comparison.png> --packages <TEMP packages>"
   ],
   "command_paths": {
-    "source_copy": "Byte-identical temporary copy of source_commit CAD and project",
-    "base_extracted": "git show base_commit:01_New_Design/kicad_direct/a2_usb_uart.{kicad_pcb,kicad_pro,kicad_dru}",
-    "temp": "OS local temporary directory; intermediate outputs are not tracked"
-  },
-  "timing": {
-    "started_jst": "2026-11-26T21:42:00+09:00",
-    "cad_committed_jst": "2026-11-26T22:18:00+09:00",
-    "artifacts_generated_jst": "2026-11-26T22:22:10.695680+09:00",
-    "elapsed_minutes": 40.2
+    "board": "C:/Users/hebow/.codex/worktrees/a2-pcb-quality/99_AI_PCB_design_test/01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb",
+    "tools": "D:/Documents/KiCad/10.0/projects/99_AI_PCB_design_test/tools/design_review",
+    "historical_boards": "Git-extracted temporary files at the five SHAs listed in README.md",
+    "temp": "OS temporary directory; trial outputs are not tracked"
   },
   "artifacts": {
-    "README.md": {
+    "comparison.png": {
       "status": "generated",
-      "sha256": "7450720e191437c37253c9d3c0d00d7520d831b57c5b295b71d94d948268ddfe"
-    },
-    "erc.json": {
-      "status": "generated",
-      "sha256": "0d9a28efa37f748f9fa0b4d69e146778807c7e51c4cdd19b8f84b1f51b30345a"
-    },
-    "drc.json": {
-      "status": "generated",
-      "sha256": "1909fa2050b765b253ca65599a48318878b7f14db98bb91f87e261ef3a813a33"
+      "sha256": "6b45a37f56cc865d05b3d401b02ab97a3d5393e3af635dae67dcccc74661b353",
+      "reason": "今回の調査成果物",
+      "source_artifact_commit": null
     },
     "connectivity.json": {
-      "status": "generated",
-      "sha256": "949ac551cf6e9c784fe66757b2f9b9660f15268019a5f4581e7e463f89d257b8"
-    },
-    "preservation.json": {
-      "status": "generated",
-      "sha256": "c2361f6e6076c92b22c86d9df927f7e0874c825fb65df524eee7884e986247b0"
-    },
-    "metrics.json": {
-      "status": "generated",
-      "sha256": "ae465a9b963d5fd28cbbbd409b6b17a53821a5c950a871867b2442b35f9d255a"
-    },
-    "pcb_front.png": {
-      "status": "generated",
-      "sha256": "ab0346a4f80435eb6a7e07e67084c8c557f7aca769d3ae0542eedeb252534050"
-    },
-    "pcb_back.png": {
-      "status": "generated",
-      "sha256": "557daf31e552d6795466eebc810cf7aa2ce240daff48e7388a33ae8679fc6c17"
+      "status": "reused",
+      "sha256": "949ac551cf6e9c784fe66757b2f9b9660f15268019a5f4581e7e463f89d257b8",
+      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
+      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
     },
     "details.png": {
       "status": "generated",
-      "sha256": "2fb309101066ab9661589bd45176c1d3d0d1290840c17a6db270038e6fcd0f2d"
+      "sha256": "c606b511b340e9257acb5c66ba84f13d93ad4e11e347e292491878a6b9bf495b",
+      "reason": "今回の調査成果物",
+      "source_artifact_commit": null
     },
-    "comparison.png": {
+    "drc.json": {
+      "status": "reused",
+      "sha256": "1909fa2050b765b253ca65599a48318878b7f14db98bb91f87e261ef3a813a33",
+      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
+      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
+    },
+    "erc.json": {
+      "status": "reused",
+      "sha256": "0d9a28efa37f748f9fa0b4d69e146778807c7e51c4cdd19b8f84b1f51b30345a",
+      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
+      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
+    },
+    "inspection.html": {
       "status": "generated",
-      "sha256": "30fe7ad39944817bee1d562fa414021fa2bfc223d44efe08c226ef0bcf5eadd5"
+      "sha256": "8470a64924a0353ff16fe0e4acc40f899b5523b7ce0fb0246537547cee2cc4ad",
+      "reason": "今回の調査成果物",
+      "source_artifact_commit": null
     },
-    "netlist.xml": {
-      "status": "not_applicable",
-      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
+    "metrics.json": {
+      "status": "generated",
+      "sha256": "2d22ec1e5e4f7a7aee9972dc750e9a397378479a0d6b5af1e23754e6848a31c1",
+      "reason": "今回の調査成果物",
+      "source_artifact_commit": null
     },
-    "schematic.pdf": {
-      "status": "not_applicable",
-      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
+    "pcb_back.png": {
+      "status": "reused",
+      "sha256": "557daf31e552d6795466eebc810cf7aa2ce240daff48e7388a33ae8679fc6c17",
+      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
+      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
     },
-    "schematic.png": {
-      "status": "not_applicable",
-      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
+    "pcb_front.png": {
+      "status": "reused",
+      "sha256": "ab0346a4f80435eb6a7e07e67084c8c557f7aca769d3ae0542eedeb252534050",
+      "reason": "入力ハッシュ一致を確認。前回成果物を再利用。今回の検証再実行ではない。",
+      "source_artifact_commit": "0d7a11603da2097970062df54214a574c1589c77"
     },
-    "model.png": {
-      "status": "not_applicable",
-      "reason": "Schematic and component placement/models unchanged; PCB routing review only"
+    "preservation.json": {
+      "status": "generated",
+      "sha256": "031c2189d6df98e054d642e8ed8e1b0fd4ea2f387e2c34621a8c80003852fa10",
+      "reason": "今回の調査成果物",
+      "source_artifact_commit": null
+    },
+    "README.md": {
+      "status": "generated",
+      "sha256": "8c11ec6f1ab6520fe3ce838d363af1b299e3c6da7dfea88af90a8afab221edbd",
+      "reason": "今回の調査成果物",
+      "source_artifact_commit": null
     }
+  },
+  "task": "read_only_reassessment",
+  "generated_at": "2026-11-26T23:05:49.226841+09:00",
+  "history_comparison_regions": [
+    {
+      "title": "VIO loop: pre R-0034 vs current",
+      "layer": "F.Cu",
+      "bounds": [
+        114.2,
+        130.6,
+        117.3,
+        133.7
+      ]
+    },
+    {
+      "title": "VIO/U4/C19 path: pre R-0034 vs current",
+      "layer": "F.Cu",
+      "bounds": [
+        100.1,
+        126.3,
+        117.8,
+        135.6
+      ]
+    }
+  ],
+  "timing": {
+    "artifacts_generated_jst": "2026-11-26T23:05:49.226841+09:00",
+    "elapsed_minutes": null
   }
 }
