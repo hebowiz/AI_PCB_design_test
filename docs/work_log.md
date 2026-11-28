@@ -937,3 +937,5 @@ R-0036〜R-0040の承認済み再配線に伴い、比較ツールへ`--allow-mo
 結果：ERC・DRC・未配線・回路図不一致0。部品58・端子218、22×50mm・1.6mm・2層、USB配線、既存ルールを維持。C13/C14中心間距離各1.815mm、中心線経路各1.949mm。表裏と局所の複数画像を確認。ID41件・15列とR-0001〜R-0040の行を保持し、R-0041を確認待ちへ更新した。
 
 未解決：全基板のGND形状候補、基板とノウハウの人間判定、寄生容量・発振・EMC実測。包括項目の保留は維持。再現以外の応用・予防・汎用化は未検証。[検証証跡](https://github.com/hebowiz/AI_PCB_design_test/blob/5516d0db5df7ad627c789a8b54e471d61bc49891/01_New_Design/kicad_direct/reports/current/README.md)・[技術履歴](reviews/history.md#r0041-ai-practice)。試行開始00:14、候補資料の記録00:38。
+
+追記（2026-11-29 00:41 JST）：KiCad 10のFOOTPRINT.GetFieldsで58部品すべてのReference・Value・MPN等のフィールド文字列を前後比較し、差分0を確認した。初回のGetProperties呼出しは未対応APIで失敗したため、GetFieldsへ変更して再検査した。CADへの変更はない。mainとworkspace/a2-aiの通常push成功・リモートSHA一致を確認。
