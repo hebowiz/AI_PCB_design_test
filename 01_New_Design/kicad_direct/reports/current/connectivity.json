@@ -1,8 +1,12 @@
 {
-  "human_result_commit": "42e9cad8f9dbdfe3dde57defd0d242f3729af391",
-  "schematic_unchanged": true,
-  "electrical_attributes_and_pad_nets_unchanged": true,
-  "schematic_parity_count": 0,
-  "unconnected_count": 2,
-  "note": "Net assignment equality does not imply physical connectivity. See GND unconnected items in metrics.json."
+  "source_commit": "03d4e986eca6493fcb90e7899ed42c50b04d5116",
+  "footprints": 58,
+  "pads": 218,
+  "electrical_and_local_pad_geometry_unchanged": true,
+  "schematic_sha256": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
+  "unchanged_schematic": true,
+  "parity": [],
+  "unconnected": [],
+  "ground_components_without_main_connection": [],
+  "method": "KiCad schematic parity + full DRC; actual pad attributes/net mapping comparison; cross-layer GND polygon graph connected through vias"
 }

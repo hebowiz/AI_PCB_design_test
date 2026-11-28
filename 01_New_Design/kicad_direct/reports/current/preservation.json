@@ -1,30 +1,1966 @@
 {
-  "human_snapshot_sha256": {
-    "a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
-    "a2_usb_uart.kicad_pcb": "b4b01757ad7978b3659007b7ba59cb39664fbbd1b82f8725f68fe5702fee5cdb",
-    "a2_usb_uart.kicad_pro": "4f5b77e9a829659bfca6836554c78508218a86c64fcc53402ddafab6d0af4f15",
-    "a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
-    "fp-lib-table": "31cc66856f8ecf97e201aac31e409623bd78fe835c8845fd870b16fbe9fcca41",
-    "sym-lib-table": "22146f0ee477955b927778f890a14c0d61f926052582d3ecfb2414cdf3a2d03a"
+  "before_sha256": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
+  "after_sha256": "f1d0e06200759cb01dc000fbde9874e956e6603b384e694b5a88a909f3ad6588",
+  "checks": {
+    "footprints_and_pads_unchanged": false,
+    "electrical_and_local_pad_geometry_unchanged": true,
+    "only_authorized_placements_changed": true,
+    "edge_unchanged": true,
+    "rule_areas_unchanged": true,
+    "thickness_1_6mm": true,
+    "two_layers": true,
+    "protected_usb_crystal_routes_unchanged": false,
+    "no_new_reference_loss": true,
+    "via_dimensions": true,
+    "no_non45_segments": true,
+    "all_ic_pad_exits_short_edge_center": true
   },
-  "ai_snapshot_sha256": {
-    "a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
-    "a2_usb_uart.kicad_pcb": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
-    "a2_usb_uart.kicad_pro": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b",
-    "a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
-    "fp-lib-table": "31cc66856f8ecf97e201aac31e409623bd78fe835c8845fd870b16fbe9fcca41",
-    "sym-lib-table": "22146f0ee477955b927778f890a14c0d61f926052582d3ecfb2414cdf3a2d03a"
-  },
-  "ai_cad_unchanged": true,
-  "human_edits_preserved_in_commit": "42e9cad8f9dbdfe3dde57defd0d242f3729af391",
-  "modified_human_files": [
-    "a2_usb_uart.kicad_pcb",
-    "a2_usb_uart.kicad_pro"
+  "authorized_moves": [
+    "C14"
+  ],
+  "placement_changes": [
+    {
+      "ref": "C14",
+      "before": {
+        "position": [
+          113.35,
+          107.8
+        ],
+        "angle": -90.0
+      },
+      "after": {
+        "position": [
+          114.245,
+          107.78
+        ],
+        "angle": 180.0
+      },
+      "authorized": true
+    }
   ],
   "footprint_count": 58,
   "pad_count": 218,
-  "edge_unchanged": true,
-  "rule_areas_unchanged": true,
-  "manufacturing_outputs": "not changed",
-  "AI_design_practice": "not started"
+  "reference_coverage": [
+    {
+      "net": "/USB_D+",
+      "signal_layer": "F.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.09771257004971504,
+      "after_unreferenced_mm2": 0.09771257004971504
+    },
+    {
+      "net": "/USB_D+",
+      "signal_layer": "B.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.0,
+      "after_unreferenced_mm2": 0.0
+    },
+    {
+      "net": "/USB_D-",
+      "signal_layer": "F.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.43570631030568374,
+      "after_unreferenced_mm2": 0.43570631030568374
+    },
+    {
+      "net": "/USB_D-",
+      "signal_layer": "B.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.4394853334830877,
+      "after_unreferenced_mm2": 0.4394853334830877
+    },
+    {
+      "net": "/XTAL_IN",
+      "signal_layer": "F.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.0,
+      "after_unreferenced_mm2": 0.0
+    },
+    {
+      "net": "/XTAL_IN",
+      "signal_layer": "B.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.0,
+      "after_unreferenced_mm2": 0.0
+    },
+    {
+      "net": "/XTAL_OUT",
+      "signal_layer": "F.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.0,
+      "after_unreferenced_mm2": 0.0
+    },
+    {
+      "net": "/XTAL_OUT",
+      "signal_layer": "B.Cu",
+      "new_reference_loss_over_2um_mm2": 0.0,
+      "before_unreferenced_mm2": 0.0,
+      "after_unreferenced_mm2": 0.0
+    }
+  ],
+  "ic_escape_before": [
+    {
+      "pin": "U4.1",
+      "uuid": "7c816455-d157-47b0-b83a-f9d86c3aefe3",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U4.3",
+      "uuid": "983c3570-38c8-4d65-8cac-110d31141544",
+      "short_edge": true,
+      "offset_mm": -1e-06,
+      "ok": true
+    },
+    {
+      "pin": "U4.4",
+      "uuid": "a2efaa5b-df64-4227-b513-b0539fdef63f",
+      "short_edge": true,
+      "offset_mm": -1e-06,
+      "ok": true
+    },
+    {
+      "pin": "U4.5",
+      "uuid": "10fb18f4-4c81-4f31-aff8-dd4f9d7805d0",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.1",
+      "uuid": "97c1d17d-17a3-4dad-ad73-3a66cf631c7a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.2",
+      "uuid": "f22d63a7-af9c-4a21-846e-9305488084eb",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.3",
+      "uuid": "663094aa-109c-4172-ab05-0efb0ad314c7",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.4",
+      "uuid": "8f97fe3e-8213-4622-8afc-a692bed6eb0b",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.5",
+      "uuid": "2febe44c-3781-43a7-8705-a91721d14f6b",
+      "short_edge": true,
+      "offset_mm": -1e-06,
+      "ok": true
+    },
+    {
+      "pin": "U2.6",
+      "uuid": "161c2b55-9290-4b77-88af-a5ab8757cc8c",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.7",
+      "uuid": "bb948273-f608-4730-8742-0c50bfb4fe28",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.8",
+      "uuid": "74f57bff-9581-4c3d-b95a-864288b34307",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.9",
+      "uuid": "66ebd171-e69c-4c6b-b072-3a8edef028a2",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.9",
+      "uuid": "a8108dab-b8c5-4a7f-a103-1868960436d4",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.10",
+      "uuid": "6d108ad9-a119-43b8-85cb-0df1d22c161c",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.11",
+      "uuid": "6bf5b391-35c9-40fb-bd27-029656be9c0e",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.12",
+      "uuid": "b443cecd-6aaf-41ed-8317-b4f03785f53c",
+      "short_edge": true,
+      "offset_mm": -2e-06,
+      "ok": true
+    },
+    {
+      "pin": "U2.13",
+      "uuid": "0495604b-60b6-455d-89fa-cc893c4911ef",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.14",
+      "uuid": "fac34042-dbcc-42f5-bd33-11cee443b7ef",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.15",
+      "uuid": "056e5d44-d247-46b2-a78c-de88adb94f4b",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.16",
+      "uuid": "95630730-0645-4a38-a646-83efeeea3ac8",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.1",
+      "uuid": "f670f02e-b858-408a-b5a3-d5cd012d4fec",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.2",
+      "uuid": "98b8d4d7-32db-408b-8282-07c35ccb38ad",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.3",
+      "uuid": "c9260cd6-1c7f-49d8-bc8e-54931de83349",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.4",
+      "uuid": "a449a25f-21cd-422e-8d99-743187a00d8f",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.5",
+      "uuid": "eba72195-5d17-4a0e-b789-1462eba68ebb",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.6",
+      "uuid": "8788637b-c492-4998-a54b-adf894215b86",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.7",
+      "uuid": "d8967357-af75-493f-8352-6656e49e540f",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.8",
+      "uuid": "7a6fe56c-78e0-47e8-836b-df6002a8b7fd",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.9",
+      "uuid": "89cfd120-c289-40ec-a94d-6746bd547e13",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.10",
+      "uuid": "93adfa87-596e-49af-b836-37d07c35669c",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.11",
+      "uuid": "b21c9183-3141-499d-829a-873a46f0aac9",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.12",
+      "uuid": "c8b24828-af5e-4545-a798-3017879e2d0a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.13",
+      "uuid": "29356027-91b7-4e78-be2d-adee670690a2",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.14",
+      "uuid": "dcc6fea1-58e6-413a-be90-6eeef59eb0ed",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.15",
+      "uuid": "45f9ef68-45db-4c47-8d55-f7101a3d7c0f",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.16",
+      "uuid": "9d300110-f575-49b0-bc43-a2ea5f16cab5",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.22",
+      "uuid": "403c947d-90ad-4e9a-b15d-07379f7f024a",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.23",
+      "uuid": "f4e67f7e-04db-4b6e-a9b9-260ae94a3173",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.24",
+      "uuid": "5617ebc4-c2ac-4745-8db5-0b3e6d353737",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.27",
+      "uuid": "2bd8f8c1-455f-49be-8366-c5e419d4524d",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.28",
+      "uuid": "0b08e1fb-1ae3-43ba-af18-c1b35a6867e6",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.32",
+      "uuid": "cfbf079b-0aa3-42e2-a79f-5af82367b1b6",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.34",
+      "uuid": "8fb3bb93-db65-4bdf-8043-c4a57749f5bc",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.35",
+      "uuid": "052dc5e1-8113-4a3d-b490-9c626a430f7a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.36",
+      "uuid": "dca305f0-170e-44bf-98c2-f720dc29c5d0",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.37",
+      "uuid": "5c71a711-5a3c-4f03-85e9-bd71f8b9c959",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.38",
+      "uuid": "fbdc415b-c95c-4bfc-bd03-195010384376",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.39",
+      "uuid": "da0e21b7-2ca5-45df-b75a-6bec65d0f535",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.40",
+      "uuid": "9a0c0b66-236f-4f70-8a21-bd5c76a20ed9",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.41",
+      "uuid": "3ea4e081-add6-4e4e-94fa-a76758bf1bcd",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.42",
+      "uuid": "8105ac8c-f251-4ea6-9358-f16dad382450",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.43",
+      "uuid": "7aed88ba-b7f6-4c2c-8129-c0e52a44f25b",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.44",
+      "uuid": "f6627835-e16c-40f6-8f07-6218832aeec0",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.45",
+      "uuid": "ae573132-91d2-4257-8238-a989074b2a63",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.46",
+      "uuid": "2881fd30-a9be-4a09-b8c0-c2b4eff96030",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.47",
+      "uuid": "46a8297c-3a71-405e-b319-ba7e171089ab",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.48",
+      "uuid": "7b639213-6371-4a26-9ad5-3a5575537a37",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.1",
+      "uuid": "45d6eb7d-5bcf-43d7-82db-f084ad1429b6",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.2",
+      "uuid": "3ea3482f-908e-4497-8e41-a5eef3f97728",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.3",
+      "uuid": "73fd1e55-8476-407b-9955-940977a797cd",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.4",
+      "uuid": "c09ef03c-5c71-4bec-a5b9-7783a53406fb",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.5",
+      "uuid": "baebe68a-3d9f-4cfb-b93c-35831fc23e5a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.8",
+      "uuid": "01e2c207-0024-4deb-b3c8-f9eb145f3fc2",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    }
+  ],
+  "ic_escape_after": [
+    {
+      "pin": "U4.1",
+      "uuid": "7c816455-d157-47b0-b83a-f9d86c3aefe3",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U4.3",
+      "uuid": "983c3570-38c8-4d65-8cac-110d31141544",
+      "short_edge": true,
+      "offset_mm": -1e-06,
+      "ok": true
+    },
+    {
+      "pin": "U4.4",
+      "uuid": "a2efaa5b-df64-4227-b513-b0539fdef63f",
+      "short_edge": true,
+      "offset_mm": -1e-06,
+      "ok": true
+    },
+    {
+      "pin": "U4.5",
+      "uuid": "10fb18f4-4c81-4f31-aff8-dd4f9d7805d0",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.1",
+      "uuid": "97c1d17d-17a3-4dad-ad73-3a66cf631c7a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.2",
+      "uuid": "f22d63a7-af9c-4a21-846e-9305488084eb",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.3",
+      "uuid": "663094aa-109c-4172-ab05-0efb0ad314c7",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.4",
+      "uuid": "8f97fe3e-8213-4622-8afc-a692bed6eb0b",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.5",
+      "uuid": "2febe44c-3781-43a7-8705-a91721d14f6b",
+      "short_edge": true,
+      "offset_mm": -1e-06,
+      "ok": true
+    },
+    {
+      "pin": "U2.6",
+      "uuid": "161c2b55-9290-4b77-88af-a5ab8757cc8c",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.7",
+      "uuid": "bb948273-f608-4730-8742-0c50bfb4fe28",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.8",
+      "uuid": "74f57bff-9581-4c3d-b95a-864288b34307",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.9",
+      "uuid": "66ebd171-e69c-4c6b-b072-3a8edef028a2",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.9",
+      "uuid": "a8108dab-b8c5-4a7f-a103-1868960436d4",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.10",
+      "uuid": "6d108ad9-a119-43b8-85cb-0df1d22c161c",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.11",
+      "uuid": "6bf5b391-35c9-40fb-bd27-029656be9c0e",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.12",
+      "uuid": "b443cecd-6aaf-41ed-8317-b4f03785f53c",
+      "short_edge": true,
+      "offset_mm": -2e-06,
+      "ok": true
+    },
+    {
+      "pin": "U2.13",
+      "uuid": "0495604b-60b6-455d-89fa-cc893c4911ef",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.14",
+      "uuid": "fac34042-dbcc-42f5-bd33-11cee443b7ef",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.15",
+      "uuid": "056e5d44-d247-46b2-a78c-de88adb94f4b",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U2.16",
+      "uuid": "95630730-0645-4a38-a646-83efeeea3ac8",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.1",
+      "uuid": "f41fc4fa-bd4a-45e1-be7d-cab48d91149e",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.2",
+      "uuid": "57cbcc87-bb8a-47a2-9783-da474697ad67",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.3",
+      "uuid": "c9260cd6-1c7f-49d8-bc8e-54931de83349",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.4",
+      "uuid": "a449a25f-21cd-422e-8d99-743187a00d8f",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.5",
+      "uuid": "eba72195-5d17-4a0e-b789-1462eba68ebb",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.6",
+      "uuid": "8788637b-c492-4998-a54b-adf894215b86",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.7",
+      "uuid": "d8967357-af75-493f-8352-6656e49e540f",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.8",
+      "uuid": "7a6fe56c-78e0-47e8-836b-df6002a8b7fd",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.9",
+      "uuid": "89cfd120-c289-40ec-a94d-6746bd547e13",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.10",
+      "uuid": "93adfa87-596e-49af-b836-37d07c35669c",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.11",
+      "uuid": "b21c9183-3141-499d-829a-873a46f0aac9",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.12",
+      "uuid": "c8b24828-af5e-4545-a798-3017879e2d0a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.13",
+      "uuid": "29356027-91b7-4e78-be2d-adee670690a2",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.14",
+      "uuid": "dcc6fea1-58e6-413a-be90-6eeef59eb0ed",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.15",
+      "uuid": "45f9ef68-45db-4c47-8d55-f7101a3d7c0f",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.16",
+      "uuid": "9d300110-f575-49b0-bc43-a2ea5f16cab5",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.22",
+      "uuid": "403c947d-90ad-4e9a-b15d-07379f7f024a",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.23",
+      "uuid": "f4e67f7e-04db-4b6e-a9b9-260ae94a3173",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.24",
+      "uuid": "5617ebc4-c2ac-4745-8db5-0b3e6d353737",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.27",
+      "uuid": "2bd8f8c1-455f-49be-8366-c5e419d4524d",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.28",
+      "uuid": "0b08e1fb-1ae3-43ba-af18-c1b35a6867e6",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.32",
+      "uuid": "cfbf079b-0aa3-42e2-a79f-5af82367b1b6",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.34",
+      "uuid": "8fb3bb93-db65-4bdf-8043-c4a57749f5bc",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.35",
+      "uuid": "052dc5e1-8113-4a3d-b490-9c626a430f7a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.36",
+      "uuid": "dca305f0-170e-44bf-98c2-f720dc29c5d0",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.37",
+      "uuid": "5c71a711-5a3c-4f03-85e9-bd71f8b9c959",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.38",
+      "uuid": "fbdc415b-c95c-4bfc-bd03-195010384376",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.39",
+      "uuid": "da0e21b7-2ca5-45df-b75a-6bec65d0f535",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.40",
+      "uuid": "9a0c0b66-236f-4f70-8a21-bd5c76a20ed9",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.41",
+      "uuid": "3ea4e081-add6-4e4e-94fa-a76758bf1bcd",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.42",
+      "uuid": "8105ac8c-f251-4ea6-9358-f16dad382450",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.43",
+      "uuid": "7aed88ba-b7f6-4c2c-8129-c0e52a44f25b",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.44",
+      "uuid": "f6627835-e16c-40f6-8f07-6218832aeec0",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.45",
+      "uuid": "ae573132-91d2-4257-8238-a989074b2a63",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.46",
+      "uuid": "2881fd30-a9be-4a09-b8c0-c2b4eff96030",
+      "short_edge": true,
+      "offset_mm": -0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.47",
+      "uuid": "46a8297c-3a71-405e-b319-ba7e171089ab",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U1.48",
+      "uuid": "7b639213-6371-4a26-9ad5-3a5575537a37",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.1",
+      "uuid": "45d6eb7d-5bcf-43d7-82db-f084ad1429b6",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.2",
+      "uuid": "3ea3482f-908e-4497-8e41-a5eef3f97728",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.3",
+      "uuid": "73fd1e55-8476-407b-9955-940977a797cd",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.4",
+      "uuid": "c09ef03c-5c71-4bec-a5b9-7783a53406fb",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.5",
+      "uuid": "baebe68a-3d9f-4cfb-b93c-35831fc23e5a",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    },
+    {
+      "pin": "U5.8",
+      "uuid": "01e2c207-0024-4deb-b3c8-f9eb145f3fc2",
+      "short_edge": true,
+      "offset_mm": 0.0,
+      "ok": true
+    }
+  ],
+  "removed": [
+    {
+      "uuid": "04726f98-1781-45bc-bfbb-24175da9113d",
+      "net": "GND",
+      "a": [
+        112.8,
+        107.975
+      ],
+      "b": [
+        112.825,
+        108.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.03535533905932738
+    },
+    {
+      "uuid": "a997cc12-24b7-47fd-a855-6594d447360f",
+      "net": "GND",
+      "a": [
+        112.7,
+        109.4
+      ],
+      "b": [
+        113.15,
+        108.95
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.6363961030678928
+    },
+    {
+      "uuid": "049844aa-8c98-4489-8c45-c17bfb2fb3e9",
+      "net": "/XTAL_IN",
+      "a": [
+        118.5,
+        110.5
+      ],
+      "b": [
+        118.7,
+        110.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.28284271247461906
+    },
+    {
+      "uuid": "f9eead94-5bd5-4c63-9f81-9c430409c0a7",
+      "net": "GND",
+      "a": [
+        118.0,
+        106.125
+      ],
+      "b": [
+        118.175,
+        106.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 0.24748737341529164
+    },
+    {
+      "uuid": "05ac3854-f555-4404-8acb-72b8567e3ca0",
+      "net": "/XTAL_IN",
+      "a": [
+        114.05,
+        110.5
+      ],
+      "b": [
+        118.5,
+        110.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 4.45
+    },
+    {
+      "uuid": "f670f02e-b858-408a-b5a3-d5cd012d4fec",
+      "net": "/XTAL_IN",
+      "a": [
+        113.75,
+        111.8375
+      ],
+      "b": [
+        113.75,
+        110.8
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.0375
+    },
+    {
+      "uuid": "445cb67d-02c4-4da0-a3d8-02f0c2084a27",
+      "net": "GND",
+      "a": [
+        112.425,
+        107.4
+      ],
+      "b": [
+        112.8,
+        107.025
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.5303300858899107
+    },
+    {
+      "uuid": "a3140874-c0d2-4f8e-ab24-ec3151ea3e31",
+      "net": "/XTAL_OUT",
+      "a": [
+        113.35,
+        107.32
+      ],
+      "b": [
+        116.475,
+        107.32
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 3.125
+    },
+    {
+      "uuid": "cdd7ee9b-e7e1-46a8-9e89-34c3961da2bc",
+      "net": "GND",
+      "a": [
+        112.9925,
+        108.0
+      ],
+      "b": [
+        112.825,
+        108.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.1675
+    },
+    {
+      "uuid": "58efffb7-90f3-4c05-826c-a1de32c549ee",
+      "net": "GND",
+      "a": [
+        113.15,
+        108.1575
+      ],
+      "b": [
+        112.9925,
+        108.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.22273863607376249
+    },
+    {
+      "uuid": "a0a46205-0e6b-49c6-b2a6-9d2d6598e585",
+      "net": "GND",
+      "a": [
+        112.8,
+        107.975
+      ],
+      "b": [
+        112.8,
+        106.8
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.175
+    },
+    {
+      "uuid": "7e4a91fd-94a3-4d4c-a6b2-0fc8bd02cc6e",
+      "net": "/XTAL_IN",
+      "a": [
+        118.7,
+        110.025
+      ],
+      "b": [
+        118.175,
+        109.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.742462120245875
+    },
+    {
+      "uuid": "acb688bd-d713-4d52-92c9-b3da26ad7698",
+      "net": "GND",
+      "a": [
+        116.825,
+        109.6
+      ],
+      "b": [
+        115.125,
+        109.6
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.7
+    },
+    {
+      "uuid": "1dc6a0cb-2e6d-4f7d-a386-790d73fb11ec",
+      "net": "GND",
+      "a": [
+        118.0,
+        105.9
+      ],
+      "b": [
+        118.0,
+        106.125
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 0.225
+    },
+    {
+      "uuid": "f1d68656-eb8b-4577-af46-503f8813268d",
+      "net": "/XTAL_IN",
+      "a": [
+        118.7,
+        110.3
+      ],
+      "b": [
+        118.7,
+        110.025
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.275
+    },
+    {
+      "uuid": "2ece3d90-cab9-4dd4-a7da-546dae62956a",
+      "net": "GND",
+      "a": [
+        112.8,
+        106.8
+      ],
+      "b": [
+        112.8,
+        106.5525
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.2475
+    },
+    {
+      "uuid": "eb4c7911-6317-4ec9-a319-5c39c3a62362",
+      "net": "GND",
+      "a": [
+        118.175,
+        106.3
+      ],
+      "b": [
+        118.175,
+        107.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 1.0
+    },
+    {
+      "uuid": "1db266c1-6d40-44cb-98b8-8b732d364ef0",
+      "net": "VPLL",
+      "a": [
+        107.65,
+        109.7
+      ],
+      "b": [
+        108.13,
+        110.18
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "length_mm": 0.6788225099390857
+    },
+    {
+      "uuid": "cc2bd080-4789-465b-96b2-246534265f26",
+      "net": "GND",
+      "a": [
+        113.0025,
+        106.35
+      ],
+      "b": [
+        113.1,
+        106.35
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.0975
+    },
+    {
+      "uuid": "45f15d66-0b13-4695-84df-7aef89113573",
+      "net": "/XTAL_IN",
+      "a": [
+        119.925,
+        109.98
+      ],
+      "b": [
+        118.655,
+        109.98
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.27
+    },
+    {
+      "uuid": "6380d29f-d493-4ff2-bc7c-66302c95ff59",
+      "net": "GND",
+      "a": [
+        113.15,
+        108.95
+      ],
+      "b": [
+        113.15,
+        108.1575
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.7925
+    },
+    {
+      "uuid": "98b8d4d7-32db-408b-8282-07c35ccb38ad",
+      "net": "/XTAL_OUT",
+      "a": [
+        113.25,
+        111.8375
+      ],
+      "b": [
+        113.25,
+        109.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 2.5375
+    },
+    {
+      "uuid": "97f58bf2-f751-4cb3-a1a1-8c08811d48e9",
+      "net": "VPLL",
+      "a": [
+        108.13,
+        110.18
+      ],
+      "b": [
+        109.5,
+        110.18
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "via": false,
+      "length_mm": 1.37
+    },
+    {
+      "uuid": "98116d9f-f006-42e3-94b5-51877efa0469",
+      "net": "/XTAL_OUT",
+      "a": [
+        113.25,
+        109.3
+      ],
+      "b": [
+        115.23,
+        107.32
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 2.8001428534987283
+    },
+    {
+      "uuid": "5e51bef5-d09b-4921-93e4-1e35825e996e",
+      "net": "/XTAL_IN",
+      "a": [
+        113.75,
+        110.8
+      ],
+      "b": [
+        114.05,
+        110.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.42426406871192857
+    },
+    {
+      "uuid": "2eac86ff-0a56-4a8f-a106-5d67f0a7c734",
+      "net": "GND",
+      "a": [
+        112.8,
+        106.5525
+      ],
+      "b": [
+        113.0025,
+        106.35
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.28637824638055176
+    },
+    {
+      "uuid": "e5c9126e-3bf1-4187-989c-bc9863444be5",
+      "net": "GND",
+      "a": [
+        113.1,
+        106.35
+      ],
+      "b": [
+        113.15,
+        106.4
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.07071067811865477
+    }
+  ],
+  "added": [
+    {
+      "uuid": "3e2edf9c-12f7-4cc4-b456-f0d698836472",
+      "net": "/XTAL_IN",
+      "a": [
+        113.75,
+        111.05
+      ],
+      "b": [
+        114.3,
+        110.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.7778174593052024
+    },
+    {
+      "uuid": "41bd85a2-ab25-4324-b77c-3511045bb980",
+      "net": "GND",
+      "a": [
+        119.1,
+        108.45
+      ],
+      "b": [
+        119.1,
+        108.45
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "ae673e73-5569-42ce-abea-d703c0ccae15",
+      "net": "/XTAL_IN",
+      "a": [
+        119.445,
+        109.5
+      ],
+      "b": [
+        119.925,
+        109.98
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.6788225099390857
+    },
+    {
+      "uuid": "aaae614b-2a28-4db0-9a6c-b2a304566a27",
+      "net": "VPLL",
+      "a": [
+        109.35,
+        110.03
+      ],
+      "b": [
+        109.5,
+        110.18
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.21213203435596428
+    },
+    {
+      "uuid": "6b71b5a7-6ea3-413f-b951-d75d6cf4e063",
+      "net": "/XTAL_IN",
+      "a": [
+        118.175,
+        109.5
+      ],
+      "b": [
+        119.445,
+        109.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.27
+    },
+    {
+      "uuid": "1e7b52b2-d082-4231-8aee-669a49bc3888",
+      "net": "/XTAL_OUT",
+      "a": [
+        115.205,
+        107.3
+      ],
+      "b": [
+        114.725,
+        107.78
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.6788225099390857
+    },
+    {
+      "uuid": "adb8c72a-b79e-42dc-a69c-2c0dab2615e4",
+      "net": "/XTAL_OUT",
+      "a": [
+        113.25,
+        110.525
+      ],
+      "b": [
+        116.475,
+        107.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 4.560838738653231
+    },
+    {
+      "uuid": "56061550-be2b-4d02-98c4-ce2d15d9ffda",
+      "net": "GND",
+      "a": [
+        108.7,
+        110.58
+      ],
+      "b": [
+        108.7,
+        110.58
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "b97235b3-7ffa-4d8b-b0c5-c86f69c1b655",
+      "net": "GND",
+      "a": [
+        113.7,
+        123.325
+      ],
+      "b": [
+        113.7,
+        123.325
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "57cbcc87-bb8a-47a2-9783-da474697ad67",
+      "net": "/XTAL_OUT",
+      "a": [
+        113.25,
+        111.8375
+      ],
+      "b": [
+        113.25,
+        110.525
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.3125
+    },
+    {
+      "uuid": "a04d1fe6-27fc-4e26-ab4b-17b51f00788f",
+      "net": "VPLL",
+      "a": [
+        107.65,
+        109.7
+      ],
+      "b": [
+        107.98,
+        110.03
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.46669047558312143
+    },
+    {
+      "uuid": "633be155-05fa-47c0-beaf-34c042371f01",
+      "net": "VPLL",
+      "a": [
+        107.98,
+        110.03
+      ],
+      "b": [
+        109.35,
+        110.03
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.37
+    },
+    {
+      "uuid": "71f55481-59b0-4783-9cc7-1b619993aac2",
+      "net": "/XTAL_IN",
+      "a": [
+        114.3,
+        110.5
+      ],
+      "b": [
+        117.175,
+        110.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 2.875
+    },
+    {
+      "uuid": "34a4929e-a45b-4304-bdf9-b415d901efce",
+      "net": "GND",
+      "a": [
+        107.19,
+        143.1928
+      ],
+      "b": [
+        107.19,
+        145.05
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 1.8572
+    },
+    {
+      "uuid": "cdec27ce-efde-4011-ad26-1c44f2a073d4",
+      "net": "GND",
+      "a": [
+        112.425,
+        107.4
+      ],
+      "b": [
+        112.95,
+        107.4
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 0.525
+    },
+    {
+      "uuid": "cc71516d-0a0e-4b33-a9cd-371a7e9d3ddd",
+      "net": "/XTAL_OUT",
+      "a": [
+        116.475,
+        107.3
+      ],
+      "b": [
+        115.205,
+        107.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.27
+    },
+    {
+      "uuid": "216e6577-6c39-461b-acbe-dbd53dbc51e8",
+      "net": "/XTAL_IN",
+      "a": [
+        117.175,
+        110.5
+      ],
+      "b": [
+        118.175,
+        109.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 1.4142135623730951
+    },
+    {
+      "uuid": "698c0bb4-506d-46a5-85fb-696d5afc5461",
+      "net": "GND",
+      "a": [
+        113.55,
+        109.42
+      ],
+      "b": [
+        113.55,
+        109.42
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "via": true,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "f41fc4fa-bd4a-45e1-be7d-cab48d91149e",
+      "net": "/XTAL_IN",
+      "a": [
+        113.75,
+        111.8375
+      ],
+      "b": [
+        113.75,
+        111.05
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "via": false,
+      "length_mm": 0.7875
+    },
+    {
+      "uuid": "dc2eadd3-9909-47ac-b9a0-4e5313bb471c",
+      "net": "GND",
+      "a": [
+        112.7,
+        109.42
+      ],
+      "b": [
+        113.55,
+        109.42
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 0.85
+    },
+    {
+      "uuid": "e54e067a-55ba-4dab-8343-c4769ace5747",
+      "net": "GND",
+      "a": [
+        112.95,
+        107.4
+      ],
+      "b": [
+        113.4,
+        106.95
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "via": false,
+      "length_mm": 0.6363961030678928
+    }
+  ],
+  "modified": [
+    {
+      "before": {
+        "uuid": "0ac2bf4a-1ee7-4506-9094-e198b9f5af47",
+        "net": "GND",
+        "a": [
+          118.0,
+          105.9
+        ],
+        "b": [
+          118.0,
+          105.9
+        ],
+        "layer": "F.Cu",
+        "width_mm": 0.6,
+        "via": true,
+        "drill_mm": 0.3
+      },
+      "after": {
+        "uuid": "0ac2bf4a-1ee7-4506-9094-e198b9f5af47",
+        "net": "GND",
+        "a": [
+          119.3,
+          107.3
+        ],
+        "b": [
+          119.3,
+          107.3
+        ],
+        "layer": "F.Cu",
+        "width_mm": 0.6,
+        "via": true,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "before": {
+        "uuid": "411d18db-95d9-4336-9df4-225c29e467fa",
+        "net": "GND",
+        "a": [
+          115.125,
+          109.62
+        ],
+        "b": [
+          115.125,
+          109.62
+        ],
+        "layer": "F.Cu",
+        "width_mm": 0.6,
+        "via": true,
+        "drill_mm": 0.3
+      },
+      "after": {
+        "uuid": "411d18db-95d9-4336-9df4-225c29e467fa",
+        "net": "GND",
+        "a": [
+          115.35,
+          109.5
+        ],
+        "b": [
+          115.35,
+          109.5
+        ],
+        "layer": "F.Cu",
+        "width_mm": 0.6,
+        "via": true,
+        "drill_mm": 0.3
+      }
+    },
+    {
+      "before": {
+        "uuid": "d362e341-f30e-428b-8055-6292abbf7c36",
+        "net": "GND",
+        "a": [
+          113.15,
+          106.4
+        ],
+        "b": [
+          113.15,
+          106.4
+        ],
+        "layer": "F.Cu",
+        "width_mm": 0.6,
+        "via": true,
+        "drill_mm": 0.3
+      },
+      "after": {
+        "uuid": "d362e341-f30e-428b-8055-6292abbf7c36",
+        "net": "GND",
+        "a": [
+          113.4,
+          106.95
+        ],
+        "b": [
+          113.4,
+          106.95
+        ],
+        "layer": "F.Cu",
+        "width_mm": 0.6,
+        "via": true,
+        "drill_mm": 0.3
+      }
+    }
+  ],
+  "zone_note": "GND outline cutouts/fill may differ; protected rule areas must not.",
+  "source_commit": "03d4e986eca6493fcb90e7899ed42c50b04d5116",
+  "project_setting_changes": [
+    {
+      "path": "/board/design_settings/defaults/zones/thermal_relief_gap",
+      "before": 0.5,
+      "after": 0.15
+    },
+    {
+      "path": "/board/design_settings/defaults/zones/thermal_relief_spoke_width",
+      "before": 0.5,
+      "after": 0.2
+    },
+    {
+      "path": "/board/design_settings/defaults/zones/min_clearance",
+      "before": 0.5,
+      "after": 0.15
+    },
+    {
+      "path": "/board/design_settings/defaults/zones/min_thickness",
+      "before": 0.25,
+      "after": 0.2
+    }
+  ],
+  "baseline_expected_differences": [
+    "C14 placement/rotation",
+    "XTAL routes",
+    "local GND returns, four additional ground vias and three moved ground vias",
+    "VPLL supply segment shifted by 0.15 mm to admit ground via",
+    "F.Cu zone minimum/spoke width; C13 cutout; C22/R8 thermal angles"
+  ],
+  "protected_hashes": {
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2-human\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_dru": {
+      "sha256": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2-human\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_pcb": {
+      "sha256": "b4b01757ad7978b3659007b7ba59cb39664fbbd1b82f8725f68fe5702fee5cdb",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2-human\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_prl": {
+      "sha256": "908177493ce82a829dc8d5be02a9c97e866bbdac09faf18cd5e409c6d824822e",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2-human\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_pro": {
+      "sha256": "4f5b77e9a829659bfca6836554c78508218a86c64fcc53402ddafab6d0af4f15",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2-human\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch": {
+      "sha256": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_dru": {
+      "sha256": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_pcb": {
+      "sha256": "7f1f83a4e5893203c050ea6580480bf2ff14991708906cbf2be862b9277ddbe8",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_prl": {
+      "sha256": "b4e36ea101fee6e1e4115ea54c5d3c8c6dde2b6ce2e1ff39a737a0ac1d58f181",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_pro": {
+      "sha256": "351fecb5abe6bb738ef2cf540ca29253a38d6b36657e1ce8d271c9380cb8d3fa",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\workspaces\\A-2\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_sch": {
+      "sha256": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
+      "unchanged": true
+    },
+    "D:\\Documents\\KiCad\\10.0\\projects\\99_AI_PCB_design_test\\01_New_Design\\kicad_direct\\a2_usb_uart.kicad_pro": {
+      "sha256": "e5b768239d2eb761331199dc0d3ef02ef9c2289797037a22e0de9d5ca595767d",
+      "unchanged": true
+    }
+  },
+  "tracked_changes": [
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro"
+  ],
+  "sch_dru_libraries_manufacturing_unchanged": true,
+  "changed_nets": [
+    "/XTAL_IN",
+    "/XTAL_OUT",
+    "GND",
+    "VPLL"
+  ],
+  "usb_tracks_vias_unchanged": true
 }

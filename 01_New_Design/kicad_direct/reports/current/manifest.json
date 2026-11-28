@@ -4,11 +4,11 @@
     "R-0041"
   ],
   "base_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
-  "source_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
+  "source_commit": "03d4e986eca6493fcb90e7899ed42c50b04d5116",
   "inputs": {
-    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "f1d0e06200759cb01dc000fbde9874e956e6603b384e694b5a88a909f3ad6588",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
-    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b",
+    "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "4f5b77e9a829659bfca6836554c78508218a86c64fcc53402ddafab6d0af4f15",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
     "01_New_Design/kicad_direct/libraries/A2.kicad_sym": "8be7338a48a24de43faf418f5fa12ccda99dbe07588f0ef65b1c6be11df1526e",
     "01_New_Design/kicad_direct/libraries/A2.pretty/C_0402_1005Metric.kicad_mod": "49b775eaad82a18ffc0d89fbbdf9a5e2a44afcc92620d8d97e6dbda5c738cdea",
@@ -45,21 +45,11 @@
     "01_New_Design/kicad_direct/models/TSM_104_01_T_SV_simplified.wrl": "bc3c22a7cf47ef20422a11da61eb1a18d34c230ac099de48db72102e95727850",
     "01_New_Design/kicad_direct/models/vendor/.gitignore": "e04c59cab54d5f36ff32b04deaecf14ed075643b15dd7b96a4cca1b35ae41f4e"
   },
-  "tools": {
-    "KiCad": "10.0.8",
-    "analysis": "main tools/design_review compare_pcb_state.py and render_pcb_comparison.py; read-only local measurements"
-  },
-  "commands": [
-    "compare_pcb_state.py --before <base PCB> --after <human PCB> --allow-move C13 --allow-move C14",
-    "kicad-cli pcb drc --format json --severity-all --schematic-parity (base and human copies)",
-    "kicad-cli sch erc --format json --severity-all (human copy)",
-    "render_pcb_comparison.py (base and human copies)"
-  ],
   "comparison": {
     "human_base_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
     "human_result_commit": "42e9cad8f9dbdfe3dde57defd0d242f3729af391",
     "ai_base_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
-    "ai_result_commit": null,
+    "ai_result_commit": "03d4e986eca6493fcb90e7899ed42c50b04d5116",
     "ai_status": "not_started",
     "human_inputs": {
       "a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
@@ -70,80 +60,133 @@
       "sym-lib-table": "22146f0ee477955b927778f890a14c0d61f926052582d3ecfb2414cdf3a2d03a"
     },
     "ai_inputs": {
-      "a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
-      "a2_usb_uart.kicad_pcb": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
-      "a2_usb_uart.kicad_pro": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b",
-      "a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
-      "fp-lib-table": "31cc66856f8ecf97e201aac31e409623bd78fe835c8845fd870b16fbe9fcca41",
-      "sym-lib-table": "22146f0ee477955b927778f890a14c0d61f926052582d3ecfb2414cdf3a2d03a"
+      "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "f1d0e06200759cb01dc000fbde9874e956e6603b384e694b5a88a909f3ad6588",
+      "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
+      "01_New_Design/kicad_direct/a2_usb_uart.kicad_pro": "4f5b77e9a829659bfca6836554c78508218a86c64fcc53402ddafab6d0af4f15",
+      "01_New_Design/kicad_direct/a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
+      "01_New_Design/kicad_direct/libraries/A2.kicad_sym": "8be7338a48a24de43faf418f5fa12ccda99dbe07588f0ef65b1c6be11df1526e",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/C_0402_1005Metric.kicad_mod": "49b775eaad82a18ffc0d89fbbdf9a5e2a44afcc92620d8d97e6dbda5c738cdea",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/C_0603_1608Metric.kicad_mod": "91c1fa715eaaa6f6177f913be9c270a07325971416cd5d50d1751dc62f5ccfb5",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/Crystal_SMD_3225-4Pin_3.2x2.5mm.kicad_mod": "c5612475d7770ad9f186864e2a52ba53b1d7c58e2de3907cdd7780872017dd13",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/LED_0603_1608Metric.kicad_mod": "71cb6c152fd6cf9cbfbb7fd33e77e38d05655a934d1938ec57d70b125897c44f",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/LQFP-48_7x7mm_P0.5mm.kicad_mod": "e4d425fd21814df13ac1a720564ee8c548da365fa96fb1c50aab278c9d512b67",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/L_0402_1005Metric.kicad_mod": "007ab8e02be317489299a6ac48aa2f04f623f103cb094c875e282d11e17be8a6",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/MSOP-8_3x3mm_P0.65mm.kicad_mod": "efe8a53ed9ed3fdc255e3150e8c4544e3f69df642dfe85030b0a8b39d14d4a5b",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left.kicad_mod": "7480194fed77cb511b8f8f970c9ce6185e10cf5da51636906487bf94e93358b5",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/R_0402_1005Metric.kicad_mod": "827394fe713fe2bad85a4dbde2c1c90ee6e2b3ee1ed39acc864dc68f3c17baf3",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/R_0603_Bourns_CRPF.kicad_mod": "043554dcdf04358dcac213f900e0fdf16b88c2fc3a0d1c17576b7653b1eb3410",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/SOT-23-5.kicad_mod": "15a9f30e2500e7a9d8f963e8a42d52b95bcb375dd56459463c5d55a3d8f92b5d",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/SOT-23.kicad_mod": "65a1dbaf6d9c749d7ef8d2da56b7f96d61643e712a25badbaacc2f7ee92cc19d",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/SOT-363_SC-70-6.kicad_mod": "3b1cfcd781041b87ebedf25a0e5febb6fc0d99c5bf06aa6e8b828663067716b5",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/SW_SP3T_PCM13.kicad_mod": "94b10f917ab7b6a4f782ae2f33ffadbf75f5df14cef21f77c9bed42623a23512",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/SW_SPDT_PCM12.kicad_mod": "9193d08032068d95eef140407034ca4a75fd2b830503789a1e9d3039774a8f49",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/TSM_104_SH_PROVISIONAL.kicad_mod": "35a072a96202569b1e65eb8430ba313ade2bb2a5605d30688e5e219e33299c4e",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/TSM_104_SV.kicad_mod": "c04f9a0d15380f7165e749b2cc0ac712baf975ce7ae1a30f6bcdbada313d8451",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod": "5cd9aab3901c2c3ab535ae00a64f3cdb026257fa74f12427e36f13a372de00d8",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "501dd0ac7ff91f9b1b6f7906a9ac2404c862f91dcfc9bbc9533f769f1a36b984",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/Texas_DRT-3.kicad_mod": "0174ba9ed71efc44d763fe292391fc39b198737d7f70ec1b68ead5ce70b8b3c6",
+      "01_New_Design/kicad_direct/libraries/A2.pretty/USB_A_Molex_48037-2200_Horizontal.kicad_mod": "ce85767f17ba8f604f28fc483198782650380b5be1467fe1bf06b89717d94b82",
+      "01_New_Design/kicad_direct/libraries/A2_PowerV3.kicad_sym": "b852939921d31abe1923254cd3c875e03b8318ed1805709d05f7957661155526",
+      "01_New_Design/kicad_direct/libraries/A2_Refine.kicad_sym": "f453f359fa6cde01cdac440f1ab956f3a4caecb8a0df6443459e74fe8b382645",
+      "01_New_Design/kicad_direct/libraries/LICENSE-KiCad.md": "b4345a3753b764727e9873b50ff563016966f09a8a62b96bbe220b0db5cfe680",
+      "01_New_Design/kicad_direct/libraries/NOTICE.md": "324b394555a503348cb1526f277d4e90515509312a41959444ef13c748a81dc5",
+      "01_New_Design/kicad_direct/models/DPY0002A_simplified.step": "f31aa77050272d5720550b9bc6827bc57acfffae70937cb308673172c9a9844f",
+      "01_New_Design/kicad_direct/models/DPY0002A_simplified.wrl": "c7a42280db6a0dd6d340ac5772e060ea5f82413367d49fbb174d0105722d3c6c",
+      "01_New_Design/kicad_direct/models/README.md": "125bfd070265b9921704be51f9a43b755ca5e016d014712fa48807f9062c0816",
+      "01_New_Design/kicad_direct/models/TSM_104_01_T_SH_simplified.step": "6517713196fa641c75c492c1d94098f89ecdeeb0a730fa0d7426e86d1f86bac7",
+      "01_New_Design/kicad_direct/models/TSM_104_01_T_SH_simplified.wrl": "0df3197a1430d11f9c1803690c003466506fa188f3c943ec49b1b4bd50aa0035",
+      "01_New_Design/kicad_direct/models/TSM_104_01_T_SV_simplified.step": "0d46e93aa0337cb9be399d869e78393e1e0785ee5332d83b2b472fb56b25224c",
+      "01_New_Design/kicad_direct/models/TSM_104_01_T_SV_simplified.wrl": "bc3c22a7cf47ef20422a11da61eb1a18d34c230ac099de48db72102e95727850",
+      "01_New_Design/kicad_direct/models/vendor/.gitignore": "e04c59cab54d5f36ff32b04deaecf14ed075643b15dd7b96a4cca1b35ae41f4e"
     }
   },
-  "artifacts": {
-    "README.md": {
+  "tools": {
+    "KiCad": "10.0.8",
+    "common_tools_main_commit": "1873404ea4d50b6c14b820a0dcbfa47e888ebb8c",
+    "python": "KiCad bundled Python; packaged Shapely/NetworkX/Pillow",
+    "method": "independent local PCB editing; no human CAD patch import"
+  },
+  "commands": [
+    "pcbnew: SetPosition/SetOrientationDegrees, scoped Remove/Add, zone minimum/spoke/cutout, ZONE_FILLER, SaveBoard",
+    "kicad-cli pcb drc --format json --schematic-parity --all-track-errors",
+    "kicad-cli sch erc --format json",
+    "kicad-cli sch export netlist --format kicadxml",
+    "tools/design_review/compare_pcb_state.py --allow-move C14",
+    "tools/design_review/analyze_copper_style.py",
+    "tools/design_review/render_pcb_comparison.py"
+  ],
+  "artifacts": [
+    {
+      "name": "comparison.png",
       "status": "generated",
-      "reason": "Human demonstration analysis only; AI CAD unchanged",
-      "sha256": "e9b82326bc5c3a48b4649ae12d7e7036d2f7b67229bed5f7c2e88334fbfe4ad3"
+      "sha256": "ea67c83b0c7d83910619dfdd9b6451c03f5a958bb440d662c8ba3bc7b823a647",
+      "reason": "R-0041 independent practice result"
     },
-    "comparison.png": {
+    {
+      "name": "connectivity.json",
       "status": "generated",
-      "reason": "Human demonstration analysis only; AI CAD unchanged",
-      "sha256": "285d9cf3159e722d040bfcca60942349afe13609e7e16881863db30c9bbd826d"
+      "sha256": "095739b4dd2284d9dd9586e188a000a181459c70c7b73d1b9d23332b2628c25e",
+      "reason": "R-0041 independent practice result"
     },
-    "connectivity.json": {
+    {
+      "name": "details.png",
       "status": "generated",
-      "reason": "Human demonstration analysis only; AI CAD unchanged",
-      "sha256": "1a11af218cdc874738cc15249a3f9752babbb87eb43aa4ec1d70af1c1d500d8b"
+      "sha256": "1794e106577d57d5da9c4948ea6d80c2fff4a8362a71e2a894ecbe41f17bc730",
+      "reason": "R-0041 independent practice result"
     },
-    "details.png": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "drc.json": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "erc.json": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "inspection.html": {
+    {
+      "name": "drc.json",
       "status": "generated",
-      "reason": "Human demonstration analysis only; AI CAD unchanged",
-      "sha256": "7bb531e126e7e50dd535bdcf1625898eeee6b095d698a1d3a55b5400cd8df52a"
+      "sha256": "3da59a8dd6966f19f5f13be0c03e75253ea0df9f4db547099aa2185627223fc7",
+      "reason": "R-0041 independent practice result"
     },
-    "metrics.json": {
+    {
+      "name": "erc.json",
       "status": "generated",
-      "reason": "Human demonstration analysis only; AI CAD unchanged",
-      "sha256": "7f9f9e5e6e8ba260709f493ad1eae95a691afff0cae6a6e9876424246dd27fe1"
+      "sha256": "c1cf91a625a63569a2c4b405f4ebac15a7a8dfb21997006a8e020e707652e549",
+      "reason": "R-0041 independent practice result"
     },
-    "model.png": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "netlist.xml": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "pcb_back.png": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "pcb_front.png": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
-    },
-    "preservation.json": {
+    {
+      "name": "inspection.html",
       "status": "generated",
-      "reason": "Human demonstration analysis only; AI CAD unchanged",
-      "sha256": "ef353c8035d216d346877a7f4cc73f054bc11f20edac29cfa878c39471bf6eb0"
+      "sha256": "d2ea2ad1c4447710828f0784f3377919ae5a6ff285279704b9f9a6be532b56ab",
+      "reason": "R-0041 independent practice result"
     },
-    "schematic.pdf": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    {
+      "name": "metrics.json",
+      "status": "generated",
+      "sha256": "33650516a81048abb2c39d311e8f0938fe30192ff46b97d1b63986e841ac0db3",
+      "reason": "R-0041 independent practice result"
     },
-    "schematic.png": {
-      "status": "not_applicable",
-      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    {
+      "name": "netlist.xml",
+      "status": "generated",
+      "sha256": "b9a3ab28d6ccdae1fe051d6fd14bf06e3b08c18c3aab06b4247e442aacc863cf",
+      "reason": "R-0041 independent practice result"
+    },
+    {
+      "name": "pcb_back.png",
+      "status": "generated",
+      "sha256": "d9b72e4eabbd2cf7b6961d876b1a2d625388cd1ca0ccd01411c8ccc3f5772dee",
+      "reason": "R-0041 independent practice result"
+    },
+    {
+      "name": "pcb_front.png",
+      "status": "generated",
+      "sha256": "0ae029b5248a084da9112e6d1c2547677ab0ea85cb7e9b140d7e53afc43a3911",
+      "reason": "R-0041 independent practice result"
+    },
+    {
+      "name": "preservation.json",
+      "status": "generated",
+      "sha256": "de797f0fe0cb551fa384c6707d38d1ea2c833d200bbb4afafdc71ab71877d717",
+      "reason": "R-0041 independent practice result"
+    },
+    {
+      "name": "README.md",
+      "status": "generated",
+      "sha256": "4d6f72dd6f563555297ef8fdfc5b3f9e0d813247e6a4c22db175757c1eaa1fa7",
+      "reason": "R-0041 independent practice result"
     }
-  }
+  ]
 }
