@@ -1,14 +1,10 @@
 {
   "schema_version": 1,
   "review_ids": [
-    "R-0036",
-    "R-0037",
-    "R-0038",
-    "R-0039",
-    "R-0040"
+    "R-0041"
   ],
-  "base_commit": "32eca597c52d60c4ae0d8cebb13e9e027b95d2f3",
-  "source_commit": "b16abc0023ffc0514cb936e0f7fcf6148b9ce9c1",
+  "base_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
+  "source_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
   "inputs": {
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_pcb": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
     "01_New_Design/kicad_direct/a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
@@ -50,121 +46,104 @@
     "01_New_Design/kicad_direct/models/vendor/.gitignore": "e04c59cab54d5f36ff32b04deaecf14ed075643b15dd7b96a4cca1b35ae41f4e"
   },
   "tools": {
-    "kicad": "10.0.8",
-    "python": "KiCad bundled Python; general Python 3.11",
-    "common_tools_commit": "fdd7f1ba718fd33086ffdc1f373d72f4e89a8874",
-    "common_tools_sha256": {
-      "analyze_copper_style.py": "5d482c5b7885577027aff168d7d33cf4c69acd0a6225783e27bcb93fa83aa9e3",
-      "audit_route_geometry.py": "b986649bfc36de3e49eff39507b8b126b160a71541f9d10686d620d27d8409cc",
-      "check_layout.py": "76f5f956f5741e69f70387d48a1b3056257929b53bc595c8b2c8d1b25f1605e3",
-      "classify_copper_candidates.py": "304f622fe66b462dbdaf24b8d5128cabf20e2b231645e109b3a5ed158f3d39a9",
-      "compare_pcb_state.py": "9c3015a1e1d988d936f8d513f936ce0a63aae88514646b3e5e91244e483a68a6",
-      "render_pcb_comparison.py": "d2a83594478af096c7c204f714e0b7b30ff35ff6bdf3ab1cb13ba5ab0c7312a4",
-      "render_review_pdf.py": "ba57cde36777b8189d1868b12304ab11da3551633196c1fd21a6576de0ddb9e0"
-    }
+    "KiCad": "10.0.8",
+    "analysis": "main tools/design_review compare_pcb_state.py and render_pcb_comparison.py; read-only local measurements"
   },
   "commands": [
-    "kicad-cli pcb drc --format json --severity-all --schematic-parity",
-    "kicad-cli sch erc --format json --severity-all",
-    "kicad-cli sch export netlist --format kicadxml",
-    "analyze_copper_style.py --board <candidate> --out <temp> --packages <temp packages>",
-    "audit_route_geometry.py <candidate> <temp> 32eca597c52d60c4ae0d8cebb13e9e027b95d2f3",
-    "compare_pcb_state.py --before <baseline> --after <candidate> --allow-move R11 --allow-move C18 --allow-move R14 --allow-move R15",
-    "classify_copper_candidates.py --board <candidate> --metrics <current metrics> --assessments <matching decisions>",
-    "kicad-cli pcb export pdf --layers F.Cu,F.Silkscreen,Edge.Cuts --mode-single",
-    "kicad-cli pcb export pdf --layers B.Cu,Edge.Cuts --mode-single",
-    "render_review_pdf.py; render_pcb_comparison.py"
+    "compare_pcb_state.py --before <base PCB> --after <human PCB> --allow-move C13 --allow-move C14",
+    "kicad-cli pcb drc --format json --severity-all --schematic-parity (base and human copies)",
+    "kicad-cli sch erc --format json --severity-all (human copy)",
+    "render_pcb_comparison.py (base and human copies)"
   ],
-  "artifacts": [
-    {
-      "name": "comparison.png",
-      "status": "generated",
-      "sha256": "1292b3565d01a50fc0713b9a5b3a1fb818af3a286ed04a66a235905dc223b7be",
-      "reason": "Current candidate output"
+  "comparison": {
+    "human_base_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
+    "human_result_commit": "42e9cad8f9dbdfe3dde57defd0d242f3729af391",
+    "ai_base_commit": "3c53ed3ceecdad2ddc6d701d4913993f0e477bf3",
+    "ai_result_commit": null,
+    "ai_status": "not_started",
+    "human_inputs": {
+      "a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
+      "a2_usb_uart.kicad_pcb": "b4b01757ad7978b3659007b7ba59cb39664fbbd1b82f8725f68fe5702fee5cdb",
+      "a2_usb_uart.kicad_pro": "4f5b77e9a829659bfca6836554c78508218a86c64fcc53402ddafab6d0af4f15",
+      "a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
+      "fp-lib-table": "31cc66856f8ecf97e201aac31e409623bd78fe835c8845fd870b16fbe9fcca41",
+      "sym-lib-table": "22146f0ee477955b927778f890a14c0d61f926052582d3ecfb2414cdf3a2d03a"
     },
-    {
-      "name": "connectivity.json",
-      "status": "generated",
-      "sha256": "5fd22d933eda941d4bff94e60ebbf568b54d25a3d627aeca9ca9074c68b48c98",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "details.png",
-      "status": "generated",
-      "sha256": "81e981287897a05a5a934d53e12017e2a3f2542db7b881f2fcfd6dd4921d6dc2",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "drc.json",
-      "status": "generated",
-      "sha256": "755e4089d75bf61f0b335fe97fe4ff55b0086306670ae18fb91fe4951e8e685b",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "erc.json",
-      "status": "generated",
-      "sha256": "69f2bffe2907ad133e33ba1f5da2d92eb77b21ebe7cd7e620b5fa0e6af63c0ac",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "inspection.html",
-      "status": "generated",
-      "sha256": "2ddffa226a087816fd0f604e659a8f8db52c25ea3eaef199e001c347da43e464",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "metrics.json",
-      "status": "generated",
-      "sha256": "c584cabb2ad142bb7456f736d5cbea43ed258c6d1afd4ab8ccb52de1d4e570ee",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "netlist.xml",
-      "status": "generated",
-      "sha256": "39b3a26b783e1d84ca619a9dcc0c6942d1d52e5ac2d63dc016cedd722db15fc5",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "pcb_back.png",
-      "status": "generated",
-      "sha256": "b064420587de7ae729c07bc64269d0cefb1fccfb4fc731555ef5bcfd75e21eee",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "pcb_front.png",
-      "status": "generated",
-      "sha256": "738e8a1bba89706abba6e0a830c44bf9615d668108163abb818505c7b87880a5",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "preservation.json",
-      "status": "generated",
-      "sha256": "796425c78e0d24ff75e9aa1317ed585603ad69b2e72044a24530f33fa8c43b7f",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "README.md",
-      "status": "generated",
-      "sha256": "670a73072e911cbca5bc88f84214890cb62c35d3b1d622bd6cb94d21683d190c",
-      "reason": "Current candidate output"
-    },
-    {
-      "name": "schematic.pdf",
-      "status": "not_applicable",
-      "reason": "No schematic/model modification"
-    },
-    {
-      "name": "schematic.png",
-      "status": "not_applicable",
-      "reason": "No schematic/model modification"
-    },
-    {
-      "name": "model.png",
-      "status": "not_applicable",
-      "reason": "No schematic/model modification"
+    "ai_inputs": {
+      "a2_usb_uart.kicad_dru": "4bfe052232041d63fa899c3c62286607fbfdb56778ec725392eda6d0e7807273",
+      "a2_usb_uart.kicad_pcb": "55fc4d9dd94ddc154f3f20c0edf63cf54771441d8827c7132375d4647593a33a",
+      "a2_usb_uart.kicad_pro": "71ffe711f5c3397bf17d0d0c694fadf311c22df6215a3304faef84283757fc6b",
+      "a2_usb_uart.kicad_sch": "12d6b62d001915c567bb0586fa15e08d6dbef49053db931e0004526abc27ec95",
+      "fp-lib-table": "31cc66856f8ecf97e201aac31e409623bd78fe835c8845fd870b16fbe9fcca41",
+      "sym-lib-table": "22146f0ee477955b927778f890a14c0d61f926052582d3ecfb2414cdf3a2d03a"
     }
-  ],
-  "publication_time": "2026-11-27T00:22:09.043976+09:00",
-  "elapsed_minutes": 54.32728691666667,
-  "status": "partial repair candidate; unresolved issues remain; no human OK"
+  },
+  "artifacts": {
+    "README.md": {
+      "status": "generated",
+      "reason": "Human demonstration analysis only; AI CAD unchanged",
+      "sha256": "e9b82326bc5c3a48b4649ae12d7e7036d2f7b67229bed5f7c2e88334fbfe4ad3"
+    },
+    "comparison.png": {
+      "status": "generated",
+      "reason": "Human demonstration analysis only; AI CAD unchanged",
+      "sha256": "285d9cf3159e722d040bfcca60942349afe13609e7e16881863db30c9bbd826d"
+    },
+    "connectivity.json": {
+      "status": "generated",
+      "reason": "Human demonstration analysis only; AI CAD unchanged",
+      "sha256": "1a11af218cdc874738cc15249a3f9752babbb87eb43aa4ec1d70af1c1d500d8b"
+    },
+    "details.png": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "drc.json": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "erc.json": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "inspection.html": {
+      "status": "generated",
+      "reason": "Human demonstration analysis only; AI CAD unchanged",
+      "sha256": "7bb531e126e7e50dd535bdcf1625898eeee6b095d698a1d3a55b5400cd8df52a"
+    },
+    "metrics.json": {
+      "status": "generated",
+      "reason": "Human demonstration analysis only; AI CAD unchanged",
+      "sha256": "7f9f9e5e6e8ba260709f493ad1eae95a691afff0cae6a6e9876424246dd27fe1"
+    },
+    "model.png": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "netlist.xml": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "pcb_back.png": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "pcb_front.png": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "preservation.json": {
+      "status": "generated",
+      "reason": "Human demonstration analysis only; AI CAD unchanged",
+      "sha256": "ef353c8035d216d346877a7f4cc73f054bc11f20edac29cfa878c39471bf6eb0"
+    },
+    "schematic.pdf": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    },
+    "schematic.png": {
+      "status": "not_applicable",
+      "reason": "Not generated for this analysis; human raw checks are embedded in metrics.json"
+    }
+  }
 }
