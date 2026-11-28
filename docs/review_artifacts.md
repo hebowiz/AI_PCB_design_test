@@ -64,3 +64,11 @@
 新規ID・既存IDの再開とも、詳細と一括記録は`docs/reviews/history.md`の節へ追記する。節IDは`r0036-investigation-01`等の固定アンカーとし、再判定・再修正では節を追加する。ID別ファイル、日付別バッチ、`evidence/<レビュー名>/`は新設しない。旧詳細・バッチは読取参照として残す。
 
 将来の`pcb-design`スキルは本規約を参照し、入力CAD・基準SHA・一時出力先・最終出力先を明示引数で扱う。共通ツールの責務は解析と出力であり、ユーザーの最終判定やWorkspace昇格を自動化しない。今回、既存の配線検査を承認済みの設計スキルへ昇格させたわけではない。
+
+## 人間実演とAI実践の比較
+
+両者の比較も既存の固定ファイルへ集約する。比較成果物はAI側設計ブランチの`reports/current/`へ保存し、人間側のCAD・成果物は編集しない。人間側を読む検査はGit管理外のコピーで実施する。
+
+`manifest.json`の`base_commit`は共通の修正前、`source_commit`はAI側の設計コミットとする。追加の`comparison`オブジェクトへ`human_base_commit`、`human_result_commit`、`ai_base_commit`、`ai_result_commit`と各側の入力ハッシュを記す。人間側の検証結果は`metrics.json`とREADMEへ条件・結果を集約し、原出力が必要なら同JSON内に区別して格納する。既存の`erc.json`・`drc.json`はAI側の原出力として扱う。
+
+`comparison.png`と`inspection.html`は修正前・人間側・AI側の版と対象箇所を明示する。差分はGitから取得し、事例ごとのコピーや画像フォルダを増やさない。個別の発言・解釈・方針承認・二つの判定はmainの固定履歴へ残す。準備だけの今回は比較画像や検証成果物を生成しない。

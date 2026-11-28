@@ -48,8 +48,8 @@ Write-Output $project
 <ローカルリポジトリ>/workspaces/A-2/
   01_New_Design/kicad_direct/
     a2_usb_uart.kicad_pro   ← KiCadプロジェクトマネージャから開く
-    a2_usb_uart.kicad_sch   ← 回路図：R-0016まで反映
-    a2_usb_uart.kicad_pcb   ← PCB：現状では旧設計。回路図と未同期
+    a2_usb_uart.kicad_sch   ← 回路図：現在の対象SHAで確認
+    a2_usb_uart.kicad_pcb   ← PCB：同期状態は対象版の検証証跡で確認
 ```
 
 現在の固定Worktreeの正確な状態：
@@ -79,3 +79,18 @@ git -C (Join-Path $repo 'workspaces/A-2') rev-parse HEAD
 ## 固定成果物の確認
 
 新方式の設計版では`01_New_Design/kicad_direct/reports/current/manifest.json`の入力ハッシュをCADと照合する。ファイルの存在だけで最新・検証済みと判断しない。過去結果はGitの固定SHAから一時領域へ取り出し、固定Workspace内にレビュー別コピーを作らない。旧方式の版を更新する際は旧成果物をそのまま保護し、この手順を理由に再生成しない。共通規約は[固定保存方式](../../../../docs/review_artifacts.md)を参照。
+
+## 人間実演・AI実践の初期作成
+
+`docs/design_workspaces.md`で共通基準SHAを確認し、上記の存在確認・新規ブランチ作成手順を次の2組に適用する。両方の作成先とブランチを先に確認し、既存であれば作成を停止して内容を調べる。
+
+| 作成先 | 新規ローカルブランチ |
+| --- | --- |
+| `workspaces/A-2-human` | `workspace/a2-human` |
+| `workspaces/A-2-ai` | `workspace/a2-ai` |
+
+`git worktree add -b <branch> <dest> <完全な共通基準SHA>`で作成し、両方のHEADとCADのGit blobを照合する。Git管理外のUSBモデルは、既存の出典・ハッシュを確認して新しい環境へ配置する。既存ファイルがあれば上書きせず照合する。公開Gitには追加しない。
+
+manifestの入力ハッシュも確認する。チェックアウトの改行変換による差だけなら、新規環境に限り検証済みの入力とバイト列を揃えてよい。Gitの作業差分・ステージ差分がなく、設計内容が基準から変わっていないことを確認する。
+
+次事例への切替前には、人間が編集・保存を終えたことと未コミット変更がないことを確認する。共通基準が変わる場合は旧ブランチを残し、新しい事例ブランチへ通常の`git switch -c`で切り替える。進行中の人間用Worktreeへ自動merge、reset、stash、checkoutを実行しない。

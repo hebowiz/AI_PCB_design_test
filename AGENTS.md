@@ -63,3 +63,7 @@
 ## レビュー成果物の固定保存
 
 A-2の新規レビューは[固定保存方式](docs/review_artifacts.md)を適用する。最終成果物は設計ブランチの`01_New_Design/kicad_direct/reports/current/`へ固定名で更新し、試行出力はGit管理外へ置く。レビュー名・日付別のreportsフォルダを新設しない。共通台帳は維持し、詳細・一括記録はmainの`docs/reviews/history.md`へ追記する。再利用する処理は`tools/design_review/`へ機能別に置く。過去証拠は固定コミットで参照し、現行CADと検証入力の一致を確認する。旧成果物の整理は[別計画](docs/review_artifacts_migration.md)とし、無断削除・設計再生成・mainへの設計マージをしない。将来の`pcb-design`も同じ規約を参照する。
+
+## PCB設計ノウハウの伝承
+
+人間のCAD修正実演、配置・配線の判断の分析、承認された手法の独立実践には`.agents/skills/pcb-design/SKILL.md`を自動適用する。運用は`docs/reviews/README.md`、環境は`docs/design_workspaces.md`を正本とする。人間の発言・CADの事実・AIの解釈を区別し、解釈と実践方針の承認後に修正する。基板修正のOKとノウハウのOKを分け、未検証の手法は暫定とする。設計Worktree内の古いスキルだけで判断しない。

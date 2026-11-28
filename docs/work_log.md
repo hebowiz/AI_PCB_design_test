@@ -901,3 +901,17 @@ R-0036〜R-0040の承認済み再配線に伴い、比較ツールへ`--allow-mo
 実行は`kicad-cli pcb drc --format json --severity-all --schematic-parity`、`sch erc`、`sch export netlist --format kicadxml`、表裏`pcb export pdf`、共通の`analyze_copper_style.py`、`audit_route_geometry.py`、`compare_pcb_state.py --allow-move`、`classify_copper_candidates.py`、描画・固定保存チェッカー。ERC/DRC/未配線/等価性0。回路図・設定・ライブラリ等38入力の変更はPCBだけ。基準ネットリストの再出力時のSheetname/Sheetfileの差は出力ファイル名由来として分離し、実部品属性と端子接続を照合した。KiCad Save時の一時プロジェクト設定を原設定へ戻して各候補を再検証し、原設定の上書きを防いだ。
 
 設計SHA `b16abc0023ffc0514cb936e0f7fcf6148b9ce9c1`、成果物SHA `3c53ed3ceecdad2ddc6d701d4913993f0e477bf3`。R-0036〜R-0040は要修正345件・未承認例外110件を残すため対応中。台帳40件/15列、既存35件の判定・日時・指摘内容を保全。mainの変更は記録と共通検証ツールのみ。設計ブランチ・固定Workspaceへのマージや製造データ更新は行っていない。
+
+## 2026-11-28 23:23 JST — 人間実演・AI実践環境の準備
+
+目的：未OK項目の保留と、同一基準から独立した実演・実践環境を準備する。開始時mainは`9f8f61e3a6fa957b8bf340a52eb46efd20684316`。Windows／PowerShell 7.6、Python 3.12.14で実施した。
+
+操作：`git fetch origin`、`git status --short`、`git worktree list`、関連スキル・規約の確認後、`git worktree add -b workspace/a2-human workspaces/A-2-human 3c53ed3ceecdad2ddc6d701d4913993f0e477bf3`とAI側の同等コマンドを実行した。指定された固定パスへ新規作成し、既存Worktreeは移動していない。ローカル専用USBモデル2点を新環境だけへコピーした。新規チェックアウトのフットプリント2ファイルには改行差があったため、検証済み入力とバイト列を揃え、Git内容に差がないことを確認した。初回の検証は状態確認で停止し、再試行では配置済みモデルをハッシュ照合して保護した。
+
+変更：共通台帳・固定履歴・レビュー規則と既存テンプレート、Workspace規則・Windows手順、成果物規約、AGENTS、関連2スキルを更新。`pcb-design/SKILL.md`を追加し、議論・判断を記録した。日本語文書はyomiyasuで最終確認した。手順の列挙と「正本」は意味が明確なため維持し、新スキルの過剰な太字を除いた。
+
+結果：両環境のHEADとmanifest入力38ファイルが一致。USBモデルの元データSHA256は`de4a28f56bc7ed421bf3c6f29631ce54d968eadc6197c90f4f4ba78cc6629998`、配置済み変換版は`5f607a79f8238c47609cd3ed59a324cbe94ec7a536b95c43786abbd0916cea9a`。mainの既存プロジェクト設定とレビュー用の`.history/`は保護対象とした。個別事例・CAD修正・新規電気検証は未実施。[準備結果と保留判定](reviews/history.md#human-teaching-start)。
+
+検証：全40件・15列を維持し、OK32行は変更前と完全一致。未OK8件だけを保留へ変更し、指摘内容・日時・修正先・既存証跡を保持した。固定履歴の既存本文も保持。main 110ファイル、レビュー用1552ファイル、候補1723ファイルの設計領域を前後ハッシュで照合し、既存ブランチのHEADも不変だった。KiCad 10.0の読込では両新環境とも58部品、配線・ビア706個、6ゾーン、板厚1.6mm。読込のみで保存していない。相対リンク・スキルの必須欄・Git差分を確認した。`quick_validate.py`はPyYAML未導入で実行できなかったため、frontmatterと名称・説明・未完成欄・役割分担を別途確認した。
+
+最終照合時、従来のレビュー用A-2でプロジェクト設定・ローカル表示設定の変更とロックファイルの消失を検出した。初回照合後の変更で、本作業からは書き込んでいない。設定差分には最小ビア径0.6→0.5mm、最小穴径0.3→0.25mm等が含まれるため、新環境へ取り込まずそのまま保護した。プロジェクト設定の検出後SHA256は`351fecb5abe6bb738ef2cf540ca29253a38d6b36657e1ce8d271c9380cb8d3fa`。回路図・PCB・その他の既存設計ファイルは初回の保全ハッシュと一致し、mainの設定変更も不変。最終検証はこの並行変更を区別して実施した。
