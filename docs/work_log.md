@@ -925,3 +925,15 @@ R-0036〜R-0040の承認済み再配線に伴い、比較ツールへ`--allow-mo
 結果：人間実演SHA `42e9cad8f9dbdfe3dde57defd0d242f3729af391`をworkspace/a2-humanへpush。分析成果物SHA `f9a365e5f2c4fb5a1c40382611689e11c9f9f768`をworkspace/a2-aiへpushし、AI側の設計入力38ファイルは基準と一致。旧固定成果物はGitで保持し、今回未生成のファイルを固定セットから外した。ユーザー画像2枚をinspection.htmlに埋め込み、比較図と検査原出力を既定の7ファイルへ集約した。人間側`.history/`、従来のレビューWorkspace、mainの未コミットプロジェクト設定、製造データは変更していない。
 
 検証：電気属性・外形・既存ルール領域を維持。ERC/回路図不一致0、DRC4、未配線2。台帳は41件・15列、既存40件の行を保持。保存規約チェッカーとGit差分確認を実施し、READMEの末尾空行だけを修正した。日本語はyomiyasuで確認し、手順の箇条書きは維持。AI実践・手法承認・最終判定は未実施。[技術履歴](reviews/history.md#r0041-human-demonstration)。
+
+## 2026-11-29 00:38 JST — R-0041のAI独立実践と比較候補の発行
+
+目的：承認された水晶周辺の設計手法を、AI側の共通基準CADから独立実装する。mainのpcb-design、design-review-records、design-workspace-managementを適用し、記録文はyomiyasuに従って推敲した。
+
+実施：KiCad 10.0.8付属Pythonで一時複製へC14移動・回転、対象配線・GNDビア・表面ゾーンを局所変更。最初のAPI異常終了後、SWIG参照を保持して再実行。配線・ビアの幾何学的干渉、全体のGND分離、局所切込みを9候補のDRCと画像で見直した。`kicad-cli pcb drc --format json --schematic-parity --all-track-errors`、`sch erc --format json`、`sch export netlist --format kicadxml`を実行。mainの`compare_pcb_state.py --allow-move C14`、`analyze_copper_style.py`、`render_pcb_comparison.py`と読取測定で比較した。
+
+変更：AI側のPCB・proを設計コミット`03d4e986eca6493fcb90e7899ed42c50b04d5116`、固定13ファイルを成果物コミット`5516d0db5df7ad627c789a8b54e471d61bc49891`へ保存。mainはreview_register、history、work_log、discussion_log、decision_logのみ。人間側CAD・従来Workspace・mainの未コミットpro、回路図・ライブラリ・製造データを保護した。試行コード・画像はOS一時領域。
+
+結果：ERC・DRC・未配線・回路図不一致0。部品58・端子218、22×50mm・1.6mm・2層、USB配線、既存ルールを維持。C13/C14中心間距離各1.815mm、中心線経路各1.949mm。表裏と局所の複数画像を確認。ID41件・15列とR-0001〜R-0040の行を保持し、R-0041を確認待ちへ更新した。
+
+未解決：全基板のGND形状候補、基板とノウハウの人間判定、寄生容量・発振・EMC実測。包括項目の保留は維持。再現以外の応用・予防・汎用化は未検証。[検証証跡](https://github.com/hebowiz/AI_PCB_design_test/blob/5516d0db5df7ad627c789a8b54e471d61bc49891/01_New_Design/kicad_direct/reports/current/README.md)・[技術履歴](reviews/history.md#r0041-ai-practice)。試行開始00:14、候補資料の記録00:38。
